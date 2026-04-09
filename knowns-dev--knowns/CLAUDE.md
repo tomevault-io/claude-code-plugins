@@ -1,6 +1,6 @@
 # knowns
 
-> Compatibility entrypoint for runtimes that auto-detect `.github/copilot-instructions.md`.
+> Compatibility entrypoint for runtimes that auto-detect `GEMINI.md`.
 
 ## Usage
 
@@ -12,11 +12,13 @@ Read and follow the instructions in .claude/skills/knowns/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# knowns-go - GitHub Copilot Instructions
+# GEMINI
 
-Compatibility entrypoint for runtimes that auto-detect `.github/copilot-instructions.md`.
+Compatibility entrypoint for runtimes that auto-detect `GEMINI.md`.
 
 <!-- KNOWNS GUIDELINES START -->
+
+@KNOWNS.md
 
 **CRITICAL: You MUST read and follow `KNOWNS.md` in the repository root before doing any work. It is the canonical source of truth for all agent behavior in this project.**
 
@@ -52,4 +54,4 @@ knowns guidelines --plain             # Full workflow reference
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/knowns-dev)
 > This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/knowns-dev)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
