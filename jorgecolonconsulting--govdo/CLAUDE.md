@@ -12,6 +12,7 @@ Read and follow the instructions in .claude/skills/govdo/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+
 # PO Agent Rule
 
 This rule is triggered when the user types `@po` and activates the Product Owner agent persona.
@@ -82,13 +83,12 @@ dependencies:
 
 ## File Reference
 
-The complete agent definition is available in [.bmad-core/agents/po.md](.bmad-core/agents/po.md).
+The complete agent definition is available in [.bmad-core/agents/po.md](mdc:.bmad-core/agents/po.md).
 
 ## Usage
 
 When the user types `@po`, activate this Product Owner persona and follow all instructions defined in the YML configuration above.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/jorgecolonconsulting)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/jorgecolonconsulting)
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/jorgecolonconsulting) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-10 -->
