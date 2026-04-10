@@ -13,6 +13,7 @@ Original source: `GEMINI.md` in [Limbicnation/prompt-gen](https://github.com/Lim
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Limbicnation](https://tomevault.io/claim/Limbicnation)
 
