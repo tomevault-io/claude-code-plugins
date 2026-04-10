@@ -13,6 +13,7 @@ Original source: `GEMINI.md` in [Chi-G/UPWEARLANE](https://github.com/Chi-G/UPWE
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Windsurf** — `project-config.md`
 
 Browse all formats: [https://tomevault.io/claim/Chi-G](https://tomevault.io/claim/Chi-G)
 
