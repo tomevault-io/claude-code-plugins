@@ -113,4 +113,4 @@ Consult these files for detailed information:
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/adrioui)
 > This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/adrioui)
-<!-- tomevault:4.0:claude_md:2026-04-07 -->
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
