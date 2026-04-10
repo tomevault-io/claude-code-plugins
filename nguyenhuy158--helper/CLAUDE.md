@@ -1,6 +1,6 @@
 # helper
 
-> không được có bất kỳ lỗi linter nào
+> luôn có help doc cho các option
 
 ## Usage
 
@@ -13,10 +13,8 @@ Read and follow the instructions in .claude/skills/helper/SKILL.md
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-không được có bất kỳ lỗi linter nào
-fix hết các pylint
+luôn có help doc cho các option
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/nguyenhuy158)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/nguyenhuy158)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/nguyenhuy158) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-10 -->
