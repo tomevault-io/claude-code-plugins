@@ -1,6 +1,6 @@
 # smith
 
-> Always read the `AGENTS.md` file in the root directory. It provides context for you on all the libraies we have in our dependency graph.
+> Before starting always read `docs/index.md` to get an overview of what your role is and how we code.
 
 ## Usage
 
@@ -13,11 +13,12 @@ Read and follow the instructions in .claude/skills/smith/SKILL.md
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Always read the `AGENTS.md` file in the root directory. It provides context for you on all the libraies we have in our dependency graph.
+Before starting always read `docs/index.md` to get an overview of what your role is and how we code.
 
-You can update that file after installing new dependencies with `mix usage_rules.sync`.
+Next, read `docs/background.md` to get an idea of the overall problem we solve in this project.
+
+Always ask questions when you value additional input from your human co-founder.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/norbu09)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/norbu09)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/norbu09) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
