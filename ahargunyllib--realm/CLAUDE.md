@@ -294,6 +294,5 @@ Ultracite enforces strict type safety, accessibility standards, and consistent c
 ```
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/ahargunyllib)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/ahargunyllib)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/ahargunyllib) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
