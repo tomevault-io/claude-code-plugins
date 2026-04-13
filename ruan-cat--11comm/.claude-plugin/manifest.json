@@ -1,10 +1,17 @@
 {
   "name": "ruan-cat--11comm",
   "displayName": "11comm",
-  "description": "11comm",
+  "description": "AI instruction files for 11comm by ruan-cat",
   "version": "1.0.0",
   "author": "ruan-cat",
   "homepage": "https://tomevault.io/claim/ruan-cat",
-  "type": "config",
-  "skills": []
+  "type": "tome",
+  "skills": [
+    "code-style",
+    "fix-type-error",
+    "neon-postgres",
+    "neon-postgres-zh",
+    "openspec-apply-change",
+    "type-project-organization"
+  ]
 }
