@@ -1,0 +1,21 @@
+# rummage
+
+> Magic the Gathering Rules
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/rummage/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+[MagicCompRules 20250207.txt](mdc:docs/mtg_rules/MagicCompRules 20250207.txt) Refer to this as the source of truth for all Magic the
+Gathering rules and edge cases that need to be handled robustly in the game engine. 
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/tyler274)
+> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/tyler274)
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
