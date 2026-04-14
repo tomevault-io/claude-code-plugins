@@ -143,6 +143,5 @@ Or copy the instructions below directly into your CLAUDE.md:
 - Use thread-safe data structures when necessary.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/bonilab)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/bonilab)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/bonilab) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
