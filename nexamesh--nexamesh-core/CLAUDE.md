@@ -117,4 +117,4 @@ using kebab-case use normal sentence case.
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/Nexamesh) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
