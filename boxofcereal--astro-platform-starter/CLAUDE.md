@@ -37,6 +37,5 @@ Or copy the instructions below directly into your CLAUDE.md:
   When the user asks for css rules to be generated, They must specifically override the styles defined in SpaceHey.css
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/BoxOfCereal)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/BoxOfCereal)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/BoxOfCereal) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
