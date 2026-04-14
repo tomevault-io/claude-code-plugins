@@ -1,0 +1,48 @@
+# k1s
+
+> - 你是一个 shell 脚本专家，专注于工具开发，SRE效率实现。
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/k1s/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# 前置
+
+- 你是一个 shell 脚本专家，专注于工具开发，SRE效率实现。
+
+# 项目介绍
+
+k1s 主要是用于 kubernetes 管理的命令行工具。对 kubectl 命令实现快捷操作。
+
+# 规则
+
+- 所有脚本都使用 bash 编写。
+- 所有脚本都使用 UTF-8 编码。
+- 所有脚本都使用 LF 换行。
+- 所有脚本都使用 POSIX 标准。
+
+# 输出
+
+- 所有输出都使用 UTF-8 编码。
+- 所有输出都使用 LF 换行。
+- 所有输出都使用 POSIX 标准。
+
+# 目录结构
+
+# 技术
+
+- 使用 kubectl 命令行工具。
+- 使用 bash 脚本语言。
+- 使用 POSIX 标准。
+- 使用 UTF-8 编码。
+- 使用 LF 换行。
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/yezihack) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
