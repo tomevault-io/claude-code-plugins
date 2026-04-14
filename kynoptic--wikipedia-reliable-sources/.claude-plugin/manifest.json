@@ -1,10 +1,12 @@
 {
   "name": "kynoptic--wikipedia-reliable-sources",
   "displayName": "wikipedia-reliable-sources",
-  "description": "wikipedia-reliable-sources",
+  "description": "AI instruction files for wikipedia-reliable-sources by kynoptic",
   "version": "1.0.0",
   "author": "kynoptic",
   "homepage": "https://tomevault.io/claim/kynoptic",
-  "type": "config",
-  "skills": []
+  "type": "tome",
+  "skills": [
+    "tests-audit-quality"
+  ]
 }
