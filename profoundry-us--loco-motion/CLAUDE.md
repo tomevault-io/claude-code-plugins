@@ -30,4 +30,4 @@ When asked to being work on a new GitHub issue, MUST follow these steps.
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/profoundry-us) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-10 -->
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
