@@ -53,4 +53,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/jesse-spevack) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
