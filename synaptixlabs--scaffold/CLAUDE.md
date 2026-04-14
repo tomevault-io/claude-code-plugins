@@ -132,4 +132,4 @@ Use GOOD / BAD / UGLY + a clear recommendation.
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/SynaptixLabs) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
