@@ -1,10 +1,30 @@
 {
   "name": "vallafederico--solid-ai-rules",
   "displayName": "solid-ai-rules",
-  "description": "solid-ai-rules",
+  "description": "AI instruction files for solid-ai-rules by vallafederico",
   "version": "1.0.0",
   "author": "vallafederico",
   "homepage": "https://tomevault.io/claim/vallafederico",
-  "type": "config",
-  "skills": []
+  "type": "tome",
+  "skills": [
+    "solid-core-jsx-attributes",
+    "solid-core-primitives",
+    "solid-core-rendering",
+    "solid-core-rendering-ssr",
+    "solid-core-utilities",
+    "solid-deployment",
+    "solid-router-data-apis",
+    "solid-router-queries",
+    "solid-styling",
+    "solid-terminology",
+    "solid-testing",
+    "solidstart-api-routes",
+    "solidstart-client-only",
+    "solidstart-config",
+    "solidstart-data-mutation",
+    "solidstart-entrypoints",
+    "solidstart-optimistic-ui",
+    "solidstart-static-assets",
+    "solidstart-websocket"
+  ]
 }
