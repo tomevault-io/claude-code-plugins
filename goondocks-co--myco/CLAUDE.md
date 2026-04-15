@@ -1,0 +1,28 @@
+# myco
+
+> > **Source of truth:** Read and follow [`AGENTS.md`](AGENTS.md) — it is the authoritative specification for this project's architecture, conventions, golden paths, and quality gates.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/myco/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Instructions
+
+> **Source of truth:** Read and follow [`AGENTS.md`](AGENTS.md) — it is the authoritative specification for this project's architecture, conventions, golden paths, and quality gates.
+>
+> If anything in this file conflicts with `AGENTS.md`, **`AGENTS.md` wins**.
+
+<!-- This file exists so Gemini CLI discovers project instructions. -->
+<!-- All rules are maintained in AGENTS.md to avoid cross-agent duplication. -->
+<!-- Edit AGENTS.md, not this file, when adding or changing project rules. -->
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/goondocks-co)
+> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/goondocks-co)
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
