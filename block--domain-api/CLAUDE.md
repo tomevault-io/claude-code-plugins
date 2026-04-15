@@ -1,0 +1,68 @@
+# domain-api
+
+> insert_final_newline = true
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/domain-api/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Enforce newline at end of file
+[*.{kt,kts}]
+insert_final_newline = true
+
+# Kotlin specific rules
+[*.kt]
+# No wildcard imports
+no_wildcard_imports = true
+
+# Package naming
+package_naming_convention = xyz.block.domainapi.**
+
+# Test file patterns
+[src/test/kotlin/**.kt]
+# Ensure JUnit 5 usage
+deny_pattern = "import org.junit.Test"
+require_pattern = "import org.junit.jupiter.api.Test"
+
+# Ensure Kotest usage for assertions
+deny_pattern = "import org.junit.jupiter.api.Assertions"
+require_pattern = "import io.kotest.matchers"
+
+# Bitty-lib specific rules
+[bitty-lib/**.kt]
+language = kotlin
+
+# General patterns to enforce
+[*.kt]
+# Prevent usage of Either
+deny_pattern = "import arrow.core.Either"
+
+# Prevent usage of Option
+deny_pattern = "import arrow.core.Option"
+
+# Prevent usage of IO
+deny_pattern = "import arrow.core.IO"
+
+# Enforce Result usage
+suggest_pattern = "import kotlin.Result"
+
+# Prevent JUnit 4 usage anywhere
+deny_pattern = "import org.junit.(?!jupiter)"
+
+# Magic number detection (suggest converting to named constants)
+warn_pattern = "\\b\\d+\\b(?!\\s*[\\.:])(?!.*=\\s*\\d+)"
+message = "Consider defining magic numbers as named constants"
+
+# Getter/Setter pattern detection
+warn_pattern = "fun get[A-Z]|fun set[A-Z]"
+message = "Consider using Kotlin property syntax instead of getter/setter methods"
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/block) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
