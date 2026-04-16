@@ -1,0 +1,33 @@
+# journalist-material-client
+
+> - Use React Hook Form
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/journalist-material-client/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+// @ts-nocheck
+Design system:
+- Use MUI
+- Use Typescript
+- Use React
+- Use React Router
+- Use React Context
+- Use React Hooks
+- Use React Hook Form
+- Use React Infinite Scroll
+- Use React Skeleton
+- Create common components under /components
+- Design the pages using mobile first approach
+- Use numbered enums
+- Use apiContext
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/cantsdmr) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
