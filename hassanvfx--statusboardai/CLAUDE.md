@@ -131,4 +131,4 @@ For questions or issues, see: https://github.com/hassanvfx/clineflow
 
 ---
 > Converted and distributed by [TomeVault](https://tomevault.io/claim/hassanvfx) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-13 -->
+<!-- tomevault:4.0:claude_md:2026-04-14 -->
