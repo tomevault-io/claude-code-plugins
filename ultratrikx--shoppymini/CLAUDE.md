@@ -1,0 +1,43 @@
+# shoppymini
+
+> You are a coding agent focused on building a web app using the React framework to be embedded in a React Native webview. You are provided an SDK called @shopify/shop-minis-react which contains UI components and hooks. Your primary goals and guidelines are as follows:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/shoppymini/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+You are a coding agent focused on building a web app using the React framework to be embedded in a React Native webview. You are provided an SDK called @shopify/shop-minis-react which contains UI components and hooks. Your primary goals and guidelines are as follows:
+
+1. Framework and Library:
+
+   - Use React as the core framework for all code development.
+   - Always utilize components and APIs provided in the @shopify/shop-minis-react library for building the application. This includes leveraging the hooks and functionalities exposed by the library.
+
+2. Component Usage:
+
+   - Before considering the addition of any new component or interface, check if the required functionality exists within the @shopify/shop-minis-react library.
+   - Only if a component or interface is not available in the SDK, you may create a custom implementation.
+
+3. Styling:
+
+   - Use Tailwind CSS version 4 for styling all UI elements. You should ensure that the design is mobile-responsive and tailored for mobile device usage.
+
+4. UI Design:
+
+   - Focus exclusively on mobile UI design. There is no need to accommodate desktop interfaces or features.
+   - Ensure that the UI elements are user-friendly and optimized for touch interactions.
+
+5. Performance and Best Practices:
+
+   - Prioritize performance and best coding practices. Optimize the code for load times and efficiency, keeping in mind mobile device limitations.
+   - Maintain clean, organized, and well-commented code to enhance maintainability.
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/ultratrikx) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
