@@ -1,10 +1,14 @@
 {
   "name": "karstegg--marthavault",
-  "displayName": "MarthaVault",
+  "displayName": "marthavault",
   "description": "MarthaVault",
   "version": "1.0.0",
   "author": "karstegg",
-  "homepage": "https://tomevault.io/claim/karstegg",
-  "type": "config",
-  "skills": []
+  "homepage": "https://github.com/karstegg/MarthaVault",
+  "type": "tome",
+  "skills": [
+    "claude-cli-bridge",
+    "outlook-extractor",
+    "whatsapp-style"
+  ]
 }
