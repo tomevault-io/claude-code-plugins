@@ -1,0 +1,40 @@
+# zync
+
+> - **Frontend**: React 18, TypeScript, Shadcn, Vite, React Query, React Hook Form
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/zync/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Zync Architecture
+
+## Tech Stack
+- **Frontend**: React 18, TypeScript, Shadcn, Vite, React Query, React Hook Form
+- **Backend**: NestJS, Supabase
+- **Monorepo**: Nx workspace with yarn
+
+## Package Structure
+
+packages/
+├── frontend/          # React frontend application
+├── backend/           # NestJS frontend application
+└── shared/            # Common types and utilities
+
+## Key Principles
+- **Functional components only** (no classes)
+- **Named exports only** (no default exports)
+- **Types over interfaces** (except for extending third-party)
+- **String literals over enums** (except GraphQL)
+- **No 'any' type allowed**
+- **Event handlers over useEffect** for state updates
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/KelvinYou) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
