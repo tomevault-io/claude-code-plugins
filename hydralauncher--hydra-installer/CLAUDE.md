@@ -1,0 +1,48 @@
+# hydra-installer
+
+> All file names within the `src/` directory must use kebab-case naming convention.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/hydra-installer/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Cursor Rules
+
+## File Naming Convention
+
+All file names within the `src/` directory must use kebab-case naming convention.
+
+Examples:
+- ✅ `app.tsx` (not `App.tsx`)
+- ✅ `language-selector.tsx` (not `LanguageSelector.tsx`)
+- ✅ `window-controls.tsx` (not `WindowControls.tsx`)
+- ✅ `download-progress.tsx` (not `DownloadProgress.tsx`)
+
+This applies to all file types including:
+- TypeScript/JavaScript files (`.ts`, `.tsx`, `.js`, `.jsx`)
+- CSS files (`.css`)
+- JSON files (`.json`)
+- Any other files created in the `src/` directory
+
+When creating new files or suggesting file names, always use kebab-case for files in `src/`.
+
+## Props Type Convention
+
+All component props interfaces must be wrapped with `Readonly<T>` when used as function parameters.
+
+Examples:
+- ✅ `function Component({ prop }: Readonly<ComponentProps>)`
+- ✅ `const Component = ({ prop }: Readonly<ComponentProps>) => { ... }`
+- ❌ `function Component({ prop }: ComponentProps)` (not using Readonly)
+
+This ensures props are immutable and prevents accidental mutations within components.
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/hydralauncher) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-10 -->
