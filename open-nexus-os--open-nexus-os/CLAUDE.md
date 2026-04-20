@@ -1,0 +1,40 @@
+# open-nexus-os
+
+> Handoff router — new chat must start with planning
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/open-nexus-os/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Handoff Entry: new chat startup behavior
+
+When a handoff file is provided or referenced:
+
+## Startup rule
+- Read `@.cursor/handoff/current.md`
+- Read `@.cursor/current_state.md`
+- Read the referenced task + linked RFC/ADR contracts.
+- Stay scoped: only consult paths inside the task's **Touched paths** allowlist.
+
+## Plan mode decision
+- **New task (first time in this task)**: Request Plan Mode and produce a plan with:
+  - Acceptance criteria coverage (one-by-one)
+  - Proof strategy (tests/markers) for the specified desired behavior
+  - Security invariants and negative tests (`test_reject_*`) when applicable
+  - Doc/header/ADR sync items
+- **Task continuation (handoff explicitly says we're continuing)**: Skip Plan Mode and proceed with focused debugging/implementation.
+
+## Context budget discipline
+- Prefer strict manual context (1–3 relevant files) for continuation/debugging.
+- Avoid auto-including or expanding large diffs unless explicitly requested.
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/open-nexus-OS) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
