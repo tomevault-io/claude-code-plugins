@@ -1,0 +1,19 @@
+{
+  "name": "hashicorp--agent-skills",
+  "displayName": "agent-skills",
+  "description": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
+  "version": "1.0.0",
+  "author": "hashicorp",
+  "homepage": "https://github.com/hashicorp/agent-skills",
+  "type": "tome",
+  "skills": [
+    "terraform-style-guide",
+    "terraform-test",
+    "refactor-module",
+    "terraform-stacks",
+    "azure-verified-modules",
+    "provider-actions",
+    "provider-resources",
+    "run-acceptance-tests"
+  ]
+}
