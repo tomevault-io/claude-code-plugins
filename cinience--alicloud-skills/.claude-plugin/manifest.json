@@ -1,0 +1,33 @@
+{
+  "name": "cinience--alicloud-skills",
+  "displayName": "alicloud-skills",
+  "description": "alibaba cloud skills\uff0cqwen \uff0cwan and all skills",
+  "version": "1.0.0",
+  "author": "cinience",
+  "homepage": "https://github.com/cinience/alicloud-skills",
+  "type": "tome",
+  "skills": [
+    "alicloud-ai-audio-tts-realtime-test",
+    "alicloud-ai-audio-tts-test",
+    "alicloud-ai-audio-tts-voice-clone-test",
+    "alicloud-ai-audio-tts-voice-design-test",
+    "alicloud-ai-entry-modelstudio-matrix-test",
+    "alicloud-ai-entry-modelstudio-test",
+    "alicloud-ai-image-qwen-image-edit-test",
+    "alicloud-ai-image-qwen-image-test",
+    "alicloud-ai-misc-crawl-and-skill-test",
+    "alicloud-ai-video-wan-r2v-test",
+    "alicloud-ai-video-wan-video-test",
+    "alicloud-compute-ecs-test",
+    "alicloud-data-lake-dlf-next-test",
+    "alicloud-data-lake-dlf-test",
+    "alicloud-database-rds-supabase-test",
+    "alicloud-network-dns-cli-test",
+    "alicloud-observability-sls-log-query-test",
+    "alicloud-platform-openapi-product-api-discovery-test",
+    "alicloud-security-center-sas-test",
+    "alicloud-security-cloudfw-test",
+    "alicloud-security-kms-test",
+    "alicloud-storage-oss-ossutil-test"
+  ]
+}
