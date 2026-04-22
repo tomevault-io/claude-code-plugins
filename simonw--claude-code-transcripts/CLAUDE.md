@@ -1,0 +1,33 @@
+# claude-code-transcripts
+
+> Uses uv. Run tests like this:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/claude-code-transcripts/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+Uses uv. Run tests like this:
+
+    uv run pytest
+
+Run the development version of the tool like this:
+
+    uv run claude-code-transcripts --help
+
+Always practice TDD: write a faliing test, watch it fail, then make it pass.
+
+Commit early and often. Commits should bundle the test, implementation, and documentation changes together.
+
+Run Black to format code before you commit:
+
+    uv run black .
+
+---
+> Source: [simonw/claude-code-transcripts](https://github.com/simonw/claude-code-transcripts) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-20 -->
