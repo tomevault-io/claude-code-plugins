@@ -1,0 +1,13 @@
+{
+  "name": "claude-world--claude-skill-antivirus",
+  "displayName": "claude-skill-antivirus",
+  "description": "Security scanner for Claude Code Skills \u2014 9 engines detect malicious patterns, data exfiltration, dangerous ops across 71K+ skills",
+  "version": "1.0.0",
+  "author": "claude-world",
+  "homepage": "https://github.com/claude-world/claude-skill-antivirus",
+  "type": "tome",
+  "skills": [
+    "safe-skill",
+    "malicious-skill"
+  ]
+}
