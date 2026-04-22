@@ -1,0 +1,50 @@
+# replicator
+
+> This repository contains an Agent Skill for DCAS compliance auditing.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/replicator/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Windsurf Rules for replication-compliance
+
+This repository contains an Agent Skill for DCAS compliance auditing.
+
+## Skill Location
+
+The main skill is at `.github/skills/replication-compliance/SKILL.md`
+
+## When to Activate
+
+When user asks about:
+- DCAS compliance
+- Replication packages
+- AEA/journal submission readiness
+- Research reproducibility audits
+
+## Workflow
+
+1. Read `.github/skills/replication-compliance/SKILL.md`
+2. Follow the audit workflow defined there
+3. Use `references/DCAS_RULES.md` for rule details
+4. Use `references/LANGUAGE_GUIDES.md` for language-specific checks
+
+## Safety
+
+- Read files but do not run analysis code unless explicitly asked
+- Never execute: `git reset --hard`, `git push --force`, `git rebase`
+- Flag dangerous commands for manual user execution
+
+## Output
+
+Generate compliance reports following `assets/report_template.md`
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/Patrick-Healy) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
