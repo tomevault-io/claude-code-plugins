@@ -1,0 +1,25 @@
+# weather-mapper
+
+> - Never expose API keys in frontend code
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/weather-mapper/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Security
+- Never expose API keys in frontend code
+- Use environment variables for all secrets
+- Validate all user inputs
+- Sanitize data before storing in database
+- Configure CORS properly for production
+- Use HTTPS in production
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/alexgravx) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
