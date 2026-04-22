@@ -7,14 +7,14 @@ A front-end UI for ComfyUI made for beginner level users.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [Mooshieblob1/MooshieUI](https://github.com/Mooshieblob1/MooshieUI).
+Original source: `GEMINI.md` in [Mooshieblob1/MooshieUI](https://github.com/Mooshieblob1/MooshieUI).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
-- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Mooshieblob1/MooshieUI](https://github.com/Mooshieblob1/MooshieUI)
