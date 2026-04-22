@@ -1,0 +1,20 @@
+{
+  "name": "microsoft-foundry--foundry-agent-webapp",
+  "displayName": "foundry-agent-webapp",
+  "description": "GitHub Copilot enabled repo for building and deploying a web application with Entra ID authentication and integrated with Azure AI Foundry Agents.",
+  "version": "1.0.0",
+  "author": "microsoft-foundry",
+  "homepage": "https://github.com/microsoft-foundry/foundry-agent-webapp",
+  "type": "tome",
+  "skills": [
+    "deploying-to-azure",
+    "implementing-chat-streaming",
+    "researching-azure-ai-sdk",
+    "testing-with-playwright",
+    "troubleshooting-authentication",
+    "validating-ui-features",
+    "writing-bicep-templates",
+    "writing-csharp-code",
+    "writing-typescript-code"
+  ]
+}
