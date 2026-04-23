@@ -1,21 +1,20 @@
-# sdd-pilot
+# sddp
 
-> <!-- GEMINI.md auto-discovery stub — actual instructions live in the tool-agnostic file -->
+> Follow the project instructions defined in `project-instructions.md`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/sdd-pilot/SKILL.md
+Read and follow the instructions in .claude/skills/sddp/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!-- GEMINI.md auto-discovery stub — actual instructions live in the tool-agnostic file -->
 Follow the project instructions defined in `project-instructions.md`.
 
-@AGENTS.md
+Refer to `AGENTS.md` for SDD lifecycle context, gating rules, conventions, and the continuous execution policy.
 
 ---
 > Source: [attilaszasz/sdd-pilot](https://github.com/attilaszasz/sdd-pilot) — distributed by [TomeVault](https://tomevault.io).
