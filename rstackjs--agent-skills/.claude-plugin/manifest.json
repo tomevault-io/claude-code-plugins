@@ -1,0 +1,15 @@
+{
+  "name": "rstackjs--agent-skills",
+  "displayName": "agent-skills",
+  "description": "A collection of Agent Skills for Rstack.",
+  "version": "1.0.0",
+  "author": "rstackjs",
+  "homepage": "https://github.com/rstackjs/agent-skills",
+  "type": "tome",
+  "skills": [
+    "rsdoctor-analysis",
+    "rspack-debugging",
+    "rspack-tracing",
+    "rspress-v2-upgrade"
+  ]
+}
