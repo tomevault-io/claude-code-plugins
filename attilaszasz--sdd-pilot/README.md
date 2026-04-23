@@ -7,7 +7,7 @@ Replace chaotic AI code generation with a disciplined, spec-driven workflow. SDD
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [attilaszasz/sdd-pilot](https://github.com/attilaszasz/sdd-pilot).
+Original source: `.windsurf/rules/*.md` in [attilaszasz/sdd-pilot](https://github.com/attilaszasz/sdd-pilot).
 
 ## Also available for
 
@@ -15,7 +15,7 @@ Original source: `GEMINI.md` in [attilaszasz/sdd-pilot](https://github.com/attil
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
-- **Windsurf** — `project-config.md`
+- **Gemini CLI** — `GEMINI.md`
 
 From [attilaszasz/sdd-pilot](https://github.com/attilaszasz/sdd-pilot) — a repo with 62+ stars on GitHub.
 
