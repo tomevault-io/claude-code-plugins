@@ -1,0 +1,74 @@
+# whatispent
+
+> Project Structure Guidelines
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/whatispent/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Structure Guidelines
+
+**Description**: Feature-based organization pattern for the Roke app **Applies
+to**: `src/**/*`
+
+## Feature-Based Organization
+
+- Organize code by features in the src root: `src/auth`, `src/events`,
+  `src/landing`, etc.
+- Each feature folder contains:
+  - Page components: `src/feature/FeaturePage.tsx`
+  - Operations: `src/feature/operations.ts` (for both actions and queries)
+  - Components: `src/feature/components/ComponentName.tsx`
+
+## Example Structure
+
+```
+src/
+  ├── auth/
+  │   ├── LoginPage.tsx
+  │   ├── RegisterPage.tsx
+  │   ├── operations.ts
+  │   └── components/
+  │       ├── LoginForm.tsx
+  │       └── RegisterForm.tsx
+  ├── events/
+  │   ├── EventsPage.tsx
+  │   ├── EventDetailPage.tsx
+  │   ├── operations.ts
+  │   └── components/
+  │       ├── EventCard.tsx
+  │       └── EventFilter.tsx
+  ├── landing/
+  │   ├── LandingPage.tsx
+  │   └── components/
+  │       ├── Hero.tsx
+  │       └── FeatureSection.tsx
+  ├── root/
+  │   ├── RootPage.tsx
+  │   ├── operations.ts
+  │   └── components/
+  │       ├── Navbar.tsx
+  │       └── Footer.tsx
+  └── shared/
+      ├── utils.ts
+      └── components/
+          ├── Button.tsx
+          └── Card.tsx
+```
+
+## File Naming
+
+- Use PascalCase for component files: `EventCard.tsx`
+- Use camelCase for utility files: `operations.ts`, `utils.ts`
+- Use .tsx extension for React components
+- Use .ts extension for non-React files
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/wardbox) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
