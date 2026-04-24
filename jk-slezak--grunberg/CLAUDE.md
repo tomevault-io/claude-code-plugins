@@ -1,0 +1,23 @@
+# grunberg
+
+> All features plan and way of implementation should be documented in docs folder.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/grunberg/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+All features plan and way of implementation should be documented in docs folder.
+
+Read @docs/game-description.md for more information about game description.
+Read @docs/architecture.md for more information about architecture.
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/jk-slezak) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-09 -->
