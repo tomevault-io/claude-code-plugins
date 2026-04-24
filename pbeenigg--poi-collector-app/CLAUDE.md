@@ -1,4 +1,4 @@
-# poi-collector-instructions
+# poi-collector-app
 
 > Electron 跨平台桌面应用，使用 React 19 + TypeScript 构建，用于从高德地图 API 采集 POI（兴趣点）数据，支持本地 SQLite 数据库存储和 CSV 导出。
 
@@ -7,11 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/poi-collector-instructions/SKILL.md
+Read and follow the instructions in .claude/skills/poi-collector-app/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # POI Collector App - AI Coding Instructions
 
