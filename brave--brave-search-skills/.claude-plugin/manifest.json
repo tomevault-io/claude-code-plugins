@@ -1,0 +1,17 @@
+{
+  "name": "brave--brave-search-skills",
+  "displayName": "brave-search-skills",
+  "description": "Official skills for using Brave Search API with AI coding agents.",
+  "version": "1.0.0",
+  "author": "brave",
+  "homepage": "https://github.com/brave/brave-search-skills",
+  "type": "tome",
+  "skills": [
+    "answers",
+    "llm-context",
+    "local-descriptions",
+    "local-pois",
+    "spellcheck",
+    "web-search"
+  ]
+}
