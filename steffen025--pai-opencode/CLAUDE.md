@@ -1,0 +1,34 @@
+# pai-opencode
+
+> | Runtime | Linter | Lang |
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/pai-opencode/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md — PAI-OpenCode Repository
+
+| Runtime | Linter | Lang |
+|---------|--------|------|
+| Bun (never npm/yarn/pnpm) | Biome (never ESLint/Prettier) | TypeScript ESM |
+
+```bash
+bun install                  # Install dependencies
+bun test                     # Run tests
+biome check .                # Lint + format check
+biome check --write .        # Auto-fix
+```
+
+**Commits:** `feat(scope):`, `fix(scope):`, `docs:`, `chore:` — branch from `dev`, PR to `dev`, never commit to `main`.
+
+**PAI System:** Loaded via skill system (`PAI/SKILL.md`, tier: always). Not in this file.
+
+---
+> Source: [Steffen025/pai-opencode](https://github.com/Steffen025/pai-opencode) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-21 -->
