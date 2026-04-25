@@ -1,0 +1,22 @@
+# pcl-mac-refactor
+
+> 在 review pull request 时，请：
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/pcl-mac-refactor/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+在 review pull request 时，请：
+- 使用简体中文生成 review comments。
+- 如果代码中有用法不当或拼写错误的词，请务必指出并给出修改建议。
+- 允许 `internal` 或 `private` 类中出现访问级别为 `public` 的方法或属性。
+
+---
+> Source: [CylorineStudio/PCL.Mac.Refactor](https://github.com/CylorineStudio/PCL.Mac.Refactor) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-24 -->
