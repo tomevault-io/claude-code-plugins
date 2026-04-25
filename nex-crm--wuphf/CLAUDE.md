@@ -1,4 +1,4 @@
-# nex
+# wuphf
 
 > Use when looking up a specific named entity rather than asking a question.
 
@@ -7,10 +7,12 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/nex/SKILL.md
+Read and follow the instructions in .claude/skills/wuphf/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
+# --- Nex Context & Memory ---
 
 # Nex — Organizational Context & Memory
 
@@ -67,6 +69,8 @@ Use `nex_remember` when:
 - A conversation reveals new knowledge that future sessions should have access to
 
 Always try `nex_ask` first for general queries. Use `nex_search` when you need to find a specific record by name.
+
+# --- End Nex ---
 
 ---
 > Source: [nex-crm/wuphf](https://github.com/nex-crm/wuphf) — distributed by [TomeVault](https://tomevault.io).
