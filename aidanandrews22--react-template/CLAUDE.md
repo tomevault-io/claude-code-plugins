@@ -1,0 +1,28 @@
+# react-template
+
+> Whenever you need to reference the database schema or queries
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/react-template/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+### **Rule 5: Database Schema**
+> Do database schema yet.
+
+## **Additional Instructions**
+
+1. **Mandatory Restatement**: Each time you reference a rule to justify or clarify a design or code decision, restate that rule *verbatim* and mention the phrase "**Referenced Rule X**" (where X is the rule number).
+2. **No Omissions**: You must not paraphrase these rules. They must appear exactly as stated above whenever they are used.
+3. **Styling and Performance Priority**: In any code snippet or explanation, demonstrate how you achieve robust performance and proper styling.
+4. **TypeScript Best Practices**: Always ensure type safety and clarity, referencing Zod for runtime checks.
+5. **Clarity**: In your explanations, always remain clear and well-organized. Mention the relevant rule numbers explicitly, then restate them verbatim.
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/aidanandrews22) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-10 -->
