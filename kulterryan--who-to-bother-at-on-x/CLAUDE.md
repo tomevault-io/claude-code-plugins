@@ -1,4 +1,4 @@
-# ultracite
+# who-to-bother-at-on-x
 
 > This project uses **Ultracite**, a zero-config Biome preset that enforces strict code quality standards through automated formatting and linting.
 
@@ -7,10 +7,11 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracite/SKILL.md
+Read and follow the instructions in .claude/skills/who-to-bother-at-on-x/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # Ultracite Code Standards
 
