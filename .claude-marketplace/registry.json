@@ -10514,6 +10514,11 @@
       "description": "Coordinate skills between Codex, Copilot, and Claude Code. Validates, analyzes, and syncs skills, subagents, commands, and configuration between multiple CLIs."
     },
     {
+      "name": "xiangpenghao--pq-vector",
+      "source": "./xiangpenghao--pq-vector",
+      "description": "Vector search using only Parquet and DataFusion"
+    },
+    {
       "name": "asakin--llm-context-base",
       "source": "./asakin--llm-context-base",
       "description": "A git template for building your own LLM-powered personal wiki. Training period, metadata standard, lint system included. Clone and go."
