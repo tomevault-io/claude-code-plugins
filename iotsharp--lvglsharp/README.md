@@ -7,12 +7,12 @@ LVGLSharp 是一个跨平台的 WinForms API 兼容层，以 LVGL 作为底层�
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [IoTSharp/LVGLSharp](https://github.com/IoTSharp/LVGLSharp).
+Original source: `AGENTS.md` in [IoTSharp/LVGLSharp](https://github.com/IoTSharp/LVGLSharp).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
