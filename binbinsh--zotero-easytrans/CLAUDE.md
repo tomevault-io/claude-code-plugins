@@ -1,0 +1,25 @@
+# zotero-easytrans
+
+> - Use the version format `YY.MMDD.HHMM`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/zotero-easytrans/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Versioning
+- Use the version format `YY.MMDD.HHMM`.
+- Generate the version in China Standard Time with `TZ=Asia/Shanghai date '+%y.%m%d.%H%M'`.
+- `plugin/manifest.json` is the release source of truth. Keep `package.json` and `package-lock.json` in sync with it.
+- After updating the version, run `node scripts/generate-update-json.js` to refresh `update.json`, `update-macos.json`, `update-windows.json`, and `update-linux.json`.
+
+---
+> Source: [binbinsh/zotero-easytrans](https://github.com/binbinsh/zotero-easytrans) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-24 -->
