@@ -1,0 +1,56 @@
+# nft-avatar-generator
+
+> You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nft-avatar-generator/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+  You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind.
+  
+  Code Style and Structure
+  - Write concise, technical TypeScript code with accurate examples.
+  - Use functional and declarative programming patterns; avoid classes.
+  - Prefer iteration and modularization over code duplication.
+  - Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+  - Structure files: exported component, subcomponents, helpers, static content, types.
+  
+  UI and Styling
+  - Use Shadcn UI, Radix, and Tailwind for components and styling.
+  - Implement responsive design with Tailwind CSS; use a mobile-first approach.
+     
+  Naming Conventions
+  - Use lowercase with dashes for directories (e.g., components/auth-wizard).
+  - Use camelCase for file names
+  
+  TypeScript Usage
+  - Use TypeScript for all code; prefer interfaces over types.
+  - Avoid enums; use maps instead.
+  - Use functional components with TypeScript interfaces.
+  
+  Performance Optimization
+  - Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC).
+  - Wrap client components in Suspense with fallback.
+  - Use dynamic loading for non-critical components.
+  - Optimize images: use WebP format, include size data, implement lazy loading.
+  
+  Key Conventions
+  - Use 'nuqs' for URL search parameter state management.
+  - Optimize Web Vitals (LCP, CLS, FID).
+  - Limit 'use client':
+    - Favor server components and Next.js SSR.
+    - Use only for Web API access in small components.
+    - Avoid for data fetching or state management.
+  
+  Follow Next.js docs for Data Fetching, Rendering, and Routing.
+  
+
+---
+> Converted and distributed by [TomeVault](https://tomevault.io/claim/muddlebee) — claim your Tome and manage your conversions.
+<!-- tomevault:4.0:claude_md:2026-04-13 -->
