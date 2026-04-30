@@ -1,0 +1,24 @@
+# livestore-tanstack-cloudflare-auth-example
+
+> - **Path Aliases**: Always use the `@` import alias instead of relative paths when importing from other files in this project.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/livestore-tanstack-cloudflare-auth-example/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+- **Path Aliases**: Always use the `@` import alias instead of relative paths when importing from other files in this project.
+  - ✅ Use: `import authClient from '@/lib/authClient.ts'`
+  - ❌ Avoid: `import authClient from '../lib/authClient.ts'` or `import authClient from '../../lib/authClient.ts'`
+  - The `@` alias maps to `./src/*` and is configured in `tsconfig.json` and `vite.config.ts`
+  - This keeps imports cleaner, more maintainable, and consistent across the codebase
+  - Only use relative paths for imports from external packages (node_modules) or when importing files in the same directory
+
+---
+> Source: [nikolasburk/livestore-tanstack-cloudflare-auth-example](https://github.com/nikolasburk/livestore-tanstack-cloudflare-auth-example) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-24 -->
