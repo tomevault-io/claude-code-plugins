@@ -1129,6 +1129,11 @@
       "description": "An open-source alternative to CleanShot X for macOS. Capture, edit, and enhance your screenshots with professional quality."
     },
     {
+      "name": "k-dense-ai--claude-scientific-writer",
+      "source": "./k-dense-ai--claude-scientific-writer",
+      "description": "A general purpose scientific writer"
+    },
+    {
       "name": "colemurray--background-agents",
       "source": "./colemurray--background-agents",
       "description": "An open-source background agents coding system"
@@ -1157,6 +1162,11 @@
       "name": "minimax-ai--cli",
       "source": "./minimax-ai--cli",
       "description": "Generate text, images, video, speech, and music by MiniMax."
+    },
+    {
+      "name": "snowflake-labs--pg-lake",
+      "source": "./snowflake-labs--pg-lake",
+      "description": "pg_lake: Postgres with Iceberg and data lake access"
     },
     {
       "name": "qxcnm--codex-manager",
@@ -1437,6 +1447,11 @@
       "name": "localgpt-app--localgpt",
       "source": "./localgpt-app--localgpt",
       "description": "Local AI assistant, dreaming explorable worlds."
+    },
+    {
+      "name": "vercel-labs--workflow-builder-template",
+      "source": "./vercel-labs--workflow-builder-template",
+      "description": "Visual AI workflow automation platform"
     },
     {
       "name": "vercel-labs--workflow-builder-template",
@@ -2257,6 +2272,11 @@
       "name": "homanp--infinite-monitor",
       "source": "./homanp--infinite-monitor",
       "description": "Monitor anything in real time"
+    },
+    {
+      "name": "195440--nof1-ai",
+      "source": "./195440--nof1-ai",
+      "description": "\u26a1 Open nof1.ai  | Autonomous AI Trading Agent (\u81ea\u4e3bAI\u4ea4\u6613\u7cfb\u7edf) "
     },
     {
       "name": "shanraisshan--codex-cli-best-practice",
@@ -3919,6 +3939,21 @@
       "description": "Hamr is an extensible launcher for Wayland built with rust and gtk layer shell. Extend it with plugins that can be written in any languages."
     },
     {
+      "name": "leonyangdev--lc-studylab",
+      "source": "./leonyangdev--lc-studylab",
+      "description": "LC-StudyLab \u662f\u4e00\u4e2a\u5b8c\u6574\u6f14\u793a LangChain v1.0 \u5168\u5bb6\u6876\u80fd\u529b\u7684\u5f00\u6e90\u9879\u76ee\uff0c\u6574\u5408\u4e86 LangGraph\u3001DeepAgents\u3001RAG \u68c0\u7d22\u589e\u5f3a\u751f\u6210\u3001Guardrails \u5b89\u5168\u6821\u9a8c\u4e0e\u6d41\u5f0f\u8f93\u51fa\u667a\u80fd\u4f53\u7b49\u6838\u5fc3\u7279\u6027\uff0c\u5e2e\u52a9\u5f00\u53d1\u8005\u7cfb\u7edf\u638c\u63e1 LangChain v1 \u7684\u6240\u6709\u5173\u952e\u7ec4\u4ef6"
+    },
+    {
+      "name": "leonyangdev--lc-studylab",
+      "source": "./leonyangdev--lc-studylab",
+      "description": "LC-StudyLab \u662f\u4e00\u4e2a\u5b8c\u6574\u6f14\u793a LangChain v1.0 \u5168\u5bb6\u6876\u80fd\u529b\u7684\u5f00\u6e90\u9879\u76ee\uff0c\u6574\u5408\u4e86 LangGraph\u3001DeepAgents\u3001RAG \u68c0\u7d22\u589e\u5f3a\u751f\u6210\u3001Guardrails \u5b89\u5168\u6821\u9a8c\u4e0e\u6d41\u5f0f\u8f93\u51fa\u667a\u80fd\u4f53\u7b49\u6838\u5fc3\u7279\u6027\uff0c\u5e2e\u52a9\u5f00\u53d1\u8005\u7cfb\u7edf\u638c\u63e1 LangChain v1 \u7684\u6240\u6709\u5173\u952e\u7ec4\u4ef6"
+    },
+    {
+      "name": "leonyangdev--lc-studylab",
+      "source": "./leonyangdev--lc-studylab",
+      "description": "LC-StudyLab \u662f\u4e00\u4e2a\u5b8c\u6574\u6f14\u793a LangChain v1.0 \u5168\u5bb6\u6876\u80fd\u529b\u7684\u5f00\u6e90\u9879\u76ee\uff0c\u6574\u5408\u4e86 LangGraph\u3001DeepAgents\u3001RAG \u68c0\u7d22\u589e\u5f3a\u751f\u6210\u3001Guardrails \u5b89\u5168\u6821\u9a8c\u4e0e\u6d41\u5f0f\u8f93\u51fa\u667a\u80fd\u4f53\u7b49\u6838\u5fc3\u7279\u6027\uff0c\u5e2e\u52a9\u5f00\u53d1\u8005\u7cfb\u7edf\u638c\u63e1 LangChain v1 \u7684\u6240\u6709\u5173\u952e\u7ec4\u4ef6"
+    },
+    {
       "name": "dimillian--pokeswift",
       "source": "./dimillian--pokeswift",
       "description": "A reimplementation of the Pokemon Red/Blue engine in Swift and SwiftUI"
@@ -4389,6 +4424,11 @@
       "description": "A real-time network connection monitoring tool built with Rust and GTK4, displaying active connections with live I/O statistics in a modern graphical interface."
     },
     {
+      "name": "varghq--sdk",
+      "source": "./varghq--sdk",
+      "description": "AI video generation SDK \u2014 JSX for videos. One API for Kling, Flux, ElevenLabs, Sora. Built on Vercel AI SDK."
+    },
+    {
       "name": "lsm1103--cc",
       "source": "./lsm1103--cc",
       "description": "CC"
@@ -4402,6 +4442,156 @@
       "name": "nickpittas--directorsconsole",
       "source": "./nickpittas--directorsconsole",
       "description": "A web application for prompt generation and multiple ComfyUI remote and local connections for image and video generation in parallel in an infinite canvas"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
+    },
+    {
+      "name": "prisma--prisma-next",
+      "source": "./prisma--prisma-next",
+      "description": "prisma-next"
     },
     {
       "name": "prisma--prisma-next",
@@ -4939,6 +5129,46 @@
       "description": "Meta Wearables Device Access Toolkit for Android"
     },
     {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
+      "name": "facebook--meta-wearables-dat-android",
+      "source": "./facebook--meta-wearables-dat-android",
+      "description": "Meta Wearables Device Access Toolkit for Android"
+    },
+    {
       "name": "tang-vu--contribai",
       "source": "./tang-vu--contribai",
       "description": "Autonomous AI agent that contributes to open source \u2014 discovers repos, analyzes code, generates fixes, and submits PRs"
@@ -5179,6 +5409,16 @@
       "description": "quipslop"
     },
     {
+      "name": "johuniq--jolyui",
+      "source": "./johuniq--jolyui",
+      "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever."
+    },
+    {
+      "name": "johuniq--jolyui",
+      "source": "./johuniq--jolyui",
+      "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever."
+    },
+    {
       "name": "saramanda9988--lunabox",
       "source": "./saramanda9988--lunabox",
       "description": "Lightweight, fast, and feature-rich visual novel management and game statistics tool"
@@ -5297,6 +5537,11 @@
       "name": "rtk-ai--icm",
       "source": "./rtk-ai--icm",
       "description": "Permanent memory for AI agents. Single binary, zero dependencies, MCP native."
+    },
+    {
+      "name": "dicklesworthstone--ultimate-bug-scanner",
+      "source": "./dicklesworthstone--ultimate-bug-scanner",
+      "description": "Static analysis tool that catches 1000+ bug patterns across all popular programming languages, with auto-wiring into AI coding agent quality guardrails"
     },
     {
       "name": "xenoatom--xenoatom-terminal-ui",
@@ -15374,6 +15619,11 @@
       "description": "Spec-driven multi-agent orchestration \u2014 autonomous development workforce powered by Claude & OpenHands"
     },
     {
+      "name": "valence-works--cshells",
+      "source": "./valence-works--cshells",
+      "description": "A lightweight shell & feature system for ASP.NET Core that lets you build modular and multi-tenant apps with per-shell DI containers and config-driven features."
+    },
+    {
       "name": "s-zx--crest",
       "source": "./s-zx--crest",
       "description": "An open source, AI-native terminal."
@@ -15592,6 +15842,11 @@
       "name": "lugg--maps",
       "source": "./lugg--maps",
       "description": "Universal maps for React Native"
+    },
+    {
+      "name": "rika-labs--sgrep",
+      "source": "./rika-labs--sgrep",
+      "description": "Local lightning-fast semantic code search built for agents"
     },
     {
       "name": "bug-ops--mcp-execution",
@@ -16012,6 +16267,11 @@
       "name": "aeroxy--ast-outline",
       "source": "./aeroxy--ast-outline",
       "description": "Fast, AST-based structural outline for source files. Built for LLM coding agents and humans."
+    },
+    {
+      "name": "antirez--llama-cpp-deepseek-v4-flash",
+      "source": "./antirez--llama-cpp-deepseek-v4-flash",
+      "description": "Experimental implementation of DeepSeek v4 flaash in llama.cpp"
     },
     {
       "name": "10xchengtu--mux0",
@@ -19899,6 +20159,71 @@
       "description": "Sandcastle is the open agent orchestrator to manage all loops."
     },
     {
+      "name": "rairulyle--meralco-ph",
+      "source": "./rairulyle--meralco-ph",
+      "description": "A REST API and Home Assistant Add-On that parses and provides current MERALCO (Manila Electric Company) electricity rates in the Philippines."
+    },
+    {
+      "name": "lidongyx--codex-remote",
+      "source": "./lidongyx--codex-remote",
+      "description": "Local-first remote Codex workspace with bridge, relay, and iOS client"
+    },
+    {
+      "name": "innovativeai-adaad--adaad",
+      "source": "./innovativeai-adaad--adaad",
+      "description": "ADAAD \u2014 Autonomous Device-Anchored Adaptive Development. Full local AI ecosystem (Beast Mode, Dream Mode, Cryovant, Aponi Dashboard)."
+    },
+    {
+      "name": "dennysora--ops-tools",
+      "source": "./dennysora--ops-tools",
+      "description": " rust devops cli terraform terragrunt ai-tools mcp-server security-scanner clean-code automation"
+    },
+    {
+      "name": "cfis--opencv-ruby",
+      "source": "./cfis--opencv-ruby",
+      "description": "Ruby bindings for OpenCV 4+"
+    },
+    {
+      "name": "mcdxai--minecraft-dev-mcp",
+      "source": "./mcdxai--minecraft-dev-mcp",
+      "description": "Model Context Protocol server for Minecraft Development"
+    },
+    {
+      "name": "burkeholland--cpt",
+      "source": "./burkeholland--cpt",
+      "description": "Terminal copilot \u2014 translates natural language into shell commands using GitHub Copilot"
+    },
+    {
+      "name": "paulrberg--ai-notify",
+      "source": "./paulrberg--ai-notify",
+      "description": "macOS notifications for Claude Code and Codex CLI with intelligent session tracking"
+    },
+    {
+      "name": "wcowin--zensical-chinese-tutorial",
+      "source": "./wcowin--zensical-chinese-tutorial",
+      "description": "Zensical\u4e2d\u6587\u6559\u7a0b | Zensical Chinese Tutorial"
+    },
+    {
+      "name": "sake92--deder",
+      "source": "./sake92--deder",
+      "description": "Config based client-server JVM build tool"
+    },
+    {
+      "name": "jrgleason--embeddings-demystified",
+      "source": "./jrgleason--embeddings-demystified",
+      "description": "This is a presentation on embeddings for CodeMash 2026"
+    },
+    {
+      "name": "mblode--react-vello",
+      "source": "./mblode--react-vello",
+      "description": "Blazing fast React renderer powered by Vello"
+    },
+    {
+      "name": "wahidyankf--ose-public",
+      "source": "./wahidyankf--ose-public",
+      "description": "Source-available Sharia-compliant enterprise platform. Phase 1: Building OrganicLever productivity tracker. Learning in public. No timelines\u2014building it right."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -20997,6 +21322,146 @@
       "name": "datadog--adipo",
       "source": "./datadog--adipo",
       "description": "adipo - Architecture-Aware Fat Binaries"
+    },
+    {
+      "name": "moorethreads--mthreads-ml-py",
+      "source": "./moorethreads--mthreads-ml-py",
+      "description": "Provides a Python interface to GPU management and monitoring functions. This is a wrapper around the MTML library."
+    },
+    {
+      "name": "fjm2u--context-ui",
+      "source": "./fjm2u--context-ui",
+      "description": "A headless generative UI engine for hyper-personalized interfaces."
+    },
+    {
+      "name": "solkit70--vibelearn-ai",
+      "source": "./solkit70--vibelearn-ai",
+      "description": "VibeLearn-AI"
+    },
+    {
+      "name": "contraptionco--trivet",
+      "source": "./contraptionco--trivet",
+      "description": "Google sign-in for Ghost blogs"
+    },
+    {
+      "name": "jhu-ni-lab--openlpt-gui",
+      "source": "./jhu-ni-lab--openlpt-gui",
+      "description": "OpenLPT: An open-source Lagrangian Particle Tracking (LPT) GUI for 3D fluid flow visualization and experimental data analysis."
+    },
+    {
+      "name": "troodonmike--d2",
+      "source": "./troodonmike--d2",
+      "description": "D2 diagram plugin for JetBrains IDEs"
+    },
+    {
+      "name": "joelreymont--zzusage",
+      "source": "./joelreymont--zzusage",
+      "description": "Claude Code usage analyzer in Zig"
+    },
+    {
+      "name": "monchin--tablers",
+      "source": "./monchin--tablers",
+      "description": "A blazingly fast PDF table extraction library with python API powered by Rust"
+    },
+    {
+      "name": "lizthedeveloper--llm-tutor",
+      "source": "./lizthedeveloper--llm-tutor",
+      "description": "llm_tutor"
+    },
+    {
+      "name": "enter-tainer--libultrahdr-rs",
+      "source": "./enter-tainer--libultrahdr-rs",
+      "description": "libultrahdr binding for rust"
+    },
+    {
+      "name": "helgesverre--token",
+      "source": "./helgesverre--token",
+      "description": "Minimal text editor in Rust using the Elm Architecture"
+    },
+    {
+      "name": "kevindoremy--searchdeadcode",
+      "source": "./kevindoremy--searchdeadcode",
+      "description": "A fast CLI tool to detect and remove dead/unused code in Android projects (Kotlin & Java)"
+    },
+    {
+      "name": "epheromeers--epherome",
+      "source": "./epheromeers--epherome",
+      "description": "Powerful Minecraft Launcher"
+    },
+    {
+      "name": "qkf688--llmux",
+      "source": "./qkf688--llmux",
+      "description": "llmux"
+    },
+    {
+      "name": "browserbase--stagehand-ruby",
+      "source": "./browserbase--stagehand-ruby",
+      "description": "Official Stagehand AI Browser Automation SDK for Ruby users. Built by Browserbase.com"
+    },
+    {
+      "name": "strato-space--media-gen-mcp",
+      "source": "./strato-space--media-gen-mcp",
+      "description": "Media Gen MCP \u2014 Strict TypeScript MCP server for OpenAI gpt-image-1 and sora-2: generate, edit, and fetch images/video with smart compression, resource_link and image outputs, and a built-in test tool"
+    },
+    {
+      "name": "cpinto--ror-agent",
+      "source": "./cpinto--ror-agent",
+      "description": "Agent instructions for Ruby on Rails, to hopefully some day hit the same productivity levels as Replit"
+    },
+    {
+      "name": "rubenmendoza1290--claude-token-counter",
+      "source": "./rubenmendoza1290--claude-token-counter",
+      "description": "A CLI tool to visualize Claude API token usage and track monthly subscription limits."
+    },
+    {
+      "name": "0xdeafbeef--no-block-pls",
+      "source": "./0xdeafbeef--no-block-pls",
+      "description": "Detect blocking sections in async code"
+    },
+    {
+      "name": "jiawe1zhang--dendrite",
+      "source": "./jiawe1zhang--dendrite",
+      "description": "Context-first autonomous multi-agent system"
+    },
+    {
+      "name": "bluegithupu--xueqiu-analyse",
+      "source": "./bluegithupu--xueqiu-analyse",
+      "description": "\u5bf9\u96ea\u7403\u7f51\u4fe1\u606f\u8fdb\u884c\u5206\u6790"
+    },
+    {
+      "name": "neo4j-field--neo4j-mcp-workspace-template",
+      "source": "./neo4j-field--neo4j-mcp-workspace-template",
+      "description": "A template repo for end to end Neo4j development using MCP"
+    },
+    {
+      "name": "ml4t--backtest",
+      "source": "./ml4t--backtest",
+      "description": "backtest"
+    },
+    {
+      "name": "nstepien--ecij",
+      "source": "./nstepien--ecij",
+      "description": "Rolldown and Vite plugin to Extract CSS-in-JS"
+    },
+    {
+      "name": "glassbeaver--claudevs",
+      "source": "./glassbeaver--claudevs",
+      "description": "Claude Code CLI inside Visual Studio"
+    },
+    {
+      "name": "cap-go--capacitor-wifi",
+      "source": "./cap-go--capacitor-wifi",
+      "description": "Capacitor plugin to manage WiFi connectivity for your Capacitor app"
+    },
+    {
+      "name": "hikettei--tiny-polyhedral-compiler",
+      "source": "./hikettei--tiny-polyhedral-compiler",
+      "description": "wip: a playground repository dedicated to implement random polyhedral compiler algorithms (an attempt to reimplement extended integer set library?)"
+    },
+    {
+      "name": "sushichan044--hono-idempotent-request",
+      "source": "./sushichan044--hono-idempotent-request",
+      "description": "Idempotent request middleware for https://github.com/honojs/hono"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -93357,6 +93822,46 @@
       "name": "spudhsu-lemon--telegram-relay-for-agent",
       "source": "./spudhsu-lemon--telegram-relay-for-agent",
       "description": "Telegram relay bot for Cursor Cloud Agent - receives files/videos and saves to local directory"
+    },
+    {
+      "name": "koalabuttz--roguelike",
+      "source": "./koalabuttz--roguelike",
+      "description": "A cross-platform roguelike dungeon crawler written in Rust \u2014 from modern terminals to the Commodore 64."
+    },
+    {
+      "name": "anturex--k-daejeop",
+      "source": "./anturex--k-daejeop",
+      "description": "\ud55c\uad6d \ub9db\uc9d1 \uacf5\uc720 \ub9f5\ub9ac\uc2a4\ud2b8"
+    },
+    {
+      "name": "anturex--k-daejeop",
+      "source": "./anturex--k-daejeop",
+      "description": "\ud55c\uad6d \ub9db\uc9d1 \uacf5\uc720 \ub9f5\ub9ac\uc2a4\ud2b8"
+    },
+    {
+      "name": "robbarto2--agenticops",
+      "source": "./robbarto2--agenticops",
+      "description": "AgenticOps"
+    },
+    {
+      "name": "tel9980--cw",
+      "source": "./tel9980--cw",
+      "description": "cw"
+    },
+    {
+      "name": "nasir-6--habit-tracker",
+      "source": "./nasir-6--habit-tracker",
+      "description": "habit-tracker"
+    },
+    {
+      "name": "sighthoundinc--sighthound-savings-analyzer",
+      "source": "./sighthoundinc--sighthound-savings-analyzer",
+      "description": "Hardware Savings Calculator"
+    },
+    {
+      "name": "gumbiwambo--obsidian-character-sheet",
+      "source": "./gumbiwambo--obsidian-character-sheet",
+      "description": "An obsidian plugin to create a dnd character sheet in obsidian"
     }
   ]
 }
