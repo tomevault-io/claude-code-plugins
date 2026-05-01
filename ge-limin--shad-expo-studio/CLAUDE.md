@@ -1,16 +1,17 @@
-# shad-expo-studio
+# basic-rule
 
-> This file provides guidance to coding agent when working with code in this repository.
+> Basic instructions for everything in this repo
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/shad-expo-studio/SKILL.md
+Read and follow the instructions in .claude/skills/basic-rule/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 This file provides guidance to coding agent when working with code in this repository.
 
