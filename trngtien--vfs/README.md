@@ -7,13 +7,13 @@ Reduce AI agent token usage by 98% via Virtual Function Signatures. MCP server f
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [TrNgTien/vfs](https://github.com/TrNgTien/vfs).
+Original source: `.cursor/rules/*.mdc` in [TrNgTien/vfs](https://github.com/TrNgTien/vfs).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
