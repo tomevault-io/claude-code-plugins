@@ -7,13 +7,13 @@ Fast, accurate & comprehensive text measurement & layout
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [chenglou/pretext](https://github.com/chenglou/pretext).
+Original source: `.cursor/rules/*.mdc` in [chenglou/pretext](https://github.com/chenglou/pretext).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
