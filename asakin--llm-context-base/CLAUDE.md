@@ -1,18 +1,18 @@
-# llm-context-base
+# bootstrap
 
-> <!-- Real instructions live in _config/config.md and _meta/instructions/general.md. This file only bootstraps GitHub Copilot into those. -->
+> <!-- Real instructions live in _config/config.md and _meta/instructions/general.md. This file only bootstraps Cursor into those. -->
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/llm-context-base/SKILL.md
+Read and follow the instructions in .claude/skills/bootstrap/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!-- Real instructions live in _config/config.md and _meta/instructions/general.md. This file only bootstraps GitHub Copilot into those. -->
+<!-- Real instructions live in _config/config.md and _meta/instructions/general.md. This file only bootstraps Cursor into those. -->
 
 ## STEP 0: Framework mode check (run this first)
 
@@ -44,7 +44,7 @@ Allow me to get ready first!
 
 Follow the Session Start Protocol defined in `_config/config.md`, then `_meta/instructions/general.md`. All instructions are there.
 
-This file exists only to bootstrap GitHub Copilot into the system. The real instructions are LLM-agnostic and live in the files above.
+This file exists only to bootstrap Cursor into the system. The real instructions are LLM-agnostic and live in the files above.
 
 ---
 > Source: [asakin/llm-context-base](https://github.com/asakin/llm-context-base) — distributed by [TomeVault](https://tomevault.io).
