@@ -1,0 +1,28 @@
+# howcode
+
+> - Use Bun for installs and scripts; keep the app runtime on Node.js/Electron.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/howcode/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+- Use Bun for installs and scripts; keep the app runtime on Node.js/Electron.
+- In dev, assume the app dev server is already running; do not start it manually, and use Electron CDP at `127.0.0.1:39217`.
+- Pre-commit hooks exist; skip separate lint/format/check runs unless asked.
+- Prefer `src/electron/main/**`, `src/electron/preload/**`, and `shared/*` contracts over ad-hoc desktop IPC shims.
+- Keep UI changes optimistic and reuse existing patterns over one-offs.
+- For major changes, validate with a commit and leave the repo committed.
+- This repository uses nested AGENTS.md files to flag folder-specific guidelines. They are loaded automatically. No need to read them.
+- Consider creating new, small AGENTS.md files whenever patterns are observed.
+- AGENTS.md files are here to help you - if they are confusing, they should be edited to suit.
+- Popovers, menus, and custom select dropdowns must close on Escape and when clicking outside, matching native control expectations. Escape handlers for nested popovers must run in capture phase and stop propagation so parent views/dialogs do not also close.
+
+---
+> Source: [IgorWarzocha/howcode](https://github.com/IgorWarzocha/howcode) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-28 -->
