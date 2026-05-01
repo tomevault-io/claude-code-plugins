@@ -1,0 +1,24 @@
+# minisora
+
+> - 依存関係管理と実行には「uv」を利用する。`uv sync` で環境を構築し、スクリプト実行は `uv run xxx.py ...` のように行う。
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/minisora/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## 注意事項
+- 依存関係管理と実行には「uv」を利用する。`uv sync` で環境を構築し、スクリプト実行は `uv run xxx.py ...` のように行う。
+- 思考や行動は英語で行い、ユーザーとの会話は日本語で行う。
+- 余計な機能がなくシンプルであり、わかりやすくもバグがないコードを心がけること。そのためにも積極的にライブラリを用いること。
+- 実験などの過程と結果を適宜図などを使って見やすい形式(markdown等)で、./reportsに日本語で記述する事。
+- ./reportsの中に実験に用いたスクリプトなどを格納したり自由に用いてください。
+
+---
+> Source: [YN35/minisora](https://github.com/YN35/minisora) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-25 -->
