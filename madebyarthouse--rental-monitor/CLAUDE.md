@@ -1,22 +1,23 @@
-# routing
+# ui-consistency
 
-> Route patterns and loader expectations
+> UI patterns with shadcn/ui and Radix
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/routing/SKILL.md
+Read and follow the instructions in .claude/skills/ui-consistency/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-- Route patterns allowed: `/`, `/:state`, `/:state/:district`, `/inserate`, `/:state/inserate`, `/:state/:district/inserate`.
-- Loaders must validate params, call services, and set appropriate cache headers.
-- Components should rely on loader data; avoid client-side fetching.
-- React router 7 generates type definitions for the routes. Use them to validate the params and query in the loader functions. Use `pnpm run rr:generate` to generate the type definitions when you change the routes.
+- Prefer shadcn/ui primitives and Radix components.
+- Install new components from shadcn/ui or Radix UI using the `pnpm dlx shadcn@latest add` command.
+- Respect existing variants and props; do not invent new variants without reason.
+- Ensure accessible labels, roles, and keyboard interaction.
+- Follow patterns from `docs/FRONTEND-ARCHITECTURE.md` (sidebar, tabs, drawers).
 
 ---
 > Source: [madebyarthouse/rental-monitor](https://github.com/madebyarthouse/rental-monitor) — distributed by [TomeVault](https://tomevault.io).
