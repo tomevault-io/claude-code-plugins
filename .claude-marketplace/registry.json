@@ -3394,6 +3394,11 @@
       "description": "Slack automation CLI for AI agents"
     },
     {
+      "name": "danops-1--gpt-agreement-payment",
+      "source": "./danops-1--gpt-agreement-payment",
+      "description": "ChatGPT Team \u8ba2\u9605\u534f\u8bae\u7aef\u5230\u7aef\u91cd\u653e\u5de5\u5177\u96c6 \u00b7 hCaptcha \u89c6\u89c9\u6c42\u89e3\u5668 \u00b7 \u53cd\u6b3a\u8bc8\u673a\u5236\u5b9e\u8bc1\u7814\u7a76 / End-to-end protocol replay toolkit for ChatGPT Team subscription with from-scratch hCaptcha solver and empirical anti-fraud research"
+    },
+    {
       "name": "epiral--weixin-bot",
       "source": "./epiral--weixin-bot",
       "description": "WeChat iLink Bot SDK for Node.js and Python \u2014 zero-config agent integration"
@@ -4117,6 +4122,11 @@
       "name": "itwanger--paiagent",
       "source": "./itwanger--paiagent",
       "description": "\ud83d\udd25\u8f7b\u91cf\u7ea7\u7684AI\u5de5\u4f5c\u6d41\u7f16\u6392\u7cfb\u7edf\uff0c\u7c7b\u4f3cdify\u3001n8n\uff0c\u5168\u7a0b\u4f7f\u7528Vibe Coding\uff0cAI\u5de5\u5177\u4e3aQoder+CLI\u3002\u6d89\u53ca\u5230\u7684\u6280\u672f\u6808\u5305\u62ecSpringAI\u3001LangGraph4J\u3001SSE\u3001MinIO\u3001DAG\u81ea\u5b9a\u5f15\u64ce\u7b49\u3002"
+    },
+    {
+      "name": "davekilleen--dex",
+      "source": "./davekilleen--dex",
+      "description": "Your AI Chief of Staff \u2014 a personal operating system starter kit that adapts to your role. No coding required."
     },
     {
       "name": "frankchen021--datastoria",
@@ -7309,6 +7319,11 @@
       "description": "A secure way to code via Signal. Integrates long-term memory, ralph-style looping for complex specifics, and more all from your phone. "
     },
     {
+      "name": "product-on-purpose--pm-skills",
+      "source": "./product-on-purpose--pm-skills",
+      "description": "Curated, plug-and-play product management skills for AI agents. 38 skills across Triple Diamond phases plus foundation (lean canvas, persona, meeting lifecycle family) and utility (create, validate, i"
+    },
+    {
       "name": "cnighswonger--claude-code-cache-fix",
       "source": "./cnighswonger--claude-code-cache-fix",
       "description": "Fixes prompt cache regression in Claude Code that causes up to 20x cost increase on resumed sessions"
@@ -7597,6 +7612,11 @@
       "name": "kryptobaseddev--cleo",
       "source": "./kryptobaseddev--cleo",
       "description": "Production-grade task management for Claude Code with anti-hallucination protection"
+    },
+    {
+      "name": "yusifeng--formax",
+      "source": "./yusifeng--formax",
+      "description": "Terminal-first AI assistant for software engineering tasks (inspired by Claude Code v2.0.67)"
     },
     {
       "name": "endevco--aube",
@@ -13339,6 +13359,11 @@
       "description": "A Universal Framework for AI Video Watermark Removal"
     },
     {
+      "name": "dralgorhythm--claude-agentic-framework",
+      "source": "./dralgorhythm--claude-agentic-framework",
+      "description": "A More Effective Agent Harness for Claude"
+    },
+    {
       "name": "xiaoyiweio--deepsafe-scan",
       "source": "./xiaoyiweio--deepsafe-scan",
       "description": "Universal preflight security scanner for AI coding agents \u2014 Detects hooks injection, credential exfiltration & backdoors in .cursorrules, CLAUDE.md, AGENTS.md and more."
@@ -15554,6 +15579,11 @@
       "description": "ai-native-engineering"
     },
     {
+      "name": "thienanblog--awesome-ai-agent-skills",
+      "source": "./thienanblog--awesome-ai-agent-skills",
+      "description": "A curated list of essential skills, tools, and resources for building and enhancing advanced AI agents."
+    },
+    {
       "name": "indiesoftby--defold-agent-config",
       "source": "./indiesoftby--defold-agent-config",
       "description": "An example configuration of AGENTS.md and a set of skills for AI-assisted game development with the https://defold.com engine."
@@ -17629,6 +17659,16 @@
       "description": "Your Android companion debug buddy"
     },
     {
+      "name": "caolib--kira",
+      "source": "./caolib--kira",
+      "description": "A third-party client based on hotmanga. \u4e00\u4e2a\u70ed\u8fa3\u6f2b\u753b\u7684\u7b2c\u4e09\u65b9\u5ba2\u6237\u7aef"
+    },
+    {
+      "name": "nanbingxyz--wechat-channel",
+      "source": "./nanbingxyz--wechat-channel",
+      "description": "\u5c06\u5fae\u4fe1\u63a5\u5165\u4e3a\u4efb\u610f\u7cfb\u7edf\u7684\u7edf\u4e00\u6d88\u606f\u901a\u9053"
+    },
+    {
       "name": "mylxsw--llm-gateway",
       "source": "./mylxsw--llm-gateway",
       "description": "Squirrel LLM Gateway is a high-performance, enterprise-grade proxy service designed to unify and manage access to Large Language Model (LLM) providers like OpenAI and Anthropic. It provides intelligen"
@@ -18084,6 +18124,11 @@
       "description": "700+ AI skills for Claude and Cursor \u2014 PLG, marketing, security, DevEx, and more. One command to install."
     },
     {
+      "name": "flornkm--gradient-border-plugin",
+      "source": "./flornkm--gradient-border-plugin",
+      "description": "gradient-border-plugin"
+    },
+    {
       "name": "treadiehq--private-connect",
       "source": "./treadiehq--private-connect",
       "description": "Secure access to private services for developers and AI agents."
@@ -18499,6 +18544,11 @@
       "description": "An audio racing game"
     },
     {
+      "name": "cherryhoax--discolauncher",
+      "source": "./cherryhoax--discolauncher",
+      "description": "A groovy personalized home screen experience"
+    },
+    {
       "name": "bug-ops--mcp-execution",
       "source": "./bug-ops--mcp-execution",
       "description": "\ud83d\ude80 Generate executable TypeScript tools from MCP servers with 98% token savings. Progressive loading pattern for AI agents. Production-ready."
@@ -18559,6 +18609,11 @@
       "description": "A modern .NET replacement for System.Console"
     },
     {
+      "name": "theorcdev--tanstack-start-better-auth-starter",
+      "source": "./theorcdev--tanstack-start-better-auth-starter",
+      "description": "TanStack Start Better Auth playground"
+    },
+    {
       "name": "w3cj--ruta",
       "source": "./w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx"
@@ -18602,6 +18657,11 @@
       "name": "joshp123--xuezh",
       "source": "./joshp123--xuezh",
       "description": "xuezh"
+    },
+    {
+      "name": "ravixstudio--backend-template",
+      "source": "./ravixstudio--backend-template",
+      "description": "Production-ready Bun + Hono + TypeScript monorepo template with PostgreSQL, Drizzle ORM, OAuth authentication, and shared packages for scalable backend services."
     },
     {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
@@ -18652,6 +18712,21 @@
       "name": "joshp123--padel-cli",
       "source": "./joshp123--padel-cli",
       "description": "Playtomic CLI for padel court availability and booking"
+    },
+    {
+      "name": "mroz59--apollo-linux",
+      "source": "./mroz59--apollo-linux",
+      "description": "Apollo game streaming server with Linux virtual display support (EVDI)"
+    },
+    {
+      "name": "theme-shoka-x--astro-blog-shokax",
+      "source": "./theme-shoka-x--astro-blog-shokax",
+      "description": "Astro port of the Hexo theme ShokaX, featuring a clean design and modern blog experience."
+    },
+    {
+      "name": "steipete--commander",
+      "source": "./steipete--commander",
+      "description": "A Swifty take on Commander.js and alternative to Swift's ArgumentParser."
     },
     {
       "name": "aregowe--magento2-module-polyshell-protection",
@@ -18719,6 +18794,16 @@
       "description": "newbucks2bar"
     },
     {
+      "name": "vnstock-hq--vnstock-agent-guide",
+      "source": "./vnstock-hq--vnstock-agent-guide",
+      "description": "Repository c\u1eadp nh\u1eadt \u0111\u1ea7y \u0111\u1ee7 v\u00e0 to\u00e0n di\u1ec7n nh\u1ea5t v\u1ec1 t\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng v\u00e0 tham chi\u1ebfu h\u00e0m, h\u1ed7 tr\u1ee3 t\u1ed1t nh\u1ea5t cho AI Agent"
+    },
+    {
+      "name": "zenchantlive--beadboard",
+      "source": "./zenchantlive--beadboard",
+      "description": "Multi-agent orchestration and communication system built on Beads."
+    },
+    {
       "name": "r44vc0rp--itui",
       "source": "./r44vc0rp--itui",
       "description": "itui"
@@ -18737,6 +18822,16 @@
       "name": "microsoft--fabric-jumpstart",
       "source": "./microsoft--fabric-jumpstart",
       "description": "Fabric Jumpstart provides high-quality accelerators, demos, and tutorials that install directly into your workspace in minutes."
+    },
+    {
+      "name": "manusco--resonance",
+      "source": "./manusco--resonance",
+      "description": "The Vibe Coding Operating System."
+    },
+    {
+      "name": "engels74--obzorarr",
+      "source": "./engels74--obzorarr",
+      "description": "Obzorarr is a \"Wrapped for Plex\" application that syncs viewing history from your Plex Media Server and generates yearly statistics with an animated slideshow presentation - similar to Spotify Wrapped"
     },
     {
       "name": "rajjjaryan--career-copilot",
@@ -18824,6 +18919,21 @@
       "description": "LLM-powered agentic translation library for JavaScript/TypeScript"
     },
     {
+      "name": "cameronapak--freedom-stack-v3",
+      "source": "./cameronapak--freedom-stack-v3",
+      "description": "A no-build, un-bloated stack built upon Web Standards that feels freeing to use and can be deployed anywhere."
+    },
+    {
+      "name": "mescon--healarr",
+      "source": "./mescon--healarr",
+      "description": "Health Evaluation And Library Auto-Recovery for *arr - Media library corruption detection and automatic remediation"
+    },
+    {
+      "name": "steipete--blucli",
+      "source": "./steipete--blucli",
+      "description": "Go-based cli for blueOS"
+    },
+    {
       "name": "skywind3000--gamesample",
       "source": "./skywind3000--gamesample",
       "description": "Game Samples for GameLib"
@@ -18867,6 +18977,16 @@
       "name": "salihcantekin--rustframe",
       "source": "./salihcantekin--rustframe",
       "description": "High performance, GPU Accelerated, regional screen share software"
+    },
+    {
+      "name": "ericmjl--skills",
+      "source": "./ericmjl--skills",
+      "description": "skills"
+    },
+    {
+      "name": "zuntan03--easyimageedit",
+      "source": "./zuntan03--easyimageedit",
+      "description": "Z-Image \u3092\u7c21\u5358\u306b\u8a66\u305b\u308b\u74b0\u5883\u3067\u3059\u3002"
     },
     {
       "name": "inureyes--gyeol",
@@ -18954,6 +19074,16 @@
       "description": "Fast, allocation-friendly .NET library to generate, parse, and manipulate ANSI/VT escape sequences (writer, markup, tokenizer, ANSI-aware text utilities)."
     },
     {
+      "name": "harry-commit--lifekline",
+      "source": "./harry-commit--lifekline",
+      "description": "k\u7ebf\u7b97\u547d\u4eba\u751f"
+    },
+    {
+      "name": "fgrehm--clotilde",
+      "source": "./fgrehm--clotilde",
+      "description": "A power-user companion for Claude Code."
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "source": "./sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh"
@@ -19022,6 +19152,16 @@
       "name": "sstark97--dev-sweep",
       "source": "./sstark97--dev-sweep",
       "description": "CLI app to clean up your device for any trash data"
+    },
+    {
+      "name": "lsp-client--lsp-client",
+      "source": "./lsp-client--lsp-client",
+      "description": "A full-featured, well-typed, and easy-to-use Python client for the Language Server Protocol (LSP)."
+    },
+    {
+      "name": "ergrato-dev--bc-javascript-es2023",
+      "source": "./ergrato-dev--bc-javascript-es2023",
+      "description": "bc-javascript-es6"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -19114,6 +19254,11 @@
       "description": "duroxide-node"
     },
     {
+      "name": "mfahsold--montage-ai",
+      "source": "./mfahsold--montage-ai",
+      "description": "Open-source local-first AI video editor: transcript-based editing, beat-synced cuts, OTIO/EDL export for Premiere/Resolve, Shorts workflows."
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -19204,6 +19349,306 @@
       "description": "Crabbox: warm a box, sync the diff, run the suite."
     },
     {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
+      "name": "dirnbauer--webconsulting-skills",
+      "source": "./dirnbauer--webconsulting-skills",
+      "description": "AI-augmented development environment with Agent Skills for enterprise TYPO3 projects (Cursor IDE)"
+    },
+    {
       "name": "khangbdd--phoenix",
       "source": "./khangbdd--phoenix",
       "description": "phoenix"
@@ -19267,6 +19712,26 @@
       "name": "aws--aws-durable-execution-sdk-java",
       "source": "./aws--aws-durable-execution-sdk-java",
       "description": "Java SDK for AWS Lambda Durable Functions"
+    },
+    {
+      "name": "frmoretto--clarity-gate",
+      "source": "./frmoretto--clarity-gate",
+      "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing unc"
+    },
+    {
+      "name": "michael-888--phantom-trojanwalker",
+      "source": "./michael-888--phantom-trojanwalker",
+      "description": "AI \u6076\u610f\u8f6f\u4ef6\u81ea\u52a8\u5316\u5206\u6790\u5e73\u53f0"
+    },
+    {
+      "name": "opendatahub-io--ai-helpers",
+      "source": "./opendatahub-io--ai-helpers",
+      "description": "AI Helpers \u2014 collections of Skills, Commands, Agents (compatible with Claude Code, Cursor and other tools) and Gemini Gems"
+    },
+    {
+      "name": "mpcoredeveloper--sharpcoredb",
+      "source": "./mpcoredeveloper--sharpcoredb",
+      "description": "High-Performance Encrypted Database for .NET 10 | Embedded + gRPC Server | Vector Search \u2022 GraphRAG \u2022 Analytics"
     },
     {
       "name": "10xchengtu--mux0",
@@ -19347,6 +19812,26 @@
       "name": "microsoft--duroxide-python",
       "source": "./microsoft--duroxide-python",
       "description": "duroxide-python"
+    },
+    {
+      "name": "nofxai-os--hyperliquid-trading-bot",
+      "source": "./nofxai-os--hyperliquid-trading-bot",
+      "description": "hyperliquid grid trading bot dex perpetuals l1 crypto typescript nodejs automated algorithmic grid-strategy testnet wallet orderbook risk stop-loss drawdown rebalance python defi hft open-source tradi"
+    },
+    {
+      "name": "qvcloud--qvplayer",
+      "source": "./qvcloud--qvplayer",
+      "description": "QvPlayer"
+    },
+    {
+      "name": "laraxot--laravelpizza-com",
+      "source": "./laraxot--laravelpizza-com",
+      "description": "laravelpizza.com"
+    },
+    {
+      "name": "julienbreux--run-cli",
+      "source": "./julienbreux--run-cli",
+      "description": "Cloud Run interactive CLI "
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -19454,6 +19939,16 @@
       "description": "duroxide-pg"
     },
     {
+      "name": "bainianlaoyao--stoa",
+      "source": "./bainianlaoyao--stoa",
+      "description": "Stoa"
+    },
+    {
+      "name": "nirholas--lyra-intel",
+      "source": "./nirholas--lyra-intel",
+      "description": "Lyra Intel is an intelligence platform designed to analyze repositories of any size - from small projects to enterprise monorepos with millions of lines of code. With 70+ components, it provides end-t"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -19517,6 +20012,26 @@
       "name": "stevenathompson--self-command",
       "source": "./stevenathompson--self-command",
       "description": "An MCP tool that allows the Gemini CLI to send commands to itself, run very long commands in the background and be woken, sleep for a specified amount of time, watch logs and receive notifications, et"
+    },
+    {
+      "name": "yuqie6--productflow",
+      "source": "./yuqie6--productflow",
+      "description": "gpt 2 image \u753b\u56fe\u5de5\u4f5c\u53f0 / Self-hosted workbench for AI copy, posters, image sessions, and visual product workflows"
+    },
+    {
+      "name": "ethyros-ai--modelcypher",
+      "source": "./ethyros-ai--modelcypher",
+      "description": "ModelCypher - Decipher the high dimensional geometry of LLMs. An open source x-ray into LLM representation structure."
+    },
+    {
+      "name": "cloudbyday90--classifarr",
+      "source": "./cloudbyday90--classifarr",
+      "description": "Classifarr"
+    },
+    {
+      "name": "poorgramer-zack--flutter-agent-panel",
+      "source": "./poorgramer-zack--flutter-agent-panel",
+      "description": "A modern, user-friendly terminal emulator designed to enhance your AI pair\u2011coding experience."
     },
     {
       "name": "iamtouchskyer--logex",
@@ -19649,6 +20164,21 @@
       "description": "oh-my-toong-playground"
     },
     {
+      "name": "tao12345666333--amcp",
+      "source": "./tao12345666333--amcp",
+      "description": "It\u2019s a coding agent, but I\u2019m trying to strip it down to the bare essentials and offload everything else to MCP/subagents, snapping the pieces together like LEGO."
+    },
+    {
+      "name": "biajin-pku--research-harness",
+      "source": "./biajin-pku--research-harness",
+      "description": "\u9762\u5411\u79d1\u7814\u6587\u732e\u5de5\u4f5c\u7684 Agent Harness\uff1a\u6301\u4e45\u5316 SQLite \u72b6\u6001\u300169 \u4e2a\u7c7b\u578b\u5316\u539f\u8bed\u3001112 \u4e2a MCP \u5de5\u5177\u30016 \u4e2a\u8bc1\u636e\u95e8\u7981\u9636\u6bb5\uff0c\u6bcf\u6b21\u7ecf\u8bb0\u5f55\u7684\u8c03\u7528\u90fd\u6709\u6eaf\u6e90\u3002\u53ef\u7531 Claude Code / Codex / Python / rh CLI \u9a71\u52a8\u3002"
+    },
+    {
+      "name": "lululu811--zettaranc-skill",
+      "source": "./lululu811--zettaranc-skill",
+      "description": "\u5229\u6da6\u662f\u5e02\u573a\u7ed9\u7684\uff0c\u90fd\u662f\u6982\u7387\u7684\u4e8b\u513f\uff0c\u8c01\u4e5f\u522b\u5439\u725b\u903c"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -19677,6 +20207,11 @@
       "name": "sunny-kobe--ai-sentiney",
       "source": "./sunny-kobe--ai-sentiney",
       "description": "\u60a8\u7684\u672c\u5730 AI \u6295\u987e\u60c5\u62a5\u5b98\u3002\u57fa\u4e8e Google Gemini Pro \u4e0e AkShare\uff0c\u5b9e\u65f6\u76d1\u6d4b A \u80a1\u884c\u60c5\u3001\u5317\u5411\u8d44\u91d1\u4e0e\u5e02\u573a\u8206\u60c5\uff0c\u4e3a\u60a8\u63d0\u4f9b\u51b7\u9177\u7406\u6027\u7684\u5348\u95f4\u98ce\u63a7\u9884\u8b66\u4e0e\u6536\u76d8\u590d\u76d8\u62a5\u544a\uff0c\u5e76\u901a\u8fc7\u98de\u4e66 (Feishu) \u5b9e\u65f6\u63a8\u9001\u3002"
+    },
+    {
+      "name": "fullstack-flow--shop-stack",
+      "source": "./fullstack-flow--shop-stack",
+      "description": "A type-safe, TanStack-powered full-stack e\u2011commerce starter for modern web shops."
     },
     {
       "name": "develite98--angular-best-practices",
@@ -19744,6 +20279,11 @@
       "description": "cloud-computing"
     },
     {
+      "name": "emafanclub--evermemoryarchive-archived",
+      "source": "./emafanclub--evermemoryarchive-archived",
+      "description": "E.M.A."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -19792,6 +20332,16 @@
       "name": "martinwoodward--todohub",
       "source": "./martinwoodward--todohub",
       "description": "iOS todo app backed by GitHub Issues"
+    },
+    {
+      "name": "aborruso--alice-pdf",
+      "source": "./aborruso--alice-pdf",
+      "description": "Alice PDF is a CLI that extracts tables from PDFs\u2014native or scanned\u2014using Camelot, Mistral OCR, AWS Textract, or pdfplumber and saves   them as CSV files"
+    },
+    {
+      "name": "leonyoah--seatunnelx",
+      "source": "./leonyoah--seatunnelx",
+      "description": "Seatunnel\u4e00\u7ad9\u5f0f\u8fd0\u7ef4\u7ba1\u7406\u5e73\u53f0\uff0c\u5305\u542b\u81ea\u52a8\u5316\u90e8\u7f72\u3001\u63d0\u4ea4\u4efb\u52a1\u3001\u5de1\u68c0\u3001\u63d2\u4ef6\u5e02\u573a\u7b49\u529f\u80fd"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -19849,6 +20399,31 @@
       "description": "Structured protocol for AI-assisted development. Discovery \u2192 Delivery \u2192 Evidence."
     },
     {
+      "name": "luna-system--ada",
+      "source": "./luna-system--ada",
+      "description": "locally hosted neural net chat framework with biomimetic RAG (cc0) (by luna+ada) (<3)"
+    },
+    {
+      "name": "gobbyai--gobby",
+      "source": "./gobbyai--gobby",
+      "description": "A local-first daemon to unify your AI coding tools. Session tracking and handoffs across Claude Code, Codex, Gemini CLI and Qwen. An MCP proxy that discovers tools without flooding context. Task manag"
+    },
+    {
+      "name": "podcctv--iperf3-test-tools",
+      "source": "./podcctv--iperf3-test-tools",
+      "description": "Docker\u90e8\u7f72\uff0c\u4f7f\u7528iperf3/\u811a\u672c\u8fdb\u884c\u670d\u52a1\u5668\u6279\u91cf\u4e92\u76f8\u6d4b\u8bd5"
+    },
+    {
+      "name": "madskristensen--commentsvs",
+      "source": "./madskristensen--commentsvs",
+      "description": "CommentsVS"
+    },
+    {
+      "name": "luna-system--ada",
+      "source": "./luna-system--ada",
+      "description": "locally hosted neural net chat framework with biomimetic RAG (cc0) (by luna+ada) (<3)"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -19884,6 +20459,26 @@
       "description": "stream android system audio to airplay speakers."
     },
     {
+      "name": "everruns--everruns",
+      "source": "./everruns--everruns",
+      "description": "Headless durable agentic harness engine. Run durable AI agents reliably and scalably."
+    },
+    {
+      "name": "moshehbenavraham--apex-spec-system",
+      "source": "./moshehbenavraham--apex-spec-system",
+      "description": "Specification-driven workflow system for AI-assisted development - break large projects into manageable 2-4 hour sessions with 15-30 tasks each."
+    },
+    {
+      "name": "meshmapper--meshmapper-webclient",
+      "source": "./meshmapper--meshmapper-webclient",
+      "description": "Code for my MeshCore Wardrive Web App."
+    },
+    {
+      "name": "atman-33--openspec-for-copilot",
+      "source": "./atman-33--openspec-for-copilot",
+      "description": "A VS Code extension that gives GitHub Copilot users a guided, spec-driven workflow using OpenSpec."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -19902,6 +20497,11 @@
       "name": "catsmiaow--github-copilot",
       "source": "./catsmiaow--github-copilot",
       "description": "My GitHub Copilot settings for VS Code"
+    },
+    {
+      "name": "huangdijia--ccswitch",
+      "source": "./huangdijia--ccswitch",
+      "description": "A command-line tool for managing and switching between different Claude Code API profiles and configurations."
     },
     {
       "name": "vm--nila-code",
@@ -19934,6 +20534,31 @@
       "description": "Agentic Ops Framework"
     },
     {
+      "name": "product-on-purpose--pm-skills-mcp",
+      "source": "./product-on-purpose--pm-skills-mcp",
+      "description": "MCP server exposing 29 best-practice product management skills plus workflows and lifecycle tools, instantly accessible to any AI via Model Context Protocol."
+    },
+    {
+      "name": "weorbis--locus",
+      "source": "./weorbis--locus",
+      "description": "locus"
+    },
+    {
+      "name": "metisos--rosetta-open-source",
+      "source": "./metisos--rosetta-open-source",
+      "description": "Rosetta_Open_Source"
+    },
+    {
+      "name": "labex-labs--labex-cheatsheets",
+      "source": "./labex-labs--labex-cheatsheets",
+      "description": "Cheatsheets for Programming Beginners"
+    },
+    {
+      "name": "runloopai--codex-tax-man",
+      "source": "./runloopai--codex-tax-man",
+      "description": "Runloop's AI TaxMan Project: an agent development starter that uses Codex & W&B Weave to process tax forms. Watch YouTube series: https://youtu.be/an7OMH_i8DU"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -19942,6 +20567,31 @@
       "name": "phamdaiminhquan--vibe-devops",
       "source": "./phamdaiminhquan--vibe-devops",
       "description": "An open-source AI terminal agent for automated VPS management and self-healing Docker deployments."
+    },
+    {
+      "name": "claude-php--claude-php-agent",
+      "source": "./claude-php--claude-php-agent",
+      "description": "Claude PHP Agents Framework"
+    },
+    {
+      "name": "umc-product--umc-product-server",
+      "source": "./umc-product--umc-product-server",
+      "description": "\ud504\ub85c\ub355\ud2b8\ud300\uc744 \uc704\ud55c SpringBoot \ud83c\udf31 \ubc31\uc5d4\ub4dc \uc11c\ube44\uc2a4"
+    },
+    {
+      "name": "wycats--bootc",
+      "source": "./wycats--bootc",
+      "description": "bootc"
+    },
+    {
+      "name": "yutaofr--clec-strategy-backtest",
+      "source": "./yutaofr--clec-strategy-backtest",
+      "description": "QQQ/QLD assets allocation strategies back test"
+    },
+    {
+      "name": "gopherguides--gopher-ai",
+      "source": "./gopherguides--gopher-ai",
+      "description": "Claude Code plugins for Go developers - by Gopher Guides"
     },
     {
       "name": "mohiwalla--memes",
@@ -19969,6 +20619,16 @@
       "description": "AI-powered video content analysis, viral clip identification, and subtitle generation platform."
     },
     {
+      "name": "hasaneyldrm--logpress-public",
+      "source": "./hasaneyldrm--logpress-public",
+      "description": "logpress-public"
+    },
+    {
+      "name": "sbhavani--jules-app",
+      "source": "./sbhavani--jules-app",
+      "description": "self-hosted workspace for Google's Jules AI agent"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -19982,6 +20642,26 @@
       "name": "guillermolg00--translate-kit",
       "source": "./guillermolg00--translate-kit",
       "description": "AI-powered translation SDK that generates translations at build time using your own AI models via the Vercel AI SDK. It's compatible with next-intl and supports any AI provider with no vendor lock-in."
+    },
+    {
+      "name": "ergrato-dev--bc-fastapi",
+      "source": "./ergrato-dev--bc-fastapi",
+      "description": "bc-fastapi"
+    },
+    {
+      "name": "dculussoftwares--indiastats-cms",
+      "source": "./dculussoftwares--indiastats-cms",
+      "description": "Open-source Indian election data and statistics CMS. Powered by Payload CMS and Next.js. Visualize trends, voter stats, and constituency insights."
+    },
+    {
+      "name": "simoninns--decode-orc",
+      "source": "./simoninns--decode-orc",
+      "description": "The -decode orchestration and processing engine"
+    },
+    {
+      "name": "georgeguimaraes--arcana-adept",
+      "source": "./georgeguimaraes--arcana-adept",
+      "description": "Example Phoenix app demonstrating Arcana RAG toolkit"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -20017,6 +20697,16 @@
       "name": "michaelklishin--bunny-swift",
       "source": "./michaelklishin--bunny-swift",
       "description": "A modern RabbitMQ (AMQP 0-9-1) client for Swift"
+    },
+    {
+      "name": "ljantzen--obsidian-youtube-transcript",
+      "source": "./ljantzen--obsidian-youtube-transcript",
+      "description": "obsidian-youtube-transcript"
+    },
+    {
+      "name": "toolate28--spiralsafe",
+      "source": "./toolate28--spiralsafe",
+      "description": "SpiralSafe is self-maintaining, inherently coherent reposystem | Documentation, code, and physical hardware in Emergent Harmony"
     },
     {
       "name": "ljantzen--obsidian-youtube-transcript",
@@ -20432,6 +21122,21 @@
       "name": "heiberg-industries--designbrief",
       "source": "./heiberg-industries--designbrief",
       "description": "Design guardrails, not templates. A library of UI design direction files that give LLMs (and humans) the context to build tasteful, consistent interfaces in any style."
+    },
+    {
+      "name": "outfitter-dev--firewatch",
+      "source": "./outfitter-dev--firewatch",
+      "description": "GitHub PR activity logger with pure JSONL output for jq-based workflows"
+    },
+    {
+      "name": "danielvolz--medassist-ng",
+      "source": "./danielvolz--medassist-ng",
+      "description": "Medication tracking and planning app"
+    },
+    {
+      "name": "aadorian--protegedesk",
+      "source": "./aadorian--protegedesk",
+      "description": "Modern web-based ontology editor with AI assistance, built with Next.js, React Flow, and WebAssembly reasoning. Features intelligent editing, graph visualization, and LLM-powered ontology generation."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -24564,6 +25269,71 @@
       "description": "Official agent skills for PowerSync"
     },
     {
+      "name": "u9401066--pubmed-search-mcp",
+      "source": "./u9401066--pubmed-search-mcp",
+      "description": "\ud83d\udd2c Professional MCP server for biomedical literature research \u2014 40 tools, multi-source search (PubMed, Europe PMC, CORE, OpenAlex), full-text access, citation networks, PICO analysis, and more"
+    },
+    {
+      "name": "kucherenko--gangsta",
+      "source": "./kucherenko--gangsta",
+      "description": "AI agentic skills framework for spec-driven development, built on the organizational model of mafia."
+    },
+    {
+      "name": "openrocky--openrocky",
+      "source": "./openrocky--openrocky",
+      "description": "Rocky is a voice-first AI Agent app for iPhone. OpenRocky is the open-source project behind it."
+    },
+    {
+      "name": "xunharry4-source--animocerebro",
+      "source": "./xunharry4-source--animocerebro",
+      "description": "Universal cognitive engine for AI. Features autonomy, self-reflection, and continuous learning via the Nine Questions loop."
+    },
+    {
+      "name": "kibertum--tausik-core",
+      "source": "./kibertum--tausik-core",
+      "description": "Engineering governance framework for AI coding agents. Forces planning before code, evidence before completion, memory across sessions."
+    },
+    {
+      "name": "rapidly-tech--rapidly",
+      "source": "./rapidly-tech--rapidly",
+      "description": "Secure File/Secret Sharing Platform"
+    },
+    {
+      "name": "jiarui-xie--amp-running-baseline",
+      "source": "./jiarui-xie--amp-running-baseline",
+      "description": "Locomotion training codebase for Unitree G1 competing in the 2026 Beijing Yizhuang Half Marathon Robot Race. Built on Isaac Lab with Adversarial Motion     Priors (AMP), motion imitation, and hardware"
+    },
+    {
+      "name": "jonathansant--orleans-messaging",
+      "source": "./jonathansant--orleans-messaging",
+      "description": "orleans.messaging"
+    },
+    {
+      "name": "aliou--pi-undercooked",
+      "source": "./aliou--pi-undercooked",
+      "description": "Experimental and proof-of-concept Pi extensions"
+    },
+    {
+      "name": "darknavysecurity--web3-exploit-analysis",
+      "source": "./darknavysecurity--web3-exploit-analysis",
+      "description": "Artifacts of Onchain Exploit Analysis"
+    },
+    {
+      "name": "reineiraos--reineira-atlas",
+      "source": "./reineiraos--reineira-atlas",
+      "description": "AI agents for strategy, growth, compliance, and investor readiness, joined with Platform Modules for rapid development"
+    },
+    {
+      "name": "yaomindong1996--forge-admin",
+      "source": "./yaomindong1996--forge-admin",
+      "description": "\u5168\u7a0b\u57fa\u4e8eAI\u7f16\u7801\uff0cSpringBoot 3.x + JDK 17 \u6784\u5efa\u7684\u8f7b\u91cf\u5316\u4f01\u4e1a\u7ea7\u7ba1\u7406\u7cfb\u7edf\u57fa\u7840\u6846\u67b6\uff0c\u4ee5\u914d\u7f6e\u9a71\u52a8\u4e3a\u6838\u5fc3\u8bbe\u8ba1\u7406\u5ff5\uff0c\u8ffd\u6c42\u7b80\u6d01\u9ad8\u6548\u3001\u5f00\u7bb1\u5373\u7528\uff0c\u52a9\u529b\u5f00\u53d1\u8005\u5feb\u901f\u642d\u5efa\u7a33\u5b9a\u53ef\u9760\u7684\u4f01\u4e1a\u7ea7\u5e94\u7528,\u6781\u7b80\u5f00\u53d1\u3001\u9ad8\u6548\u8fed\u4ee3\u3001\u751f\u4ea7\u53ef\u7528"
+    },
+    {
+      "name": "sandraschi--ocr-mcp",
+      "source": "./sandraschi--ocr-mcp",
+      "description": "FastMCP server providing advanced OCR capabilities with current state-of-the-art models (DeepSeek-OCR, Florence-2, DOTS.OCR, PP-OCRv5, Qwen-Image-Layered decomposition), WIA scanner control, and multi"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -26334,6 +27104,186 @@
       "description": "harshkanjiya.com"
     },
     {
+      "name": "stoimera--cravab",
+      "source": "./stoimera--cravab",
+      "description": " AI phone receptionist and operations PWA app for appointment-based field-service businesses: call handling, booking, clients, reporting, and multi-tenant Supabase (Next.js PWA)."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "movixcorp--movixopensource",
+      "source": "./movixcorp--movixopensource",
+      "description": "MovixOpenSource"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "akitaonrails--nw-omarchy",
+      "source": "./akitaonrails--nw-omarchy",
+      "description": "Attempt to bring Omarchy back to X11 (future XLibre support) with BSPWM"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "stevekinney--shelf-life",
+      "source": "./stevekinney--shelf-life",
+      "description": "shelf-life"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "anandb--nb-complete",
+      "source": "./anandb--nb-complete",
+      "description": "Netbeans Plugin to integrate with OpenCode"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "redbook-hackathon--clawcorp",
+      "source": "./redbook-hackathon--clawcorp",
+      "description": "clawcorp"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "ar4mirez--samuel",
+      "source": "./ar4mirez--samuel",
+      "description": "Minimalist yet powerful AI-assisted development framework. Production-ready CLAUDE.md & AGENTS.md system with 35+ guardrails, 4D methodology, and auto-loading language guides for TypeScript, Python, G"
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "industrial--id-effect",
+      "source": "./industrial--id-effect",
+      "description": "Rust Effect<A, E, R> \u2014 sync and async functional effects with context/layers and pipe, interpreter-style, no bundled executor."
+    },
+    {
+      "name": "mjunaidca--robolearn",
+      "source": "./mjunaidca--robolearn",
+      "description": "Book + RAG ChatAgent + SSO + Compunding RI Intelligence built in 2 days. Robolearn is what AI-driven development with Spec-Driven methodology and Reusable Intelligence makes possible."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -26767,6 +27717,21 @@
       "name": "xuliang2024--cutcli-cookbook",
       "source": "./xuliang2024--cutcli-cookbook",
       "description": "Cookbook, JSON templates, AI prompts and docs for cutcli \u2014 the CapCut / Jianying (\u526a\u6620) draft CLI. Generate editable video drafts from code, Cursor, Claude Code or any MCP agent."
+    },
+    {
+      "name": "mrfadiai--free-deepseek",
+      "source": "./mrfadiai--free-deepseek",
+      "description": "DeepSeek Web Chat \u2192 OpenAI / Claude / Gemini Compatible API"
+    },
+    {
+      "name": "mufacoderz--chatme",
+      "source": "./mufacoderz--chatme",
+      "description": "Chatme | Personal Note-taking App Berbasis Chat UI"
+    },
+    {
+      "name": "drbarzaga--react-dojo",
+      "source": "./drbarzaga--react-dojo",
+      "description": "Simple way to learn React: read, edit, run."
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -99857,6 +100822,21 @@
       "name": "jessepesse--kortex-agent",
       "source": "./jessepesse--kortex-agent",
       "description": "Kortex Agent is a comprehensive, context-aware AI assistant designed to act as your personal operating system. It integrates deeply with your life's data\u2014values, health, projects, routines\u2014to provide "
+    },
+    {
+      "name": "andrescardonas7--salchipapa-web",
+      "source": "./andrescardonas7--salchipapa-web",
+      "description": "salchipapa-web"
+    },
+    {
+      "name": "ballariravikrishna538-collab--campus-lost-found",
+      "source": "./ballariravikrishna538-collab--campus-lost-found",
+      "description": "Exported from Caffeine project: Campus Lost & Found"
+    },
+    {
+      "name": "praveen127016--ai-powered-recuritement-system",
+      "source": "./praveen127016--ai-powered-recuritement-system",
+      "description": "This project is an AI-powered Recruitment System that uses Natural Language Processing (NLP) and similarity algorithms to intelligently match candidate resumes with job descriptions. The system automa"
     }
   ]
 }
