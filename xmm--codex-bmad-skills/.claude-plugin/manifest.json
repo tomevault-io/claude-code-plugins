@@ -1,0 +1,21 @@
+{
+  "name": "xmm--codex-bmad-skills",
+  "displayName": "codex-bmad-skills",
+  "description": "BMAD skills and workflows for OpenAI Codex (App, CLI, Web): intent-based execution, YAML project state, and reusable skill packs for planning, architecture, sprint delivery, development, and code revi",
+  "version": "1.0.0",
+  "author": "xmm",
+  "homepage": "https://github.com/xmm/codex-bmad-skills",
+  "type": "tome",
+  "skills": [
+    "bmad-analyst",
+    "bmad-architect",
+    "bmad-builder",
+    "bmad-creative-intelligence",
+    "bmad-developer",
+    "bmad-orchestrator",
+    "bmad-product-manager",
+    "bmad-scrum-master",
+    "bmad-shared",
+    "bmad-ux-designer"
+  ]
+}
