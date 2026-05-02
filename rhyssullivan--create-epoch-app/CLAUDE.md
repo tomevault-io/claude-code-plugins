@@ -1,46 +1,19 @@
-# effect-dependency-injection
+# effect-mpc
 
-> Prefer yield* for accessing Effect dependencies instead of passing them as function arguments
+> You have access to the Effect MCP server which you can use to look up information about Effect.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/effect-dependency-injection/SKILL.md
+Read and follow the instructions in .claude/skills/effect-mpc/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Effect Dependency Injection
-
-**Prefer `yield* Dependency`** over passing dependencies as function arguments.
-
-## ❌ Avoid
-
-```typescript
-const getUser = (db: Database, userId: string) =>
-  Effect.gen(function* () {
-    return yield* db.query("users", userId);
-  });
-```
-
-## ✅ Prefer
-
-```typescript
-const getUser = (userId: string) =>
-  Effect.gen(function* () {
-    const db = yield* Database;
-    return yield* db.query("users", userId);
-  });
-```
-
-## Last Resort: When to Pass as Arguments
-
-- Interfacing with non-Effect code
-- Dynamic implementation selection at runtime
-- Measured performance-critical paths
+You have access to the Effect MCP server which you can use to look up information about Effect.
 
 ---
 > Source: [RhysSullivan/create-epoch-app](https://github.com/RhysSullivan/create-epoch-app) — distributed by [TomeVault](https://tomevault.io).
