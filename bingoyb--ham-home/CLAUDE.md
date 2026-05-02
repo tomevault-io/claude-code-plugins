@@ -1,20 +1,20 @@
-# doc-sync
+# token-saving
 
-> See [docs/ai-work/doc-sync.md](docs/ai-work/doc-sync.md) for the detailed rules.
+> 节省token
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/doc-sync/SKILL.md
+Read and follow the instructions in .claude/skills/token-saving/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Documentation Sync Rules
+# Cursor Rules - Token Saving
 
-See [docs/ai-work/doc-sync.md](docs/ai-work/doc-sync.md) for the detailed rules.
+See [docs/ai-work/token-saving.md](docs/ai-work/token-saving.md) for the detailed rules.
 Strictly follow the guidelines in that file.
 
 ---
