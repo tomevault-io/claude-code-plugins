@@ -1,20 +1,20 @@
-# arch
+# content-ui
 
-> See [docs/ai-work/code-style.md](docs/ai-work/code-style.md) for the detailed rules.
+> See [docs/ai-work/content-ui.md](docs/ai-work/content-ui.md) for the detailed rules.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/arch/SKILL.md
+Read and follow the instructions in .claude/skills/content-ui/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Architecture & Code Style Rules
+# Rule: Content UI Portal Container Standard
 
-See [docs/ai-work/code-style.md](docs/ai-work/code-style.md) for the detailed rules.
+See [docs/ai-work/content-ui.md](docs/ai-work/content-ui.md) for the detailed rules.
 Strictly follow the guidelines in that file.
 
 ---
