@@ -1,23 +1,19 @@
-# datapages
+# code-style
 
-> Datapages framework guide for writing application code and using the CLI
+> Project conventions and commands
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/datapages/SKILL.md
+Read and follow the instructions in .claude/skills/code-style/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When working with Datapages application code, read and follow these files:
-
-- `.skills/datapages/SKILL.md` — step-by-step guide for writing Datapages apps and using
-  the CLI.
-- `SPECIFICATION.md` — full parameter, return type, and configuration reference.
+Read and follow `AGENTS.md` in the repository root.
 
 ---
 > Source: [romshark/datapages](https://github.com/romshark/datapages) — distributed by [TomeVault](https://tomevault.io).
