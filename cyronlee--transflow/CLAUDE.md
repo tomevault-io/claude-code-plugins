@@ -1,4 +1,4 @@
-# transflow
+# global-rules
 
 > - 使用 `apple-docs-mcp` 搜索 macOS 开发文档
 
@@ -7,25 +7,21 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/transflow/SKILL.md
+Read and follow the instructions in .claude/skills/global-rules/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# TransFlow 项目指令
 
 ## 开发文档
 - 使用 `apple-docs-mcp` 搜索 macOS 开发文档
 - 修改语音转写相关文件前，先读 `docs/speech-model-lifecycle.md`
-- Fluid Audio 本地文档位于 `build/DerivedData/SourcePackages/checkouts/FluidAudio/Documentation/`
 
 ## 质量检查
 - 确保 xcode build 成功
 
-## PKG 发布
-- 仅使用 `./scripts/build-pkg.sh` 生成安装包，发布流程统一为 PKG-only
-- 发布 GitHub Release 时只上传经过 Developer ID 签名、notarization 和 stapling 的 PKG
-- 默认使用 `TransFlowNotary` notarytool profile；如本机证书名变化，显式传入 `--app-sign` 和 `--installer-sign`
+## DMG 打包
+- 使用 `build-dmg` skill 打包 DMG（`./scripts/build-dmg.sh`）
 
 ## 国际化（i18n）
 - 所有用户可见字符串使用 `Localizable.xcstrings` String Catalog，key 格式 `模块.描述`（如 `settings.language`）
