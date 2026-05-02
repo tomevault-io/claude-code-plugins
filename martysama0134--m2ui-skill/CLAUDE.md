@@ -1,4 +1,4 @@
-# m2ui-skill
+# m2ui
 
 > When the user asks to create, modify, or generate Metin2 client UI code, follow the instructions below. This includes requests like "create a window", "make a UI", "add a button to X", "modify uiXxx.py", or when they provide a screenshot of a UI to replicate.
 
@@ -7,10 +7,11 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/m2ui-skill/SKILL.md
+Read and follow the instructions in .claude/skills/m2ui/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # m2ui — Metin2 UI Code Generator
 
