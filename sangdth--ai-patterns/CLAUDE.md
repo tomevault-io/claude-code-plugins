@@ -1,0 +1,97 @@
+# avoid-use-effect
+
+> Avoid useEffect antipatterns
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/avoid-use-effect/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Avoid useEffect at all cost
+
+[You Might Not Need `useEffect`](https://react.dev/learn/you-might-not-need-an-effect)
+
+Instead of using `useEffect`, prefer:
+
+- Server actions
+- Ref callbacks
+- Event handlers with `flushSync`
+- CSS
+- `useSyncExternalStore`
+- `useSWR` or `react-query` if already in project
+
+## Example: Event Handlers (Good)
+
+```tsx
+// ✅ Good
+function ProductPage({ product, addToCart }) {
+  function buyProduct() {
+    addToCart(product);
+    showNotification(`Added ${product.name} to the shopping cart!`);
+  }
+
+  function handleBuyClick() {
+    buyProduct();
+  }
+
+  function handleCheckoutClick() {
+    buyProduct();
+    navigateTo('/checkout');
+  }
+  // ...
+}
+```
+
+## Example: State Updates (Bad)
+
+```tsx
+// ❌ Avoid
+function ProductPage({ product, addToCart }) {
+  useEffect(() => {
+    if (product.isInCart) {
+      showNotification(`Added ${product.name} to the shopping cart!`);
+    }
+  }, [product]);
+
+  function handleBuyClick() {
+    addToCart(product);
+  }
+  // ...
+}
+```
+
+## When useEffect IS Appropriate
+
+Only use `useEffect` for external system synchronization:
+
+```tsx
+// ✅ Good - Syncing with external system
+useEffect(() => {
+  const controller = new AbortController();
+
+  window.addEventListener(
+    'keydown',
+    (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      // do something based on escape key being pressed
+    },
+    { signal: controller.signal }
+  );
+
+  return () => {
+    controller.abort();
+  };
+}, []);
+```
+
+`useEffect` is not banned, but there are usually better ways to handle most cases.
+
+---
+> Source: [sangdth/ai-patterns](https://github.com/sangdth/ai-patterns) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-25 -->
