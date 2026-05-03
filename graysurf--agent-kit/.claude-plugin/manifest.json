@@ -1,0 +1,31 @@
+{
+  "name": "graysurf--agent-kit",
+  "displayName": "agent-kit",
+  "description": "agent-kit tracks AI agent setup to keep workflows consistent across machines. It contains prompt presets, custom skills, and local tooling. ",
+  "version": "1.0.0",
+  "author": "graysurf",
+  "homepage": "https://github.com/graysurf/agent-kit",
+  "type": "tome",
+  "skills": [
+    "agent-doc-init",
+    "api-test-runner",
+    "chrome-devtools-debug-companion",
+    "close-feature-pr",
+    "create-plan",
+    "create-project-skill",
+    "create-skill",
+    "find-and-fix-bugs",
+    "gh-fix-ci",
+    "graphql-api-testing",
+    "macos-agent-ops",
+    "open-changed-files-review",
+    "playwright",
+    "release-workflow",
+    "remove-skill",
+    "rest-api-testing",
+    "screen-record",
+    "semantic-commit-autostage",
+    "skill-governance",
+    "sql-mysql"
+  ]
+}
