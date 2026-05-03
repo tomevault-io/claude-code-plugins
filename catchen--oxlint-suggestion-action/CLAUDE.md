@@ -1,16 +1,17 @@
-# oxlint-suggestion-action
+# agent-workflow
 
-> These instructions apply to all coding agents in this repository (Cursor, Claude Code, Codex).
+> Setup and validation commands required for this repository.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/oxlint-suggestion-action/SKILL.md
+Read and follow the instructions in .claude/skills/agent-workflow/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # Agent Instructions
 
