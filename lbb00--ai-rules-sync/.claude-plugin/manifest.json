@@ -1,0 +1,15 @@
+{
+  "name": "lbb00--ai-rules-sync",
+  "displayName": "ai-rules-sync",
+  "description": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
+  "version": "1.0.0",
+  "author": "lbb00",
+  "homepage": "https://github.com/lbb00/ai-rules-sync",
+  "type": "tome",
+  "skills": [
+    "new-adapter",
+    "summarize-session",
+    "update-docs",
+    "update-knowledge-base"
+  ]
+}
