@@ -1,0 +1,48 @@
+# dispatch
+
+> After every code change (file edit, create, or delete), run:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/dispatch/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Copilot Instructions for dispatch
+
+## Build and Deploy After Every Change (MANDATORY)
+
+After every code change (file edit, create, or delete), run:
+
+```
+go build ./...
+```
+
+This is non-negotiable. Do not batch multiple changes and then build once at the end. Build after EACH change to catch errors immediately.
+
+If the build fails, fix the issue before making any further changes.
+
+After the build passes, run:
+
+```
+mage install
+```
+
+This runs tests, kills running dispatch processes, builds the dev binary with version info, ensures it's in PATH, and verifies the deployment. Run `mage install` after every change, not just at the end of a task.
+
+## Project Context
+
+- Language: Go
+- Build: `go build ./...`
+- Test: `go test ./...`
+- Lint: `go vet ./...`
+- Deploy: `mage install`
+- Preflight: `mage preflight`
+
+---
+> Source: [jongio/dispatch](https://github.com/jongio/dispatch) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-03 -->
