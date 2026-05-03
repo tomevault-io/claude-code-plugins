@@ -1,4 +1,4 @@
-# agent-session-view
+# use-bun-instead-of-node-vite-npm-pnpm
 
 > This file provides guidance to AI Agent when working with code in this repository.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-session-view/SKILL.md
+Read and follow the instructions in .claude/skills/use-bun-instead-of-node-vite-npm-pnpm/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
