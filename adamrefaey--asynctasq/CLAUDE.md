@@ -1,0 +1,23 @@
+# asynctasq
+
+> Never run uv run pytest or just test, instead:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/asynctasq/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+Never run uv run pytest or just test, instead:
+  **BEFORE implementing:** Research the web for latest best practices for all tools/libraries/patterns
+  **WHILE implementing:** Run `just check` frequently to catch issues early
+  **AFTER implementing:** Run `just ci` - MUST pass with zero errors before committing
+`just ci` and test commands are expensive, so avoid running them unnecessarily. Use `just check` & scope test commands instead.
+
+---
+> Source: [adamrefaey/asynctasq](https://github.com/adamrefaey/asynctasq) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-02 -->
