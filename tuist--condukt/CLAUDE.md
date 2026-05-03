@@ -1,0 +1,29 @@
+# condukt
+
+> - For running bash commands from Elixir, use `MuonTrap` instead of `System`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/condukt/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Command Execution
+
+- For running bash commands from Elixir, use `MuonTrap` instead of `System`.
+- Prefer `MuonTrap` because it propagates process shutdowns to child processes.
+- Reference: https://hexdocs.pm/muontrap/readme.html
+
+## Workflow
+
+- After every change, create a git commit and push it to the current branch.
+
+---
+> Source: [tuist/condukt](https://github.com/tuist/condukt) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-04-30 -->
