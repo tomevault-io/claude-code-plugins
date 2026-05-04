@@ -1,20 +1,20 @@
-# rules
+# nice-vibes
 
-> See [AGENTS.md](../../AGENTS.md) for complete project rules, commands, and conventions.
+> See [AGENTS.md](AGENTS.md) for complete project rules, commands, and conventions.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/rules/SKILL.md
+Read and follow the instructions in .claude/skills/nice-vibes/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Windsurf Rules
+# Cursor Rules
 
-See [AGENTS.md](../../AGENTS.md) for complete project rules, commands, and conventions.
+See [AGENTS.md](AGENTS.md) for complete project rules, commands, and conventions.
 
 ---
 > Source: [Alyxion/nice-vibes](https://github.com/Alyxion/nice-vibes) — distributed by [TomeVault](https://tomevault.io).
