@@ -1,4 +1,4 @@
-# main
+# occhio
 
 > [//]: # (Referenced or symlinked by: README.md, CLAUDE.md, .clinerules, .cursor/rules/AGENTS.md, .windsurf/rules/main.md, .github/copilot-instructions.md, .junie/guidelines.md, aider.conf.yml )
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/main/SKILL.md
+Read and follow the instructions in .claude/skills/occhio/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
