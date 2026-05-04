@@ -1,0 +1,26 @@
+{
+  "name": "metalagman--agent-skills",
+  "displayName": "agent-skills",
+  "description": "Agent Skills. A collection of specialized expertise, workflows, and resources for LLM agents.",
+  "version": "1.0.0",
+  "author": "metalagman",
+  "homepage": "https://github.com/metalagman/agent-skills",
+  "type": "tome",
+  "skills": [
+    "beads",
+    "conventional-commits",
+    "gitflow",
+    "github-flow",
+    "go-adk",
+    "go-fx",
+    "go-google-best-practices",
+    "go-google-style-decisions",
+    "go-google-style-guide",
+    "go-goose",
+    "go-options-gen",
+    "go-oss-maintainer",
+    "go-senior-developer",
+    "go-uber-style-guide",
+    "skill-writer"
+  ]
+}
