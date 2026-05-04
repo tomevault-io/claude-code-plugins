@@ -1,0 +1,15 @@
+{
+  "name": "holsee--conjure",
+  "displayName": "conjure",
+  "description": "An Elixir library for leveraging Anthropic Agent Skills in elixir with a configurable skill execution targets, native elixir skills and artefact storage targets.",
+  "version": "1.0.0",
+  "author": "holsee",
+  "homepage": "https://github.com/holsee/conjure",
+  "type": "tome",
+  "skills": [
+    "echo",
+    "log-analyzer",
+    "pdf",
+    "timestamp-echo"
+  ]
+}
