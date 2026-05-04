@@ -1,0 +1,40 @@
+# everbound-ereader-app
+
+> **Readest is the source of truth for all foliate-js interactions.**
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/everbound-ereader-app/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Rules
+
+## Foliate Integration
+**Readest is the source of truth for all foliate-js interactions.**
+
+When implementing or modifying foliate-js integration:
+- Reference Readest's implementation as the authoritative source
+- Follow Readest's patterns for:
+  - CSS styling and theme application
+  - JavaScript bridge communication
+  - Event handling
+  - Annotation management
+  - Navigation and location tracking
+- Match Readest's approach for consistency and reliability
+
+Readest repository: `/Users/nathenbrewer/Documents/GitHub/readest`
+
+Key files to reference:
+- `apps/readest-app/src/app/reader/components/FoliateViewer.tsx` - Main viewer component
+- `apps/readest-app/src/utils/style.ts` - CSS generation and styling
+- `apps/readest-app/src/types/view.ts` - Type definitions
+- `packages/foliate-js/` - Foliate-js source code
+
+---
+> Source: [Neighborhood-Nerd/everbound-ereader-app](https://github.com/Neighborhood-Nerd/everbound-ereader-app) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-03 -->
