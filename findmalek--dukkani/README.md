@@ -2,6 +2,8 @@
 
 > Source: [FindMalek/dukkani](https://github.com/FindMalek/dukkani) — distributed by [TomeVault](https://tomevault.io)
 
+Create your online shop in minutes — no code, no stress.
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
