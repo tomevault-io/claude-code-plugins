@@ -1,0 +1,21 @@
+# rules
+
+> See [AGENTS.md](../../AGENTS.md) for complete project rules, commands, and conventions.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/rules/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Windsurf Rules
+
+See [AGENTS.md](../../AGENTS.md) for complete project rules, commands, and conventions.
+
+---
+> Source: [Alyxion/nice-vibes](https://github.com/Alyxion/nice-vibes) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
