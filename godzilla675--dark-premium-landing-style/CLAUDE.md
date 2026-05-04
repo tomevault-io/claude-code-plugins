@@ -1,0 +1,25 @@
+# dark-premium-landing-style
+
+> When building a landing page in this style, read and follow the full design system in AGENTS.md at the repository root.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/dark-premium-landing-style/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Dark Premium Landing Page Style
+
+When building a landing page in this style, read and follow the full design system in AGENTS.md at the repository root.
+
+It covers: color palette, typography, spacing, 7 component specs (nav, hero, CTAs, centered features, two-column features, floating icons, footer), animation patterns, gradient recipes, responsive breakpoints, page structure, copy tone, and do's/don'ts.
+
+Key rules: pure #000 backgrounds, white text with opacity hierarchy, accent colors only for labels/checkmarks/glows, pill-shaped white CTAs, scroll-triggered fade-in animations with ease curves, generous 120px section padding, stroke-only icons.
+
+---
+> Source: [Godzilla675/dark-premium-landing-style](https://github.com/Godzilla675/dark-premium-landing-style) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
