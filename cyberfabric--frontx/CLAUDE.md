@@ -1,20 +1,20 @@
-# frontx
+# hai3
 
-> Always use the ./.ai/GUIDELINES.md
+> Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontx/SKILL.md
+Read and follow the instructions in .claude/skills/hai3/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Always use the ./.ai/GUIDELINES.md
+Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/cyberfabric) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+> Source: [cyberfabric/frontx](https://github.com/cyberfabric/frontx) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-05 -->
