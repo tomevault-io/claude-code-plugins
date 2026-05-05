@@ -1,0 +1,14 @@
+{
+  "name": "vaayne--agent-kit",
+  "displayName": "agent-kit",
+  "description": "Reusable components for AI coding agents: skills, subagents, MCP servers, and extensions.",
+  "version": "1.0.0",
+  "author": "vaayne",
+  "homepage": "https://github.com/vaayne/agent-kit",
+  "type": "tome",
+  "skills": [
+    "code-simplifier",
+    "mcp-jetbrains-ide",
+    "mcp-tokenflux-images"
+  ]
+}
