@@ -1,19 +1,21 @@
-# hai3
+# frontx
 
-> Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
+> ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/hai3/SKILL.md
+Read and follow the instructions in .claude/skills/frontx/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Cypilot
 
-Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
+
+ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
 
 ---
 > Source: [cyberfabric/frontx](https://github.com/cyberfabric/frontx) — distributed by [TomeVault](https://tomevault.io).
