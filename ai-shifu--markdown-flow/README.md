@@ -7,14 +7,14 @@ MarkdownFlow extends standard Markdown with AI to create personalized, interacti
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [ai-shifu/markdown-flow](https://github.com/ai-shifu/markdown-flow).
+Original source: `GEMINI.md` in [ai-shifu/markdown-flow](https://github.com/ai-shifu/markdown-flow).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Gemini CLI** — `GEMINI.md`
+- **Cursor** — `project-config.mdc`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/ai-shifu/markdown-flow](https://github.com/ai-shifu/markdown-flow)
