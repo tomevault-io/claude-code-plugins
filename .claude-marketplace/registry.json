@@ -6449,6 +6449,11 @@
       "description": "Any Agent \u00d7 Any Provider \u00d7 Anywhere. Connect Cursor, Claude Code, OpenCode, or Codex to Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat \u2014 with any LLM provider."
     },
     {
+      "name": "openclaw--tachikoma",
+      "source": "./openclaw--tachikoma",
+      "description": "One interface, every AI model. A Swift SDK to interface with AI providers."
+    },
+    {
       "name": "uzaaft--libghostty-rs",
       "source": "./uzaaft--libghostty-rs",
       "description": "libghostty-rs"
@@ -6897,6 +6902,11 @@
       "name": "a2aproject--a2a-dotnet",
       "source": "./a2aproject--a2a-dotnet",
       "description": "C#/.NET SDK for A2A Protocol"
+    },
+    {
+      "name": "dcramer--dex",
+      "source": "./dcramer--dex",
+      "description": "Task tracking for Agents"
     },
     {
       "name": "community-access--accessibility-agents",
@@ -23089,6 +23099,11 @@
       "description": "Agent skill for interacting with OpenSea"
     },
     {
+      "name": "cagdotin--agents",
+      "source": "./cagdotin--agents",
+      "description": "agents"
+    },
+    {
       "name": "r44vc0rp--itui",
       "source": "./r44vc0rp--itui",
       "description": "itui"
@@ -23232,6 +23247,21 @@
       "name": "davidfowl--minrt",
       "source": "./davidfowl--minrt",
       "description": "AOT compatible .NET bootstrapper plus NuGet"
+    },
+    {
+      "name": "leejuoh--claude-code-zero",
+      "source": "./leejuoh--claude-code-zero",
+      "description": "Complete Claude Code plugin marketplace \u2014 agents, skills, hooks, commands, rules, MCPs."
+    },
+    {
+      "name": "pilan-ai--mnemo",
+      "source": "./pilan-ai--mnemo",
+      "description": "mnemo"
+    },
+    {
+      "name": "pmprompt--claude-plugin-product-management",
+      "source": "./pmprompt--claude-plugin-product-management",
+      "description": "claude plugin for product managers"
     },
     {
       "name": "rajjjaryan--career-copilot",
@@ -23409,6 +23439,11 @@
       "description": "Persist and restore AI coding assistant sessions (Claude Code, OpenCode, Codex CLI) across tmux restarts"
     },
     {
+      "name": "cparsell--sidenotes",
+      "source": "./cparsell--sidenotes",
+      "description": "Obsidian Sidenotes - a CSS snippet and a plugin that handles some things CSS can't"
+    },
+    {
       "name": "skywind3000--gamesample",
       "source": "./skywind3000--gamesample",
       "description": "Game Samples for GameLib"
@@ -23579,6 +23614,21 @@
       "description": "Trustbook \u662f\u4e00\u4e2a\u8f7b\u91cf\u7ea7\u5e73\u53f0,AI \u667a\u80fd\u4f53\u53ef\u4ee5\u5728\u60a8\u81ea\u5df1\u7684\u57fa\u7840\u8bbe\u65bd\u4e0a\u53d1\u5e03\u3001\u8ba8\u8bba\u548c @\u63d0\u53ca\u5f7c\u6b64\u3002\u53d7 Moltbook \u542f\u53d1,\u4e13\u4e3a\u81ea\u6258\u7ba1\u800c\u6784\u5efa\uff0c\u672c\u9879\u76ee\u57fa\u4e8e minibook\uff0c\u589e\u52a0\u4e86 agent \u4fe1\u4efb\u76f8\u5173\u5185\u5bb9"
     },
     {
+      "name": "daleseo--korean-skills",
+      "source": "./daleseo--korean-skills",
+      "description": "\ud83c\uddf0\ud83c\uddf7 Korean language skills for AI agents"
+    },
+    {
+      "name": "is-xiaoen--campushub",
+      "source": "./is-xiaoen--campushub",
+      "description": "\u57fa\u4e8e go-zero \u5fae\u670d\u52a1\u6846\u67b6\u6784\u5efa\u7684\u6821\u56ed\u6d3b\u52a8\u7ba1\u7406\u5e73\u53f0"
+    },
+    {
+      "name": "daltskin--vscode-sysml-extension",
+      "source": "./daltskin--vscode-sysml-extension",
+      "description": "SysML v2 extension for VS Code"
+    },
+    {
       "name": "inureyes--gyeol",
       "source": "./inureyes--gyeol",
       "description": "gyeol"
@@ -23742,6 +23792,11 @@
       "name": "lucifer1004--typub",
       "source": "./lucifer1004--typub",
       "description": "Typub - A Typst-first local CMS"
+    },
+    {
+      "name": "opencom-org--opencom",
+      "source": "./opencom-org--opencom",
+      "description": "Monorepo for Opencom - Open Source customer engagement platform. Self-host or use the hosted version. "
     },
     {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
@@ -23932,6 +23987,11 @@
       "name": "fluidinference--text-processing-rs",
       "source": "./fluidinference--text-processing-rs",
       "description": "Rust port of NVIDIA NeMo Text Processing for Inverse Text Normalization"
+    },
+    {
+      "name": "sstark97--dev-sweep",
+      "source": "./sstark97--dev-sweep",
+      "description": "CLI app to clean up your device for any trash data"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -24132,6 +24192,21 @@
       "name": "default-anton--pi-finder",
       "source": "./default-anton--pi-finder",
       "description": "pi-finder"
+    },
+    {
+      "name": "jonnyzzz--mcp-steroid",
+      "source": "./jonnyzzz--mcp-steroid",
+      "description": "MCP Steroid IntelliJ Plugin project page"
+    },
+    {
+      "name": "fersaiyan--alternative-heycyan-app-and-sdk",
+      "source": "./fersaiyan--alternative-heycyan-app-and-sdk",
+      "description": "This repo is focused on an alternative HeyCyan app and SDK, since other repos dont have android versions that compile successfully"
+    },
+    {
+      "name": "magicseek--nblm",
+      "source": "./magicseek--nblm",
+      "description": "Yet another awesome NotebookLM driver for Claude Code, Codex, OpenCode, Antigravity & more."
     },
     {
       "name": "mulhamna--jira-commands",
@@ -24634,6 +24709,26 @@
       "description": "AI project management for solo agentic development. Persistent memory, expert plan validation, automated code review, and structured workflows \u2014   powered by a knowledge graph. Works with OpenCode and"
     },
     {
+      "name": "doiiarx--koishi-plugin-opencode",
+      "source": "./doiiarx--koishi-plugin-opencode",
+      "description": "OpenCode SDK Koishi \u63d2\u4ef6"
+    },
+    {
+      "name": "zyphrzero--termy",
+      "source": "./zyphrzero--termy",
+      "description": "A terminal emulator plugin for Obsidian"
+    },
+    {
+      "name": "danvei233--xiaoheifs",
+      "source": "./danvei233--xiaoheifs",
+      "description": "\u5c0f\u9ed1\u4e91\u4e3b\u673a\u81ea\u52a8\u5316\u8d22\u52a1\u7cfb\u7edf"
+    },
+    {
+      "name": "basecamp--basecamp-sdk",
+      "source": "./basecamp--basecamp-sdk",
+      "description": "Basecamp software dev kit"
+    },
+    {
       "name": "khangbdd--phoenix",
       "source": "./khangbdd--phoenix",
       "description": "phoenix"
@@ -24832,6 +24927,26 @@
       "name": "gabrielscr--code-agents",
       "source": "./gabrielscr--code-agents",
       "description": "code-agents"
+    },
+    {
+      "name": "semkoo--niko-table-registry",
+      "source": "./semkoo--niko-table-registry",
+      "description": "A comprehensive, production-ready DataTable component built with TanStack Table and Shadcn UI. Copy the code into your project, customize it to your needs, and ship with confidence."
+    },
+    {
+      "name": "luoandorder--todoist-rs",
+      "source": "./luoandorder--todoist-rs",
+      "description": "todoist-rs"
+    },
+    {
+      "name": "nirholas--bnbchain-mcp",
+      "source": "./nirholas--bnbchain-mcp",
+      "description": "Developer tools for AI crypto agents  \ud83d\udee0\ufe0f Build apps with DeFi trading, DEX swaps, smart contract deployment, token operations, staking, bridging, wallet automation, honeypot detection, security analys"
+    },
+    {
+      "name": "anthonyronning--sage",
+      "source": "./anthonyronning--sage",
+      "description": "sage"
     },
     {
       "name": "10xchengtu--mux0",
@@ -25379,6 +25494,26 @@
       "description": "Simple json parser"
     },
     {
+      "name": "shimayuz--note-com-mcp",
+      "source": "./shimayuz--note-com-mcp",
+      "description": "note.com\u7528MCP\u30b5\u30fc\u30d0\u30fc(\u79fb\u884c\u6e08)"
+    },
+    {
+      "name": "empathic--clash",
+      "source": "./empathic--clash",
+      "description": "Command Line Agent Safety Harness. Stop babysitting your agents, go touch grass."
+    },
+    {
+      "name": "nirholas--boosty",
+      "source": "./nirholas--boosty",
+      "description": "All-in-One Solana + EVM Volume Booster with a built-in Volume Bot and Deployer.  [WIP]"
+    },
+    {
+      "name": "nvandessel--floop",
+      "source": "./nvandessel--floop",
+      "description": "Spreading activation memory for AI coding agents - corrections in, context-aware behaviors out."
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -25632,6 +25767,16 @@
       "name": "dsscaze--caze-tools",
       "source": "./dsscaze--caze-tools",
       "description": "caze-tools"
+    },
+    {
+      "name": "eight-acres-lab--openmelon",
+      "source": "./eight-acres-lab--openmelon",
+      "description": "A content-creation agent runtime for reproducible multimodal production \u2014 projects, workflows, skills, provenance."
+    },
+    {
+      "name": "cleak--tea-leaves",
+      "source": "./cleak--tea-leaves",
+      "description": "tea-leaves"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -25939,6 +26084,11 @@
       "description": "Secure agent execution service for term-challenge via Basilica"
     },
     {
+      "name": "perfgo--perfgo",
+      "source": "./perfgo--perfgo",
+      "description": "A CLI tool for running and profiling Go benchmark with Linux `perf` integration"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "source": "./lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill"
@@ -26169,6 +26319,21 @@
       "description": "RSS Reader with just a touch of AI"
     },
     {
+      "name": "default-anton--pi-subdir-context",
+      "source": "./default-anton--pi-subdir-context",
+      "description": "Automatically load AGENTS.md context from subdirectories in pi coding agent"
+    },
+    {
+      "name": "ce0alex--skill-hunter",
+      "source": "./ce0alex--skill-hunter",
+      "description": "Agent skill to analyze a repo and recommend a best-fit skill stack with verified sources"
+    },
+    {
+      "name": "hackers-pub--android",
+      "source": "./hackers-pub--android",
+      "description": "Android client for Hackers' Pub"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -26392,6 +26557,36 @@
       "name": "socketry--protocol-url",
       "source": "./socketry--protocol-url",
       "description": "protocol-url"
+    },
+    {
+      "name": "damien-schneider--echo",
+      "source": "./damien-schneider--echo",
+      "description": "Echo is a free, offline, extensible speech\u2011to\u2011text app built with Tauri."
+    },
+    {
+      "name": "houarnu166--skillful-agent-system-builder",
+      "source": "./houarnu166--skillful-agent-system-builder",
+      "description": "Skillful Agent System Builder helps you create custom AI agent teams without writing complex prompts from scratch."
+    },
+    {
+      "name": "maxprain12--dome",
+      "source": "./maxprain12--dome",
+      "description": "dome"
+    },
+    {
+      "name": "merozemory--oh-my-droid",
+      "source": "./merozemory--oh-my-droid",
+      "description": "Multi-agent orchestration plugin for Factory AI Droid CLI. 32 droids, 35+ skills, autopilot & ultrawork modes. Based on oh-my-claudecode."
+    },
+    {
+      "name": "yibie--project-nodal",
+      "source": "./yibie--project-nodal",
+      "description": "A local-first, infinite canvas that turns linear AI chats into a spatial knowledge graph."
+    },
+    {
+      "name": "msitarzewski--oneye",
+      "source": "./msitarzewski--oneye",
+      "description": "oneye exists because live video should not require permission. No sign-up forms. No terms of service. No content moderation team in a corporate office deciding what counts as news. You open a browser,"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -26637,6 +26832,41 @@
       "name": "nicia-ai--typegraph",
       "source": "./nicia-ai--typegraph",
       "description": "The Knowledge Graph for TypeScript"
+    },
+    {
+      "name": "dicklesworthstone--vibe-cockpit",
+      "source": "./dicklesworthstone--vibe-cockpit",
+      "description": "Real-time monitoring dashboard for AI coding agent fleets: session health, output streaming, and observability across Claude, Codex, and Gemini"
+    },
+    {
+      "name": "cjtrowbridge--agents",
+      "source": "./cjtrowbridge--agents",
+      "description": "A set of constraints for a self-evolving agentic system that will work on any LLM."
+    },
+    {
+      "name": "localstack--lstk",
+      "source": "./localstack--lstk",
+      "description": " \ud83d\udc7e lstk is a command-line interface for LocalStack built in Go with a modern terminal Ul, and native CLI experience for managing and interacting with LocalStack deployments."
+    },
+    {
+      "name": "islee23520--open-sidebar-terminal",
+      "source": "./islee23520--open-sidebar-terminal",
+      "description": "Automatically render OpenCode TUI in VS Code sidebar with full terminal support"
+    },
+    {
+      "name": "hua-bang--pulse-agent",
+      "source": "./hua-bang--pulse-agent",
+      "description": "A repo about coding agent."
+    },
+    {
+      "name": "nirholas--gitpretty",
+      "source": "./nirholas--gitpretty",
+      "description": "\ud83c\udfa8 Add unique emoji commits to every file in a repository"
+    },
+    {
+      "name": "erikshestopal--effect-inngest",
+      "source": "./erikshestopal--effect-inngest",
+      "description": "Build durable, type-safe workflows with Effect and Inngest"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -26914,6 +27144,31 @@
       "description": "A multi-agent workflow for genetics-informed health optimization, designed for use with Coding Agents."
     },
     {
+      "name": "crislerwin--go-clean-api",
+      "source": "./crislerwin--go-clean-api",
+      "description": "go-clean-api"
+    },
+    {
+      "name": "r9s-ai--open-next-router",
+      "source": "./r9s-ai--open-next-router",
+      "description": "A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels"
+    },
+    {
+      "name": "nirholas--g1t",
+      "source": "./nirholas--g1t",
+      "description": "g1t"
+    },
+    {
+      "name": "marktoflow--marktoflow",
+      "source": "./marktoflow--marktoflow",
+      "description": "Automation frameworks shouldn't fight you. Marktoflow is CLI-native automation with the power of AI agents. Write workflows in markdown+YAML, execute with Claude Code,    GitHub Copilot, Codex, or Ope"
+    },
+    {
+      "name": "emerge-elixir--emerge",
+      "source": "./emerge-elixir--emerge",
+      "description": "Elxir UI toolkit that runs natively, backed by rust and skia"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -27172,6 +27427,16 @@
       "name": "digitarald--chatarald",
       "source": "./digitarald--chatarald",
       "description": "chatarald"
+    },
+    {
+      "name": "ankushthakur2007--miyami-websearch-mcp",
+      "source": "./ankushthakur2007--miyami-websearch-mcp",
+      "description": "A production-ready FastAPI wrapper for SearXNG that provides LLM-friendly search and web content extraction capabilities."
+    },
+    {
+      "name": "btucker--midtown",
+      "source": "./btucker--midtown",
+      "description": "A human-scale interface for multi-agent development"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -27777,6 +28042,16 @@
       "name": "awslabs--bedrock-agentcore-samples-typescript",
       "source": "./awslabs--bedrock-agentcore-samples-typescript",
       "description": "bedrock-agentcore-samples-typescript"
+    },
+    {
+      "name": "tanaikech--filesearchstore-extension",
+      "source": "./tanaikech--filesearchstore-extension",
+      "description": "This repository introduces a Gemini CLI extension that integrates File Search feature. This tool provides a fully managed Retrieval-Augmented Generation (RAG) system directly in your command line, ena"
+    },
+    {
+      "name": "gaia-agent--gaia-agent",
+      "source": "./gaia-agent--gaia-agent",
+      "description": "GAIA-benchmark-ready super agent built on AI SDK v6 ToolLoopAgent"
     },
     {
       "name": "vm--nila-code",
@@ -28412,6 +28687,21 @@
       "name": "paddlepaddle--paddlefleet",
       "source": "./paddlepaddle--paddlefleet",
       "description": "Core Functional Library for Distributed Training"
+    },
+    {
+      "name": "duongductrong--cursor-kit",
+      "source": "./duongductrong--cursor-kit",
+      "description": "Supercharge your Cursor/AI IDE with rules, commands, and skills"
+    },
+    {
+      "name": "duongductrong--cursor-kit",
+      "source": "./duongductrong--cursor-kit",
+      "description": "Supercharge your Cursor/AI IDE with rules, commands, and skills"
+    },
+    {
+      "name": "raff-dev--goose",
+      "source": "./raff-dev--goose",
+      "description": "Goose is a Python library for comprehensive, repeatable testing of LLM agents and their tools through conversational scenarios, with a built-in UI for visualization."
     },
     {
       "name": "mohiwalla--memes",
@@ -30532,6 +30822,21 @@
       "name": "luckythecookie--fittrack",
       "source": "./luckythecookie--fittrack",
       "description": "FitTrack"
+    },
+    {
+      "name": "missdeer--gemini-mcp-rs",
+      "source": "./missdeer--gemini-mcp-rs",
+      "description": "Gemini-MCP-rs is an MCP server that encapsulates Google's Gemini CLI tool into a standard MCP protocol interface, enabling Claude Code to invoke Gemini for AI-assisted programming tasks. "
+    },
+    {
+      "name": "wm4n--nano-banana-prompt",
+      "source": "./wm4n--nano-banana-prompt",
+      "description": "Collections of Nano Banana Prompts"
+    },
+    {
+      "name": "sapientcoffee--scribe",
+      "source": "./sapientcoffee--scribe",
+      "description": "Scribe is a Gemini CLI extension that facilitates a professional, multi-stage documentation pipeline (Research \u2192 Plan \u2192 Draft \u2192 Review \u2192 Polish). Ideally suited for creating PRDs,   Whitepapers, and T"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -36647,6 +36952,16 @@
       "name": "tobert--kaish",
       "source": "./tobert--kaish",
       "description": "\u4f1ash \u2014 A Bourne-lite shell for agents"
+    },
+    {
+      "name": "mgifford--contrast-plus",
+      "source": "./mgifford--contrast-plus",
+      "description": "A color contrast checker that supports WCAG 2, APCA & Focus Colors"
+    },
+    {
+      "name": "kellerlabs--homeracker-community",
+      "source": "./kellerlabs--homeracker-community",
+      "description": "The official Community repository for opensource homeracker contributions."
     },
     {
       "name": "loiane--specs-driven-development",
@@ -115002,6 +115317,236 @@
       "name": "ldodlapaycor--aitrail-exampleapp",
       "source": "./ldodlapaycor--aitrail-exampleapp",
       "description": "AITrail.ExampleApp"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "smooshzignal--administracion-omaja-v2",
+      "source": "./smooshzignal--administracion-omaja-v2",
+      "description": "Administracion-OMAJA-V2"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "jp18090--portifolio",
+      "source": "./jp18090--portifolio",
+      "description": "Portifolio"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
+    },
+    {
+      "name": "petrokov--armal",
+      "source": "./petrokov--armal",
+      "description": "Armal"
     },
     {
       "name": "petrokov--armal",
