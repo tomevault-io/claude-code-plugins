@@ -1,13 +1,13 @@
-# ucp-docker-compose-yaml
+# ucp-docker-compose-yml
 
-> docker-compose.yaml - portas, volumes, saúde e rede segura
+> docker-compose.yml - portas, volumes, saúde e rede segura
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ucp-docker-compose-yaml/SKILL.md
+Read and follow the instructions in .claude/skills/ucp-docker-compose-yml/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,7 +15,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 # Docker Compose UCP
 
-Ao editar `docker-compose*.yaml`:
+Ao editar `docker-compose*.yml`:
 
 - Não expor segredos em `environment`/`volumes` no repositório; use `env_file` e/ou `.env` fora do commit.
 - Defina `healthcheck` quando houver dependências (DB, Supabase, serviços externos).
