@@ -7,12 +7,12 @@ locally hosted neural net chat framework with biomimetic RAG (cc0) (by luna+ada)
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [luna-system/ada](https://github.com/luna-system/ada).
+Original source: `AGENTS.md` in [luna-system/ada](https://github.com/luna-system/ada).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
