@@ -1,0 +1,41 @@
+# docker-infra
+
+> - docker/base.Dockerfile: shared base (l4t-pytorch, uv, ffmpeg)
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/docker-infra/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Docker and Infrastructure
+
+## Docker Setup
+- docker/base.Dockerfile: shared base (l4t-pytorch, uv, ffmpeg)
+- docker/reconstruction.Dockerfile: adds mast3r, croco extensions, gradio
+- docker/tracking.Dockerfile: adds VPI (NVIDIA Vision Programming Interface)
+- docker/docker-compose.yml: multi-service (reconstruction + tracking)
+
+## Target Hardware
+- NVIDIA Jetson (tested on Jetson Nano)
+- Base image: dustynv/l4t-pytorch:r36.4.0
+- NVIDIA runtime with GPU access
+
+## Build Commands
+- make docker-build: build all images
+- make docker-build-reconstruction: build reconstruction only
+- make docker-build-tracking: build tracking only
+- make docker-up / make docker-down: start/stop services
+
+## Important
+- Non-root user (app_user, uid 1000) for security
+- Volumes mount src/, assets/, checkpoints/ for development
+- PYTHONPATH must include mast3r and mast3r/dust3r for reconstruction
+
+---
+> Source: [estebanfoucher/Sail-CV](https://github.com/estebanfoucher/Sail-CV) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-02 -->
