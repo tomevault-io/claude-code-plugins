@@ -1,4 +1,4 @@
-# harness-skills
+# harness
 
 > Use when a user wants to deploy a new service to Harness. Follow this exact order:
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/harness-skills/SKILL.md
+Read and follow the instructions in .claude/skills/harness/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
