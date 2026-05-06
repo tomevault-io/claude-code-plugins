@@ -1,27 +1,29 @@
-# ucp-docker-compose-yml
+# ucp-docker
 
-> docker-compose.yml - portas, volumes, saúde e rede segura
+> Boas práticas para Docker/Docker Compose no projeto
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ucp-docker-compose-yml/SKILL.md
+Read and follow the instructions in .claude/skills/ucp-docker/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Docker Compose UCP
+# Docker UCP
 
-Ao editar `docker-compose*.yml`:
+Ao trabalhar com `Dockerfile` e `docker-compose.yml` (ou quando o pedido mencionar Docker/containers), priorize:
 
-- Não expor segredos em `environment`/`volumes` no repositório; use `env_file` e/ou `.env` fora do commit.
-- Defina `healthcheck` quando houver dependências (DB, Supabase, serviços externos).
-- Use `restart` coerente com criticidade e evite loops sem saída.
-- Atribua `networks`/isolamento quando fizer sentido para reduzir superfície.
-- Fixe versões de imagens e evite `latest`.
+- Segurança de build: use imagens base oficiais e mantenha tags específicas (evite `latest`).
+- Privilégios: rode como usuário não-root quando possível.
+- Multi-stage build: minimize tamanho final e tempo de build.
+- Segredos: nunca embuta tokens/chaves no Dockerfile; use `env var`/`secrets` do ambiente.
+- Configuração: mantenha `PORT`, `TZ` e variáveis sensíveis fora do repositório.
+- Persistência: defina volumes para dados necessários (ex.: Postgres, Supabase, n8n).
+- Saúde e resiliência: inclua `healthcheck` e estratégias de restart adequadas.
 
 ---
 > Source: [walkup-tec/waba](https://github.com/walkup-tec/waba) — distributed by [TomeVault](https://tomevault.io).
