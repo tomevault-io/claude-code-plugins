@@ -7,14 +7,14 @@ A high-performance Python SDK for the ProjectX Trading Platform Gateway API. Thi
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [TexasCoding/project-x-py](https://github.com/TexasCoding/project-x-py).
+Original source: `GEMINI.md` in [TexasCoding/project-x-py](https://github.com/TexasCoding/project-x-py).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Gemini CLI** — `GEMINI.md`
+- **Cursor** — `project-config.mdc`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/TexasCoding/project-x-py](https://github.com/TexasCoding/project-x-py)
