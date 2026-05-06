@@ -1,34 +1,31 @@
-# 20-security-privacy
+# 30-testing
 
-> USE WHEN: handling auth, secrets, PII, input validation, or security-sensitive code.
+> USE WHEN: adding or changing behavior. Test-first loop.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/20-security-privacy/SKILL.md
+Read and follow the instructions in .claude/skills/30-testing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Security & Privacy Rules
+# Testing Rules
 
-## Secrets & Credentials
-- Never hard‑code API keys, passwords, or tokens.
-- Use environment variables or secret managers.
+## Test-First Loop
+1. Write failing test
+2. Implement until green
+3. Refactor (tests stay green)
 
-## Input Validation
-- Validate all external input (Zod/Pydantic or equivalent).
-- Reject/normalize unexpected fields.
+## Verification
+- Run lint → typecheck → tests
+- State what’s not run and why
 
-## Logging
-- Never log PII or secrets.
-- Scrub sensitive values before logging.
-
-## Safety Stops
-- If a change can cause data loss or a breaking change, stop and ask.
+## Guard Clauses
+- Prefer early returns to reduce nesting and complexity
 
 ---
 > Source: [zoxknez/ai-coding-rules](https://github.com/zoxknez/ai-coding-rules) — distributed by [TomeVault](https://tomevault.io).
