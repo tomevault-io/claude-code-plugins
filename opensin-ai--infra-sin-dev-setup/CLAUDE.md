@@ -1,0 +1,27 @@
+# infra-sin-dev-setup
+
+> When modifying this repo:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/infra-sin-dev-setup/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Boundary Guidance for Agents
+
+When modifying this repo:
+
+- Prefer stable setup and environment standard work.
+- Keep claims scoped to setup guidance, not whole-platform ownership.
+- Do not redefine onboarding, product, ops, docs, or config canon from here.
+
+---
+> Source: [OpenSIN-AI/Infra-SIN-Dev-Setup](https://github.com/OpenSIN-AI/Infra-SIN-Dev-Setup) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-03 -->
