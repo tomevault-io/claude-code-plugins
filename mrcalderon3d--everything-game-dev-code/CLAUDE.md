@@ -1,29 +1,23 @@
-# 00-project-context
+# 01-engine-isolation
 
-> Game-development scaffold context for this repository.
+> Prevent Unity, Unreal, and Godot guidance from contaminating each other.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/00-project-context/SKILL.md
+Read and follow the instructions in .claude/skills/01-engine-isolation/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-You are working in a game-development agent scaffold.
+Engine isolation is mandatory.
 
-Use these shared layers as the source of truth:
-- `rules/`
-- `agents/`
-- `commands/`
-- `skills/`
-- `contexts/`
-- `hooks/`
-
-Prefer the named command, skill, and agent files over inventing new workflow structures.
+- Use `rules/common/` first.
+- Then use exactly one engine layer for implementation: `rules/unity/`, `rules/unreal/`, or `rules/godot/`.
+- Only compare engines in research contexts. Do not mix their implementation advice in production tasks.
 
 ---
 > Source: [MRCalderon3D/everything-game-dev-code](https://github.com/MRCalderon3D/everything-game-dev-code) — distributed by [TomeVault](https://tomevault.io).
