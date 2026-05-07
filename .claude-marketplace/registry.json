@@ -13764,6 +13764,11 @@
       "description": "ai-first-workspace-template"
     },
     {
+      "name": "azure-samples--apim-samples",
+      "source": "./azure-samples--apim-samples",
+      "description": "This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures."
+    },
+    {
       "name": "epicweb-dev--epicflare",
       "source": "./epicweb-dev--epicflare",
       "description": "A starter and reference for building full-stack web applications on Cloudflare Workers"
@@ -17004,6 +17009,11 @@
       "description": "Seamlessly log your AI-powered coding conversations. This command-line interface (CLI) tool captures your terminal   interactions with AI models like Gemini and Claude, saving entire sessions as clean"
     },
     {
+      "name": "rindevjunior--matterbridge-roborock-vacuum-plugin",
+      "source": "./rindevjunior--matterbridge-roborock-vacuum-plugin",
+      "description": "A Matterbridge plugin to bring my roborock vacuum to Apple Home"
+    },
+    {
       "name": "cyw0ng95--sqlfuse",
       "source": "./cyw0ng95--sqlfuse",
       "description": "Another SQL fuzzing tool, like SQLSmith"
@@ -17694,6 +17704,11 @@
       "description": "A Model Context Protocol server for Go developers"
     },
     {
+      "name": "ruiromano--pbip-demo",
+      "source": "./ruiromano--pbip-demo",
+      "description": "pbip-demo"
+    },
+    {
       "name": "ursushoribilismusic--agentic-fleet-hub",
       "source": "./ursushoribilismusic--agentic-fleet-hub",
       "description": "Self-hosted orchestration layer for autonomous AI agent teams. Shared memory, heartbeat scheduling, vault-first secrets, and cross-model peer review \u2014 one command to deploy."
@@ -18304,6 +18319,11 @@
       "description": "Modern Laravel SaaS starter kit with Vue 3, TypeScript, Inertia.js, and shadcn/ui - built for rapid SaaS    development"
     },
     {
+      "name": "minbzk--mijn-bureau-infra",
+      "source": "./minbzk--mijn-bureau-infra",
+      "description": "A secure & autonomous easy to install collaboration suite for everyone"
+    },
+    {
       "name": "asakin--llm-context-base",
       "source": "./asakin--llm-context-base",
       "description": "A git template for building your own LLM-powered personal wiki. Training period, metadata standard, lint system included. Clone and go."
@@ -18532,6 +18552,11 @@
       "name": "mattpocock--ai-hero-cli",
       "source": "./mattpocock--ai-hero-cli",
       "description": "ai-hero-cli"
+    },
+    {
+      "name": "ai-dynamo--modelexpress",
+      "source": "./ai-dynamo--modelexpress",
+      "description": "Model Express is a Rust-based component meant to be placed next to existing model inference systems to speed up their startup times and improve overall performance."
     },
     {
       "name": "copilot-community-sdk--copilot-sdk-java",
@@ -21314,6 +21339,11 @@
       "description": "Sample for context-aware Agentic RaG, Q&A with multi-source verification, and self-curating knowledge base. Powered by Azure AI Foundry Agent Service, Azure AI Search with agentic retrieval and query "
     },
     {
+      "name": "thalesgroup--fred",
+      "source": "./thalesgroup--fred",
+      "description": "the UI and agentic backend of the fred innovation track"
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -21802,6 +21832,11 @@
       "name": "tomer-w--victron-mqtt",
       "source": "./tomer-w--victron-mqtt",
       "description": "Victron Venus MQTT client library documentation"
+    },
+    {
+      "name": "wsj-br--duplistatus",
+      "source": "./wsj-br--duplistatus",
+      "description": "Web dashboard for monitoring Duplicati backups with overdue alerts, notifications, and backup logging."
     },
     {
       "name": "mylxsw--llm-gateway",
@@ -22452,6 +22487,11 @@
       "name": "knifmelti--wau-settings-gui",
       "source": "./knifmelti--wau-settings-gui",
       "description": "Provides a user-friendly portable standalone interface to modify every aspect of Winget-AutoUpdate (WAU)"
+    },
+    {
+      "name": "onnx--ir-py",
+      "source": "./onnx--ir-py",
+      "description": "Efficient in-memory representation for ONNX, in Python"
     },
     {
       "name": "izittmarvin--memcoach",
@@ -25734,6 +25774,11 @@
       "description": "gmail-reader"
     },
     {
+      "name": "thunder-compute--thunder-cli",
+      "source": "./thunder-compute--thunder-cli",
+      "description": "Official CLI of Thunder Compute"
+    },
+    {
       "name": "inureyes--gyeol",
       "source": "./inureyes--gyeol",
       "description": "gyeol"
@@ -26349,6 +26394,11 @@
       "description": "Paper-first SPY options validation platform with broker-backed scorecards, hard risk gates, paired-trade accounting, and live dashboards."
     },
     {
+      "name": "igorganapolsky--trading",
+      "source": "./igorganapolsky--trading",
+      "description": "Paper-first SPY options validation platform with broker-backed scorecards, hard risk gates, paired-trade accounting, and live dashboards."
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -26687,6 +26737,11 @@
       "name": "microsoft--gitagu",
       "source": "./microsoft--gitagu",
       "description": "GitAGU (Git Agent Unblock) - A centralized platform for discovering, configuring, and integrating AI agents into your development workflow. Simplifies AI adoption across the entire Software Developmen"
+    },
+    {
+      "name": "dimillian--diablo2d",
+      "source": "./dimillian--diablo2d",
+      "description": "A Diablo like built with Love2D"
     },
     {
       "name": "mulhamna--jira-commands",
@@ -27634,6 +27689,16 @@
       "description": "AI-powered desktop toolbox for Unreal Engine developers with multi-model LLM, Function Calling, and real-time UE editor communication"
     },
     {
+      "name": "goodboy008--r-shell",
+      "source": "./goodboy008--r-shell",
+      "description": "\ud83d\ude80  Lightweight open-source SSH/SFTP/FTP client built with Rust & Tauri 2. Only ~34 MB memory. Installer under 10 MB . Split terminals, SFTP, GPU monitoring. macOS/Windows/Linux."
+    },
+    {
+      "name": "roberthsu2003----2025-11-01-tvdi-python-crawel",
+      "source": "./roberthsu2003----2025-11-01-tvdi-python-crawel",
+      "description": "\u8077\u80fd\u767c\u5c55\u5b78\u96622025,\u8996\u7a97\u7db2\u8def\u722c\u87f2\u73ed"
+    },
+    {
       "name": "10xchengtu--mux0",
       "source": "./10xchengtu--mux0",
       "description": "MUX0"
@@ -28554,6 +28619,11 @@
       "description": "A TUI to explore Pester results."
     },
     {
+      "name": "leegonzales--aiskills",
+      "source": "./leegonzales--aiskills",
+      "description": "Skills to pay the AI bills"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -28972,6 +29042,11 @@
       "name": "anycode-ade--anycode",
       "source": "./anycode-ade--anycode",
       "description": "anycode"
+    },
+    {
+      "name": "pssah4--digital-innovation-agents",
+      "source": "./pssah4--digital-innovation-agents",
+      "description": "digital-innovation-agents"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -30109,6 +30184,126 @@
       "description": "A website to find the right developer that you need in your company"
     },
     {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "kushview--retuner",
+      "source": "./kushview--retuner",
+      "description": "reTuner pitch shifter"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
+      "name": "ht3aa--find-developer",
+      "source": "./ht3aa--find-developer",
+      "description": "A website to find the right developer that you need in your company"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -30554,6 +30749,11 @@
       "description": "Faststrap is a component-based extension for FastHTML that provides reusable UI elements (cards, modals, toasts, drawers, navbars, grids, etc.) using lightweight Bootstrap styling. Fully customizable,"
     },
     {
+      "name": "uburuntu--telegram-toolset",
+      "source": "./uburuntu--telegram-toolset",
+      "description": "Download deleted messages and send them again"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -30989,6 +31189,26 @@
       "description": "MaaEnd \u7ec8\u672b\u5730\u5c0f\u52a9\u624b - \u5b98\u65b9\u7f51\u7ad9"
     },
     {
+      "name": "geograms--geogram",
+      "source": "./geograms--geogram",
+      "description": "Run geogram on Linux, Android, Windows, OSX, iOS and Web"
+    },
+    {
+      "name": "moazsalem--jellyfin-renamer",
+      "source": "./moazsalem--jellyfin-renamer",
+      "description": "A command-line tool for renaming jellyfin media libraries."
+    },
+    {
+      "name": "maxmiksa--obsidian-hover-annotations",
+      "source": "./maxmiksa--obsidian-hover-annotations",
+      "description": "Instantly display annotations, comments, or notes on mouse hover and automatically hide them on mouse out."
+    },
+    {
+      "name": "patrykiti--blender-ai-mcp",
+      "source": "./patrykiti--blender-ai-mcp",
+      "description": "Production-shaped MCP server for Blender with goal-first routing, curated tools, deterministic verification, and vision-assisted 3D modeling workflows."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -31397,6 +31617,21 @@
       "name": "maker-community--piwifiap",
       "source": "./maker-community--piwifiap",
       "description": "PiWiFiAP is a .NET 10 solution for Raspberry Pi that enables users to easily configure WiFi via an AP hotspot and QR code. When offline, the device starts an access point, displays a QR code, and serv"
+    },
+    {
+      "name": "dsimunic--elm-wrap",
+      "source": "./dsimunic--elm-wrap",
+      "description": "Elm code management"
+    },
+    {
+      "name": "silvabyte--audetic",
+      "source": "./silvabyte--audetic",
+      "description": "Audetic"
+    },
+    {
+      "name": "ryo-manba--md-review",
+      "source": "./ryo-manba--md-review",
+      "description": "CLI tool for reviewing Markdown files with inline comments"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -31837,6 +32072,16 @@
       "name": "jimmylv--bill-tracker",
       "source": "./jimmylv--bill-tracker",
       "description": "\u3010\u65b0\u624b\u5411\u3011AI \u7f16\u7a0b\u4ece 0 \u5230 3\uff1a\u4e00\u5957\u4ee3\u7801\u5f00\u53d1 Web\u3001iOS\u3001\u5b89\u5353\u4e09\u7aef APP & InsForge MCP \u540e\u7aef\u6570\u636e\u5e93\u3001\u7528\u6237\u6388\u6743"
+    },
+    {
+      "name": "luno--luno-mcp",
+      "source": "./luno--luno-mcp",
+      "description": "MCP Server for the Luno Cryptocurrency API"
+    },
+    {
+      "name": "imaimai17468--docdd",
+      "source": "./imaimai17468--docdd",
+      "description": "Document Drivien Development"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -32419,6 +32664,11 @@
       "description": "Elixir full-text search engine powered by Tantivy Rust library"
     },
     {
+      "name": "capitaloperator0311--saleor",
+      "source": "./capitaloperator0311--saleor",
+      "description": "Saleor Core: the high performance, composable, headless commerce API."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -32917,6 +33167,21 @@
       "name": "abraham--mastodon-openapi",
       "source": "./abraham--mastodon-openapi",
       "description": "Mastodon API OpenAPI spec parsed from the Mastodon docs."
+    },
+    {
+      "name": "halluminate--westworld",
+      "source": "./halluminate--westworld",
+      "description": "westworld"
+    },
+    {
+      "name": "layerx-oss--slack-blockbook",
+      "source": "./layerx-oss--slack-blockbook",
+      "description": "Storybook-like preview tool for Slack Block Kit development."
+    },
+    {
+      "name": "bmdavis419--opencode-hosted-docs-nonsense",
+      "source": "./bmdavis419--opencode-hosted-docs-nonsense",
+      "description": "idk man it's funny"
     },
     {
       "name": "vm--nila-code",
@@ -33447,6 +33712,21 @@
       "name": "1bye--apiser",
       "source": "./1bye--apiser",
       "description": "Collection of fully-typed tools to work in back-end with ease. (WIP) "
+    },
+    {
+      "name": "haijiangxu--exds-web",
+      "source": "./haijiangxu--exds-web",
+      "description": "\u7535\u529b\u4ea4\u6613\u8f85\u52a9\u51b3\u7b56\u7cfb\u7edfWEB\u7aef\u5e94\u7528"
+    },
+    {
+      "name": "maestroagent--maestro",
+      "source": "./maestroagent--maestro",
+      "description": "Multi-agent orchestration platform. Deploy any AI agent to any interface."
+    },
+    {
+      "name": "estebanforge--mcp-cli-ent",
+      "source": "./estebanforge--mcp-cli-ent",
+      "description": "A context-guardian CLI for MCP servers. It provides access to MCP servers via CLI and returns clean, structured summaries to the AI agent. This prevents context window overflow and preserves the agent"
     },
     {
       "name": "hyaway--hyaway",
@@ -34032,6 +34312,16 @@
       "name": "beycom--onetool-mcp",
       "source": "./beycom--onetool-mcp",
       "description": "\ud83e\uddff One MCP for developers - no tool tax, no context rot. 100+ tools including Brave, Google, Context7, Excalidraw, AWS, Version Checker, Excel, File Ops, Database, Playwright, Chrome DevTools and many "
+    },
+    {
+      "name": "lessup--meta-human",
+      "source": "./lessup--meta-human",
+      "description": "Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready, production-grade AI avatar platform."
+    },
+    {
+      "name": "biohazard786--cursor-theme-vscode",
+      "source": "./biohazard786--cursor-theme-vscode",
+      "description": "A faithful copy of the Cursor AI editor theme, with all three themes i.e. light, dark and midnight."
     },
     {
       "name": "mohiwalla--memes",
@@ -34694,6 +34984,21 @@
       "description": "terminal-based interface to manage virtual machines using libvirt"
     },
     {
+      "name": "nuwa-protocol--x402-exec",
+      "source": "./nuwa-protocol--x402-exec",
+      "description": "x402-exec is a programmable settlement framework for x402 protocol, combining payment verification, Hook-based business logic, and facilitator incentives in atomic transactions."
+    },
+    {
+      "name": "owenlamont--aiomoto",
+      "source": "./owenlamont--aiomoto",
+      "description": "Moto but for aiobotocore / aioboto3 (and sync boto3)."
+    },
+    {
+      "name": "csansoon--grimorium",
+      "source": "./csansoon--grimorium",
+      "description": "grimorium"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -35242,6 +35547,31 @@
       "name": "tv-labs--data-migration",
       "source": "./tv-labs--data-migration",
       "description": "Data Migration runner for Elixir"
+    },
+    {
+      "name": "fxstein--ai-todo",
+      "source": "./fxstein--ai-todo",
+      "description": "AI-native task management for coding agents - Persistent, version-controlled TODO tracking that works naturally with AI agents like OpenClaw, Cursor, Claude, and Copilot"
+    },
+    {
+      "name": "imohuan--vueflow-workflow",
+      "source": "./imohuan--vueflow-workflow",
+      "description": "vueflow-workflow"
+    },
+    {
+      "name": "imohuan--vueflow-workflow",
+      "source": "./imohuan--vueflow-workflow",
+      "description": "vueflow-workflow"
+    },
+    {
+      "name": "imohuan--vueflow-workflow",
+      "source": "./imohuan--vueflow-workflow",
+      "description": "vueflow-workflow"
+    },
+    {
+      "name": "holgern--pydrime",
+      "source": "./holgern--pydrime",
+      "description": "PyDrime is a Python command-line tool and API client for uploading, downloading, and managing files on Drime Cloud."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -35857,6 +36187,31 @@
       "name": "mofalkmusic--megacollab",
       "source": "./mofalkmusic--megacollab",
       "description": "A little community focused, browser native and lightweight Digital Audio Workstation to create a \"true\" mega-collab."
+    },
+    {
+      "name": "matsonj--ducklake-workshop",
+      "source": "./matsonj--ducklake-workshop",
+      "description": "ducklake-workshop"
+    },
+    {
+      "name": "outlinedriven--odin-codex-plugin",
+      "source": "./outlinedriven--odin-codex-plugin",
+      "description": "Outline-Driven Development for Codex CLI - methodology + skills + agents for OpenAI Codex coding workflows."
+    },
+    {
+      "name": "tlarroucau--ai-workshop",
+      "source": "./tlarroucau--ai-workshop",
+      "description": "ASU Workshop: Git, GitHub, and VS Code - Agentic AI for Project Management and Research Productivity. Complete reproducible research template with data analysis, LaTeX documents, and Makefile automati"
+    },
+    {
+      "name": "carloseguerrasilva--agents-md",
+      "source": "./carloseguerrasilva--agents-md",
+      "description": "AGENTS.md template to improve response structure, reduce input and output tokens, correct normie behavior (this includes vibe coders), improve DX, and provide necessary context for querying project in"
+    },
+    {
+      "name": "bahmutov--cypress-think",
+      "source": "./bahmutov--cypress-think",
+      "description": "Create Cypress tests using your own AI"
     },
     {
       "name": "makenowjust--naraku",
@@ -36992,6 +37347,41 @@
       "name": "maximcoding--react-native-bare-starter",
       "source": "./maximcoding--react-native-bare-starter",
       "description": "Bare React Native starter with TypeScript, feature-first structure, TanStack Query, MMKV, i18n, theming, CI, and offline-ready support."
+    },
+    {
+      "name": "laurentf--bastille-chain",
+      "source": "./laurentf--bastille-chain",
+      "description": "A post-quantum blockchain in Elixir/OTP with \"1789...\" addresses, 14-decimal Bastille tokens, and Blake3 Proof-of-Work mining."
+    },
+    {
+      "name": "aeven-ai--mcp-nanobanana",
+      "source": "./aeven-ai--mcp-nanobanana",
+      "description": "mcp for nano banana using openrouter.ai"
+    },
+    {
+      "name": "opsorch--opsorch-core",
+      "source": "./opsorch--opsorch-core",
+      "description": "OpsOrch Core is a stateless, orchestration layer that unifies incidents, logs, metrics, tickets, and dashboards behind one pluggable API"
+    },
+    {
+      "name": "the-focus-ai--claude-marketplace",
+      "source": "./the-focus-ai--claude-marketplace",
+      "description": "Claude Code marketplace with skills for Focus.AI integration, theming, and development workflows"
+    },
+    {
+      "name": "krissen--output-panel-nvim",
+      "source": "./krissen--output-panel-nvim",
+      "description": "A configurable floating output window for Neovim jobs that combines optional adapters for VimTeX and Overseer with a generic run() API and :Make helper for everything else."
+    },
+    {
+      "name": "jmcrafter26--tridui",
+      "source": "./jmcrafter26--tridui",
+      "description": "Trid UI is a lightweight desktop application that provides a user-friendly interface for TrID, a powerful tool for scanning and analyzing files."
+    },
+    {
+      "name": "woliveiras--dominando-agentes-ia",
+      "source": "./woliveiras--dominando-agentes-ia",
+      "description": "Livro aberto sobre AI Agents para Pessoas Engenheiras de Software focado em Python, LangChain e LangGraph, ChromaDB, SQLite, RAG, Chain of Thought, LLM, privacidade e seguran\u00e7a com modelos locais com "
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -43314,6 +43704,16 @@
       "description": "Modern Android system monitoring app using Jetpack Compose and Rust"
     },
     {
+      "name": "igmarin--rails-ai-bridge",
+      "source": "./igmarin--rails-ai-bridge",
+      "description": "Give AI assistants deep, live knowledge of your Rails app via MCP"
+    },
+    {
+      "name": "kyanitelabs--mcp-video",
+      "source": "./kyanitelabs--mcp-video",
+      "description": "Video editing MCP server for AI agents. 87 FFmpeg and Hyperframes tools, Python client, and CLI. Local, fast, free."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -46709,6 +47109,16 @@
       "description": "Structured skills for reading, writing, and managing academic research with AI agents. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, and more."
     },
     {
+      "name": "realms-cards--contested-realms",
+      "source": "./realms-cards--contested-realms",
+      "description": "Web client for Sorcery: Contested Realm. Play at https://realms.cards"
+    },
+    {
+      "name": "elbruno--elbruno-mempalacenet",
+      "source": "./elbruno--elbruno-mempalacenet",
+      "description": "MemPalace.NET \u2014 local-first AI memory in .NET (port of MemPalace)"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -47392,6 +47802,21 @@
       "name": "dayz-n-chill--agentic-z",
       "source": "./dayz-n-chill--agentic-z",
       "description": "AI Agent Stack for DayZ Modding"
+    },
+    {
+      "name": "xiarongwen--boss-auto-job",
+      "source": "./xiarongwen--boss-auto-job",
+      "description": "\ud83c\udfaf BOSS\u76f4\u8058 skill - \u641c\u7d22+AI\u5339\u914d+\u81ea\u52a8\u6295\u9012 (Camoufox\u9690\u8eab\u6a21\u5f0f)"
+    },
+    {
+      "name": "jeppsontaylor--jankurai",
+      "source": "./jeppsontaylor--jankurai",
+      "description": "Slay repo jank with proof lanes, audit receipts, bounded agents, and no-proof-no-merge governance."
+    },
+    {
+      "name": "hoffmanengineering--3d-print-log-ui",
+      "source": "./hoffmanengineering--3d-print-log-ui",
+      "description": "Angular frontend for 3D Print Log \u2014 a web app for tracking 3D prints, printers, filaments, and print costs."
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -122927,6 +123352,11 @@
       "name": "fedar-piashko-vention--edu-ai-challenge-2026",
       "source": "./fedar-piashko-vention--edu-ai-challenge-2026",
       "description": "AI Challenge 2.0 - vibe coding, prototyping, n8n, MCPing"
+    },
+    {
+      "name": "hppmzn-maker--vgc-itsm1-1",
+      "source": "./hppmzn-maker--vgc-itsm1-1",
+      "description": "VGC ITSM Enterprise Edition - cloned from VGC-ITSM-1"
     }
   ]
 }
