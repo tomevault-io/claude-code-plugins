@@ -2,6 +2,8 @@
 
 > Source: [Sziadan/open-midgard](https://github.com/Sziadan/open-midgard) — distributed by [TomeVault](https://tomevault.io)
 
+Complete rewrite of a Ragnarok Online client
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
