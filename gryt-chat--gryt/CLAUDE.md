@@ -1,22 +1,33 @@
-# git-commits
+# icons
 
-> Git commit rules
+> Icon library conventions — use react-icons (Material Design) only
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/git-commits/SKILL.md
+Read and follow the instructions in .claude/skills/icons/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Git commit rules
+# Icons: react-icons/md only
 
-- **Never** run `git commit`. The user will commit manually. You may stage files with `git add`, but do **not** create commits.
-- **Never** add `Co-authored-by` trailers to commit messages.
+- **Use `react-icons/md`** (Material Design icons) for all icons.
+- **Never use `lucide-react`**, `@heroicons`, `@phosphor-icons`, or other icon libraries.
+- Always set an explicit `size` prop on every icon (e.g. `<MdRefresh size={16} />`).
+
+```tsx
+// BAD
+import { RotateCw } from "lucide-react";
+<RotateCw size={14} />
+
+// GOOD
+import { MdRefresh } from "react-icons/md";
+<MdRefresh size={14} />
+```
 
 ---
 > Source: [Gryt-chat/gryt](https://github.com/Gryt-chat/gryt) — distributed by [TomeVault](https://tomevault.io).
