@@ -1,4 +1,4 @@
-# agentsmesh
+# general
 
 > - Read `tasks/lessons.md` before doing any work. Apply relevant lessons.
 
@@ -7,10 +7,11 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agentsmesh/SKILL.md
+Read and follow the instructions in .claude/skills/general/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # Operational Guidelines
 
@@ -39,7 +40,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 ### Verification
 
 - Never mark a task complete without proving it works — run tests, check logs, demonstrate correctness.
-- After every feature/story: use `post-feature-qa` skill (`.github/skills/post-feature-qa/`).
+- After every feature/story: use `post-feature-qa` skill (`.cursor/skills/post-feature-qa/`).
 - Ask yourself: "Would a staff engineer approve this?"
 
 ### Elegance
