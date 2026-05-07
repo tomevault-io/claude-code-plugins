@@ -2,6 +2,8 @@
 
 > Tome by [ofershap](https://github.com/ofershap/cursor-office) — distributed by [TomeVault](https://tomevault.io)
 
+A living pixel art office for your Cursor AI agent — watch it work, click things, discover easter eggs
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
