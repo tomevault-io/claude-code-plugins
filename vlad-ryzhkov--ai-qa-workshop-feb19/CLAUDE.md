@@ -1,29 +1,29 @@
-# 10-skill-init-project
+# 11-skill-init-skill
 
-> SKILL: Generate CLAUDE.md for QA Project (use for /init-project)
+> SKILL: Generate New Skills with Interactive Workflow (use for /init-skill)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/10-skill-init-project/SKILL.md
+Read and follow the instructions in .claude/skills/11-skill-init-skill/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# SKILL: INIT PROJECT
+# SKILL: INIT SKILL
 
 ## TRIGGER
-Use this when setting up AI-assisted workflow for a new QA project without CLAUDE.md.
+Use this when creating a new skill, standardizing a QA process, or automating routine checks.
 
 ## LOGIC SOURCE
-**EXECUTE the instruction set defined in:** `.claude/skills/init-project/SKILL.md`
+**EXECUTE the instruction set defined in:** `.claude/skills/init-skill/SKILL.md`
 
-@.claude/skills/init-project/SKILL.md
+@.claude/skills/init-skill/SKILL.md
 
 ## KEY CONSTRAINT
-- Do NOT use if CLAUDE.md is already configured — edit it manually.
+- Do NOT use to edit existing skills — edit SKILL.md files directly.
 
 ---
 > Source: [vlad-ryzhkov/AI-QA-workshop-feb19](https://github.com/vlad-ryzhkov/AI-QA-workshop-feb19) — distributed by [TomeVault](https://tomevault.io).
