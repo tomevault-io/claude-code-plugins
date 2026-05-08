@@ -1,22 +1,23 @@
-# sigil-sdk
+# sigil-instrumentation
 
-> You are running in GitHub Copilot Chat / Agent mode.
+> Guide Cursor agents to add Grafana Sigil instrumentation to consumer codebases.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/sigil-sdk/SKILL.md
+Read and follow the instructions in .claude/skills/sigil-instrumentation/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GitHub Copilot Prompt: Sigil Instrumentation
 
-You are running in GitHub Copilot Chat / Agent mode.
-- Keep patches easy to review and maintain.
-- Add concise rationale comments only where logic is non-obvious.
+# Cursor Prompt: Sigil Instrumentation
+
+You are running in Cursor with full repository context.
+- Keep edits surgical and grouped by opportunity.
+- Run focused checks after each opportunity and include results.
 
 ## Sigil Agent-First Instrumentation Brief
 
