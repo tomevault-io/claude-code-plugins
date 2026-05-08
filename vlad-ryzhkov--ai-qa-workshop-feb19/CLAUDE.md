@@ -1,27 +1,29 @@
-# 01-qa-agent
+# 02-skill-spec-audit
 
-> QA AGENT PERSONA: Principles, Anti-patterns, workflows.
+> SKILL: Requirement Analysis & QA Audit (use for /spec-audit)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/01-qa-agent/SKILL.md
+Read and follow the instructions in .claude/skills/02-skill-spec-audit/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# QA AGENT ACTIVATION
+# SKILL: REQUIREMENTS ANALYSIS
 
-## PURPOSE
-You are acting as the QA Automation Lead defined in `.claude/qa_agent.md`.
+## TRIGGER
+Use this when the user asks to analyze specs, find gaps, or audit documentation.
 
-## INSTRUCTIONS
-1. **Adopt the Mindset:** Read `.claude/qa_agent.md` to understand the philosophy (Value over vanity, preventing flakiness).
-2. **Anti-Patterns:** Check `.claude/qa-antipatterns/*.md` before suggesting major refactors to avoid known pitfalls.
+## LOGIC SOURCE
+**EXECUTE the instruction set defined in:** `.claude/skills/spec-audit/SKILL.md`
 
-@.claude/qa_agent.md
+@.claude/skills/spec-audit/SKILL.md
+
+## OUTPUT
+Follow the Markdown report format defined in the skill file strictly.
 
 ---
 > Source: [vlad-ryzhkov/AI-QA-workshop-feb19](https://github.com/vlad-ryzhkov/AI-QA-workshop-feb19) — distributed by [TomeVault](https://tomevault.io).
