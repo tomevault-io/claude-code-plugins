@@ -1,0 +1,44 @@
+# aim
+
+> The aim of this project is to port the adk-python implementation to TypeScript (adk-ts). When porting code:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/aim/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Aim
+
+## Python to TypeScript Port
+
+The aim of this project is to port the adk-python implementation to TypeScript (adk-ts). When porting code:
+
+- Refer to the original implementation of the Python files
+- Replicate their logic faithfully in TypeScript
+- Ensure the core functionality remains identical
+- Maintain the same logical structure and components
+
+## Requirements
+
+1. **Logic Preservation**: The TypeScript implementation MUST maintain the same logical flow and behavior as the Python version.
+
+2. **Component Naming**: Core components should maintain conceptual naming parity with the Python version.
+
+3. **Architecture**: Follow the same architectural patterns and separation of concerns as the Python implementation.
+
+4. **File Organization**: Mirror the Python project's organizational structure where appropriate, adapting to TypeScript conventions.
+
+## Implementation Notes
+
+- Use TypeScript's type system to enhance the original Python implementation
+- Apply language-specific best practices for TypeScript while preserving the original logic
+- Adapt Python-specific patterns to TypeScript equivalents where direct ports aren't possible
+
+---
+> Source: [IQAIcom/adk-ts](https://github.com/IQAIcom/adk-ts) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
