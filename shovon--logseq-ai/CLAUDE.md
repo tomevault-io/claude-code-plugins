@@ -1,25 +1,20 @@
-# structure
+# terminology
 
-> Files are organized by feature; not by functionality.
+> - **user prompt**: the prompt sent by the user. Usually the message sent to a chatbot—often backed by an LLM—to yield an assistant response.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/structure/SKILL.md
+Read and follow the instructions in .claude/skills/terminology/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Files are organized by feature; not by functionality.
-
-So there's generally no dedicated `views` folder. It's all just features.
-
-For example, if `App.tsx` will rely on a component, but no other component will rely on it, then don't place the component in some `views` folder; just put it in the same `App` folder.
-
-The only time functionality are factored in is when it is shared across different parts of the code (such as services).
+- **user prompt**: the prompt sent by the user. Usually the message sent to a chatbot—often backed by an LLM—to yield an assistant response.
+- **assistant response**: the response received by the chatbot.
 
 ---
 > Source: [shovon/logseq-ai](https://github.com/shovon/logseq-ai) — distributed by [TomeVault](https://tomevault.io).
