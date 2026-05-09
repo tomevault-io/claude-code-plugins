@@ -1,0 +1,32 @@
+# problem-reductions
+
+> The canonical agent instructions for this repository live in [`./.claude/CLAUDE.md`](./.claude/CLAUDE.md).
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/problem-reductions/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+The canonical agent instructions for this repository live in [`./.claude/CLAUDE.md`](./.claude/CLAUDE.md).
+
+All agents should read and follow that file before making changes.
+
+Use `./.claude/CLAUDE.md` as the source of truth for:
+- project workflow
+- commands and verification expectations
+- safety rules
+- architecture and testing conventions
+- repo-local skills under `./.claude/skills/`
+
+Do not duplicate or fork those instructions here. Update `./.claude/CLAUDE.md` instead.
+
+---
+> Source: [CodingThrust/problem-reductions](https://github.com/CodingThrust/problem-reductions) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-03 -->
