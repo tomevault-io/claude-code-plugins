@@ -1,21 +1,19 @@
-# frontx
+# global
 
-> ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
+> Always use the ./.ai/GUIDELINES.md
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontx/SKILL.md
+Read and follow the instructions in .claude/skills/global/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Cypilot
 
-
-ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
+Always use the ./.ai/GUIDELINES.md
 
 ---
 > Source: [cyberfabric/frontx](https://github.com/cyberfabric/frontx) — distributed by [TomeVault](https://tomevault.io).
