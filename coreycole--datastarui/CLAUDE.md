@@ -1,0 +1,100 @@
+# datastar-js
+
+> Any additional JavaScript functionality that doesn't work via `data-*` attributes and `datastar-execute-script` SSE events should be extracted into:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/datastar-js/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+### When You Need Additional JavaScript
+
+Any additional JavaScript functionality that doesn't work via `data-*` attributes and `datastar-execute-script` SSE events should be extracted into:
+
+1. **External scripts** (preferred for simple functions)
+2. **Web components** (preferred for reusable, encapsulated elements)
+
+### External Scripts Pattern
+
+When using external scripts, pass data via arguments and return results or dispatch custom events:
+
+```go
+// Synchronous function call
+<div data-signals-result="''">
+    <input data-bind-foo
+           data-on-input="$result = myfunction($foo)"
+    >
+    <span data-text="$result"></span>
+</div>
+```
+
+```javascript
+function myfunction(data) {
+  return `You entered ${data}`;
+}
+```
+
+**Asynchronous functions** must dispatch custom events (Datastar won't await them):
+
+```go
+// Asynchronous function with custom event
+<div data-signals-result="''"
+     data-on-mycustomevent__window="$result = evt.detail.value"
+>
+    <input data-bind-foo
+           data-on-input="myfunction($foo)"
+    >
+    <span data-text="$result"></span>
+</div>
+```
+
+```javascript
+async function myfunction(data) {
+  const value = await new Promise((resolve) => {
+    setTimeout(() => resolve(`You entered ${data}`), 1000);
+  });
+  window.dispatchEvent(new CustomEvent("mycustomevent", { detail: { value } }));
+}
+```
+
+### Web Components Pattern
+
+Web components create reusable, encapsulated custom elements with no external dependencies:
+
+```go
+// Using web component with attribute binding
+<div data-signals-result="''">
+    <input data-bind-foo />
+    <my-component
+        data-attr-src="$foo"
+        data-on-mycustomevent="$result = evt.detail.value"
+    ></my-component>
+    <span data-text="$result"></span>
+</div>
+```
+
+```javascript
+class MyComponent extends HTMLElement {
+  static get observedAttributes() {
+    return ["src"];
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    const value = `You entered ${newValue}`;
+    this.dispatchEvent(new CustomEvent("mycustomevent", { detail: { value } }));
+  }
+}
+
+customElements.define("my-component", MyComponent);
+
+
+```
+
+---
+> Source: [CoreyCole/datastarui](https://github.com/CoreyCole/datastarui) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
