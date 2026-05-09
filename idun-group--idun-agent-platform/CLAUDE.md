@@ -1,26 +1,27 @@
-# engine
+# manager
 
-> Rules for working on the idun_agent_engine SDK
+> Rules for working on the idun_agent_manager service
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/engine/SKILL.md
+Read and follow the instructions in .claude/skills/manager/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Idun Agent Engine
+# Idun Agent Manager
 
-Read `libs/idun_agent_engine/CLAUDE.md` before making changes. It contains the full module map, config flow, agent adapter details, and conventions.
+Read `services/idun_agent_manager/CLAUDE.md` before making changes. It contains the full API route map, auth flow, database models, and conventions.
 
-- All agent operations are async (`initialize`, `invoke`, `stream`).
-- LangGraph expects an **uncompiled StateGraph** — the engine compiles it with checkpointer/store.
-- Observability config is top-level, not inside `agent.config` (agent-level is deprecated).
-- Dynamic imports for agent loading: file path first, Python module fallback.
-- Schema models come from `idun_agent_schema` — don't duplicate them here.
+- All DB operations are async (`AsyncSession`).
+- Config stored as JSONB, validated in/out via `idun_agent_schema` Pydantic models.
+- Router pattern: `_get_<resource>()` helper for fetch + 404, `_model_to_schema()` for DB model → response.
+- Workspace scoping via `require_workspace` dependency on all resource endpoints.
+- Migrations: `cd services/idun_agent_manager && alembic revision --autogenerate -m "description"`.
+- Guardrails from the frontend use simplified configs converted via `convert_guardrail()`.
 
 ---
 > Source: [Idun-Group/idun-agent-platform](https://github.com/Idun-Group/idun-agent-platform) — distributed by [TomeVault](https://tomevault.io).
