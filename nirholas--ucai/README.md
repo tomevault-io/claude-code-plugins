@@ -7,14 +7,14 @@ Universal Contract AI Interface (UCAI) 🔗 ABI to MCP | The open standard for c
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [nirholas/UCAI](https://github.com/nirholas/UCAI).
+Original source: `AGENTS.md` in [nirholas/UCAI](https://github.com/nirholas/UCAI).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/nirholas/UCAI](https://github.com/nirholas/UCAI)
