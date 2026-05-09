@@ -1,4 +1,4 @@
-# claude-code-mcp
+# agent
 
 > This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/claude-code-mcp/SKILL.md
+Read and follow the instructions in .claude/skills/agent/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
