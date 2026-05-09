@@ -7,14 +7,14 @@ Monitor the Model Context Protocol (MCP) Registry for new, updated, and removed 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [nirholas/mcp-notify](https://github.com/nirholas/mcp-notify).
+Original source: `AGENTS.md` in [nirholas/mcp-notify](https://github.com/nirholas/mcp-notify).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 From [nirholas/mcp-notify](https://github.com/nirholas/mcp-notify) — a repo with 26+ stars on GitHub.
