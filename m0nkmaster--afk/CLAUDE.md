@@ -1,13 +1,13 @@
-# backwardscompat
+# beads
 
-> No need for backwards compatibility
+> Beads `bd` for Issue Tracking
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/backwardscompat/SKILL.md
+Read and follow the instructions in .claude/skills/beads/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,7 +15,16 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 # Overview
 
-The app is in dev mode, not used by anyone yet. If the API/functions/classes need changing don't create backwards compatablity bloat.
+This project uses `bd` (beads) for issue tracking. Run `bd onboard` to get started. Always use `beads create` to track tasks.
+
+```bash
+bd ready              # Find available work
+bd show <id>          # View issue details
+bd update <id> --status in_progress  # Claim work
+bd close <id>         # Complete work
+bd sync               # Sync with git
+bd help               # Help with BD  
+```
 
 ---
 > Source: [m0nkmaster/afk](https://github.com/m0nkmaster/afk) — distributed by [TomeVault](https://tomevault.io).
