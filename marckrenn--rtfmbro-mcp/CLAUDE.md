@@ -1,18 +1,19 @@
-# rtfmbro-mcp
+# rtfmbro
 
-> * Before using any package, module, or library, ALWAYS consult its documentation — your internal knowledge may be outdated and could cause errors or failures.
+> rtfmbro Package Documentation Policy
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/rtfmbro-mcp/SKILL.md
+Read and follow the instructions in .claude/skills/rtfmbro/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Copilot Instructions for Package Documentation
+
+# Cursor Instructions for Package Documentation
 ## Package Documentation Policy
 
 * Before using any package, module, or library, ALWAYS consult its documentation — your internal knowledge may be outdated and could cause errors or failures.
