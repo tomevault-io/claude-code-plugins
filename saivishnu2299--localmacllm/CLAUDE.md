@@ -1,25 +1,26 @@
-# dev-style
+# llm-config
 
-> - Follow the task list at [tasks/tasks-LocalMacLLM-prd.md](mdc:tasks/tasks-LocalMacLLM-prd.md).
+> LLM configuration and training defaults for this project
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/dev-style/SKILL.md
+Read and follow the instructions in .claude/skills/llm-config/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Development Style and Process
+# LLM Configuration Defaults
 
-- Follow the task list at [tasks/tasks-LocalMacLLM-prd.md](mdc:tasks/tasks-LocalMacLLM-prd.md).
-- Complete one sub-task at a time; mark `[x]` when done.
-- After finishing a parent task, run tests/build (where applicable) before proceeding.
-- Keep README instructions updated when changing CLI flags or file locations.
-- Prefer clear, readable Python with descriptive names and minimal magic.
-- Target macOS ≥ 13.5 and Apple Silicon with MLX for compute.
+- Tokenizer: SentencePiece BPE, vocab=1024; special tokens `[PAD],[BOS],[EOS],[UNK]`
+- Context length: 256
+- Model: GPT-style, d_model=128, n_layers=7, n_heads=4, GELU, pre-norm, dropout≤0.1, tied LM head
+- Optimizer: AdamW; lr=3e-4; warmup=200; cosine decay; wd=0.1; grad clip=1.0
+- Batch tokens target: ~8k per optimization step (dynamic batching/accumulation)
+- Eval interval: 200 steps; checkpoint `best` and `last`
+- Hardware: Apple Silicon; MLX backend
 
 ---
 > Source: [saivishnu2299/LocalMacLLM](https://github.com/saivishnu2299/LocalMacLLM) — distributed by [TomeVault](https://tomevault.io).
