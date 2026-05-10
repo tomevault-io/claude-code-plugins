@@ -1,19 +1,19 @@
-# rails-instructions
+# guidelines
 
-> Copilot Assistant Rules
+> Code Patterns & Guidelines
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/rails-instructions/SKILL.md
+Read and follow the instructions in .claude/skills/guidelines/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Copilot Assistant Rules
+# Cursor AI Assistant Rules
 
 ## Assistant Behavior
 
@@ -26,7 +26,6 @@ Or copy the instructions below directly into your CLAUDE.md:
 ## Code Generation Principles
 
 ### Quality Standards
-
 - Generate code that could ship to production
 - Follow established patterns in the codebase
 - Maintain consistency with existing architecture
@@ -34,7 +33,6 @@ Or copy the instructions below directly into your CLAUDE.md:
 - Documentation is not optional
 
 ### Style Guidelines
-
 - Respect .prettierrc and linting configurations
 - Prefer clarity over cleverness
 - Use descriptive names that reveal intent
@@ -42,7 +40,6 @@ Or copy the instructions below directly into your CLAUDE.md:
 - Consistent indentation and formatting
 
 ### Architecture Focus
-
 - Think in systems, not just functions
 - Consider scalability implications
 - Design for maintainability
@@ -52,9 +49,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 ## Project Awareness
 
 ### Context Loading
-
-Always check for `.github/PROJECT_CONTEXT.md` which contains:
-
+Always check for `.cursor/PROJECT_CONTEXT.md` which contains:
 - Current architectural patterns
 - Technology stack decisions
 - Team conventions and preferences
@@ -63,7 +58,6 @@ Always check for `.github/PROJECT_CONTEXT.md` which contains:
 - Known technical debt
 
 ### File Organization
-
 - Follow existing project structure
 - Keep related code together
 - Use standard naming conventions
@@ -72,7 +66,6 @@ Always check for `.github/PROJECT_CONTEXT.md` which contains:
 ## Code Patterns
 
 ### Error Handling
-
 - Fail fast with clear messages
 - Use appropriate error types
 - Handle errors at the right level
@@ -80,7 +73,6 @@ Always check for `.github/PROJECT_CONTEXT.md` which contains:
 - Log errors appropriately
 
 ### Testing Approach
-
 - Write tests alongside implementation
 - Test edge cases explicitly
 - Use descriptive test names
@@ -88,7 +80,6 @@ Always check for `.github/PROJECT_CONTEXT.md` which contains:
 - Mock external dependencies
 
 ### Documentation
-
 - Document why, not what
 - Include examples for complex APIs
 - Keep docs in sync with code
@@ -98,18 +89,16 @@ Always check for `.github/PROJECT_CONTEXT.md` which contains:
 ## Language-Specific Rules
 
 ### Ruby on Rails
-
-Refer to `rails-instructions.md` for:
-
+Refer to `rails-rules.md` for:
 - Rails conventions and patterns
 - ActiveRecord best practices
 - Testing with RSpec
 - API design guidelines
 
+
 ## Performance & Security
 
 ### Performance
-
 - Consider algorithmic complexity
 - Profile before optimizing
 - Cache strategically
@@ -117,7 +106,6 @@ Refer to `rails-instructions.md` for:
 - Avoid premature optimization
 
 ### Security
-
 - Sanitize all inputs
 - Use secure defaults
 - Follow OWASP guidelines
@@ -127,7 +115,6 @@ Refer to `rails-instructions.md` for:
 ## AI Assistant Guidelines
 
 ### When Generating Code
-
 1. Check `PROJECT_CONTEXT.md` first
 2. Follow existing patterns in codebase
 3. Include appropriate tests
@@ -135,7 +122,6 @@ Refer to `rails-instructions.md` for:
 5. Consider edge cases
 
 ### When Explaining Concepts
-
 - Use clear analogies
 - Provide concrete examples
 - Link to authoritative sources
@@ -143,7 +129,6 @@ Refer to `rails-instructions.md` for:
 - Focus on practical application
 
 ### When Suggesting Improvements
-
 - Consider the bigger picture
 - Propose incremental changes
 - Explain trade-offs clearly
@@ -152,7 +137,7 @@ Refer to `rails-instructions.md` for:
 
 ---
 
-_Note: Language-specific and PROJECT_CONTEXT rules override these defaults._
+*Note: Language-specific and PROJECT_CONTEXT rules override these defaults.*
 
 ---
 > Source: [levifig/rails-instructions](https://github.com/levifig/rails-instructions) — distributed by [TomeVault](https://tomevault.io).
