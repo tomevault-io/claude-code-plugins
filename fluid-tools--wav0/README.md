@@ -7,13 +7,13 @@ AI-Native Studio for everything audio. Sound Design/Audio Editing/AI Producer/Fa
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [fluid-tools/wav0](https://github.com/fluid-tools/wav0).
+Original source: `AGENTS.md` in [fluid-tools/wav0](https://github.com/fluid-tools/wav0).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
