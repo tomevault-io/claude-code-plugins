@@ -1,0 +1,42 @@
+# clanka
+
+> - The base branch for this repository is `master`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/clanka/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Information
+
+- The base branch for this repository is `master`.
+- The package manager used is `pnpm`.
+
+# Validations
+
+Run `pnpm check` and `pnpm test` after changing any code.
+
+# This project uses "effect"
+
+Before writing any code, YOU MUS5 read `.repos/effect/LLMS.md` fully.
+
+# Changesets
+
+Every pull request should include a changeset describing the changes made.
+Changesets are added to the `.changeset/` directory.
+
+There should one be ONE changeset per pull request.
+
+# Specifications
+
+To learn more about previous and current specifications for this project, see
+the `.specs/README.md` file.
+
+---
+> Source: [Effectful-Tech/clanka](https://github.com/Effectful-Tech/clanka) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
