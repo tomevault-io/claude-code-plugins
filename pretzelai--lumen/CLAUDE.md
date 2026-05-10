@@ -1,22 +1,22 @@
-# run-typecheck
+# running-tests
 
-> When you manually want to run a typecheck, you must:
+> This rule explain how to run tests
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/run-typecheck/SKILL.md
+Read and follow the instructions in .claude/skills/running-tests/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When you manually want to run a typecheck, you must:
-`cd api && tsc --noEmit <file>`
+If you want to run tests, the command for it is:
+cd /Users/prasoon/work/lumen/api && bun test tests/integration/<test-file.ts>
 
-This is because the `api` folder is a subproject in the monorepo
+Tests can only be run from inside the `api` folder.
 
 ---
 > Source: [pretzelai/lumen](https://github.com/pretzelai/lumen) — distributed by [TomeVault](https://tomevault.io).
