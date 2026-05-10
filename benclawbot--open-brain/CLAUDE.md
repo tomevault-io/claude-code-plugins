@@ -1,0 +1,28 @@
+# open-brain
+
+> See PROJECT_INDEX.md for architecture, conventions, and structure — read it before modifying code.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/open-brain/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Project Context
+See PROJECT_INDEX.md for architecture, conventions, and structure — read it before modifying code.
+
+## Working Rules
+- Make minimal, targeted changes.
+- Verify with runnable checks (API health + memory create/search).
+- Keep schema, config, and runtime behavior consistent.
+- If changing startup/infra scripts, test fresh-container behavior (`docker compose up -d --build`).
+
+---
+> Source: [benclawbot/open-brain](https://github.com/benclawbot/open-brain) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-04 -->
