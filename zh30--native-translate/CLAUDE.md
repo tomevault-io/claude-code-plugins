@@ -1,4 +1,4 @@
-# 00-project-structure-and-entries
+# 00-project-structure
 
 > - [rspack.config.js](mdc:rspack.config.js)
 
@@ -7,12 +7,12 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/00-project-structure-and-entries/SKILL.md
+Read and follow the instructions in .claude/skills/00-project-structure/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# 项目结构与入口映射
+## 项目结构与入口映射
 
 - **核心配置**
   - [rspack.config.js](mdc:rspack.config.js)
