@@ -1,20 +1,18 @@
-# 003-writing-the-documentation
+# 004-installing-lisp-libraries
 
-> 1. Always write docstring for functions, generic-functions, classes and class slots.
+> To install lisp libraries don't execute anything in terminal. Use ql:quickload to just load the library.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/003-writing-the-documentation/SKILL.md
+Read and follow the instructions in .claude/skills/004-installing-lisp-libraries/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-1. Always write docstring for functions, generic-functions, classes and class slots.
-2. Use english for documentation.
-3. Document introduced changes in the docs/changelog.lisp file using semver notation.
+To install lisp libraries don't execute anything in terminal. Use ql:quickload to just load the library.
 
 ---
 > Source: [40ants/mcp](https://github.com/40ants/mcp) — distributed by [TomeVault](https://tomevault.io).
