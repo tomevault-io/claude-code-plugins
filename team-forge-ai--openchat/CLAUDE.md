@@ -1,21 +1,26 @@
-# app-description
+# app-technologies
 
-> Private, local-first AI chat desktop app built with Tauri (Rust) + React + TypeScript. OpenChat runs a local MLC server process and chats with models entirely on your machine.
+> - **Desktop** - Tauri (Rust + TypeScript)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/app-description/SKILL.md
+Read and follow the instructions in .claude/skills/app-technologies/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Project Context
+## Technologies used
 
-Private, local-first AI chat desktop app built with Tauri (Rust) + React + TypeScript. OpenChat runs a local MLC server process and chats with models entirely on your machine.
+- **Desktop** - Tauri (Rust + TypeScript)
+- **Frontend** - React + TypeScript + Tailwind CSS + shadcn/ui
+- **Database** - SQLite with migrations
+- **Testing** - Vitest
+- **Code Quality** - ESLint + Prettier
+- **Package Management** - pnpm (TypeScript) + Cargo (Rust)
 
 ---
 > Source: [team-forge-ai/openchat](https://github.com/team-forge-ai/openchat) — distributed by [TomeVault](https://tomevault.io).
