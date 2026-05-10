@@ -2,6 +2,8 @@
 
 > Sourced from [gavrix/appium-mcp](https://github.com/gavrix/appium-mcp) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+MCP server for appium
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
