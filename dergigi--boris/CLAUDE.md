@@ -1,22 +1,23 @@
-# app-settings-and-nostr
+# applesauce
 
-> when dealing with user and app settings
+> applesauce reference documentation and examples
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/app-settings-and-nostr/SKILL.md
+Read and follow the instructions in .claude/skills/applesauce/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-We use nostr to load/save/sync our settings.
+If you can use an applesauce-module for something, use applesauce.
 
-- https://nostrbook.dev/kinds/30078
-- https://github.com/nostr-protocol/nips/blob/master/78.md
+Documentation: https://hzrd149.github.io/applesauce/typedoc/modules.html
+
+When unsure how to use applesauce correctly, look at the examples in the `applesauce/packages/examples` directory.
 
 ---
 > Source: [dergigi/boris](https://github.com/dergigi/boris) — distributed by [TomeVault](https://tomevault.io).
