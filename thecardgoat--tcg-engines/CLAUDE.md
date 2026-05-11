@@ -1,24 +1,24 @@
-# next-js
+# plan-product
 
-> Use this when changing nextJS related code, or creating pages or api routes
+> Plan a new product and install Agent OS in its codebase.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/next-js/SKILL.md
+Read and follow the instructions in .claude/skills/plan-product/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Next.js
+# Plan Product
 
-Next.js with TypeScript and Tailwind UI best practices
+Plan a new product and install Agent OS in its codebase.
 
-Refer to the guidelines located in this file:
-@.agent-os/standards/code-style/next-js.md 
+Refer to the instructions located in this file:
+@.agent-os/instructions/core/plan-product.md
 
 ---
 > Source: [TheCardGoat/tcg-engines](https://github.com/TheCardGoat/tcg-engines) — distributed by [TomeVault](https://tomevault.io).
