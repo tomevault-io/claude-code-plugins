@@ -2,6 +2,8 @@
 
 > Tome by [dergigi](https://github.com/dergigi/boris) — distributed by [TomeVault](https://tomevault.io)
 
+Read with Boris.
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
