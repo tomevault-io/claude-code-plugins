@@ -1,20 +1,19 @@
-# cypilot
+# global
 
-> Invoke when user asks to do something with Cypilot, or wants to analyze/validate artifacts, or create/generate/implement anything using Cypilot workflows, or plan phased execution. Core capabilities: workflow routing (plan/analyze/generate/auto-config); deterministic validation (structure, cross-refs, traceability, TOC); code↔artifact traceability with @cpt-* markers; spec coverage measurement; ID search/navigation; init/bootstrap; adapter + registry discovery; auto-configuration of brownfield projects (scan conventions, generate rules); kit management (install/update with file-level diff); TOC generation; agent integrations (Windsurf, Cursor, Claude, Copilot, OpenAI). Kit sdlc: Artifacts: ADR, CODEBASE, DECOMPOSITION, DESIGN, FEATURE, PR-CODE-REVIEW-TEMPLATE, PR-REVIEW, PR-STATUS-REPORT-TEMPLATE, PRD; Workflows: migrate-openspec, pr-review, pr-status.
+> Always use the ./.ai/GUIDELINES.md
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cypilot/SKILL.md
+Read and follow the instructions in .claude/skills/global/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-
-ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
+Always use the ./.ai/GUIDELINES.md
 
 ---
 > Source: [cyberfabric/cyberware-frontx](https://github.com/cyberfabric/cyberware-frontx) — distributed by [TomeVault](https://tomevault.io).
