@@ -7,7 +7,7 @@ Production-ready iOS SwiftUI guidance for AI coding agents.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill).
+Original source: `.windsurf/rules/*.md` in [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill).
 
 ## Also available for
 
@@ -15,7 +15,7 @@ Original source: `GEMINI.md` in [Nagarjuna2997/ios-agent-skill](https://github.c
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
-- **Windsurf** — `project-config.md`
+- **Gemini CLI** — `GEMINI.md`
 
 Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
 
