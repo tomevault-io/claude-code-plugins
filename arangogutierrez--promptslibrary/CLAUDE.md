@@ -1,23 +1,23 @@
-# k8s
+# node
 
-> Kubernetes manifest standards
+> TypeScript/JavaScript standards
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/k8s/SKILL.md
+Read and follow the instructions in .claude/skills/node/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# K8s
-api:feature-gates for alpha/beta|version-dependent→state assumptions
-manifest:resource limits req|probes req|configmap/secret via env not vol
-security:no plain secrets|RBAC minimal|network policies|pod security standards
-operator:reconcile idempotent|status subresource|finalizers for cleanup|leader election
-helm:values schema|README|upgrade path tested
+# Node/TypeScript
+style:strict-TS|no-any|explicit-return-types
+pattern:async/await>callbacks|zod-for-validation|const>let>never-var
+error:typed-errors|never-swallow-catch|Error-subclass-for-domain
+test:vitest-or-jest|describe-blocks|mock-at-boundary-not-deep
+security:no-eval|sanitize-user-input|env-for-secrets|CSP-headers
 
 ---
 > Source: [ArangoGutierrez/promptsLibrary](https://github.com/ArangoGutierrez/promptsLibrary) — distributed by [TomeVault](https://tomevault.io).
