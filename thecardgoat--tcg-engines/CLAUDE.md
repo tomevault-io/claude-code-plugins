@@ -1,24 +1,24 @@
-# plan-product
+# react
 
-> Plan a new product and install Agent OS in its codebase.
+> React best practices and patterns for modern web applications
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/plan-product/SKILL.md
+Read and follow the instructions in .claude/skills/react/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Plan Product
+# React
 
-Plan a new product and install Agent OS in its codebase.
+React best practices and patterns for modern web applications
 
-Refer to the instructions located in this file:
-@.agent-os/instructions/core/plan-product.md
+Refer to the guidelines located in this file:
+@.agent-os/standards/code-style/react.md 
 
 ---
 > Source: [TheCardGoat/tcg-engines](https://github.com/TheCardGoat/tcg-engines) — distributed by [TomeVault](https://tomevault.io).
