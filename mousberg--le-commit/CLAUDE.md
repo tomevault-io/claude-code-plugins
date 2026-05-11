@@ -1,19 +1,19 @@
-# code-style
+# database-supabase
 
-> description: Comments should focus on the "why" of the code and not the what. Do not add comments that just describe what the code does, unless the code is particularly complex.
+> description: Use a local supabase instance for development. Migrations are in `frontend/supabase/migrations`. Follow best practices found in `docs/context/supabase_prompts/`. Avoid unnecessary endpoints if it can be solved with direct supabase client calls from the frontend (safe with row level security). When working with supabase, use the supabase CLI when appropriate, for example for creating migrations.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/code-style/SKILL.md
+Read and follow the instructions in .claude/skills/database-supabase/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 ---
-description: Comments should focus on the "why" of the code and not the what. Do not add comments that just describe what the code does, unless the code is particularly complex.
+description: Use a local supabase instance for development. Migrations are in `frontend/supabase/migrations`. Follow best practices found in `docs/context/supabase_prompts/`. Avoid unnecessary endpoints if it can be solved with direct supabase client calls from the frontend (safe with row level security). When working with supabase, use the supabase CLI when appropriate, for example for creating migrations.
 globs:
 alwaysApply: false
 ---
