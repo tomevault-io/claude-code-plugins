@@ -1,21 +1,17 @@
-# modelexpress
+# rust
 
-> SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+> ModelExpress project rules and coding standards
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/modelexpress/SKILL.md
+Read and follow the instructions in .claude/skills/rust/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!--
-SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-SPDX-License-Identifier: Apache-2.0
--->
 
 # ModelExpress
 
