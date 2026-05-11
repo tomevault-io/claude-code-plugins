@@ -1,19 +1,19 @@
-# agent-mode
+# drizzle
 
-> please never try to run my server or database as I always already have it running.
+> when creating or apply drizzle migrations
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-mode/SKILL.md
+Read and follow the instructions in .claude/skills/drizzle/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-please never try to run my server or database as I always already have it running.
+please use `npm run db:generate` and `npm run db:migrate` when you try to apply drizzle migrations
 
 ---
 > Source: [webdevcody/collab-board-hathora](https://github.com/webdevcody/collab-board-hathora) — distributed by [TomeVault](https://tomevault.io).
