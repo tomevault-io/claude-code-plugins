@@ -1,23 +1,23 @@
-# node
+# python
 
-> TypeScript/JavaScript standards
+> Python standards
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/node/SKILL.md
+Read and follow the instructions in .claude/skills/python/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Node/TypeScript
-style:strict-TS|no-any|explicit-return-types
-pattern:async/await>callbacks|zod-for-validation|const>let>never-var
-error:typed-errors|never-swallow-catch|Error-subclass-for-domain
-test:vitest-or-jest|describe-blocks|mock-at-boundary-not-deep
-security:no-eval|sanitize-user-input|env-for-secrets|CSP-headers
+# Python
+style:PEP8|black|isort|type-hints-required
+pattern:dataclass>dict-as-struct|pathlib>os.path|f-string>format()
+error:never bare-except|always-log-traceback|raise-from-original
+test:pytest|fixtures>setup/teardown|parametrize for variants
+security:no-eval/exec|validate-inputs|secrets-from-env
 
 ---
 > Source: [ArangoGutierrez/promptsLibrary](https://github.com/ArangoGutierrez/promptsLibrary) — distributed by [TomeVault](https://tomevault.io).
