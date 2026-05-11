@@ -1,22 +1,16 @@
-# ats-integration
+# auth-spec
 
-> description: **Frontend ID Strategy**: All frontend components use `applicant_id` as the primary identifier for consistency. **Backend ID Mapping**: APIs accept `applicant_id` and internally join to `ashby_candidates` table to get `ashby_id` when needed for external API calls. **Separation of Concerns**: Frontend handles business logic with applicant entities, backend handles integration-specific identifiers. **Reusable Utility**: Use `getAshbyIdFromApplicantId()` from `@/lib/ashby/utils` for consistent ashby_id lookups in APIs.
+> **NEVER manually implement authentication in API routes - always use withApiMiddleware() from '@/lib/middleware/apiWrapper' or withATSAuth() from '@/lib/auth/api-middleware' instead of createClient().auth.getUser().**
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ats-integration/SKILL.md
+Read and follow the instructions in .claude/skills/auth-spec/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
----
-description: **Frontend ID Strategy**: All frontend components use `applicant_id` as the primary identifier for consistency. **Backend ID Mapping**: APIs accept `applicant_id` and internally join to `ashby_candidates` table to get `ashby_id` when needed for external API calls. **Separation of Concerns**: Frontend handles business logic with applicant entities, backend handles integration-specific identifiers. **Reusable Utility**: Use `getAshbyIdFromApplicantId()` from `@/lib/ashby/utils` for consistent ashby_id lookups in APIs.
-globs:
-alwaysApply: false
----
 
 ---
 > Source: [mousberg/le-commit](https://github.com/mousberg/le-commit) — distributed by [TomeVault](https://tomevault.io).
