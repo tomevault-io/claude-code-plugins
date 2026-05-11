@@ -1,19 +1,19 @@
-# database-supabase
+# development-practices
 
-> description: Use a local supabase instance for development. Migrations are in `frontend/supabase/migrations`. Follow best practices found in `docs/context/supabase_prompts/`. Avoid unnecessary endpoints if it can be solved with direct supabase client calls from the frontend (safe with row level security). When working with supabase, use the supabase CLI when appropriate, for example for creating migrations.
+> description: Make sure linting and building works before committing. Always offer to delete test files at the end of a session.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/database-supabase/SKILL.md
+Read and follow the instructions in .claude/skills/development-practices/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 ---
-description: Use a local supabase instance for development. Migrations are in `frontend/supabase/migrations`. Follow best practices found in `docs/context/supabase_prompts/`. Avoid unnecessary endpoints if it can be solved with direct supabase client calls from the frontend (safe with row level security). When working with supabase, use the supabase CLI when appropriate, for example for creating migrations.
+description: Make sure linting and building works before committing. Always offer to delete test files at the end of a session.
 globs:
 alwaysApply: false
 ---
