@@ -5774,6 +5774,11 @@
       "description": "claudecode|codex|gemini  cli\u589e\u5f3a\u5de5\u5177\u3002"
     },
     {
+      "name": "fujiwarachoki--supoclip",
+      "source": "./fujiwarachoki--supoclip",
+      "description": "An open-source OpusClip alternative"
+    },
+    {
       "name": "prof-harita--terminai",
       "source": "./prof-harita--terminai",
       "description": "Open-source, local-first alternative to Cowork-style computer assistants: real PTY terminal ops, explicit approvals, JSONL audit logs. Windows + Linux + macOS. Model agnostic."
@@ -7724,6 +7729,11 @@
       "description": "Ascend TileLang adapter "
     },
     {
+      "name": "ai-dynamo--aiconfigurator",
+      "source": "./ai-dynamo--aiconfigurator",
+      "description": "Offline optimization of your disaggregated Dynamo graph"
+    },
+    {
       "name": "involvex--youtube-music-cli",
       "source": "./involvex--youtube-music-cli",
       "description": "A powerful Terminal User Interface (TUI) music player for YouTube Music"
@@ -7812,6 +7822,11 @@
       "name": "luqp2--image-metahub",
       "source": "./luqp2--image-metahub",
       "description": "A desktop application for browsing, searching, and organizing AI-generated images locally. Designed for performance with large collections, focusing on powerful metadata filtering and complete privacy"
+    },
+    {
+      "name": "donniedice--protondrive-linux",
+      "source": "./donniedice--protondrive-linux",
+      "description": "\ud83d\udc27The first unofficial desktop client for Proton Drive on Linux. Fast, lightweight, and built with Tauri."
     },
     {
       "name": "lsm1103--cc",
@@ -8249,6 +8264,11 @@
       "description": "An AI friendly markdown editor."
     },
     {
+      "name": "oribarilan--lensline-nvim",
+      "source": "./oribarilan--lensline-nvim",
+      "description": "Modular nvim codelens support with inline references, git blame and more"
+    },
+    {
       "name": "oyvhov--tunet",
       "source": "./oyvhov--tunet",
       "description": "Tunet Dashboard for Home Assistant with real-time cards, drag-and-drop layout, and an integrated Hass.io add-on."
@@ -8447,6 +8467,11 @@
       "name": "luxury-yacht--app",
       "source": "./luxury-yacht--app",
       "description": "Luxury Yacht - A cross-platform app for managing Kubernetes clusters and resources"
+    },
+    {
+      "name": "endorhq--rover",
+      "source": "./endorhq--rover",
+      "description": "A manager for AI coding agents that works with Claude Code, Cursor, Gemini, Codex, and Qwen."
     },
     {
       "name": "endorhq--rover",
@@ -8679,6 +8704,11 @@
       "description": "A Claude Code GUI \u2014 Tauri 2 + React 19 + TypeScript + Tailwind CSS 4"
     },
     {
+      "name": "pwno-io--pwno-mcp",
+      "source": "./pwno-io--pwno-mcp",
+      "description": "MCP for Pwn"
+    },
+    {
       "name": "7df-lab--claw-code-rust",
       "source": "./7df-lab--claw-code-rust",
       "description": "Open source AI coding agent, Claude Code / codex Alternative."
@@ -8787,6 +8817,11 @@
       "name": "nel0x--syncthing-android",
       "source": "./nel0x--syncthing-android",
       "description": "Syncthing - A Syncthing Wrapper for Android."
+    },
+    {
+      "name": "vercel-labs--ai-cli",
+      "source": "./vercel-labs--ai-cli",
+      "description": "Generate anything from your terminal"
     },
     {
       "name": "stophobia--deerflow2-0-enhanced",
@@ -8927,6 +8962,11 @@
       "name": "goudvuur--sonshell",
       "source": "./goudvuur--sonshell",
       "description": "An effort to \"ssh into my Sony camera\""
+    },
+    {
+      "name": "nvidia-omniverse--learnopenusd",
+      "source": "./nvidia-omniverse--learnopenusd",
+      "description": "Learning resources for Universal Scene Description (OpenUSD) including tutorials, examples, and reference materials to help developers understand and work with OpenUSD effectively"
     },
     {
       "name": "paid-tw--skills",
@@ -9304,6 +9344,11 @@
       "description": "This is the website formally known as Terragon Labs. It was a remote background agent orchestrator for running Claude Code, Codex, and other coding clis in the cloud."
     },
     {
+      "name": "leegeunhyeok--craby",
+      "source": "./leegeunhyeok--craby",
+      "description": "Type-safe Rust for React Native\u2014auto generated, integrated with pure C++ TurboModule"
+    },
+    {
       "name": "b-m-capital-research--honeclaw",
       "source": "./b-m-capital-research--honeclaw",
       "description": "HoneClaw (Hone-Financial) is dedicated to being a professional investment assistant that truly understands you."
@@ -9327,6 +9372,16 @@
       "name": "primeintellect-ai--community-environments",
       "source": "./primeintellect-ai--community-environments",
       "description": "Lightly-reviewed collection of community environments"
+    },
+    {
+      "name": "yeasin2002--bulletproof-nextjs-starter",
+      "source": "./yeasin2002--bulletproof-nextjs-starter",
+      "description": " A production-ready Next.js boilerplate with modern tooling, comprehensive testing, and enterprise-grade features."
+    },
+    {
+      "name": "wieslawsoltes--prodatagrid",
+      "source": "./wieslawsoltes--prodatagrid",
+      "description": "ProDataGrid is a high-performance DataGrid control for Avalonia."
     },
     {
       "name": "luckyyyyy--miu2d",
@@ -9549,6 +9604,11 @@
       "description": "mineflare"
     },
     {
+      "name": "wcy-dt--ponghub",
+      "source": "./wcy-dt--ponghub",
+      "description": "Free endpoint monitoring. One-click deployment."
+    },
+    {
       "name": "delexw--claude-code-trace",
       "source": "./delexw--claude-code-trace",
       "description": "Real-time Claude Code session log viewer and monitor. Tail, search, and visualize JSONL session files with a native desktop GUI, a web and a tui. Built with Tauri 2, React, and TypeScript."
@@ -9697,6 +9757,11 @@
       "name": "innei--photo-gallery",
       "source": "./innei--photo-gallery",
       "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens."
+    },
+    {
+      "name": "tninja--ai-code-interface-el",
+      "source": "./tninja--ai-code-interface-el",
+      "description": "Unified Emacs interface supporting OpenAI Codex, GitHub Copilot CLI, Claude Code, Gemini CLI, Opencode, and more"
     },
     {
       "name": "xenoatom--xenoatom-terminal-ui",
@@ -10334,6 +10399,11 @@
       "description": "A simple TUI to watch tmux sessions"
     },
     {
+      "name": "dedalus-labs--wingman",
+      "source": "./dedalus-labs--wingman",
+      "description": "scaling capability quotient"
+    },
+    {
       "name": "searlsco--posse-party",
       "source": "./searlsco--posse-party",
       "description": "Quit social media by posting more"
@@ -10882,6 +10952,11 @@
       "name": "sandwichfarm--hyprlax",
       "source": "./sandwichfarm--hyprlax",
       "description": "buttery smooth parallax wallpaper daemon for wayland compositors"
+    },
+    {
+      "name": "heypoom--patchies",
+      "source": "./heypoom--patchies",
+      "description": "Code-first patcher for exploring computation through audio and visual. Connect tools you know and code your own \u2728"
     },
     {
       "name": "dgunzy--flux9s",
@@ -11584,6 +11659,11 @@
       "description": "Claude Code context engineering & planning system for individual AI development workflows"
     },
     {
+      "name": "helloxz--zurl",
+      "source": "./helloxz--zurl",
+      "description": "Zurl\u662f\u4e00\u4e2a\u7b80\u6d01\u6613\u7528\u7684\u77ed\u94fe\u63a5\u7cfb\u7edf\u3002"
+    },
+    {
       "name": "quantclaw--quantclaw",
       "source": "./quantclaw--quantclaw",
       "description": "a C++ implementation of OpenClaw, designed for extremely performance and memory efficiency. site: https://quantclaw.github.io"
@@ -11982,6 +12062,11 @@
       "name": "kky42--codex-as-mcp",
       "source": "./kky42--codex-as-mcp",
       "description": "Convert codex CLI tool to an MCP \u2014 unleash the power of GPT-5"
+    },
+    {
+      "name": "zhanghandong--claude-code-api-rs",
+      "source": "./zhanghandong--claude-code-api-rs",
+      "description": "A high-performance Rust implementation of an OpenAI-compatible API gateway for Claude Code CLI."
     },
     {
       "name": "kaihv--open-banking-chile",
@@ -12422,6 +12507,11 @@
       "name": "nvidia--osmo",
       "source": "./nvidia--osmo",
       "description": "The developer-first platform for scaling complex Physical AI workloads across heterogeneous compute\u2014unifying training GPUs, simulation clusters, and edge devices in a simple YAML"
+    },
+    {
+      "name": "catmuse--hiwords",
+      "source": "./catmuse--hiwords",
+      "description": "Effortlessly grow your vocabulary as you read, with automatic highlighting and translation of unfamiliar words."
     },
     {
       "name": "mitkox--ai-coding-factory",
@@ -13409,6 +13499,11 @@
       "description": "A self-hosted, serverless worker for sending and receiving emails on Cloudflare"
     },
     {
+      "name": "samueltulach--unxorer",
+      "source": "./samueltulach--unxorer",
+      "description": "Yet another IDA Pro/Home plugin for deobfuscating stack strings"
+    },
+    {
       "name": "julianromli--opencode-template",
       "source": "./julianromli--opencode-template",
       "description": "OpenCode CLI Template by @faizntfd"
@@ -13597,6 +13692,11 @@
       "name": "hwfengcs--dm-code-agent",
       "source": "./hwfengcs--dm-code-agent",
       "description": "learn agent"
+    },
+    {
+      "name": "coleam00--pydanticai-research-agent",
+      "source": "./coleam00--pydanticai-research-agent",
+      "description": "Pydantic AI Research Agent Built with the PRP Framework Template"
     },
     {
       "name": "htekdev--vidpipe",
@@ -14374,6 +14474,11 @@
       "description": "Local persistent memory store for LLM applications including continue.dev, cursor, claude desktop, github copilot, codex, antigravity, etc."
     },
     {
+      "name": "airbnb--viaduct",
+      "source": "./airbnb--viaduct",
+      "description": "Viaduct is a GraphQL-based system that provides a unified interface for accessing and interacting with any data source."
+    },
+    {
       "name": "anthaathi--pico",
       "source": "./anthaathi--pico",
       "description": "A web, mobile and desktop client for pi"
@@ -14617,6 +14722,11 @@
       "name": "envy-ai--ai-rpg",
       "source": "./envy-ai--ai-rpg",
       "description": "ai_rpg"
+    },
+    {
+      "name": "astrio-ai--atlas",
+      "source": "./astrio-ai--atlas",
+      "description": "Coding agent for code modernization"
     },
     {
       "name": "interfacex-co-jp--genshijin",
@@ -15607,6 +15717,11 @@
       "name": "guillaumegay13--fieldflow",
       "source": "./guillaumegay13--fieldflow",
       "description": "fieldflow"
+    },
+    {
+      "name": "preslavrachev--gomjml",
+      "source": "./preslavrachev--gomjml",
+      "description": "A native Go implementation of the MJML email framework, providing fast compilation of MJML markup to responsive HTML. "
     },
     {
       "name": "everettjf--liney",
@@ -36954,6 +37069,16 @@
       "description": "a unified history for all your agents"
     },
     {
+      "name": "js0980420--code-to-video-remotion",
+      "source": "./js0980420--code-to-video-remotion",
+      "description": "code-to-video-remotion"
+    },
+    {
+      "name": "js0980420--code-to-video-remotion",
+      "source": "./js0980420--code-to-video-remotion",
+      "description": "code-to-video-remotion"
+    },
+    {
       "name": "khangbdd--phoenix",
       "source": "./khangbdd--phoenix",
       "description": "phoenix"
@@ -38444,6 +38569,11 @@
       "description": "Browser-based 3D CAD for authoring IFC5/IFCX models, built with TypeScript, Three.js, and OpenCascade WebAssembly."
     },
     {
+      "name": "xgaicoding--skill-cn",
+      "source": "./xgaicoding--skill-cn",
+      "description": "\u52a9\u529b\u56fd\u5185 Skill \u4f7f\u7528\u8005\u5feb\u901f\u627e\u5230\u80fd\u7528\u3001\u597d\u7528\u3001\u53ef\u590d\u7528\u7684\u5b9e\u8df5\u65b9\u6848 \u6c47\u805a\u4f18\u8d28 Skill\uff0c\u6253\u901a\u771f\u5b9e\u573a\u666f\uff0c\u6c89\u6dc0\u6301\u7eed\u751f\u4ea7\u529b"
+    },
+    {
       "name": "jojobeans1981--ember-campfire-edition",
       "source": "./jojobeans1981--ember-campfire-edition",
       "description": "The introductory app for what will be  the next generation of dyslexia intervention using AI."
@@ -39232,6 +39362,11 @@
       "name": "nuwax-ai--nuwaclaw",
       "source": "./nuwax-ai--nuwaclaw",
       "description": "nuwax agent"
+    },
+    {
+      "name": "iron-ham--claudio",
+      "source": "./iron-ham--claudio",
+      "description": "Multi-instance Claude Code orchestrator using git worktrees"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -40857,6 +40992,21 @@
       "name": "nirholas--crypto-data-aggregator",
       "source": "./nirholas--crypto-data-aggregator",
       "description": "Real-time cryptocurrency market data aggregator. Track 10,000+ coins, monitor 200+ DeFi protocols, manage portfolios, set price alerts, and analyze market sentiment, all in one place."
+    },
+    {
+      "name": "encoredev--skills",
+      "source": "./encoredev--skills",
+      "description": "Agent Skills for development with Encore."
+    },
+    {
+      "name": "deh40--clouddrop",
+      "source": "./deh40--clouddrop",
+      "description": "A modern, secure peer-to-peer file sharing tool built on Cloudflare Workers."
+    },
+    {
+      "name": "kyle-chalmers--data-ai-tickets-template",
+      "source": "./kyle-chalmers--data-ai-tickets-template",
+      "description": "Reference repository for the Kyle Chalmers Data & AI YouTube channel ( youtube.com@kylechalmersdataai ). Provides structured templates for managing data tasks with quality-first SQL development, stand"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -44324,6 +44474,11 @@
       "description": "A file-based Command Protocol enabling Claude Code to trigger Unity Editor operations. Built for multi-agent and highly parallelized workflows."
     },
     {
+      "name": "dicklesworthstone--flywheel-gateway",
+      "source": "./dicklesworthstone--flywheel-gateway",
+      "description": "SDK-first orchestration platform for managing AI coding agent fleets: BYOA key rotation, real-time WebSocket dashboard, DCG integration, and cross-agent search"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -46554,6 +46709,11 @@
       "description": "just-use-convex"
     },
     {
+      "name": "indrazm--moonrepo-kickstart",
+      "source": "./indrazm--moonrepo-kickstart",
+      "description": "A modern, production-ready full-stack monorepo template powered by moonrepo, featuring a FastAPI backend, React 19 frontend with TanStack ecosystem, and type-safe API communication."
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -47727,6 +47887,71 @@
       "name": "themuffinator--openq4",
       "source": "./themuffinator--openq4",
       "description": "The definitive source-port and game binary replacement to run QUAKE 4 on modern systems."
+    },
+    {
+      "name": "rdlabo-team--ionic-theme-md3",
+      "source": "./rdlabo-team--ionic-theme-md3",
+      "description": "CSS/JavaScript Library for Ionic Framework"
+    },
+    {
+      "name": "rdlabo-team--ionic-theme-md3",
+      "source": "./rdlabo-team--ionic-theme-md3",
+      "description": "CSS/JavaScript Library for Ionic Framework"
+    },
+    {
+      "name": "rdlabo-team--ionic-theme-md3",
+      "source": "./rdlabo-team--ionic-theme-md3",
+      "description": "CSS/JavaScript Library for Ionic Framework"
+    },
+    {
+      "name": "rdlabo-team--ionic-theme-md3",
+      "source": "./rdlabo-team--ionic-theme-md3",
+      "description": "CSS/JavaScript Library for Ionic Framework"
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
+    },
+    {
+      "name": "waynesutton--better-todo",
+      "source": "./waynesutton--better-todo",
+      "description": "Your real-time to-do list that never falls out of sync \u2014 built on Convex."
     },
     {
       "name": "onevcat--xin",
@@ -49309,6 +49534,11 @@
       "description": "IsaacLab-SO_100_teleoperation"
     },
     {
+      "name": "dangrover--cosmic-ext-applet-next-meeting",
+      "source": "./dangrover--cosmic-ext-applet-next-meeting",
+      "description": "Applet for Cosmic DE that shows your next meeting with button to join"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -50592,6 +50822,56 @@
       "name": "kanzaki--rdraagent-v0-6",
       "source": "./kanzaki--rdraagent-v0-6",
       "description": "RDRAAgent_v0.6"
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "mike-at-redspace--video-ambient-glow",
+      "source": "./mike-at-redspace--video-ambient-glow",
+      "description": "YouTube-style ambient glow effects for HTML5 video. Zero dependencies, ~5.8KB minified, TypeScript support, smooth color-reactive backdrop."
+    },
+    {
+      "name": "composablehorizons--jetpack-compose-boilerplate",
+      "source": "./composablehorizons--jetpack-compose-boilerplate",
+      "description": "A Jetpack Compose template to build apps using Compose on Android and Compose Unstyled."
+    },
+    {
+      "name": "zerx-lab--axon-ai",
+      "source": "./zerx-lab--axon-ai",
+      "description": "axon-ai"
+    },
+    {
+      "name": "exponential-science--better-auth-hedera",
+      "source": "./exponential-science--better-auth-hedera",
+      "description": "Hedera integration for better-auth"
     },
     {
       "name": "hyaway--hyaway",
@@ -53509,6 +53789,36 @@
       "description": "Get a security review of any email"
     },
     {
+      "name": "1firecracker--agent-for-exam",
+      "source": "./1firecracker--agent-for-exam",
+      "description": "Agent for exam is an AI exam preparation assistant, based on mulit agent system"
+    },
+    {
+      "name": "zhutoujiuba20--deo",
+      "source": "./zhutoujiuba20--deo",
+      "description": "Educational resource for learning modern development practices"
+    },
+    {
+      "name": "cyenoch--efdenhanced",
+      "source": "./cyenoch--efdenhanced",
+      "description": "EfDEnhanced"
+    },
+    {
+      "name": "minaskar--tempest",
+      "source": "./minaskar--tempest",
+      "description": "Persistent Sampling for fast Bayesian posterior sampling and model evidence estimation in scientific applications"
+    },
+    {
+      "name": "cyenoch--efdenhanced",
+      "source": "./cyenoch--efdenhanced",
+      "description": "EfDEnhanced"
+    },
+    {
+      "name": "cyenoch--efdenhanced",
+      "source": "./cyenoch--efdenhanced",
+      "description": "EfDEnhanced"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -55122,6 +55432,31 @@
       "name": "phuvinh010701--mezon-sdk-python",
       "source": "./phuvinh010701--mezon-sdk-python",
       "description": "Mezon Python SDK for realtime messaging and APIs"
+    },
+    {
+      "name": "ohthepain--octacard",
+      "source": "./ohthepain--octacard",
+      "description": "Sample Manager and Converter for the Elektron Octatrack"
+    },
+    {
+      "name": "airscripts--agentskill",
+      "source": "./airscripts--agentskill",
+      "description": "Let any agent produce code indistinguishable from the existing codebase."
+    },
+    {
+      "name": "enrichfun--solclaw",
+      "source": "./enrichfun--solclaw",
+      "description": "The algo trading IDE for Solana memecoins. Live chart, order-book tape, token Nursery, AI assistant, paper trading. Open source."
+    },
+    {
+      "name": "walletconnect--skills",
+      "source": "./walletconnect--skills",
+      "description": "Centralized repository for shared Claude Code configuration files used across WalletConnect projects."
+    },
+    {
+      "name": "blocunited-llc--mozaiks",
+      "source": "./blocunited-llc--mozaiks",
+      "description": "The Mozaiks core is a self-hostable runtime for deploying AI-driven, multi-tenant web apps with real-time UI, auth, and billing built in. Apps are defined via YAML and lightweight Python/JS stubs for "
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -56832,6 +57167,26 @@
       "name": "embarkstudios--unrealclaudefilehelper",
       "source": "./embarkstudios--unrealclaudefilehelper",
       "description": "UnrealClaudeFileHelper"
+    },
+    {
+      "name": "srajangpt1--agent-rule-sync",
+      "source": "./srajangpt1--agent-rule-sync",
+      "description": "agent-rule-sync"
+    },
+    {
+      "name": "srajangpt1--agent-rule-sync",
+      "source": "./srajangpt1--agent-rule-sync",
+      "description": "agent-rule-sync"
+    },
+    {
+      "name": "srajangpt1--agent-rule-sync",
+      "source": "./srajangpt1--agent-rule-sync",
+      "description": "agent-rule-sync"
+    },
+    {
+      "name": "srajangpt1--agent-rule-sync",
+      "source": "./srajangpt1--agent-rule-sync",
+      "description": "agent-rule-sync"
     },
     {
       "name": "makenowjust--naraku",
@@ -58962,6 +59317,26 @@
       "name": "nebryx--sui-dev-skill",
       "source": "./nebryx--sui-dev-skill",
       "description": "Claude Code skill for modern sui development"
+    },
+    {
+      "name": "monitoringartist--logicmonitor-mcp-server",
+      "source": "./monitoringartist--logicmonitor-mcp-server",
+      "description": ":sparkles: LogicMonitor MCP server"
+    },
+    {
+      "name": "monitoringartist--logicmonitor-mcp-server",
+      "source": "./monitoringartist--logicmonitor-mcp-server",
+      "description": ":sparkles: LogicMonitor MCP server"
+    },
+    {
+      "name": "monitoringartist--logicmonitor-mcp-server",
+      "source": "./monitoringartist--logicmonitor-mcp-server",
+      "description": ":sparkles: LogicMonitor MCP server"
+    },
+    {
+      "name": "synapsr--louez",
+      "source": "./synapsr--louez",
+      "description": "\ud83c\udfe0 Open-source equipment rental platform. Manage inventory, reservations, customers & generate contracts. Beautiful storefronts for your rental business. Self-host for free or use our cloud. Built with"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
