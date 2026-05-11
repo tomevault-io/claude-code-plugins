@@ -1,17 +1,16 @@
-# ultracite
+# diff0
 
-> Project Context - Rules, Standard and Linter
+> Concise rules for building accessible, fast, delightful UIs Use MUST/SHOULD/NEVER to guide decisions
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracite/SKILL.md
+Read and follow the instructions in .claude/skills/diff0/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 Concise rules for building accessible, fast, delightful UIs Use MUST/SHOULD/NEVER to guide decisions
 
