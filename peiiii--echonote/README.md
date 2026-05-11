@@ -2,6 +2,8 @@
 
 > Source: [Peiiii/EchoNote](https://github.com/Peiiii/EchoNote) — distributed by [TomeVault](https://tomevault.io)
 
+AI Powered Note Taking With Agent
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
