@@ -1,19 +1,19 @@
-# 210
+# always-commit
 
-> Keep files below 420 lines.
+> Commit all pending changes. Commit using conventional commits. Always commit after each implementation step or change.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/210/SKILL.md
+Read and follow the instructions in .claude/skills/always-commit/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Keep files below 420 lines.
+Commit all pending changes. Commit using conventional commits. Always commit after each implementation step or change.
 
 ---
 > Source: [dergigi/boris](https://github.com/dergigi/boris) — distributed by [TomeVault](https://tomevault.io).
