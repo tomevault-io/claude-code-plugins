@@ -1,22 +1,16 @@
-# event-driven-architecture
+# package-management
 
-> description: This application uses an event-driven architecture with database triggers and webhooks for asynchronous processing.
+> Always use `pnpm` commands instead of `npm`. Everything except documentation lives in the `frontend` folder.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/event-driven-architecture/SKILL.md
+Read and follow the instructions in .claude/skills/package-management/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
----
-description: This application uses an event-driven architecture with database triggers and webhooks for asynchronous processing.
-globs:
-alwaysApply: false
----
 
 ---
 > Source: [mousberg/le-commit](https://github.com/mousberg/le-commit) — distributed by [TomeVault](https://tomevault.io).
