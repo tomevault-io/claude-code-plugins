@@ -1,34 +1,22 @@
-# fetching-data-with-controllers
+# highlights-nip-and-docs
 
-> fetching data from relays
+> nostr highlights spec and docs
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/fetching-data-with-controllers/SKILL.md
+Read and follow the instructions in .claude/skills/highlights-nip-and-docs/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Fetching Data with Controllers
+Here's the spec for nostr-native highlights: 
 
-We fetch data from relays using controllers:
-
-- Start controllers immediatly; don't await.
-- Stream via onEvent; dedupe replaceables; emit immediately.
-- Parallel local/remote queries; complete on EOSE.
-- Finalize and persist since after completion.
-- Guard with generations to cancel stale runs.
-- UI flips off loading on first streamed result.
-
-We always include and prefer local relays for reads; optionally rebroadcast fetched content to local relays (depending on setting); and tolerate local‑only mode for writes (queueing for later).
-
-Since we are streaming results, we should NEVER use timeouts for fetching data. We should always rely on EOSE.
-
-In short: Local-first hydration, background network fetch, reactive updates, and replaceable lookups provide instant UI with eventual consistency. Use local relays as local data store for everything we fetch from remote relays.
+- https://github.com/nostr-protocol/nips/blob/master/84.md
+- https://nostrbook.dev/kinds/9802
 
 ---
 > Source: [dergigi/boris](https://github.com/dergigi/boris) — distributed by [TomeVault](https://tomevault.io).
