@@ -1,0 +1,34 @@
+# deep-research-bot
+
+> - installing dependencies and dependency management
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/deep-research-bot/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## uv for Dependency managment
+Always use `uv` for:
+- installing dependencies and dependency management
+- running python files, e.g. `uv run`
+
+## Weave Evaluations
+If you have the wandb MCP server tools available to you; When asked to instrument code with `weave` Evaluations from Weights & Biaes, always use the `wandb` MCP Server tools, specifically the support bot tool, in order to check the weave docs and ensure that you're doing it correctly.
+
+## Testing
+Always run tests with `uv` and `pytest`, e.g. `uv run pytest -vv`. use `-vv` to get more detail about the test progress.
+
+## Structured data
+Always try use pydantic objects when passing around and retrning data, avoid using jon.dumps
+
+## Typing
+Always stick to modern python practices, 3.12 and later, e.g. `list` instead of `List`
+
+---
+> Source: [morganmcg1/deep-research-bot](https://github.com/morganmcg1/deep-research-bot) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-06 -->
