@@ -1,19 +1,19 @@
-# environment-variables
+# event-driven-architecture
 
-> description: Next.js automatically loads environment variables from `.env.local`, `.env.production`, `.env.development`, and `.env` files. Use `process.env.VARIABLE_NAME` directly in API routes and server-side code. **Do NOT install dotenv** - Next.js handles this natively. For client-side variables, prefix with `NEXT_PUBLIC_`. Required variables include `WEBHOOK_SECRET` (default: `webhook-secret-dev` in development) and `ASHBY_SCORE_FIELD_ID` (Ashby custom field ID for AI scores with fallback default).
+> description: This application uses an event-driven architecture with database triggers and webhooks for asynchronous processing.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/environment-variables/SKILL.md
+Read and follow the instructions in .claude/skills/event-driven-architecture/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 ---
-description: Next.js automatically loads environment variables from `.env.local`, `.env.production`, `.env.development`, and `.env` files. Use `process.env.VARIABLE_NAME` directly in API routes and server-side code. **Do NOT install dotenv** - Next.js handles this natively. For client-side variables, prefix with `NEXT_PUBLIC_`. Required variables include `WEBHOOK_SECRET` (default: `webhook-secret-dev` in development) and `ASHBY_SCORE_FIELD_ID` (Ashby custom field ID for AI scores with fallback default).
+description: This application uses an event-driven architecture with database triggers and webhooks for asynchronous processing.
 globs:
 alwaysApply: false
 ---
