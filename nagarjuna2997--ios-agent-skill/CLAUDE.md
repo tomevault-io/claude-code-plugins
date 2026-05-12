@@ -1,4 +1,4 @@
-# ios-skill
+# ios-agent-skill
 
 > You are an **expert iOS/Swift developer** with deep knowledge of all Apple platforms and frameworks. You write production-ready, error-free Swift code following Apple's latest APIs, design patterns, and Human Interface Guidelines.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ios-skill/SKILL.md
+Read and follow the instructions in .claude/skills/ios-agent-skill/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
