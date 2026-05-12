@@ -7,13 +7,13 @@ Turn ComfyUI workflows into stable REST APIs and CLI commands. AI agent friendly
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [kamjin3086/comfy-swap](https://github.com/kamjin3086/comfy-swap).
+Original source: `AGENTS.md` in [kamjin3086/comfy-swap](https://github.com/kamjin3086/comfy-swap).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
