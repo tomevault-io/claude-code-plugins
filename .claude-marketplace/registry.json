@@ -4429,6 +4429,11 @@
       "description": "Turn any web app into an API. Chrome extension captures browser traffic, auto-generates schemas, lets AI replay APIs directly. No official API needed."
     },
     {
+      "name": "mvanhorn--cli-printing-press",
+      "source": "./mvanhorn--cli-printing-press",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI \u2014 designed for AI agents first, with SQLite sync, offline search, and compound"
+    },
+    {
       "name": "codephiliax--youclaw",
       "source": "./codephiliax--youclaw",
       "description": "\ud83e\udd9e Your AI Personal Assistant.  An intelligent assistant with memory, skills, and scheduled tasks that truly understands you . Helping you tackle everything in work and life."
@@ -32494,6 +32499,11 @@
       "description": "A framework for designing, executing  and analysing experiment campaigns "
     },
     {
+      "name": "cyberfabric--cyberware-frontx",
+      "source": "./cyberfabric--cyberware-frontx",
+      "description": "Cyber Ware FrontX - UI development kit for modern SaaS applications"
+    },
+    {
       "name": "bug-ops--mcp-execution",
       "source": "./bug-ops--mcp-execution",
       "description": "\ud83d\ude80 Generate executable TypeScript tools from MCP servers with 98% token savings. Progressive loading pattern for AI agents. Production-ready."
@@ -38409,6 +38419,11 @@
       "description": "Capacitor SDK for growing in-app subscriptions"
     },
     {
+      "name": "kunchenguid--autopreso",
+      "source": "./kunchenguid--autopreso",
+      "description": "Realtime speech to presentation. Let the whiteboard whiteboard itself."
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -42847,6 +42862,11 @@
       "name": "mattbusel--every-other-token",
       "source": "./mattbusel--every-other-token",
       "description": "A real-time LLM stream interceptor for token-level interaction research"
+    },
+    {
+      "name": "vintasoftware--kill-the-clipboard",
+      "source": "./vintasoftware--kill-the-clipboard",
+      "description": "Open-source free TypeScript library to implement SMART Health Cards and Links"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -54799,6 +54819,11 @@
       "description": "An Obsidian plugin to track your food intake (calories, macronutrients) and nutritional information."
     },
     {
+      "name": "tandemn-labs--tandemn-system",
+      "source": "./tandemn-labs--tandemn-system",
+      "description": "Tandemn's server is the core orchestration engine that deploys, schedules, and optimizes large-scale AI inference workloads across heterogeneous GPU infrastructure."
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -56367,6 +56392,11 @@
       "name": "wilsonzlin--umap-rs",
       "source": "./wilsonzlin--umap-rs",
       "description": "Fast, parallel, memory-efficient Rust implementation of UMAP"
+    },
+    {
+      "name": "kitlangton--merman",
+      "source": "./kitlangton--merman",
+      "description": "merman"
     },
     {
       "name": "hyaway--hyaway",
@@ -64669,6 +64699,11 @@
       "description": "A Hammerhead Karoo extension to add a configurable W' (W Prime) data field"
     },
     {
+      "name": "valtlfelipe--hedit",
+      "source": "./valtlfelipe--hedit",
+      "description": "The modern hosts file editor for people who care about their tools"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -67467,6 +67502,46 @@
       "name": "binbinsh--hugo-trainsh",
       "source": "./binbinsh--hugo-trainsh",
       "description": "Hugo theme with NES/FC retro pixel style inspired by classic 8-bit RPGs"
+    },
+    {
+      "name": "konghanghang--openlist-strm",
+      "source": "./konghanghang--openlist-strm",
+      "description": "\u4e3aopenlist\u751f\u6210strm\u6587\u4ef6"
+    },
+    {
+      "name": "grafana--business-charts",
+      "source": "./grafana--business-charts",
+      "description": "The Business Charts plugin integrates the powerful Apache ECharts library into Grafana, enabling you to create rich, interactive charts and graphs within your dashboards. Built on pure JavaScript and "
+    },
+    {
+      "name": "illscience--vibe-debug",
+      "source": "./illscience--vibe-debug",
+      "description": "CLI debugger that lets coding agents inspect live Python runtime state, with optional MCP integration."
+    },
+    {
+      "name": "chenyize111--x2dfd",
+      "source": "./chenyize111--x2dfd",
+      "description": "X2DFD"
+    },
+    {
+      "name": "crmitchelmore--justspeaktoit",
+      "source": "./crmitchelmore--justspeaktoit",
+      "description": "Open source voice to text for MacOS"
+    },
+    {
+      "name": "cq-fabrication--stl-shelf",
+      "source": "./cq-fabrication--stl-shelf",
+      "description": "Personal library management for 3D printable models. Organize your designs, track versions, and preview models in your browser. Built for makers building businesses."
+    },
+    {
+      "name": "shenyangs--guanlan",
+      "source": "./shenyangs--guanlan",
+      "description": "\u89c2\u6f9c / Guanlan\uff1aAI Agent \u7684\u4e2d\u6587\u4e92\u8054\u7f51\u7814\u7a76\u3001\u9605\u8bfb\u4e0e\u4fe1\u6e90\u8def\u7531\u5de5\u5177\u3002"
+    },
+    {
+      "name": "brendtumi--cron-ironer",
+      "source": "./brendtumi--cron-ironer",
+      "description": "cron-ironer is a developer-friendly cli tool for visualizing and optimizing your crontab schedules. It helps you identify overlaps, gaps, and scheduling bottlenecks using intuitive heatmaps and intell"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -74794,6 +74869,156 @@
       "description": "ADBC-compatible driver for Exasol with Apache Arrow data format support. Written in Rust \ud83e\udd80"
     },
     {
+      "name": "davidpirogov--toon-llm",
+      "source": "./davidpirogov--toon-llm",
+      "description": "Token-Oriented Object Notation (TOON) is an LLM-optimized data serialization format implemented in Python."
+    },
+    {
+      "name": "openhands--typescript-client",
+      "source": "./openhands--typescript-client",
+      "description": "typescript-client"
+    },
+    {
+      "name": "marcelofarias--botscript",
+      "source": "./marcelofarias--botscript",
+      "description": "BotScript - A TypeScript superset for the LLM era"
+    },
+    {
+      "name": "minorcell--album",
+      "source": "./minorcell--album",
+      "description": "A cloud space system built on Next.js + Prisma + MySQL + TOS."
+    },
+    {
+      "name": "teweldemat--funcscript",
+      "source": "./teweldemat--funcscript",
+      "description": "funcscript"
+    },
+    {
+      "name": "quantum-accelerators--electrai",
+      "source": "./quantum-accelerators--electrai",
+      "description": "electrai"
+    },
+    {
+      "name": "yusabo90002--typsphinx",
+      "source": "./yusabo90002--typsphinx",
+      "description": "Sphinx extension for Typst output format support"
+    },
+    {
+      "name": "wakeless--agent-tracker",
+      "source": "./wakeless--agent-tracker",
+      "description": "A way to track where and what your agents are doing!"
+    },
+    {
+      "name": "self-vm--self",
+      "source": "./self-vm--self",
+      "description": "the virtual machine designed to integrate AI instructions as part of the instruction set."
+    },
+    {
+      "name": "paddo-tech--tether-cli",
+      "source": "./paddo-tech--tether-cli",
+      "description": "Sync dotfiles and packages across machines"
+    },
+    {
+      "name": "await-d--tggod",
+      "source": "./await-d--tggod",
+      "description": "TgGod \u662f\u4e00\u4e2a\u529f\u80fd\u5f3a\u5927\u7684 Telegram \u7fa4\u7ec4\u5a92\u4f53\u4e0b\u8f7d\u7ba1\u7406\u7cfb\u7edf\uff0c\u901a\u8fc7\u667a\u80fd\u89c4\u5219\u8fc7\u6ee4\u548c\u81ea\u52a8\u5316\u4e0b\u8f7d\uff0c\u5e2e\u52a9\u7528\u6237\u9ad8\u6548\u7ba1\u7406\u548c\u5f52\u6863 Telegram \u7fa4\u7ec4\u4e2d\u7684\u5a92\u4f53\u5185\u5bb9\u3002\u91c7\u7528\u73b0\u4ee3\u5316\u6280\u672f\u6808\uff0c\u63d0\u4f9b\u76f4\u89c2\u7684 Web \u754c\u9762\u548c\u5b8c\u5584\u7684 API \u652f\u6301\u3002"
+    },
+    {
+      "name": "jperrello--saturn",
+      "source": "./jperrello--saturn",
+      "description": "AI endpoints discoverable on local networks."
+    },
+    {
+      "name": "bluehotdog--reworker",
+      "source": "./bluehotdog--reworker",
+      "description": "Type-safe, chunked message passing for Chrome extensions/WebWorkers/ServiceWorkers with zero runtime dependencies. Built with ReScript GADTs for compile-time safety."
+    },
+    {
+      "name": "microsoft--ignite25-prel14-unify-data-act-on-insights-and-build-ai-solutions-with-microsoft-fabric",
+      "source": "./microsoft--ignite25-prel14-unify-data-act-on-insights-and-build-ai-solutions-with-microsoft-fabric",
+      "description": "ignite25-PREL14-unify-data-act-on-insights-and-build-ai-solutions-with-microsoft-fabric"
+    },
+    {
+      "name": "microsoft--ignite25-lab510-the-power-of-github-copilot-in-vs-code",
+      "source": "./microsoft--ignite25-lab510-the-power-of-github-copilot-in-vs-code",
+      "description": "ignite25-LAB510-the-power-of-github-copilot-in-vs-code"
+    },
+    {
+      "name": "epressworld--epress",
+      "source": "./epressworld--epress",
+      "description": "A decentralized content & social network, self-hosted by everyone."
+    },
+    {
+      "name": "microsoft--ignite25-lab565-makers-in-action-crafting-microsoft-365-copilot-agents-for-real-world",
+      "source": "./microsoft--ignite25-lab565-makers-in-action-crafting-microsoft-365-copilot-agents-for-real-world",
+      "description": "ignite25-LAB565-makers-in-action-crafting-microsoft-365-copilot-agents-for-real-world"
+    },
+    {
+      "name": "microsoft--ignite25-lab560-building-declarative-agents-with-typespec-and-m365-agents-toolkit",
+      "source": "./microsoft--ignite25-lab560-building-declarative-agents-with-typespec-and-m365-agents-toolkit",
+      "description": "ignite25-LAB560-building-declarative-agents-with-typespec-and-m365-agents-toolkit"
+    },
+    {
+      "name": "jhd3197--prompture",
+      "source": "./jhd3197--prompture",
+      "description": "Prompture is an API-first library for requesting structured JSON output from LLMs (or any structure), validating it against a schema, and running comparative tests between models."
+    },
+    {
+      "name": "buildproven--project-starter-guide",
+      "source": "./buildproven--project-starter-guide",
+      "description": "\ud83d\ude80 Comprehensive guide for choosing the right architecture and technology stack for any project type"
+    },
+    {
+      "name": "madmag77--wirl",
+      "source": "./madmag77--wirl",
+      "description": "Wirl \u2014 a human-readable workflow language with HITL, loops, parallelism, and checkpoints."
+    },
+    {
+      "name": "shinshin86--codex-history-list",
+      "source": "./shinshin86--codex-history-list",
+      "description": "List Codex session histories from ~/.codex/sessions with cwd and first user ask."
+    },
+    {
+      "name": "taikoxyz--alethia-reth",
+      "source": "./taikoxyz--alethia-reth",
+      "description": "A high-performance Rust execution client for the Taiko Alethia protocol."
+    },
+    {
+      "name": "bytesmelt--etch",
+      "source": "./bytesmelt--etch",
+      "description": "Define once, Etch forever."
+    },
+    {
+      "name": "aexol-studio--basecamp-to-llm",
+      "source": "./aexol-studio--basecamp-to-llm",
+      "description": "Small CLI to fetch tasks from Card Tables from BaseCamp"
+    },
+    {
+      "name": "anno-mods--asset-extractor",
+      "source": "./anno-mods--asset-extractor",
+      "description": "Utility tool to automate extraction and conversion of the assets for using them in other tools or wikis. Works for Anno 1800 and 117."
+    },
+    {
+      "name": "fi6--automoma",
+      "source": "./fi6--automoma",
+      "description": "automoma"
+    },
+    {
+      "name": "mio-19--repo",
+      "source": "./mio-19--repo",
+      "description": "build script for android applications and operating system based on android"
+    },
+    {
+      "name": "lloydrichards--effect-boxes",
+      "source": "./lloydrichards--effect-boxes",
+      "description": "A functional layout system for terminal applications built with Effect.js. Create TUIs with composable boxes, ANSI styling, and reactive components."
+    },
+    {
+      "name": "themoment-team--datagsm-server",
+      "source": "./themoment-team--datagsm-server",
+      "description": "\uad11\uc8fc\uc18c\ud504\ud2b8\uc6e8\uc5b4\ub9c8\uc774\uc2a4\ud130\uace0\ub4f1\ud559\uad50 OpenAPI & OAuth \ud50c\ub7ab\ud3fc"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -78819,6 +79044,61 @@
       "description": "\u4ed3\u9889\u6587\u6863\u7684mcp"
     },
     {
+      "name": "helldez--jarvisq",
+      "source": "./helldez--jarvisq",
+      "description": "Private, on-device voice assistant - STT, LLM, and TTS running fully locally. Powered by the Tether QVAC SDK. Mobile (Android via Expo + React Native) and desktop (Windows / macOS / Linux via Electron"
+    },
+    {
+      "name": "developerworks--rust-supervisor",
+      "source": "./developerworks--rust-supervisor",
+      "description": "rust-supervisor"
+    },
+    {
+      "name": "can1357--fxe",
+      "source": "./can1357--fxe",
+      "description": "Immediate-mode app platform \u2014 an Electron alternative with real GPU graphics. C++ 2D/3D renderer with optional Dawn/WebGPU backend, embedded V8 + TypeScript runtime, and a Puppeteer-style Python debug"
+    },
+    {
+      "name": "mockzilla--mockzilla",
+      "source": "./mockzilla--mockzilla",
+      "description": "OpenAPI mock server generator with portable and codegen modes, realistic responses, proxying, latency simulation, and request validation"
+    },
+    {
+      "name": "the-ai-alliance--tapestry",
+      "source": "./the-ai-alliance--tapestry",
+      "description": "Project Tapestry is building a global frontier LLM to enable sovereign AI through consortium training: a new approach utilizing globally-distributed nodes of compute and local data."
+    },
+    {
+      "name": "zionisreal--claude-praxis",
+      "source": "./zionisreal--claude-praxis",
+      "description": "The most systematic harness system for Claude Code. Constitutional, file-based execution framework with anti-XY discipline, plan-as-files memory, validated completion, and mode-aware overhead."
+    },
+    {
+      "name": "benyaminsalimi--codex-sandbox",
+      "source": "./benyaminsalimi--codex-sandbox",
+      "description": "Base docker image with codex included "
+    },
+    {
+      "name": "microsoft--ignite25-lab541-defend-against-threats-with-microsoft-defender",
+      "source": "./microsoft--ignite25-lab541-defend-against-threats-with-microsoft-defender",
+      "description": "ignite25-LAB541-defend-against-threats-with-microsoft-defender"
+    },
+    {
+      "name": "omar-obando--qwen-orchestrator",
+      "source": "./omar-obando--qwen-orchestrator",
+      "description": "Qwen Orchestrator is a powerful extension built exclusively for Qwen Code \u2014 the open-source AI coding CLI by Alibaba. It transforms a single AI coding assistant into a coordinated team of 22 specializ"
+    },
+    {
+      "name": "idradev--diagrammer",
+      "source": "./idradev--diagrammer",
+      "description": "\ud83d\udcd0 A minimal viewer for LLM-authored diagrams. Local-first, schema-driven, no account, no cloud."
+    },
+    {
+      "name": "root-io-labs--open-agent-teams",
+      "source": "./root-io-labs--open-agent-teams",
+      "description": "OAT is a framework for running teams of AI coding agents that collaborate on a shared codebase."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -79647,6 +79927,11 @@
       "name": "hyper-beast--bilitvnative",
       "source": "./hyper-beast--bilitvnative",
       "description": "BiliTVNative"
+    },
+    {
+      "name": "microsoft--power-cat-skills",
+      "source": "./microsoft--power-cat-skills",
+      "description": "Power Platform development extensions curated by Microsoft Power CAT (Customer Advisory Team)"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
