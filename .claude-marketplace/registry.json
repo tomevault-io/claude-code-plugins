@@ -84,6 +84,11 @@
       "description": "The best-benchmarked open-source AI memory system. And it's free."
     },
     {
+      "name": "earendil-works--pi",
+      "source": "./earendil-works--pi",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods"
+    },
+    {
       "name": "chenglou--pretext",
       "source": "./chenglou--pretext",
       "description": "Fast, accurate & comprehensive text measurement & layout"
@@ -15677,6 +15682,11 @@
       "name": "soegaard--webracket",
       "source": "./soegaard--webracket",
       "description": "The WebRacket language is a subset of Racket that compiles to WebAssembly"
+    },
+    {
+      "name": "lthoangg--openagentd",
+      "source": "./lthoangg--openagentd",
+      "description": "Self-hosted AI agent OS \u2014 streaming chat, tool use, persistent memory, and multi-agent teams. Runs entirely on your machine."
     },
     {
       "name": "interfacex-co-jp--genshijin",
@@ -32934,6 +32944,11 @@
       "description": "Soft Scroll is a free, open\u2011source Windows utility that delivers smooth scrolling system\u2011wide. Similar to \u201cSmoothScroll\u201d but free, portable, and configurable (single\u2011file .exe). Smooth Scrolling Free."
     },
     {
+      "name": "timothywarner-org--prompt-pro",
+      "source": "./timothywarner-org--prompt-pro",
+      "description": "Master AI prompting for business innovation. O'Reilly Live Learning course by Tim Warner covering ChatGPT, Claude, Copilot, and enterprise prompt engineering with MCP implementation."
+    },
+    {
       "name": "w3cj--ruta",
       "source": "./w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx"
@@ -33722,6 +33737,11 @@
       "name": "discoverse-dev--urdf-to-mjcf",
       "source": "./discoverse-dev--urdf-to-mjcf",
       "description": "URDF to MJCF conversion tool with support for STL, OBJ, DAE formats, automatic recognition of mimic tags in URDF, configurable joint actuators, and one-click generation of sim-ready MJCF files.URDF\u5230MJ"
+    },
+    {
+      "name": "ncosentino--needlr",
+      "source": "./ncosentino--needlr",
+      "description": "An opinionated framework for scanning assemblies for types and registering them in your dependency injection container."
     },
     {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
@@ -40719,6 +40739,11 @@
       "description": "Cookiecutter for setting up python projects with uv that just work"
     },
     {
+      "name": "openkaiden--kaiden",
+      "source": "./openkaiden--kaiden",
+      "description": "kaiden"
+    },
+    {
       "name": "10xchengtu--mux0",
       "source": "./10xchengtu--mux0",
       "description": "MUX0"
@@ -42799,6 +42824,21 @@
       "description": "A bytebot variant that uses Holo 1.5 7b to control the desktop"
     },
     {
+      "name": "team-alembic--clarity",
+      "source": "./team-alembic--clarity",
+      "description": "Clarity is an interactive introspection and visualization tool for Elixir, Ash and Phoenix projects."
+    },
+    {
+      "name": "ai-escape--open-ice",
+      "source": "./ai-escape--open-ice",
+      "description": "open-ice"
+    },
+    {
+      "name": "yorkeccak--the-oracle",
+      "source": "./yorkeccak--the-oracle",
+      "description": "The Oracle \u2013 The World's First AI Agent That Sees The Web, Right From Your Terminal. It searches the web, sees images & charts, and cites every source in real time."
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -43742,6 +43782,11 @@
       "name": "lakr233--breakglass",
       "source": "./lakr233--breakglass",
       "description": "BreakGlass"
+    },
+    {
+      "name": "opendatahub-io--models-as-a-service",
+      "source": "./opendatahub-io--models-as-a-service",
+      "description": "Model as a Service"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -44817,6 +44862,16 @@
       "name": "jasonyang-ee--mmmf",
       "source": "./jasonyang-ee--mmmf",
       "description": "Max Money Market Funds Calculator"
+    },
+    {
+      "name": "d00mch--souz",
+      "source": "./d00mch--souz",
+      "description": "A desktop AI agent focused on security and simplicity"
+    },
+    {
+      "name": "reviewstage--stage-cli",
+      "source": "./reviewstage--stage-cli",
+      "description": "A viewer for reviewing local code changes in small individual chapters. Works with any AI agent."
     },
     {
       "name": "lucianaib0318--geomind",
@@ -46584,6 +46639,21 @@
       "description": "local-browser-ai"
     },
     {
+      "name": "marmot-protocol--marmot-ts",
+      "source": "./marmot-protocol--marmot-ts",
+      "description": "TypeScript implementation of the Marmot protocol"
+    },
+    {
+      "name": "chainapsis--oko",
+      "source": "./chainapsis--oko",
+      "description": "Oko is an open-source embedded wallet stack that provides passwordless crypto experience via multi-party computation"
+    },
+    {
+      "name": "annenpolka--cclog",
+      "source": "./annenpolka--cclog",
+      "description": "Convert Claude Code conversation to Markdown with TUI"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -47722,6 +47792,31 @@
       "name": "tilesprivacy--tiles",
       "source": "./tilesprivacy--tiles",
       "description": "Local-first private AI assistant for everyday use. Runs on-device models with encrypted P2P sync, keeping your data and identity local, and supports sharing chats publicly on ATProto."
+    },
+    {
+      "name": "gabrieldemarmiesse--torch-max-backend",
+      "source": "./gabrieldemarmiesse--torch-max-backend",
+      "description": "torch-max-backend"
+    },
+    {
+      "name": "marukun712--aikyo",
+      "source": "./marukun712--aikyo",
+      "description": "aikyo\u306f\u3001\u76f8\u4e92\u306b\u3064\u306a\u304c\u308bAI\u30b3\u30f3\u30d1\u30cb\u30aa\u30f3\u3092\u4f5c\u6210\u3059\u308b\u305f\u3081\u306e\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af\u3067\u3059\u3002"
+    },
+    {
+      "name": "helpingai--llm-trainer",
+      "source": "./helpingai--llm-trainer",
+      "description": "A complete framework for training Large Language Models from scratch"
+    },
+    {
+      "name": "compozy--skeeper",
+      "source": "./compozy--skeeper",
+      "description": "Version your spec artifacts \u2014 PRDs, tech specs, ADRs, AI plans \u2014 in a sidecar Git repository, without polluting your main PRs."
+    },
+    {
+      "name": "gradient-industrial-robotics--gradientos",
+      "source": "./gradient-industrial-robotics--gradientos",
+      "description": "GradientOS"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -50014,6 +50109,21 @@
       "description": "Gateway for inspecting and auditing your MCP servers"
     },
     {
+      "name": "gomighty--mighty",
+      "source": "./gomighty--mighty",
+      "description": "Mighty is a framework for building apps with Astro and the backend of your choice."
+    },
+    {
+      "name": "lexrus--appaboutview",
+      "source": "./lexrus--appaboutview",
+      "description": "A drop in micro-framework for \"About\" views in your next macOS/iOS/visionOS/tvOS app"
+    },
+    {
+      "name": "anysoftkeyboard--janus",
+      "source": "./anysoftkeyboard--janus",
+      "description": "An Android app that provides contextual word translations by leveraging the human-curated Wikipedia"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -51257,6 +51367,16 @@
       "name": "v0l--dtan-server",
       "source": "./v0l--dtan-server",
       "description": "DTAN server / P2P relay"
+    },
+    {
+      "name": "secretflow--mplang",
+      "source": "./secretflow--mplang",
+      "description": "The multi-party programming language"
+    },
+    {
+      "name": "awslabs--toolkit-md",
+      "source": "./awslabs--toolkit-md",
+      "description": "CLI tools for maintaining Markdown content like documentation and tutorials"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -52752,6 +52872,36 @@
       "name": "kfstorm--sonarr-metadata-rewrite",
       "source": "./kfstorm--sonarr-metadata-rewrite",
       "description": "Automatically translates Sonarr TV show metadata files to your preferred language using TMDB"
+    },
+    {
+      "name": "tony363--superclaude",
+      "source": "./tony363--superclaude",
+      "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies."
+    },
+    {
+      "name": "wasm-ecosystem--warpo",
+      "source": "./wasm-ecosystem--warpo",
+      "description": "next generation assemblyscript compiler"
+    },
+    {
+      "name": "redhatinsights--insights-mcp",
+      "source": "./redhatinsights--insights-mcp",
+      "description": "An MCP server to connect insights functionality to an AI / LLM"
+    },
+    {
+      "name": "joelgrus--snowmeth",
+      "source": "./joelgrus--snowmeth",
+      "description": "use AI to write a novel using the snowflake method"
+    },
+    {
+      "name": "timewarpengineering--timewarp-amuru",
+      "source": "./timewarpengineering--timewarp-amuru",
+      "description": "timewarp-amuru"
+    },
+    {
+      "name": "axiomhq--ai",
+      "source": "./axiomhq--ai",
+      "description": "Axiom's AI SDK"
     },
     {
       "name": "onevcat--xin",
@@ -54599,6 +54749,11 @@
       "description": "Standardize your AI collaboration. AGENTS files for your AI. HUMANS files for you.  And more..."
     },
     {
+      "name": "crjfisher--ariadne",
+      "source": "./crjfisher--ariadne",
+      "description": "\ud83e\uddf5 Follow the thread through your codebase - find definitions, track references, and build call graphs with tree-sitter"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -56157,6 +56312,16 @@
       "name": "cloud-shuttle--leptos-helios",
       "source": "./cloud-shuttle--leptos-helios",
       "description": "\ud83d\ude80 High-performance Rust visualization library for Leptos v0.8 with WebGPU acceleration. Achieves 20fps+ for 100K points with type-safe chart specifications and compile-time validation."
+    },
+    {
+      "name": "drnkndev--opencode-mobile",
+      "source": "./drnkndev--opencode-mobile",
+      "description": "opencode-mobile"
+    },
+    {
+      "name": "wilsonzlin--umap-rs",
+      "source": "./wilsonzlin--umap-rs",
+      "description": "Fast, parallel, memory-efficient Rust implementation of UMAP"
     },
     {
       "name": "hyaway--hyaway",
@@ -57872,6 +58037,11 @@
       "name": "lesleslie--excalidraw-mcp",
       "source": "./lesleslie--excalidraw-mcp",
       "description": "Unofficial Excalidraw MCP Server "
+    },
+    {
+      "name": "basiltt--xstate-statemachine",
+      "source": "./basiltt--xstate-statemachine",
+      "description": "xstate-statemachine"
     },
     {
       "name": "mohiwalla--memes",
@@ -59857,6 +60027,16 @@
       "name": "ainame--tuzuru",
       "source": "./ainame--tuzuru",
       "description": "Tuzuru (\u7db4\u308b) is a dead simple blogging tool. Write a plain md and store it in Git. That's it."
+    },
+    {
+      "name": "asizikov-demos--copilot-user-level-statistics-viewer",
+      "source": "./asizikov-demos--copilot-user-level-statistics-viewer",
+      "description": "User Level Statistics Report Viewer"
+    },
+    {
+      "name": "patrickschaper--matrixscreensaver",
+      "source": "./patrickschaper--matrixscreensaver",
+      "description": "A macOS screen saver based on the iconic rain of characters and symbols known from the movie The Matrix"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -62022,6 +62202,26 @@
       "name": "szuc--obsidian-life-in-weeks-calendar",
       "source": "./szuc--obsidian-life-in-weeks-calendar",
       "description": "Plugin for the Obsidian markdown editor. Displays a calendar of your life in weeks with weekly Periodic Notes plugin integration. Includes options for the traditional Memento Mori/Stoic style calendar"
+    },
+    {
+      "name": "joedayz--quarkus-bcp-2025",
+      "source": "./joedayz--quarkus-bcp-2025",
+      "description": "Quarkus Workshops for BCP"
+    },
+    {
+      "name": "ydeng11--rulesify",
+      "source": "./ydeng11--rulesify",
+      "description": "Skill management tool for AI agents - discover and install pre-built workflows from Anthropic, OpenAI, and community sources"
+    },
+    {
+      "name": "spatariurares--obsidian-workout-plugin",
+      "source": "./spatariurares--obsidian-workout-plugin",
+      "description": "obsidian-workout-plugin"
+    },
+    {
+      "name": "msaelices--mojo-regex",
+      "source": "./msaelices--mojo-regex",
+      "description": "Mojo Regular Expressions Library"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -64367,6 +64567,36 @@
       "name": "montopsinc--nabled",
       "source": "./montopsinc--nabled",
       "description": "nabled aims to be Rust's goto library for Linear Algebra & ML: performant, comprehensive, and correct. "
+    },
+    {
+      "name": "juseppeinside--online-cv",
+      "source": "./juseppeinside--online-cv",
+      "description": "online-cv"
+    },
+    {
+      "name": "d8a-tech--d8a",
+      "source": "./d8a-tech--d8a",
+      "description": "Warehouse-native Analytics compatible with Google Analytics and Matomo tracking protocols. Ingest into ClickHouse, BigQuery or CSV/Parquet on S3/GCS/local fs while maintaining complete control over yo"
+    },
+    {
+      "name": "mattlgroff--pydantic-ai-fastapi-react-vite-agent",
+      "source": "./mattlgroff--pydantic-ai-fastapi-react-vite-agent",
+      "description": "A simple full-stack agent with Pydantic AI + FastAPI on the backend and React TypeScript + Vite on the frontend. Using uv and bun."
+    },
+    {
+      "name": "bhakthan--openagentschool",
+      "source": "./bhakthan--openagentschool",
+      "description": "An interactive educational platform for learning and understanding AI agents as concepts. To benefit every Educational Institution, every Educator, every Learner. Concept are the critical unit of know"
+    },
+    {
+      "name": "interjc--invoify",
+      "source": "./interjc--invoify",
+      "description": "invoify"
+    },
+    {
+      "name": "ryanlua--disclip",
+      "source": "./ryanlua--disclip",
+      "description": "Save precious messages and funny moments with Disclip. Turn any Discord message into a high-quality image to share across friends and social media."
     },
     {
       "name": "makenowjust--naraku",
@@ -67077,6 +67307,56 @@
       "name": "knuckles-team--vector-mcp",
       "source": "./knuckles-team--vector-mcp",
       "description": "Vector MCP Server for AI Agents - Supports ChromaDB, Couchbase, MongoDB, Qdrant, and PGVector"
+    },
+    {
+      "name": "adhocteam--usai-api",
+      "source": "./adhocteam--usai-api",
+      "description": "\ud83c\uddfa\ud83c\uddf8 Node.js client library for the USAi.gov API - Government AI service with OpenAI-compatible interface"
+    },
+    {
+      "name": "techatnyu--albertplus",
+      "source": "./techatnyu--albertplus",
+      "description": "A modern, open-source platform to enhance the NYU course planning and registration experience. "
+    },
+    {
+      "name": "blueragesoftware--backend",
+      "source": "./blueragesoftware--backend",
+      "description": "Craft and run Agents right from your phone"
+    },
+    {
+      "name": "scaloor--opencode-web",
+      "source": "./scaloor--opencode-web",
+      "description": "opencode-web"
+    },
+    {
+      "name": "awdemos--regicideos",
+      "source": "./awdemos--regicideos",
+      "description": "AI-native Rust first Linux distribution based on Gentoo, BtrFS, Cosmic-Desktop."
+    },
+    {
+      "name": "aiexplorations--praval",
+      "source": "./aiexplorations--praval",
+      "description": "Multi-agent framework for building large scale Agentic AI. Simple agents, powerful results"
+    },
+    {
+      "name": "stroppy-io--stroppy",
+      "source": "./stroppy-io--stroppy",
+      "description": "Database Stress Testing Tool"
+    },
+    {
+      "name": "picopicos--easy-coding-standard-vscode",
+      "source": "./picopicos--easy-coding-standard-vscode",
+      "description": "Easy Coding Standard extension for VSCode"
+    },
+    {
+      "name": "rknightion--meraki-dashboard-exporter",
+      "source": "./rknightion--meraki-dashboard-exporter",
+      "description": "Meraki Dashboard Prometheus & OTEL Exporter / Collector"
+    },
+    {
+      "name": "bemoredifferent--ai-text-sanitizer",
+      "source": "./bemoredifferent--ai-text-sanitizer",
+      "description": "ai-text-sanitizer is a tiny (<6 kB) zero-dependency ES module for cleaning and normalising raw text generated by large language models before you render, store, or diff it."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -74337,6 +74617,11 @@
       "name": "xueyc1f--turbopush-mcp",
       "source": "./xueyc1f--turbopush-mcp",
       "description": "TurboPush MCP Server - Connect AI agents (Claude, OpenClaw) to publish content across 20+ platforms including WeChat, Douyin, Bilibili, Xiaohongshu, and more   via Model Context Protocol."
+    },
+    {
+      "name": "fanderchan--dbbot",
+      "source": "./fanderchan--dbbot",
+      "description": "dbbot"
     },
     {
       "name": "loiane--specs-driven-development",
