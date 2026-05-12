@@ -7,12 +7,12 @@ A native GNOME desktop client for GitHub Actions
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [makoni/actioneer-gtk](https://github.com/makoni/actioneer-gtk).
+Original source: `AGENTS.md` in [makoni/actioneer-gtk](https://github.com/makoni/actioneer-gtk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
