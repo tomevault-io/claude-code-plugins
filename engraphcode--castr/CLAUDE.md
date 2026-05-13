@@ -1,19 +1,19 @@
-# quality-gate-failures
+# tdd
 
-> Quality gate failures are always blocking
+> TDD is mandatory
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/quality-gate-failures/SKILL.md
+Read and follow the instructions in .claude/skills/tdd/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Read and follow `.agent/rules/quality-gate-failures.md`.
+Read and follow `.agent/rules/tdd.md`.
 
 ---
 > Source: [EngraphCode/castr](https://github.com/EngraphCode/castr) — distributed by [TomeVault](https://tomevault.io).
