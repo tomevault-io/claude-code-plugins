@@ -1,0 +1,40 @@
+# mcp-cpp
+
+> ==========================================================================================================
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/mcp-cpp/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+<!--
+==========================================================================================================
+SPDX-License-Identifier: MIT
+Copyright (c) 2025 Vinny Parla
+File: .github/copilot-instructions.md
+Purpose: VS Code Copilot instructions for enforcing mcp-cpp agent and skill rules
+==========================================================================================================
+-->
+
+# mcp-cpp Copilot Instructions
+
+Start every task by reading `agents.md` and `SKILLS.MD`.
+
+- Use the matching skill sections from `SKILLS.MD` before proposing commands or edits.
+- Run architecture checks before broader validation.
+- Use `.vscode/tasks.json` for repeatable editor-run Docker workflows.
+- Use Docker-first execution only. Windows commands go through WSL; Linux and macOS use `bash`.
+- Do not use bind mounts, named volumes, `docker cp`, or any Docker export that writes back to the host.
+- Use sequential verification for auth, remotes, repo creation, commits, and pushes. Verify active account, target
+  repo, remote URL, and branch tracking in order before diagnosing failures.
+- Treat every failure as blocking, even if it is not directly tied to the active request. Fix it immediately before
+  continuing.
+
+---
+> Source: [vparla/mcp-cpp](https://github.com/vparla/mcp-cpp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-13 -->
