@@ -1,0 +1,30 @@
+# reddit-spy
+
+> Purpose is to make me an api using python fastapi taht calls reddit api
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/reddit-spy/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+// app purpose
+
+Purpose is to make me an api using python fastapi taht calls reddit api 
+
+use dotenv for api keys
+
+
+a frontend by react will call this api with these values
+
+user_id of the caller
+user to search
+parameters (json)
+
+---
+> Source: [Sproinkerino/reddit-spy](https://github.com/Sproinkerino/reddit-spy) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-13 -->
