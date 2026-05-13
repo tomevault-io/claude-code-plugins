@@ -1,0 +1,26 @@
+# vibetunnel
+
+> When I am operating within this project, I must adhere to the following instructions:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/vibetunnel/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Gemini Operational Instructions
+
+When I am operating within this project, I must adhere to the following instructions:
+
+1.  **Read `claude.md`:** Before performing any task, I must first read the `claude.md` file located in the current working directory.
+2.  **Contextual Awareness:** If the current working directory is a subfolder, I must read all `claude.md` files found in the current folder and all of its parent directories up to the project root. This ensures I have the full context, from the general project-level instructions to the specific subdirectory instructions.
+
+I will use the `read_many_files` tool to gather this information efficiently.
+
+---
+> Source: [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-13 -->
