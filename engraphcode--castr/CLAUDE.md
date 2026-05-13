@@ -1,20 +1,19 @@
-# castr
+# quality-gate-failures
 
-> Read [AGENT.md](.agent/directives/AGENT.md)
+> Quality gate failures are always blocking
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/castr/SKILL.md
+Read and follow the instructions in .claude/skills/quality-gate-failures/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GEMINI.md
 
-Read [AGENT.md](.agent/directives/AGENT.md)
+Read and follow `.agent/rules/quality-gate-failures.md`.
 
 ---
 > Source: [EngraphCode/castr](https://github.com/EngraphCode/castr) — distributed by [TomeVault](https://tomevault.io).
