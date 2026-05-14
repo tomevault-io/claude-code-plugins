@@ -34194,6 +34194,11 @@
       "description": "BulletProof CODEX Godot Focused Scripts For AGENTS.md | setup.sh | and numerous support scripts which allow CODEX to verify code, compile it trace errors and fix them iteratively inside it's headless "
     },
     {
+      "name": "indras-mirror--llama-cpp-turboq-mtp",
+      "source": "./indras-mirror--llama-cpp-turboq-mtp",
+      "description": "Fused TBQ4 Flash Attention + MTP + Shared Tensors for llama.cpp \u2014 82+ tok/s with lossless 4.25 bpv KV cache at 200K context on RTX 4090"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -71782,6 +71787,11 @@
       "name": "adobe--aio-commerce-sdk",
       "source": "./adobe--aio-commerce-sdk",
       "description": "Provides a collection of packages designed for use with Adobe App Builder together with Adobe Commerce."
+    },
+    {
+      "name": "alibaba--skill-up",
+      "source": "./alibaba--skill-up",
+      "description": "A CLI evaluation framework for Agent Skill developers."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
