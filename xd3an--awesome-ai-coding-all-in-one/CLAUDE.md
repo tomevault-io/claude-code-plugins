@@ -1,13 +1,13 @@
-# cpp-programming-guidelines-cursorrules-prompt-file
+# cpp
 
-> Cursor rules for C++ development with programming guidelines integration.
+> Guide Cursor to write modern C++ and CMake code with clear structure, RAII, const-correctness, and safe error handling.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cpp-programming-guidelines-cursorrules-prompt-file/SKILL.md
+Read and follow the instructions in .claude/skills/cpp/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
