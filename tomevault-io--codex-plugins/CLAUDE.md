@@ -1,6 +1,6 @@
 # agents-md
 
-> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+> > - No classes/OOP — functions, factories, functional composition. Extend via composition not modification. ES6+, 400 LOC/file max unless absolutely necessary.
 
 ## Usage
 
@@ -12,390 +12,205 @@ Read and follow the instructions in .claude/skills/agents-md/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# CLAUDE.md
+# future
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+> - No classes/OOP — functions, factories, functional composition. Extend via composition not modification. ES6+, 400 LOC/file max unless absolutely necessary.
 
-## Development Commands
+## Usage
 
-### Building
-```bash
-# Build JXA scripts from modular sources
-npm run build
-
-# Build with file watching during development
-npm run build:watch
-
-# Validate all source files compile correctly
-npm run validate
-```
-
-
-### Development & Debugging
-```bash
-# Start server (includes build)
-npm start
-
-# Start server in debug mode with detailed logging
-npm run dev
-
-# Package extension for distribution (includes build)
-npm run package
-```
-
-## Architecture Overview
-
-This is a Claude Desktop Extension (MCPB) that integrates with Things 3 via JavaScript for Automation (JXA). The architecture follows a **modular, security-first design** based on bundled JXA scripts and secure parameter passing.
-
-### Core Architecture
-
-**🔒 Security-First Design**:
-- Uses `child_process.execFile()` instead of `exec()` to eliminate shell injection
-- Parameters passed as JSON via command arguments, never embedded in code
-- Input validation with dangerous pattern detection
-- No string escaping required anywhere in the system
-
-**🏗️ Modular JXA Sources** (`jxa/src/`):
-- Separate ES6 modules for different operation types
-- Bundled with esbuild into executable JXA scripts
-- Modern JavaScript features in source, compatible output for JXA
-
-### Key Components
-
-**`server/index.js`** - Streamlined MCP server
-- Direct JXA execution (no intermediate handlers)
-- Parameter processing and validation
-- Automatic script building on startup
-- Comprehensive error handling and logging
-
-**`server/jxa-executor.js`** - Secure JXA execution engine
-- Loads pre-built bundled scripts for each operation
-- Executes via secure `execFile` with JSON parameters
-- Enhanced error handling for common JXA issues
-- Timeout and buffer protection
-
-**`server/tool-definitions.js`** - MCP tool schema definitions
-- Defines all 21 available tools with validation schemas
-- User-friendly parameter names and descriptions
-
-**`server/utils.js`** - Consolidated utilities
-- `ThingsLogger`: Centralized logging with debug support
-- `InputValidator`: Security-focused input validation
-- `ParameterProcessor`: API consistency and backward compatibility
-
-**`server/response-formatter.js`** - Response formatting
-- Formats JXA responses into consistent JSON structure
-- Handles error responses with proper error codes
-- Provides user-friendly messages
-
-**`jxa/src/` Modular Sources**:
-- `main.js` - Entry point and operation routing
-- `utils.js` - Shared utilities and object mapping functions
-- `todos.js` - Todo CRUD operations
-- `projects.js` - Project CRUD operations  
-- `lists.js` - Built-in list operations (Inbox, Today, etc.)
-- `search.js` - Search and filtering operations
-- `tags.js` - Tag operations
-- `areas.js` - Area operations
-
-**`jxa/build.js`** - Build system
-- Validates source files before building
-- Bundles each operation into a standalone JXA script
-- Generates 21 optimized scripts in `jxa/build/`
-
-### Data Flow
+Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-MCP Request → Server → ParameterProcessor → JXAExecutor → Bundled Script → Things 3
-           ↑                                     ↓
-      Response ← JSON Response ← Script Execution ← JXA Response
+Read and follow the instructions in .claude/skills/future/SKILL.md
 ```
 
-1. **Request**: MCP tool request with parameters
-2. **Processing**: Parameter validation and user-friendly mapping  
-3. **Execution**: Load bundled script and execute via secure `execFile`
-4. **Response**: Parse JSON response and return to MCP client
+Or copy the instructions below directly into your CLAUDE.md:
 
-## Implementation Details
+# Agent Coding Rules
 
-### Secure JXA Execution
+## Core
 
-**Parameter Passing** (eliminates all escaping issues):
-```javascript
-// ✅ SECURE: Parameters passed separately as JSON
-const args = [
-  '-l', 'JavaScript',        // JXA mode
-  '-e', bundledScript,       // Pre-built script
-  JSON.stringify(params)     // Parameters as JSON
-];
+- No classes/OOP — functions, factories, functional composition. Extend via composition not modification. ES6+, 400 LOC/file max unless absolutely necessary.
+- Factory pattern: `createUser()` returns `{ activate, deactivate, ... }` — plain object with methods, not `class User`
+- Names: `verbNoun`, `isActive`, `CONSTANTS`, `kebab-case.ts`
+- Domain folders with barrel `index.ts`: `/users/get-users.ts, update-users.ts → index.ts`
+- JSDoc for all public APIs (explain WHY not what). Comments only where intent unclear
+- Critical/missing-dep errors → `throw` (language-native). Runtime/user errors → handle gracefully using project's error handling + logging patterns
+- Code for humans: readability over cleverness. Many small functions > one monolith
 
-await execFile('osascript', args);
-```
+## Patterns
 
-**JXA Script Structure**:
-```javascript
-// Generated by esbuild from modular sources
-function run(argv) {
-  try {
-    const params = JSON.parse(argv[0] || '{}');
-    const things = Application('com.culturedcode.ThingsMac');
-    
-    // Operation-specific logic from bundled modules
-    const result = SomeOperation.execute(things, params);
-    
-    return JSON.stringify({
-      success: true,
-      data: result
-    });
-  } catch (error) {
-    return JSON.stringify({
-      success: false,
-      error: {
-        message: error.message,
-        type: error.name
-      }
-    });
-  }
-}
-```
+- Single responsibility. DI via params (unified context object). Guard clauses early return. Object lookup > switch
+- Contract-based boundaries: types define expected shapes, enforced at module boundaries
+- Prefer `type` over `interface`, ban `enum`. Explicit return types on public functions
+- Co-locate standalone modules. Abstract only when reused. Extraction before 3 uses = premature
+- No barrel re-exports across domains — circular deps, slow type-checking
+- `safeTry` over try/catch. `.filter().map()` over for loops
+- `{ name, email }` not `(name, email, ...)` basically named params in an object vs positional unless param is single.
+- Defensive: anticipate failure. Critical harm → throw fast. Known failure paths → handle gracefully
 
-### Things 3 API Integration
+## React
 
-**SDEF Compliance**:
-- All property names match the official Things.sdef specification
-- Use `name` instead of `title` for item names
-- Use `activationDate` for scheduled dates (via schedule command)
-- Use `dueDate` for deadlines
-- Use `tagNames` as comma-separated string per SDEF
+- State logic → hooks. Components pure presentational. Containers handle state, pure components render props
+- Prop drilling max 2 levels. Use context/state management beyond
+- Check `data?.length > 0` before `.map()`. `useMemo`, `useCallback`, `React.memo`
+- Build complex UIs from small, focused components
 
-**Date Handling**:
-- Use `schedule()` command for activation dates: `things.schedule(item, {for: date})`
-- `activationDate` property is read-only, use schedule command instead
-- **Timezone-aware parsing**: Use `parseLocalDate()` utility for YYYY-MM-DD strings
-  ```javascript
-  // ✅ CORRECT: Creates date in local timezone at midnight
-  function parseLocalDate(dateString) {
-    const [year, month, day] = dateString.split('-').map(Number);
-    return new Date(year, month - 1, day, 0, 0, 0, 0);
-  }
-  
-  // ❌ WRONG: Date string interpreted as UTC, causes timezone shifts
-  new Date(dateString + 'T00:00:00');
-  ```
-- All date inputs are assumed to be in system local timezone
+## Philosophy
 
-**Tag Format**:
-- Things 3 uses comma-separated strings: `"work, urgent, project"`  
-- API returns both `tagNames` (string) and `tags` (array) for convenience
-- Use `formatTags()` and `parseTags()` utilities
+- **Plan first** → systematize → implement. Never rush. Break complex tasks into phases
+- **Follow my strategy exactly**, suggest before deviating. I approve changes
+- **Occam's Razor**: simplest solution that works. Add complexity only when needed
+- **Existing patterns first**: work with what's there. Don't rewrite when fix works
+- **Reflect after tasks**: what worked, what failed, what learned. QA your own work
+- **Multi-agent collaboration**: delegate to other agents where possible
+- **Document decisions**: record reasoning behind changes, tradeoffs, impacts
+- **Agree on tradeoffs before committing**: I approve tradeoffs before they hit the codebase
+- **Keep code taste matching mine**: your code style should blend with existing
+- **Be brief**: conciseness over verbosity in communication
+- **Not demo/prototypes**: real thing or don't do it. One clear way to do something
 
-**Object References**:
-- Direct access: `things.toDos.byId(id)`, `things.projects.byId(id)`
-- Use safe wrappers for error-prone operations
-- Handle missing objects gracefully
+### Think Outside the Box
 
-**Built-in List IDs**:
-- Things 3's built-in lists (Inbox, Today, Anytime, etc.) are NOT documented in Things.sdef
-- These IDs must be discovered empirically by querying `things.lists()` collection
-- Current known mappings (discovered through API testing):
-  ```javascript
-  const LIST_IDS = {
-    INBOX: "TMInboxListSource",
-    TODAY: "TMTodayListSource", 
-    UPCOMING: "TMCalendarListSource",    // NOT "TMUpcomingListSource"
-    ANYTIME: "TMNextListSource",         // NOT "TMAnytimeListSource"
-    SOMEDAY: "TMSomedayListSource",
-    LOGBOOK: "TMLogbookListSource",
-    TRASH: "TMTrashListSource"
-  };
-  ```
-- ⚠️ **Critical**: The Anytime and Upcoming list IDs don't match their display names
-- Test new installations by running: `things.lists().map(l => ({id: l.id(), name: l.name()}))`
+When the obvious approach isn't working after 2 attempts, stop and reconsider. The repeated failure is a signal — either escalate to me for direction, or find a creative alternative. Don't tunnel-vision on one approach. If you're patching the same thing twice, the fix is probably wrong. Ask: "what am I assuming that might be wrong?"
 
-**Safe Utilities** (in `jxa/src/utils.js`):
-```javascript
-// Safe date extraction
-function getDate(item, method) {
-  try {
-    const date = item[method]();
-    return date ? date.toISOString() : null;
-  } catch (e) {
-    return null;
-  }
-}
+### Think in Systems
 
-// Safe scheduling with Things 3 command
-function scheduleItem(things, item, dateString) {
-  if (!dateString) return;
-  try {
-    const date = new Date(dateString);
-    things.schedule(item, { for: date });
-  } catch (e) {
-    // Scheduling failed - activation date is read-only
-  }
-}
-```
+Every change ripples. Before implementing, map the blast radius:
 
-### Build System
+- What contracts (types, APIs, DB schemas) does this break or require changes to?
+- What downstream consumers depend on the current behavior?
+- Does this stabilize or destabilize the system? A fix that introduces new edge cases is worse than the bug.
+- Is the tradeoff worth it? Document it. Get approval before committing.
+- Trace the full call chain, not just the immediate function. A change in `utils.ts` affects every caller.
 
-**Development Workflow**:
-1. Edit source files in `jxa/src/`
-2. Run `npm run build` to generate bundled scripts
-3. Scripts auto-build when starting server
+### Think in First Principles
 
-**Generated Files**:
-- 21 bundled scripts in `jxa/build/` (one per operation)
-- Each script is self-contained and executable
-- Auto-generated with warnings about manual editing
+When a problem recurs or fixes don't stick, don't apply more patches. Break it down:
 
-### Security Features
+- What is the base assumption? Is it actually true? (e.g., "safeTry preserves Result nesting" — it doesn't)
+- Can we isolate and test the assumption independently?
+- Divide and conquer: split the problem into independently verifiable pieces. Prove each piece works before composing.
+- If the foundation is wrong, no amount of upper-layer fixes will hold. Fix the foundation first.
 
-**Input Validation**:
-```javascript
-// Dangerous pattern detection
-const dangerousPatterns = [
-  /tell\s+application/i,
-  /do\s+shell\s+script/i,
-  /osascript/i,
-  /AppleScript/i
-];
-```
+## Libraries
 
-**Execution Security**:
-- No shell interpretation (`execFile` vs `exec`)
-- Timeout protection (30s default)
-- Buffer size limits (10MB default) 
-- Enhanced error messages for common issues
+- `slang-ts` (safeTry/result), `z-fetch` (fetch), `regist` (regex)
+- Understand library edge cases: read source enough to know when behavior diverges from types
+- Check Context7 MCP for library docs. Need more? Ask me. Source in node_modules if you want to inspect directly
+- agent-browser CLI for frontend debugging. `agent-browser -h` for usage
+- MCPs/tools/agents available → use them. Skills available → load them when relevant. Ask me if unsure how
+- Use caveman skill if available, but not its ultra version!
 
-### SDEF Compliance
+## Boundaries — DO NOT CROSS WITHOUT APPROVAL
 
-- All property names match Things.sdef specification
-- No backward compatibility layer - clean API only
-- Direct mapping to Things 3 API properties
-- Input validation and security checks
-- Tag handling with comma-separated format
+- **Servers**: you never start. Ask me
+- **DB**: all db commands/decisions → ask me first
+- **Git**: ask before any git command
+- **.env**: never read/edit. Env vars → config module only, never `process.env` direct
+- New env var needed: suggest → I approve → I add to config + .env myself
+- **/backend, /nile, frontend/api**: never touch without approval
+- **Installs/stack changes**: never without permission
+- **Project PM** (not npm) for package commands
 
-## Development Guidelines
+## Safety
+>
+- >10 line changes → copy to `/backup` first and also create `intent.md` before doing changes for only complex tasks. Intent = what you're changing, why, how, and expected impact. I approve intent before you implement if we haven't discussed it already
+- Delete = move to `/trash`, never `rm`
+- No `any`, no `unknown`. Types in `domain/types.ts`, barrel via `index.ts`
+- Assume API/provision can be abused: rate limiting, throttling, queue + jitter to avoid thundering herds, locking mechanisms where needed
 
-### Adding New Operations
+## Workflow
 
-1. **Add to appropriate module** in `jxa/src/`:
-   ```javascript
-   // In todos.js, projects.js, etc.
-   static newOperation(things, params) {
-     // Implementation
-     return mappedResult;
-   }
-   ```
+- Read files before editing. Ask if user changed files since last read
+- Read `/docs` and project root `.md` files on task start for context. Ask me which relevant if unsure. Don't read everything blindly
+- Trace full implementation before making assumptions. Systematic, not piecemeal
+- Verify actual call signatures and payload shapes before implementing. Trace and confirm, don't assume
+- When unsure about a convention, ask. Don't guess and have to undo
+- `task.md` for work >30min. `context.md` at task end with learnings, new patterns, tradeoffs — future agents need this
+- List all modified files after task, confirm backed up
 
-2. **Update main router** in `jxa/src/main.js`:
-   ```javascript
-   case 'new_operation':
-     result = SomeOperations.newOperation(things, params);
-     break;
-   ```
+## Token Economics
 
-3. **Add tool definition** in `server/tool-definitions.js`
+- **Never ask sub-agents to return full file contents.** That burns tokens for both the sub-agent output and your input. Instead:
+  - Ask sub-agents for specific information: function signatures, line numbers, key logic, summaries — not raw file dumps
+  - Read files yourself when you need full contents — your Read tool is cheaper than a sub-agent round-trip
+  - If a sub-agent needs file context, tell them the relevant file paths and what to look for, not "return the full file"
+  - Prefer: "find the handleHeartbeat function and return its signature and key logic" over "return the full supervisor.ts"
+  - Sub-agents should extract and condense, not copy-paste
 
-4. **Build**:
-   ```bash
-   npm run build
-   ```
+## Quality
 
-### Debugging
+- Tests test code against agreed spec and intent. No fake tests, never skipped. Fix or delete failing ones
+- No unapproved features, stubs, or unneeded comments. Focus on task scope only
+- Real fixes, no shims/hacks/workarounds. Ask before taking easy way
+- Legacy code: ask owner before change, test current behavior, document in task.md
+- Don't assume bugs — investigate original intention
+- Features or modules that get added should ideally also be easy to remove or turn off
 
-**Enable debug logging**:
-```bash
-DEBUG=true npm start
-```
+## ⚠️ MANDATORY — Delegation Protocol
 
-**Check build output**:
-```bash
-ls -la jxa/build/
-cat jxa/build/operation_name.js
-```
+Every time you delegate work to a sub-agent, your prompt MUST include ALL of the following. No exceptions. No skipping. No "I assumed they knew."
 
-### Testing
+### Required Delegation Checklist
 
-**Run all tests**:
-```bash
-npm test
-```
+1. **Caveman skill**: Tell sub-agent to load and use the caveman skill (full mode, not ultra). **Exception: documentation-engineer does NOT use caveman.** Wording is their craft — they need full language precision. Example: `"Use the caveman skill (full mode) for all communication."` (skip this for documentation-engineer)
+2. **AGENTS.md compliance**: Tell sub-agent to follow AGENTS.md rules. Example: `"Follow all rules in /AGENTS.md — no classes, factory functions, named params, safeTry, etc."`
+3. **Context file**: If `/context.md` exists and is relevant, reference it. Example: `"Read /context.md for project architecture, patterns, and conventions before starting."`
+4. **Token economics**: Remind sub-agent: `"Never return full file contents. Extract only what's needed: signatures, line numbers, key logic, summaries. I will read files myself if I need full contents."`
+5. **Task-specific context**: Provide all relevant file paths, function signatures, and expected outcomes. Sub-agents should NOT need to explore the codebase to understand what to do.
 
-**Run specific test suites**:
-```bash
-npm run test:unit        # Unit tests
-npm run test:integration # Integration tests  
-npm run test:regression  # Regression tests
-npm run test:watch       # Watch mode
-```
+### Why This Exists
 
-**Test Structure**:
-- `test/unit/` - Unit tests for individual components
-  - `input-validator.test.js` - Input validation tests
-  - `parameter-processor.test.js` - Parameter processing tests
-  - `tag-formatting.test.js` - Tag format conversion tests
-  - `date-handling.test.js` - Date parsing and formatting tests
-  - `list-ids.test.js` - List ID mapping tests
-  - `mcp-server.test.js` - MCP server behavior tests
-- `test/integration/` - Integration tests
-  - `list-operations.test.js` - List operation tests
-- `test/regression/` - Regression tests for specific issues
-  - `tag-removal.test.js` - Tag removal functionality (#3)
-  - `child-tasks.test.js` - Project with todos creation (#5)
-  - `list-ids.test.js` - Built-in list ID verification
+Sub-agents start with zero context. Without explicit instructions they will:
+- Ignore project conventions (classes instead of factories, positional params, etc.)
+- Dump entire files wasting tokens on both ends
+- Miss architectural patterns documented in context.md
+- Write verbose prose instead of terse caveman communication
 
-
-### Version Management
-
-Update version in **two** locations:
-1. `package.json` - Update `version` field
-2. `manifest.json` - Update `version` field
-
-The server automatically reads the version from `package.json` via `server-config.js`.
-
-Then rebuild and package:
-```bash
-npm run build
-npm run package
-```
-
-## Common Pitfalls
-
-### JXA-Specific Issues
-- **Date scheduling**: Use `schedule()` command, not direct property assignment
-- **Tag format**: Convert arrays to comma-separated strings for Things 3 API
-- **Error handling**: Wrap all Things 3 operations in try-catch blocks
-- **Object access**: Use direct access methods, handle missing objects gracefully
-
-### Build System
-- **Always build**: Run `npm run build` after source changes
-- **Module imports**: Use ES6 imports in source, gets bundled automatically
-- **Script size**: Each bundled script should be under 1MB
-- **Operation names**: Must match exactly between router and tool definitions
-
-### Security
-- **No string embedding**: Never embed parameters in script strings
-- **Validate inputs**: Use `InputValidator` for all user-provided data
-- **Error messages**: Don't expose sensitive data in error responses
-- **Timeouts**: Set appropriate timeouts for long-running operations
-
-### Things 3 Integration
-- **App must be running**: JXA requires Things 3 to be launched
-- **Permissions**: User must grant automation permissions
-- **API limits**: Some operations may have rate limiting
-- **Data consistency**: Always use safe utilities for object access
-- **Built-in List IDs**: Don't assume logical names - always verify empirically
-- **Apostrophes in text**: Properly escape or use JSON parameter passing (handled by current architecture)
-- **Empty results**: Check list IDs first if operations return unexpected empty arrays
-- **Tag removal**: Use empty array `[]` to clear all tags, not null or undefined
-- **Checklist items**: Can be added/modified on existing todos via `update_todo`
-
-The modular architecture provides a secure, maintainable foundation that eliminates the security vulnerabilities of the previous string-based approach while offering modern development practices and comprehensive error handling.
+**If a sub-agent's output violates AGENTS.md rules, it's YOUR fault for not instructing them properly.**
 
 ---
-> Source: [mbmccormick/things-mcpb](https://github.com/mbmccormick/things-mcpb) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:agents_md:2026-05-06 -->
+
+## Teamwork Philosophy
+
+- **Delegate first, do yourself last.** You have a team — use them. Every task you do yourself is a team member sitting idle.
+- **Be a team player, not the only player.** Your role is architect, planner, orchestrator, reviewer. Their role is execution. Respect the division.
+- **Reserve yourself for what only you can do:** architecture decisions, conflict resolution, tradeoff calls, reviewing output. Everything else goes to the team.
+- **Doing work yourself when a sub-agent could do it wastes tokens and time.** It's not faster — it's more expensive and blocks parallelism.
+- **Trust your team.** Give them clear context, then let them execute. Micromanaging the output defeats the purpose of delegation.
+- **If you catch yourself writing implementation code, stop.** Ask: "Which agent should be doing this?" Then delegate.
+
+### Who Does What
+
+| Work | Agent | Why |
+|------|-------|-----|
+| Architecture, planning, tradeoffs | You (architect) | Requires your judgment |
+| Frontend code | frontend-engineer | Their specialty |
+| Backend code | backend-engineer | Their specialty |
+| Integration wiring | integrations-engineer | Their specialty |
+| Docs, README, comments | documentation-engineer | Their specialty |
+| Testing, verification | qa-engineer | Their specialty |
+| Security, reliability review | security-reliability-engineer | Their specialty |
+| Quick lookups, simple edits | fast-agent | Cheap and fast |
+| Visual analysis, screenshots | multimodal-agent | Has vision |
+| Codebase exploration, context gathering | multimodal-agent or fast-agent | Cheaper than you |
+
+**Default to delegation. Only do it yourself when genuinely no one else can.**
+
+---
+
+Always remember these rules before working on any new tasks and remember to delegate where needed.
+
+Leverage your team and their specialty, only do things yourself, or use explore or general agents as last resort!
+
+---
+> Source: [nile-js/future](https://github.com/nile-js/future) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-14 -->
+
+---
+> Source: [tomevault-io/claude-code-plugins](https://github.com/tomevault-io/claude-code-plugins) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:agents_md:2026-05-14 -->
 
 ---
 > Source: [tomevault-io/codex-plugins](https://github.com/tomevault-io/codex-plugins) — distributed by [TomeVault](https://tomevault.io).
