@@ -12,7 +12,7 @@ Read and follow the instructions in .claude/skills/gemini-md/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-## godot-agent-mcp
+## agents-md
 
 > - NEVER use inline comments (single # comments within function bodies)
 
@@ -118,6 +118,10 @@ func parse_http_request(raw_data: String) -> Dictionary:
 
 ---
 > Source: [toasted-iron-studios/godot-agent-mcp](https://github.com/toasted-iron-studios/godot-agent-mcp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:agents_md:2026-05-14 -->
+
+---
+> Source: [tomevault-io/codex-plugins](https://github.com/tomevault-io/codex-plugins) — distributed by [TomeVault](https://tomevault.io).
 <!-- tomevault:4.0:gemini_md:2026-05-14 -->
 
 ---
