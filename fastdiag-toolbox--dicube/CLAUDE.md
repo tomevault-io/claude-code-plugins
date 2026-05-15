@@ -1,0 +1,54 @@
+# error-handling
+
+> Guidelines for error handling in DiCube
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/error-handling/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Error Handling in DiCube
+
+DiCube provides a hierarchy of exception classes in [dicube/exceptions.py](mdc:dicube/exceptions.py)
+
+## Key Exceptions
+
+```python
+from dicube.exceptions import (
+    DicomCubeError,       # Base exception for all DiCube errors
+    InvalidCubeFileError, # Invalid file format or corrupted file
+    CodecError,           # Compression/decompression failures
+    MetaDataError,        # Missing or invalid metadata
+    DataConsistencyError  # Inconsistent data structure
+)
+```
+
+## Best Practices
+
+1. **Use specific exceptions** rather than generic ones
+2. **Include descriptive error messages** to aid debugging
+3. **Chain exceptions** when re-raising to preserve context
+4. **Validate early** to catch errors before processing begins
+5. **Clean up resources** in finally blocks or context managers
+
+## Example Usage
+
+```python
+try:
+    image = dicube.load(\"corrupted.dcbs\")
+except InvalidCubeFileError as e:
+    print(f\"Not a valid DiCube file: {e}\")
+except CodecError as e:
+    print(f\"Compression/decompression failed: {e}\")
+except MetaDataError as e:
+    print(f\"Missing or invalid metadata: {e}\")
+```
+
+---
+> Source: [fastdiag-toolbox/dicube](https://github.com/fastdiag-toolbox/dicube) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-14 -->
