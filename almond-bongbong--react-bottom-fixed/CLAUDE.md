@@ -1,41 +1,45 @@
-# optional-properties
+# readonly-properties
 
-> Use optional properties extremely sparingly. Only use them when the property is truly optional, and consider whether bugs may be caused by a failure to pass the property.
+> Use `readonly` properties for object types by default. This will prevent accidental mutation at runtime.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/optional-properties/SKILL.md
+Read and follow the instructions in .claude/skills/readonly-properties/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Use optional properties extremely sparingly. Only use them when the property is truly optional, and consider whether bugs may be caused by a failure to pass the property.
+Use `readonly` properties for object types by default. This will prevent accidental mutation at runtime.
 
-In the example below we always want to pass user ID to `AuthOptions`. This is because if we forget to pass it somewhere in the code base, it will cause our function to be not authenticated.
+Omit `readonly` only when the property is genuinely mutable.
 
 ```ts
 // BAD
-type AuthOptions = {
-  userId?: string;
+type User = {
+  id: string;
 };
 
-const func = (options: AuthOptions) => {
-  const userId = options.userId;
+const user: User = {
+  id: "1",
 };
+
+user.id = "2";
 ```
 
 ```ts
 // GOOD
-type AuthOptions = {
-  userId: string | undefined;
+type User = {
+  readonly id: string;
 };
 
-const func = (options: AuthOptions) => {
-  const userId = options.userId;
+const user: User = {
+  id: "1",
 };
+
+user.id = "2"; // Error
 ```
 
 ---
