@@ -1,20 +1,20 @@
-# medusa-cursorrules
+# medusa
 
-> Cursor rules for Medusa.
+> Medusa rules and best practices. These rules should be used when building applications with Medusa.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/medusa-cursorrules/SKILL.md
+Read and follow the instructions in .claude/skills/medusa/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 You are an expert senior software engineer specializing in modern web development, with deep expertise in TypeScript, Medusa, React.js, and TailwindCSS.
 
-## Medusa Rules
+# Medusa Rules
 
 ## General Rules
 
