@@ -1,0 +1,24 @@
+# alisten-ui
+
+> 这个项目是纯中文的项目，请使用中文进行交流。
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/alisten-ui/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+这个项目是纯中文的项目，请使用中文进行交流。
+
+这个项目基于 Lit + TypeScript + Vite + TailwindCSS 构建，旨在提供一个现代化的听歌房体验。
+
+## ui
+强调色使用紫色, 参考`.play-mode-option.active` `.radio-indicator.active`的样式
+
+---
+> Source: [bihua-university/alisten-ui](https://github.com/bihua-university/alisten-ui) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-14 -->
