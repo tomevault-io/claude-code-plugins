@@ -1,0 +1,53 @@
+# no-co-authors
+
+> Never add Co-authors to git commits
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/no-co-authors/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Git Commits - No Co-authors
+
+## Rule
+
+**NEVER add Co-authors to git commits.**
+
+When creating git commits, do NOT include:
+- `Co-authored-by:` trailers
+- `--co-author` flags
+- Any co-author metadata in commit messages
+
+## Examples
+
+```bash
+# ❌ BAD - Do NOT do this
+git commit -m "Update dependencies" --co-author="John Doe <john@example.com>"
+
+# ❌ BAD - Do NOT add Co-authored-by trailers
+git commit -m "Fix bug
+
+Co-authored-by: John Doe <john@example.com>"
+
+# ✅ GOOD - Simple commit without co-authors
+git commit -m "Update dependencies"
+
+# ✅ GOOD - Multi-line commit without co-authors
+git commit -m "Fix bug
+
+Fixed issue with audio processing"
+```
+
+## Rationale
+
+This project does not use Co-authors in commit history. All commits should be attributed to the primary author only.
+
+---
+> Source: [Timur00Kh/whisper.wasm](https://github.com/Timur00Kh/whisper.wasm) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-15 -->
