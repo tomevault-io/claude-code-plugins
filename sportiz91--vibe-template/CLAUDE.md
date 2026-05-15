@@ -1,22 +1,27 @@
-# analytics
+# auth
 
-> Follow these rules when working on analytics.
+> Follow these rules when working on auth.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/analytics/SKILL.md
+Read and follow the instructions in .claude/skills/auth/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-### Analytics Rules
+### Auth Rules
 
-Follow these rules when working on analytics.
+Follow these rules when working on auth.
 
-It uses PostHog for analytics.
+It uses Clerk for authentication.
+
+#### General Rules
+
+- Import the auth helper with `import { auth } from "@clerk/nextjs/server"` in server components
+- await the auth helper in server action
 
 ---
 > Source: [sportiz91/vibe-template](https://github.com/sportiz91/vibe-template) — distributed by [TomeVault](https://tomevault.io).
