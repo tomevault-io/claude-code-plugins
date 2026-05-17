@@ -1,0 +1,28 @@
+# mcp-wordpress-remote
+
+> Tome by [Automattic](https://github.com/Automattic/mcp-wordpress-remote) — distributed by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [Automattic/mcp-wordpress-remote](https://github.com/Automattic/mcp-wordpress-remote).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Automattic/mcp-wordpress-remote](https://github.com/Automattic/mcp-wordpress-remote)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install Automattic/mcp-wordpress-remote
+```
+Source: [github.com/Automattic/mcp-wordpress-remote](https://github.com/Automattic/mcp-wordpress-remote).
+
+<!-- genome:t-i-q -->
