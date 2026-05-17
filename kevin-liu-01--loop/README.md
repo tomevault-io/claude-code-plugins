@@ -7,13 +7,13 @@ An operator desk for self-updating agent skills. track sources, refresh with age
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [Kevin-Liu-01/Loop](https://github.com/Kevin-Liu-01/Loop).
+Original source: `AGENTS.md` in [Kevin-Liu-01/Loop](https://github.com/Kevin-Liu-01/Loop).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
