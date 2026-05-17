@@ -1,19 +1,31 @@
-# tikz-diagrams
+# tikz-diagrams-skill
 
-> Use when editing or generating TikZ/PGF diagrams and animations.
+> When the task involves TikZ, PGF, LaTeX diagrams, rendered visual QA, contact sheets, or animations, use the workflow in `skills/tikz-diagrams/SKILL.md`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/tikz-diagrams/SKILL.md
+Read and follow the instructions in .claude/skills/tikz-diagrams-skill/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Copilot Instructions
 
-Follow `skills/tikz-diagrams/SKILL.md` for TikZ diagrams, rendered visual QA, contact sheets, and animation previews. Prefer bundled scripts over ad hoc one-off commands.
+When the task involves TikZ, PGF, LaTeX diagrams, rendered visual QA, contact sheets, or animations, use the workflow in `skills/tikz-diagrams/SKILL.md`.
+
+Prefer the bundled scripts over ad hoc rendering:
+
+- `skills/tikz-diagrams/scripts/check_tikz_safety.py`
+- `skills/tikz-diagrams/scripts/compile_render.py`
+- `skills/tikz-diagrams/scripts/check_tikz_visual.py`
+- `skills/tikz-diagrams/scripts/make_contact_sheet.py`
+- `skills/tikz-diagrams/scripts/render_animation_preview.py`
+- `skills/tikz-diagrams/scripts/render_tikz_series.py`
+
+Do not commit generated PDFs, PNGs, GIFs, frame folders, logs, or user-specific absolute paths unless they are deliberate presentation assets.
 
 ---
 > Source: [Patrick-Healy/tikz-diagrams-skill](https://github.com/Patrick-Healy/tikz-diagrams-skill) — distributed by [TomeVault](https://tomevault.io).
