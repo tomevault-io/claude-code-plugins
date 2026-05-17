@@ -1,21 +1,21 @@
-# agent-qa-automation-engineer
+# agent-security-auditor
 
-> Persona qa-automation-engineer — E2E e suites de regressao; leia .agent/agents/qa-automation-engineer.md.
+> Persona security-auditor — revisao defensiva; leia .agent/agents/security-auditor.md.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-qa-automation-engineer/SKILL.md
+Read and follow the instructions in .claude/skills/agent-security-auditor/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Agente: QA Automation Engineer
+# Agente: Security Auditor
 
-Antes de atuar neste papel, leia `.agent/agents/qa-automation-engineer.md` e carregue as `skills:` do frontmatter em `.cursor/skills/` ou `.agent/skills/`.
+Antes de atuar neste papel, leia `.agent/agents/security-auditor.md` e carregue as `skills:` do frontmatter em `.cursor/skills/` ou `.agent/skills/`.
 
 ---
 > Source: [gabriellpequeno/Reserva-Aqui---Projeto-de-fim-de-ciclo](https://github.com/gabriellpequeno/Reserva-Aqui---Projeto-de-fim-de-ciclo) — distributed by [TomeVault](https://tomevault.io).
