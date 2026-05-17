@@ -1,21 +1,21 @@
-# agent-database-architect
+# agent-debugger
 
-> Persona database-architect — modelo de dados e migracoes; leia .agent/agents/database-architect.md.
+> Persona debugger — RCA e evidencias; leia .agent/agents/debugger.md.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-database-architect/SKILL.md
+Read and follow the instructions in .claude/skills/agent-debugger/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Agente: Database Architect
+# Agente: Debugger
 
-Antes de atuar neste papel, leia `.agent/agents/database-architect.md` e carregue as `skills:` do frontmatter em `.cursor/skills/` ou `.agent/skills/`.
+Antes de atuar neste papel, leia `.agent/agents/debugger.md` e carregue as `skills:` do frontmatter em `.cursor/skills/` ou `.agent/skills/`.
 
 ---
 > Source: [gabriellpequeno/Reserva-Aqui---Projeto-de-fim-de-ciclo](https://github.com/gabriellpequeno/Reserva-Aqui---Projeto-de-fim-de-ciclo) — distributed by [TomeVault](https://tomevault.io).
