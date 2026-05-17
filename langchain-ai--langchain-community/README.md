@@ -7,12 +7,12 @@ Community-maintained LangChain integrations
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [langchain-ai/langchain-community](https://github.com/langchain-ai/langchain-community).
+Original source: `AGENTS.md` in [langchain-ai/langchain-community](https://github.com/langchain-ai/langchain-community).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
