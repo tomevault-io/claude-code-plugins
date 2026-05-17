@@ -1,17 +1,16 @@
-# ai-interview-skills
+# ai-interview-kit
 
-> AI外呼Prompt工程化工具包 - 提供生成Prompt、生成输入变量、评估通话质量三个技能
+> 本项目包含 3 个 AI 技能，用于 AI 电话外呼访谈的全流程支持。
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ai-interview-skills/SKILL.md
+Read and follow the instructions in .claude/skills/ai-interview-kit/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # AI外呼 Prompt 工程化工具包
 
