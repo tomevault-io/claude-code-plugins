@@ -1,18 +1,24 @@
-# examples
+# yo
 
-> When working in the examples directory you have to run `bun run build` and `bun build:examples` to build any code changes to js files before you can test them.
+> If you need my input to answer a question or when you finish a task and want to know what to do next you must send me a yo using the yo-mcp MCP tool.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/examples/SKILL.md
+Read and follow the instructions in .claude/skills/yo/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-When working in the examples directory you have to run `bun run build` and `bun build:examples` to build any code changes to js files before you can test them.
+If you need my input to answer a question or when you finish a task and want to know what to do next you must send me a yo using the yo-mcp MCP tool.
+
+In the yo you MUST provide ONLY a very short message (think like an email subject line) for why you need my attention / input.
+
+Then reply with your update / question to the normal chat.
+
+This mcp server should be called with this tool name: "mcp_yo-mcp_com_yo"
 
 ---
 > Source: [FutureExcited/vibe-rules](https://github.com/FutureExcited/vibe-rules) — distributed by [TomeVault](https://tomevault.io).
