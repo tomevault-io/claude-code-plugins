@@ -19,6 +19,11 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
+      "name": "anomalyco--opencode",
+      "source": "./anomalyco--opencode",
+      "description": "The open source coding agent."
+    },
+    {
       "name": "nousresearch--hermes-agent",
       "source": "./nousresearch--hermes-agent",
       "description": "The agent that grows with you"
@@ -507,6 +512,11 @@
       "name": "valuecell-ai--valuecell",
       "source": "./valuecell-ai--valuecell",
       "description": "ValueCell is a community-driven, multi-agent platform for financial applications."
+    },
+    {
+      "name": "microsoft--agent-framework",
+      "source": "./microsoft--agent-framework",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
     },
     {
       "name": "runanywhereai--runanywhere-sdks",
