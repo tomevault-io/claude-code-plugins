@@ -7,12 +7,12 @@ Curated marketplace of AI skills, agents, and rules for cloud, zero-trust, and c
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [Raishin/vanguard-frontier-agentic](https://github.com/Raishin/vanguard-frontier-agentic).
+Original source: `AGENTS.md` in [Raishin/vanguard-frontier-agentic](https://github.com/Raishin/vanguard-frontier-agentic).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
