@@ -1,21 +1,21 @@
-# commit-and-push
+# commit
 
-> Commit (conventional commit) files and push to the remote repository.
+> git add commit ONLY the files you changed just now, write a commit message for it using conventional commits format
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/commit-and-push/SKILL.md
+Read and follow the instructions in .claude/skills/commit/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Commit (conventional commit) files and push to the remote repository.
+git add commit ONLY the files you changed just now, write a commit message for it using conventional commits format
 
-Important: if not on main, propose to create a new branch and switch to it.
+DO NOT commit again automatically until I tell you so to do it again
 
 ---
 > Source: [langwatch/better-agents](https://github.com/langwatch/better-agents) — distributed by [TomeVault](https://tomevault.io).
