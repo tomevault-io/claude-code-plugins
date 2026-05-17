@@ -1,0 +1,29 @@
+# shot-asset-safety
+
+> Preserve generated shot assets by archiving instead of deleting
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/shot-asset-safety/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Shot Asset Safety
+
+- Never delete generated shot files when making revisions to mini-drama episodes.
+- For `shot-NNN.mp4`, `shot-NNN.png`, and related shot asset files, archive prior versions instead of removing them.
+- Prefer versioned filenames like `-v1`, `-v2`, or pre-fix/pre-style backups over destructive replacement.
+- If a workflow seems to require deletion, stop and use an archive-first approach instead.
+
+Example:
+
+- Instead of deleting `shot-003.mp4`, rename it to `shot-003-v1.mp4` before generating a replacement.
+
+---
+> Source: [jordanurbs/venice-video-harness](https://github.com/jordanurbs/venice-video-harness) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-17 -->
