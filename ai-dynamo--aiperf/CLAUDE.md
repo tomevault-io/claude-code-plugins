@@ -1,16 +1,17 @@
-# aiperf
+# python
 
-> SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+> AIPerf project rules and coding standards
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/aiperf/SKILL.md
+Read and follow the instructions in .claude/skills/python/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 <!--
 SPDX-FileCopyrightText: Copyright (c) 2025-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
