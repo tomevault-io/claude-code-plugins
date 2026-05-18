@@ -1,95 +1,128 @@
-# coolify-mcp
+# 000-cursor-rules
 
-> FOLLOW Coolify MCP workflow WHEN implementing new Coolify API endpoints TO ensure consistent and tested MCP
+> ALWAYS when asked to CREATE A RULE or UPDATE A RULE or taught a lesson from the user that should be retained as a new rule for Cursor
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/coolify-mcp/SKILL.md
+Read and follow the instructions in .claude/skills/000-cursor-rules/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Cursor Rules Format
 
-# Coolify MCP Development Workflow
+## Core Structure
+
+```mdc
+---
+description: ACTION when TRIGGER to OUTCOME
+globs: *.mdc
+---
+
+# Rule Title
 
 ## Context
-- When implementing new Coolify API endpoints as MCP tools
-- When adding new features from the feature documentation
-- When extending the MCP server capabilities
+- When to apply this rule
+- Prerequisites or conditions
 
 ## Requirements
-1. Start by reviewing feature documentation in docs/features
-2. Verify endpoint exists in docs/openapi-chunks/* 
-3. Follow existing implementation patterns:
-   - Add types to src/types/coolify.ts
-   - Add client method to src/lib/coolify-client.ts
-   - Add MCP tool to src/lib/mcp-server.ts
-   - Add simple test in src/__tests__/mcp-server.test.ts
-4. Maintain strict TypeScript standards:
-   - Always include explicit return types on functions
-   - Import and use proper types from coolify.ts
-   - No implicit any types
-   - Follow existing type patterns
-5. Keep tests focused and properly mocked:
-   ```typescript
-   it('should call client methodName', async () => {
-     // Mock the method before calling it
-     const mockResponse = { /* expected shape */ };
-     const spy = jest.spyOn(server['client'], 'methodName')
-       .mockResolvedValue(mockResponse);
-
-     await server.method_name('test-uuid');
-     expect(spy).toHaveBeenCalledWith('test-uuid');
-   });
-   ```
-6. Follow gitflow as per 801-feature-workflow
+- Concise, actionable items
+- Each requirement must be testable
 
 ## Examples
 <example>
-# Good implementation
-1. Review docs/features/003-server-domains.md
-2. Verify /servers/{uuid}/domains in openapi.yaml
-3. Add ServerDomain interface to types
-4. Add getServerDomains() to client with proper types:
-   ```typescript
-   async getServerDomains(uuid: string): Promise<ServerDomain[]> {
-     return this.request<ServerDomain[]>(`/servers/${uuid}/domains`);
-   }
-   ```
-5. Add get_server_domains tool to MCP server
-6. Add properly mocked test:
-   ```typescript
-   const mockDomains = [{ ip: '1.2.3.4', domains: ['test.com'] }];
-   const spy = jest.spyOn(client, 'getServerDomains')
-     .mockResolvedValue(mockDomains);
-   ```
-7. Follow gitflow for commits and PR
+Good concise example with explanation
 </example>
 
 <example type="invalid">
-# Poor implementation
-1. Start coding without checking docs
-2. Add endpoint not in OpenAPI spec
-3. Create new patterns different from existing code
-4. Skip type definitions or use implicit any
-5. Write tests that make real HTTP calls
-6. Skip gitflow process
+Invalid concise example with explanation
 </example>
+```
+
+## File Organization
+
+### Location
+- Path: `.cursor/rules/`
+- Extension: `.mdc`
+
+### Naming Convention
+PREFIX-name.mdc where PREFIX is:
+- 0XX: Core standards
+- 1XX: Tool configs
+- 3XX: Testing standards
+- 1XXX: Language rules
+- 2XXX: Framework rules
+- 8XX: Workflows
+- 9XX: Templates
+- _name.mdc: Private rules
+
+### Glob Pattern Examples
+Common glob patterns for different rule types:
+- Core standards: .cursor/rules/*.mdc
+- Language rules: src/**/*.{js,ts}
+- Testing standards: **/*.test.{js,ts}
+- React components: src/components/**/*.tsx
+- Documentation: docs/**/*.md
+- Configuration files: *.config.{js,json}
+- Build artifacts: dist/**/*
+- Multiple extensions: src/**/*.{js,jsx,ts,tsx}
+- Multiple files: dist/**/*, docs/**/*.md
+
+## Required Fields
+
+### Frontmatter
+- description: ACTION TRIGGER OUTCOME format
+- globs: `glob pattern for files and folders`
+
+### Body
+- <version>X.Y.Z</version>
+- context: Usage conditions
+- requirements: Actionable items
+- examples: Both valid and invalid
+
+## Formatting Guidelines
+
+- Use Concise Markdown primarily
+- XML tags limited to:
+  - <example>
+  - <danger>
+  - <required>
+  - <rules>
+  - <rule>
+  - <critical>
+  - <version>
+- Always indent content within XML or nested XML tags by 2 spaces
+- Keep rules as short as possbile
+- Use Mermaid syntax if it will be shorter or clearer than describing a complex rule
+- Use Emojis where appropriate to convey meaning that will improve rule understanding by the AI Agent
+- Keep examples as short as possible to clearly convey the positive or negative example
+
+## AI Optimization Tips
+
+1. Use precise, deterministic ACTION TRIGGER OUTCOME format in descriptions
+2. Provide concise positive and negative example of rule application in practice
+3. Optimize for AI context window efficiency
+4. Remove any non-essential or redundant information
+5. Use standard glob patterns without quotes (e.g., *.js, src/**/*.ts)
+
+## AI Context Efficiency
+
+1. Keep frontmatter description under 120 characters (or less) while maintaining clear intent for rule selection by AI AGent
+2. Limit examples to essential patterns only
+3. Use hierarchical structure for quick parsing
+4. Remove redundant information across sections
+5. Maintain high information density with minimal tokens
+6. Focus on machine-actionable instructions over human explanations
 
 <critical>
-- ALWAYS verify endpoint exists in OpenAPI spec
-- ALWAYS include explicit return types on functions
-- ALWAYS mock HTTP calls in tests
-- NEVER introduce new patterns - follow existing code
-- Keep tests simple and fully mocked
-- Follow established file organization
-- Fix ALL linting errors before committing
-</critical> 
+  - NEVER include verbose explanations or redundant context that increases AI token overhead
+  - Keep file as short and to the point as possible BUT NEVER at the expense of sacrificing rule impact and usefulness for the AI Agent.
+  - the front matter can ONLY have the fields description and globs.
+</critical>
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/StuMason)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/StuMason)
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+> Source: [StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-18 -->
