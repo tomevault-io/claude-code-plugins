@@ -1,0 +1,40 @@
+# repository-structure
+
+> This is the Coinbase Developer Platform (CDP) SDK repository containing multi-language client libraries for creating, managing, and using crypto wallets. The SDK supports TypeScript, Python, and Go implementations.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/repository-structure/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+## Overview
+
+This is the Coinbase Developer Platform (CDP) SDK repository containing multi-language client libraries for creating, managing, and using crypto wallets. The SDK supports TypeScript, Python, and Go implementations.
+
+## Repository Structure
+
+- `typescript/` - TypeScript/Node.js SDK implementation
+- `python/` - Python SDK implementation
+- `go/` - Go SDK implementation
+- `examples/` - Working examples for all languages
+- `openapi.yaml` - OpenAPI specification for the CDP API
+
+## Root Level Development Commands
+
+```bash
+# Update OpenAPI specification
+make update-openapi
+
+# Check if OpenAPI spec is up to date
+make check-openapi
+```
+
+---
+> Source: [coinbase/cdp-sdk](https://github.com/coinbase/cdp-sdk) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-17 -->
