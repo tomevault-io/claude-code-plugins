@@ -1,18 +1,18 @@
-# ask-step-by-step-plan
+# create-test-rule
 
-> Your task is to create a detailed, step-by-step plan. Use sequancial_thinking tool to iterate your thoughts before getting started answering.
+> To create md file for test describing how to create rules to write tests
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ask-step-by-step-plan/SKILL.md
+Read and follow the instructions in .claude/skills/create-test-rule/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Your task is to create a detailed, step-by-step plan. Use sequancial_thinking tool to iterate your thoughts before getting started answering.
+Please create a concise markdown file that outlines key rules and best practices for writing or modifying tests, including data-driven structure, organized groups, clear input/output definitions, and detailed assertions
 
 ---
 > Source: [Arenukvern/mcp_flutter](https://github.com/Arenukvern/mcp_flutter) — distributed by [TomeVault](https://tomevault.io).
