@@ -1,22 +1,23 @@
-# gitignore-requirements
+# license-requirements
 
-> Gitignore File Requirements
+> License Requirements
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/gitignore-requirements/SKILL.md
+Read and follow the instructions in .claude/skills/license-requirements/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Gitignore Requirements
+
+# License Requirements
 
 ## Specifications
-- SHOULD ignore all the usual files and folders including `node_modules`, `.env` and others
-- MUST ignore `.env`
+- MUST use an MIT license
+- MUST copyright to Deepgram 2025
 
 ---
 > Source: [admildo/kollect](https://github.com/admildo/kollect) — distributed by [TomeVault](https://tomevault.io).
