@@ -1,135 +1,186 @@
-# deepsearchagents
+# agent-architecture
 
-> DeepSearchAgent uses a flexible configuration system with multiple options for customization.
+> DeepSearchAgent implements two agent paradigms: "CodeAct Agent" & normal "ReAct Agent". Version 0.2.4.dev introduces comprehensive enhancements to both agent types with a focus on text chunking, prompt organization, and planning capabilities.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/deepsearchagents/SKILL.md
+Read and follow the instructions in .claude/skills/agent-architecture/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# DeepSearchAgent Configuration
+# Agent Architecture
 
-DeepSearchAgent uses a flexible configuration system with multiple options for customization.
+DeepSearchAgent implements two agent paradigms: "CodeAct Agent" & normal "ReAct Agent". Version 0.2.4.dev introduces comprehensive enhancements to both agent types with a focus on text chunking, prompt organization, and planning capabilities.
 
-## Configuration Sources
+## Architecture Overview
 
-1. **@config.toml** configuration file
-2. **Environment Variables**: Override config file settings
-3. **Command Line Arguments**: Highest precedence overrides
+The codebase implements a dual-agent architecture pattern:
 
-## Key Configuration Sections
+1. **CodeAct Agent**: Generates and executes Python code to perform research actions
+2. **ReAct Agent**: Uses structured JSON for tool calling with explicit reasoning steps
 
-### Model Configuration
+Both agent types share common tools but differ in how they invoke these tools and process the results. The architecture includes a sophisticated template system and state management across both paradigms.
 
-```yaml
-models:
-  orchestrator_id: "openrouter/openai/o4-mini-high"  # Main LLM orchestration
-  search_id: "openrouter/openai/o4-mini-high"        # Search model (if different)
-  reranker_type: "jina-reranker-m0"                  # Reranker model type
-```
+## CodeAct Agent Implementation
 
-### Common Agent Settings
+[codact_agent.py](mdc:src/agents/codact_agent.py) implements the Code Execution paradigm:
 
-```yaml
-agents:
-  common:
-    verbose_tool_callbacks: true  # Show full tool inputs/outputs
-```
+- Based on `smolagents.CodeAgent` - generates executable Python code to perform actions
+- Uses `create_codact_agent()` factory function for agent initialization
+- Extends the base smolagents prompt templates with custom extensions
+- Maintains persistent variables between execution steps for state management
+- Implements sophisticated planning at regular intervals (default every 4 steps)
+- Streaming support through optional `StreamingCodeAgent` wrapper
 
-### ReAct Agent Settings
+### Key Technical Features:
 
-```yaml
-agents:
-  react:
-    max_steps: 25                # Max reasoning steps
-    enable_streaming: false      # Enable streaming output (recommended: false)
-    planning_interval: 7         # Interval for planning steps
-```
+- **Template Merging System**: Uses `merge_prompt_templates()` to combine base templates from smolagents with custom extensions
+- **Structured State Management**: Maintains global variables (`visited_urls`, `search_queries`, `key_findings`, etc.)
+- **Authorized Imports Management**: Carefully controls which Python modules can be used in the execution environment
+- **Tool Integration**: Provides direct access to tools as callable Python functions
+- **Failure Handling**: Implements robust error checks and safe access patterns for tools and variables
+- **Periodic Planning**: Reassesses strategy at configurable intervals via `planning_interval` parameter
 
-### CodeAct Agent Settings
+## ReAct Agent Implementation
 
-```yaml
-agents:
-  codact:
-    executor_type: "local"       # Code execution environment
-    max_steps: 25                # Max execution steps
-    verbosity_level: 1           # 0=minimal, 1=normal, 2=verbose
-    enable_streaming: false      # Enable streaming response (recommended: false)
-    planning_interval: 4         # Interval for planning steps
-    # Additional options
-    executor_kwargs: {}          # Additional executor parameters
-    additional_authorized_imports: []  # Additional allowed Python imports
-```
+[agent.py](mdc:src/agents/agent.py) implements the Reasoning + Acting paradigm:
 
-### Service Configuration
+- Based on `smolagents.ToolCallingAgent` - uses structured tool calling via JSON
+- Uses `create_react_agent()` factory function for agent initialization
+- Uses complete `PromptTemplates` structure for all agent interaction
+- Implements explicit reasoning (Thought) before each tool call (Action)
+- Supports periodic planning via `planning_interval` parameter (default 7 steps)
+- Streaming via optional `StreamingReactAgent` wrapper
 
-```yaml
-service:
-  host: "0.0.0.0"
-  port: 8000
-  version: "0.2.4.dev"
-  deepsearch_agent_mode: "codact"  # Default agent type
-```
+### Key Technical Features:
 
-### Logging Configuration
+- **JSON-based Tool Calls**: Uses structured JSON format for tool invocation
+- **Explicit Reasoning Traces**: Records thought process before each action
+- **State Tracking**: Maintains state through step memory rather than variables
+- **Tool Integration**: Consistent tool interface with both agent paradigms
+- **Standardized Prompt Structure**: Uses comprehensive PromptTemplates system
+- **Periodic Planning**: Reassesses strategy at regular intervals via `planning_interval`
 
-```yaml
-logging:
-  litellm_level: "WARNING"        # Reduce INFO logs from LiteLLM
-  filter_repeated_logs: true      # Enable repeated log filtering
-  filter_cost_calculator: true    # Filter cost calculation logs
-  filter_token_counter: true      # Filter token count logs
-  format: "minimal"               # Use simplified format
-```
+## Prompt Template System
 
-## API Keys Management
+The [prompt_templates](mdc:src/agents/prompt_templates) directory contains a modular prompt template system:
 
-API keys are managed through environment variables or `.env` file:
+- **[codact_prompts.py](mdc:src/agents/prompt_templates/codact_prompts.py)**: Contains:
+  - `CODACT_SYSTEM_EXTENSION`: System prompt extension for CodeAct agent
+  - `PLANNING_TEMPLATES`: Initial and update planning prompts
+  - `FINAL_ANSWER_EXTENSION`: Final answer generation formats
+  - `MANAGED_AGENT_TEMPLATES`: Agent team coordination patterns
+  - `merge_prompt_templates()`: Function to merge with smolagents base templates
 
-- `LITELLM_MASTER_KEY`: LLM API access
-- `LITELLM_BASE_URL`: LiteLLM proxy base URL
-- `SERPER_API_KEY`: Web search API
-- `JINA_API_KEY`: Content processing
-- `WOLFRAM_ALPHA_APP_ID`: Computational queries (optional)
+- **[react_prompts.py](mdc:src/agents/prompt_templates/react_prompts.py)**: Contains:
+  - Complete `REACT_PROMPT` structures using smolagents `PromptTemplates` class
+  - System prompts, tool descriptions and examples
+  - Workflow explanations and best practices
+  - Planning templates for strategic assessment
+  - Final answer formatting requirements
 
-## Important Configuration Notes
+- **[__init__.py](mdc:src/agents/prompt_templates/__init__.py)**: Exports the prompt components for both agent types
 
-### Streaming Mode Not Recommended
+## Text Chunking System
 
-The current streaming implementation has known issues:
-- Set `enable_streaming: false` for both agent types
-- Exception handling is incomplete
-- May cause stability issues
+- **[chunk.py](mdc:src/agents/tools/chunk.py)**: Agent tool interface utilizing Jina AI Segmenter
+  - Implements `ChunkTextTool` class inheriting from `smolagents.Tool`
+  - Provides consistent interface across both agent paradigms
+  - Passes chunking requests to the core segmenter implementation
 
-### New Chunking System
+- **[segmenter.py](mdc:src/agents/core/chunk/segmenter.py)**: Core segmentation implementation
+  - `JinaAISegmenter` class: Primary implementation using Jina AI Segment API
+  - Provides both synchronous and asynchronous interfaces
+  - Implements robust error handling and retry mechanisms
+  - Includes batch processing capability for multiple texts
+  - `Chunker` wrapper class: Maintains backward compatibility with original interface
 
-When using the new Jina AI Segmenter for text chunking:
-- No additional configuration needed
-- Works with backward compatibility
-- Performance improvements are automatic
+## Streaming Architecture
 
-### Improved Logging
+### ⚠️ Important Note: Streaming Functionality Not Recommended
+- Current streaming implementation has known issues and stability concerns
+- **Developers and users are advised not to enable streaming mode** until future optimizations
+- Set `enable_streaming` parameter to `false` in `config.toml` for both agent types
 
-The updated logging configuration provides:
-- More granular log filtering options
-- Reduced noise from token counting and cost calculation
-- Cleaner CLI output
+### Streaming Components
 
-## Configuration Loading Logic
+- **@StreamingReactAgent**: Extends the standard ToolCallingAgent
+  - Streams thinking, tool calls, and observations in real-time
+  - Maintains consistent JSON format for tool calling
+  - Integrates with CLI rendering system for formatted output
 
-The @config_loader.py handles loading and merging configuration from multiple sources with the following precedence:
+- **@StreamingCodeAgent**: Extends the standard CodeAgent
+  - Uses standard execution for code steps
+  - Only streams the final answer generation, not intermediate steps
+  - Maintains full state management throughout execution
 
-1. Command line arguments (highest priority)
-2. Environment variables
-3. Configuration file values 
-4. Default values (lowest priority)
+- **@StreamingLiteLLMModel**: Extends LiteLLMModel
+  - Provides token-by-token streaming for model responses
+  - Compatible with both agent paradigms
+
+- **Common Streaming Flow**:
+  1. User query received by CLI or API
+  2. Agent processes using appropriate reasoning steps
+  3. For streaming mode: Output formatted with markers (Thinking, Action, Observation)
+  4. For non-streaming mode: Only final answer returned after completion
+
+## Tool Interface System
+
+Tools are consistently defined across both agent paradigms:
+
+- **[tools/__init__.py](mdc:src/agents/tools/__init__.py)**: Exports all tools with consistent naming
+  - ReAct agent receives tool instances and calls them through Action JSON
+  - CodeAct agent accesses the same tool instances as direct Python functions
+  - Each tool inherits from `smolagents.Tool` base class
+
+- **Common Tool Structure**:
+  - Name, description, and input/output specifications
+  - `forward()` method implementing the core functionality
+  - CLI integration for rich output rendering
+  - Error handling and fallback mechanisms
+
+## State Management
+
+Both agent types maintain consistent state tracking with different approaches:
+
+- **CodeAct State**: Uses persistent Python variables between execution steps
+  - Variables include: `visited_urls`, `search_queries`, `key_findings`, etc.
+  - State maintained across the Python execution environment
+  - Safe access patterns through try/except blocks
+
+- **ReAct State**: Managed through agent's internal state dictionary
+  - State initialized with same structure as CodeAct
+  - State referenced through agent's reasoning process
+  - Updates tracked as part of the agent's execution history
+
+## Planning Mechanism
+
+Both agent types implement periodic planning for strategic reassessment:
+
+- **CodeAct Planning**: Every `planning_interval` steps (default: 4)
+  - Planning executed through specialized templates
+  - Evaluates progress and adjusts search strategy
+  - Maintains structured fact assessment and next steps
+
+- **ReAct Planning**: Every `planning_interval` steps (default: 7)
+  - Planning uses similar structured templates
+  - Explicitly tracks discovered facts and remaining questions
+  - Formulates focused next steps based on current progress
+
+## CLI Integration
+
+The CLI interface has been enhanced to support both agent types:
+
+- Renders structured JSON/Markdown output with formatting
+- Displays progress indicators and statistics
+- Handles errors gracefully with detailed diagnostics
+- Provides consistent interface across agent paradigms
+- Optimized logging and configuration options
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/lwyBZss8924d)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/lwyBZss8924d)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Source: [lwyBZss8924d/DeepSearchAgents](https://github.com/lwyBZss8924d/DeepSearchAgents) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-17 -->
