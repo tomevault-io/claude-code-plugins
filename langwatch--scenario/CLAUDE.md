@@ -1,6 +1,6 @@
 # scenario
 
-> Commit and push the changes to the remote repository use conventional commits.
+> - SRP (most important)
 
 ## Usage
 
@@ -12,10 +12,16 @@ Read and follow the instructions in .claude/skills/scenario/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Guidelines
 
-Commit and push the changes to the remote repository use conventional commits.
+## Follow best practices
+
+- SRP (most important)
+- SOLID
+- YAGNI
+- KISS
+- CLEAN CODE
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/langwatch)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/langwatch)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Source: [langwatch/scenario](https://github.com/langwatch/scenario) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-18 -->
