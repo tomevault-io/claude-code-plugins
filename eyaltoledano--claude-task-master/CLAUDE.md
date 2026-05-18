@@ -1,167 +1,115 @@
-# ai-providers
+# ai-services
 
-> Guidelines for managing Task Master AI providers and models.
+> Guidelines for interacting with the unified AI service layer.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ai-providers/SKILL.md
+Read and follow the instructions in .claude/skills/ai-services/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Task Master AI Provider Management
 
-This rule guides AI assistants on how to view, configure, and interact with the different AI providers and models supported by Task Master. For internal implementation details of the service layer, see [`ai_services.mdc`](mdc:.cursor/rules/ai_services.mdc).
+# AI Services Layer Guidelines
 
--   **Primary Interaction:**
-    -   Use the `models` MCP tool or the `task-master models` CLI command to manage AI configurations. See [`taskmaster.mdc`](mdc:.cursor/rules/taskmaster.mdc) for detailed command/tool usage.
+This document outlines the architecture and usage patterns for interacting with Large Language Models (LLMs) via Task Master's unified AI service layer (`ai-services-unified.js`). The goal is to centralize configuration, provider selection, API key management, fallback logic, and error handling.
 
--   **Configuration Roles:**
-    -   Task Master uses three roles for AI models:
-        -   `main`: Primary model for general tasks (generation, updates).
-        -   `research`: Model used when the `--research` flag or `research: true` parameter is used (typically models with web access or specialized knowledge).
-        -   `fallback`: Model used if the primary (`main`) model fails.
-    -   Each role is configured with a specific `provider:modelId` pair (e.g., `openai:gpt-4o`).
+**Core Components:**
 
--   **Viewing Configuration & Available Models:**
-    -   To see the current model assignments for each role and list all models available for assignment:
-        -   **MCP Tool:** `models` (call with no arguments or `listAvailableModels: true`)
-        -   **CLI Command:** `task-master models`
-    -   The output will show currently assigned models and a list of others, prefixed with their provider (e.g., `google:gemini-2.5-pro-exp-03-25`).
+*   **Configuration (`.taskmasterconfig` & [`config-manager.js`](mdc:scripts/modules/config-manager.js)):**
+    *   Defines the AI provider and model ID for different **roles** (`main`, `research`, `fallback`).
+    *   Stores parameters like `maxTokens` and `temperature` per role.
+    *   Managed via the `task-master models --setup` CLI command.
+    *   [`config-manager.js`](mdc:scripts/modules/config-manager.js) provides **getters** (e.g., `getMainProvider()`, `getParametersForRole()`) to access these settings. Core logic should **only** use these getters for *non-AI related application logic* (e.g., `getDefaultSubtasks`). The unified service fetches necessary AI parameters internally based on the `role`.
+    *   **API keys** are **NOT** stored here; they are resolved via `resolveEnvVariable` (in [`utils.js`](mdc:scripts/modules/utils.js)) from `.env` (for CLI) or the MCP `session.env` object (for MCP calls). See [`utilities.mdc`](mdc:.cursor/rules/utilities.mdc) and [`dev_workflow.mdc`](mdc:.cursor/rules/dev_workflow.mdc).
 
--   **Setting Models for Roles:**
-    -   To assign a model to a role:
-        -   **MCP Tool:** `models` with `setMain`, `setResearch`, or `setFallback` parameters.
-        -   **CLI Command:** `task-master models` with `--set-main`, `--set-research`, or `--set-fallback` flags.
-    -   **Crucially:** When providing the model ID to *set*, **DO NOT include the `provider:` prefix**. Use only the model ID itself.
-        -   ✅ **DO:** `models(setMain='gpt-4o')` or `task-master models --set-main=gpt-4o`
-        -   ❌ **DON'T:** `models(setMain='openai:gpt-4o')` or `task-master models --set-main=openai:gpt-4o`
-    -   The tool/command will automatically determine the provider based on the model ID.
+*   **Unified Service (`ai-services-unified.js`):**
+    *   Exports primary interaction functions: `generateTextService`, `generateObjectService`. (Note: `streamTextService` exists but has known reliability issues with some providers/payloads).
+    *   Contains the core `_unifiedServiceRunner` logic.
+    *   Internally uses `config-manager.js` getters to determine the provider/model/parameters based on the requested `role`.
+    *   Implements the **fallback sequence** (e.g., main -> fallback -> research) if the primary provider/model fails.
+    *   Constructs the `messages` array required by the Vercel AI SDK.
+    *   Implements **retry logic** for specific API errors (`_attemptProviderCallWithRetries`).
+    *   Resolves API keys automatically via `_resolveApiKey` (using `resolveEnvVariable`).
+    *   Maps requests to the correct provider implementation (in `src/ai-providers/`) via `PROVIDER_FUNCTIONS`.
+    *   Returns a structured object containing the primary AI result (`mainResult`) and telemetry data (`telemetryData`). See [`telemetry.mdc`](mdc:.cursor/rules/telemetry.mdc) for details on how this telemetry data is propagated and handled.
 
--   **Setting Custom Models (Ollama/OpenRouter):**
-    -   To set a model ID not in the internal list for Ollama or OpenRouter:
-        -   **MCP Tool:** Use `models` with `set<Role>` and **also** `ollama: true` or `openrouter: true`.
-            -   Example: `models(setMain='my-custom-ollama-model', ollama=true)`
-            -   Example: `models(setMain='some-openrouter-model', openrouter=true)`
-        -   **CLI Command:** Use `task-master models` with `--set-<role>` and **also** `--ollama` or `--openrouter`.
-            -   Example: `task-master models --set-main=my-custom-ollama-model --ollama`
-            -   Example: `task-master models --set-main=some-openrouter-model --openrouter`
-        -   **Interactive Setup:** Use `task-master models --setup` and select the `Ollama (Enter Custom ID)` or `OpenRouter (Enter Custom ID)` options.
-    -   **OpenRouter Validation:** When setting a custom OpenRouter model, Taskmaster attempts to validate the ID against the live OpenRouter API.
-    -   **Ollama:** No live validation occurs for custom Ollama models; ensure the model is available on your Ollama server.
+*   **Provider Implementations (`src/ai-providers/*.js`):**
+    *   Contain provider-specific wrappers around Vercel AI SDK functions (`generateText`, `generateObject`).
 
--   **Supported Providers & Required API Keys:**
-    -   Task Master integrates with various providers via the Vercel AI SDK.
-    -   **API keys are essential** for most providers and must be configured correctly.
-    -   **Key Locations** (See [`dev_workflow.mdc`](mdc:.cursor/rules/dev_workflow.mdc) - Configuration Management):
-        -   **MCP/Cursor:** Set keys in the `env` section of `.cursor/mcp.json`.
-        -   **CLI:** Set keys in a `.env` file in the project root.
-    -   **Provider List & Keys:**
-        -   **`anthropic`**: Requires `ANTHROPIC_API_KEY`.
-        -   **`google`**: Requires `GOOGLE_API_KEY`.
-        -   **`openai`**: Requires `OPENAI_API_KEY`.
-        -   **`perplexity`**: Requires `PERPLEXITY_API_KEY`.
-        -   **`xai`**: Requires `XAI_API_KEY`.
-        -   **`mistral`**: Requires `MISTRAL_API_KEY`.
-        -   **`azure`**: Requires `AZURE_OPENAI_API_KEY` and `AZURE_OPENAI_ENDPOINT`.
-        -   **`openrouter`**: Requires `OPENROUTER_API_KEY`.
-        -   **`ollama`**: Might require `OLLAMA_API_KEY` (not currently supported) *and* `OLLAMA_BASE_URL` (default: `http://localhost:11434/api`). *Check specific setup.*
+**Usage Pattern (from Core Logic like `task-manager/*.js`):**
 
--   **Troubleshooting:**
-    -   If AI commands fail (especially in MCP context):
-        1.  **Verify API Key:** Ensure the correct API key for the *selected provider* (check `models` output) exists in the appropriate location (`.cursor/mcp.json` env or `.env`).
-        2.  **Check Model ID:** Ensure the model ID set for the role is valid (use `models` listAvailableModels/`task-master models`).
-        3.  **Provider Status:** Check the status of the external AI provider's service.
-        4.  **Restart MCP:** If changes were made to configuration or provider code, restart the MCP server.
+1.  **Import Service:** Import `generateTextService` or `generateObjectService` from `../ai-services-unified.js`.
+    ```javascript
+    // Preferred for most tasks (especially with complex JSON)
+    import { generateTextService } from '../ai-services-unified.js';
 
-## Adding a New AI Provider (Vercel AI SDK Method)
+    // Use if structured output is reliable for the specific use case
+    // import { generateObjectService } from '../ai-services-unified.js';
+    ```
 
-Follow these steps to integrate a new AI provider that has an official Vercel AI SDK adapter (`@ai-sdk/<provider>`):
+2.  **Prepare Parameters:** Construct the parameters object for the service call.
+    *   `role`: **Required.** `'main'`, `'research'`, or `'fallback'`. Determines the initial provider/model/parameters used by the unified service.
+    *   `session`: **Required if called from MCP context.** Pass the `session` object received by the direct function wrapper. The unified service uses `session.env` to find API keys.
+    *   `systemPrompt`: Your system instruction string.
+    *   `prompt`: The user message string (can be long, include stringified data, etc.).
+    *   (For `generateObjectService` only): `schema` (Zod schema), `objectName`.
 
-1.  **Install Dependency:**
-    -   Install the provider-specific package:
-        ```bash
-        npm install @ai-sdk/<provider-name>
-        ```
+3.  **Call Service:** Use `await` to call the service function.
+    ```javascript
+    // Example using generateTextService (most common)
+    try {
+        const resultText = await generateTextService({
+            role: useResearch ? 'research' : 'main', // Determine role based on logic
+            session: context.session, // Pass session from context object
+            systemPrompt: "You are...",
+            prompt: userMessageContent
+        });
+        // Process the raw text response (e.g., parse JSON, use directly)
+        // ...
+    } catch (error) {
+        // Handle errors thrown by the unified service (if all fallbacks/retries fail)
+        report('error', `Unified AI service call failed: ${error.message}`);
+        throw error;
+    }
 
-2.  **Create Provider Module:**
-    -   Create a new file in `src/ai-providers/` named `<provider-name>.js`.
-    -   Use existing modules (`openai.js`, `anthropic.js`, etc.) as a template.
-    -   **Import:**
-        -   Import the provider's `create<ProviderName>` function from `@ai-sdk/<provider-name>`.
-        -   Import `generateText`, `streamText`, `generateObject` from the core `ai` package.
-        -   Import the `log` utility from `../../scripts/modules/utils.js`.
-    -   **Implement Core Functions:**
-        -   `generate<ProviderName>Text(params)`:
-            -   Accepts `params` (apiKey, modelId, messages, etc.).
-            -   Instantiate the client: `const client = create<ProviderName>({ apiKey });`
-            -   Call `generateText({ model: client(modelId), ... })`.
-            -   Return `result.text`.
-            -   Include basic validation and try/catch error handling.
-        -   `stream<ProviderName>Text(params)`:
-            -   Similar structure to `generateText`.
-            -   Call `streamText({ model: client(modelId), ... })`.
-            -   Return the full stream result object.
-            -   Include basic validation and try/catch.
-        -   `generate<ProviderName>Object(params)`:
-            -   Similar structure.
-            -   Call `generateObject({ model: client(modelId), schema, messages, ... })`.
-            -   Return `result.object`.
-            -   Include basic validation and try/catch.
-    -   **Export Functions:** Export the three implemented functions (`generate<ProviderName>Text`, `stream<ProviderName>Text`, `generate<ProviderName>Object`).
+    // Example using generateObjectService (use cautiously)
+    try {
+        const resultObject = await generateObjectService({
+            role: 'main',
+            session: context.session,
+            schema: myZodSchema,
+            objectName: 'myDataObject',
+            systemPrompt: "You are...",
+            prompt: userMessageContent
+        });
+        // resultObject is already a validated JS object
+        // ...
+    } catch (error) {
+        report('error', `Unified AI service call failed: ${error.message}`);
+        throw error;
+    }
+    ```
 
-3.  **Integrate with Unified Service:**
-    -   Open `scripts/modules/ai-services-unified.js`.
-    -   **Import:** Add `import * as <providerName> from '../../src/ai-providers/<provider-name>.js';`
-    -   **Map:** Add an entry to the `PROVIDER_FUNCTIONS` map:
-        ```javascript
-        '<provider-name>': {
-            generateText: <providerName>.generate<ProviderName>Text,
-            streamText: <providerName>.stream<ProviderName>Text,
-            generateObject: <providerName>.generate<ProviderName>Object
-        },
-        ```
+4.  **Handle Results/Errors:** Process the returned text/object or handle errors thrown by the unified service layer.
 
-4.  **Update Configuration Management:**
-    -   Open `scripts/modules/config-manager.js`.
-    -   **`MODEL_MAP`:** Add the new `<provider-name>` key to the `MODEL_MAP` loaded from `supported-models.json` (or ensure the loading handles new providers dynamically if `supported-models.json` is updated first).
-    -   **`VALID_PROVIDERS`:** Ensure the new `<provider-name>` is included in the `VALID_PROVIDERS` array (this should happen automatically if derived from `MODEL_MAP` keys).
-    -   **API Key Handling:**
-        -   Update the `keyMap` in `_resolveApiKey` and `isApiKeySet` with the correct environment variable name (e.g., `PROVIDER_API_KEY`).
-        -   Update the `switch` statement in `getMcpApiKeyStatus` to check the corresponding key in `mcp.json` and its placeholder value.
-        -   Add a case to the `switch` statement in `getMcpApiKeyStatus` for the new provider, including its placeholder string if applicable.
-    -   **Ollama Exception:** If adding Ollama or another provider *not* requiring an API key, add a specific check at the beginning of `isApiKeySet` and `getMcpApiKeyStatus` to return `true` immediately for that provider.
+**Key Implementation Rules & Gotchas:**
 
-5.  **Update Supported Models List:**
-    -   Edit `scripts/modules/supported-models.json`.
-    -   Add a new key for the `<provider-name>`.
-    -   Add an array of model objects under the provider key, each including:
-        -   `id`: The specific model identifier (e.g., `claude-3-opus-20240229`).
-        -   `name`: A user-friendly name (optional).
-        -   `swe_score`, `cost_per_1m_tokens`: (Optional) Add performance/cost data if available.
-        -   `allowed_roles`: An array of roles (`"main"`, `"research"`, `"fallback"`) the model is suitable for.
-        -   `max_tokens`: (Optional but recommended) The maximum token limit for the model.
-
-6.  **Update Environment Examples:**
-    -   Add the new `PROVIDER_API_KEY` to `.env.example`.
-    -   Add the new `PROVIDER_API_KEY` with its placeholder (`YOUR_PROVIDER_API_KEY_HERE`) to the `env` section for `taskmaster-ai` in `.cursor/mcp.json.example` (if it exists) or update instructions.
-
-7.  **Add Unit Tests:**
-    -   Create `tests/unit/ai-providers/<provider-name>.test.js`.
-    -   Mock the `@ai-sdk/<provider-name>` module and the core `ai` module functions (`generateText`, `streamText`, `generateObject`).
-    -   Write tests for each exported function (`generate<ProviderName>Text`, etc.) to verify:
-        -   Correct client instantiation.
-        -   Correct parameters passed to the mocked Vercel AI SDK functions.
-        -   Correct handling of results.
-        -   Error handling (missing API key, SDK errors).
-
-8.  **Documentation:**
-    -   Update any relevant documentation (like `README.md` or other rules) mentioning supported providers or configuration.
-
-*(Note: For providers **without** an official Vercel AI SDK adapter, the process would involve directly using the provider's own SDK or API within the `src/ai-providers/<provider-name>.js` module and manually constructing responses compatible with the unified service layer, which is significantly more complex.)*
+*   ✅ **DO**: Centralize **all** LLM calls through `generateTextService` or `generateObjectService`.
+*   ✅ **DO**: Determine the appropriate `role` (`main`, `research`, `fallback`) in your core logic and pass it to the service.
+*   ✅ **DO**: Pass the `session` object (received in the `context` parameter, especially from direct function wrappers) to the service call when in MCP context.
+*   ✅ **DO**: Ensure API keys are correctly configured in `.env` (for CLI) or `.cursor/mcp.json` (for MCP).
+*   ✅ **DO**: Ensure `.taskmasterconfig` exists and has valid provider/model IDs for the roles you intend to use (manage via `task-master models --setup`).
+*   ✅ **DO**: Use `generateTextService` and implement robust manual JSON parsing (with Zod validation *after* parsing) when structured output is needed, as `generateObjectService` has shown unreliability with some providers/schemas.
+*   ❌ **DON'T**: Import or call anything from the old `ai-services.js`, `ai-client-factory.js`, or `ai-client-utils.js` files.
+*   ❌ **DON'T**: Initialize AI clients (Anthropic, Perplexity, etc.) directly within core logic (`task-manager/`) or MCP direct functions.
+*   ❌ **DON'T**: Fetch AI-specific parameters (model ID, max tokens, temp) using `config-manager.js` getters *for the AI call*. Pass the `role` instead.
+*   ❌ **DON'T**: Implement fallback or retry logic outside `ai-services-unified.js`.
+*   ❌ **DON'T**: Handle API key resolution outside the service layer (it uses `utils.js` internally).
+*   ⚠️ **generateObjectService Caution**: Be aware of potential reliability issues with `generateObjectService` across different providers and complex schemas. Prefer `generateTextService` + manual parsing as a more robust alternative for structured data needs.
 
 ---
 > Source: [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) — distributed by [TomeVault](https://tomevault.io).
