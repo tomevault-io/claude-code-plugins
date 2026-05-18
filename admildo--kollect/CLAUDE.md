@@ -1,23 +1,28 @@
-# license-requirements
+# readme-requirements
 
-> License Requirements
+> README Documentation Requirements
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/license-requirements/SKILL.md
+Read and follow the instructions in .claude/skills/readme-requirements/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# README.md Requirements
 
-# License Requirements
-
-## Specifications
-- MUST use an MIT license
-- MUST copyright to Deepgram 2025
+## Content Structure
+- MUST have a H1 title
+- MUST have a description
+- MUST have a prerequisite section
+- MUST have a section to create a `.env` file based on the contents of `sample.env`
+- MUST provide simple instructions for both uses of the starter app
+- MUST provide a short section on license, contributing, security, and code of conduct as separate sections, linking to their respective files in their own section
+- MUST have a link to the [Discord](mdc:node-voice-agent/https:/discord.gg/deepgram) to get help
+- MUST have instructions to raise an issue for any bugs/feature requests
 
 ---
 > Source: [admildo/kollect](https://github.com/admildo/kollect) — distributed by [TomeVault](https://tomevault.io).
