@@ -1,86 +1,25 @@
-# jsdoc-comments
+# nextjs
 
-> add jsdoc comments to components and methods
+> Best Practices for Next.js with App Router
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/jsdoc-comments/SKILL.md
+Read and follow the instructions in .claude/skills/nextjs/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# JSDoc Documentation Standards
-
-<rule>
-name: component_documentation
-description: Standards for documenting React components and methods
-filters:
-  - type: file_extension
-    pattern: "\\.(ts|tsx)$"
-  - type: content
-    pattern: "(function|const).*=.*\\(.*\\).*=>"
-
-actions:
-  - type: suggest
-    message: |
-      When documenting components and methods:
-
-      1. **Component Documentation**
-         ```typescript
-         /**
-          * A brief description of the component's purpose
-          * 
-          * @param props - Component props
-          * @param props.prop1 - Description of prop1
-          * @param props.prop2 - Description of prop2
-
-          * @returns - React component
-          *
-          * @example
-          * ```tsx
-          * <MyComponent prop1="value" prop2={42} />
-          * ```
-          */
-         ```
-
-      2. **Utility Function Documentation**
-         ```typescript
-         /**
-          * Brief description of the function's purpose
-          * 
-          * @param param1 - Description of param1
-          * @param param2 - Description of param2
-          *
-          * @returns Description of return value
-          * 
-          * @throws Description of potential errors
-          */
-         ```
-
-      3. **Hook Documentation**
-         ```typescript
-         /**
-          * Brief description of the hook's purpose
-          * 
-          * @param param1 - Description of param1
-          * @param param2 - Description of param2
-          * 
-          * @returns Description of return value
-          *
-          * @example
-          * ```tsx
-          * const result = useMyHook(param1, param2);
-          * ```
-          */
-         ```
-
-metadata:
-  priority: high
-  version: 1.0
-</rule>
+- Prioritize using server components (RSC) for performance, SEO, and data fetching
+- Use client components sparingly, only when interactivity is required
+- Take advantage of Next.js file-based routing system for simplicity
+- Centralize shared layouts in 'layout.tsx' for consistency across pages
+- Add 'loading.tsx' to handle loading states for better UX
+- Implement custom error pages with 'error.tsx' to handle errors gracefully
+- Use API route handlers to manage backend logic within the app structure
+- Optimize server-side rendering (SSR) and static site generation (SSG) for faster loading times
 
 ---
 > Source: [thedaviddias/llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) — distributed by [TomeVault](https://tomevault.io).
