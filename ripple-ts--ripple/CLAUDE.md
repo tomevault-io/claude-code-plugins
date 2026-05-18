@@ -1,16 +1,17 @@
-# ripple
+# project
 
-> Ripple is a TypeScript-first UI framework and monorepo maintained by Dominic
+> Ripple project overview and development guidelines
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ripple/SKILL.md
+Read and follow the instructions in .claude/skills/project/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # Ripple Project Guide for AI Agents
 
