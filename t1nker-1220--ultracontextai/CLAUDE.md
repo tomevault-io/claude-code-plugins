@@ -1,13 +1,13 @@
-# ultracontextai
+# brain-memories-lessons-learned-scratchpad
 
-> This document serves as your comprehensive guide for project interaction and development. Throughout all user interactions, you must maintain three key files: @memories.md for interaction history, @lessons-learned.md for knowledge retention, and @scratchpad.md for active task management.
+> always activate this rules automatically in every interaction from the user
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracontextai/SKILL.md
+Read and follow the instructions in .claude/skills/brain-memories-lessons-learned-scratchpad/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
