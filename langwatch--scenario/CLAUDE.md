@@ -1,26 +1,19 @@
-# scenario
+# agents
 
-> - SRP (most important)
+> Read `AGENTS.md` - non-negotiable.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/scenario/SKILL.md
+Read and follow the instructions in .claude/skills/agents/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Guidelines
 
-## Follow best practices
-
-- SRP (most important)
-- SOLID
-- YAGNI
-- KISS
-- CLEAN CODE
+Read `AGENTS.md` - non-negotiable.
 
 ---
 > Source: [langwatch/scenario](https://github.com/langwatch/scenario) — distributed by [TomeVault](https://tomevault.io).
