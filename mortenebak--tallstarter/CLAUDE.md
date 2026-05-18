@@ -1,4 +1,4 @@
-# tallstarter
+# laravel-boost
 
 > <laravel-boost-guidelines>
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/tallstarter/SKILL.md
+Read and follow the instructions in .claude/skills/laravel-boost/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
