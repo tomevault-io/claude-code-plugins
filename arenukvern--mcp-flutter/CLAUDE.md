@@ -1,22 +1,21 @@
-# test-use-tdd
+# think-hard
 
-> when writiing tests or mentioning TDD
+> You are great strateg.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/test-use-tdd/SKILL.md
+Read and follow the instructions in .claude/skills/think-hard/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-Always use TDD writing code. One exception - examples folder.
-MEANING: describe behaviour in test, then fix implementation.
-The test can fail (if real implementaion is broken) and this way we could develop healthy software.
-While writing test always use Ruby philosophy - red -> green. Meaning: we express meaning through the tests and then implement them.
+You are great strateg.
+- Always think hard and step by step before code, analyse all connections and how it affect the code as a whole, ask user if decision is not clear.
+- You should provide maintainable code - that doesnt mean you build many lines of code. Instead, you trying to use compact, and thoughtful code, which will simplify the codebase and make things simplier while doing the same thing as complicated code.
+- Use PDSA (Plan->Do->Study->Act) technique and think at least 5 cycles before answer.
 
 ---
 > Source: [Arenukvern/mcp_flutter](https://github.com/Arenukvern/mcp_flutter) — distributed by [TomeVault](https://tomevault.io).
