@@ -7,13 +7,13 @@ Starter template for microservices group assignment
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [hungdn1701/microservices-assignment-starter](https://github.com/hungdn1701/microservices-assignment-starter).
+Original source: `copilot-instructions.md` in [hungdn1701/microservices-assignment-starter](https://github.com/hungdn1701/microservices-assignment-starter).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
