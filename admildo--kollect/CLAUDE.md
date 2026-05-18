@@ -1,39 +1,23 @@
-# deepgram-toml
+# env-requirements
 
-> deepgram.toml Requirements
+> Environment File Requirements
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/deepgram-toml/SKILL.md
+Read and follow the instructions in .claude/skills/env-requirements/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# deepgram.toml Requirements
 
-## File Format
-```toml
-[meta]
-title = "Node Transcription Starter" # title of the app
-description = "Get started using Deepgram's Transcription with this Node demo app" # description of the app
-author = "Deepgram DX Team <devrel@deepgram.com> (https://developers.deepgram.com)" # contact details of the DX team
-useCase = "STT" # or TTS, Agent, TextIntel, 
-language = "TypeScript" # the language used in the main file
-framework = "Node" # short key for the framework, or remove if null
-sdk = "3.8.12" # version of the SDK, or remove if no SDK used
+# Environment File Requirements
 
-[build]
-command = "npm install" # the command to set up the app to run it
-
-[config]
-sample = "sample.env" # the filename for the sample environment or config file
-output = ".env"
-
-[post-build]
-message = "Run `npm start -- --serve` to start the web server." # the command the user will run to start the app as a web server
+## sample.env Content
+```bash
+DEEPGRAM_API_KEY=%deepgram_api_key%
 ```
 
 ---
