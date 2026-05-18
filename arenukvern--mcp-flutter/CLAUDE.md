@@ -1,52 +1,72 @@
-# faq-usage
+# flutter-ui-dev
 
-> Quick reference for when to use DESIGN_FAQ.md vs DX_FAQ.md.
+> when creating or modifing flutter widgets
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/faq-usage/SKILL.md
+Read and follow the instructions in .claude/skills/flutter-ui-dev/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# FAQ Documentation Usage Guide
+# Flutter widgets and concepts:
 
-Quick reference for when to use DESIGN_FAQ.md vs DX_FAQ.md.
+- Dart 3.11 syntax for null safety, pattern matching, and more
+- Appropriate use of StatelessWidget, or Stateful widgets (NO riverpod)
+- Custom reusable widgets (use ui_kit) instead of methods
+- Cupertino or Material Design as appropriate
+- Proper error handling and async/await for asynchronous operations
+- flutter_animate for animations
 
-**Q: What is DESIGN_FAQ.md for?**
-A: Explains WHY design decisions were made. Use when maintaining the ECS codebase, understanding architectural choices, or making changes that affect core systems. Answers questions like "Why do we use archetypes?" or "Why is flush order important?"
+# Widget Composition Guidelines:
 
-**Q: What is DX_FAQ.md for?**
-A: Explains HOW to use the ECS API. Use when writing application code, creating systems, or learning the API. Answers questions like "How do I query entities?" or "How do I create a schedule?"
+1. **Appropriate Widget Granularity**:
+   - Prefer fewer, more cohesive widgets over many tiny widgets
+   - Extract new widget classes only when they are:
+   - Reused in multiple places
+   - Complex enough to warrant separation (>10 lines)
+   - Logically independent with clear boundaries
+   - For simpler UIs, use a single widget with well-commented sections
 
-**Q: What format should DX_FAQ.md use?**
-A: **Memory Palace Format** - Spatial organization with mental "locations" (🏠 World Hub, 🏭 Entity Factory, etc.) containing embedded code patterns. This format is optimized for AI agent memory retention through spatial associations and instant recall.
+2. **Code Organization Hierarchy**:
+   - First preference: Use comments to separate logical sections within a widget
+   - Second preference: Extract logical methods for complex sections (>10 && <30 lines)
+   - Last preference: Create new widget classes
 
-**Q: When should I reference DESIGN_FAQ.md?**
-A: When you need to understand:
+3. **Comment-Based Structure**:
+   - Use section comments to delineate logical UI parts:
 
-- Architectural rationale (why archetypes, why SoA, why generational IDs)
-- Performance trade-offs (why auto-flush, why column abstraction)
-- Internal design decisions (why flush order, why command queue)
-- Making changes to core ECS systems
+   ```dart
+   // Header section
+   Column(
+      children: [
+         // Title
+         Text('Title'),
+         // Subtitle
+         Text('Subtitle'),
+      ],
+   ),
+   ```
 
-**Q: When should I reference DX_FAQ.md?**
-A: When you need to know:
+4. **Refactoring Decision Tree**:
+   - Is the component reused? → Extract widget
+   - Is the component >50 lines? → Consider extraction
+   - Is the component logically independent? → Consider extraction
+   - Otherwise → Keep in parent with comments
 
-- How to use the API (queries, schedules, entity access)
-- Code examples for common tasks
-- Practical usage patterns
-- Writing application code (not maintaining ECS itself)
+5. **Performance Considerations**:
+   - Be mindful that each widget adds overhead
+   - Prefer fewer widgets for simpler screens
+   - Use const constructors aggressively
 
-**Q: Can I use both FAQs together?**
-A: Yes. DESIGN_FAQ explains why `WorldEntity` vs `WorldEntityMut` exist, while DX_FAQ shows how to use them. They complement each other - no duplication.
-
-**Q: Which FAQ should I update?**
-A: Update DESIGN_FAQ.md when making architectural changes or design decisions. Update DX_FAQ.md when adding new API features or improving developer experience examples.
+6. **Documentation Balance**:
+   - For single-class approaches, use inline comments instead of class-level docs
+   - Reserve detailed documentation for public APIs and complex widgets
+   - Document the "why" more than the "what" when using comments
 
 ---
 > Source: [Arenukvern/mcp_flutter](https://github.com/Arenukvern/mcp_flutter) — distributed by [TomeVault](https://tomevault.io).
