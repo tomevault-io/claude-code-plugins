@@ -1,6 +1,8 @@
-# coolify-mcp — distributed by TomeVault
+# coolify-mcp
 
-> Originally from [StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp) — distributed by [TomeVault](https://tomevault.io)
+
+MCP server for Coolify — 38 optimized tools for managing self-hosted PaaS through AI assistants
 
 ## Claude Code Config
 
@@ -15,10 +17,10 @@ Original source: `.cursor/rules/*.mdc` in [StuMason/coolify-mcp](https://github.
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/StuMason)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/StuMason/coolify-mcp](https://github.com/StuMason/coolify-mcp)
 
 ---
 
-Is this your repo? [Claim it](https://tomevault.io/claim/StuMason) to manage distribution and track installs.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
 
 <!-- genome:d-c-p -->
