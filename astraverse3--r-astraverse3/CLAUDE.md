@@ -1,0 +1,21 @@
+# r-astraverse3
+
+> 1. **Language**: Always respond in Korean (한국어로 답변).
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/r-astraverse3/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# User Preferences
+
+1. **Language**: Always respond in Korean (한국어로 답변).
+
+---
+> Source: [astraverse3/r_astraverse3](https://github.com/astraverse3/r_astraverse3) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-18 -->
