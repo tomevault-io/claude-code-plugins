@@ -989,6 +989,11 @@
       "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts."
     },
     {
+      "name": "modelcontextprotocol--registry",
+      "source": "./modelcontextprotocol--registry",
+      "description": "A community driven registry service for Model Context Protocol (MCP) servers."
+    },
+    {
       "name": "hugohe3--ppt-master",
       "source": "./hugohe3--ppt-master",
       "description": "AI generates natively editable PPTX from any document \u2014 real PowerPoint shapes, not images \u2014 no design skills needed"
@@ -1017,6 +1022,11 @@
       "name": "heygen-com--hyperframes",
       "source": "./heygen-com--hyperframes",
       "description": "Write HTML. Render video. Built for agents."
+    },
+    {
+      "name": "googlecloudplatform--agent-starter-pack",
+      "source": "./googlecloudplatform--agent-starter-pack",
+      "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability."
     },
     {
       "name": "superdesigndev--superdesign",
@@ -1509,6 +1519,11 @@
       "description": "Minimal CLI coding agent by Mistral"
     },
     {
+      "name": "groupultra--telegram-search",
+      "source": "./groupultra--telegram-search",
+      "description": "\ud83d\udd0d \u5bfc\u51fa\u5e76\u6a21\u7cca\u641c\u7d22 Telegram \u804a\u5929\u8bb0\u5f55 | Export and fuzzy search your Telegram chat history"
+    },
+    {
       "name": "aninsomniacy--motrix-next",
       "source": "./aninsomniacy--motrix-next",
       "description": "A full-featured download manager \u2014 rebuilt from the ground up"
@@ -1969,6 +1984,11 @@
       "description": "Design-forward shadcn kit for interfaces that stand out. 1000+ free patterns!"
     },
     {
+      "name": "keenthemes--reui",
+      "source": "./keenthemes--reui",
+      "description": "Design-forward shadcn kit for interfaces that stand out. 1000+ free patterns!"
+    },
+    {
       "name": "htdt--godogen",
       "source": "./htdt--godogen",
       "description": "Claude Code & Codex skills that build complete Godot projects from a game description"
@@ -2252,6 +2272,16 @@
       "name": "the-vibe-company--companion",
       "source": "./the-vibe-company--companion",
       "description": "Web & Mobile UI for Claude Code & Codex . Launch sessions, stream responses, approve tools.  All from your browser / mobile"
+    },
+    {
+      "name": "nvidia--nemo-agent-toolkit",
+      "source": "./nvidia--nemo-agent-toolkit",
+      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents."
+    },
+    {
+      "name": "nvidia--nemo-agent-toolkit",
+      "source": "./nvidia--nemo-agent-toolkit",
+      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents."
     },
     {
       "name": "nvidia--nemo-agent-toolkit",
@@ -2939,6 +2969,11 @@
       "description": "MCP server that provides tools and resources for interacting with n8n API"
     },
     {
+      "name": "ezyang--codemcp",
+      "source": "./ezyang--codemcp",
+      "description": "Coding assistant MCP for Claude Desktop"
+    },
+    {
       "name": "eugene1g--agent-safehouse",
       "source": "./eugene1g--agent-safehouse",
       "description": "Sandbox your local AI agents so they can read/write only what they need"
@@ -3267,6 +3302,11 @@
       "name": "microsoft--edgeai-for-beginners",
       "source": "./microsoft--edgeai-for-beginners",
       "description": "This course is designed to guide beginners through the exciting world of Edge AI, covering fundamental concepts, popular models, inference techniques, device-specific applications, model optimization,"
+    },
+    {
+      "name": "mattt--imcp",
+      "source": "./mattt--imcp",
+      "description": "A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more"
     },
     {
       "name": "vava-nessa--free-coding-models",
@@ -5289,6 +5329,16 @@
       "description": "Portable multi-agent harness for .agents-based skills, workflows, and standards-aware agent teams across Antigravity, Claude Code, Codex, Cursor, OpenCode, and more."
     },
     {
+      "name": "bugbasesecurity--pentest-copilot",
+      "source": "./bugbasesecurity--pentest-copilot",
+      "description": "Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows."
+    },
+    {
+      "name": "bugbasesecurity--pentest-copilot",
+      "source": "./bugbasesecurity--pentest-copilot",
+      "description": "Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows."
+    },
+    {
       "name": "mtymek--opencode-obsidian",
       "source": "./mtymek--opencode-obsidian",
       "description": "Embed OpenCode AI assistant directly in Obsidian's sidebar."
@@ -5629,6 +5679,11 @@
       "description": "Ant Design for Vue"
     },
     {
+      "name": "datascienceuibk--rankify",
+      "source": "./datascienceuibk--rankify",
+      "description": "\ud83d\udd25 Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation \ud83d\udd25. Our toolkit integrates 40 pre-retrieved benchmark datasets and supports 7+ retrieval techniqu"
+    },
+    {
       "name": "thedakshjaitly--mex",
       "source": "./thedakshjaitly--mex",
       "description": "Persistent project memory for AI coding agents. Structured scaffold + drift detection CLI."
@@ -5962,6 +6017,11 @@
       "name": "4regab--tasksync",
       "source": "./4regab--tasksync",
       "description": "Copilot chat sessions orchestrator. "
+    },
+    {
+      "name": "instructa--viber3d",
+      "source": "./instructa--viber3d",
+      "description": "A modern starter kit for 3D browser games powered by r3f and threejs - "
     },
     {
       "name": "aperoc--toolkami",
@@ -7834,6 +7894,106 @@
       "description": "The Open Deep Research app \u2013 generate reports with OSS LLMs"
     },
     {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
+      "name": "ghuntley--groundhog",
+      "source": "./ghuntley--groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can "
+    },
+    {
       "name": "franckyb--voice-clone-studio",
       "source": "./franckyb--voice-clone-studio",
       "description": "A Gradio-based web UI for voice cloning and voice design, powered by Qwen3-TTS & VibeVoice.  Can use Whisper or VibeVoice-ASR for automatic transcription."
@@ -9189,6 +9349,11 @@
       "description": "Convert SVG files to 3D models. Export STL, OBJ, or GLTF.  Use it for 3D Printing or 3D Web Development."
     },
     {
+      "name": "ziems--arbor",
+      "source": "./ziems--arbor",
+      "description": "A framework for optimizing DSPy programs with RL"
+    },
+    {
       "name": "ethanlipnik--loom",
       "source": "./ethanlipnik--loom",
       "description": "Easy peer to peer networking for Apple devices"
@@ -10192,6 +10357,11 @@
       "name": "carlosziegler--fullstack-start-template",
       "source": "./carlosziegler--fullstack-start-template",
       "description": "This project provides a solid foundation for building modern web applications using a curated stack of technologies focused on developer experience, performance, and type safety."
+    },
+    {
+      "name": "discus0434--nook",
+      "source": "./discus0434--nook",
+      "description": "A daily digest web app that scrapes and summarizes blogs, Reddit threads, GitHub trending, and Hacker-News-trending articles all in one place."
     },
     {
       "name": "tzachbon--smart-ralph",
@@ -11522,6 +11692,11 @@
       "name": "yellowseaa--promptworks",
       "source": "./yellowseaa--promptworks",
       "description": "\u4e00\u4e2aPrompts\u7ba1\u7406\u4e0e\u6d4b\u8bd5\u5de5\u5177\u3002A Prompts management and testing tool."
+    },
+    {
+      "name": "rudra-ravi--wikipedia-mcp",
+      "source": "./rudra-ravi--wikipedia-mcp",
+      "description": "A Model Context Protocol (MCP) server that retrieves information from Wikipedia to provide context to LLMs."
     },
     {
       "name": "wordflowlab--article-writer",
@@ -13964,6 +14139,11 @@
       "description": "A simple CLI to install MCP servers into any client - auth included!"
     },
     {
+      "name": "dl-cv--openivs",
+      "source": "./dl-cv--openivs",
+      "description": "OpenIVS\u662f\u4e00\u4e2a\u5f00\u6e90\u7684\u5de5\u4e1a\u89c6\u89c9\u7cfb\u7edf\uff0c\u5b83\u63d0\u4f9b\u4e86\u4e00\u5957\u5de5\u4e1a\u89c6\u89c9\u8f6f\u4ef6\u6846\u67b6\uff0c\u5e2e\u52a9\u4f60\u5feb\u901f\u5b8c\u6210\u5de5\u4e1a\u89c6\u89c9\u68c0\u6d4b\u9879\u76ee\u3002"
+    },
+    {
       "name": "magiccube--helixent",
       "source": "./magiccube--helixent",
       "description": "Helixent is a small library for building ReAct-style agent loops based on the Bun stack."
@@ -14072,6 +14252,11 @@
       "name": "microsoft--mcp-dotnet-samples",
       "source": "./microsoft--mcp-dotnet-samples",
       "description": "A comprehensive set of samples of creating and using MCP servers and clients with .NET"
+    },
+    {
+      "name": "callstackincubator--react-native-node-api",
+      "source": "./callstackincubator--react-native-node-api",
+      "description": "Node-API Modules for React Native"
     },
     {
       "name": "nokodo-labs--os1",
@@ -14224,6 +14409,16 @@
       "description": "Cosmos-Curate is a powerful video curation system that processes, analyzes, and organizes video content using advanced AI models and distributed computing."
     },
     {
+      "name": "t1nker-1220--ultracontextai",
+      "source": "./t1nker-1220--ultracontextai",
+      "description": "Hire/Contact me: marquezjohnnathanieljade@gmail.com https://forum.cursor.com/t/rules-for-ultra-context-memories-lessons-scratchpad-with-plan-and-act-modes/48792/22?u=t1nker-1220"
+    },
+    {
+      "name": "somiawhitering--game-grid",
+      "source": "./somiawhitering--game-grid",
+      "description": "\u6e38\u620f\u751f\u6daf\u4e2a\u4eba\u559c\u597d\u8868\u7684\u5f00\u6e90\u590d\u523b\u7248"
+    },
+    {
       "name": "dgunzy--flux9s",
       "source": "./dgunzy--flux9s",
       "description": "A K9s-inspired terminal UI for monitoring Flux resources in real-time"
@@ -14362,6 +14557,16 @@
       "name": "automattic--wp-feature-api",
       "source": "./automattic--wp-feature-api",
       "description": "Feature API - This repository will be deprecated as stable releases of the Abilities API become available. Please use https://github.com/WordPress/abilities-api for ongoing development and support."
+    },
+    {
+      "name": "nomicfoundation--solx",
+      "source": "./nomicfoundation--solx",
+      "description": "LLVM-based Solidity compiler."
+    },
+    {
+      "name": "nomicfoundation--solx",
+      "source": "./nomicfoundation--solx",
+      "description": "LLVM-based Solidity compiler."
     },
     {
       "name": "iamtouchskyer--memex",
@@ -15184,6 +15389,11 @@
       "description": "Next.js Blog Template for ladder theme"
     },
     {
+      "name": "drivebase--drivebase",
+      "source": "./drivebase--drivebase",
+      "description": "Drivebase is a cloud-agnostic file management platform for people and teams using multiple storage providers. \ud83d\ude80 "
+    },
+    {
       "name": "qingquanyao--xilinx-skill",
       "source": "./qingquanyao--xilinx-skill",
       "description": "Xilinx/AMD FPGA & MPSoC Vivado design skill for Claude \u2014 covers block design, IP config, XDC constraints, synthesis, implementation and bitstream generation."
@@ -15624,6 +15834,11 @@
       "description": "Native Liquid Glass widgets for iOS and macOS with pixel-perfect fidelity."
     },
     {
+      "name": "grafana--grafanactl",
+      "source": "./grafana--grafanactl",
+      "description": "The Grafana CLI. Command-line tool designed to simplify interaction with Grafana resources."
+    },
+    {
       "name": "noi1r--beamer-skill",
       "source": "./noi1r--beamer-skill",
       "description": "A Claude Code skill for creating, compiling, reviewing, and polishing academic Beamer LaTeX presentations. Full lifecycle workflow with quality scoring, pedagogical review, TikZ audit, and more."
@@ -15717,6 +15932,11 @@
       "name": "microsoft--multi-agent-marketplace",
       "source": "./microsoft--multi-agent-marketplace",
       "description": "Magentic-Marketplace: Simulate Agentic Markets and See How They Evolve"
+    },
+    {
+      "name": "integromat--make-mcp-server",
+      "source": "./integromat--make-mcp-server",
+      "description": "Make MCP Server"
     },
     {
       "name": "liyupi--openclaw-guide",
@@ -16929,6 +17149,11 @@
       "description": "o1-pro-template-system"
     },
     {
+      "name": "edkreuk--fmd-framework",
+      "source": "./edkreuk--fmd-framework",
+      "description": "The Fabric Metadata-Driven Framework (FMD) is a cutting-edge accelerator designed to optimize data handling and utilization."
+    },
+    {
       "name": "sys-zdk--robot-path-planner-public",
       "source": "./sys-zdk--robot-path-planner-public",
       "description": "robot_path_planner_public"
@@ -17459,6 +17684,11 @@
       "description": "Text2Sql.Net \u662f\u4e00\u4e2a\u4f7f\u7528DotNet\u548cSemantic Kernel\u5f00\u53d1\u7684Text2Sql\u5de5\u5177"
     },
     {
+      "name": "archeb--cybergroupmate",
+      "source": "./archeb--cybergroupmate",
+      "description": "Code-Driven Social Agent"
+    },
+    {
       "name": "skywind3000--gamelib",
       "source": "./skywind3000--gamelib",
       "description": "Single-header C++ Game Library for Beginners \u2014 no SDL/DirectX/OpenGL, no setup, just include and play."
@@ -17492,6 +17722,11 @@
       "name": "blackshoretech--gittok-dev",
       "source": "./blackshoretech--gittok-dev",
       "description": "tiktok like interface for discovering github repos"
+    },
+    {
+      "name": "yusixian--moe-copy-ai",
+      "source": "./yusixian--moe-copy-ai",
+      "description": "\u2728 \u840c\u840c\u54d2\u7684 AI \u7f51\u9875\u6570\u636e\u63d0\u53d6\u52a9\u624b \u2728"
     },
     {
       "name": "redth--maui-sherpa",
@@ -17914,6 +18149,11 @@
       "description": "Agentic Ontology Assisted Framework for Semantic Triple Extraction"
     },
     {
+      "name": "mortenebak--tallstarter",
+      "source": "./mortenebak--tallstarter",
+      "description": "A opponiated Laravel 12 Livewire Components Starter Kit, with user, role and permission management. Supports localization."
+    },
+    {
       "name": "lakr233--cookey",
       "source": "./lakr233--cookey",
       "description": "Cookey"
@@ -17999,6 +18239,11 @@
       "description": "A Model Context Protocol (MCP) implementation for Financial Modeling Prep, enabling AI assistants to access and analyze financial data, stock information, company fundamentals, and market insights."
     },
     {
+      "name": "galoisinc--grease",
+      "source": "./galoisinc--grease",
+      "description": "CLI tool, Ghidra plug-in, and Haskell library for analyzing binaries using under-constrained symbolic execution"
+    },
+    {
       "name": "currycan--hatickets",
       "source": "./currycan--hatickets",
       "description": "\u5927\u9ea6\u7f51\u62a2\u7968\u81ea\u52a8\u5316 \u2014 Mobile(U2) / Desktop(Tauri+Rust) \u65b9\u6848"
@@ -18052,6 +18297,16 @@
       "name": "artis3n--ansible-collection-tailscale",
       "source": "./artis3n--ansible-collection-tailscale",
       "description": "This collection provides a series of roles, plugins, and modules to manage your Tailscale Tailnet and Linux machines."
+    },
+    {
+      "name": "zhensherlock--vue-devtools-unlocker",
+      "source": "./zhensherlock--vue-devtools-unlocker",
+      "description": "Debug Vue apps in production, without touching the source code."
+    },
+    {
+      "name": "vishalsachdev--canvas-mcp",
+      "source": "./vishalsachdev--canvas-mcp",
+      "description": "Canvas LMS MCP server \u2014 80+ tools and 5 agent skills for students & educators. Works with Claude, Cursor, Codex, and 40+ agents. v1.1.0"
     },
     {
       "name": "zhanghandong--mempal",
@@ -18569,6 +18824,11 @@
       "description": "a self hosted backend for bookworms, tightly coupled with KOReader"
     },
     {
+      "name": "chrisguidry--docket",
+      "source": "./chrisguidry--docket",
+      "description": "docket is a distributed background task system for Python"
+    },
+    {
       "name": "anthaathi--pico",
       "source": "./anthaathi--pico",
       "description": "A web, mobile and desktop client for pi"
@@ -18949,6 +19209,11 @@
       "description": "Terraform Registry MCP Server"
     },
     {
+      "name": "augustepoiroux--leaninteract",
+      "source": "./augustepoiroux--leaninteract",
+      "description": "LeanInteract: A Python Interface for Lean 4"
+    },
+    {
       "name": "interfacex-co-jp--genshijin",
       "source": "./interfacex-co-jp--genshijin",
       "description": "genshijin \u539f\u59cb\u4eba \ud83d\uddff| Claude Code / Codex\u7b49AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u5411\u3051\u8d85\u5727\u7e2e\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3\u30b9\u30ad\u30eb\u3002caveman \u306e\u65e5\u672c\u8a9e\u7248\u3092\u30d9\u30fc\u30b9\u306b\u3001\u65e5\u672c\u8a9e\u7279\u6709\u306e\u5197\u9577\u8868\u73fe\u306b\u6700\u9069\u5316\u3002"
@@ -19117,6 +19382,11 @@
       "name": "helios-network--helios-portal",
       "source": "./helios-network--helios-portal",
       "description": "Helios Portal is the main interface for interacting with the Helios Blockchain. It enables bridging, staking, delegation, governance voting, and portfolio management, providing a seamless experience f"
+    },
+    {
+      "name": "aatrooox--imgx",
+      "source": "./aatrooox--imgx",
+      "description": "\u57fa\u4e8e Nuxt \u548c Nitro \u7684\u56fe\u7247\u751f\u6210/\u5904\u7406\u5668"
     },
     {
       "name": "hainrixz--open-carrusel",
@@ -19839,6 +20109,11 @@
       "description": "The successor to Squalr, rewritten from scratch in Rust."
     },
     {
+      "name": "bluebirdback--godot-cursorrules",
+      "source": "./bluebirdback--godot-cursorrules",
+      "description": "Godot 4.4 Cursor rules: coding standards, architecture patterns, and performance tips for AI-assisted game dev."
+    },
+    {
       "name": "librae8226--nexus4cc",
       "source": "./librae8226--nexus4cc",
       "description": "Your Claude Code, Everywhere."
@@ -20022,6 +20297,11 @@
       "name": "discoverse-dev--mujoco-lidar",
       "source": "./discoverse-dev--mujoco-lidar",
       "description": "High-performance LiDAR simulation for MuJoCo with CPU/Taichi/Jax backends, supporting multiple sensor types and ROS integration. \u57fa\u4e8e MuJoCo \u7684\u9ad8\u6027\u80fd\u6fc0\u5149\u96f7\u8fbe\u4eff\u771f\uff0c\u652f\u6301 CPU/Taichi/Jax \u591a\u79cd\u540e\u7aef\u3001\u591a\u79cd\u6fc0\u5149\u96f7\u8fbe\u7c7b\u578b\u53ca ROS \u96c6\u6210"
+    },
+    {
+      "name": "w0fv1--vertree",
+      "source": "./w0fv1--vertree",
+      "description": "\u5355\u6587\u4ef6\u7248\u672c\u7ba1\u7406\u7cfb\u7edf"
     },
     {
       "name": "pithings--voipi",
@@ -20959,6 +21239,11 @@
       "description": "Exploring the value that private DNS can bring us. "
     },
     {
+      "name": "stakwork--stakgraph",
+      "source": "./stakwork--stakgraph",
+      "description": "A source code parser using treesitter, LSP, and neo4j, powering software knowledge graphs for AI agents."
+    },
+    {
       "name": "butttons--dora",
       "source": "./butttons--dora",
       "description": "CLI built for AI agents to help navigate codebases better. An alternative to grep/find/glob"
@@ -21282,6 +21567,11 @@
       "name": "contextgo--contextgo",
       "source": "./contextgo--contextgo",
       "description": "contextgo"
+    },
+    {
+      "name": "seontechnologies--playwright-utils",
+      "source": "./seontechnologies--playwright-utils",
+      "description": "A collection of utilities for Playwright tests at SEON Technologies, designed to make testing more efficient and maintainable."
     },
     {
       "name": "mitchellh--go-libghostty",
@@ -31537,6 +31827,11 @@
       "name": "fastxyz--skill-optimizer",
       "source": "./fastxyz--skill-optimizer",
       "description": "Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs"
+    },
+    {
+      "name": "stardxxx--ai-frame",
+      "source": "./stardxxx--ai-frame",
+      "description": "Frame your AI conversations as beautiful, shareable image cards."
     },
     {
       "name": "shashankswe2020-ux--whoop-mcp",
@@ -89329,6 +89624,11 @@
       "description": "Toolkit for building Photoshop UXP extensions"
     },
     {
+      "name": "wictorwilen--cocogen",
+      "source": "./wictorwilen--cocogen",
+      "description": "\ud83e\udd65 TypeSpec \u2192 Microsoft 365 Copilot connector scaffolding"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -95024,6 +95324,36 @@
       "description": "Cross-platform Electron desktop studio for Roku developers: remote control, device queries, sideload, telnet console, RALE/App Connector, BrightScript Fiddle, JSON Action Scripts, an `rds` CLI, an MCP"
     },
     {
+      "name": "paramount-engineering--roku-dev-studio",
+      "source": "./paramount-engineering--roku-dev-studio",
+      "description": "Cross-platform Electron desktop studio for Roku developers: remote control, device queries, sideload, telnet console, RALE/App Connector, BrightScript Fiddle, JSON Action Scripts, an `rds` CLI, an MCP"
+    },
+    {
+      "name": "itsmuaaz--termux-whisper",
+      "source": "./itsmuaaz--termux-whisper",
+      "description": "A lightweight, privacy-focused wrapper for Whisper.cpp on Android (via Termux). Features offline speech-to-text transcription with support for native Android file picking, batch processing, and subtit"
+    },
+    {
+      "name": "paramount-engineering--roku-dev-studio",
+      "source": "./paramount-engineering--roku-dev-studio",
+      "description": "Cross-platform Electron desktop studio for Roku developers: remote control, device queries, sideload, telnet console, RALE/App Connector, BrightScript Fiddle, JSON Action Scripts, an `rds` CLI, an MCP"
+    },
+    {
+      "name": "ganimjeong--harness-for-claude",
+      "source": "./ganimjeong--harness-for-claude",
+      "description": " A minimal, language-agnostic harness for Claude Code and   AGENTS.md-compatible coding agents. | Claude Code\uc640 AGENTS.md \ud638\ud658 \uc5d0\uc774\uc804\ud2b8\ub97c \uc704\ud55c \ubbf8\ub2c8\uba40\u00b7\uc5b8\uc5b4 \ubb34\uad00   \ud558\ub124\uc2a4."
+    },
+    {
+      "name": "grapeot--intake-skill",
+      "source": "./grapeot--intake-skill",
+      "description": "intake-skill"
+    },
+    {
+      "name": "srbarrios--agentic-test-explorer",
+      "source": "./srbarrios--agentic-test-explorer",
+      "description": "An agnostic AI-driven exploratory test framework that intelligently explores, tests, and validates any application"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -96202,6 +96532,21 @@
       "name": "av--skilled",
       "source": "./av--skilled",
       "description": "TUI dashboard for skill usage stats across AI coding tools"
+    },
+    {
+      "name": "wess09--azurpilot",
+      "source": "./wess09--azurpilot",
+      "description": "AzurLaneAutoScript \u7684\u4fee\u6539\u7248 AzurPilot"
+    },
+    {
+      "name": "wess09--azurpilot",
+      "source": "./wess09--azurpilot",
+      "description": "AzurLaneAutoScript \u7684\u4fee\u6539\u7248 AzurPilot"
+    },
+    {
+      "name": "yiwen65--skilldock",
+      "source": "./yiwen65--skilldock",
+      "description": "Local-first Git workspace and symlink installer for AI agent skills across   Claude Code, Codex, and custom agents."
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -176782,6 +177127,61 @@
       "name": "qiuraa--web-streaming-uas",
       "source": "./qiuraa--web-streaming-uas",
       "description": "web-streaming-uas"
+    },
+    {
+      "name": "josemcboss--tweaker",
+      "source": "./josemcboss--tweaker",
+      "description": "Tweaker"
+    },
+    {
+      "name": "uta-member--nomad-css",
+      "source": "./uta-member--nomad-css",
+      "description": "CSS\u306e\u4fbf\u5229\u306a\u30c4\u30fc\u30eb\u3068\u7c21\u6613\u306a\u30b3\u30f3\u30dd\u30fc\u30cd\u30f3\u30c8\u3084UI\u3092\u6301\u3063\u305f\u30e9\u30a4\u30d6\u30e9\u30ea\u3002"
+    },
+    {
+      "name": "ryhanshaikutd--mistdallas",
+      "source": "./ryhanshaikutd--mistdallas",
+      "description": "MIST Dallas board portal \u2014 applications, review, interviews, planning, and insights"
+    },
+    {
+      "name": "drsly78--veply-app",
+      "source": "./drsly78--veply-app",
+      "description": "veply-app"
+    },
+    {
+      "name": "letscodewithashar--my-portfolio",
+      "source": "./letscodewithashar--my-portfolio",
+      "description": "Here is my portfolio..."
+    },
+    {
+      "name": "jennacia--test",
+      "source": "./jennacia--test",
+      "description": "test"
+    },
+    {
+      "name": "jagadish7-25--churchw",
+      "source": "./jagadish7-25--churchw",
+      "description": "churchw"
+    },
+    {
+      "name": "simone0780--webcv",
+      "source": "./simone0780--webcv",
+      "description": "webcv"
+    },
+    {
+      "name": "mminuwaali--n8n-project",
+      "source": "./mminuwaali--n8n-project",
+      "description": "n8n-project"
+    },
+    {
+      "name": "daehyeon0--pick-my-spot-backend",
+      "source": "./daehyeon0--pick-my-spot-backend",
+      "description": "pick-my-spot-backend"
+    },
+    {
+      "name": "youssef3153999--ard-map",
+      "source": "./youssef3153999--ard-map",
+      "description": "ard-map"
     }
   ]
 }
