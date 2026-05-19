@@ -1,0 +1,28 @@
+# Open_SuperAgent
+
+> Source: [nanameru/Open_SuperAgent](https://github.com/nanameru/Open_SuperAgent) — distributed by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `.cursor/rules/*.mdc` in [nanameru/Open_SuperAgent](https://github.com/nanameru/Open_SuperAgent).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/nanameru/Open_SuperAgent](https://github.com/nanameru/Open_SuperAgent)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install nanameru/Open_SuperAgent
+```
+Source: [github.com/nanameru/Open_SuperAgent](https://github.com/nanameru/Open_SuperAgent).
+
+<!-- genome:d-i-q -->
