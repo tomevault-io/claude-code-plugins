@@ -1,19 +1,19 @@
-# ask-questions
+# c-style-comments
 
-> Ask questions
+> Leave the beginning of C style comment blocks alone
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ask-questions/SKILL.md
+Read and follow the instructions in .claude/skills/c-style-comments/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When in doubt, ask questions.
+Leave the beginning of C style comment blocks alone, and don't change their indentation. An example is "/**".
 
 ---
 > Source: [cygnusx-1-org/Slide](https://github.com/cygnusx-1-org/Slide) — distributed by [TomeVault](https://tomevault.io).
