@@ -1,31 +1,19 @@
-# compoents
+# db-schema
 
-> - Always use the typed `<Link>` from `@tanstack/react-router`.
+> src/database/schema/*.ts
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/compoents/SKILL.md
+Read and follow the instructions in .claude/skills/db-schema/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-## Links and Navigation
-- Always use the typed `<Link>` from `@tanstack/react-router`.
-- Pass `to`, `params`, `activeProps`, and Tailwind classes, mirroring:  
-  ```tsx
-  <Link
-    to="/posts/$postId"
-    params={{ postId: post.id }}
-    activeProps={{ className: 'text-black ...' }}
-    className="block ..."
-  >
-    {post.title}
-  </Link>
-  ```
+- Schema files have always this naming pattern `<name>.schema.ts`
 
 ---
 > Source: [instructa/ai-chat-example](https://github.com/instructa/ai-chat-example) — distributed by [TomeVault](https://tomevault.io).
