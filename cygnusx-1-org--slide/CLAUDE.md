@@ -1,19 +1,19 @@
-# mainactivity
+# no-glide
 
-> A rule to not break Guest mode by removing certain lines in MainActivity.java
+> No Glide code
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/mainactivity/SKILL.md
+Read and follow the instructions in .claude/skills/no-glide/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-DO NOT remove the lines containing "// Removing this will break Guest mode" or "Authentication.isLoggedIn = true;".
+Do not try to introduce Glide as a library.
 
 ---
 > Source: [cygnusx-1-org/Slide](https://github.com/cygnusx-1-org/Slide) — distributed by [TomeVault](https://tomevault.io).
