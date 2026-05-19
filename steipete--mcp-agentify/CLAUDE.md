@@ -1,4 +1,4 @@
-# mcp-agentify
+# agent
 
 > Core agent guidelines for mcp-agentify development. This is the primary, always-applied rule set.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/mcp-agentify/SKILL.md
+Read and follow the instructions in .claude/skills/agent/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
