@@ -1,0 +1,28 @@
+# finch-tensor-lite
+
+> - Don't explain every line with a separate comment, use comments for complex chunks of code,
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/finch-tensor-lite/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS instruction
+
+## Coding style
+
+- Don't explain every line with a separate comment, use comments for complex chunks of code,
+  or DSL logic. Don't write docstrings for single-line or simple functions/methods.
+- Use structures and code style that are already present in the codebase. Don't introduce
+  another approach for new changes. For example, use structural pattern matching instead of
+  `isinstance()` for dataclasses.
+- Read `CONTRIBUTING.md` file for more details how to build the project and run tests.
+
+---
+> Source: [finch-tensor/finch-tensor-lite](https://github.com/finch-tensor/finch-tensor-lite) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-19 -->
