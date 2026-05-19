@@ -1,22 +1,22 @@
-# python-hooks
+# tooling
 
-> AI instruction file for robovac by damacus
+> When running tests
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/python-hooks/SKILL.md
+Read and follow the instructions in .claude/skills/tooling/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Python Hooks
+# Tooling
 
-- task lint
-- task type-check
+1. Run `task test` instead of any native python command
+2. If dependencies are not installed. Install them using `task install-dev`
 
 ---
 > Source: [damacus/robovac](https://github.com/damacus/robovac) — distributed by [TomeVault](https://tomevault.io).
