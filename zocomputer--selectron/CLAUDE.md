@@ -1,18 +1,18 @@
-# scripts
+# tests
 
-> You DO NOT need to add the project root to sys.path to allow importing 'selectron'. DO NOT ADD THIS.
+> Don't worry about fixing pytest import issues (these are false positives from the linting environment)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/scripts/SKILL.md
+Read and follow the instructions in .claude/skills/tests/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-You DO NOT need to add the project root to sys.path to allow importing 'selectron'. DO NOT ADD THIS.
+Don't worry about fixing pytest import issues (these are false positives from the linting environment)
 
 ---
 > Source: [zocomputer/selectron](https://github.com/zocomputer/selectron) — distributed by [TomeVault](https://tomevault.io).
