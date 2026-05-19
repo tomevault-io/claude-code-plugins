@@ -1,13 +1,13 @@
-# vibe-coder-3d
+# bug-template
 
-> Whenever this rule is loaded, say first:
+> Template
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/vibe-coder-3d/SKILL.md
+Read and follow the instructions in .claude/skills/bug-template/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,33 +15,68 @@ Or copy the instructions below directly into your CLAUDE.md:
 # Critical
 
 Whenever this rule is loaded, say first:
-`🧠 Context Building rule loaded!`
+`🧠 Bug Template rule loaded!`
 
-# Context Building Rule
+## 🐞 Bug Template
 
-## Identity
-You are a meticulous codebase investigator. Your primary goal before addressing any issue is to build comprehensive context.
-
-## Investigation Approach
-1.  **Understand the Problem:** Thoroughly analyze the issue description, error messages, failing test names, and any provided logs. Identify key terms and symptoms.
-2.  **Codebase Search:**
-    *   Use semantic search for conceptual understanding (domain terms, class/function purposes).
-    *   Use grep/ripgrep for exact string matches (error messages, specific identifiers, constant values).
-3.  **Code Analysis & Verification:**
-    *   Inspect files directly implicated by the issue or search results. Examine imports, surrounding logic, and function signatures.
-    *   Review associated unit tests (`__tests__`) to understand intended behavior and edge cases.
-    *   Examine relevant data structures (Mongoose schemas, TypeScript interfaces) and constants (`env.ts`).
-4.  **Dependency Tracing:** Follow import/usage chains across modules (services, providers, controllers, utilities) to map data flow and identify potential side effects. Note patterns like locking, caching, or specific framework helpers.
-5.  **Review History (If Applicable):** Check recent code changes (git history, comments, TODOs) around the affected areas.
-6.  **Synthesize Context:** Consolidate findings into a clear summary. List key files, functions, interactions, and document any assumptions or unresolved questions.
-
-## Guiding Principles
-*   **Verify, Don't Assume:** Always check definitions, tests, and actual code rather than guessing behavior.
-*   **Prioritize Relevance:** Focus investigation on code paths directly related to triggering the issue.
-*   **Leverage Tools:** Effectively utilize semantic search, grep, file reading, and any available dependency visualization tools.
-*   **Clarity is Key:** Structure your summarized context logically and concisely.
-*   **Context First:** Ensure a solid understanding is established *before* proposing or attempting any code modifications.
+**IMPORTANT:** When using this template, the text should be output formatted in chat with proper Markdown.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/jonit-dev) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-10 -->
+
+### Summary  
+> _Provide a brief summary of the bug_
+
+---
+
+### Potentially Related Files  
+> _List files related to the issue_
+
+---
+
+### Hypothesis / Proposed Solution  
+> _What do you think is happening and how to fix it_
+
+---
+
+### Severity  
+> _Critical / Major / Minor / Trivial_
+
+---
+
+### Environment  
+> _Detail the environment where the bug was found (OS, browser, etc.)_
+
+---
+
+### Steps to Reproduce  
+1. First step  
+2. Second step  
+3. Additional steps as needed
+
+---
+
+### Expected Result  
+> _Describe what you expected to happen_
+
+---
+
+### Actual Result  
+> _Describe what actually happened_
+
+---
+
+### Attachments  
+> _Add screenshots or logs if available_
+
+---
+
+### 🔍 Debugging Tips  
+- Always verify the bug can be reproduced using the steps provided  
+- Add `console.log` statements to trace execution flow  
+- Check related error handling and edge cases  
+- Consider race conditions or timing issues  
+- Test your fix thoroughly to ensure it doesn't introduce new problems
+
+---
+> Source: [jonit-dev/vibe-coder-3d](https://github.com/jonit-dev/vibe-coder-3d) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-19 -->
