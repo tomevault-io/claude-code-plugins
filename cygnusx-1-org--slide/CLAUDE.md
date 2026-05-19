@@ -1,19 +1,19 @@
-# no-glide
+# no-kotlin
 
-> No Glide code
+> No Kotlin code
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/no-glide/SKILL.md
+Read and follow the instructions in .claude/skills/no-kotlin/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Do not try to introduce Glide as a library.
+Do not try to introduce Kotlin code.
 
 ---
 > Source: [cygnusx-1-org/Slide](https://github.com/cygnusx-1-org/Slide) — distributed by [TomeVault](https://tomevault.io).
