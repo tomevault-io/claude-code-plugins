@@ -1,4 +1,4 @@
-# connect-ecommerce-shopify
+# development
 
 > General rules for Shopify Apps Development
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/connect-ecommerce-shopify/SKILL.md
+Read and follow the instructions in .claude/skills/development/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
