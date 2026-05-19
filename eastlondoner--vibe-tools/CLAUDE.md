@@ -1,18 +1,20 @@
-# repo
+# testing
 
-> Finding code
+> Any testing with pnpm dev <command>
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/repo/SKILL.md
+Read and follow the instructions in .claude/skills/testing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Always use `vibe-tools repo <question>` as your first way to search for files where particular code or logic is contained. Explain what you're looking for and ask for a list of files with a summary of their role as a response. This is the best way to find the correct files to read or edit.
+Working API keys are available in ~/.vibe-tools/.env
+
+In general when calling pnpm dev <command> you should not need to specify any env vars, it should work without them given our local setup. Only specify env vars if you're testing them specifically.
 
 ---
 > Source: [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) — distributed by [TomeVault](https://tomevault.io).
