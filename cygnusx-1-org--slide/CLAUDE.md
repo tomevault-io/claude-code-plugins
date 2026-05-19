@@ -1,19 +1,25 @@
-# oldswipemode
+# performance
 
-> Do not remove code blocks that mention oldSwipeMode
+> Rules to write code with better performance
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/oldswipemode/SKILL.md
+Read and follow the instructions in .claude/skills/performance/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Do not remove code blocks that mention oldSwipeMode. It is an important feature.
+1. Minimize recomposition using proper keys
+2. Use proper lazy loading with LazyColumn and LazyRow
+3. Implement efficient image loading
+4. Use proper state management to prevent unnecessary updates
+5. Follow proper lifecycle awareness
+6. Implement proper memory management
+7. Use proper background processing
 
 ---
 > Source: [cygnusx-1-org/Slide](https://github.com/cygnusx-1-org/Slide) — distributed by [TomeVault](https://tomevault.io).
