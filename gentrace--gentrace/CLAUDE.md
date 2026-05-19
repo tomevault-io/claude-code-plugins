@@ -1,4 +1,4 @@
-# prisma-rules
+# ts-rules
 
 > TS rules
 
@@ -7,12 +7,12 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/prisma-rules/SKILL.md
+Read and follow the instructions in .claude/skills/ts-rules/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-If I ask you to create a SQL query based on the prisma.schema file, make sure that you properly emit PostgreSQL syntax and properly double quote columns
+Run tests with `yarn jest` in the `app` folder
 
 ---
 > Source: [gentrace/gentrace](https://github.com/gentrace/gentrace) — distributed by [TomeVault](https://tomevault.io).
