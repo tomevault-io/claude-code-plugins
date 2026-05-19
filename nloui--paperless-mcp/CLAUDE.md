@@ -1,25 +1,24 @@
-# http-transport
+# typescript-mcp-migration
 
-> - The MCP server can run in HTTP mode using the `--http` CLI flag.
+> - The main entrypoint is [src/index.ts](mdc:src/index.ts), which starts an MCP server for Paperless-NGX using the @modelcontextprotocol/sdk package.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/http-transport/SKILL.md
+Read and follow the instructions in .claude/skills/typescript-mcp-migration/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# HTTP Transport Mode for MCP Server
+# TypeScript MCP Server Migration
 
-- The MCP server can run in HTTP mode using the `--http` CLI flag.
-- When `--http` is set, the entrypoint [src/index.ts](mdc:src/index.ts) starts an Express server and exposes the MCP API at `/mcp`.
-- Each POST to `/mcp` creates a new `McpServer` and `StreamableHTTPServerTransport` for stateless, isolated handling.
-- The HTTP port can be set with `--port` (default: 3000).
-- Express must be installed as a dependency for HTTP mode.
-- If `--http` is not set, the server runs in stdio mode as before.
+- The main entrypoint is [src/index.ts](mdc:src/index.ts), which starts an MCP server for Paperless-NGX using the @modelcontextprotocol/sdk package.
+- All core logic is now in TypeScript; all main files in src/ use the .ts extension.
+- The MCP server is started using `McpServer` and `StdioServerTransport` from the SDK, with `await server.connect(transport)`.
+- The project can be run directly in TypeScript using the npm script: `npm run start -- <baseUrl> <token>` (see [package.json](mdc:package.json)).
+- Node.js types are provided by @types/node in devDependencies.
 
 ---
 > Source: [nloui/paperless-mcp](https://github.com/nloui/paperless-mcp) — distributed by [TomeVault](https://tomevault.io).
