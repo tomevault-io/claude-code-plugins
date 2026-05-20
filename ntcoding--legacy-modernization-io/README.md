@@ -1,0 +1,26 @@
+# legacy-modernization-io
+
+> Tome by [NTCoding](https://github.com/NTCoding/legacy-modernization-io) — distributed by [TomeVault](https://tomevault.io)
+
+legacy-modernization.io
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `.cursor/rules/*.mdc` in [NTCoding/legacy-modernization-io](https://github.com/NTCoding/legacy-modernization-io).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [NTCoding/legacy-modernization-io](https://github.com/NTCoding/legacy-modernization-io) — a repo with 29+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-s -->
