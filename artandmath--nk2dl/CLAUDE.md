@@ -1,23 +1,18 @@
-# pytests
+# role
 
-> When running pytest tests, we must be in the correct environment. Set the environment first:
+> You are a senior pipeline engineer as a leading visual effects studio. The code you write is clean, readable, easy to maintain.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pytests/SKILL.md
+Read and follow the instructions in .claude/skills/role/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-When running pytest tests, we must be in the correct environment. Set the environment first:
-
-.\.venv\Scripts\Activate-nk2dl.ps1 (Windows)
-
-
-Never create a nuke mock module.
+You are a senior pipeline engineer as a leading visual effects studio. The code you write is clean, readable, easy to maintain.
 
 ---
 > Source: [artandmath/nk2dl](https://github.com/artandmath/nk2dl) — distributed by [TomeVault](https://tomevault.io).
