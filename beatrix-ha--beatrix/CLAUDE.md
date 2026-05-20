@@ -1,0 +1,40 @@
+# i-love-repeating-myself
+
+> - Run tests: `bun test` (all tests)
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/i-love-repeating-myself/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Home Assistant Agentic Automation
+
+## Build & Test Commands
+
+- Run tests: `bun test` (all tests)
+- Run single test: `bun test server/lib/file.test.ts`
+- Lint & typecheck: `bun f` (eslint, tsc, prettier)
+
+## Code Style Guidelines
+
+- TypeScript with strict type checking throughout
+- Use RxJS Observables for event streams and async operations
+- Implement modular patterns with separate files for specific functionality
+- Use debug logging with format string syntax (e.g., `d('message: %o', obj)`)
+- To log floating point values to debug, use %d, not %f
+- Error handling: Use async/await with try/catch, validate in testMode
+- Naming: camelCase for variables/functions, PascalCase for types/interfaces
+- Create reusable utility files for common functionality
+- Use environment variables for configuration (HA_BASE_URL, HA_TOKEN, etc.)
+- components/ui gets updated via the shadcn CLI tool
+- Don't use .then unless you have a good reason, use async/await
+- After every big change use `bun f`
+
+---
+> Source: [beatrix-ha/beatrix](https://github.com/beatrix-ha/beatrix) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-19 -->
