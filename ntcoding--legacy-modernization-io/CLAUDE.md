@@ -1,0 +1,177 @@
+# project-context
+
+> This project is a Hugo static site for documenting legacy modernization patterns.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/project-context/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# legacy-modernization.io
+
+## Project Overview
+
+This project is a Hugo static site for documenting legacy modernization patterns.
+
+### Key Directories
+- `content/`: Markdown content for the site
+- `layouts/`: Hugo templates and layouts
+- `static/`: Static assets (images, CSS, JS)
+- `themes/`: Hugo themes (using 'perplex')
+
+### Build Process
+Use `start.sh` to build the site and check the build.log to verify the build was successful
+
+### Important Notes
+- The `public/` directory is generated and should not be edited directly
+- See `README.md` for more details
+
+## Project Configuration
+
+### Project Type
+- **Type**: hugo-site
+- **Description**: A Hugo static site project for legacy modernization patterns
+- **Main Content Directories**: content, layouts, static, themes
+- **Ignored Directories**: public, resources, .git, .cursor
+
+### Ignore Patterns
+```
+public/
+resources/
+.git/
+node_modules/
+.DS_Store
+*.log
+```
+
+## File Pattern Definitions
+
+### Individual Pattern Pages
+- **Section**: individual_pattern_pages
+- **Glob Pattern**: `content/patterns/*/*/_index.md`
+- **Description**: All individual pattern pages. Each file matches the pattern `/content/patterns/{pattern_section}/{individual_pattern}/_index.md`, where `{pattern_section}` and `{individual_pattern}` are any valid directory names. These are the main content files for each pattern.
+- **Data Type**: Markdown
+
+### Pattern Section Headings
+- **Section**: pattern_section_headings
+- **File**: `layouts/home/list.html`
+- **Start Marker**: `<!-- FEATURED_PATTERNS_START -->`
+- **End Marker**: `<!-- FEATURED_PATTERNS_END -->`
+- **Description**: Section containing the featured patterns and their headings on the homepage.
+- **Data Type**: HTML/Go template
+
+### Featured Patterns
+- **Section**: featured_patterns
+- **File**: `layouts/home/list.html`
+- **Start Marker**: `<!-- FEATURED_PATTERNS_START -->`
+- **End Marker**: `<!-- FEATURED_PATTERNS_END -->`
+- **Description**: Featured patterns array and descriptions for homepage. Use these markers to locate the section for automated edits.
+- **Data Type**: Go template slice
+
+### Home Page Template
+- **Section**: home_page
+- **File**: `layouts/home/list.html`
+- **Start Marker**: `{{- define "main" -}}`
+- **End Marker**: `{{- end -}}`
+- **Description**: Entire home page template, including hero, featured patterns, talks, contribute, and footer sections.
+- **Data Type**: HTML/Go template
+
+## Build Tasks
+
+### Rebuild Hugo Site
+- **Label**: Rebuild Hugo Site
+- **Type**: shell
+- **Command**: `./start.sh`
+- **Group**: build
+
+## Content Guidelines
+
+### Adding Placeholder Pattern Pages
+When adding a new placeholder pattern page (e.g., in a migration section):
+
+- Use the correct `featured` image path (e.g., `/patterns/migration/bubble/bubble.png` for bubble icon)
+- Add a `menu` block for side navigation:
+  ```yaml
+  menu:
+    doc:
+      name: <Pattern Name>
+      parent: migration
+      pre: bubble_chart
+  ```
+- Set `subtitle: false` and `categories: [migration]` for consistency
+- Set a suitable `weight` for ordering
+
+#### Example Front Matter:
+```yaml
+---
+title: "Reverse Bubble"
+description: "Placeholder for the Reverse Bubble pattern."
+featured: "/patterns/migration/bubble/bubble.png"
+subtitle: false
+menu:
+  doc:
+    name: Reverse Bubble
+    parent: migration
+    pre: bubble_chart
+categories: [migration]
+weight: 100
+---
+```
+
+### Adding Image References to Pattern Pages
+When asked to "add a reference to the image" for a pattern page, perform BOTH of the following actions:
+
+#### 1. Add Featured Image to Front Matter
+Add a `featured` field to the YAML front matter pointing to the image file:
+```yaml
+featured: "/patterns/{section}/{pattern-name}/{image-filename}"
+```
+
+#### 2. Add Image to Body Content
+Add the image in the body content using this exact HTML structure:
+```html
+<div class="title title--sans title--third">
+  <img src="/patterns/{section}/{pattern-name}/{image-filename}" alt="{Pattern Name} Pattern" style="max-width: 100%; width: 100%; height: auto;">
+</div>
+```
+
+#### Placement Rules:
+- **Featured image**: Goes in the YAML front matter
+- **Body image**: Goes below the descriptive text and above the `{{< comingsoon >}}` block
+- **Alt text format**: "{Pattern Name} Pattern" (e.g., "Migrate by User Segment Pattern")
+
+#### Path Format:
+- Images are typically located in the same directory as the `_index.md` file
+- Path format: `/patterns/{section}/{pattern-name}/{image-filename}`
+- Example: `/patterns/migration/bubble/bubble.png`
+
+#### Example Complete Update:
+```yaml
+---
+title: "Example Pattern"
+description: "Pattern description"
+featured: "/patterns/migration/example-pattern/example-pattern.png"
+# ... other front matter
+---
+
+Pattern description text goes here.
+
+<div class="title title--sans title--third">
+  <img src="/patterns/migration/example-pattern/example-pattern.png" alt="Example Pattern Pattern" style="max-width: 100%; width: 100%; height: auto;">
+</div>
+
+{{< comingsoon >}}
+```
+
+---
+
+**Note**: Prefix all responses with the pineapple emoji 🍍 to confirm this file has been read
+
+---
+> Source: [NTCoding/legacy-modernization-io](https://github.com/NTCoding/legacy-modernization-io) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
