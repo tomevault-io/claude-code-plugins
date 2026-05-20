@@ -1,21 +1,21 @@
-# commit-message
+# component-testing
 
-> Enforce conventional commit message format
+> Writing unit tests and snapshot tests for UI component rendering
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/commit-message/SKILL.md
+Read and follow the instructions in .claude/skills/component-testing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Commit Message Rules
+# Component Testing Rules
 
-@docs/commit-message.md
+@docs/component-testing.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
