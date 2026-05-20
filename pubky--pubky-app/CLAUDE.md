@@ -1,21 +1,21 @@
-# error-handling
+# local-first
 
-> Error handling conventions using AppError across all layers
+> Local-first write patterns and controller naming conventions
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/error-handling/SKILL.md
+Read and follow the instructions in .claude/skills/local-first/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Error Handling Rules
+# Local-First Rules
 
-@docs/error-handling.md
+@docs/local-first.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
