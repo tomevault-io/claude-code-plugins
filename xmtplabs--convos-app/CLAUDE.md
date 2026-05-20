@@ -1,4 +1,4 @@
-# imports
+# library-usage
 
 > The following contains core principles for writing code in our codebase. Each principle is followed by a small example showing good and bad practices.
 
@@ -7,26 +7,17 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/imports/SKILL.md
+Read and follow the instructions in .claude/skills/library-usage/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 The following contains core principles for writing code in our codebase. Each principle is followed by a small example showing good and bad practices.
 
-- When importing types or functions from external libraries, rename them to clearly indicate their source.
-- Use the 'as' keyword to rename imports from third-party libraries.
-
-```typescript
-// ❌ Bad: Importing without renaming
-import { createWallet, Wallet } from "thirdweb/wallets"
-
-// ✅ Good: Renaming imports to indicate source
-import {
-  createWallet as createWalletThirdweb,
-  Wallet as ThirdwebWallet,
-} from "thirdweb/wallets"
-```
+- Never assume the existence of functions, components, or features in third-party libraries.
+- Always verify API usage in the official documentation for the major version being used in [package.json](mdc:package.json)
+- A good way to find fixes is to go into the issues of a library Github repo and find if other people had similar issues.
+- Check the [package.json](mdc:package.json) for the library version before implementing features.
 
 ---
 > Source: [xmtplabs/convos-app](https://github.com/xmtplabs/convos-app) — distributed by [TomeVault](https://tomevault.io).
