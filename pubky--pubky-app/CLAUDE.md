@@ -1,21 +1,21 @@
-# env-variables
+# error-handling
 
-> Environment variables configuration and validation rules
+> Error handling conventions using AppError across all layers
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/env-variables/SKILL.md
+Read and follow the instructions in .claude/skills/error-handling/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Environment Variable Rules
+# Error Handling Rules
 
-@docs/environment.md
+@docs/error-handling.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
