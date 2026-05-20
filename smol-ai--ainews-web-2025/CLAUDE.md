@@ -1,18 +1,18 @@
-# dependencies
+# use-pnpm
 
-> check dependencies before codiing - dont randomly add new dependencies without asking first - we are using tailwind css v4 api
+> AI instruction file for ainews-web-2025 by smol-ai
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/dependencies/SKILL.md
+Read and follow the instructions in .claude/skills/use-pnpm/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-check dependencies before codiing - dont randomly add new dependencies without asking first - we are using tailwind css v4 api
+use pnpm not npm
 
 ---
 > Source: [smol-ai/ainews-web-2025](https://github.com/smol-ai/ainews-web-2025) — distributed by [TomeVault](https://tomevault.io).
