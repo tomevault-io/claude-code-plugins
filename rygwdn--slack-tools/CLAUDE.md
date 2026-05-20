@@ -1,0 +1,44 @@
+# 00-overview
+
+> Overview of Slack Tools project guidelines and documentation
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/00-overview/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Slack Tools Guidelines Overview
+
+## Important Safety Rules
+
+**NEVER** automatically commit or push changes with git unless explicit permission has been given by the user. Always wait for direct user confirmation before executing any git commands that would create commits or push code to repositories.
+
+## General Development Principles
+
+- **Follow all guidelines:** Adhere to the specific rules outlined in the linked documents.
+- **Prioritize code quality:** Ensure all quality checks pass before completing tasks.
+- **Write clear, self-documenting code:** Minimize the need for comments by writing code that is easy to understand on its own. Avoid comments that merely restate the code's logic. Use comments only when explaining complex logic, non-obvious decisions, or external factors.
+- **Confirm critical actions:** Never automatically commit or push changes without explicit user confirmation.
+
+## Documentation Organization
+
+This is a set of guidelines for working with the Slack Tools project. The guidelines are organized into several rule files:
+
+1. **Quality Assurance Requirements** - Guidelines for ensuring code quality before completion
+   - Located in `01-quality-assurance.mdc`
+   - Covers ESLint, Prettier, and TypeScript build processes
+
+2. **TypeScript Guidelines** - Standards for TypeScript code
+   - Located in `02-typescript-guidelines.mdc`
+   - Includes general guidelines, code style, and configuration
+
+For development, always ensure all quality checks pass before considering a task complete.
+
+---
+> Source: [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-19 -->
