@@ -1,21 +1,21 @@
-# components
+# data-patterns
 
-> Component development patterns - Shadcn first, atomic design, Figma parity
+> Data patterns - composite IDs, streams, TTL, pipes normalization
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/components/SKILL.md
+Read and follow the instructions in .claude/skills/data-patterns/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Component Rules
+# Data Pattern Rules
 
-@docs/components.md
+@docs/data-patterns.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
