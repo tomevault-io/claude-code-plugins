@@ -1,18 +1,18 @@
-# python3
+# qemu-system
 
-> when running a python script always use the python3 binary instead of the python binary
+> any time you need to interact with qemu or libvirt, use qemu-system instead of qemu-session. This includes on the command line.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/python3/SKILL.md
+Read and follow the instructions in .claude/skills/qemu-system/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-when running a python script always use the python3 binary instead of the python binary 
+any time you need to interact with qemu or libvirt, use qemu-system instead of qemu-session. This includes on the command line.
 
 ---
 > Source: [steveydevey/kvm-mcp](https://github.com/steveydevey/kvm-mcp) — distributed by [TomeVault](https://tomevault.io).
