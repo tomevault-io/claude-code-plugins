@@ -1,21 +1,21 @@
-# skeleton-architecture
+# z-index
 
-> Skeleton component architecture and consistency rules
+> Z-index layering conventions for consistent stacking
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/skeleton-architecture/SKILL.md
+Read and follow the instructions in .claude/skills/z-index/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Skeleton Architecture Rules
+# Z-Index Rules
 
-@docs/skeleton-architecture.md
+@docs/z-index.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
