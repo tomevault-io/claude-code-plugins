@@ -1,21 +1,21 @@
-# data-patterns
+# env-variables
 
-> Data patterns - composite IDs, streams, TTL, pipes normalization
+> Environment variables configuration and validation rules
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/data-patterns/SKILL.md
+Read and follow the instructions in .claude/skills/env-variables/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Data Pattern Rules
+# Environment Variable Rules
 
-@docs/data-patterns.md
+@docs/environment.md
 
 ---
 > Source: [pubky/pubky-app](https://github.com/pubky/pubky-app) — distributed by [TomeVault](https://tomevault.io).
