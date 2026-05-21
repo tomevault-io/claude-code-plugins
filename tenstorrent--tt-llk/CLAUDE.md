@@ -1,0 +1,28 @@
+# run-test
+
+> Use when running tests
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/run-test/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Running Tests
+
+All test runs MUST be delegated to the `/llk-test-runner` subagent. Do not run tests directly.
+
+If multiple test files can be run together (same scenario and args), prefer a single command that targets multiple files in one run (e.g., a `TEST_PATH` that lists multiple paths or `PYTEST_ARGS` that selects multiple files). Only split into multiple commands when you need different scenarios, flags, or isolation.
+
+Perf tests must run alone; do not combine perf tests with other tests in the same command.
+
+Reuse the same `/llk-test-runner` subagent for repeated test runs after a failure (up to 10 reuses). If you need a fresh context or the reuse limit is reached, start a new `/llk-test-runner` subagent.
+
+---
+> Source: [tenstorrent/tt-llk](https://github.com/tenstorrent/tt-llk) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
