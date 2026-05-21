@@ -1,19 +1,19 @@
-# keep-files-small
+# no-need-for-tests
 
-> Keep files below 420 lines.
+> No need to write tests.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/keep-files-small/SKILL.md
+Read and follow the instructions in .claude/skills/no-need-for-tests/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Keep files below 420 lines.
+No need to write tests.
 
 ---
 > Source: [dergigi/ants](https://github.com/dergigi/ants) — distributed by [TomeVault](https://tomevault.io).
