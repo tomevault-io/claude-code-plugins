@@ -2,6 +2,8 @@
 
 > Tome by [amazon-science](https://github.com/amazon-science/concurry) — distributed by [TomeVault](https://tomevault.io)
 
+Easy scaling for AI research and production workloads
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
