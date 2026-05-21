@@ -1,23 +1,19 @@
-# luthien-control
+# ruletypeagentrequested
 
-> When finalizing significant changes, use pyright, pytest --cov, and ruff.
+> This is the description the AI always sees
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/luthien-control/SKILL.md
+Read and follow the instructions in .claude/skills/ruletypeagentrequested/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Code Quality
-
-When finalizing significant changes, use pyright, pytest --cov, and ruff.
-
-Command format: `poetry run (cmd and args) | cat`
+This is the content the AI only sees if they specifically request it
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/LuthienResearch) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+> Source: [LuthienResearch/luthien_control](https://github.com/LuthienResearch/luthien_control) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
