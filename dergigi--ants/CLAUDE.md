@@ -1,21 +1,19 @@
-# commit-early-commit-often
+# keep-files-small
 
-> Commit all pending changes.
+> Keep files below 420 lines.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/commit-early-commit-often/SKILL.md
+Read and follow the instructions in .claude/skills/keep-files-small/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Commit all pending changes.
-Commit using conventional commits.
-Always commit after each implementation step or change.
+Keep files below 420 lines.
 
 ---
 > Source: [dergigi/ants](https://github.com/dergigi/ants) — distributed by [TomeVault](https://tomevault.io).
