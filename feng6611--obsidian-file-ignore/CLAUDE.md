@@ -1,0 +1,22 @@
+# obsidian-file-ignore
+
+> 一个Obsidian插件，API Dosc https://docs.obsidian.md/Home
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/obsidian-file-ignore/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+一个Obsidian插件，API Dosc https://docs.obsidian.md/Home
+通过在前缀增加「.」实现避免Ob默认索引的能力，在设置项快速修改文件：加点、取消点
+使用LocalFileSystem，而不是obsidian官方的vault.getAbstractFileByPath
+使用 Typescript
+
+---
+> Source: [Feng6611/Obsidian-File-Ignore](https://github.com/Feng6611/Obsidian-File-Ignore) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-21 -->
