@@ -1,6 +1,6 @@
-# agentsmith — distributed by TomeVault
+# agentsmith
 
-> Originally from [chad-syntax/agentsmith](https://github.com/chad-syntax/agentsmith). Converted and distributed by [TomeVault](https://tomevault.io)
+> Source: [chad-syntax/agentsmith](https://github.com/chad-syntax/agentsmith) — distributed by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,10 +15,10 @@ Original source: `.cursor/rules/*.mdc` in [chad-syntax/agentsmith](https://githu
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. [Browse all formats](https://tomevault.io/claim/chad-syntax)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/chad-syntax/agentsmith](https://github.com/chad-syntax/agentsmith)
 
 ---
 
-Is this your repo? [Claim it](https://tomevault.io/claim/chad-syntax) to manage distribution and track installs.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
 
 <!-- genome:d-c-p -->
