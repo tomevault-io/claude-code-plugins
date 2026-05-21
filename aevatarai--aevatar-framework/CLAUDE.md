@@ -1,0 +1,28 @@
+# code-practices
+
+> Iterate until the implementation adheres to the following:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/code-practices/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Coding Best Practices
+
+Iterate until the implementation adheres to the following:
+- SOLID principles
+- Add logging at important checkpoints of the code
+- Ensure scalability and performance
+
+Whenever `dotnet build` or `dotnet run` is executed, fix the compile error if there are any.
+When referencing code, make sure that the referenced code exists.
+
+---
+> Source: [aevatarAI/aevatar-framework](https://github.com/aevatarAI/aevatar-framework) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
