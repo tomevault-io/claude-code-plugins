@@ -1,38 +1,21 @@
-# agentsmith
+# psql
 
-> These rules are helpful for contrubuting to the front-end Nextjs code and the typescript code.
+> 1. All psql should be written in lowercase syntax
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agentsmith/SKILL.md
+Read and follow the instructions in .claude/skills/psql/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-# Agentsmith tsx contributing rules for cursor AI
-
-1. Only use named exports (`export const thing`, not `export default`)¹
-2. All pages should have a single top level page component in page-components
-3. All components should be in components folder either as a single file named after the component or in a subfolder named after the component¹
-4. All functions should be declared in const rocket format: `const rocket = async (payload: any) => { ... }`¹
-5. All props should be explicitly typed as `type ComponentProps = { ... }` and not typed inline ex: `props: { foo: any }` is bad `props: ComponentProps` is good. DO NOT deconstruct props, if a component has props, it should be named as `props` and deconstructed in the body of the component. Write `const foo = (props: FooProps) => { const { arg, arg2 } = props; }` rather than `const foo = ({ arg, arg2 }: FooProps) => {}`
-6. Only use icons from `lucide-react`
-7. Only use tailwind css
-8. Each component file should have at most 2 react components, any more than that and it should be split up into multiple component files/folders.
-9. Any links to pages that exist under the web-studio should be prefixed with /app
-10. All functions that take more than 1 argument, should use an `options` syntax instead of adding many arguments. i.e. `const foo = (options: FooOptions) => {}` rather than `const foo = (bar: string, baz: string, quux: string) => {}`
-11. If the response for a function is an object, then it should be typed separately rather than inline. i.e. `const foo = (): FooResult => {}` instead of `const foo = (): { foo: string; bar: string; baz: string } => {}` 
-12. DO NOT edit any generated files within the `__generated__` folder.
-13. DO NOT create new types if they can be inferred from the supabase generated types OR can be inferred from the return of a supabase.from call using `Awaited<ReturnType><>`
-
-
-¹ Exception for the Nextjs page.tsx files. They should only have one default function export.
+1. All psql should be written in lowercase syntax
+2. When creating psql indices we should be as concise as we can, omitting defaults like the index name and the type. So we rather do `create index on table(column)` instead of `create idx_table_column on table using btree (column)`
+3. We should add indices to columns that reference other tables and columns that are queried frequently. e.g. if the column is `slug` it will most likely be queried on that instead of `id` so we should create an index on it.
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/chad-syntax)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/chad-syntax)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Source: [chad-syntax/agentsmith](https://github.com/chad-syntax/agentsmith) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
