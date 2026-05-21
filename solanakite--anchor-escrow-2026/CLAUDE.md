@@ -1,31 +1,22 @@
-# anchor-typescript
+# anchor
 
-> Anchor TypeScript
+> Solana Anchor coding guidelines
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/anchor-typescript/SKILL.md
+Read and follow the instructions in .claude/skills/anchor/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Create unit tests in TS in the `tests` directory. 
+There is an Anchor project. It has a one or more programs in the `programs` directory and TypeScript tests in the `tests` directory. You may only modify files in these folders.
 
-Please the node js inbuilt test and assertion libraries (then start the tests using `tsx` instead of `ts-mocha`). Imports look like:
+Don't do things like write `...implement the thing...` or `...test code for creating an event...`. Instead, make the actual code.
 
-```typescript
-import { before, describe, test, it } from "node:test";
-import assert from "node:assert";
-```
-
-Use `test` rather than `it`.
-
-Use `catch (thrownObject)` and then `const error = thrownObject as Error;` - you can assume any item thrown is an Error.
-
-Use full words. Never use `e` for something thrown or `tx` for a transaction signature. 
+Remember this is Solana not Ethereum. Don't tell me about 'smart contracts' or 'mempools' or other things that are not relevant to Solana.
 
 ---
 > Source: [solanakite/anchor-escrow-2026](https://github.com/solanakite/anchor-escrow-2026) — distributed by [TomeVault](https://tomevault.io).
