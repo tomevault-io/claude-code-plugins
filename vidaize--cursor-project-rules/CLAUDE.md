@@ -1,21 +1,21 @@
-# clerk-guide
+# convex-guide
 
-> Used when authentication is needed, this is a guide for Clerk.
+> Use this on Convex related queries it includes guide.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/clerk-guide/SKILL.md
+Read and follow the instructions in .claude/skills/convex-guide/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Clerk Guide
+# Convex Guide
 
-- You can find the complete documentaion for Clerk at `.cursor/docs/clerk-docs`
+- You can find the Complete Convex documentations at `.cursor/docs/convex-docs`
 
 ---
 > Source: [VidAIze/cursor-project-rules](https://github.com/VidAIze/cursor-project-rules) — distributed by [TomeVault](https://tomevault.io).
