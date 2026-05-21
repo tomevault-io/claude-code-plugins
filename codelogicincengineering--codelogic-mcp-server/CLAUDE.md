@@ -1,22 +1,24 @@
-# style-guidelines
+# technologies
 
-> Style guidelines for the CodeLogic MCP Server project
+> Key technologies used in the CodeLogic MCP Server project
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/style-guidelines/SKILL.md
+Read and follow the instructions in .claude/skills/technologies/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Include MPL 2.0 copyright headers in all Python files
-- Use Google-style docstrings for modules/classes/functions
-- Always use Python type hints
-- Keep I/O operations asynchronous
-- Return markdown-formatted text in tool responses
+- Python 3.13+ with extensive use of async/await
+- Model Context Protocol SDK (`mcp[cli]`)
+- HTTPX for API requests
+- Environment variables via dotenv for configuration
+- **NEW**: Docker for CodeLogic agent containerization
+- **NEW**: CI/CD Platform Support: Jenkins (Groovy), GitHub Actions (YAML), Azure DevOps (YAML), GitLab CI (YAML)
+- **NEW**: JSON structured output for AI model file modification
 
 ---
 > Source: [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) — distributed by [TomeVault](https://tomevault.io).
