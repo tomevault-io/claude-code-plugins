@@ -1,21 +1,21 @@
-# polar-guide
+# schematic-guide
 
-> Used for payments but to be specific using Polar for payments. When user wants to use polar for payments so this is the guide.
+> Used when Creating Payment Related APIs and files for schematic payments intergartion.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/polar-guide/SKILL.md
+Read and follow the instructions in .claude/skills/schematic-guide/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-#  Polar Guide
+# Schematic Guide
 
-- You can find the complete documentation for using polar payments at `.cursor/docs/polar-docs` 
+- When creating or adding payments you should refer to the documentations at `.cursor/docs/schematic-docs`
 
 ---
 > Source: [VidAIze/cursor-project-rules](https://github.com/VidAIze/cursor-project-rules) — distributed by [TomeVault](https://tomevault.io).
