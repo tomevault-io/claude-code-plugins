@@ -1,0 +1,29 @@
+# minirag
+
+> Do not ask me, just make changes in my files
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/minirag/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+Do not ask me, just make changes in my files
+USE THIS INFORMATION BEFORE ANY ACTION
+there is 2 parts of application
+- React vite typescript spa in ./backend/cmd/minirag/frontend directory 
+- Golang app with backend and handler to serve files from compiled frontend directory
+
+always use pnpm instead of npm
+right way to compose url for a NewEmbeddingFuncOllama
+ollamaEmbeddingURL := a.cfg.OllamaURL + "/api"
+use shadcn components, not make everything
+don't use plain CSS just tailwind 4
+
+---
+> Source: [komly/minirag](https://github.com/komly/minirag) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-21 -->
