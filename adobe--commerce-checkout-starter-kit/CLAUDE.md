@@ -1,13 +1,13 @@
-# commerce-checkout-starter-kit
+# ultracite
 
-> This project uses **Ultracite**, a zero-config Biome preset that enforces strict code quality standards through automated formatting and linting.
+> Ultracite Rules - AI-Ready Formatter and Linter
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/commerce-checkout-starter-kit/SKILL.md
+Read and follow the instructions in .claude/skills/ultracite/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
