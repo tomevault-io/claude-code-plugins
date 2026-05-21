@@ -1,96 +1,77 @@
-# tanstack-start-elysia-better-auth-bun
+# coding-standards
 
-> - **Presentation Layer**: Components, Pages, Controllers
+> - Write clean, readable code with feature-based organization
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/tanstack-start-elysia-better-auth-bun/SKILL.md
+Read and follow the instructions in .claude/skills/coding-standards/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Architecture
+# Coding Standards
 
-## Clean Architecture
+## Core Principles
 
-### Layer Organization
+- Write clean, readable code with feature-based organization
+- Keep files small and focused (<200 lines)
+- Use clear, consistent naming and prioritize modularity
+- Always use object as function parameter
+- Always use arrow functions for class methods
+- Always return objects from hooks and async functions
 
-- **Presentation Layer**: Components, Pages, Controllers
-- **Application Layer**: Services, Use Cases
-- **Domain Layer**: Entities, Repository Interfaces, DTOs
-- **Infrastructure Layer**: Repository Implementations, API Clients, Storage
+## Code Style
 
-### Component Organization
+### File Naming & Structure
 
-- Place all shared UI components in `app/components/ui/`
-- Place all layout components in `app/components/layout/`
-- Place all shared utility components in `app/components/shared/`
-- Place feature-specific components in `app/features/feature/_components/`
-- Use consistent import paths starting with `~` (e.g. `import { Button } from "~/components/ui/button";`)
+- Use kebab-case for all file and directory names
+- Organize directories by feature with underscore prefix for feature-specific folders:
+  - `features/feature/_components/`, `features/feature/_controllers/`, etc.
+- Shared components should NOT use underscore prefix:
+  - `components/ui/`, `components/layout/`, `components/shared/`
 
-### Domain Layer Organization
+### Imports & Paths
 
-- Organize domain files by responsibility:
-  - `*entity.ts` - Core business entities
-  - `*model.ts` - Data transfer objects (DTOs)
-  - `*repository.ts` - Repository interfaces
-  - `*schema.ts` - Validation schemas
+- Use absolute imports with the `~` prefix for all project files
+- Import UI components from `~/components/ui/*` NOT from `~/ui/*`
+- Always use direct imports instead of barrel (index) files for better tree-shaking
+- Prefer consistent import ordering: React/external libraries first, followed by absolute imports
 
-## Project Structure
+### TypeScript & React
 
-```txt
-apps/
-  web/                      # Frontend application
-    ├── app/
-    │   ├── features/       # Feature modules
-    │   │   └── feature/    # Specific feature
-    │   │       ├── _components/  # Feature-specific components
-    │   │       ├── _controllers/ # Feature-specific controllers
-    │   │       └── _domain/      # Feature-specific domain models
-    │   ├── routes/         # Route definitions
-    │   ├── components/     # Shared UI components
-    │   │   ├── ui/         # UI primitives
-    │   │   ├── layout/     # Layout components
-    │   │   └── shared/     # Shared utility components
-    │   ├── controllers/    # Shared controllers
-    │   ├── domain/         # Shared domain entity, models
-    │   ├── lib/            # Infrastructure layer
-    │   └── services/       # Shared services
-  backend/                  # Elysia backend
-    ├── src/
-    │   ├── features/       # Feature modules
-    │   ├── routes/         # App-level route definitions
-    │   ├── domain/         # Shared domain models
-    │   ├── lib/            # Shared infrastructure
-    │   └── services/       # Shared services
-```
+- Use TypeScript with proper types; prefer interfaces over types for object shapes
+- Implement functional components with TypeScript interfaces for props
+- Use functional and declarative programming patterns
 
-## Controller Pattern (React)
+## Hook Design
 
-- Use class-based controllers with arrow function methods
-- Use Jotai atoms for state management
-- Provide granular hooks for accessing state and actions
+- Create single-responsibility hooks that return one state or action
+- All hooks MUST return objects even when returning a single value (e.g., `return { isPending }` not `return isPending`)
+- Avoid hooks that return multiple states or actions to prevent unnecessary re-renders
+- Use composition to combine smaller hooks where needed
+
+## Component Design
+
+- Use compound component design pattern for complex components
+- Follow shadcn/ui patterns for component composition
+- Create small, reusable components that can be composed together
+- Isolate re-renders to the smallest possible component
+- All component event handlers should use object parameters (e.g., `onClick={({ id }) => handleClick({ id })}`)
+
+## Component Performance
+
+- Create smaller components that consume only the specific hooks they need
+- Break UI into logical, focused components to isolate re-renders
+
+## Function Returns
+
+- All functions MUST return objects if needed, even for single values (e.g., `return { result }` not `return result`)
 - All hooks MUST return objects, even for single values (e.g., `return { isPending }` not `return isPending`)
-- All controller data fetchers MUST return objects (e.g., `return { pokemonPair }` not `return pokemonPair`)
-
-## Repository Pattern
-
-- Define repository interfaces in the domain layer as `entity-repository.ts`
-- Implement repositories in feature's `_lib` directory using the pattern: `entity-infrastructure-type-repo.ts`
-  - Example: `user-drizzle-db-repo.ts`, `product-api-repo.ts`, `auth-tanstack-query-repo.ts`
-- Always include both the infrastructure technology and type in the repository implementation filename
-- Use direct imports instead of barrel files for better tree-shaking and build performance
-- Repository implementations should use arrow function methods consistent with class method guidelines
-- All repository methods MUST accept object parameters and return objects
-
-## Reference Files
-
-- Example controllers: [auth-controller.ts](mdc:src/features/auth/_controllers/auth-controller.ts)
-- Example repositories: [auth-tanstack-query-repo.ts](mdc:src/libs/better-auth/auth-client-repo.ts)
+- All controller methods that return data should return objects for destructuring
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/masrurimz) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-10 -->
+> Source: [masrurimz/tanstack-start-elysia-better-auth-bun](https://github.com/masrurimz/tanstack-start-elysia-better-auth-bun) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
