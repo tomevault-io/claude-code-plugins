@@ -1,29 +1,39 @@
-# typescript-best-practices
+# agent-testing
 
-> // ... existing code ...
+> Creating and running tests.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/typescript-best-practices/SKILL.md
+Read and follow the instructions in .claude/skills/agent-testing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# TypeScript Best Practices
 
-## Type System
-// ... existing code ...
 
-## Spread Operator Type Safety
-- Use `Parameters<typeof functionName>` for typing spread arguments
-- Apply type assertions when slicing argument arrays
-- Avoid raw spread of untyped arrays
-- Ensure spread arguments match function parameter types
+### Unit Testing Guidelines for Agents and Their Nodes
 
-// ... existing code ... 
+1. **Test Framework:**
+   - **Vitest** is the required testing framework for all tests.
+
+2. **Configuration Service:**
+   - When testing an agent or its nodes, **use the real shared configuration service**.
+   - **Do not mock** any configuration files, specifically:
+     - **Shared Configuration Files:**  
+       - `models.json`  
+       - `providers.json`  
+       These files are common to all agents and are located in the `agents/config` folder.
+     - **Agent-Specific Configuration Files:**  
+       - `prompts.json`  
+       - `tasks.json`  
+       Each agent has its own versions, located in the `agents/{agent-name}/config` directory.
+
+3. **Mocking Practices:**
+   - When mocking is necessary for functions or methods, **prefer using Vitest's `spyOn` function** rather than creating full mocks.
+   - This practice ensures that the tests remain focused on agent behavior and use real configuration data where applicable.
 
 ---
 > Source: [PaulJPhilp/EffectiveAgent](https://github.com/PaulJPhilp/EffectiveAgent) — distributed by [TomeVault](https://tomevault.io).
