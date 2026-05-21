@@ -1,4 +1,4 @@
-# test-rule
+# untitled
 
 > description: "A test rule for development"
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/test-rule/SKILL.md
+Read and follow the instructions in .claude/skills/untitled/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
