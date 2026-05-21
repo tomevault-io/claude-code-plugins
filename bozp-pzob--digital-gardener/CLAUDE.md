@@ -1,0 +1,47 @@
+# 01-project-overview
+
+> This project is Digital Gardener, a configurable system designed to cultivate content from various sources, process it using AI, and generate summaries.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/01-project-overview/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Overview: Digital Gardener
+
+This project is Digital Gardener, a configurable system designed to cultivate content from various sources, process it using AI, and generate summaries.
+
+## Main Entry Point
+
+The primary execution starts in `[src/index.ts](mdc:src/index.ts)`. This script:
+
+1.  Loads environment variables (`dotenv`).
+2.  Parses command-line arguments (`--source`, `--onlyFetch`, `--output`).
+3.  Dynamically loads plugins (Sources, AI Providers, Enrichers, Generators, Storage) from subdirectories within `[src/plugins/](mdc:src/plugins)` using helpers from `[src/helpers/configHelper.ts](mdc:src/helpers/configHelper.ts)`.
+4.  Reads a JSON configuration file (specified by `--source`, e.g., `[config/discord-raw.json](mdc:config/discord-raw.json)`) to get plugin settings and parameters.
+5.  Initializes instances of configured plugins, injecting dependencies like AI providers and storage.
+6.  Instantiates the `[src/aggregator/ContentAggregator.ts](mdc:src/aggregator/ContentAggregator.ts)`.
+7.  Registers the initialized plugins with the aggregator.
+8.  Schedules periodic fetching for each source (`aggregator.fetchAndStore`) based on its configured interval.
+9.  Schedules periodic summary generation for each generator (`generator.instance.generateContent`) based on its interval (unless `--onlyFetch` is true).
+10. Can run continuously or execute once (`runOnce` setting in config).
+11. Handles graceful shutdown.
+
+## Core Concepts
+
+*   **Configuration-driven:** Behavior is heavily defined by JSON configuration files.
+*   **Plugin-based:** Functionality (data sources, AI, storage, etc.) is implemented as modular plugins.
+*   **Aggregation:** The `ContentAggregator` orchestrates the flow of data from sources through enrichers to storage and triggers generators.
+*   **Scheduling:** Uses `setInterval` for recurring data fetching and summary generation.
+*   **Normalization:** A central `[ContentItem](mdc:src/types.ts)` interface standardizes data from different sources.
+
+See also: `[historical-script.mdc](mdc:.cursor/rules/historical-script.mdc)` for fetching past data.
+
+---
+> Source: [bozp-pzob/digital-gardener](https://github.com/bozp-pzob/digital-gardener) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
