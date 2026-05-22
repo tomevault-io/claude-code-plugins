@@ -1,0 +1,26 @@
+# AI instruction files for nanogit
+
+> Sourced from [grafana/nanogit](https://github.com/grafana/nanogit) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+A minimal cloud-ready Git implementation.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `.cursor/rules/*.mdc` in [grafana/nanogit](https://github.com/grafana/nanogit).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [grafana/nanogit](https://github.com/grafana/nanogit) — a repo with 40+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:a-e-s -->
