@@ -1,0 +1,28 @@
+# ai-sdk
+
+> AI SDK
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/ai-sdk/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+AI SDK
+- Use the Vercel AI SDK UI for implementing streaming chat UI.
+- Use the Vercel AI SDK Core to interact with language models.
+- Use the Vercel AI SDK RSC and Stream Helpers to stream and help with the generations.
+- Implement proper error handling for AI responses and model switching.
+- Implement fallback mechanisms for when an AI model is unavailable.
+- Handle rate limiting and quota exceeded scenarios gracefully.
+- Provide clear error messages to users when AI interactions fail.
+- Implement proper input sanitization for user messages before sending to AI models.
+- Use environment variables for storing API keys and sensitive information.
+
+---
+> Source: [PerfLab-io/perfagent](https://github.com/PerfLab-io/perfagent) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-21 -->
