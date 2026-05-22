@@ -2,6 +2,8 @@
 
 > Sourced from [METR/inspect-action](https://github.com/METR/inspect-action) and converted for every major platform by [TomeVault](https://tomevault.io)
 
+Running UK AISI's Inspect in the Cloud
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
@@ -15,7 +17,7 @@ Original source: `.cursor/rules/*.mdc` in [METR/inspect-action](https://github.c
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. [View quality report](https://tomevault.io/claim/METR#quality)
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/METR/inspect-action](https://github.com/METR/inspect-action)
 
 ---
 
