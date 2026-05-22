@@ -1,0 +1,50 @@
+# kontent-tool-descriptions
+
+> Enforce standardized naming pattern for Kontent.ai MCP tool descriptions
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/kontent-tool-descriptions/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+When creating or modifying MCP tool descriptions, follow this standardized pattern:
+
+**Template:** `"[Action] [Kontent.ai entity] [method/context]"`
+
+## Required Elements:
+1. **Always include "Kontent.ai"** explicitly in the description
+2. **Action verbs:** Use consistent verbs like:
+   - Create (add)
+   - Get / Retrieve
+   - Update (modify/edit) — for patch tools
+   - Delete (remove)
+   - List / Find / Filter
+   - Search — for semantic/AI search
+
+3. **Entity specification:** Clearly identify the Kontent.ai entity:
+   - content type, content type snippet, content item, content item variant
+   - asset, taxonomy group, workflow, language, space, collection
+   - Use "ID" for identifiers (not "internal ID")
+
+## Examples:
+✅ **Good:**
+- "Retrieve Kontent.ai content type by ID"
+- "Create (add) new Kontent.ai content item"
+- "Create Kontent.ai content item variant — translate and localize content"
+- "Update (modify/edit) Kontent.ai content type schema using patch operations"
+
+❌ **Bad:**
+- "Get content type by ID" (missing Kontent.ai)
+- "Add content type" (missing Kontent.ai, use "Create")
+- "Retrieve item" (too vague, missing Kontent.ai)
+- "Get Kontent.ai content type by internal ID" (don't use "internal ID", just "ID")
+
+---
+> Source: [kontent-ai/mcp-server](https://github.com/kontent-ai/mcp-server) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-22 -->
