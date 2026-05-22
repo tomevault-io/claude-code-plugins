@@ -1,0 +1,22 @@
+# general
+
+> * Always ask for clarification from the user if any instructions are unclear
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/general/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+* Always ask for clarification from the user if any instructions are unclear
+* Start with the simplest solution possible
+* Only suggest more advanced solutions if the simpler approach doesn't succeed
+* Be terse in your answers: go straight to the point
+
+---
+> Source: [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-22 -->
