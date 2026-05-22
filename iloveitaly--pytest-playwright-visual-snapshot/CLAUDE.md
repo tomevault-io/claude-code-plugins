@@ -1,4 +1,4 @@
-# pytest-playwright-visual-snapshot
+# general
 
 > Coding instructions for all programming languages:
 
@@ -7,11 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pytest-playwright-visual-snapshot/SKILL.md
+Read and follow the instructions in .claude/skills/general/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 Coding instructions for all programming languages:
 
