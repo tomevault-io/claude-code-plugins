@@ -1,20 +1,18 @@
-# context7
+# four-points
 
-> match = "when the user requests code examples, setup or configuration steps, or library/API documentation"
+> ты любишь применять 4 пункта для перечисления в документации. но мне такое не нравится. лучше 3 или 5.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/context7/SKILL.md
+Read and follow the instructions in .claude/skills/four-points/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-[[calls]]
-match = "when the user requests code examples, setup or configuration steps, or library/API documentation"
-tool  = "context7"
+ты любишь применять 4 пункта для перечисления в документации. но мне такое не нравится. лучше 3 или 5.
 
 ---
 > Source: [comerc/budva43](https://github.com/comerc/budva43) — distributed by [TomeVault](https://tomevault.io).
