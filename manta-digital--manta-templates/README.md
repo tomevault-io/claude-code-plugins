@@ -2,6 +2,8 @@
 
 > Source: [manta-digital/manta-templates](https://github.com/manta-digital/manta-templates) — distributed by [TomeVault](https://tomevault.io)
 
+manta.digital public template monorepo
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
