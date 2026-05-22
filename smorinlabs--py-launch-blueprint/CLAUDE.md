@@ -1,47 +1,89 @@
-# justfile-rules
+# doc-template
 
-> Ensure that there's proper spacing between recipes, a new line.
+> Standard rule for documentation consistency
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/justfile-rules/SKILL.md
+Read and follow the instructions in .claude/skills/doc-template/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Ensure that there's proper spacing between recipes, a new line.
+name: doc-template
+description: |
+  This rule defines the standardized structure to be followed for all documentation rules
+  created in this project. It ensures that every documentation rule provides clarity,
+  utility, and consistency for contributors.
 
-Every recipe is part of a group that already exists in the Just file, and that there is documentation which should be a comment right before the recipe.
+template: |
+  # [Tool/Feature Name] Documentation Rule
 
+  ## Introduction
+  [What is the tool?]
 
+  ## Purpose and Problem Solved by This Feature/Tool
+  - Key benefits and value proposition
 
-```Justfile
-# Install Taplo in editable mode with dev dependencies
-[group('install')]
-@install-taplo:
-	if ! command -v taplo >/dev/null 2>&1; then \
-		cargo install taplo-cli && echo "{{GREEN}} Taplo installed successfully{{NC}}" || \
-		(echo "{{RED}}Failed to install taplo-cli.{{NC}} Try running '{{BLUE}}rustup update{{NC}}' to update your Rust toolchain." && exit 1); \
-	else \
-		echo "{{YELLOW}}Taplo is already installed{{NC}}"; \
-	fi
+  ## Getting Started
+  - Basic setup steps
+  - Quick example demonstrating core functionality
 
-# Format code
-[group('dev')]
-@format:
-    echo "Running formatters..."
-    echo "  ruff format"
-    uvx --with-editable . ruff format {{py_package_name}}/
-    echo "  ruff isort"
-    uvx --with-editable . ruff check --select I --fix {{py_package_name}}/
+  ## Usage
+  [How to use this feature in this project]
 
-alias f := format
+  - Common use cases with practical examples
+  - Command references and syntax
 
-```
+  ## Configuration
+  [How to configure this tool in this project]
+
+  - Key configuration options and parameters
+  - Example configurations for common scenarios
+
+  ## Testing
+  [How to test this feature in this project]
+
+  - Instructions on how to test the command stand alone with the expected results
+  - Instructions on how to test this command in this project specifically
+
+  ## Disabling the Feature
+  [How to disable this feature in this project]
+
+  - Instructions for temporarily or permanently disabling
+  - Selective disabling options for specific contexts
+
+  ## References
+  - Links to relevant host technology documentation
+  - Additional resources and further reading
+
+validation:
+  required_sections:
+    - Introduction
+    - Purpose and Problem Solved by This Feature/Tool
+    - Getting Started
+    - Usage
+    - Configuration
+    - Testing
+    - Disabling the Feature
+    - References
+
+  required_elements:
+    - Practical examples
+    - Standalone and integrated testing instructions
+    - Configuration options
+    - Disabling guidance
+    - Links to host documentation or external resources
+
+formatting:
+  - Use markdown formatting
+  - Use `##` for main section headers
+  - Include bullet points for lists and guidance
+  - Include `[placeholder text]` for user to replace
+  - Ensure examples are contextual to this project
 
 ---
 > Source: [smorinlabs/py-launch-blueprint](https://github.com/smorinlabs/py-launch-blueprint) — distributed by [TomeVault](https://tomevault.io).
