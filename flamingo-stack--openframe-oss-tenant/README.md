@@ -2,6 +2,8 @@
 
 > Tome by [flamingo-stack](https://github.com/flamingo-stack/openframe-oss-tenant) — distributed by [TomeVault](https://tomevault.io)
 
+Code base for OSS OpenFrame single tenant version
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
