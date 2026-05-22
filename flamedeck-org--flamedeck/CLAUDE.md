@@ -1,0 +1,43 @@
+# coding-conventions
+
+> - Always memoize by default (use `useMemo` and `useCallback` to ensure stable dependencies)
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/coding-conventions/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Coding Conventions
+
+- Always memoize by default (use `useMemo` and `useCallback` to ensure stable dependencies)
+  - Also wrap exported components in `memo`
+- Always memoize context values so they don't trigger unnecessary rerenders
+- Abstract large new pieces of functionality into separate hooks / components - component files should not be huge
+- Always use named function declarations for components. E.g. `function MyComponent() {` not `const MyComponent: React.FC = () => {`
+
+## Creating components
+
+- We want to avoid very large files - try to think about how to extract things in to reasonably sized components or hooks or utility functions. Generally we want one function per file
+- You should logically structure components around where they are used. For example if `components/TraceList.tsx` needs to render a `TraceListItem` component, you should create a folder called `components/TraceList` which looks like:
+
+```
+components/
+  TraceList/
+    TraceList.tsx
+    index.ts // exports TraceList and anything else needed
+    TraceListItem.tsx
+    hooks/
+      useTraces.ts // any hooks related to the component
+```
+
+Keeping a clean and organized file heirarchy is critical to the application being maintainable in the long run
+
+---
+> Source: [flamedeck-org/flamedeck](https://github.com/flamedeck-org/flamedeck) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-22 -->
