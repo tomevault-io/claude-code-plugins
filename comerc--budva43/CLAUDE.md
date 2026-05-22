@@ -1,18 +1,27 @@
-# four-points
+# import-order
 
-> ты любишь применять 4 пункта для перечисления в документации. но мне такое не нравится. лучше 3 или 5.
+> применяй это правило для очерёдности импортов:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/four-points/SKILL.md
+Read and follow the instructions in .claude/skills/import-order/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-ты любишь применять 4 пункта для перечисления в документации. но мне такое не нравится. лучше 3 или 5.
+применяй это правило для очерёдности импортов:
+
+```yml
+    gci:
+      sections:
+        - standard
+        - default
+        - prefix(github.com/comerc/budva43)
+      custom-order: true
+```
 
 ---
 > Source: [comerc/budva43](https://github.com/comerc/budva43) — distributed by [TomeVault](https://tomevault.io).
