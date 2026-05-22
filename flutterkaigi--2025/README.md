@@ -1,0 +1,26 @@
+# 2025
+
+> Tome by [FlutterKaigi](https://github.com/FlutterKaigi/2025) — distributed by [TomeVault](https://tomevault.io)
+
+FlutterKaigi 2025 Official Project
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `.cursor/rules/*.mdc` in [FlutterKaigi/2025](https://github.com/FlutterKaigi/2025).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [FlutterKaigi/2025](https://github.com/FlutterKaigi/2025) — a repo with 23+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-s -->
