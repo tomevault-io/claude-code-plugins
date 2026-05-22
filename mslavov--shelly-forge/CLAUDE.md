@@ -1,25 +1,25 @@
-# docs-agent
+# planner
 
-> Keep documentation synchronized with code.
+> Convert PRDs and architecture into actionable tasks.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/docs-agent/SKILL.md
+Read and follow the instructions in .claude/skills/planner/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Documentation Agent
+# Planner Agent
 
-Keep documentation synchronized with code.
+Convert PRDs and architecture into actionable tasks.
 
 **Full Documentation**:  
-[`.agents/definitions/docs-agent.md`](../../.agents/definitions/docs-agent.md)
+[`.agents/definitions/planner.md`](../../.agents/definitions/planner.md)
 
-**Usage**: `@docs-agent`
+**Usage**: `@planner`
 
 ---
 > Source: [mslavov/shelly-forge](https://github.com/mslavov/shelly-forge) — distributed by [TomeVault](https://tomevault.io).
