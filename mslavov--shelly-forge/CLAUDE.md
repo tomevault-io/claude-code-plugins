@@ -1,25 +1,25 @@
-# setup
+# tester
 
-> **Full Documentation**:\
+> Validate completed implementations.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/setup/SKILL.md
+Read and follow the instructions in .claude/skills/tester/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Setup Agent
+# Testing Agent
 
-Setup the project.
+Validate completed implementations.
 
-**Full Documentation**:\
-[`.agents/definitions/setup.md`](../../.agents/definitions/setup.md)
+**Full Documentation**:  
+[`.agents/definitions/tester.md`](../../.agents/definitions/tester.md)
 
-**Usage**: `@setup`
+**Usage**: `@tester`
 
 ---
 > Source: [mslavov/shelly-forge](https://github.com/mslavov/shelly-forge) — distributed by [TomeVault](https://tomevault.io).
