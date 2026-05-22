@@ -1,18 +1,20 @@
-# toc-readme
+# tools-in-readme
 
-> When updating README.md, the table of contents should contain only the second-level headings below it.
+> When you add new MCP tools always describe them in the README.md file.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/toc-readme/SKILL.md
+Read and follow the instructions in .claude/skills/tools-in-readme/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-When updating README.md, the table of contents should contain only the second-level headings below it.
+When you add new MCP tools always describe them in the README.md file.
+When you modify MCP tools always adjust their description in the README.md file accordingly.
+When you remove MCP tools always remove mentions of them from the README.md file.
 
 ---
 > Source: [kontent-ai/mcp-server](https://github.com/kontent-ai/mcp-server) — distributed by [TomeVault](https://tomevault.io).
