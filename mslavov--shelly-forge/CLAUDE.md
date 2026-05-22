@@ -1,25 +1,25 @@
-# planner
+# pm
 
-> Convert PRDs and architecture into actionable tasks.
+> Track progress and manage task flow.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/planner/SKILL.md
+Read and follow the instructions in .claude/skills/pm/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Planner Agent
+# Project Manager Agent
 
-Convert PRDs and architecture into actionable tasks.
+Track progress and manage task flow.
 
 **Full Documentation**:  
-[`.agents/definitions/planner.md`](../../.agents/definitions/planner.md)
+[`.agents/definitions/pm.md`](../../.agents/definitions/pm.md)
 
-**Usage**: `@planner`
+**Usage**: `@pm status` | `@pm archive`
 
 ---
 > Source: [mslavov/shelly-forge](https://github.com/mslavov/shelly-forge) — distributed by [TomeVault](https://tomevault.io).
