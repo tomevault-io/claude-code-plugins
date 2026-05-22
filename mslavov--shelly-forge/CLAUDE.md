@@ -1,25 +1,25 @@
-# pm
+# setup
 
-> Track progress and manage task flow.
+> **Full Documentation**:\
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pm/SKILL.md
+Read and follow the instructions in .claude/skills/setup/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Project Manager Agent
+# Setup Agent
 
-Track progress and manage task flow.
+Setup the project.
 
-**Full Documentation**:  
-[`.agents/definitions/pm.md`](../../.agents/definitions/pm.md)
+**Full Documentation**:\
+[`.agents/definitions/setup.md`](../../.agents/definitions/setup.md)
 
-**Usage**: `@pm status` | `@pm archive`
+**Usage**: `@setup`
 
 ---
 > Source: [mslavov/shelly-forge](https://github.com/mslavov/shelly-forge) — distributed by [TomeVault](https://tomevault.io).
