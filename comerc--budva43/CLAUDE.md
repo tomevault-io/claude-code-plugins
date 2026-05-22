@@ -1,26 +1,25 @@
-# import-order
+# relative-import
 
-> применяй это правило для очерёдности импортов:
+> не надо делать локальные импорты через относительные пути:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/import-order/SKILL.md
+Read and follow the instructions in .claude/skills/relative-import/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-применяй это правило для очерёдности импортов:
+не надо делать локальные импорты через относительные пути:
 
-```yml
-    gci:
-      sections:
-        - standard
-        - default
-        - prefix(github.com/comerc/budva43)
-      custom-order: true
+```go
+// плохо
+import "../../config"
+
+// хорошо
+import "github.com/comerc/budva43/some/path/config"
 ```
 
 ---
