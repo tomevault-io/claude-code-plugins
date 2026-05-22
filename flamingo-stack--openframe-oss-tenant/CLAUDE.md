@@ -1,588 +1,438 @@
-# openframe-oss-tenant
+# api-design
 
-> This document outlines the SSO (Single Sign-On) authentication patterns and best practices for the OpenFrame project.
+> This document outlines the API design patterns and standards for the OpenFrame project.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/openframe-oss-tenant/SKILL.md
+Read and follow the instructions in .claude/skills/api-design/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# SSO Authentication in OpenFrame
+# API Design
 
-This document outlines the SSO (Single Sign-On) authentication patterns and best practices for the OpenFrame project.
+This document outlines the API design patterns and standards for the OpenFrame project.
 
-## Architecture Overview
+## RESTful API Design
 
-OpenFrame implements OAuth 2.0 with PKCE (Proof Key for Code Exchange) for secure authentication with external providers like Google, Microsoft, and Slack.
+### URL Structure
 
-### Key Components
+- Use resource-based URLs
+- Use plural nouns for resource collections
+- Use hierarchical structure for nested resources
+- Use kebab-case for multi-word resource names
+- Include API version in the URL path
 
-- **SSOConfigService**: Manages SSO provider configurations
-- **SocialAuthService**: Handles OAuth authentication flows
-- **GoogleAuthStrategy**: Provider-specific authentication implementation
-- **EncryptionService**: Encrypts/decrypts sensitive configuration data
-- **Frontend SSOService**: Client-side OAuth flow management
+Examples:
+```
+GET /api/v1/devices                  # Get all devices
+GET /api/v1/devices/{id}             # Get a specific device
+GET /api/v1/devices/{id}/scripts     # Get scripts for a device
+POST /api/v1/devices                 # Create a new device
+PUT /api/v1/devices/{id}             # Update a device
+DELETE /api/v1/devices/{id}          # Delete a device
+```
 
-## Backend Patterns
+### HTTP Methods
 
-### SSO Configuration Management
+- Use appropriate HTTP methods for operations:
+  - GET: Retrieve resources
+  - POST: Create resources
+  - PUT: Update resources (full update)
+  - PATCH: Partial update of resources
+  - DELETE: Remove resources
 
-Use the domain-driven approach for SSO configuration:
+### Status Codes
 
-```java
-@Service
-public class SSOConfigService {
-    private final SSOConfigRepository ssoConfigRepository;
-    private final EncryptionService encryptionService;
-    
-    /**
-     * Get SSO configuration domain model for internal service usage
-     */
-    public Optional<SSOConfig> getConfigByProvider(String provider) {
-        return ssoConfigRepository.findByProvider(provider);
+- Use appropriate HTTP status codes:
+  - 200 OK: Successful request
+  - 201 Created: Resource created successfully
+  - 204 No Content: Successful request with no response body
+  - 400 Bad Request: Invalid request parameters
+  - 401 Unauthorized: Authentication required
+  - 403 Forbidden: Authenticated but not authorized
+  - 404 Not Found: Resource not found
+  - 409 Conflict: Request conflicts with current state
+  - 422 Unprocessable Entity: Validation errors
+  - 500 Internal Server Error: Server-side error
+
+### Request/Response Format
+
+- Use JSON for request and response bodies
+- Use consistent property naming (camelCase)
+- Include appropriate content-type headers
+- Provide meaningful error messages
+- Use pagination for large collections
+- Support filtering, sorting, and field selection
+
+Example response:
+```json
+{
+  "data": [
+    {
+      "id": "123",
+      "hostname": "device-1",
+      "operatingSystem": "Windows",
+      "status": "online",
+      "lastSeen": "2023-04-01T12:00:00Z"
     }
-    
-    /**
-     * Get list of enabled SSO providers - used by login components
-     */
-    public List<SSOConfigStatusResponse> getEnabledProviders() {
-        return ssoConfigRepository.findByEnabledTrue().stream()
-            .map(config -> SSOConfigStatusResponse.builder()
-                .provider(config.getProvider())
-                .enabled(true)
-                .clientId(config.getClientId())
-                .build())
-            .collect(Collectors.toList());
-    }
-    
-    /**
-     * Get available SSO providers for admin dropdowns
-     */
-    public List<SSOProviderInfo> getAvailableProviders() {
-        return authStrategies.stream()
-            .map(strategy -> SSOProviderInfo.builder()
-                .provider(strategy.getProvider().getProvider())
-                .displayName(strategy.getProvider().getDisplayName())
-                .build())
-            .collect(Collectors.toList());
-    }
+  ],
+  "pagination": {
+    "total": 100,
+    "page": 1,
+    "pageSize": 10,
+    "totalPages": 10
+  }
 }
 ```
 
-### Provider Strategy Pattern
+Example error response:
+```json
+{
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Invalid request parameters",
+    "details": [
+      {
+        "field": "hostname",
+        "message": "Hostname is required"
+      }
+    ]
+  }
+}
+```
 
-Implement provider-specific strategies using the Strategy pattern:
+## GraphQL API Design
 
-```java
-public interface SocialAuthStrategy {
-    SSOProvider getProvider();
-    
-    @Deprecated
-    default String getProviderName() {
-        return getProvider().getProvider();
-    }
-    
-    TokenResponse authenticate(SocialAuthRequest request);
+### Schema Design
+
+- Use descriptive type names
+- Follow naming conventions (PascalCase for types, camelCase for fields)
+- Define clear relationships between types
+- Use input types for mutations
+- Include appropriate descriptions for types and fields
+- Use enums for fixed sets of values
+
+Example schema:
+```graphql
+"""
+Represents a device in the system
+"""
+type Device {
+  "Unique identifier for the device"
+  id: ID!
+  "Hostname of the device"
+  hostname: String!
+  "Operating system of the device"
+  operatingSystem: String!
+  "Current status of the device"
+  status: DeviceStatus!
+  "When the device was last seen"
+  lastSeen: DateTime
+  "Scripts associated with this device"
+  scripts: [Script!]!
 }
 
+"""
+Status of a device
+"""
+enum DeviceStatus {
+  ONLINE
+  OFFLINE
+  MAINTENANCE
+}
+
+"""
+Input for creating a new device
+"""
+input CreateDeviceInput {
+  hostname: String!
+  operatingSystem: String!
+}
+```
+
+### Query Design
+
+- Design queries around specific use cases
+- Support pagination for collections
+- Allow filtering and sorting
+- Enable field selection
+- Use arguments for customization
+- Consider query complexity and depth
+
+Example query:
+```graphql
+query GetDevices($status: DeviceStatus, $page: Int, $pageSize: Int) {
+  devices(status: $status, page: $page, pageSize: $pageSize) {
+    nodes {
+      id
+      hostname
+      operatingSystem
+      status
+      lastSeen
+    }
+    pageInfo {
+      totalCount
+      hasNextPage
+      hasPreviousPage
+    }
+  }
+}
+```
+
+### Mutation Design
+
+- Use descriptive names (createDevice, updateDevice, etc.)
+- Accept input types for arguments
+- Return the modified resource
+- Include error information in the response
+- Use consistent naming patterns
+
+Example mutation:
+```graphql
+mutation CreateDevice($input: CreateDeviceInput!) {
+  createDevice(input: $input) {
+    device {
+      id
+      hostname
+      operatingSystem
+      status
+    }
+    errors {
+      field
+      message
+    }
+  }
+}
+```
+
+## API Gateway Patterns
+
+### Routing
+
+- Route requests based on path prefixes
+- Use consistent routing patterns
+- Support path rewriting for backend services
+- Handle versioning at the gateway level
+
+Example gateway configuration:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: device-service
+          uri: lb://device-service
+          predicates:
+            - Path=/api/v1/devices/**
+          filters:
+            - RewritePath=/api/v1/devices/(?<path>.*), /devices/$\{path}
+```
+
+### Authentication and Authorization
+
+- Implement JWT authentication at the gateway
+- Validate tokens for each request
+- Include user information in request headers
+- Support role-based access control
+- Use consistent authorization patterns
+
+Example authentication filter:
+```java
 @Component
-public class GoogleAuthStrategy implements SocialAuthStrategy {
-    private final SSOConfigRepository ssoConfigRepository;
-    private final EncryptionService encryptionService;
-    
+public class JwtAuthenticationFilter implements WebFilter {
     @Override
-    public SSOProvider getProvider() {
-        return SSOProvider.GOOGLE;
-    }
-    
-    @Override
-    public TokenResponse authenticate(SocialAuthRequest request) {
-        SSOConfig googleConfig = getGoogleConfig();
-        String clientSecret = encryptionService.decryptClientSecret(googleConfig.getClientSecret());
+    public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
+        ServerHttpRequest request = exchange.getRequest();
+        String token = extractToken(request);
         
-        // Implementation...
-    }
-    
-    private SSOConfig getGoogleConfig() {
-        return ssoConfigRepository.findByProvider(SSOProvider.GOOGLE.getProvider())
-            .filter(SSOConfig::isEnabled)
-            .orElseThrow(() -> new SocialAuthException("provider_not_configured",
-                    "Google OAuth is not configured or disabled"));
+        if (token != null && validateToken(token)) {
+            ServerHttpRequest modifiedRequest = request.mutate()
+                .header("X-User-Id", getUserIdFromToken(token))
+                .header("X-User-Roles", getRolesFromToken(token))
+                .build();
+            return chain.filter(exchange.mutate().request(modifiedRequest).build());
+        }
+        
+        return chain.filter(exchange);
     }
 }
 ```
 
-### Provider Enum
+### Rate Limiting
 
-Use type-safe enums for provider management:
+- Implement rate limiting at the gateway
+- Use consistent rate limiting policies
+- Configure limits based on client ID or user
+- Return appropriate status codes (429 Too Many Requests)
+- Include rate limit headers in responses
 
+Example rate limiting configuration:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: device-service
+          uri: lb://device-service
+          predicates:
+            - Path=/api/v1/devices/**
+          filters:
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 10
+                redis-rate-limiter.burstCapacity: 20
+                key-resolver: "#{@userKeyResolver}"
+```
+
+### Circuit Breaking
+
+- Implement circuit breakers for backend services
+- Configure appropriate thresholds
+- Provide fallback responses
+- Monitor circuit breaker status
+- Use consistent circuit breaker patterns
+
+Example circuit breaker configuration:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: device-service
+          uri: lb://device-service
+          predicates:
+            - Path=/api/v1/devices/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: deviceServiceCircuitBreaker
+                fallbackUri: forward:/fallback/devices
+```
+
+## API Documentation
+
+### OpenAPI/Swagger
+
+- Document all APIs using OpenAPI/Swagger
+- Include detailed descriptions for endpoints
+- Document request/response schemas
+- Provide examples
+- Document error responses
+- Include authentication requirements
+
+Example OpenAPI configuration:
 ```java
-public enum SSOProvider {
-    GOOGLE("google", "Google OAuth"),
-    MICROSOFT("microsoft", "Microsoft OAuth"),
-    SLACK("slack", "Slack OAuth");
-    
-    private final String provider;
-    private final String displayName;
-    
-    SSOProvider(String provider, String displayName) {
-        this.provider = provider;
-        this.displayName = displayName;
+@Configuration
+public class OpenApiConfig {
+    @Bean
+    public OpenAPI openAPI() {
+        return new OpenAPI()
+            .info(new Info()
+                .title("OpenFrame API")
+                .version("v1")
+                .description("API for OpenFrame platform"))
+            .components(new Components()
+                .addSecuritySchemes("bearer-jwt", new SecurityScheme()
+                    .type(SecurityScheme.Type.HTTP)
+                    .scheme("bearer")
+                    .bearerFormat("JWT")))
+            .addSecurityItem(new SecurityRequirement().addList("bearer-jwt"));
     }
-    
-    public static SSOProvider fromProvider(String provider) {
-        return Arrays.stream(values())
-            .filter(p -> p.provider.equals(provider))
-            .findFirst()
-            .orElse(null);
-    }
-    
-    // Getters...
 }
 ```
 
-### API Endpoint Design
+### API Versioning
 
-Follow RESTful patterns for SSO endpoints:
+- Use explicit versioning in URLs
+- Support multiple API versions simultaneously
+- Document version differences
+- Provide migration guides
+- Use semantic versioning
 
+## Integration Patterns
+
+### Tool Integration
+
+- Use consistent integration patterns for external tools
+- Implement proxy endpoints for tool APIs
+- Handle authentication and authorization
+- Transform request/response formats as needed
+- Implement error handling and retries
+
+Example integration controller:
 ```java
 @RestController
-@RequestMapping("/sso")
-public class SSOConfigController {
+@RequestMapping("/tools/{toolName}")
+public class IntegrationController {
+    private final ToolRegistry toolRegistry;
+    private final WebClient.Builder webClientBuilder;
     
-    /**
-     * Get enabled providers for login buttons
-     */
-    @GetMapping("/providers")
-    public List<SSOConfigStatusResponse> getEnabledProviders() {
-        return ssoConfigService.getEnabledProviders();
-    }
-    
-    /**
-     * Get available providers for admin dropdowns
-     */
-    @GetMapping("/providers/available")
-    public List<SSOProviderInfo> getAvailableProviders() {
-        return ssoConfigService.getAvailableProviders();
-    }
-    
-    /**
-     * Get full SSO configuration for admin forms
-     */
-    @GetMapping("/{provider}")
-    public ResponseEntity<SSOConfigResponse> getConfig(@PathVariable String provider) {
-        // Implementation...
+    @GetMapping("/**")
+    public Mono<ResponseEntity<String>> proxyGetRequest(
+            @PathVariable String toolName,
+            ServerHttpRequest request) {
+        Tool tool = toolRegistry.getTool(toolName);
+        if (tool == null) {
+            return Mono.just(ResponseEntity.notFound().build());
+        }
+        
+        String path = extractPath(request);
+        return webClientBuilder.build()
+            .get()
+            .uri(tool.getBaseUrl() + path)
+            .headers(headers -> copyHeaders(request.getHeaders(), headers))
+            .retrieve()
+            .toEntity(String.class);
     }
     
-    /**
-     * Create or update SSO configuration
-     */
-    @PostMapping("/{provider}")
-    public ResponseEntity<SSOConfigResponse> createConfig(
-            @PathVariable String provider,
-            @Valid @RequestBody SSOConfigRequest request) {
-        // Implementation...
-    }
+    // Additional methods for POST, PUT, DELETE, etc.
 }
 ```
 
-## Frontend Patterns
+### Event-Driven Integration
 
-### Service Layer
+- Use Kafka for event-driven integration
+- Define clear event schemas
+- Implement consistent event handling patterns
+- Use appropriate serialization formats
+- Handle event ordering and idempotency
 
-Implement a clean service layer for SSO operations:
-
-```typescript
-export class SSOService {
-  private static readonly BASE_URL = '/sso';
-
-  /**
-   * Get enabled SSO providers for login buttons
-   */
-  public async getEnabledProviders(): Promise<SSOConfigStatus[]> {
-    return await restClient.get<SSOConfigStatus[]>(`${import.meta.env.VITE_API_URL}${SSOService.BASE_URL}/providers`);
-  }
-
-  /**
-   * Get available SSO providers for admin dropdowns
-   */
-  public async getAvailableProviders(): Promise<SSOProviderInfo[]> {
-    return await restClient.get<SSOProviderInfo[]>(`${import.meta.env.VITE_API_URL}${SSOService.BASE_URL}/providers/available`);
-  }
-
-  /**
-   * Get full SSO configuration for admin forms
-   */
-  public async getConfig(provider: string): Promise<SSOConfigResponse> {
-    return await restClient.get<SSOConfigResponse>(`${import.meta.env.VITE_API_URL}${SSOService.BASE_URL}/${provider}`);
-  }
-}
-```
-
-### Type Safety
-
-Define clear TypeScript interfaces:
-
-```typescript
-export interface SSOConfigRequest {
-  clientId: string;
-  clientSecret: string;
-}
-
-export interface SSOConfigResponse {
-  id?: string;
-  provider: string;
-  clientId?: string;
-  clientSecret?: string;
-  enabled: boolean;
-}
-
-export interface SSOConfigStatus {
-  enabled: boolean;
-  provider: string;
-  clientId?: string;
-}
-
-export interface SSOProviderInfo {
-  provider: string;
-  displayName: string;
-}
-
-export type SSOProvider = 'google' | 'microsoft' | 'slack';
-```
-
-### Component Patterns
-
-#### Login Button Component
-
-```vue
-<template>
-  <div v-if="showGoogleLogin" class="google-login-wrapper">
-    <button 
-      @click="handleGoogleLogin" 
-      class="google-login-button"
-      :disabled="loading"
-    >
-      <GoogleIcon />
-      Continue with Google
-    </button>
-  </div>
-</template>
-
-<script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import { ssoService } from '@/services/SSOService';
-
-const showGoogleLogin = ref(false);
-const loading = ref(false);
-
-onMounted(async () => {
-  try {
-    const enabledProviders = await ssoService.getEnabledProviders();
-    showGoogleLogin.value = enabledProviders.some(provider => provider.provider === 'google');
-  } catch (error) {
-    console.error('Failed to load SSO providers:', error);
-  }
-});
-
-async function handleGoogleLogin() {
-  loading.value = true;
-  try {
-    // OAuth flow implementation
-  } catch (error) {
-    console.error('Google login failed:', error);
-  } finally {
-    loading.value = false;
-  }
-}
-</script>
-```
-
-#### Admin Settings Component
-
-```vue
-<template>
-  <div class="sso-settings">
-    <form @submit.prevent="handleSubmit">
-      <!-- Provider Selection -->
-      <div class="form-group">
-        <label>OAuth Provider</label>
-        <OFDropdown
-          v-model="selectedProvider"
-          :options="availableProviders"
-          optionLabel="displayName"
-          optionValue="provider"
-          placeholder="Select OAuth Provider"
-          @change="onProviderChange"
-          :loading="loadingProviders"
-        />
-      </div>
-
-      <!-- Configuration Form -->
-      <div v-if="selectedProvider">
-        <Input
-          v-model="form.clientId"
-          label="Client ID"
-          required
-          :error="errors.clientId"
-        />
-        <Input
-          v-model="form.clientSecret"
-          label="Client Secret"
-          type="password"
-          required
-          :error="errors.clientSecret"
-        />
-      </div>
-    </form>
-  </div>
-</template>
-
-<script setup lang="ts">
-import { ref, reactive, onMounted, watch } from 'vue';
-import { ssoService } from '@/services/SSOService';
-import type { SSOProviderInfo } from '@/types/sso';
-
-const selectedProvider = ref<string>('');
-const availableProviders = ref<SSOProviderInfo[]>([]);
-const loadingProviders = ref(false);
-
-onMounted(() => {
-  loadAvailableProviders();
-});
-
-watch(selectedProvider, (newProvider) => {
-  if (newProvider) {
-    loadProviderConfig();
-  }
-});
-
-async function loadAvailableProviders() {
-  loadingProviders.value = true;
-  try {
-    availableProviders.value = await ssoService.getAvailableProviders();
-    if (availableProviders.value.length > 0) {
-      selectedProvider.value = availableProviders.value[0].provider;
-    }
-  } catch (error) {
-    console.error('Failed to load providers:', error);
-  } finally {
-    loadingProviders.value = false;
-  }
-}
-</script>
-```
-
-## Security Best Practices
-
-### Encryption
-
-Always encrypt sensitive configuration data:
-
+Example event producer:
 ```java
 @Service
-public class EncryptionService {
-    private final StringEncryptor encryptor;
+public class DeviceEventProducer {
+    private final KafkaTemplate<String, DeviceEvent> kafkaTemplate;
     
-    public String encryptClientSecret(String clientSecret) {
-        if (clientSecret == null || clientSecret.isEmpty()) {
-            return null;
-        }
-        return encryptor.encrypt(clientSecret);
-    }
-    
-    public String decryptClientSecret(String encryptedSecret) {
-        if (encryptedSecret == null || encryptedSecret.isEmpty()) {
-            return null;
-        }
-        try {
-            return encryptor.decrypt(encryptedSecret);
-        } catch (Exception e) {
-            log.error("Failed to decrypt client secret", e);
-            return null;
-        }
-    }
-}
-```
-
-### PKCE Implementation
-
-Use PKCE for OAuth flows:
-
-```typescript
-export class SSOService {
-  public generateCodeVerifier(): string {
-    const array = new Uint8Array(32);
-    crypto.getRandomValues(array);
-    return btoa(String.fromCharCode(...array))
-      .replace(/=/g, '')
-      .replace(/\+/g, '-')
-      .replace(/\//g, '_');
-  }
-
-  private async generateCodeChallenge(codeVerifier: string): Promise<string> {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(codeVerifier);
-    const digest = await crypto.subtle.digest('SHA-256', data);
-    const base64String = btoa(String.fromCharCode(...new Uint8Array(digest)));
-    return base64String.replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-  }
-}
-```
-
-## Error Handling
-
-### Backend Error Handling
-
-```java
-@ControllerAdvice
-public class SSOExceptionHandler {
-    
-    @ExceptionHandler(SocialAuthException.class)
-    public ResponseEntity<ErrorResponse> handleSocialAuthException(SocialAuthException e) {
-        ErrorResponse error = ErrorResponse.builder()
-            .code(e.getErrorCode())
-            .message(e.getMessage())
-            .timestamp(LocalDateTime.now())
-            .build();
+    public void publishDeviceCreated(Device device) {
+        DeviceEvent event = new DeviceEvent(
+            UUID.randomUUID().toString(),
+            "DEVICE_CREATED",
+            LocalDateTime.now(),
+            device
+        );
         
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
+        kafkaTemplate.send("device-events", device.getId(), event);
     }
 }
-
-public class SocialAuthException extends RuntimeException {
-    private final String errorCode;
-    
-    public SocialAuthException(String errorCode, String message) {
-        super(message);
-        this.errorCode = errorCode;
-    }
-}
-```
-
-### Frontend Error Handling
-
-```typescript
-try {
-  const config = await ssoService.getConfig(provider);
-  // Handle success
-} catch (error: any) {
-  if (error.response?.data?.errors) {
-    // Handle validation errors
-    const backendErrors = error.response.data.errors;
-    backendErrors.forEach((err: any) => {
-      if (err.field && err.message) {
-        errors[err.field] = err.message;
-      }
-    });
-  } else {
-    // Handle general errors
-    errorMessage.value = error.message || 'Failed to load configuration';
-  }
-}
-```
-
-## Testing Patterns
-
-### Backend Testing
-
-```java
-@ExtendWith(MockitoExtension.class)
-public class GoogleAuthStrategyTest {
-    @Mock
-    private SSOConfigRepository ssoConfigRepository;
-    
-    @Mock
-    private EncryptionService encryptionService;
-    
-    @InjectMocks
-    private GoogleAuthStrategy googleAuthStrategy;
-    
-    @Test
-    public void testAuthenticate_Success() {
-        // Arrange
-        SSOConfig config = SSOConfig.builder()
-            .provider("google")
-            .clientId("test-client-id")
-            .clientSecret("encrypted-secret")
-            .enabled(true)
-            .build();
-            
-        when(ssoConfigRepository.findByProvider("google"))
-            .thenReturn(Optional.of(config));
-        when(encryptionService.decryptClientSecret("encrypted-secret"))
-            .thenReturn("decrypted-secret");
-        
-        // Act & Assert
-        // Test implementation
-    }
-}
-```
-
-### Frontend Testing
-
-```typescript
-import { describe, it, expect, vi } from 'vitest';
-import { mount } from '@vue/test-utils';
-import { ssoService } from '@/services/SSOService';
-import SSOSettings from '@/components/settings/SSOSettings.vue';
-
-vi.mock('@/services/SSOService', () => ({
-  ssoService: {
-    getAvailableProviders: vi.fn(),
-    getConfig: vi.fn(),
-    saveConfig: vi.fn()
-  }
-}));
-
-describe('SSOSettings', () => {
-  it('loads available providers on mount', async () => {
-    const providers = [
-      { provider: 'google', displayName: 'Google OAuth' }
-    ];
-    
-    ssoService.getAvailableProviders.mockResolvedValue(providers);
-    
-    const wrapper = mount(SSOSettings);
-    
-    await wrapper.vm.$nextTick();
-    
-    expect(ssoService.getAvailableProviders).toHaveBeenCalled();
-  });
-});
 ```
 
 ## Best Practices
 
-1. **Type Safety**: Use enums and TypeScript interfaces for type safety
-2. **Security**: Always encrypt sensitive data and use PKCE for OAuth
-3. **Error Handling**: Provide clear error messages and proper exception handling
-4. **Testing**: Write comprehensive tests for both backend and frontend
-5. **Separation of Concerns**: Keep domain logic separate from DTOs
-6. **API Design**: Follow RESTful patterns for consistent API design
-7. **State Management**: Use reactive patterns for frontend state management
-8. **Validation**: Implement both client-side and server-side validation
-9. **Logging**: Add proper logging for debugging and monitoring
-10. **Documentation**: Document all public APIs and complex business logic
-
-## Common Pitfalls
-
-1. **Circular Dependencies**: Avoid circular dependencies between services
-2. **Hardcoded Values**: Use configuration and enums instead of hardcoded strings
-3. **Missing Validation**: Always validate input data
-4. **Insecure Storage**: Never store secrets in plain text
-5. **Poor Error Messages**: Provide meaningful error messages to users
-6. **Missing Tests**: Ensure good test coverage for critical flows
-7. **Inconsistent APIs**: Follow consistent patterns across all endpoints
-8. **Memory Leaks**: Properly clean up resources and event listeners
-9. **Race Conditions**: Handle async operations properly
-10. **Poor UX**: Provide loading states and proper feedback to users
+1. **Consistency**: Use consistent patterns across all APIs
+2. **Simplicity**: Keep APIs simple and focused
+3. **Documentation**: Document all APIs thoroughly
+4. **Versioning**: Version APIs to support evolution
+5. **Security**: Implement proper authentication and authorization
+6. **Performance**: Optimize for performance and scalability
+7. **Monitoring**: Monitor API usage and performance
+8. **Testing**: Test APIs thoroughly
+9. **Error Handling**: Provide clear error messages
+10. **Pagination**: Use pagination for large collections
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/flamingo-stack) — claim your Tome and manage your conversions.
-<!-- tomevault:4.0:claude_md:2026-04-09 -->
+> Source: [flamingo-stack/openframe-oss-tenant](https://github.com/flamingo-stack/openframe-oss-tenant) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-20 -->
