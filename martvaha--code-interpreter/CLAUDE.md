@@ -1,22 +1,22 @@
-# project-structure
+# python-style
 
-> Maintains consistent project organization and architecture
+> Enforces Python best practices and coding standards
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/project-structure/SKILL.md
+Read and follow the instructions in .claude/skills/python-style/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Keep models in app/models/
-- Business logic belongs in app/services/
-- Shared functionality in app/shared/
-- Utility functions in app/utils/
-- API routes in app/api/
+- Follow PEP 8 style guidelines
+- Use type hints for function parameters and return values
+- Document functions and classes using docstrings
+- Keep functions focused and single-purpose
+- Use meaningful variable and function names
 
 ---
 > Source: [martvaha/code-interpreter](https://github.com/martvaha/code-interpreter) — distributed by [TomeVault](https://tomevault.io).
