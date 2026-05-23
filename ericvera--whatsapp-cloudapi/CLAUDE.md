@@ -1,35 +1,36 @@
-# cursor-rules
+# tests-commands
 
-> Ensures Cursor Rules are created in the .cursor/rules directory with .mdc extension
+> Use yarn instead of npm for all test commands
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cursor-rules/SKILL.md
+Read and follow the instructions in .claude/skills/tests-commands/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 # Rules
 
-## Cursor Rules Location
-Cursor Rules must be placed in .cursor/rules/ directory with .mdc extension.
+## Use yarn for test commands
+When running test commands, always use `yarn` instead of `npm`.
 
 # Examples
 
 ## Valid
-```
-.cursor/rules/my-rule.mdc
-.cursor/rules/another-rule.mdc
+```bash
+yarn test
+cd functions && yarn test
+yarn test src/utils/usage/updateDailyUsage.test.ts
 ```
 
 ## Invalid
-```
-rules/my-rule.mdc
-.cursor/my-rule.mdc
-.cursor/rules/my-rule.txt
+```bash
+npm test
+cd functions && npm test
+npm test src/utils/usage/updateDailyUsage.test.ts
 ```
 
 ---
