@@ -1,13 +1,13 @@
-# logging
+# main
 
-> use eliot as default logging library, use with start_action as action pattern for logging. Avoid add_failure_fields, it does not exist. Avoid writing overly defensive code with many try and catch blocks.
+> Always use typehints, do not use relative pathes, always use pathlib for files and typer for CLI. By default use uv as package manager and run through uv run. When you run some code in bash do not generate print out with "!
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/logging/SKILL.md
+Read and follow the instructions in .claude/skills/main/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
