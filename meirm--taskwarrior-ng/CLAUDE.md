@@ -1,24 +1,24 @@
-# analyze-product
+# create-spec
 
-> Analyze your product's codebase and install Agent OS
+> Create a detailed spec for a new feature with technical specifications and task breakdown
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/analyze-product/SKILL.md
+Read and follow the instructions in .claude/skills/create-spec/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Analyze Product
+# Create Spec
 
-Analyze your product's codebase and install Agent OS
+Create a detailed spec for a new feature with technical specifications and task breakdown
 
 Refer to the instructions located in this file:
-@.agent-os/instructions/core/analyze-product.md
+@.agent-os/instructions/core/create-spec.md
 
 ---
 > Source: [meirm/taskwarrior-ng](https://github.com/meirm/taskwarrior-ng) — distributed by [TomeVault](https://tomevault.io).
