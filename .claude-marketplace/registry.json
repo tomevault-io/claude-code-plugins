@@ -3159,6 +3159,11 @@
       "description": "Agent harness to publish your history from Claude Code et al. as Huggingface datasets. "
     },
     {
+      "name": "bethington--ghidra-mcp",
+      "source": "./bethington--ghidra-mcp",
+      "description": "Ghidra MCP Server \u2014 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker "
+    },
+    {
       "name": "always-further--nono",
       "source": "./always-further--nono",
       "description": "nono - a capability-based, multiplexing sandbox tool, built for developers - lift'n'shift seamless path to prod. Run agents securely without needing any additional infra, zero setup, zero latency. "
@@ -93177,6 +93182,11 @@
       "name": "stacklok--toolhive-cloud-ui",
       "source": "./stacklok--toolhive-cloud-ui",
       "description": "ToolHive Cloud UI surfaces MCP servers running in your infrastructure, highlighting metadata, tool capabilities, and copy-ready endpoints for fast AI agent integrations."
+    },
+    {
+      "name": "modulabs-personalab--psyctl",
+      "source": "./modulabs-personalab--psyctl",
+      "description": "psyctl"
     },
     {
       "name": "makenowjust--naraku",
