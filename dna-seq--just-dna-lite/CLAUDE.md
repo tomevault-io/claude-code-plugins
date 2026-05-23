@@ -1,13 +1,13 @@
-# main
+# structure
 
-> Always use typehints, do not use relative pathes, always use pathlib for files and typer for CLI. By default use uv as package manager and run through uv run. When you run some code in bash do not generate print out with "!
+> the project is uv-based, please use uv to run stuff!
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/main/SKILL.md
+Read and follow the instructions in .claude/skills/structure/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
