@@ -1,25 +1,26 @@
-# cargo-toml
+# doc
 
-> Cargo.tomlの編集方法
+> ドキュメントの記述方法
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cargo-toml/SKILL.md
+Read and follow the instructions in .claude/skills/doc/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# 依存関係の追加
+# 言葉の選び方
 
-- 直接依存関係を追加するのではなく、`cargo add <クレート名>` コマンドを使用します。
+- `McpServer` `McpClient` は型名を示し、 MCP Server, MCP Clientは型名ではなく、このcrateが実装するもの以外も含む、より一般的なMCPサーバやMCPクライアントの事を示します。
 
-# 依存バージョンの変更
 
-- 依存関係のバージョンを変更はしません。代わりに、バージョンの変更が必要な理由をユーザーに説明するだけにとどめます。
+# リンクの付け方
+
+- 
 
 ---
 > Source: [frozenlib/mcp-attr](https://github.com/frozenlib/mcp-attr) — distributed by [TomeVault](https://tomevault.io).
