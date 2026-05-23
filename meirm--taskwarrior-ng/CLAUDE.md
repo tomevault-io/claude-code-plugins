@@ -1,24 +1,24 @@
-# execute-tasks
+# plan-product
 
-> Execute the next task.
+> Plan a new product and install Agent OS in its codebase.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/execute-tasks/SKILL.md
+Read and follow the instructions in .claude/skills/plan-product/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Execute Task
+# Plan Product
 
-Execute the next task.
+Plan a new product and install Agent OS in its codebase.
 
 Refer to the instructions located in this file:
-@.agent-os/instructions/core/execute-tasks.md
+@.agent-os/instructions/core/plan-product.md
 
 ---
 > Source: [meirm/taskwarrior-ng](https://github.com/meirm/taskwarrior-ng) — distributed by [TomeVault](https://tomevault.io).
