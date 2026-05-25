@@ -1,4 +1,4 @@
-# agents-md
+# gemini-md
 
 > AGENTS.md is the single source of truth for this repo's agent guidance.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agents-md/SKILL.md
+Read and follow the instructions in .claude/skills/gemini-md/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
