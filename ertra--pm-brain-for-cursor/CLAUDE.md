@@ -1,0 +1,22 @@
+# pm-brain-doc-workflow
+
+> >-
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/pm-brain-doc-workflow/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# PM Brain workflow
+
+When the user asks for a product brief, PRD, internal feature announcement (IFA), or customer support/KB article in this repo, follow the canonical workflow in **[`AGENTS.md`](../../AGENTS.md)** (*Recommended flow*) and the feature-hub / skip rules in **[`02-templates/README.md`](../../02-templates/README.md)**.
+
+---
+> Source: [ertra/pm-brain-for-cursor](https://github.com/ertra/pm-brain-for-cursor) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-25 -->
