@@ -111514,6 +111514,11 @@
       "description": "specter"
     },
     {
+      "name": "cbioportal--cbioportal-mcp",
+      "source": "./cbioportal--cbioportal-mcp",
+      "description": "cbioportal-mcp"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -118347,6 +118352,16 @@
       "name": "yadokari1130--enderlink-lite",
       "source": "./yadokari1130--enderlink-lite",
       "description": "EnderLink-Lite"
+    },
+    {
+      "name": "sdeonvacation--opencode-x",
+      "source": "./sdeonvacation--opencode-x",
+      "description": "Open-source Claude Code alternative. Provider-agnostic, MIT licensed. Native Claude Code hook/plugin compatibility."
+    },
+    {
+      "name": "leostera--lintbook",
+      "source": "./leostera--lintbook",
+      "description": ":book: a fast, reproducible, flexible multi-language linter for the ai age"
     },
     {
       "name": "cheerhuan--save-your-token",
