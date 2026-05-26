@@ -1,4 +1,4 @@
-# vietnamese-notes-app
+# convex-rules
 
 > Guidelines and best practices for building Convex projects, including database schema design, queries, mutations, and real-world examples
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/vietnamese-notes-app/SKILL.md
+Read and follow the instructions in .claude/skills/convex-rules/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
