@@ -1,4 +1,4 @@
-# feldfreund-devkit
+# general
 
 > **Read these files before working:**
 
@@ -7,22 +7,28 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/feldfreund-devkit/SKILL.md
+Read and follow the instructions in .claude/skills/general/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GitHub Copilot Instructions
+
+# Cursor AI Quick Reference
 
 **Read these files before working:**
 
-1. [README.md](../README.md) - Project overview and setup
-2. [AGENTS.md](../AGENTS.md) - AI agent guidelines and code review instructions
-3. [CONTRIBUTING.md](../CONTRIBUTING.md) - Coding standards and workflow
+1. [README.md](../../README.md) - Project overview and setup
+2. [AGENTS.md](../../AGENTS.md) - AI agent guidelines and code review instructions
+3. [CONTRIBUTING.md](../../CONTRIBUTING.md) - Coding standards and workflow
 
----
+## Quick Reference
 
-> For detailed guidelines, review practices, and coding principles, see [AGENTS.md](../AGENTS.md).
+- Use single quotes in Python
+- 120 character line length
+- Think from first principles
+- Discuss significant changes before implementing
+- Keep code simple and self-explanatory
+- Write tests for new features
 
 ---
 > Source: [zauberzeug/feldfreund_devkit](https://github.com/zauberzeug/feldfreund_devkit) — distributed by [TomeVault](https://tomevault.io).
