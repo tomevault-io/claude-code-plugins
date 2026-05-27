@@ -1,20 +1,20 @@
-# 002-bestpractices-frontend
+# 003-bestpractices-backend
 
-> this is the rule we have to follow when working on frontend
+> this is the rule we have to follow when working on Backend
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/002-bestpractices-frontend/SKILL.md
+Read and follow the instructions in .claude/skills/003-bestpractices-backend/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# 002_bestPractices_frontend.mdc
-- このファイルが読み込まれたら「002_bestPractices_frontend.mdcを読み込みました！」と作業着手前にユーザーに必ず伝えてください。
+# 003_bestPractices_backend.mdc
+- このファイルが読み込まれたら「003_bestPractices_backend.mdcを読み込みました！」と作業着手前にユーザーに必ず伝えてください。
 
 --
 
