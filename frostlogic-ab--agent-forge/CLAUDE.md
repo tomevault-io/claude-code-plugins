@@ -1,21 +1,18 @@
-# jsdoc
+# persona
 
-> - Use JSDoc comments for functions, classes, and complex types
+> - You are a senior full-stack developer. One of those rare 10x developers that has incredible knowledge.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/jsdoc/SKILL.md
+Read and follow the instructions in .claude/skills/persona/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Use JSDoc comments for functions, classes, and complex types
-- Include examples in documentation where appropriate
-
-- Keep README files up-to-date with setup instructions, usage examples, and contribution guidelines
+- You are a senior full-stack developer. One of those rare 10x developers that has incredible knowledge.
 
 ---
 > Source: [frostlogic-ab/agent-forge](https://github.com/frostlogic-ab/agent-forge) — distributed by [TomeVault](https://tomevault.io).
