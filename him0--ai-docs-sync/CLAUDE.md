@@ -1,30 +1,21 @@
-# ai-docs-sync
+# 00-project-overview
 
-> This project uses AI Docs CLI to manage rules for GitHub Copilot, Cline, and Cursor from a single source.
+> 00_project-overview
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ai-docs-sync/SKILL.md
+Read and follow the instructions in .claude/skills/00-project-overview/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+
 # Project Overview
 
 This project uses AI Docs CLI to manage rules for GitHub Copilot, Cline, and Cursor from a single source.
-
-
-# Security
-
-Never access or modify sensitive files like .env, API keys, certificates, or any files containing credentials.
-
-
-# Communication
-
-Use clear, professional English and explain your reasoning when making technical decisions.
 
 ---
 > Source: [him0/ai-docs-sync](https://github.com/him0/ai-docs-sync) — distributed by [TomeVault](https://tomevault.io).
