@@ -1,0 +1,32 @@
+# citecheck
+
+> @./skills/citecheck/SKILL.md
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/citecheck/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+@./skills/citecheck/SKILL.md
+@./references/api-reference.md
+@./references/format-check-rules.md
+@./references/semantic-matching-prompt.md
+
+# Gemini-Specific Notes
+
+When using CiteCheck with Gemini CLI:
+
+- Install the Python package: `pip install CiteCheck`
+- For PDF support: `pip install CiteCheck[pdf]`
+- The `citecheck` CLI handles parsing, format checking, and queryability verification
+- Thematic and semantic relevance scoring should be performed directly by Gemini using the prompt templates in `references/semantic-matching-prompt.md`
+- No OpenAI API key is required; Gemini's own reasoning capabilities are sufficient for the matching steps
+
+---
+> Source: [color4-alt/CiteCheck](https://github.com/color4-alt/CiteCheck) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-27 -->
