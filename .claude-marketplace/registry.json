@@ -86424,6 +86424,11 @@
       "description": "mergeos"
     },
     {
+      "name": "openclaw--libopus-wasm",
+      "source": "./openclaw--libopus-wasm",
+      "description": "Small, modern WASM bindings for libopus raw packet encode/decode."
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
