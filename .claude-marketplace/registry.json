@@ -54334,6 +54334,11 @@
       "description": "Agent Communication Envelope and Utilities"
     },
     {
+      "name": "gofreelee--spaceserve",
+      "source": "./gofreelee--spaceserve",
+      "description": "SpaceServe"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -55332,6 +55337,16 @@
       "name": "rm-rfd--rm-sni-spoofer",
       "source": "./rm-rfd--rm-sni-spoofer",
       "description": "rm-sni-spoofer"
+    },
+    {
+      "name": "mk3008--rawsql-ts",
+      "source": "./mk3008--rawsql-ts",
+      "description": "SQL-first lifecycle toolkit for testing, inspecting, and evolving database applications."
+    },
+    {
+      "name": "ianmacartney--reactflow-demo",
+      "source": "./ianmacartney--reactflow-demo",
+      "description": "reactflow + convex example"
     },
     {
       "name": "mulhamna--jira-commands",
@@ -56667,6 +56682,11 @@
       "name": "wordflowlab--novel-writer-openspec",
       "source": "./wordflowlab--novel-writer-openspec",
       "description": "novel-write \u7684Openspec \u65b9\u6cd5\u8bba\u7248\u672c\u7684\u63a2\u7d22"
+    },
+    {
+      "name": "lakr233--alertcontroller",
+      "source": "./lakr233--alertcontroller",
+      "description": "Simple AlertViewController"
     },
     {
       "name": "khangbdd--phoenix",
@@ -58027,6 +58047,11 @@
       "name": "jrmybtlr--useclassy",
       "source": "./jrmybtlr--useclassy",
       "description": "Write classier Tailwind \ud83c\udfa9"
+    },
+    {
+      "name": "openathleteorg--openathlete",
+      "source": "./openathleteorg--openathlete",
+      "description": "The open-source European alternative to TrainingPeaks. Self-hostable endurance training platform. Your data stays yours."
     },
     {
       "name": "10xchengtu--mux0",
@@ -59512,6 +59537,26 @@
       "name": "microsoft--vscode-documentdb",
       "source": "./microsoft--vscode-documentdb",
       "description": "DocumentDB Extension for VS Code"
+    },
+    {
+      "name": "yym68686--uni-api-web",
+      "source": "./yym68686--uni-api-web",
+      "description": "uni-api web frontend"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "source": "./tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "source": "./tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository"
+    },
+    {
+      "name": "tumf--grafana-loki-mcp",
+      "source": "./tumf--grafana-loki-mcp",
+      "description": "Grafana Loki MCP Repository"
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -62544,6 +62589,26 @@
       "description": "tuvi-neo"
     },
     {
+      "name": "kv9898--positron-r-package-manager",
+      "source": "./kv9898--positron-r-package-manager",
+      "description": "Manage your R extensions from within Positron \u2014 the RStudio-style package manager for the modern data science IDE."
+    },
+    {
+      "name": "jlevy--kash",
+      "source": "./jlevy--kash",
+      "description": "The knowledge agent shell"
+    },
+    {
+      "name": "jlevy--kash",
+      "source": "./jlevy--kash",
+      "description": "The knowledge agent shell"
+    },
+    {
+      "name": "ismail-kattakath--nix-mcp-servers",
+      "source": "./ismail-kattakath--nix-mcp-servers",
+      "description": "A nix flake for configuring Model Context Protocol (MCP) servers across supported AI assistant clients"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -63972,6 +64037,11 @@
       "name": "jguimera--securitycopilotmcpserver",
       "source": "./jguimera--securitycopilotmcpserver",
       "description": "MCP Server that integrates with Security Copilot, Sentinel and other tools (in the future). It enhance the process of developing , testing and uploading Security Copilot artifacts. "
+    },
+    {
+      "name": "wujiabao77--shipany-template-one",
+      "source": "./wujiabao77--shipany-template-one",
+      "description": "nextjs-template"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -68019,6 +68089,11 @@
       "description": "General-purpose enterprise orchestrator on Google ADK + Vertex AI Agent Engine. Multi-agent system with risk tiers (R0-R4), policy gates, evidence bundles, and Mission Spec v1 workflows."
     },
     {
+      "name": "ronald-willems--dewarmte-homeassistant",
+      "source": "./ronald-willems--dewarmte-homeassistant",
+      "description": "Home Assistant Integration for DeWarmte Heatpump"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -69797,6 +69872,21 @@
       "name": "openbmb--forgetrain",
       "source": "./openbmb--forgetrain",
       "description": "ForgeTrain"
+    },
+    {
+      "name": "rm2thaddeus--pixel-detective",
+      "source": "./rm2thaddeus--pixel-detective",
+      "description": "A repository for the Pixel Detective project."
+    },
+    {
+      "name": "davis7dotsh--quick-svg-bg",
+      "source": "./davis7dotsh--quick-svg-bg",
+      "description": "Quickly add a background box to an svg. Super useful for making thumbnails"
+    },
+    {
+      "name": "amdresearch--intellikit",
+      "source": "./amdresearch--intellikit",
+      "description": "IntelliKit is a collection of intelligent tools designed to make GPU kernel development, profiling, and validation accessible to LLMs and human developers alike. Built for AMD ROCm, these tools provid"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -75829,6 +75919,46 @@
       "description": "Aster DEX and Hyperliquid trading bot. Bun-powered trend, maker, and offset-maker engines with Ink UI for Aster, GRVT, and Hyperliquid perpetual futures."
     },
     {
+      "name": "gigcymru--architecture",
+      "source": "./gigcymru--architecture",
+      "description": "NHS Wales Architecture"
+    },
+    {
+      "name": "ctrl-cheeb-del--playwright-extension",
+      "source": "./ctrl-cheeb-del--playwright-extension",
+      "description": "Chrome extension to record, import, and run playwright scripts directly in your browser"
+    },
+    {
+      "name": "gigcymru--architecture",
+      "source": "./gigcymru--architecture",
+      "description": "NHS Wales Architecture"
+    },
+    {
+      "name": "arclab-mit--beavr-app",
+      "source": "./arclab-mit--beavr-app",
+      "description": "BeaVR-app"
+    },
+    {
+      "name": "penxle--typie",
+      "source": "./penxle--typie",
+      "description": "\uc791\uac00\ub97c \uc704\ud55c \uc62c\uc778\uc6d0 \uae00\uc4f0\uae30 \ub3c4\uad6c"
+    },
+    {
+      "name": "nwiizo--3shake-marp-templates",
+      "source": "./nwiizo--3shake-marp-templates",
+      "description": "Collection of Marp-based presentation templates for 3-SHAKE. Features standardized designs, citation styles, and custom layouts for cloud-native technology and enterprise solution presentations, ensur"
+    },
+    {
+      "name": "phonepe--sentinel-ai",
+      "source": "./phonepe--sentinel-ai",
+      "description": "AI agent framework written in java"
+    },
+    {
+      "name": "nwiizo--3shake-marp-templates",
+      "source": "./nwiizo--3shake-marp-templates",
+      "description": "Collection of Marp-based presentation templates for 3-SHAKE. Features standardized designs, citation styles, and custom layouts for cloud-native technology and enterprise solution presentations, ensur"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -78324,6 +78454,36 @@
       "description": "Honcho persistent memory extension for pi coding agent"
     },
     {
+      "name": "jiangsi--cloudflare-workflow-rr7",
+      "source": "./jiangsi--cloudflare-workflow-rr7",
+      "description": "cloudflare-workflow-rr7"
+    },
+    {
+      "name": "tomer-w--ha-nmea2000",
+      "source": "./tomer-w--ha-nmea2000",
+      "description": "NMEA 2000 Home Assistant Integration"
+    },
+    {
+      "name": "chenglibiao--cursor-auto-rules-agile-workflow",
+      "source": "./chenglibiao--cursor-auto-rules-agile-workflow",
+      "description": "cursor-auto-rules-agile-workflow"
+    },
+    {
+      "name": "adamwulf--mcp-template",
+      "source": "./adamwulf--mcp-template",
+      "description": "A barebones MCP server implementation in Swift using loopwork-ai's mcp-swift-sdk."
+    },
+    {
+      "name": "atzufuki--html-props",
+      "source": "./atzufuki--html-props",
+      "description": "Props API for Web Components"
+    },
+    {
+      "name": "modelcontextprotocol-servers--google-search-mcp",
+      "source": "./modelcontextprotocol-servers--google-search-mcp",
+      "description": "google-search-mcp"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -80682,6 +80842,41 @@
       "name": "zhaojingru-ai--multimodal-interview-system",
       "source": "./zhaojingru-ai--multimodal-interview-system",
       "description": "Multimodal interview system with Coze workflow exports"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
+    },
+    {
+      "name": "frostlogic-ab--agent-forge",
+      "source": "./frostlogic-ab--agent-forge",
+      "description": "Agent Forge is a TypeScript framework for creating, configuring, and orchestrating AI agents that connect to LLMs (Large Language Models)"
     },
     {
       "name": "hyaway--hyaway",
@@ -83292,6 +83487,101 @@
       "name": "brotzky--performance-skills",
       "source": "./brotzky--performance-skills",
       "description": "performance-skills"
+    },
+    {
+      "name": "yandex--go-linters",
+      "source": "./yandex--go-linters",
+      "description": "Yandex battle proven set of Go static analyzers"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "source": "./him0--ai-docs-sync",
+      "description": "ai-docs-sync"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "source": "./rengod95--expo-template",
+      "description": "expo_template"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "source": "./rengod95--expo-template",
+      "description": "expo_template"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "source": "./rengod95--expo-template",
+      "description": "expo_template"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "source": "./rengod95--expo-template",
+      "description": "expo_template"
+    },
+    {
+      "name": "rengod95--expo-template",
+      "source": "./rengod95--expo-template",
+      "description": "expo_template"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "source": "./him0--ai-docs-sync",
+      "description": "ai-docs-sync"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "source": "./him0--ai-docs-sync",
+      "description": "ai-docs-sync"
+    },
+    {
+      "name": "him0--ai-docs-sync",
+      "source": "./him0--ai-docs-sync",
+      "description": "ai-docs-sync"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "source": "./datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "source": "./datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable"
+    },
+    {
+      "name": "datagrok-ai--mol-track",
+      "source": "./datagrok-ai--mol-track",
+      "description": "Chemical compound registration system: lightweight, flexible, hackable"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
+    },
+    {
+      "name": "whoisdsmith--smartfileorganizer",
+      "source": "./whoisdsmith--smartfileorganizer",
+      "description": "AI That Does File Shit For You!"
     },
     {
       "name": "mohiwalla--memes",
@@ -86547,6 +86837,91 @@
       "name": "openclaw--libopus-wasm",
       "source": "./openclaw--libopus-wasm",
       "description": "Small, modern WASM bindings for libopus raw packet encode/decode."
+    },
+    {
+      "name": "matthansen0--azure-ai-security-sandbox",
+      "source": "./matthansen0--azure-ai-security-sandbox",
+      "description": "Built on Bicep and AZD CLI, fully automated RAG chat app - AFD, APIM, ACA, AI Search, Azure Storage, Cosmos, and Azure Open AI with optional Defender Plans, and a full \"How it Works\" user learning gui"
+    },
+    {
+      "name": "asdev-official--shopsync",
+      "source": "./asdev-official--shopsync",
+      "description": "ShopSync is an app which lets you collaborate on shopping lists with family and friends."
+    },
+    {
+      "name": "matthansen0--azure-ai-security-sandbox",
+      "source": "./matthansen0--azure-ai-security-sandbox",
+      "description": "Built on Bicep and AZD CLI, fully automated RAG chat app - AFD, APIM, ACA, AI Search, Azure Storage, Cosmos, and Azure Open AI with optional Defender Plans, and a full \"How it Works\" user learning gui"
+    },
+    {
+      "name": "madskristensen--speak",
+      "source": "./madskristensen--speak",
+      "description": "A Visual Studio extension"
+    },
+    {
+      "name": "vizioz--teamwork-mcp",
+      "source": "./vizioz--teamwork-mcp",
+      "description": "MCP server to connect to the Teamwork API"
+    },
+    {
+      "name": "vizioz--teamwork-mcp",
+      "source": "./vizioz--teamwork-mcp",
+      "description": "MCP server to connect to the Teamwork API"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "dxheroes--mcp-devtools",
+      "source": "./dxheroes--mcp-devtools",
+      "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services"
+    },
+    {
+      "name": "hans-solodit--solodit-checklist-blog-examples",
+      "source": "./hans-solodit--solodit-checklist-blog-examples",
+      "description": "solodit-checklist-blog-examples"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -89892,6 +90267,11 @@
       "name": "spankygod--openstat",
       "source": "./spankygod--openstat",
       "description": "openstat"
+    },
+    {
+      "name": "leonardogrig--n8n-nodes-firecrawl-scraper",
+      "source": "./leonardogrig--n8n-nodes-firecrawl-scraper",
+      "description": "n8n-nodes-firecrawl-scraper"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -93587,6 +93967,31 @@
       "name": "jdubois--boot-ui",
       "source": "./jdubois--boot-ui",
       "description": "The missing developer UI for Spring Boot!"
+    },
+    {
+      "name": "phlowdotdev--phlow",
+      "source": "./phlowdotdev--phlow",
+      "description": "Phlow is a Low Code Rust runtime for modular backends \u2014 scalable, composable, and with native observability powered by OpenTelemetry."
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "source": "./dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "source": "./dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "source": "./dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model"
+    },
+    {
+      "name": "dvquy13--recsys-seq-model",
+      "source": "./dvquy13--recsys-seq-model",
+      "description": "recsys-seq-model"
     },
     {
       "name": "makenowjust--naraku",
@@ -98347,6 +98752,41 @@
       "name": "divitmittal--vim-cfg",
       "source": "./divitmittal--vim-cfg",
       "description": "Neovim & vim configurations for OS-nixCfg deployed via nix home-manager"
+    },
+    {
+      "name": "jinmo100--aiwriting",
+      "source": "./jinmo100--aiwriting",
+      "description": "\u4e00\u4e2a\u57fa\u4e8eSpring Boot\u548cAI\u5927\u8bed\u8a00\u6a21\u578b\u7684\u82f1\u8bed\u4f5c\u6587\u81ea\u52a8\u8bc4\u5206\u7cfb\u7edf\u3002\u7cfb\u7edf\u80fd\u591f\u5bf9\u82f1\u8bed\u4f5c\u6587\u8fdb\u884c\u667a\u80fd\u5206\u6790\uff0c\u63d0\u4f9b\u5206\u6570\u8bc4\u5b9a\u3001\u4f18\u70b9\u5206\u6790\u548c\u6539\u8fdb\u5efa\u8bae\u3002"
+    },
+    {
+      "name": "ensono--eirctl",
+      "source": "./ensono--eirctl",
+      "description": "The task runner for containers"
+    },
+    {
+      "name": "thavarshan--wisp",
+      "source": "./thavarshan--wisp",
+      "description": "\ud83d\udd10 Wisp is a simple and secure platform for sharing encrypted, one-time secrets via protected links that automatically expire."
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "source": "./farworld-labs--game-template",
+      "description": "game-template"
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "source": "./farworld-labs--game-template",
+      "description": "game-template"
+    },
+    {
+      "name": "farworld-labs--game-template",
+      "source": "./farworld-labs--game-template",
+      "description": "game-template"
+    },
+    {
+      "name": "thavarshan--wisp",
+      "source": "./thavarshan--wisp",
+      "description": "\ud83d\udd10 Wisp is a simple and secure platform for sharing encrypted, one-time secrets via protected links that automatically expire."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
