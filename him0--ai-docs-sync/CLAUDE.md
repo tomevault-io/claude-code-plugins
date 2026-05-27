@@ -1,21 +1,21 @@
-# 00-project-overview
+# 01-security
 
-> 00_project-overview
+> 01_security
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/00-project-overview/SKILL.md
+Read and follow the instructions in .claude/skills/01-security/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Project Overview
+# Security
 
-This project uses AI Docs CLI to manage rules for GitHub Copilot, Cline, and Cursor from a single source.
+Never access or modify sensitive files like .env, API keys, certificates, or any files containing credentials.
 
 ---
 > Source: [him0/ai-docs-sync](https://github.com/him0/ai-docs-sync) — distributed by [TomeVault](https://tomevault.io).
