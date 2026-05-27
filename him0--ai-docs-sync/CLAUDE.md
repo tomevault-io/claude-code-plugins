@@ -1,21 +1,21 @@
-# 01-security
+# 02-communication
 
-> 01_security
+> 02_communication
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/01-security/SKILL.md
+Read and follow the instructions in .claude/skills/02-communication/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Security
+# Communication
 
-Never access or modify sensitive files like .env, API keys, certificates, or any files containing credentials.
+Use clear, professional English and explain your reasoning when making technical decisions.
 
 ---
 > Source: [him0/ai-docs-sync](https://github.com/him0/ai-docs-sync) — distributed by [TomeVault](https://tomevault.io).
