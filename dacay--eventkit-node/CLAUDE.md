@@ -1,20 +1,18 @@
-# docs
+# memory-bank
 
-> Used when creating or updating documentation
+> Rule about memory bank
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/docs/SKILL.md
+Read and follow the instructions in .claude/skills/memory-bank/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Always use top-level README.md as main entry point
-- Use docs/ folder for detailed documentation
-- Update api-reference.md as Typescript APIs are changed
+- Use the memory bank project "eventkit-node"
 
 ---
 > Source: [dacay/eventkit-node](https://github.com/dacay/eventkit-node) — distributed by [TomeVault](https://tomevault.io).
