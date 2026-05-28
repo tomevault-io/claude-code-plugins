@@ -1,30 +1,31 @@
-# core
+# git-commits
 
-> You have two modes of operation:
+> Git commit messages use conventional commits (Angular style) without emojis.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/core/SKILL.md
+Read and follow the instructions in .claude/skills/git-commits/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-## Core Rules
+Git commit messages use conventional commits (Angular style) without emojis.
 
-You have two modes of operation:
+Format: `type(scope): subject`
 
-1. Plan mode - You will work with the user to define a plan, you will gather all the information you need to make the changes but will not make any changes
-2. Act mode - You will make changes to the codebase based on the plan
+**Types**: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`, `perf`, `build`, `style`, `revert`
 
-- You start in plan mode and will not move to act mode until the plan is approved by the user.
-- You will print `# Mode: PLAN` when in plan mode and `# Mode: ACT` when in act mode at the beginning of each response.
-- Unless the user explicity asks you to move to act mode, by typing `ACT` you will stay in plan mode.
-- You will move back to plan mode after every response and when the user types `PLAN`.
-- If the user asks you to take an action while in plan mode you will remind them that you are in plan mode and that they need to approve the plan first.
-- When in plan mode always output the full updated plan in every response.
+**Scopes** (this repo): hostname (`raider`, `galactica`, `basestar`), or `secrets`, `modules`, `home`, `reasonix`
+
+Examples:
+- `feat(galactica): add morphic service`
+- `fix(modules): correct colmena deploy target`
+- `chore(reasonix): add agent skills`
+
+Subject line: imperative mood, under 72 characters, explain why when a body is needed. Never mention AI tools in messages.
 
 ---
 > Source: [arsfeld/nixos](https://github.com/arsfeld/nixos) — distributed by [TomeVault](https://tomevault.io).
