@@ -72434,6 +72434,11 @@
       "description": "Homebridge plugin for Etekcity, Vesync, and Levoit smart devices"
     },
     {
+      "name": "gaspardpetit--wordai",
+      "source": "./gaspardpetit--wordai",
+      "description": "WordAI"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -79377,6 +79382,11 @@
       "name": "nibzard--ai-sandbox-benchmark",
       "source": "./nibzard--ai-sandbox-benchmark",
       "description": "ai-sandbox-benchmark"
+    },
+    {
+      "name": "shalev007--restbook",
+      "source": "./shalev007--restbook",
+      "description": "RestBook is an open-source CLI tool for orchestrating complex API workflows using simple YAML playbooks."
     },
     {
       "name": "vm--nila-code",
@@ -88024,6 +88034,21 @@
       "description": "A Rust TUI and Desktop app for exploring AI coding tool token and cost usage"
     },
     {
+      "name": "langchain4j--langchain4j-cdi",
+      "source": "./langchain4j--langchain4j-cdi",
+      "description": "Integrating langChain4J with CDI to be able to infuse applications with Ai seamlessly"
+    },
+    {
+      "name": "andriishramko--shramko-gopro13-control-app-for-multicamera-4dgs-3dgs-rigs",
+      "source": "./andriishramko--shramko-gopro13-control-app-for-multicamera-4dgs-3dgs-rigs",
+      "description": "Shramko GoPro13 Control App for multicamera 4dgs 3dgs rigs"
+    },
+    {
+      "name": "mai-with-u--docs",
+      "source": "./mai-with-u--docs",
+      "description": "\u9ea6\u9ea6\u6587\u6863\u4ed3\u5e93"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -91487,6 +91512,11 @@
       "name": "xingwangzhe--rustedwarfaremodsupport",
       "source": "./xingwangzhe--rustedwarfaremodsupport",
       "description": "\u6b63\u5728\u5f00\u53d1\u7684vscode\u63d2\u4ef6,\u5e0c\u671b\u5b9e\u73b0\u4ee3\u7801\u8865\u5168\u63d0\u793a,\u53ef\u89c6\u5316\u56fe\u7247\u7b49.."
+    },
+    {
+      "name": "beryex--ml4investment",
+      "source": "./beryex--ml4investment",
+      "description": "ML4I: Predict next-day US stock price movements with a LightGBM-powered framework"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -95352,6 +95382,26 @@
       "name": "onlyterp--prompt-cache-skills",
       "source": "./onlyterp--prompt-cache-skills",
       "description": "Drop-in prompt-caching fixes for the LLM agent harness you use. Point your AI coding agent at this repo and it ships the patches."
+    },
+    {
+      "name": "jeffreybaird--ordered-collections",
+      "source": "./jeffreybaird--ordered-collections",
+      "description": "SortedMap and SortedSet for elixir"
+    },
+    {
+      "name": "mhayes853--javascript-core-extras",
+      "source": "./mhayes853--javascript-core-extras",
+      "description": "Extra enhancements and pollyfills for working with JavaScriptCore and Swift."
+    },
+    {
+      "name": "btahir--hacky-experiments",
+      "source": "./btahir--hacky-experiments",
+      "description": "An open source playground for my experiments"
+    },
+    {
+      "name": "btahir--hacky-experiments",
+      "source": "./btahir--hacky-experiments",
+      "description": "An open source playground for my experiments"
     },
     {
       "name": "makenowjust--naraku",
@@ -100262,6 +100312,66 @@
       "name": "harleycoops--stoneynakoda",
       "source": "./harleycoops--stoneynakoda",
       "description": "A locally trained model of Stoney Nakoda has been developed and released. You can access the working model here or train your own instance. "
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "openvidu--openvidu-meet",
+      "source": "./openvidu--openvidu-meet",
+      "description": "Host and customize your own high-quality video calling service in minutes"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "upsun--whatsun",
+      "source": "./upsun--whatsun",
+      "description": "A code analysis tool and library: generate a repository digest for LLM context"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "hkniberg--ainutshell-translations",
+      "source": "./hkniberg--ainutshell-translations",
+      "description": "All translations of the book Generative AI in a Nutshell"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
+    },
+    {
+      "name": "pylarco--diff-apply",
+      "source": "./pylarco--diff-apply",
+      "description": "diff-apply"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -113849,6 +113959,31 @@
       "description": "ubiblk"
     },
     {
+      "name": "shubble-llc--shubble",
+      "source": "./shubble-llc--shubble",
+      "description": "shubble"
+    },
+    {
+      "name": "not0kkinex--oslide2",
+      "source": "./not0kkinex--oslide2",
+      "description": "oSlide2"
+    },
+    {
+      "name": "kracozebr--agent-skill-mermaid-diagrams",
+      "source": "./kracozebr--agent-skill-mermaid-diagrams",
+      "description": "agent-skill-mermaid-diagrams"
+    },
+    {
+      "name": "divitmittal--hs-faust",
+      "source": "./divitmittal--hs-faust",
+      "description": "Haskell DSL wrapper for writing DSP files utilizing the Faust's Signal API & Compiler"
+    },
+    {
+      "name": "hungson175--wm-mcp",
+      "source": "./hungson175--wm-mcp",
+      "description": "WM_MCP"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -120917,6 +121052,41 @@
       "name": "top3d-ai--world-builder",
       "source": "./top3d-ai--world-builder",
       "description": "Get a full interactive 3D scene assembled in Blender"
+    },
+    {
+      "name": "clpuyir--hiveyesh",
+      "source": "./clpuyir--hiveyesh",
+      "description": "HIVEYESH"
+    },
+    {
+      "name": "bonkey--awaitlesskit",
+      "source": "./bonkey--awaitlesskit",
+      "description": "Simplifies the migration to async/await. It likely performs better than your ad hoc hacks."
+    },
+    {
+      "name": "nickna--conduit",
+      "source": "./nickna--conduit",
+      "description": "A unified API gateway for multiple LLM providers with OpenAI-compatible endpoints"
+    },
+    {
+      "name": "klaviyo--klaviyo-expo-plugin",
+      "source": "./klaviyo--klaviyo-expo-plugin",
+      "description": "Expo support for our klaviyo-react-native SDK"
+    },
+    {
+      "name": "samcday--rokkitpokkit",
+      "source": "./samcday--rokkitpokkit",
+      "description": "rokkitpokkit"
+    },
+    {
+      "name": "bonkey--awaitlesskit",
+      "source": "./bonkey--awaitlesskit",
+      "description": "Simplifies the migration to async/await. It likely performs better than your ad hoc hacks."
+    },
+    {
+      "name": "lucyyang1991--cuttag-rna-seq",
+      "source": "./lucyyang1991--cuttag-rna-seq",
+      "description": "Cuttag_RNA-seq"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -206622,6 +206792,31 @@
       "name": "tyson-hu--food-scanner-app",
       "source": "./tyson-hu--food-scanner-app",
       "description": "Food-Scanner-App"
+    },
+    {
+      "name": "georgex3400--adpilotai-backend",
+      "source": "./georgex3400--adpilotai-backend",
+      "description": "adpilotai-backend"
+    },
+    {
+      "name": "henderj--home-server-site",
+      "source": "./henderj--home-server-site",
+      "description": "home-server-site"
+    },
+    {
+      "name": "schwoader1227--skills-build-applications-w-copilot-agent-mode",
+      "source": "./schwoader1227--skills-build-applications-w-copilot-agent-mode",
+      "description": "Exercise: Build my application with Copilot agent mode"
+    },
+    {
+      "name": "pawel-kuznik--underhive-bookies",
+      "source": "./pawel-kuznik--underhive-bookies",
+      "description": "underhive-bookies"
+    },
+    {
+      "name": "pawel-kuznik--underhive-bookies",
+      "source": "./pawel-kuznik--underhive-bookies",
+      "description": "underhive-bookies"
     }
   ]
 }
