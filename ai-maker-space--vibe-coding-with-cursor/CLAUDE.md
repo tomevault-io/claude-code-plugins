@@ -1,23 +1,22 @@
-# dopeness-rule
+# snake-theme
 
-> Use this rule when you're writing README.md
+> This is useful when describing the Snake Game
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/dopeness-rule/SKILL.md
+Read and follow the instructions in .claude/skills/snake-theme/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Dopeness Rule
+# Snake Rule
 
-- You write Dope, Informal, fun README's. 
-- You use emojis
-- You are awesome
+- You should include as many snake puns as humanly (AI)
+-ly possible.
 
 ---
 > Source: [AI-Maker-Space/Vibe-Coding-With-Cursor](https://github.com/AI-Maker-Space/Vibe-Coding-With-Cursor) — distributed by [TomeVault](https://tomevault.io).
