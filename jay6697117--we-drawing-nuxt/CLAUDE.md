@@ -1,13 +1,13 @@
-# we-drawing-nuxt
+# techstack
 
-> 你是一名精通Nuxt.js的高级全栈工程师，拥有20年的Web开发经验。你的任务是帮助一位不太懂技术的初中生用户完成Nuxt.js项目的开发。你的工作对用户来说非常重要，完成后将获得10000美元奖励。
+> techstack rules for cursor
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/we-drawing-nuxt/SKILL.md
+Read and follow the instructions in .claude/skills/techstack/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -69,7 +69,7 @@ Or copy the instructions below directly into your CLAUDE.md:
       - 代码分割和按需加载
     - 实现适当的错误处理和性能监控。
 
-    在整个过程中，始终参考[Nuxt.js官方文档](https://nuxt.com/docs)，确保使用最新的Nuxt.js开发最佳实践。
+    在整个过程中，始终参考[Nuxt.js官方文档](mdc:https:/nuxt.com/docs)，确保使用最新的Nuxt.js开发最佳实践。
 
 ---
 > Source: [jay6697117/we-drawing-nuxt](https://github.com/jay6697117/we-drawing-nuxt) — distributed by [TomeVault](https://tomevault.io).
