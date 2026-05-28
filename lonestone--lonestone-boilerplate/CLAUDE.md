@@ -1,23 +1,19 @@
-# 5-migrations
+# 6-documentation
 
-> Working or creating database migrations
+> Writing documentation
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/5-migrations/SKILL.md
+Read and follow the instructions in .claude/skills/6-documentation/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Migrations should be created using the `mikro-orm` CLI, after modifying any entity file.
 
-```bash
-cd apps/api
-pnpm db:migrate:create
-```
+When writing documentation, always check the following files for guidelines: [apps/documentation/src/content/docs/references/0_documentation.mdx](../../apps/documentation/src/content/docs/references/0_documentation.mdx)
 
 ---
 > Source: [lonestone/lonestone-boilerplate](https://github.com/lonestone/lonestone-boilerplate) — distributed by [TomeVault](https://tomevault.io).
