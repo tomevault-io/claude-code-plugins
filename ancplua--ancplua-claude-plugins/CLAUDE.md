@@ -1,4 +1,4 @@
-# gemini-md
+# agents-md
 
 > AGENTS.md is the single source of truth for this repo's agent guidance.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/gemini-md/SKILL.md
+Read and follow the instructions in .claude/skills/agents-md/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -42,8 +42,8 @@ Or copy the instructions below directly into your CLAUDE.md:
 # Agent Operating Guide — ancplua-claude-plugins
 
 > Sources: Boris Cherny (@bcherny) + Thariq (@trq212), 2026-04-16; Claude Opus 4.7 System Card (Anthropic, 2026-04-16,
-> 232 pp.).  
-> All System Card citations are to the April 16 2026 edition; page numbers are stable.
+> 232 pp.) — the most recent published card. Opus 4.8 builds directly on 4.7, so its safety and behavior findings still apply.  
+> All System Card citations are to the April 16 2026 (4.7) edition; page numbers are stable. No 4.8 System Card has been published.
 
 ---
 
@@ -51,7 +51,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 | Setting                                    | Value               | Why                                                                              |
 |--------------------------------------------|---------------------|----------------------------------------------------------------------------------|
-| Model                                      | Claude Opus 4.7     | —                                                                                |
+| Model                                      | Claude Opus 4.8     | —                                                                                |
 | `effortLevel` / `CLAUDE_CODE_EFFORT_LEVEL` | `max`               | System Card p.192: "standard configuration: **adaptive thinking at max effort**" |
 | `defaultMode`                              | `bypassPermissions` | Standing-authority repos; see Permission model below                             |
 | `autoCompactEnabled`                       | `false`             | Every `/compact` is intentional — never silent                                   |
@@ -105,7 +105,7 @@ hard rule. File reads are the heavy hitter. Compact proactively, before the clif
 
 ## Known failure modes (System Card §6.2.1, p.95)
 
-These are documented pilot-use findings for Opus 4.7 in Claude Code and similar scaffolds.
+These are documented pilot-use findings for Opus 4.7 (which 4.8 builds on) in Claude Code and similar scaffolds.
 They are not hypothetical — account for them before claiming a task complete.
 
 | Failure mode                                                                            | Mitigation                                                                              |
@@ -225,15 +225,5 @@ For policy details, see [`automation/policy.md`](automation/policy.md).
 For the runner overview, see [`automation/README.md`](automation/README.md).
 
 ---
-
-## Fork audit — hookify
-
-`plugins/hookify/` is a fork of `anthropics/claude-plugins-official/plugins/hookify`.
-The line between upstream and fork is documented in
-[`plugins/hookify/FORK.md`](plugins/hookify/FORK.md); regenerate the
-byte-level diff with `scripts/fork-diff` (`--stat`, `--name-status`, or
-`-- <subpath>` for slices).
-
----
 > Source: [ANcpLua/ancplua-claude-plugins](https://github.com/ANcpLua/ancplua-claude-plugins) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-25 -->
+<!-- tomevault:4.0:claude_md:2026-05-28 -->
