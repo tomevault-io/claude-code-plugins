@@ -1,18 +1,39 @@
-# transcribo-frontend
+# typescript
 
-> 1. **Use Composition API exclusively**
+> Instead of npm I am using bun. Therefore use bun for tool calls.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/transcribo-frontend/SKILL.md
+Read and follow the instructions in .claude/skills/typescript/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 ## Nuxt with TypeScript Copilot Instructions
+
+Instead of npm I am using bun. Therefore use bun for tool calls.
+
+Always preferr nuxt ui components over custom one.
+
+We use nuxt with auto import functionality.
+
+You can use bun check to check for errors in the code.
+
+Use nativ tailwind 3 css.
+
+You have access to context7 to fetch up to date documentation on libraries and frameworks.
+
+Never use any type. Prefer unknown type.
+
+Never use NonNullAssertion:
+non-null assertions using the ! postfix operator are not allowed.
+TypeScripts ! non-null assertion operator asserts to the type system that an expression is non-nullable, as in not null or undefined. Using assertions to tell the type system new information is often a sign that code is not fully type-safe. Its generally better to structure program logic so that TypeScript understands when values may be nullable.
+
+
+Nuxt provides auto import functionality. 
 
 1. **Use Composition API exclusively**
    Always use the Composition API style for components and composables.
