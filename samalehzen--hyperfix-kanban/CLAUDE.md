@@ -1,348 +1,96 @@
-# development-conventions
+# project-overview
 
-> Development conventions, code style, and best practices for the HyperFix project
+> Overview of the HyperFix project structure, architecture, and key technologies
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/development-conventions/SKILL.md
+Read and follow the instructions in .claude/skills/project-overview/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Development Conventions
+# Project Overview
 
-This document outlines coding standards, conventions, and best practices for the HyperFix project.
+HyperFix is a self-hosted project management platform built with a focus on simplicity and performance. This document provides an overview of the project structure and architecture.
 
-## Code Style
+## Project Structure
 
-### Biome Configuration
-
-HyperFix uses **Biome** for linting and formatting. Configuration is in `biome.json`.
-
-#### Formatting Rules
-
-- **Indentation**: Tabs (not spaces) for TypeScript/TSX
-- **JavaScript**: Spaces for indentation (legacy support)
-- **Quote Style**: Double quotes (`"`)
-- **Semicolons**: Required
-
-```typescript
-// Good: Tabs, double quotes, semicolons
-function example() {
-	const value = "hello";
-	return value;
-}
-
-// Bad: Spaces, single quotes, no semicolons
-function example() {
-  const value = 'hello'
-  return value
-}
-```
-
-#### Linting Rules
-
-Key Biome rules enabled:
-
-- `noParameterAssign`: Don't reassign function parameters
-- `useAsConstAssertion`: Use `as const` for literal types
-- `useDefaultParameterLast`: Default parameters must be last
-- `useSelfClosingElements`: Use self-closing JSX elements
-- `useSingleVarDeclarator`: One variable per declaration
-- `noInferrableTypes`: Don't add explicit types that can be inferred
-
-```typescript
-// Good: Follows Biome rules
-const items = ["a", "b"] as const;
-function greet(name: string, greeting = "Hello") {
-	return `${greeting}, ${name}`;
-}
-const x = 1;
-const y = 2;
-
-// Bad: Violates Biome rules
-const items: string[] = ["a", "b"];
-function greet(greeting = "Hello", name: string) {
-	return `${greeting}, ${name}`;
-}
-const x = 1, y = 2;
-```
-
-### Running Linter
-
-```bash
-# Check and auto-fix
-pnpm lint
-
-# Check only (no fixes)
-pnpm biome check .
-```
-
-## TypeScript Conventions
-
-### Type Definitions
-
-- **Types**: Prefer types for all type definitions (object shapes, unions, intersections, computed types)
-- **Interfaces**: Only use interfaces when extending/merging is needed (rare)
-- **Inference**: Prefer type inference when types are obvious
-
-```typescript
-// Good: Type for object shape
-type Task = {
-	id: string;
-	title: string;
-	status: string;
-};
-
-// Good: Type for union
-type Status = "to-do" | "in-progress" | "done";
-
-// Good: Type inference
-const tasks: Task[] = []; // Explicit for arrays
-const count = tasks.length; // Inferred
-```
-
-### File Naming
-
-- **Components**: PascalCase: `TaskCard.tsx`
-- **Utilities**: kebab-case: `format-date.ts`
-- **Hooks**: camelCase with `use` prefix: `use-task.ts`
-- **Types**: kebab-case: `task-types.ts`
+HyperFix is organized as a **monorepo** using pnpm workspaces:
 
 ```
-components/
-├── TaskCard.tsx          # Component
-├── task-card.tsx         # Also acceptable
-└── utils/
-    └── format-date.ts   # Utility function
+hyperfix/
+├── apps/
+│   ├── api/          # Backend API (Hono/Node.js)
+│   ├── docs/         # Documentation site (Next.js)
+│   └── web/          # Frontend app (React/Vite)
+├── packages/         # Shared code and configs
+│   ├── email/        # Email utilities
+│   ├── libs/         # Shared libraries
+│   └── typescript-config/  # TypeScript configurations
+├── charts/           # Kubernetes Helm charts
+├── .cursor/          # Cursor IDE rules
+└── compose.yml       # Docker Compose configuration
 ```
 
-## Git Conventions
+## Technology Stack
 
-### Commit Messages
+### Backend (API)
+- **Framework**: Hono (lightweight web framework)
+- **Runtime**: Node.js
+- **Database**: PostgreSQL with Drizzle ORM
+- **Authentication**: Better Auth
+- **Validation**: Valibot
+- **API Documentation**: OpenAPI (hono-openapi)
+- **Build Tool**: esbuild
 
-Use [Conventional Commits](https://www.conventionalcommits.org/):
+### Frontend (Web)
+- **Framework**: React 18+
+- **Routing**: TanStack Router
+- **Data Fetching**: TanStack Query (React Query)
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom component library
 
-```
-<type>: <description>
+### Development Tools
+- **Package Manager**: pnpm
+- **Linting/Formatting**: Biome
+- **TypeScript**: Strict mode enabled
+- **Git Hooks**: Husky
 
-[optional body]
+## Key Principles
 
-[optional footer]
-```
+1. **Simplicity First**: Features exist to solve real problems, not to impress
+2. **Performance**: Fast load times and responsive interactions
+3. **Self-Hosted**: Your data stays yours
+4. **Open Source**: Free forever, MIT licensed
 
-#### Commit Types
+## Development Workflow
 
-- `feat:` - New features
-- `fix:` - Bug fixes
-- `docs:` - Documentation changes
-- `refactor:` - Code refactoring (no feature/fix)
-- `test:` - Adding or updating tests
-- `chore:` - Maintenance tasks (deps, config, etc.)
-- `style:` - Code style changes (formatting, etc.)
+1. **Install dependencies**: `pnpm install`
+2. **Start development**: `pnpm dev` (starts both API and web)
+3. **Lint code**: `pnpm lint` (runs Biome)
+4. **Database migrations**: `pnpm --filter @hyperfix/api db:generate` and `db:migrate`
 
-#### Examples
+## Environment Setup
 
-```bash
-feat: add bulk task operations
-fix: resolve calendar date selection bug
-docs: update deployment guide
-refactor: simplify task controller logic
-chore: update dependencies
-```
+All environment variables are configured in a single `.env` file at the project root. See `ENVIRONMENT_SETUP.md` for detailed configuration instructions.
 
-### Branch Naming
+## Deployment
 
-Use descriptive branch names with prefixes:
+- **Docker Compose**: Quick setup for development/testing
+- **Kubernetes**: Production-ready Helm charts in `charts/`
+- **Self-Hosted**: Designed to run on your infrastructure
 
-- `feat/` - New features
-- `fix/` - Bug fixes
-- `docs/` - Documentation
-- `refactor/` - Refactoring
-- `chore/` - Maintenance
+## Contributing
 
-```bash
-feat/bulk-task-operations
-fix/calendar-date-bug
-docs/update-deployment-guide
-```
-
-## Import Organization
-
-Biome automatically organizes imports. Follow these patterns:
-
-### Import Order
-
-1. External packages
-2. Internal packages (`@/` aliases)
-3. Relative imports
-
-```typescript
-// Good: Organized imports
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
-import { Button } from "@/components/ui/button";
-import { TaskCard } from "./task-card";
-```
-
-### Import Style
-
-- Use named imports when possible
-- Group related imports
-- Remove unused imports (Biome does this automatically)
-
-```typescript
-// Good: Named imports
-import { useState, useEffect } from "react";
-import { Button, Input } from "@/components/ui";
-
-// Avoid: Default imports when named available
-import React from "react"; // Prefer named imports
-```
-
-## File Structure
-
-### Component Files
-
-```typescript
-// 1. Imports (external, then internal)
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-
-// 2. Types
-type ComponentProps = {
-	title: string;
-};
-
-// 3. Component
-export function Component({ title }: ComponentProps) {
-	// Implementation
-}
-
-// 4. Exports (if needed)
-export default Component;
-```
-
-### API Controller Files
-
-```typescript
-// 1. Imports
-import db from "../../database";
-import { taskTable } from "../../database/schema";
-
-// 2. Function
-export default async function getTask(id: string) {
-	// Implementation
-}
-```
-
-## Error Handling
-
-### Backend
-
-Use Hono's HTTPException:
-
-```typescript
-import { HTTPException } from "hono/http-exception";
-
-if (!task) {
-	throw new HTTPException(404, { message: "Task not found" });
-}
-```
-
-### Frontend
-
-Use try-catch with user-friendly messages:
-
-```typescript
-import { toast } from "sonner";
-
-try {
-	await updateTask(taskId, data);
-	toast.success("Task updated");
-} catch (error) {
-	toast.error(
-		error instanceof Error ? error.message : "Failed to update task",
-	);
-}
-```
-
-## Testing
-
-### Test Structure
-
-```typescript
-describe("Feature", () => {
-	it("should do something", () => {
-		// Arrange
-		const input = "test";
-
-		// Act
-		const result = functionUnderTest(input);
-
-		// Assert
-		expect(result).toBe("expected");
-	});
-});
-```
-
-## Documentation
-
-### Code Comments
-
-- **Why, not what**: Explain reasoning, not obvious code
-- **Complex logic**: Comment complex algorithms or business rules
-- **TODOs**: Use `// TODO: description` for future work
-
-```typescript
-// Good: Explains why
-// Use CUID2 instead of UUID for better database performance
-const id = createId();
-
-// Bad: States the obvious
-// Create an ID
-const id = createId();
-```
-
-### README Files
-
-- Keep README files updated
-- Include setup instructions
-- Document environment variables
-- Provide examples
-
-## Environment Variables
-
-- **Single `.env` file**: All variables in project root
-- **Documentation**: Document all variables in `ENVIRONMENT_SETUP.md`
-- **Never commit**: `.env` files are gitignored
-- **Defaults**: Provide sensible defaults in code when possible
-
-## Performance
-
-### Backend
-
-- Use database indexes for frequently queried columns
-- Limit query results with pagination
-- Use transactions for multi-step operations
-
-### Frontend
-
-- Use React Query for caching and data fetching
-- Implement proper loading states
-- Lazy load routes when possible
-- Optimize images and assets
-
-## Security
-
-- **Never commit secrets**: Use environment variables
-- **Validate inputs**: Always validate user input (Valibot on backend)
-- **Sanitize outputs**: Sanitize data before rendering
-- **Authentication**: Always check authentication in protected routes
-- **Authorization**: Verify user permissions before operations
+See `CONTRIBUTING.md` for guidelines on:
+- Code style (Biome configuration)
+- Commit messages (Conventional Commits)
+- Project structure conventions
+- Getting help
 
 ---
 > Source: [SamalehZen/HyperFix-Kanban](https://github.com/SamalehZen/HyperFix-Kanban) — distributed by [TomeVault](https://tomevault.io).
