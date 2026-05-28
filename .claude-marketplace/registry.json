@@ -47529,6 +47529,11 @@
       "description": "A constrainable continuator. Applications to music (mostly), text, chords, etc."
     },
     {
+      "name": "morpho-org--midnight",
+      "source": "./morpho-org--midnight",
+      "description": "midnight"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -79494,6 +79499,11 @@
       "description": "php-toolkit"
     },
     {
+      "name": "vxltersmith--lyri",
+      "source": "./vxltersmith--lyri",
+      "description": "AI tool for musical audio and lyrics processing"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -81977,6 +81987,11 @@
       "name": "o3dotdev--o3-code",
       "source": "./o3dotdev--o3-code",
       "description": "O3 Code brings the Codex desktop experience to a local browser with bridge-powered access to your Mac, workspace, tools, and running agent sessions."
+    },
+    {
+      "name": "bjornmelin--stardex",
+      "source": "./bjornmelin--stardex",
+      "description": "\ud83c\udf1f Stardex: Explore GitHub Stars Intelligently. Stardex is a powerful web app that lets you search, filter, and cluster any GitHub user's starred repositories. Discover hidden patterns and find your ne"
     },
     {
       "name": "hyaway--hyaway",
@@ -84772,6 +84787,11 @@
       "name": "event-catalog--generators",
       "source": "./event-catalog--generators",
       "description": "Plugin integrations for EventCatalog"
+    },
+    {
+      "name": "dschewchenko--permask",
+      "source": "./dschewchenko--permask",
+      "description": "A lightweight utility library for managing permission bitmasks with groups and access levels"
     },
     {
       "name": "mohiwalla--memes",
@@ -91744,6 +91764,16 @@
       "description": "Deep dive into the React ecosystem"
     },
     {
+      "name": "zowe--zowex",
+      "source": "./zowe--zowex",
+      "description": "Open-source, native code for z/OS mainframe operations usable via source, DLLs, native CLI (zowex), or callable over SSH via JSON-RPC."
+    },
+    {
+      "name": "orenoid--yeeks",
+      "source": "./orenoid--yeeks",
+      "description": "Your year in weeks."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -95667,6 +95697,21 @@
       "name": "andunhh--dew-point-ventilation-zigbee",
       "source": "./andunhh--dew-point-ventilation-zigbee",
       "description": "Dew Point Ventilation based on Zigbee with ESP32C6"
+    },
+    {
+      "name": "reduction-dev--reduction",
+      "source": "./reduction-dev--reduction",
+      "description": "Stateful stream engine for software engineers"
+    },
+    {
+      "name": "moonladderstudios--moonmind",
+      "source": "./moonladderstudios--moonmind",
+      "description": "Run Claude Code and Codex with superior safety, resiliency, and observability."
+    },
+    {
+      "name": "moonladderstudios--moonmind",
+      "source": "./moonladderstudios--moonmind",
+      "description": "Run Claude Code and Codex with superior safety, resiliency, and observability."
     },
     {
       "name": "makenowjust--naraku",
@@ -100732,6 +100777,21 @@
       "name": "kellylford--image-description-toolkit",
       "source": "./kellylford--image-description-toolkit",
       "description": "Experimental tools for image description interaction."
+    },
+    {
+      "name": "openanolis--trustee",
+      "source": "./openanolis--trustee",
+      "description": "trustee"
+    },
+    {
+      "name": "tdeck--3dmake",
+      "source": "./tdeck--3dmake",
+      "description": "Non-visual 3D design and 3D printing tool"
+    },
+    {
+      "name": "co-cddo--gds-idea-llmbo",
+      "source": "./co-cddo--gds-idea-llmbo",
+      "description": "gds-idea-llmbo"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -114464,6 +114524,131 @@
       "description": "\ud83d\udce6 Unified Package Manager for Node.js (npm, yarn, pnpm)"
     },
     {
+      "name": "netapp--innovation-labs",
+      "source": "./netapp--innovation-labs",
+      "description": "Early Access to NetApp Innovation Software | https://netapp.github.io/Innovation-Labs/"
+    },
+    {
+      "name": "hssqz--a-share-technical-genius",
+      "source": "./hssqz--a-share-technical-genius",
+      "description": "\u6167\u773c\u8bc6\u80a1\uff1a\u60a8\u7684\u667a\u80fd\u80a1\u7968\u5206\u6790\u52a9\u624b\uff0c\u5229\u7528 AI \u89e3\u8bfb Tushare Pro \u6570\u636e\uff0c\u52a9\u60a8\u8f7b\u677e\u770b\u61c2\u80a1\u5e02\uff0c\u628a\u63e1\u6295\u8d44\u673a\u9047\u3002"
+    },
+    {
+      "name": "apache--superset-kubernetes-operator",
+      "source": "./apache--superset-kubernetes-operator",
+      "description": "Apache Superset Kubernetes Operator"
+    },
+    {
+      "name": "klirix--albedo",
+      "source": "./klirix--albedo",
+      "description": "albedo"
+    },
+    {
+      "name": "platzi--cursor-ai",
+      "source": "./platzi--cursor-ai",
+      "description": "cursor-ai"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "source": "./dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH"
+    },
+    {
+      "name": "r44vc0rp--qr-exon-dev",
+      "source": "./r44vc0rp--qr-exon-dev",
+      "description": "qr codes, made easier, without the hassle!"
+    },
+    {
+      "name": "kolosalai--kolosal-automl",
+      "source": "./kolosalai--kolosal-automl",
+      "description": "Genta Auto-ML, develop your own machine learning development progress"
+    },
+    {
+      "name": "mona-actions--gh-repo-stats-plus",
+      "source": "./mona-actions--gh-repo-stats-plus",
+      "description": "TypeScript version of repo-stats to collect statistics from GitHub repositories, organizations, and enterprises"
+    },
+    {
+      "name": "schibum--camnc",
+      "source": "./schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed"
+    },
+    {
+      "name": "schibum--camnc",
+      "source": "./schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "source": "./dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH"
+    },
+    {
+      "name": "dojoengine--katana",
+      "source": "./dojoengine--katana",
+      "description": "High-performant sequencer for Dojo"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "source": "./dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH"
+    },
+    {
+      "name": "januarylabs--sdk-it",
+      "source": "./januarylabs--sdk-it",
+      "description": "SDK-IT generates type-safe client SDKs from OpenAPI specifications and creates OpenAPI specs from TypeScript code."
+    },
+    {
+      "name": "platzi--cursor-ai",
+      "source": "./platzi--cursor-ai",
+      "description": "cursor-ai"
+    },
+    {
+      "name": "klirix--albedo",
+      "source": "./klirix--albedo",
+      "description": "albedo"
+    },
+    {
+      "name": "schibum--camnc",
+      "source": "./schibum--camnc",
+      "description": "web app that visualizes CNC G-code on a live camera feed"
+    },
+    {
+      "name": "luckenco--rsai",
+      "source": "./luckenco--rsai",
+      "description": "Predictable development for unpredictable models. Let the compiler handle the chaos."
+    },
+    {
+      "name": "ender-wiggin2019--seti",
+      "source": "./ender-wiggin2019--seti",
+      "description": "card list website for board game SETI"
+    },
+    {
+      "name": "astrovm--ytmusicfs",
+      "source": "./astrovm--ytmusicfs",
+      "description": "YouTube Music FUSE Filesystem"
+    },
+    {
+      "name": "dcc-bs--transcribo-frontend",
+      "source": "./dcc-bs--transcribo-frontend",
+      "description": "NuxtJS web application to transcribe audios and videos with editor, export and summary functionallity. Inspired by machinelearningZH"
+    },
+    {
+      "name": "darkstarstrix--pyc",
+      "source": "./darkstarstrix--pyc",
+      "description": "A AI compiler ToolChain Infrastructure "
+    },
+    {
+      "name": "jonaylor89--freqmoda",
+      "source": "./jonaylor89--freqmoda",
+      "description": "audio editing server and playground"
+    },
+    {
+      "name": "apache--superset-kubernetes-operator",
+      "source": "./apache--superset-kubernetes-operator",
+      "description": "Apache Superset Kubernetes Operator"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -121627,6 +121812,56 @@
       "name": "neolee--neb",
       "source": "./neolee--neb",
       "description": "A project to seek the real power of AI agents"
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "samalehzen--hyperfix-kanban",
+      "source": "./samalehzen--hyperfix-kanban",
+      "description": "HyperFix \u2014 Plateforme de gestion Kanban centralis\u00e9e pour Coubeche Group."
+    },
+    {
+      "name": "atakmaps--tak-meshcore",
+      "source": "./atakmaps--tak-meshcore",
+      "description": "ATAK MeshCore plugin"
+    },
+    {
+      "name": "thu-chorus--tacos",
+      "source": "./thu-chorus--tacos",
+      "description": "TaCOS: Tsinghua Chorus Online System for member management, sheet music access, events, and internal operations."
+    },
+    {
+      "name": "cybersthang--agent-toolkit",
+      "source": "./cybersthang--agent-toolkit",
+      "description": "agent-toolkit"
+    },
+    {
+      "name": "atakmaps--tak-meshcore",
+      "source": "./atakmaps--tak-meshcore",
+      "description": "ATAK MeshCore plugin"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -207392,6 +207627,11 @@
       "name": "declanshanaghy--dollar-game",
       "source": "./declanshanaghy--dollar-game",
       "description": "dollar-game"
+    },
+    {
+      "name": "kpessa--ea-python",
+      "source": "./kpessa--ea-python",
+      "description": "ea-python"
     }
   ]
 }
