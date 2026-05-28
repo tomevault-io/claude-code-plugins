@@ -1,23 +1,18 @@
-# component-formatting
+# faceplate-ui
 
-> When creating React components follow these rules:
+> When creating UI, prefer components found in the @pawel-kuznik/react-faceplate library.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/component-formatting/SKILL.md
+Read and follow the instructions in .claude/skills/faceplate-ui/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-When creating React components follow these rules:
-- declare components with `function` keyword.
-- split components by concert. 
-- prefer small components.
-
-- apply SOLID and DDD principles.
+When creating UI, prefer components found in the @pawel-kuznik/react-faceplate library.
 
 ---
 > Source: [pawel-kuznik/underhive-bookies](https://github.com/pawel-kuznik/underhive-bookies) — distributed by [TomeVault](https://tomevault.io).
