@@ -21564,11 +21564,6 @@
       "description": "Open Source Company Brain"
     },
     {
-      "name": "21pounder--terminalagent",
-      "source": "./21pounder--terminalagent",
-      "description": "A powerful terminal coding agent based on Claude Agent SDK. Better then Claude Code when start up a new project, or u have no idea. Just try it."
-    },
-    {
       "name": "cogitatortech--infera",
       "source": "./cogitatortech--infera",
       "description": "A DuckDB extension for in-database inference"
@@ -22567,6 +22562,11 @@
       "name": "crawlchat--crawlchat",
       "source": "./crawlchat--crawlchat",
       "description": "Turn your documentation into an AI assistant that answers questions instantly"
+    },
+    {
+      "name": "21pounder--terminalagent",
+      "source": "./21pounder--terminalagent",
+      "description": "A powerful terminal coding agent based on Claude Agent SDK. Better then Claude Code when start up a new project, or u have no idea. Just try it."
     },
     {
       "name": "akeit0--okojo",
@@ -88007,6 +88007,11 @@
       "name": "lukeslp--alt-text-local-llm",
       "source": "./lukeslp--alt-text-local-llm",
       "description": "Local tool for generating descriptive alt text for images using vision models"
+    },
+    {
+      "name": "russmckendrick--tokenuse",
+      "source": "./russmckendrick--tokenuse",
+      "description": "A Rust TUI and Desktop app for exploring AI coding tool token and cost usage"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -171289,11 +171294,6 @@
       "description": "scriptorium"
     },
     {
-      "name": "tyson-hu--food-scanner-app",
-      "source": "./tyson-hu--food-scanner-app",
-      "description": "Food-Scanner-App"
-    },
-    {
       "name": "baphomet480--claude-skills",
       "source": "./baphomet480--claude-skills",
       "description": "claude-skills"
@@ -206522,6 +206522,11 @@
       "name": "mjibansingh--procurement-flow",
       "source": "./mjibansingh--procurement-flow",
       "description": "Created with Builder.io"
+    },
+    {
+      "name": "tyson-hu--food-scanner-app",
+      "source": "./tyson-hu--food-scanner-app",
+      "description": "Food-Scanner-App"
     }
   ]
 }
