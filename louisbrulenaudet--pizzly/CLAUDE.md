@@ -1,0 +1,19 @@
+# pizzly
+
+> This Python project uses Google-style docstrings for documentation with explicit type hints (Python 3.10+). The tech stack includes polars and smolagent for core functionality, with development tools like uv for package management, ruff for linting/formatting, pytest for testing, and pyright for static type checking. All functions must include complete type hints, return types, and descriptive docstrings that explain parameters, return values, and any potential exceptions. The code follows PEP 8 style guidelines and uses modern Python features like the union operator (|) for types.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/pizzly/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+This Python project uses Google-style docstrings for documentation with explicit type hints (Python 3.10+). The tech stack includes polars and smolagent for core functionality, with development tools like uv for package management, ruff for linting/formatting, pytest for testing, and pyright for static type checking. All functions must include complete type hints, return types, and descriptive docstrings that explain parameters, return values, and any potential exceptions. The code follows PEP 8 style guidelines and uses modern Python features like the union operator (|) for types.
+
+---
+> Source: [louisbrulenaudet/pizzly](https://github.com/louisbrulenaudet/pizzly) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-28 -->
