@@ -1,0 +1,44 @@
+{
+  "name": "skills-web-dev",
+  "owner": "peterbamuhigire",
+  "repo": "skills-web-dev",
+  "description": "120+ Claude Code / Codex  skills. Production-grade  skills system for web apps & mobile architecture, APIs, databases, web, mobile, AI, security, UX, SaaS, and ERP engineering. Encodes reusable engineering judgment through layered baseline and specialist skills to help generate secure, scalable,   maintainable, high-performance software systems.",
+  "type": "config",
+  "source_format": "copilot-instructions.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [],
+  "source_url": "https://github.com/peterbamuhigire/skills-web-dev",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-05-29T05:31:20Z"
+}
