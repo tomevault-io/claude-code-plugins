@@ -1,18 +1,18 @@
-# read-guides
+# read-the-code
 
-> Read the [service-identification.md](mdc:service-identification.md) [shared-resources-analysis.md](mdc:shared-resources-analysis.md) [build-requirements.md](mdc:build-requirements.md) guides before implementing anything.
+> This codebase is significant and large. The relationships between the different components of this system are extremely important. It is crucial that we read the codebase whenever we are making updates or changes to the codebase.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/read-guides/SKILL.md
+Read and follow the instructions in .claude/skills/read-the-code/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Read the [service-identification.md](mdc:service-identification.md) [shared-resources-analysis.md](mdc:shared-resources-analysis.md) [build-requirements.md](mdc:build-requirements.md) guides before implementing anything.
+This codebase is significant and large. The relationships between the different components of this system are extremely important. It is crucial that we read the codebase whenever we are making updates or changes to the codebase.
 
 ---
 > Source: [formthefog/formation](https://github.com/formthefog/formation) — distributed by [TomeVault](https://tomevault.io).
