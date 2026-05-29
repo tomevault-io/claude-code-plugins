@@ -115419,6 +115419,101 @@
       "description": "Efficient protein domain annotation search with reduced amino acid k-mers"
     },
     {
+      "name": "run-llama--liteparse-cloudflare-worker-quickstart",
+      "source": "./run-llama--liteparse-cloudflare-worker-quickstart",
+      "description": "Quickstart on how to deploy LiteParse as a CloudFlare worker"
+    },
+    {
+      "name": "fortytwoservices--powershell-module-entraidaccesstoken",
+      "source": "./fortytwoservices--powershell-module-entraidaccesstoken",
+      "description": "A module for simplifying the process of getting an access token from Entra ID"
+    },
+    {
+      "name": "mongorolls--dgut-cs-wiki",
+      "source": "./mongorolls--dgut-cs-wiki",
+      "description": "A comprehensive learning guide for computer science students at DGUT, featuring resources, courses, and community support for aspiring developers."
+    },
+    {
+      "name": "superfly--flyssh",
+      "source": "./superfly--flyssh",
+      "description": "SSH to WebSocket bridge - expose WebSocket servers via SSH"
+    },
+    {
+      "name": "justinhj--zigpath",
+      "source": "./justinhj--zigpath",
+      "description": "Path finding in Zig"
+    },
+    {
+      "name": "rpuls--zap-owasp-web-interface",
+      "source": "./rpuls--zap-owasp-web-interface",
+      "description": "Simple web interface for zaproxy OWASP scanner"
+    },
+    {
+      "name": "tungstenautomationlabs--totalagility-msteams-agent",
+      "source": "./tungstenautomationlabs--totalagility-msteams-agent",
+      "description": "Provides a lightweight MS Teams / Bot Framework UI to front a TotalAgility Automation Agent, proxying user interactions via Teams to the Agent running in TotalAgility, then displaying the Agent's resp"
+    },
+    {
+      "name": "babylonlabs-io--babylon-toolkit",
+      "source": "./babylonlabs-io--babylon-toolkit",
+      "description": "Babylon\u2019s frontend monorepo contains everything you need to build a world-class staking dApp."
+    },
+    {
+      "name": "surendranb--second-brain",
+      "source": "./surendranb--second-brain",
+      "description": "Your AI-Powered Knowledge Archive"
+    },
+    {
+      "name": "govorunb--gary",
+      "source": "./govorunb--gary",
+      "description": "Backend implementation for the Neuro-sama SDK"
+    },
+    {
+      "name": "fajarrh--express-prisma-starter",
+      "source": "./fajarrh--express-prisma-starter",
+      "description": "express prisma postgres starterkits"
+    },
+    {
+      "name": "graphprotocol--grc-20-ts",
+      "source": "./graphprotocol--grc-20-ts",
+      "description": "grc-20-ts"
+    },
+    {
+      "name": "publicrust--cui-builder",
+      "source": "./publicrust--cui-builder",
+      "description": "cui-builder"
+    },
+    {
+      "name": "graphprotocol--grc-20-ts",
+      "source": "./graphprotocol--grc-20-ts",
+      "description": "grc-20-ts"
+    },
+    {
+      "name": "maptiler--maptiler-sdk-swift",
+      "source": "./maptiler--maptiler-sdk-swift",
+      "description": "Complete mobile mapping experience with Swift"
+    },
+    {
+      "name": "philwilliammee--tool-bot",
+      "source": "./philwilliammee--tool-bot",
+      "description": "tool-bot"
+    },
+    {
+      "name": "fc6a1b03--json-helper",
+      "source": "./fc6a1b03--json-helper",
+      "description": "Json Helper \u662f\u4e00\u6b3e\u5f3a\u5927\u7684 IntelliJ IDEA \u63d2\u4ef6\uff0c\u652f\u6301\u7528\u6237\u81ea\u7531\u7f16\u8f91 JSON \u6570\u636e\u3001\u4ece JSON \u6570\u636e\u751f\u6210 Java \u7c7b\u4ee5\u53ca\u4ece Java \u7c7b\u590d\u5236 JSON \u6570\u636e\uff0c\u8fd8\u652f\u6301\u901a\u8fc7 JsonPath \u8fdb\u884c\u9ad8\u6548\u67e5\u8be2\u548c\u5904\u7406\u3002"
+    },
+    {
+      "name": "disobeyfi--disobey-badge-2025-game-firmware",
+      "source": "./disobeyfi--disobey-badge-2025-game-firmware",
+      "description": "Repository for 2025 badge firmware"
+    },
+    {
+      "name": "philwilliammee--tool-bot",
+      "source": "./philwilliammee--tool-bot",
+      "description": "tool-bot"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -122762,6 +122857,66 @@
       "name": "kido-luci--flutter-starter-template",
       "source": "./kido-luci--flutter-starter-template",
       "description": "A production\u2011ready Flutter foundation with Clean Architecture, offline\u2011first sync, JWT auth, Firebase, and a companion Go backend."
+    },
+    {
+      "name": "cenxiv--cenxiv",
+      "source": "./cenxiv--cenxiv",
+      "description": "cenXiv \u662f\u4e00\u4e2a\u57fa\u4e8e Django \u7684\u7535\u5b50\u9884\u5370\u672c\u5b58\u6863\uff0c\u65e8\u5728\u4e3a\u7528\u6237\u63d0\u4f9b\u4e2d\u6587(CN)\u548c\u82f1\u6587(EN)\u53cc\u8bed\u754c\u9762\u7684 arXiv \u8bba\u6587\u6d4f\u89c8\u3001\u641c\u7d22\u548c\u4e0b\u8f7d\u529f\u80fd\u3002\u8be5\u9879\u76ee\u5141\u8bb8\u7528\u6237\u6d4f\u89c8\u3001\u641c\u7d22\u548c\u83b7\u53d6\u79d1\u5b66\u8bba\u6587\u7684\u5404\u79cd\u683c\u5f0f\uff0c\u5305\u62ec\u4e2d\u6587\u5168\u6587 PDF\u3001\u82f1\u6587\u5168\u6587 PDF\u3001HTML\u3001DVI \u548c\u6e90\u6587\u4ef6\u7b49\u3002"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "bean980310--ai-companion",
+      "source": "./bean980310--ai-companion",
+      "description": "AI companions including generative AI such as chatbots, image generation, text generation, and audio generation."
+    },
+    {
+      "name": "ba5ik7--ngx-editorjs2",
+      "source": "./ba5ik7--ngx-editorjs2",
+      "description": "Ngx-EditorJs2 is an Angular-based, highly extensible block-style editor inspired by Editor.js. It allows users to create and manage rich text content using a variety of customizable blocks while lever"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "255bits--ai-agent-toolbox",
+      "source": "./255bits--ai-agent-toolbox",
+      "description": "Easily add tool use to your AI Agents and Workflows. Framework and model provider agnostic."
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
+    },
+    {
+      "name": "psd401--aistudio",
+      "source": "./psd401--aistudio",
+      "description": "Democratize AI access in K-12 education with multi-model platform deployed on your infrastructure"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -152462,11 +152617,6 @@
       "name": "blopit--cursor-template-repo",
       "source": "./blopit--cursor-template-repo",
       "description": "Cursor-Template-Repo"
-    },
-    {
-      "name": "gdamalis--idc-redentor-web",
-      "source": "./gdamalis--idc-redentor-web",
-      "description": "idc-redentor-web"
     },
     {
       "name": "nnh53--fork-fork-fe-team-5",
@@ -208807,6 +208957,31 @@
       "name": "therealsuji--habits",
       "source": "./therealsuji--habits",
       "description": "habits"
+    },
+    {
+      "name": "lzj960515--taskmaster",
+      "source": "./lzj960515--taskmaster",
+      "description": "TaskMaster"
+    },
+    {
+      "name": "ecsavigne--client-wa-oficial",
+      "source": "./ecsavigne--client-wa-oficial",
+      "description": "Implementacion para manipular Whatsapp Api oficial"
+    },
+    {
+      "name": "cungen--notes",
+      "source": "./cungen--notes",
+      "description": "notes"
+    },
+    {
+      "name": "dashhuang--my-homepage",
+      "source": "./dashhuang--my-homepage",
+      "description": "my-homepage"
+    },
+    {
+      "name": "2048khz-gachi-rmx--dotto",
+      "source": "./2048khz-gachi-rmx--dotto",
+      "description": "get it? botto on dotn- oh forget it"
     }
   ]
 }
