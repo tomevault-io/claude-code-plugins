@@ -1,95 +1,93 @@
-# 32-delta-docs-update
+# 33-delta-registry-sync
 
-> description: How the agent should **update & finalise MDX docs** once you’ve finished tweaking a component.
+> description: Audits every component, infers **npm deps**, **internal deps**, **shadcn-core deps**, plus tags; then patches each `registry-{category}.tsx`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/32-delta-docs-update/SKILL.md
+Read and follow the instructions in .claude/skills/33-delta-registry-sync/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 ---
-# 32-delta-docs-update.mdc
-description: How the agent should **update & finalise MDX docs** once you’ve finished tweaking a component.
-alwaysApply: true               
+# 33-delta-registry-sync.mdc
+description: Audits every component, infers **npm deps**, **internal deps**, **shadcn-core deps**, plus tags; then patches each `registry-{category}.tsx`.
+alwaysApply: false                # run with @refresh-registry
 globs:
-  - "content/docs/**/*.mdx"
+  - "registry/**/*.tsx"           # sources to inspect
+  - "registry/registry-*.ts"      # target registries
 ---
 
 ## Trigger phrase
 
-Use this rule when the human says something like:
-
-* “Update the docs for **CardTilt**.”
-* “Finish the API table for that component doc.”
-* “Add the new examples to the MDX.”
+* “Refresh the registry files.”
+* “Audit dependencies for all components.”
+* “@refresh-registry”
 
 ---
 
-## Required structure the agent must enforce
+## Analysis rules
 
-Every component doc **must** contain, in this exact order:
+| Import pattern                                                             | Treat as…                  | Registry field                |
+|---------------------------------------------------------------------------|----------------------------|-------------------------------|
+| `from "@/components/ui/<name>"` or `"components/ui/<name>"`               | **shadcn core component**  | `registryDependencies` → `<name>` (kebab-case stem) |
+| `from "@/registry/<cat>/<file>"` or *relative path* that resolves inside `registry/` | **internal component**     | `registryDependencies` → `<file>` (kebab-case stem) |
+| `from "<package-name>"` (no `/registry/`, not path-relative)              | **npm dependency**         | `dependencies` → `<package-name>` |
+| `import type …`                                                           | same logic, strip `type`   | same as above                |
 
-1. **Front-matter**  
-   ```yaml
-   ---
-   title: {{PascalName}}
-   description: {{clear, complete sentence without TODOs}}
-   ---
-   ```
-
-2. `<ComponentPreview name="{{filename}}-demo" />`
-
-3. `## Overview` – one or two paragraphs, *no* TODOs left.
-
-4. `## Installation` – Tabs layout exactly as in the Embed & Modal examples:
-   * CLI snippet:  
-     ```bash
-     npx shadcn@latest add https://deltacomponents.dev/r/{{filename}}
-     ```
-   * Manual section with `<Steps>` and `<ComponentSource name="{{filename}}" />`
-
-5. `## Usage` – runnable TSX snippet that imports from  
-   `@/registry/{{category}}/{{filename}}`.
-
-6. `## API Reference`
-   * A markdown table wrapped in  
-     `<div className="overflow-x-auto"> … </div>`
-   * One row per prop; *never* leave placeholders.
-
-7. `## Examples`  
-   * At least one `<ComponentPreview>` per demo file that exists.  
-   * Sub-headings (`### Fancy Variant`) match demo filenames where possible.
+*Deduplicate and sort each array alphabetically.*
 
 ---
 
-## Editing rules
+## Tag heuristics
 
-* **Preserve** any custom Admonitions or additional sections already present.
-* Strip **all** `TODO:` lines; ask the human for missing info instead of guessing.
-* Do **not** change file paths or front-matter keys.
-* If you’re unsure of precise prop types, **ask** rather than inventing them.
+1. Start with existing `tags`.
+2. Add split words from file name (`checkbox-input` → `checkbox`, `input`).
+3. Add category name (`inputs`, `media`, …).
+4. Keyword hints:  
+   * `framer-motion` → `animation`  
+   * `lucide-react`  → `icon`
+5. Lower-case, dedupe, sort.
 
 ---
 
-## Workflow the agent should follow
+## Patch logic
 
-1. **Locate** the MDX file: `content/docs/{{category}}/{{filename}}.mdx`.
-2. **Load** the component source (`registry/{{category}}/{{filename}}.tsx`) to mine prop names and defaults.
-3. **Patch** the MDX in place:
-   * Fill in Overview, Usage, API table, Examples.
-   * Remove leftover placeholders.
-4. **Open** the updated MDX in the editor so the developer can review.
-5. **Respond** with a succinct summary, e.g.:
+* For each component found on disk:
+  * If missing in `registry-{category}.tsx`, **append** a new entry.
+  * Else **update** `dependencies`, `registryDependencies`, and `tags`.
+* Leave `devDependencies` untouched.
+* Preserve ordering/comments of other fields.
 
-   > Docs for **CardTilt** updated (Overview, prop table, added 2 new demos).  
-   > Let me know if you’d like further tweaks!
+---
 
-*(Never include the entire doc content in chat—that’s what the editor tab is for.)*
+## Safeguards
+
+* Always include shadcn core component names (**button**, **checkbox**, …) in `registryDependencies`.
+* Remove any listed dependency that no longer appears in code.
+* Skip test/storybook files (`*.test.tsx`, `*.stories.tsx`, etc.).
+
+---
+
+## Workflow
+
+1. **Discover** categories by scanning `registry/*/`.
+2. **Parse** each `*.tsx` with the TypeScript compiler (`ts-morph` or `typescript` AST).
+3. **Generate** sorted arrays for `dependencies`, `registryDependencies`, `tags`.
+4. **Write** changes back to the relevant `registry-{category}.tsx`.
+5. **Open** the modified file(s) for review.
+6. **Reply** with:
+
+   > **Registry sync complete**  
+   > • Categories scanned: {{nCats}}  
+   > • Components updated: {{nFiles}}  
+   > • npm deps added: {{pkgList}}  
+   > • shadcn/core + internal links: {{depCount}}
+
+*(Do not paste full file contents into chat.)*
 
 ---
 > Source: [pprunty/deltacomponents.dev](https://github.com/pprunty/deltacomponents.dev) — distributed by [TomeVault](https://tomevault.io).
