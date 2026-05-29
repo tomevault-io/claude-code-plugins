@@ -1,0 +1,56 @@
+# all
+
+> This project is my personal portfolio site to showcase my projects.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/all/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Rules
+
+This project is my personal portfolio site to showcase my projects.
+
+
+## Tech Stack
+
+- Frontend: Next.js, Tailwind, Shadcn, Framer Motion
+
+
+## General Rules
+
+- use kebab case for naming files
+
+### Comment Rules
+
+- I am new to coding, please write lots of comments to help me understand the code.
+
+
+## Frontend Rules
+
+### Design Rules
+
+- We want a clean, simple design.
+- Use responsive design to account for all screen sizes.
+- Color Palette:
+  - Primary Background: sky-50 (light, gentle blue)
+  - Accent Colors: Gradients from sky-500 to blue-500
+  - Text Colors: zinc-700 for light mode, zinc-300 for dark mode
+  - Dark Mode: zinc-900 background with sky-400/blue-400 accents
+  - Interactive Elements: sky-600 hover states in light mode, sky-400 in dark mode
+  - Borders: sky-100/20 for subtle separation 
+
+### Component Rules
+
+#### Client Component Rules
+
+- Export client components as `export const MyComponent`
+
+---
+> Source: [mckaywrigley/portfolio-code](https://github.com/mckaywrigley/portfolio-code) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-05-29 -->
