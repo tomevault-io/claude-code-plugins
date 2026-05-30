@@ -2,6 +2,8 @@
 
 > Source: [consilience-dev/consensia-news-agent](https://github.com/consilience-dev/consensia-news-agent) — distributed by [TomeVault](https://tomevault.io)
 
+A Python agent for searching news articles by topic and date using NewsAPI and Google ADK. Includes robust error handling and LLM-friendly interfaces.
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
