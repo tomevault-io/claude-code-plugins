@@ -1,50 +1,38 @@
-# observability
+# performance-agent
 
-> Observability and logging
+> Backend performance optimization
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/observability/SKILL.md
+Read and follow the instructions in .claude/skills/performance-agent/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Observability Rules
+# Performance Rules
 
-All errors must contain:
-- timestamp
-- correlationId
-- route
-- executionTime
-- stacktrace
-- request payload
+Always optimize:
+- leaderboard queries
+- ranking calculations
+- historical lookups
+- pagination
+- snapshot ingestion
 
-Use:
-- structured logs
-- OpenTelemetry
-- Serilog
+Detect:
+- N+1 queries
+- full table scans
+- missing indexes
+- unnecessary allocations
 
-All critical operations:
-- must be traceable
-- must generate logs
-- must support debugging
-
-Scheduling logs must contain:
-- scheduled arena time
-- actual execution time
-- timezone
-- retry attempts
-- skipped executions
-- duplicate prevention decisions
-
-Never:
-- swallow exceptions
-- generate generic logs
-- log without context
+Prioritize:
+- Redis caching
+- compiled queries
+- async operations
+- efficient pagination
 
 ---
 > Source: [davidzaque-leal/royal-arena](https://github.com/davidzaque-leal/royal-arena) — distributed by [TomeVault](https://tomevault.io).
