@@ -1,154 +1,56 @@
-# code-patterns
+# critical-never
 
-> Standard coding patterns and conventions for Lumenize packages
+> Critical "never do this" rules - foot-guns to avoid
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/code-patterns/SKILL.md
+Read and follow the instructions in .claude/skills/critical-never/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Code Patterns
+# Critical "Never Do This" Rules
 
-Standard coding patterns and conventions for Lumenize packages.
+These are the foot-guns to avoid in Lumenize development.
 
-## Type System
+## Always
 
-### Rule of Wire Separation for Types
+- ✅ Use **npm** only
+- ✅ Use **`#` prefix** for private class members
+- ✅ Use **synchronous storage** (`ctx.storage.kv.*` or `ctx.storage.sql.*`)
+- ✅ Use **`wrangler types`** to auto-generate `worker-configuration.d.ts`
+- ✅ Use **`compatibility_date: "2025-09-12"`** or later
+- ✅ Use **root `.dev.vars`** (gitignored, auto-symlinked via postinstall)
+- ✅ Put docs in **`/website/docs/`** `.mdx` files only
 
-**When:** Defining data structures in TypeScript
+## Never
 
-**Then:** Choose the right tool based on whether data crosses boundaries:
+- ❌ **NEVER use pnpm or yarn** - only npm
+- ❌ **NEVER use TypeScript `private`** - use `#` prefix instead
+- ❌ **NEVER use async storage** - only `ctx.storage.kv.*` or `ctx.storage.sql.*` (not `ctx.storage.put/get`)
+- ❌ **NEVER manually define Env interface** - `wrangler types` auto-generates it
+- ❌ **NEVER use wrangler compatibility_date before "2025-09-12"**
+- ❌ **NEVER commit secrets** - use root `.dev.vars` (gitignored)
+- ❌ **NEVER create temp docs** - only `/website/docs/` `.mdx` files
 
-- ✅ **Use TypeScript types** for transient in-memory constructs
-- ✅ **Use TypeBox schemas** for any structure that can cross a process, network, or persistence boundary
+## Why These Rules Exist
 
-**Why:** TypeBox provides runtime validation and serialization, TypeScript types are compile-time only.
-
-## Package Structure
-
-### Development Mode
-
-During development, packages point directly to source files:
-
-```json
-{
-  "main": "src/index.ts",
-  "types": "src/index.ts",
-  "files": ["src/**/*"]
-}
-```
-
-**Why:** No build step during development eliminates build cache issues, simplifies debugging, and provides immediate feedback.
-
-### Publish Mode
-
-Build happens only during publish (see `scripts/build-packages.sh`, `scripts/prepare-for-publish.sh`):
-- TypeScript compiled to `dist/`
-- `package.json` temporarily modified to point to `dist/`
-- After publish, `scripts/restore-dev-mode.sh` reverts to `src/`
-
-**See:** Publishing and Releases section in workspace rules for details.
-
-## Imports
-
-### Intra-monorepo Imports
-
-**From exported public API:**
-```typescript
-import { something } from '@lumenize/some-package'
-```
-
-**From same package (non-exported):**
-```typescript
-import { something } from './some-file.ts'
-```
-
-**Only use relative imports** when:
-- Importing from the same npm workspace package
-- The item is NOT exported from the package's `index.ts`
-
-## Coding Style
-
-### Private Class Members
-
-**Always:**
-```typescript
-class MyClass {
-  #privateField = 'secret';
-  
-  #privateMethod() {
-    return this.#privateField;
-  }
-}
-```
-
-**Never:**
-```typescript
-class MyClass {
-  private privateField = 'secret';  // ❌ Compile-time only
-}
-```
-
-**Why:** JavaScript `#` prefix provides true runtime privacy, TypeScript `private` is erased at compile time.
-
-### ID Generation
-
-**Always:**
-```typescript
-// For unique IDs in Workers/DOs
-const id = crypto.randomUUID();
-
-// For ordered IDs (e.g., sorting by creation time)
-import { ulidFactory } from 'ulid-workers';
-const ulid = ulidFactory({ monotonic: true });
-const id = ulid();
-```
-
-**Never:**
-```typescript
-const id = Date.now();           // ❌ Doesn't advance during DO execution
-const id = 'req-' + Date.now();  // ❌ Will cause ID collisions
-```
-
-**Why:** `Date.now()` returns the same value throughout a Cloudflare Worker/DO's execution context, causing ID collisions when creating multiple IDs in rapid succession. Use `crypto.randomUUID()` for guaranteed uniqueness, or `ulid-workers` with `monotonic: true` when ordering matters.
-
-## NPM Package Management
-
-### Before Installing
-
-**Always:**
-- ✅ Ask permission before installing any npm packages
-- ✅ Check if functionality can be implemented in <100 SLOC
-- ✅ Use only well-known, well-maintained packages
-- ✅ Verify permissive licenses (MIT, Apache-2.0, BSD-3-Clause, ISC)
-
-### Package Selection Criteria
-
-**Prefer packages with:**
-- ✅ Smallest once-built footprint over fastest
-- ✅ Strongest Cloudflare Workers compatibility
-- ✅ Active maintenance and good documentation
-
-**Never:**
-- ❌ Install npm packages globally
-
-### Attribution
-
-When copying liberally-licensed code (typically <1000 SLOC):
-1. Add entry to `ATTRIBUTIONS.md` at repository root
-2. Add comment above copied code in source file
-
-**See:** Code Attribution section in workspace rules for detailed format.
+- **npm only**: Consistent dependency resolution, no workspace conflicts
+- **`#` prefix**: True privacy at runtime, TypeScript `private` is compile-time only
+- **Synchronous storage**: Cloudflare's embedded SQLite is synchronous, no performance penalty
+- **Auto-generated types**: Prevents drift between wrangler.jsonc and TypeScript
+- **2025-09-12 compatibility**: Required for synchronous storage API
+- **Root .dev.vars**: Single source of truth, auto-symlinked to test directories
+- **No temp docs**: Documentation lives only in the website, validated via check-examples
 
 ## Reference
 
-For comprehensive project structure and workflow details, see workspace-level rules.
+For detailed Durable Objects concepts, see `CLOUDFLARE_DO_GUIDE.md` at repo root.
+For general project context, see `AGENTS.md` at repo root.
 
 ---
 > Source: [lumenize/lumenize](https://github.com/lumenize/lumenize) — distributed by [TomeVault](https://tomevault.io).
