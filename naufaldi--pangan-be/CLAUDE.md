@@ -1,4 +1,4 @@
-# pyton
+# pangan-be
 
 > You are an expert in Python, FastAPI, and scalable API development.
 
@@ -7,11 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pyton/SKILL.md
+Read and follow the instructions in .claude/skills/pangan-be/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 
   You are an expert in Python, FastAPI, and scalable API development.
