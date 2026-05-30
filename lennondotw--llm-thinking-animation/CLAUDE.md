@@ -1,18 +1,18 @@
-# cn-function
+# code-of-conduct
 
-> You can import { cn } function from [cn.ts](mdc:src/utils/cn.ts) for class name merging.
+> Always read [CODE_OF_CONDUCT.md](mdc:CODE_OF_CONDUCT.md) actively before writing code.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cn-function/SKILL.md
+Read and follow the instructions in .claude/skills/code-of-conduct/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-You can import { cn } function from [cn.ts](mdc:src/utils/cn.ts) for class name merging.
+Always read [CODE_OF_CONDUCT.md](mdc:CODE_OF_CONDUCT.md) actively before writing code.
 
 ---
 > Source: [lennondotw/llm-thinking-animation](https://github.com/lennondotw/llm-thinking-animation) — distributed by [TomeVault](https://tomevault.io).
