@@ -116094,6 +116094,11 @@
       "description": "hashicorp-vault-audit-analysis"
     },
     {
+      "name": "testably--mockolate",
+      "source": "./testably--mockolate",
+      "description": "A modern, strongly-typed, AOT-compatible mocking library for .NET, powered by source generators."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -123782,6 +123787,16 @@
       "name": "devfun-org--poker-arena-starter-kit",
       "source": "./devfun-org--poker-arena-starter-kit",
       "description": "Agent-driven poker bot starter kit for dev.fun Arena. Three paths (learn/build/iterate), four-stage curriculum, sandbox-safe."
+    },
+    {
+      "name": "elixir-vibe--cringe",
+      "source": "./elixir-vibe--cringe",
+      "description": "OTP-native terminal UI toolkit for Elixir"
+    },
+    {
+      "name": "inflightsec--agent-vault-proxy",
+      "source": "./inflightsec--agent-vault-proxy",
+      "description": "Zero-knowledge API keys for AI agents: the agent only ever sees a placeholder"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -210327,6 +210342,26 @@
       "name": "lanser0614--bianco",
       "source": "./lanser0614--bianco",
       "description": "bianco"
+    },
+    {
+      "name": "arafathusayn--tinygrad",
+      "source": "./arafathusayn--tinygrad",
+      "description": "Autograd engine in TS/JS with operator overloading"
+    },
+    {
+      "name": "fandrialbara--aplikasijualbuah-fandrialbara-2317051057",
+      "source": "./fandrialbara--aplikasijualbuah-fandrialbara-2317051057",
+      "description": "AplikasiJualBuah_FandriAlbara_2317051057"
+    },
+    {
+      "name": "silasmontgomery--ddns-server-for-virtualmin",
+      "source": "./silasmontgomery--ddns-server-for-virtualmin",
+      "description": "A light-weight PHP-based DDNS server for Virtualmin"
+    },
+    {
+      "name": "mediumwelldone4--open-api",
+      "source": "./mediumwelldone4--open-api",
+      "description": "Connect open api to analyze data set"
     }
   ]
 }
