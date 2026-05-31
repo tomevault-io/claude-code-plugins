@@ -1,4 +1,4 @@
-# ultracite
+# shadcn-ui-blocks
 
 > This project uses **Ultracite**, a zero-config preset that enforces strict code quality standards through automated formatting and linting.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracite/SKILL.md
+Read and follow the instructions in .claude/skills/shadcn-ui-blocks/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
