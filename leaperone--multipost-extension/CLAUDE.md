@@ -1,61 +1,87 @@
-# i18n
+# typescript
 
-> i18n, 国际化, 翻译, tanslation, chinese, english
+> typescript
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/i18n/SKILL.md
+Read and follow the instructions in .claude/skills/typescript/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Internationalization (i18n) Guidelines:
+TypeScript Development Guidelines:
 
-Message Structure:
-- Store all text content in `/locales/[locale]/messages.json`
-- Use descriptive message keys in camelCase: `errorImportingContent`
-- Include placeholders with $PLACEHOLDER$ syntax
-- Add descriptions for translators in message files
-- `console.log` don't need add i18n, only for UI text display on screen
+- Don't `npm run build` or `pnpm build` for testing
 
-Message Format:
-```json
-"extensionDisplayName": {
-  "message": "MultiPost",
-  "description": "Multipost Extension"
-},
+Code Style:
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use maps instead
+- Use functional components with TypeScript interfaces
+- Write concise TypeScript code with accurate type definitions
+- Use functional and declarative programming patterns; avoid classes
+
+Naming Conventions:
+- Use PascalCase for components and interfaces
+- Use camelCase for utility functions, variables, and methods
+- Use SNAKE_CASE for constants
+```typescript
+// Component and Interface naming
+interface UserData {
+  email: string;
+  name: string;
+}
+
+function UserProfile() {}
+function AuthButton() {}
+
+// Utility function naming
+function formatDateTime() {}
+function parseUserData() {}
+
+// Constant naming
+const API_BASE_URL = "https://api.example.com";
+const MAX_RETRY_COUNT = 3;
 ```
 
-Implementation:
-- Use `chrome.i18n.getMessage('extensionDisplayName')` for all user-facing text
-- Never hardcode text strings in UI components
-- Handle RTL languages with appropriate CSS
-- Set default_locale in manifest.json
-- Support fallback locales
-
-Best Practices:
-- Keep messages concise and clear
-- Use semantic keys (e.g., WELCOME_MESSAGE vs MSG_001)
-- Maintain consistent terminology across translations
-- Handle pluralization properly
-- Consider cultural differences in formatting dates, numbers, and currencies
-- Test UI with different language lengths
-
-Code Examples:
+Error Handling and Type Safety:
+- Use early returns and guard clauses
+- Implement proper type checking
+- Use Zod for form validation and runtime type checking
 ```typescript
-// Component usage
-const message = chrome.i18n.getMessage("WELCOME_MESSAGE", [username]);
+// ✅ Correct
+function processUserData(data?: UserData) {
+  if (!data) return null;
+  if (!data.email) return { error: "Email required" };
+  
+  return processData(data);
+}
 
-// Manifest configuration
-{
-  "default_locale": "en",
-  "name": "__MSG_extension_name__",
-  "description": "__MSG_extension_description__"
+// ❌ Incorrect
+function processUserData(data?: UserData) {
+  if (data) {
+    if (data.email) {
+      return processData(data);
+    }
+  }
 }
 ```
+
+Variable Naming:
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+```typescript
+// ✅ Correct
+const isLoading = true;
+const hasError = false;
+const fetchUserData = async () => {};
+
+// ❌ Incorrect
+const loading = true;
+const error = false;
+const userData = async () => {};
+``` 
 
 ---
 > Source: [leaperone/MultiPost-Extension](https://github.com/leaperone/MultiPost-Extension) — distributed by [TomeVault](https://tomevault.io).
