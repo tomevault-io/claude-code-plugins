@@ -1,61 +1,46 @@
-# general-coding-rules
+# graph-structure
 
-> General coding rules and best practices for @gravity-ui/graph
+> Graph structure and architecture rules
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/general-coding-rules/SKILL.md
+Read and follow the instructions in .claude/skills/graph-structure/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-## Type Safety
+## Graph Architecture
+This file contains rules and information about the architecture of the graph library:
 
-### Avoid `any` Type
-- **Never use the `any` type** in your code. Instead:
-  - Use specific types whenever possible (e.g., `MouseEvent`, `KeyboardEvent`, `HTMLElement`)
-  - Use `void` for function return types when the function doesn't return a value
-  - Use `unknown` only as a last resort when the type is truly unpredictable
-  - Implement appropriate interfaces (e.g., `EventListenerObject`) instead of type casting
-  - Use generics to create flexible but type-safe APIs
+- The graph is built on a layered architecture
+- Canvas is used for high performance rendering
+- React components are used for detailed interaction
+- The system automatically switches between rendering modes 
 
-### Type Casting
-- Avoid type casting with `as any`
-- If type casting is necessary, use `as unknown as TargetType` to make the cast more explicit and safer
-- Prefer type guards (`instanceof`, `typeof`, custom type predicates) over type casting
+# Project Structure
+- src/ - source code
+  - api/ - API for interacting with the graph
+  - components/ - Canvas components
+    - canvas/ - contains blocks, connections, anchors and layers for rendering
+  - lib/ - helper libraries
+  - plugins/ - custom layers and related utilities (previously called plugins)
+  - react-component/ - React wrappers for Canvas components
+  - services/ - services, including camera, layers, etc.
+  - store/ - graph state storage
+  - stories/ - examples of component usage for Storybook
+  - utils/ - utility functions
+- docs/ - project documentation
+- .storybook/ - Storybook configuration
 
-## Code Quality
-
-### Function Return Types
-- Always specify return types for functions
-- Use `void` for functions that don't return a value
-- Be explicit about nullable return types (e.g., `string | null`)
-
-### Error Handling
-- Use specific error types instead of generic `Error`
-- Provide meaningful error messages
-- Handle errors at the appropriate level
-
-### Documentation
-- Document public APIs with JSDoc comments
-- Include parameter descriptions and return type descriptions
-- Document complex logic with inline comments
-
-## Performance
-
-### Event Handlers
-- Keep event handlers lightweight
-- Debounce or throttle handlers for frequent events (resize, scroll, mousemove)
-- Clean up event listeners when components are unmounted
-
-### Memory Management
-- Avoid memory leaks by properly cleaning up resources
-- Use AbortController for managing event listeners
-- Unsubscribe from subscriptions when components are unmounted
+# Extension Pattern
+- The primary mechanism for extending graph functionality (adding visuals, interactions) is by creating **Custom Layers**.
+- Custom layers should extend the base `Layer` class (`src/services/Layer.ts`).
+- Layers are added to the graph either via the `layers` array in `TGraphConfig` during initialization, or dynamically using `graph.addLayer()`.
+- There is **no separate base `Plugin` class**. Functionality previously considered "plugins" should be implemented as Layers and potentially related services or components, typically residing in the `src/plugins/` directory. 
 
 ---
 > Source: [gravity-ui/graph](https://github.com/gravity-ui/graph) — distributed by [TomeVault](https://tomevault.io).
