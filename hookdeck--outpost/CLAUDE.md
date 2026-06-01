@@ -1,0 +1,28 @@
+# agent-evaluation-authoring
+
+> Authoring standards for docs/agent-evaluation (no eval leakage in user turns)
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/agent-evaluation-authoring/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+When editing anything under `docs/agent-evaluation/`, read and follow **`docs/agent-evaluation/AGENTS.md`**.
+
+**Quick guardrails for `scenarios/*.md`:**
+
+- **`### Turn N — User`** blockquotes = in-character **product engineer** speech only.
+- **Never** in user lines: `Option 1/2/3`, `Turn 0`, `scenario`, `eval`, `success criteria`, `scoreScenario`, references to “the prompt/instructions you already have” or named template sections.
+- Put rubric detail in **`## Success criteria`** / **Intent** / **Failure modes**, not in the user quote.
+
+Full checklist and rationale: **`docs/agent-evaluation/AGENTS.md`**.
+
+---
+> Source: [hookdeck/outpost](https://github.com/hookdeck/outpost) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-01 -->
