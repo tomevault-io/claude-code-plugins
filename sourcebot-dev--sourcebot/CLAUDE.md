@@ -1,0 +1,20 @@
+# cloud-agent
+
+> - After creating a GitHub PR, create a follow-up commit with a Changelog entry in CHANGELOG.md with a short description of the change. Follow the existing conventions in that file, namely: 1) entries must be parented under a header (Added, Changed, Deprecated, Removed, Fixed, or Security), 2) entries must include the GitHub pull request id at the end of the line, formatted as [#<id>](<url>) (e.g., [#696](https://github.com/sourcebot-dev/sourcebot/pull/696)).
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/cloud-agent/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+- After creating a GitHub PR, create a follow-up commit with a Changelog entry in CHANGELOG.md with a short description of the change. Follow the existing conventions in that file, namely: 1) entries must be parented under a header (Added, Changed, Deprecated, Removed, Fixed, or Security), 2) entries must include the GitHub pull request id at the end of the line, formatted as [#<id>](<url>) (e.g., [#696](https://github.com/sourcebot-dev/sourcebot/pull/696)).
+- When creating a GitHub PR for a given issue, always include "Fixes #<id>" in the body of the GitHub PR description, where <id> is the id of the GitHub issue.
+
+---
+> Source: [sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-01 -->
