@@ -1,162 +1,54 @@
-# design-mode
+# development-guide
 
-> User request `design mode`, use this rule to enable design mode for all files.
+> - Build all: `pnpm build`
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/design-mode/SKILL.md
+Read and follow the instructions in .claude/skills/development-guide/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Design Mode
+# Giselle Development Guide
 
-Design Mode is intended for users who excel in design rather than software development. It enables direct application design by editing Next.js code instead of using tools like Figma.
+## Build, Test, and Lint Commands
+- Build all: `pnpm build`
+- Build specific packages: `pnpm build-sdk`, `pnpm build-data-type`
+- Type checking: `pnpm check-types`
+- Format code: `pnpm format`
+- Development: `pnpm dev` (playground), `pnpm dev:studio.giselles.ai` (studio)
+- Run tests: `pnpm -F <package> test` or `cd <directory> && vitest`
+- Run specific test: `cd <directory> && vitest <file.test.ts>`
+- Lint: `cd <directory> && biome check --write .`
+- Format modified files: `pnpm biome check --write [filename]`
 
-- **Avoid destructive changes.**
-- Limit modifications to appearance or behavior only.
-- If functional changes or additions are necessary, create a consultation text for engineers and encourage the user to seek their input.
+## Critical Requirements
+- MUST run `pnpm biome check --write [filename]` after EVERY code modification
+- All code changes must be formatted using Biome before being committed
 
----
+## Code Style Guidelines
+- Use Biome for formatting with tab indentation and double quotes
+- Follow organized imports pattern (enabled in biome.json)
+- Use TypeScript for type safety; avoid `any` types
+- Use functional components with React hooks
+- Use Next.js patterns for web applications
+- Follow package-based architecture for modularity
+- Use async/await for asynchronous code rather than promises
+- Error handling: use try/catch blocks and propagate errors appropriately
+- Tests should follow `*.test.ts` naming pattern and use Vitest
 
-## How to Start Design Mode
-
-The step-by-step procedure below **MUST** be followed in order. Each step **MUST** be completed before proceeding to the next one. No steps should be skipped.
-
-### 1. Check Requirements
-
-All required tools must be verified in the following order:
-
-1. **Node.js Version Check**
-   ```bash
-   node -v
-   ```
-   ✅ REQUIRED: Version must be 22.14.0 or later
-   ❌ If version requirement not met: See `./nodejs.mdc` for installation instructions
-
-2. **pnpm Version Check**
-   ```bash
-   pnpm -v
-   ```
-   ✅ REQUIRED: Version must be 10.2.1 or later
-   ❌ If version requirement not met: See `./nodejs.mdc` for installation instructions
-
-3. **Vercel CLI Version Check**
-   ```bash
-   vercel --version
-   ```
-   ✅ REQUIRED: Version must be 41.6.0 or later
-   ❌ If Vercel CLI is missing: Install with the command below
-   ```bash
-   pnpm add -g vercel
-   ```
-
-4. **Vercel CLI Login Status**
-   ```bash
-   vercel whoami
-   ```
-   ✅ REQUIRED: Must show a username
-   ❌ If not logged in: See `./vercel-cli.mdc` for login instructions
-
-5. **Vercel Project Link Check**
-   ```bash
-   [ -f .vercel/project.json ] && echo "Project is linked" || echo "We need to link vercel project"
-   ```
-   ✅ REQUIRED: Must show "Project is linked"
-   ❌ If "We need to link vercel project" is displayed:
-      a. List available teams:
-         ```bash
-         vercel team list
-         ```
-      b. Switch to team and list projects:
-         ```bash
-         vercel team switch [team-name]
-         vercel project list
-         ```
-      c. Link the project:
-         ```bash
-         vercel link --yes --project [project-name]
-         ```
-
-### 2. Clean Your Workspace
-
-IMPORTANT: Complete each step in order:
-
-1. **Preview Files to be Removed**
-   ```bash
-   git clean -fx -n
-   ```
-   ✅ REQUIRED: Review the output and get user approval before proceeding
-   ❌ If the user doesn't want these files removed: Skip the cleaning step but note potential issues
-
-2. **Current Branch Decision**
-   Ask the user if they want to:
-   - Continue in the current branch
-   - Switch to the main branch with:
-     ```bash
-     git checkout main && git pull
-     ```
-
-3. **Install Dependencies**
-   ```bash
-   pnpm i
-   ```
-   ✅ REQUIRED: Wait for installation to complete successfully
-
-4. **Build SDK Dependencies**
-   ```bash
-   pnpm build-sdk
-   ```
-   ✅ REQUIRED: Wait for build to complete successfully
-
-5. **Check Port 3000 Availability - CRITICAL STEP**
-   ```bash
-   lsof -i :3000 || echo "Port 3000 is available"
-   ```
-   ✅ REQUIRED: Must either:
-   - Show "Port 3000 is available" OR
-   - If a process is using port 3000, terminate it:
-     ```bash
-     kill -9 $(lsof -t -i:3000)
-     ```
-   - Verify port is free after termination:
-     ```bash
-     lsof -i :3000 || echo "Port 3000 is now available"
-     ```
-
-### 3. Start Design Mode
-
-After completing ALL previous steps, start the development server:
-
-```bash
-vercel dev
-```
-
-The server should start successfully and display:
-```
-> Ready! Available at http://localhost:3000
-```
-
----
-
-## Design Mode Checklist Summary
-
-Use this checklist to ensure all steps are completed:
-
-- [ ] Node.js version verified (22.14.0+)
-- [ ] pnpm version verified (10.2.1+)
-- [ ] Vercel CLI version verified (41.6.0+)
-- [ ] Vercel CLI login confirmed
-- [ ] Vercel project link confirmed
-- [ ] Workspace files previewed for removal
-- [ ] Branch decision made (current or main)
-- [ ] Dependencies installed
-- [ ] SDK dependencies built
-- [ ] Port 3000 verified as available
-- [ ] Development server started with vercel dev
+## Naming Conventions
+- **Files**: Use kebab-case for all filenames (e.g., `user-profile.ts`)
+- **Components**: Use PascalCase for React components and classes (e.g., `UserProfile`)
+- **Variables**: Use camelCase for variables, functions, and methods (e.g., `userEmail`)
+- **Boolean Variables and Functions**: Use prefixes like `is`, `has`, `can`, `should` for clarity:
+  - For variables: `isEnabled`, `hasPermission` (not `status`)
+  - For functions: `isTriggerRequiringCallsign()`, `hasActiveSubscription()` (not `requiresCallsign()` or `checkActive()`)
+- **Function Naming**: Use verbs or verb phrases that clearly indicate purpose (e.g., `calculateTotalPrice()`, not `process()`)
+- **Consistency**: Follow these conventions throughout the codebase
 
 ---
 > Source: [giselles-ai/giselle](https://github.com/giselles-ai/giselle) — distributed by [TomeVault](https://tomevault.io).
