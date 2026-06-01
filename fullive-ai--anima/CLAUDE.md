@@ -1,24 +1,76 @@
-# license-and-dependency-compliance
+# migration-and-backward-compatibility
 
-> Be careful with dependencies, copied code, and license implications.
+> Any change that affects stored data, config formats, message contracts, or upgrade paths must preserve compatibility or manage migration explicitly.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/license-and-dependency-compliance/SKILL.md
+Read and follow the instructions in .claude/skills/migration-and-backward-compatibility/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Be careful with dependencies, copied code, and license implications.
+Any change that affects stored data, config formats, message contracts, or upgrade paths must preserve compatibility or manage migration explicitly.
 
-Prefer existing project dependencies and patterns when reasonable.
-When adding or updating dependencies, keep the change intentional, minimal, and consistent with the project.
+## Core rule
 
-Avoid unclear provenance, unnecessary dependency bloat, and unrelated lockfile churn.
+Prefer backward-compatible evolution. If backward compatibility is not possible, implement a safe migration path.
+
+## Compatibility-sensitive areas
+
+- persisted data
+- database schemas
+- config structures
+- API contracts
+- event schemas
+- message payloads
+- topic structures
+- cache formats
+- file formats
+- serialized state
+- user settings
+- integration boundaries
+
+## Preferred approach
+
+- make additive changes first
+- support old and new formats during transition when feasible
+- avoid instant hard breaks
+- preserve existing behavior for existing consumers unless the task explicitly requires change
+
+## If a migration is needed
+
+Do the following where applicable:
+
+1. identify what old state exists
+2. define the new target state
+3. provide a transition path
+4. update readers and writers consistently
+5. preserve idempotency when possible
+6. add migration or compatibility tests
+7. update docs and examples
+
+## Breaking compatibility
+
+Only break compatibility when necessary.
+
+If required:
+
+- minimize the blast radius
+- update all known dependents
+- document the change clearly
+- note any manual migration steps
+- avoid partial migration states that are hard to recover from
+
+## Avoid
+
+- silently changing formats
+- upgrading only one side of a producer-consumer boundary
+- assuming all existing data already matches the new model
+- deleting compatibility code before consumers are updated
 
 ---
 > Source: [Fullive-AI/Anima](https://github.com/Fullive-AI/Anima) — distributed by [TomeVault](https://tomevault.io).
