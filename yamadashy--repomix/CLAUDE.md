@@ -1,4 +1,4 @@
-# base
+# repomix
 
 > Core project guidelines for the Repomix codebase. Apply these rules when working on any code, documentation, or configuration files within the Repomix project.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/base/SKILL.md
+Read and follow the instructions in .claude/skills/repomix/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
