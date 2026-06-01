@@ -1,22 +1,22 @@
-# changelog-and-versioning-discipline
+# community-standards-and-contributor-experience
 
-> For user-visible changes, consider whether changelog, release notes, deprecation notes, or version-impact documentation should be updated.
+> Prefer clarity, consistency, and contributor friendliness.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/changelog-and-versioning-discipline/SKILL.md
+Read and follow the instructions in .claude/skills/community-standards-and-contributor-experience/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-For user-visible changes, consider whether changelog, release notes, deprecation notes, or version-impact documentation should be updated.
+Prefer clarity, consistency, and contributor friendliness.
 
-Document breaking changes, deprecations, and behavior changes clearly.
-Prefer backward-compatible evolution unless the task explicitly requires otherwise.
+Keep naming, structure, setup, and documentation easy for newcomers to understand.
+When changing public-facing text or contributor guidance, keep it clear, respectful, and actionable.
 
 ---
 > Source: [Fullive-AI/Anima](https://github.com/Fullive-AI/Anima) — distributed by [TomeVault](https://tomevault.io).
