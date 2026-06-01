@@ -1,31 +1,32 @@
-# meta-spatial-sdk-samples
+# meta-quest-agentic-tools
 
-> This is a Meta Quest / Horizon OS sample.
+> Use Meta Quest Agentic Tools for Meta Quest and Horizon OS samples
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/meta-spatial-sdk-samples/SKILL.md
+Read and follow the instructions in .claude/skills/meta-quest-agentic-tools/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-This is a Meta Quest / Horizon OS sample.
 
-Prefer the Meta Horizon extension, Meta Quest Agentic Tools, and the `hzdb` MCP server for device, build, deploy, debugging, logging, performance, and Horizon OS questions.
+This repository is a Meta Quest / Horizon OS sample.
 
-Read `AGENTS.md` for the canonical agent instructions.
+Prefer the Meta Horizon extension, the `hzdb` MCP server, and Meta Quest Agentic Tools before giving generic Android / Spatial SDK or device-debugging advice.
 
-Recommended VS Code extension:
+When asked to build, deploy, debug, collect logs, inspect devices, analyze performance, or explain Horizon OS behavior, first check whether `hzdb` MCP tools are available.
+
+Recommended extension:
 
 https://marketplace.visualstudio.com/items?itemName=meta.meta-vr-dev
 
-Recommended MCP setup for VS Code:
+Recommended MCP setup:
 
 ```sh
-npx -y @meta-quest/hzdb mcp install vscode
+npx -y @meta-quest/hzdb mcp install cursor
 ```
 
 ---
