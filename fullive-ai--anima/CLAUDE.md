@@ -1,122 +1,67 @@
-# branch-and-commit-workflow
+# change-scope-control
 
-> Use a branch-first, commit-early workflow suitable for a maintained open source repository.
+> Keep every change tightly scoped to the requested goal.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/branch-and-commit-workflow/SKILL.md
+Read and follow the instructions in .claude/skills/change-scope-control/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Use a branch-first, commit-early workflow suitable for a maintained open source repository.
+Keep every change tightly scoped to the requested goal.
 
 ## Core rule
 
-Before making meaningful code changes, ensure the work is on a dedicated task branch rather than on a protected or shared integration branch.
+Solve the target problem completely, but do not let the task expand into unrelated cleanup, redesign, or opportunistic refactoring.
 
-Once work starts, preserve progress through small, logical, reviewable commits instead of one large accumulated diff.
+## Scope rules
 
-## Branch behavior
+- Implement the smallest sufficient change that correctly solves the task.
+- Fix directly related issues when needed to make the solution complete.
+- Avoid unrelated renames, formatting sweeps, moves, or cleanups.
+- Avoid changing code that is not necessary for correctness, integration, validation, or compatibility.
+- Do not introduce new dependencies unless required.
 
-At the beginning of meaningful work:
+## Allowed scope expansion
 
-1. Check the current branch.
-2. If already on a suitable task branch for the current task, continue there.
-3. If on a protected or shared branch such as `main`, `master`, `develop`, `dev`, or `release`, create and switch to a dedicated task branch before making meaningful edits.
-4. If on a branch unrelated to the current task, create and switch to a new task branch instead of mixing concerns.
+You may extend scope slightly only when the additional work is:
 
-## Branch naming
+- necessary to complete the task correctly
+- needed to prevent an obvious regression
+- required for compatibility
+- required to keep tests or builds passing
+- small, low-risk, and directly adjacent to the same root cause
 
-Use short, descriptive, task-focused branch names.
+## Disallowed scope expansion
 
-Prefer patterns such as:
+Do not expand scope just because you noticed:
 
-- `fix/dashboard-refresh-bug`
-- `fix/mqtt-timeout-handling`
-- `feat/device-status-history`
-- `refactor/adapter-payload-parser`
-- `docs/env-setup-clarification`
-- `test/add-timeout-regression`
+- old code you dislike
+- naming inconsistencies
+- possible future improvements
+- architectural ideas unrelated to the request
+- broad style issues
+- unrelated technical debt
 
-Branch names should be:
+## Before making extra changes
 
-- lowercase
-- concise
-- descriptive
-- scoped to one task or one closely related set of changes
+Ask internally:
 
-Avoid vague names such as:
+- Is this required for the requested outcome?
+- Is it required for correctness or compatibility?
+- Is it required for validation to pass?
+- Is it directly tied to the same root cause?
 
-- `temp`
-- `misc`
-- `work`
-- `updates`
-- `new-branch`
+If not, leave it alone.
 
-## Commit behavior
+## Completion rule
 
-Commit after each completed, coherent unit of work.
-
-A commit should represent one logical step such as:
-
-- one bug fix
-- one small feature slice
-- one focused refactor
-- one interface update with its direct caller adjustments
-- one docs update tied to a code change
-- one regression test plus the related fix
-
-## Commit quality
-
-Each commit should be:
-
-- small enough to review easily
-- coherent in purpose
-- safe to revert independently
-- tied to a clear intent
-- validated whenever practical
-
-Write concise commit messages that describe the intent clearly.
-
-Prefer:
-
-- `fix dashboard polling after reconnect`
-- `add regression test for adapter timeout`
-- `refactor mqtt payload normalization`
-- `update docs for broker configuration`
-
-Avoid:
-
-- `changes`
-- `fix stuff`
-- `update code`
-- `wip`
-
-## Do not commit yet if
-
-- the code is in an obviously broken intermediate state
-- the change is only half-wired
-- imports, types, or tests are failing because the step is incomplete
-- the commit would include unrelated accidental edits
-
-## Safety rules
-
-- Do not commit secrets, credentials, tokens, or private keys.
-- Do not force-push, rewrite shared history, or delete branches unless explicitly requested.
-- Do not merge into protected branches unless explicitly requested.
-
-## End-state expectation
-
-By the end of the task:
-
-- work should live on a dedicated task branch
-- progress should be preserved in a sequence of small logical commits
-- history should be readable, reviewable, and easy to roll back
+A task is better completed with a focused, safe, reviewable diff than with a large diff that tries to improve everything.
 
 ---
 > Source: [Fullive-AI/Anima](https://github.com/Fullive-AI/Anima) — distributed by [TomeVault](https://tomevault.io).
