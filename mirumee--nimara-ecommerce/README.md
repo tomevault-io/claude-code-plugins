@@ -7,13 +7,13 @@ Headless, composable ecommerce storefront built with Next.js, Typescript, and sh
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [mirumee/nimara-ecommerce](https://github.com/mirumee/nimara-ecommerce).
+Original source: `copilot-instructions.md` in [mirumee/nimara-ecommerce](https://github.com/mirumee/nimara-ecommerce).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
