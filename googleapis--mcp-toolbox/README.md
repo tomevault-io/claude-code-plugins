@@ -1,0 +1,30 @@
+# AI instruction files for mcp-toolbox
+
+> Sourced from [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) and converted for every major platform by [TomeVault](https://tomevault.io)
+
+MCP Toolbox for Databases is an open source MCP server for databases.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `GEMINI.md` in [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install googleapis/mcp-toolbox
+```
+Source: [github.com/googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox).
+
+<!-- genome:a-i-q -->
