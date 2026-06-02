@@ -1,4 +1,4 @@
-# index
+# repo-to-text
 
 > `repo-to-text` is a command-line tool that converts a directory's structure and contents into a single text file.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/index/SKILL.md
+Read and follow the instructions in .claude/skills/repo-to-text/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
