@@ -46219,6 +46219,16 @@
       "description": "A framework for building large-scale, deterministic, interactive workflows with a fault-tolerant, conversational UX"
     },
     {
+      "name": "open-audio-stack--open-audio-stack-registry",
+      "source": "./open-audio-stack--open-audio-stack-registry",
+      "description": "Audio registry with searchable list of packages containing Plugins, Presets and Projects."
+    },
+    {
+      "name": "chriskoch--ngx-renamer",
+      "source": "./chriskoch--ngx-renamer",
+      "description": "AI-powered post-consume script for Paperless NGX that generates high-quality, language-aware document titles using OpenAI, Claude or local Ollama models."
+    },
+    {
       "name": "lynx-family--lynx-ui",
       "source": "./lynx-family--lynx-ui",
       "description": "Out-of-the-box Lynx Component Library"
@@ -46947,6 +46957,16 @@
       "name": "goplausible--algorand-mcp",
       "source": "./goplausible--algorand-mcp",
       "description": "Algorand Local Model Context Protocol (Server & Client)"
+    },
+    {
+      "name": "recallai--voice-agent-demo",
+      "source": "./recallai--voice-agent-demo",
+      "description": "voice-agent-demo"
+    },
+    {
+      "name": "fatbobman--simplelogger",
+      "source": "./fatbobman--simplelogger",
+      "description": "A simple logging library for Swift 6, providing easy-to-use logging functionalities with support for different log levels and backends."
     },
     {
       "name": "izittmarvin--memcoach",
@@ -49009,6 +49029,11 @@
       "description": "zenless-zone-zero-music.app"
     },
     {
+      "name": "dkyazzentwatwa--cypher-pn532",
+      "source": "./dkyazzentwatwa--cypher-pn532",
+      "description": "A tiny ESP32 device that interacts with RFID + NFC devices using the PN532 chip."
+    },
+    {
       "name": "nju-link--codetracer",
       "source": "./nju-link--codetracer",
       "description": "CodeTracer"
@@ -49767,6 +49792,16 @@
       "name": "devlooped--structid",
       "source": "./devlooped--structid",
       "description": "Automatic implemention of stronly typed IDs via record structs with compile-time feature auto-detection"
+    },
+    {
+      "name": "gotray--go-python",
+      "source": "./gotray--go-python",
+      "description": "Write Python in Go - The most intuitive Python wrapper for Golang"
+    },
+    {
+      "name": "dtedesco1--nextjs-markdown-boilerplate",
+      "source": "./dtedesco1--nextjs-markdown-boilerplate",
+      "description": "A minimal Next.js 15 application that renders content from Markdown files."
     },
     {
       "name": "bug-ops--mcp-execution",
@@ -55854,6 +55889,21 @@
       "description": "official unofficial wrapper for anthropic's tokenization api"
     },
     {
+      "name": "selisedigitalplatforms--blocks-construct-react",
+      "source": "./selisedigitalplatforms--blocks-construct-react",
+      "description": "SELISE <blocks/> Construct is a ready-to-use application blueprint built to accelerate development with SELISE <blocks/>. It comes pre-integrated with core microservices, offering a scalable full-stac"
+    },
+    {
+      "name": "near-horizon--near-protocol-rewards",
+      "source": "./near-horizon--near-protocol-rewards",
+      "description": "A transparent, metric-based rewards system for NEAR projects that directly ties incentives to development activity and user adoption."
+    },
+    {
+      "name": "ferritin-bio--ferritin",
+      "source": "./ferritin-bio--ferritin",
+      "description": "protein utilities in Rust"
+    },
+    {
       "name": "skywind3000--gamesample",
       "source": "./skywind3000--gamesample",
       "description": "Game Samples for GameLib"
@@ -57759,6 +57809,16 @@
       "description": "Dreamy UI is build-time CSS-in-JS React component library. Powered by Panda CSS."
     },
     {
+      "name": "biont--shellm",
+      "source": "./biont--shellm",
+      "description": "A one-file Ollama CLI client written in bash"
+    },
+    {
+      "name": "intrinsec--s3proxy",
+      "source": "./intrinsec--s3proxy",
+      "description": "S3 Proxy for client side encryption"
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "source": "./sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh"
@@ -58867,6 +58927,16 @@
       "name": "microsoftlearning--trainer-demo-deploy",
       "source": "./microsoftlearning--trainer-demo-deploy",
       "description": "MOC Demo deployment scenarios using AZD."
+    },
+    {
+      "name": "arloliu--go-secs",
+      "source": "./arloliu--go-secs",
+      "description": "A library that implements SES-II/HSMS/SML in Go"
+    },
+    {
+      "name": "drmichaeldouglass--dicomator",
+      "source": "./drmichaeldouglass--dicomator",
+      "description": "A Blender Add-On for making synthetic CT datasets from 3D meshes"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -69069,6 +69139,16 @@
       "description": "contoso-voice-agent"
     },
     {
+      "name": "jlevy--frontmatter-format",
+      "source": "./jlevy--frontmatter-format",
+      "description": "A simple convention for YAML metadata on any file"
+    },
+    {
+      "name": "kcp-dev--kcp-operator",
+      "source": "./kcp-dev--kcp-operator",
+      "description": "A Kubernetes operator to deploy and manage kcp instances."
+    },
+    {
       "name": "lucianaib0318--geomind",
       "source": "./lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill"
@@ -73249,6 +73329,11 @@
       "description": "A modern Symfony-compatible Transfer Object Generator with property hooks, FixedArray, and asymmetric visibilities."
     },
     {
+      "name": "modfin--cove",
+      "source": "./modfin--cove",
+      "description": "Embedded cache lib using sqlite for storage"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -75142,6 +75227,11 @@
       "name": "dbidwell94--stationeers-lang",
       "source": "./dbidwell94--stationeers-lang",
       "description": "A domain-specific language for Stationeers which compiles into IC10"
+    },
+    {
+      "name": "vocdoni--davinci-node",
+      "source": "./vocdoni--davinci-node",
+      "description": "{Decentralized Autonomous Vote Integrity Network with Cryptographic Inference} The node (aka sequencer) is a specialized component designed to handle the voting process using zero-knowledge proof mech"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -81569,6 +81659,16 @@
       "description": "Inertia.js lets you quickly build modern single-page React, Vue and Svelte apps with Craft's routing & data-driven by Twig templates"
     },
     {
+      "name": "uhh-hcds--encourage",
+      "source": "./uhh-hcds--encourage",
+      "description": "encouRAGe lib for evaluating RAG"
+    },
+    {
+      "name": "renlabs-dev--torus-ts",
+      "source": "./renlabs-dev--torus-ts",
+      "description": "Monorepo for the Torus Network TypesSript Ecosystem. It's managed with Turborepo and pnpm."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -84204,6 +84304,11 @@
       "description": "localclash-luci"
     },
     {
+      "name": "harveyton--trilium-blog",
+      "source": "./harveyton--trilium-blog",
+      "description": "\u5c06 Trilium Notes \u53d1\u5e03\u4e3a\u73b0\u4ee3\u535a\u5ba2\uff0c\u652f\u6301 AI \u6458\u8981\u3001\u7cbe\u9009\u6587\u7ae0\u3001\u641c\u7d22\u4e0e\u6c89\u6d78\u5f0f\u9605\u8bfb\u4f53\u9a8c\u3002"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -86747,6 +86852,11 @@
       "name": "younes101020--delivery",
       "source": "./younes101020--delivery",
       "description": "\u2709\ufe0flightweight self-hostable Coolify, Vercel, Heroku alternative focusing on one single thing: deploying your applications as simply as possible, without any vendor lock-in."
+    },
+    {
+      "name": "mediolano-app--mediolano-contracts",
+      "source": "./mediolano-app--mediolano-contracts",
+      "description": "Cairo Smart Contracts @ Mediolano - intellectual property provider for the integrity web. Powered on Starknet."
     },
     {
       "name": "hyaway--hyaway",
