@@ -92604,6 +92604,11 @@
       "description": "tiangong-ai-langgraph-server"
     },
     {
+      "name": "litellm-labs--litellm-rust",
+      "source": "./litellm-labs--litellm-rust",
+      "description": "A minimal Rust gateway built for coding agents (LiteLLM-Compatible)"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
