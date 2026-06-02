@@ -129924,6 +129924,21 @@
       "description": "Make every model a CodeX engine through an OpenAI-compatible Responses API gateway"
     },
     {
+      "name": "nomadamas--agentdir",
+      "source": "./nomadamas--agentdir",
+      "description": "mkdir for agents - agent-optimized & read-only virtual folder"
+    },
+    {
+      "name": "asta-nguyen--kamehadb",
+      "source": "./asta-nguyen--kamehadb",
+      "description": "KamehaDB is a cross-platform database GUI - AI. Support query via human language"
+    },
+    {
+      "name": "echoer009--nion",
+      "source": "./echoer009--nion",
+      "description": "AI companion + task manager \u00b7 nags you so you don't forget"
+    },
+    {
       "name": "ancplua--ancplua-claude-plugins",
       "source": "./ancplua--ancplua-claude-plugins",
       "description": "ancplua-claude-plugins"
@@ -215042,6 +215057,11 @@
       "name": "nishanth919--litellm",
       "source": "./nishanth919--litellm",
       "description": "litellm"
+    },
+    {
+      "name": "charlescrowellnv--mintlify-docs",
+      "source": "./charlescrowellnv--mintlify-docs",
+      "description": "mintlify-docs"
     }
   ]
 }
