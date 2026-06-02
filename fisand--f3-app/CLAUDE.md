@@ -1,4 +1,4 @@
-# viteplus
+# f3-app
 
 > <!--VITE PLUS START-->
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/viteplus/SKILL.md
+Read and follow the instructions in .claude/skills/f3-app/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
