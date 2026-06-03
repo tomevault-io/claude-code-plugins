@@ -1,23 +1,21 @@
-# general-monorepo-guidelines
+# general-project-rule
 
-> General guidelines for working within this monorepo package structure.
+> This is a generic project rule applied to all files
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/general-monorepo-guidelines/SKILL.md
+Read and follow the instructions in .claude/skills/general-project-rule/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-- This project is a monorepo. Shared configurations (ESLint, TypeScript) are likely located in a root-level directory (e.g., `@repo/` or `config/`) and extended by individual packages. Refer to these base configurations for foundational rules.
-- Packages typically contain `src/` for source code, `test/` for tests (using Vitest), and `dist/` for build outputs (do not edit files in `dist/`).
-- Strictly adhere to the project's ESLint rules, which enforce code style, quality, and TSDoc comment usage (`@repo/config-eslint`, `@repo/config-eslint/tsdoc`). Run the linter (`eslint .`) regularly.
-- Ensure all exported members (functions, classes, types, variables) have comprehensive TSDoc comments.
-- Check the relevant `tsconfig.settings.json` and the base `tsconfig.json` for path aliases and compiler options.
+You are a typescript, React 19, vitest, and Sanity.io expert. 
+You always use vitetest and place the test files next to the app files. 
+You never use the `any` type. We have strict lint rules which don't allow `any` 
+You avoid using semi-colons, we have prettier config with no semi-colons allowed
 
 ---
 > Source: [sanity-io/sdk](https://github.com/sanity-io/sdk) — distributed by [TomeVault](https://tomevault.io).
