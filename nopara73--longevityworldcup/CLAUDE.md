@@ -1,21 +1,22 @@
-# debug-runtime-first
+# powershell-commit-gotcha
 
-> Small repo-specific debugging gotchas from recent work
+> Small Windows PowerShell commit-message gotcha
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/debug-runtime-first/SKILL.md
+Read and follow the instructions in .claude/skills/powershell-commit-gotcha/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Recent Debugging Gotchas
+# PowerShell Commit Gotcha
 
-- Session debug logs for this repo may end up in `.cursor/debug-<session>.log` instead of the workspace root. If the expected log file is missing, check there before assuming logging failed.
+- This repo is usually worked in from Windows PowerShell. Shell commands that include bash-style heredoc syntax like `<<'EOF'` can be parsed by PowerShell before bash receives them.
+- For `git commit` message construction in PowerShell, prefer a PowerShell here-string or another PowerShell-safe approach instead of an inline bash heredoc.
 
 ---
 > Source: [nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) — distributed by [TomeVault](https://tomevault.io).
