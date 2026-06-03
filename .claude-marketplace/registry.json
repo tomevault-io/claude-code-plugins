@@ -48649,6 +48649,11 @@
       "description": "An iOS app to read and manage the DB Multiverse webcomic, built with a modular architecture."
     },
     {
+      "name": "fazil47--wgpu-renderer",
+      "source": "./fazil47--wgpu-renderer",
+      "description": "A rasterizer and raytracer renderer written in Rust using the wgpu library."
+    },
+    {
       "name": "s-zx--crest",
       "source": "./s-zx--crest",
       "description": "An open source, AI-native terminal."
@@ -50134,6 +50139,31 @@
       "description": "A minimal Next.js 15 application that renders content from Markdown files."
     },
     {
+      "name": "carbon-design-system--carbon-ai-chat",
+      "source": "./carbon-design-system--carbon-ai-chat",
+      "description": "Carbon AI chat is a front-end chat framework from the IBM Carbon team."
+    },
+    {
+      "name": "ifokeev--telegram-ai-agent",
+      "source": "./ifokeev--telegram-ai-agent",
+      "description": "Telegram AI Agent: A powerful Python library for creating AI-powered Telegram bots"
+    },
+    {
+      "name": "carbon-design-system--carbon-ai-chat",
+      "source": "./carbon-design-system--carbon-ai-chat",
+      "description": "Carbon AI chat is a front-end chat framework from the IBM Carbon team."
+    },
+    {
+      "name": "simformsolutionspvtltd--splash-master",
+      "source": "./simformsolutionspvtltd--splash-master",
+      "description": "A Flutter plugin that streamlines the process of adding splash screens to your app. This plugin takes care of all the necessary native-side setup which saves your time and efforts."
+    },
+    {
+      "name": "richardknop--minisql",
+      "source": "./richardknop--minisql",
+      "description": "Embedded single file SQL database written in Golang"
+    },
+    {
       "name": "bug-ops--mcp-execution",
       "source": "./bug-ops--mcp-execution",
       "description": "\ud83d\ude80 Generate executable TypeScript tools from MCP servers with 98% token savings. Progressive loading pattern for AI agents. Production-ready."
@@ -51469,6 +51499,11 @@
       "description": "An integrated package for displaying the Holy Qur\u2019an identical to the Medina Quran with the narration of Hafs on the authority of Asim."
     },
     {
+      "name": "nlopes--acdc",
+      "source": "./nlopes--acdc",
+      "description": "Toolkit for AsciiDoc\u2122 in rust"
+    },
+    {
       "name": "vrsen--mcp-code-exec-agent",
       "source": "./vrsen--mcp-code-exec-agent",
       "description": "mcp-code-exec-agent"
@@ -52067,6 +52102,11 @@
       "name": "munich-quantum-toolkit--yaqs",
       "source": "./munich-quantum-toolkit--yaqs",
       "description": "YAQS: A Tool for Simulating Open Quantum Systems, Noisy Quantum Circuits, and Realistic Quantum Hardware"
+    },
+    {
+      "name": "phongnguyend--entityframeworkcore-postgresql-simplebulks",
+      "source": "./phongnguyend--entityframeworkcore-postgresql-simplebulks",
+      "description": "Fast and simple bulk insert (retain client populated Ids or return db generated Ids), bulk update, bulk delete, bulk merge and bulk match for PostgreSQL."
     },
     {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
@@ -52947,6 +52987,16 @@
       "name": "mohamedsadiq--lightup",
       "source": "./mohamedsadiq--lightup",
       "description": "AI Genius annotations for every page on the web."
+    },
+    {
+      "name": "mondeja--hledger-fmt",
+      "source": "./mondeja--hledger-fmt",
+      "description": "Opinionated hledger's journal files formatter"
+    },
+    {
+      "name": "gravity-ui--charts",
+      "source": "./gravity-ui--charts",
+      "description": "React charting library with 10+ chart types: area, bar, line, pie, scatter, treemap, and more"
     },
     {
       "name": "affitor--open-affiliate",
@@ -56244,6 +56294,11 @@
       "description": "protein utilities in Rust"
     },
     {
+      "name": "dncraptor--pico-spec",
+      "source": "./dncraptor--pico-spec",
+      "description": "ESPectrum port for RP2040/RP2350 (Raspberry Pi Pico / Pico 2)"
+    },
+    {
       "name": "skywind3000--gamesample",
       "source": "./skywind3000--gamesample",
       "description": "Game Samples for GameLib"
@@ -59297,6 +59352,11 @@
       "name": "woopstar--hsem",
       "source": "./woopstar--hsem",
       "description": "Maximize the potential of your Huawei solar battery system with this powerful Home Assistant custom integration."
+    },
+    {
+      "name": "zcash--wallet",
+      "source": "./zcash--wallet",
+      "description": "Repo for replacing the zcashd wallet"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -71874,6 +71934,11 @@
       "description": "stream-feeds-js"
     },
     {
+      "name": "ikuzweelisa--code-copilot",
+      "source": "./ikuzweelisa--code-copilot",
+      "description": " AProgramming Assistant"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -73722,6 +73787,16 @@
       "name": "pymmcore-plus--pymmcore-gui",
       "source": "./pymmcore-plus--pymmcore-gui",
       "description": "Pure Python Micro-Manager GUI Application, built on pymmcore-plus"
+    },
+    {
+      "name": "karthikshivasankar--python-smells-detector",
+      "source": "./karthikshivasankar--python-smells-detector",
+      "description": "PyExamine: A Comprehensive, Un-Opinionated Smell Detection Tool for Python"
+    },
+    {
+      "name": "rameerez--trackdown",
+      "source": "./rameerez--trackdown",
+      "description": "\ud83d\udccd Ruby gem to geolocate IPs easily"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -84739,6 +84814,26 @@
       "description": "Futu open api golang client. \u5bcc\u9014Open API\u6700\u597d\u7528\u7684Golang\u5ba2\u6237\u7aef"
     },
     {
+      "name": "cloud-solutions-international--antikythera",
+      "source": "./cloud-solutions-international--antikythera",
+      "description": "Automated test generation for spring apps"
+    },
+    {
+      "name": "cloud-solutions-international--antikythera",
+      "source": "./cloud-solutions-international--antikythera",
+      "description": "Automated test generation for spring apps"
+    },
+    {
+      "name": "sadekur--commercekit",
+      "source": "./sadekur--commercekit",
+      "description": "Tagline: Essential tools for smarter selling. Why it works: Sounds like a toolkit, aligns well with a feature-rich helper plugin."
+    },
+    {
+      "name": "cloud-solutions-international--antikythera",
+      "source": "./cloud-solutions-international--antikythera",
+      "description": "Automated test generation for spring apps"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -87302,6 +87397,11 @@
       "name": "canonical--concierge",
       "source": "./canonical--concierge",
       "description": "An opinionated utility for provisioning charm development and testing machines."
+    },
+    {
+      "name": "ranch-hand-robotics--rde-urdf",
+      "source": "./ranch-hand-robotics--rde-urdf",
+      "description": "Standalone URDF Editor for VSCode"
     },
     {
       "name": "hyaway--hyaway",
