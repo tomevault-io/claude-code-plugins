@@ -1,0 +1,39 @@
+# changesets
+
+> How to record user-facing package changes for releases
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/changesets/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Changesets (release notes)
+
+This repo uses [Changesets](https://github.com/changesets/changesets). **Do not** hand-edit per-package `CHANGELOG.md` files for new work: they are updated automatically when releases run.
+
+When a change should appear in the next release notes:
+
+1. Add a new markdown file under `.changeset/` (e.g. `.changeset/some-topic.md`).
+2. Use the standard frontmatter listing affected packages and bump type (`patch`, `minor`, or `major`):
+
+   ```yaml
+   ---
+   "@prosemark/core": patch
+   ---
+   ```
+
+   For multiple packages, list each on its own line under the same `---` block.
+
+3. After the frontmatter, write a concise summary in the imperative or plain past tense, as you want it to read in the changelog.
+
+Remove or avoid duplicate descriptions in `CHANGELOG.md`; rely on the changeset file only.
+
+---
+> Source: [jsimonrichard/ProseMark](https://github.com/jsimonrichard/ProseMark) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-03 -->
