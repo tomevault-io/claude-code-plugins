@@ -1,19 +1,19 @@
-# license
+# memory-promotion
 
-> SPDX Apache-2.0 license header requirement for all Python files
+> Durable project learnings must be promoted into canonical repo docs or shared agent rules
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/license/SKILL.md
+Read and follow the instructions in .claude/skills/memory-promotion/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-@.agents/rules/license.md
+@.agents/rules/memory-promotion.md
 
 ---
 > Source: [NVIDIAGameWorks/toolkit-remix](https://github.com/NVIDIAGameWorks/toolkit-remix) — distributed by [TomeVault](https://tomevault.io).
