@@ -1,21 +1,19 @@
-# no-inline-imports
+# typescript-exhaustive-switch
 
-> Keep imports at top of file and avoid inline imports
+> Use exhaustive switch handling for TypeScript unions and enums
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/no-inline-imports/SKILL.md
+Read and follow the instructions in .claude/skills/typescript-exhaustive-switch/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# No inline imports
-
-Always place imports at the top of the module. Avoid inline imports in function bodies, type annotations, or interface fields unless there is a strict circular-dependency reason and it is documented.
+typescript-exhaustive-switch: In switch statements over discriminated unions or enums, use a `never` check in the default case so newly added variants cause compile-time failures until handled.
 
 ---
 > Source: [StudyDrift/lextures](https://github.com/StudyDrift/lextures) — distributed by [TomeVault](https://tomevault.io).
