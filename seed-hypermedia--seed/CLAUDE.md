@@ -1,0 +1,27 @@
+# web
+
+> This mostly includes details about `frontend/apps/web`
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/web/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+This mostly includes details about `frontend/apps/web`
+
+# Tests
+
+Run tests for things in the `frontend/apps/web`, if there is a test file present. Do this automatically without me asking you!
+
+Run the tests by running `yarn web:test run <testFileName>` in the repo root. If you forget to include `run`, you will be stuck in watch mode! Orjust `yarn web:test run` to run all web test. Also you can run `yarn workspace @shm/shared test run` for tests in `frontend/packages/shared`
+
+If you are working on something that is easily tested, you can offer to create a test
+
+---
+> Source: [seed-hypermedia/seed](https://github.com/seed-hypermedia/seed) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-03 -->
