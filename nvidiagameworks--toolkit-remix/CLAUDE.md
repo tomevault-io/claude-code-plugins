@@ -1,19 +1,19 @@
-# memory-promotion
+# project
 
-> Durable project learnings must be promoted into canonical repo docs or shared agent rules
+> RTX Remix Toolkit project overview — build, run, and test commands
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/memory-promotion/SKILL.md
+Read and follow the instructions in .claude/skills/project/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-@.agents/rules/memory-promotion.md
+@.agents/context/project.md
 
 ---
 > Source: [NVIDIAGameWorks/toolkit-remix](https://github.com/NVIDIAGameWorks/toolkit-remix) — distributed by [TomeVault](https://tomevault.io).
