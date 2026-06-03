@@ -1,20 +1,17 @@
-# tanstack-table-search-params
+# claude
 
-> As this project's AI coding tool, you must follow the additional conventions below, in addition to the built-in functions.
+> This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/tanstack-table-search-params/SKILL.md
+Read and follow the instructions in .claude/skills/claude/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Additional Conventions Beyond the Built-in Functions
-
-As this project's AI coding tool, you must follow the additional conventions below, in addition to the built-in functions.
 
 # CLAUDE.md
 
