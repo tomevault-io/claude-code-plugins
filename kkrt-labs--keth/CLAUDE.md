@@ -1,0 +1,38 @@
+# coding-standards
+
+> Cairo Coding Standards
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/coding-standards/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Cairo Coding Standards
+
+## Naming Conventions
+- Use snake_case for function names: `func is_not_zero(value) -> felt {`
+- Use PascalCase for struct names: `struct EthereumException`
+- Use snake_case for variables: `let current_value = x`
+- Use UPPER_CASE for constants: `const MAX_STACK_SIZE = 1024`
+
+## Code Organization
+- Group related functions and types in the same file
+- Follow the directory structure of the Ethereum Execution Specs
+- Separate interface from implementation where appropriate
+- Keep files focused on a single responsibility
+
+## Testing
+- Write tests in Python using the `cairo_run` fixture in @conftest.py
+- Test both success and error cases
+- Use hypothesis for property-based testing
+- Mirror the source directory structure in the test directory
+- Compare Cairo results with Python reference implementations
+
+---
+> Source: [kkrt-labs/keth](https://github.com/kkrt-labs/keth) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-03 -->
