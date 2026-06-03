@@ -7,15 +7,15 @@ previously boycottisraelitech.com
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [TheBSD/poykott](https://github.com/TheBSD/poykott).
+Original source: `.windsurf/rules/*.md` in [TheBSD/poykott](https://github.com/TheBSD/poykott).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
-- **Windsurf** — `project-config.md`
 
 From [TheBSD/poykott](https://github.com/TheBSD/poykott) — a repo with 41+ stars on GitHub.
 
