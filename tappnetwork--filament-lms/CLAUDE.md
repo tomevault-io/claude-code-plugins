@@ -1,35 +1,21 @@
-# coding-standards
+# linter-exceptions
 
-> - Always run `./vendor/bin/pint` after making code changes to fix code style issues
+> AI instruction file for Filament-LMS by TappNetwork
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/coding-standards/SKILL.md
+Read and follow the instructions in .claude/skills/linter-exceptions/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Cursor Rules
-
-## Code Style and Quality
-- Always run `./vendor/bin/pint` after making code changes to fix code style issues
-- Always run `./vendor/bin/phpstan analyse` after making code changes to check for static analysis issues
-- This prevents GitHub Actions from having to make style fixes and ensures code quality
-
-## Testing
-- Use Pest syntax for all tests (not PHPUnit)
-- Use `test()` functions and `expect()` assertions
-- Use `uses(RefreshDatabase::class)` for database tests
-- Use `beforeEach()` for setup code
-
-## Laravel Best Practices
-- Follow Laravel 12 conventions
-- Use proper dependency injection
-- Use Eloquent relationships appropriately
-- Follow PSR-12 coding standards
+# Linter Rule Exceptions
+# ---------------------
+# Ignore linter errors related to auth() function usage
+ignore: auth()
 description:
 globs:
 alwaysApply: false
