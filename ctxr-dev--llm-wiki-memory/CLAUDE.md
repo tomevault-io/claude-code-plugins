@@ -1,13 +1,13 @@
-# releases-docs-authoring
+# testing
 
-> When and how to write a docs/releases/yyyy/mm/dd[/vN]/update-prompt.md runbook for a breaking llm-wiki-memory release. Canonical file is .agents/rules/releases-docs-authoring.md.
+> Testing rules for llm-wiki-memory — node:test harness conventions, mock-provider seams, the /tmp/lwm-* leak trap. Canonical file is .agents/rules/testing.md.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/releases-docs-authoring/SKILL.md
+Read and follow the instructions in .claude/skills/testing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,7 +15,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 Follow the canonical rule (edit that file, never this shadow):
 
-@.agents/rules/releases-docs-authoring.md
+@.agents/rules/testing.md
 
 ---
 > Source: [ctxr-dev/llm-wiki-memory](https://github.com/ctxr-dev/llm-wiki-memory) — distributed by [TomeVault](https://tomevault.io).
