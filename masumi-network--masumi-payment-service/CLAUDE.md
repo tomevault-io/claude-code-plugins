@@ -1,69 +1,90 @@
-# general
+# security
 
-> Project-wide coding standards for Masumi Payment Service
+> Security-critical patterns for authentication, encryption, and secret handling
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/general/SKILL.md
+Read and follow the instructions in .claude/skills/security/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-You are an expert in TypeScript, Node.js, Express, Prisma, and Cardano blockchain development.
+You are an expert in application security, encryption, authentication, and secure handling of sensitive data.
 
 Key Principles
 
-- Write clear, technical TypeScript code with accurate examples.
-- Use functional and declarative programming patterns; avoid classes except for services.
-- Prioritize readability and maintainability; follow the project's established patterns.
-- Use descriptive variable and function names with auxiliary verbs (e.g., isLoading, hasError, canWithdraw).
-- Structure code in a modular way to promote reusability and separation of concerns.
+- Never log, expose, or store unencrypted secrets, mnemonics, or private keys.
+- Use the project's encryption utilities for all sensitive data storage.
+- Validate authentication and authorization on every endpoint.
+- Follow the principle of least privilege for API key permissions.
+- Protect against common vulnerabilities: injection, XSS, CSRF.
 
-TypeScript Conventions
+Secret Management
 
-- Use TypeScript for all code; prefer interfaces over types for object shapes.
-- Use path aliases consistently: `@/*` maps to `src/*`, `@smart-contracts/*` maps to `smart-contracts/*`; never use relative imports like `../../`.
-- Prefix unused variables with underscore (e.g., `_error`, `_unused`) to satisfy ESLint.
-- Avoid `any` type when possible, but it is allowed in this project when necessary.
-- Never introduce unknown-valued map types; use domain types, explicit recursive value types, or property-reader helpers instead.
-- Use strict null checks; handle null and undefined explicitly.
+- Always encrypt wallet mnemonics before storing using `encrypt()` from `@/utils/security/encryption`.
+- Always decrypt wallet mnemonics when needed using `decrypt()` from `@/utils/security/encryption`.
+- Never log mnemonic phrases, private keys, or encryption keys.
+- Never commit .env files or expose API keys in source code.
+- Use environment variables for all sensitive configuration.
 
-Formatting Standards
+API Key Authentication
 
-- Use single quotes for strings, never double quotes.
-- Use 2 spaces for indentation, never tabs.
-- Include trailing commas in all multi-line structures.
-- End all statements with semicolons.
-- Maximum line length of 100 characters.
-- Run `pnpm run lint` and `pnpm run format` before committing.
+- All endpoints must use authenticated endpoint factories; no unauthenticated routes.
+- The project has three permission levels: Read, ReadAndPay, and Admin.
+- Read permission allows read-only access to resources.
+- ReadAndPay permission allows read access plus payment operations.
+- Admin permission allows full access including administrative operations.
+- API keys can be restricted to specific networks; validate network access.
 
-Naming Conventions
+Endpoint Security
 
-- Use kebab-case for file names (e.g., `my-service.ts`, `payment-handler.ts`).
-- Use PascalCase for classes, interfaces, and type aliases.
-- Use camelCase for functions, variables, and object properties.
-- Use UPPER_SNAKE_CASE for constants and environment variables.
+- Use `readAuthenticatedEndpointFactory` for endpoints requiring Read permission.
+- Use `payAuthenticatedEndpointFactory` for endpoints requiring ReadAndPay permission.
+- Use `adminAuthenticatedEndpointFactory` for endpoints requiring Admin permission.
+- Use `checkIsAllowedNetworkOrThrowUnauthorized()` to validate network restrictions.
+- Throw 401 errors using `createHttpError(401, 'Unauthorized')` for auth failures.
 
-Commit Message Standards
+Authentication Flow
 
-- Follow conventional commits format strictly: `type(scope): description`.
-- Types allowed: feat, fix, docs, style, refactor, test, chore, perf, ci, revert, build.
-- Keep header under 72 characters; type must be lowercase.
-- No period at end of subject line.
-- Use present tense ("add feature" not "added feature").
+- API keys are passed in the `token` header.
+- Keys are hashed with SHA256 and looked up in database.
+- Validate key status is Active; reject Revoked keys.
+- Validate permission level meets endpoint requirements.
+- Validate network restrictions if applicable.
 
-Project Structure
+Logging Security Events
 
-- Routes handle HTTP request/response only; keep them thin.
-- Services contain business logic and orchestrate operations.
-- Utilities provide reusable helper functions.
-- Generated code in `src/generated/` must never be manually edited.
+- Log authentication failures with context but without exposing tokens.
+- Include API key ID, requested permission, and endpoint in security logs.
+- Never log the actual token value or sensitive request data.
+- Use structured logging with `logger.error()` or `logger.warn()`.
 
-Refer to the project's ESLint and Prettier configurations for specific formatting rules.
+Branch Protection
+
+- Never push directly to main or dev branches; use feature branches.
+- Pre-push hooks enforce linting and block protected branch pushes.
+- All changes should go through pull request review process.
+
+Data Validation
+
+- Validate all input data using Zod schemas before processing.
+- Sanitize user input to prevent injection attacks.
+- Use parameterized queries through Prisma; never construct raw SQL.
+- Validate file paths and prevent path traversal attacks.
+
+Secure Coding Practices
+
+- Use HTTPS for all external API communications.
+- Implement proper CORS configuration for API endpoints.
+- Set secure headers for HTTP responses.
+- Use timing-safe comparison for sensitive string comparisons.
+- Handle errors gracefully without exposing internal details to clients.
+
+Refer to `docs/security.md` for detailed security documentation and best practices.
 
 ---
 > Source: [masumi-network/masumi-payment-service](https://github.com/masumi-network/masumi-payment-service) — distributed by [TomeVault](https://tomevault.io).
