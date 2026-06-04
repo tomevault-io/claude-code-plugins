@@ -1,36 +1,32 @@
-# typescript
+# wasp-general
 
-> **Description**: Guidelines for TypeScript usage and type safety
+> Wasp General Guidelines
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/typescript/SKILL.md
+Read and follow the instructions in .claude/skills/wasp-general/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# TypeScript
+# Wasp General Guidelines
 
-**Description**: Guidelines for TypeScript usage and type safety
+**Description**: General Wasp configuration and setup guidelines
 
-## General
+## Configuration
 
-- Define proper types for all variables and functions
-- Use type inference when types are obvious
-- Use .tsx extension for React components
-- Use .ts extension for non-React files
-- Define proper types for operations:
-  - ✓ `type GetTasks = QueryFn<void, Task[]>`
-  - ✓ `type CreateTask = ActionFn<{ description: string }, Task>`
+- Roke uses the standard Wasp configuration approach with `main.wasp`
 
-## Type Definitions
+## Rules
 
-- Place shared types in the same file they will be used in.
-- Use interface for object types that can be extended
-- Use type for unions, intersections, and mapped types
+- Wasp is on ^0.16.x
+- Don't remove existing configuration in main.wasp unless specifically requested
+- When adding new routes, pages, actions, or queries, ensure you also create the
+  corresponding implementation files
+- Follow proper import patterns for Wasp entities and functions (see imports.md)
 
 ---
 > Source: [wardbox/roke](https://github.com/wardbox/roke) — distributed by [TomeVault](https://tomevault.io).
