@@ -1,18 +1,18 @@
-# persistence
+# plan
 
-> Persistence: Keep going until the job is completely solved, before ending your turn.
+> Plan, then reflect: Plan thoroughly before every tool call, then reflect on the call after.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/persistence/SKILL.md
+Read and follow the instructions in .claude/skills/plan/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Persistence: Keep going until the job is completely solved, before ending your turn.
+Plan, then reflect: Plan thoroughly before every tool call, then reflect on the call after.
 
 ---
 > Source: [BretMeraki/forest-front-end-forge](https://github.com/BretMeraki/forest-front-end-forge) — distributed by [TomeVault](https://tomevault.io).
