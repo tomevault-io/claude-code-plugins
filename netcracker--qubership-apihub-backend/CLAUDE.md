@@ -1,21 +1,21 @@
-# apihub-backend-self-review
+# apihub-deployment-followup
 
-> Self-review APIHub backend changes against project standards.
+> Remind when backend changes require Helm or Compose updates in qubership-apihub.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/apihub-backend-self-review/SKILL.md
+Read and follow the instructions in .claude/skills/apihub-deployment-followup/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When the user asks for self-review, code review of a diff, or a post-implementation
-check before commit or PR in `qubership-apihub-backend`, apply the
-`apihub-backend-self-review` skill.
+When implementing or modifying backend configuration, env-backed defaults, startup
+wiring, or deployment-facing behaviour in `qubership-apihub-backend`, apply the
+`apihub-deployment-followup` skill before finishing the task.
 
 ---
 > Source: [Netcracker/qubership-apihub-backend](https://github.com/Netcracker/qubership-apihub-backend) — distributed by [TomeVault](https://tomevault.io).
