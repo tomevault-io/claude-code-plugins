@@ -1,20 +1,34 @@
-# github-ticket-implementation-planner
+# go-comments
 
-> Plan implementation from a GitHub issue with clarifying questions and approved plan posting.
+> Go comment policy and entity-to-view converter naming
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/github-ticket-implementation-planner/SKILL.md
+Read and follow the instructions in .claude/skills/go-comments/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When planning implementation from a GitHub issue, ticket, or task description, apply the
-`github-ticket-implementation-planner` skill.
+# Go Comments and Converters
+
+## Comments
+
+- Comment only when it materially helps understanding non-obvious logic.
+- Do not comment obvious code.
+- Do not add comments that map structs/functions to HTTP routes (e.g. `// AiChatsListResponse is GET /chats`).
+
+## CI / EditorConfig in Go sources
+
+- Raw string literals (system prompts, embedded templates): continuation lines that look indented must use **tabs**, not spaces — see CI linter rules.
+
+## Entity → view converters
+
+- Converters with **no dependencies** belong in the `entity` package next to the entity struct.
+- Name them `Make{Name}View` (e.g. `MakePackageSearchResultView`).
 
 ---
 > Source: [Netcracker/qubership-apihub-backend](https://github.com/Netcracker/qubership-apihub-backend) — distributed by [TomeVault](https://tomevault.io).
