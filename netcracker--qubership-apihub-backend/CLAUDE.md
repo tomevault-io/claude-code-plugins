@@ -1,24 +1,27 @@
-# backend-config-defaults
+# backend-db-migrations
 
-> Backend config defaults and validation conventions
+> Backend SQL migration path and validation script
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/backend-config-defaults/SKILL.md
+Read and follow the instructions in .claude/skills/backend-db-migrations/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Backend Configuration Defaults
+# Backend Database Migrations
 
-- **Single source of truth:** `viper.SetDefault` in `service/SystemInfoService.go` (`setDefaults`).
-- **Validation:** `validate` tags on types in `config/Config.go` (mirror `BusinessParameters` size limits: `gt=0`, `lte=8796093022207` where MB→bytes conversion applies).
-- **Startup:** invalid config fails fast in `SystemInfoService.Init()` via `utils.ValidateConfig`.
-- **Services:** use `GetAiChatConfig()` / other getters after init; do not re-declare the same default as a Go constant.
+- Migrations live in `qubership-apihub-service/resources/migrations/`.
+- Use the next unused numeric prefix (current highest is visible in that directory).
+- **Never** reuse or duplicate migration numbers.
+- Provide paired `.up.sql` and `.down.sql` files when rollback is required.
+- After adding migrations, run from repo root:
+  - Linux / WSL / Git Bash: `bash .cursor/skills/apihub-backend-developer/scripts/check_migration_numbers.sh`
+  - Windows PowerShell: `powershell -File .cursor/skills/apihub-backend-developer/scripts/check_migration_numbers.ps1`
 
 ---
 > Source: [Netcracker/qubership-apihub-backend](https://github.com/Netcracker/qubership-apihub-backend) — distributed by [TomeVault](https://tomevault.io).
