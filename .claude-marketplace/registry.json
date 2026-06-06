@@ -70479,6 +70479,16 @@
       "description": "A generic OpenID Connect (OIDC) Provider for Laravel Socialite"
     },
     {
+      "name": "dcc-mcp--dcc-mcp-core",
+      "source": "./dcc-mcp--dcc-mcp-core",
+      "description": "Core runtime and shared tooling for DCC-MCP: safe, skill-first MCP integration across Maya, Blender, Houdini, Photoshop, and custom DCC hosts."
+    },
+    {
+      "name": "dcc-mcp--dcc-mcp-core",
+      "source": "./dcc-mcp--dcc-mcp-core",
+      "description": "Core runtime and shared tooling for DCC-MCP: safe, skill-first MCP integration across Maya, Blender, Houdini, Photoshop, and custom DCC hosts."
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -91119,6 +91129,16 @@
       "description": "Swift library for the ATProtocol and Bluesky, generated from Lexicons"
     },
     {
+      "name": "dcc-mcp--dcc-mcp-maya",
+      "source": "./dcc-mcp--dcc-mcp-maya",
+      "description": "Maya-specific implementation of Model Context Protocol (MCP) for Autodesk Maya, enabling remote control and integration with MCP ecosystem."
+    },
+    {
+      "name": "dcc-mcp--dcc-mcp-maya",
+      "source": "./dcc-mcp--dcc-mcp-maya",
+      "description": "Maya-specific implementation of Model Context Protocol (MCP) for Autodesk Maya, enabling remote control and integration with MCP ecosystem."
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -101802,6 +101822,11 @@
       "name": "darmado--attack-macos",
       "source": "./darmado--attack-macos",
       "description": "A library of post-exploitation MacOS scripts based on threat emulation, LOObins, CTI, and MITRE ATT&CK."
+    },
+    {
+      "name": "oscabriel--skills",
+      "source": "./oscabriel--skills",
+      "description": "skills"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
