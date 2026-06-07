@@ -1,4 +1,4 @@
-# han-monorepo-template
+# viteplus
 
 > Read `docs/agents/index.md` first. It is the index map for repo-specific agent instructions.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/han-monorepo-template/SKILL.md
+Read and follow the instructions in .claude/skills/viteplus/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
