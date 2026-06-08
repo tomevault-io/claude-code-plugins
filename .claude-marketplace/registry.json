@@ -127319,6 +127319,11 @@
       "description": "\u5177\u5907\u8ba4\u77e5\u8bb0\u5fc6\u67b6\u6784\u7684 AI Agent\uff0c\u8ba9 AI \u8bb0\u4f4f\u4f60\u7684\u504f\u597d\uff0c\u8d8a\u7528\u8d8a\u61c2\u4f60 \u6838\u5fc3\u7279\u6027\uff1a\u56db\u7c7b\u578b\u8bb0\u5fc6\u7cfb\u7edf\u3001\u8de8\u4f1a\u8bdd\u8bb0\u5fc6\u5171\u4eab\u3001Claude Code \u67b6\u6784\u300115+ \u5927\u6a21\u578b\u652f\u6301"
     },
     {
+      "name": "rg8diaoa--agentprecept",
+      "source": "./rg8diaoa--agentprecept",
+      "description": "AgentPrecept \u4e3a AI \u7f16\u7801 Agent \u5efa\u7acb\u5de5\u7a0b\u6212\u5f8b\u2014\u2014\u4e0d\u662f\u8ba9 Agent \u66f4\u5f3a\uff0c\u662f\u7ed9\u5b83\u4e00\u4efd\u65bd\u5de5\u56fe\u548c\u4e00\u9053\u5fc5\u987b\u8fc7\u7684\u95e8\u3002\u4e00\u952e agentprecept init \u63a5\u5165\uff1a6 \u9636\u6bb5\u9aa8\u67b6\u3001pre-commit \u56db\u95e8\u62e6\u622a\uff08\u5206\u652f/\u7c92\u5ea6/\u8bbe\u8ba1/\u786e\u8ba4\uff09\u3001CI gate 15 \u7ef4\u81ea\u52a8\u5316\u5ba1\u8ba1\u3001MCP design_gate \u524d\u7f6e\u68c0\u67e5\u3002project-graph \u8ba9 Agent 30 \u79d2\u8bfb\u61c2\u9879\u76ee\uff0cHANDO"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -135889,6 +135894,26 @@
       "description": "LLM document summarizer demo"
     },
     {
+      "name": "goldsky-io--streamling",
+      "source": "./goldsky-io--streamling",
+      "description": "Data streaming runtime focused on performance, consistency, and extensibility. Write plugins in Rust or WASM and process data with data guarantees. "
+    },
+    {
+      "name": "goldsky-io--streamling",
+      "source": "./goldsky-io--streamling",
+      "description": "Data streaming runtime focused on performance, consistency, and extensibility. Write plugins in Rust or WASM and process data with data guarantees. "
+    },
+    {
+      "name": "goldsky-io--streamling",
+      "source": "./goldsky-io--streamling",
+      "description": "Data streaming runtime focused on performance, consistency, and extensibility. Write plugins in Rust or WASM and process data with data guarantees. "
+    },
+    {
+      "name": "lwj1994--greenram",
+      "source": "./lwj1994--greenram",
+      "description": "macOS menu bar app that quits safe background apps when RAM or Swap exceeds limits"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -138037,6 +138062,11 @@
       "name": "semantic-craft--ios-vibebuddy",
       "source": "./semantic-craft--ios-vibebuddy",
       "description": "iOS-vibebuddy"
+    },
+    {
+      "name": "teaql--robot-task-board",
+      "source": "./teaql--robot-task-board",
+      "description": "A sample to show how to use TeaQL in rust for embedded devices."
     },
     {
       "name": "ncaq---zsh-d",
