@@ -1,0 +1,26 @@
+# grimoire
+
+> Source: [jeffreytse/grimoire](https://github.com/jeffreytse/grimoire) — distributed by [TomeVault](https://tomevault.io)
+
+🧙 Democratizing best practices across 27 domains. Your AI knows everything — Grimoire makes it practice it.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `GEMINI.md` in [jeffreytse/grimoire](https://github.com/jeffreytse/grimoire).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/jeffreytse/grimoire](https://github.com/jeffreytse/grimoire)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-q -->
