@@ -112249,6 +112249,11 @@
       "description": "BridgeBrain gives GBrain a local Codex ChatGPT-login embedding bridge: no Ollama, no GPU, no extra embedding API key."
     },
     {
+      "name": "tombwater--github-codeowners",
+      "source": "./tombwater--github-codeowners",
+      "description": "github-reviewers"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -127687,6 +127692,16 @@
       "name": "renmengwen--musedock",
       "source": "./renmengwen--musedock",
       "description": "MuseDock \u662f\u4e00\u4e2a\u672c\u5730\u4f18\u5148\u7684\u5185\u5bb9\u91c7\u96c6\u3001\u7d20\u6750\u6574\u7406\u548c AI \u521b\u4f5c\u5de5\u4f5c\u53f0\u3002\u5b83\u628a\u6296\u97f3\u5185\u5bb9\u91c7\u96c6\u3001\u8bc4\u8bba\u7f13\u5b58\u3001\u7d20\u6750\u51c6\u5907\u3001\u97f3\u9891\u8f6c\u5199\u3001AI \u62c6\u89e3\u6539\u5199\u3001TTS \u53e3\u64ad\u3001AI \u5206\u955c\u3001\u4eba\u5de5\u6821\u6b63\u548c HyperFrames MP4 \u6e32\u67d3\u4e32\u5728\u540c\u4e00\u4e2a Web GUI \u91cc\uff0c\u9002\u5408\u628a\u77ed\u89c6\u9891\u7d20\u6750\u6c89\u6dc0\u4e3a\u53ef\u590d\u7528\u7684\u672c\u5730\u521b\u4f5c\u8d44\u4ea7\u3002"
+    },
+    {
+      "name": "maosasagawa--blackbox-re-agent",
+      "source": "./maosasagawa--blackbox-re-agent",
+      "description": "Conversational black-box reverse-engineering agent on the pi coding agent \u2014 analyzes apk/.o/.hex/exe with a self-provisioning toolchain (radare2 \u00b7 Ghidra \u00b7 angr \u00b7 jadx). Static analysis. Claude Code &"
+    },
+    {
+      "name": "dong90--oh-my-taiyiforge",
+      "source": "./dong90--oh-my-taiyiforge",
+      "description": "TaiyiForge \u2014 nine-phase AI workflow plugin for OpenCode + taiyi-* skills for Claude/Codex"
     },
     {
       "name": "loiane--specs-driven-development",
