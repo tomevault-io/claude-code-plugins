@@ -107229,6 +107229,11 @@
       "description": "CPU stress test using AVX operations"
     },
     {
+      "name": "nxtrace--globaltrace",
+      "source": "./nxtrace--globaltrace",
+      "description": "GlobalTrace \u662f\u4e00\u4e2a\u57fa\u4e8e Globalping MTR \u6d4b\u91cf\u7684 traceroute \u98ce\u683c\u8bca\u65ad\u5de5\u5177"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
