@@ -1,0 +1,37 @@
+# nest
+
+> - `nest.code-workspace` - VSCode 工作区
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nest/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# 项目指引
+
+## 结构
+- `nest.code-workspace` - VSCode 工作区
+- `deno/` - GraphQL 后端 (Deno)
+- `pc/` - 前端 (Vite/Vue 3)
+- `uni/` - 小程序前端
+- `codegen/` - 代码生成器
+
+## 各端 AGENTS.md 位置
+- `deno/AGENTS.md`
+- `pc/AGENTS.md`
+- `uni/AGENTS.md`
+- `codegen/AGENTS.md`
+
+## 技能位置
+- 后端: `deno/.agents/skills/`
+- 前端: `pc/.agents/skills/`
+- 代码生成: `codegen/.agents/skills/`
+
+---
+> Source: [sail-sail/nest](https://github.com/sail-sail/nest) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-12 -->
