@@ -1,24 +1,22 @@
-# 100-monorepo
+# ontoindex
 
-> - CLI (`ontoindex/`): `npm test`; `npm run test:integration`; `npx tsc --noEmit`.
+> Use **`.cursor/index.mdc`** (`alwaysApply: true`) for project rules. See [AGENTS.md](AGENTS.md).
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/100-monorepo/SKILL.md
+Read and follow the instructions in .claude/skills/ontoindex/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Deprecated for Cursor Agent Mode
 
-# OntoIndex build/test quick refs
+Use **`.cursor/index.mdc`** (`alwaysApply: true`) for project rules. See [AGENTS.md](AGENTS.md).
 
-- CLI (`ontoindex/`): `npm test`; `npm run test:integration`; `npx tsc --noEmit`.
-- Web (`ontoindex-web/`): `npm test`; `npm run dev`; `npx tsc -b --noEmit`; `E2E=1 npx playwright test` (needs servers).
-- `npm install` in `ontoindex/` runs `prepare` (tsc build) and `postinstall` (tree-sitter patches); needs `python3`, `make`, `g++`.
-- LadybugDB locking tests may fail in containerized environments because of `/tmp` file locks (known issue, not a code bug).
+This file is kept only as a breadcrumb for older workflows.
 
 ---
 > Source: [ontograph/ontoindex](https://github.com/ontograph/ontoindex) — distributed by [TomeVault](https://tomevault.io).
