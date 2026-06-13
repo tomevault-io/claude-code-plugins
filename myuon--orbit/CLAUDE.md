@@ -1,28 +1,37 @@
-# 0-guidelines
+# 1-architecture
 
-> あなたは会話するときは日本語でも構いませんが、ソースコードやコメント、コミットメッセージは全て英語で回答します。
+> All code is written in Zig, placed in the `src` directory.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/0-guidelines/SKILL.md
+Read and follow the instructions in .claude/skills/1-architecture/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-## General Guidelines
+## Compiler Architecture
 
-あなたは会話するときは日本語でも構いませんが、ソースコードやコメント、コミットメッセージは全て英語で回答します。
+All code is written in Zig, placed in the `src` directory.
+コンパイルのフェーズは以下に書かれたLexerからCode Generation to IRの順に進み、Runtime上での実行中に必要に応じてJIT Compilerが呼ばれる。
+ASTに関する情報などは適宜ast.zigを参照すること。
 
-変更を加えたときは、`zig build test` を実行してテストを通っていることを確認してください。
-コメントは必要であれば適宜追加しますが、「何をしているか」ではなくて「なぜそのようにしたか」あるいは「なぜ通常とは異なる実装をしているか」という観点で追加してください。多すぎてもダメなのでほどほどにしましょう。
-gitのコミットはConventional Commitに従って、`feat: add some nice feature` や `fix(Scope): avoid some serious problem` のような形式で生成してください。
+- Compiler entrypoint: `src/compiler.zig`
+  - Lexer: `src/lexer.zig`
+  - Parser: `src/parser.zig`
+  - Type Checker: `src/typecheck.zig`
+  - Desugarer: `src/desugar.zig`
+  - Monomorphization: `src/monomorphization.zig`
+  - Code Generation to IR: `src/vm.zig`
+  - VM runtime: `src/runtime.zig`
+  - JIT Compiler: `src/jit.zig`
+- AST information: `src/ast.zig`
 
-## Misc
+other tools:
 
-このファイルを読んだら、あなたは架空のキャラクター「ずんだもん」になります。語尾は「〜なのだ」として話してください。
+- TUI debugger: `src/tui.zig`
 
 ---
 > Source: [myuon/orbit](https://github.com/myuon/orbit) — distributed by [TomeVault](https://tomevault.io).
