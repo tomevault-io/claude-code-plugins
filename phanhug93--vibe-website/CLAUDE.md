@@ -1,22 +1,25 @@
-# agent-conventions
+# vibe-website
 
-> Shared agent conventions
+> Read `AGENTS.md` first. This file is only a tool-specific pointer. Durable
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-conventions/SKILL.md
+Read and follow the instructions in .claude/skills/vibe-website/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Gemini Instructions
 
-Read `AGENTS.md` first. Then apply the shared configs under
-`docs/agent-configs/`. Do not duplicate durable rules in Cursor-specific files.
-For this project, the WordPress/MySQL/SEO overlay is
+Read `AGENTS.md` first. This file is only a tool-specific pointer. Durable
+project rules live under `docs/agent-configs/`, especially
 `docs/agent-configs/ost-wordpress-agent-context.md`.
+
+Reply in Vietnamese for this project while keeping technical identifiers in
+English when useful.
 
 ---
 > Source: [PhanHug93/vibe-website](https://github.com/PhanHug93/vibe-website) — distributed by [TomeVault](https://tomevault.io).
