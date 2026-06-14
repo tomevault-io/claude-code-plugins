@@ -1,0 +1,31 @@
+# lpm
+
+> lpm starts, stops, duplicates, and switches between local dev projects, with a built-in terminal for running AI coding agents alongside services. The repo ships a macOS desktop app (Tauri 2 — React/TypeScript frontend, Rust backend), and a Next.js marketing site under `website/`
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/lpm/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Guide — lpm
+
+## Overview
+
+lpm starts, stops, duplicates, and switches between local dev projects, with a built-in terminal for running AI coding agents alongside services. The repo ships a macOS desktop app (Tauri 2 — React/TypeScript frontend, Rust backend), and a Next.js marketing site under `website/`
+
+## Conventions
+
+- Use clean code and best practices
+- Do not add comments. Only comment when the purpose or reasoning is unclear from the code itself
+- macOS-only: don't add Windows/Linux code paths
+- For each react component use separate file
+- Never commit or push any changes
+
+---
+> Source: [gug007/lpm](https://github.com/gug007/lpm) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-14 -->
