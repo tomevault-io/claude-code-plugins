@@ -1039,6 +1039,11 @@
       "description": "\u57fa\u4e8e Playwright \u548cAI\u5b9e\u73b0\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6/\u5b9a\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff0c\u914d\u5907\u4e86\u529f\u80fd\u5b8c\u5584\u7684\u540e\u53f0\u7ba1\u7406UI\u3002\u5e2e\u52a9\u7528\u6237\u4ece\u95f2\u9c7c\u6d77\u91cf\u5546\u54c1\u4e2d\uff0c\u627e\u5230\u5fc3\u4eea\u4ea7\u54c1\u3002"
     },
     {
+      "name": "opensandbox-group--opensandbox",
+      "source": "./opensandbox-group--opensandbox",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents."
+    },
+    {
       "name": "beehiveinnovations--pal-mcp-server",
       "source": "./beehiveinnovations--pal-mcp-server",
       "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
@@ -5039,6 +5044,11 @@
       "description": "5,650+ brand SVG icons for developers. Tree-shakeable, typed, open source. npm i thesvg"
     },
     {
+      "name": "the-open-engine--zeroshot",
+      "source": "./the-open-engine--zeroshot",
+      "description": "Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI."
+    },
+    {
       "name": "minimax-ai--cli",
       "source": "./minimax-ai--cli",
       "description": "Generate text, images, video, speech, and music by MiniMax."
@@ -5217,6 +5227,11 @@
       "name": "limecloud--lime",
       "source": "./limecloud--lime",
       "description": "\u628a\u7075\u611f\u3001\u5199\u4f5c\u3001\u51fa\u56fe\u3001\u6539\u7a3f\u3001\u6c89\u6dc0\u653e\u8fdb\u540c\u4e00\u4e2a\u5de5\u4f5c\u53f0\uff0c\u8ba9\u521b\u4f5c\u4ece\u201c\u60f3\u5230\u201d\u76f4\u63a5\u8d70\u5230\u201c\u53ef\u53d1\u5e03\u201d"
+    },
+    {
+      "name": "kenryu42--cc-safety-net",
+      "source": "./kenryu42--cc-safety-net",
+      "description": "A coding agent CLI hook that acts as a safety net, catching destructive git and filesystem commands before they execute. Supports Codex, Claude Code, OpenCode, Gemini CLI, Copilot CLI, Kimi Code and P"
     },
     {
       "name": "lakshaybhushan--vecto3d",
@@ -29612,6 +29627,11 @@
       "name": "pku-lemonade--graph-hls",
       "source": "./pku-lemonade--graph-hls",
       "description": "A domain-specific compiler framework for FPGA-based graph accelerators."
+    },
+    {
+      "name": "frontagent--frontagent",
+      "source": "./frontagent--frontagent",
+      "description": "Frontend AI coding agent platform with CLI, VS Code extension, desktop app, MCP server, RAG planning, Skills, SDD guardrails, browser automation, and LoRA planner models | \u9762\u5411\u524d\u7aef\u5de5\u7a0b\u7684 AI Agent \u5e73\u53f0\uff0c\u652f\u6301 CLI\u3001V"
     },
     {
       "name": "khanhnam-nathan--pyneat",
@@ -61189,6 +61209,16 @@
       "description": "Future version of MCSL, a brand new server management tool. Redefined, Versatile, Easy to use. (Web & Tauri)"
     },
     {
+      "name": "andrelucassvt--cleanmacforflutter",
+      "source": "./andrelucassvt--cleanmacforflutter",
+      "description": "CleanMacForFlutter"
+    },
+    {
+      "name": "andrelucassvt--cleanmacforflutter",
+      "source": "./andrelucassvt--cleanmacforflutter",
+      "description": "CleanMacForFlutter"
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "source": "./sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh"
@@ -62509,11 +62539,6 @@
       "description": "A production-grade PowerShell script module template designed to standardize module development. It integrates automated builds, dependency management, static code analysis, testing, documentation, an"
     },
     {
-      "name": "andrelucassvt--cleanmacforflutter",
-      "source": "./andrelucassvt--cleanmacforflutter",
-      "description": "CleanMacForFlutter"
-    },
-    {
       "name": "bikeread--promethos",
       "source": "./bikeread--promethos",
       "description": "A skills-first framework for agent-system design, governance, evaluation, and evolution across domains."
@@ -62992,11 +63017,6 @@
       "name": "waterplanai--agentic-config",
       "source": "./waterplanai--agentic-config",
       "description": "Project-agnostic, composable AI workflow automation via pi packages and Claude Code plugins."
-    },
-    {
-      "name": "andrelucassvt--cleanmacforflutter",
-      "source": "./andrelucassvt--cleanmacforflutter",
-      "description": "CleanMacForFlutter"
     },
     {
       "name": "shadcncraft--shadcncraft-free",
@@ -73477,6 +73497,11 @@
       "name": "maya-doshi--tidaler",
       "source": "./maya-doshi--tidaler",
       "description": "gui and cli to download from tidal"
+    },
+    {
+      "name": "dongshuyan--compass-skills",
+      "source": "./dongshuyan--compass-skills",
+      "description": "\u53f8\u5357\uff1a\u4e2a\u6027\u5316 AI \u4efb\u52a1\u603b\u63a7 Skills \u7cfb\u7edf /COMPASS: Personal Alignment Skills OS for AI Agents"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -92969,6 +92994,11 @@
       "description": "chai-ai-code-reviewer"
     },
     {
+      "name": "rapiercraftstudios--forgedock",
+      "source": "./rapiercraftstudios--forgedock",
+      "description": "GitHub as a knowledge graph for AI agents. Autonomous dev pipeline for Claude Code - investigate, build, review, merge. Issue in, PR out."
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -100094,6 +100124,11 @@
       "description": "LightNet makes it easier to run digital media libraries for ministries"
     },
     {
+      "name": "abdu6666--bunny-ai-agent",
+      "source": "./abdu6666--bunny-ai-agent",
+      "description": "Build a SaaS platform for coding agents using a native AI SDK and integrated user interface for a smooth developer experience."
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -104152,6 +104187,16 @@
       "name": "terraform-redhat--terraform-rhcs-rosa-classic",
       "source": "./terraform-redhat--terraform-rhcs-rosa-classic",
       "description": "terraform-rhcs-rosa-classic"
+    },
+    {
+      "name": "itsdrchen--cento",
+      "source": "./itsdrchen--cento",
+      "description": "\u8f7b\u91cf\u7ea7 macOS RSS \u6587\u732e\u8ffd\u8e2a\u5668\uff0c\u53ef\u63a5\u5165 DeepSeek \u81ea\u52a8\u7ffb\u8bd1\u6807\u9898\u4e0e\u6458\u8981"
+    },
+    {
+      "name": "yang1ming--android-harness",
+      "source": "./yang1ming--android-harness",
+      "description": "A lightweight, ADB-first Android harness for agents, exposing stable primitives for authorized device automation, screenshots, UI inspection, input events, diagnostics, and extensible interaction skil"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -131252,6 +131297,21 @@
       "name": "callumalpass--canvas-bases",
       "source": "./callumalpass--canvas-bases",
       "description": "Canvas-style layouts and JSON Canvas materialization for Obsidian Bases."
+    },
+    {
+      "name": "imvanessali--html-slides-editor",
+      "source": "./imvanessali--html-slides-editor",
+      "description": "Edit HTML slides with ease. Edit text freely. Drag and drop to replace an image."
+    },
+    {
+      "name": "sonnysangha--linear-clone-clerk-nextjs-16",
+      "source": "./sonnysangha--linear-clone-clerk-nextjs-16",
+      "description": "Vector \u2014 a Linear-style project management app built with Next.js 16, Convex, Clerk (auth + B2B billing), and an AI agent"
+    },
+    {
+      "name": "daddydrac--veritas",
+      "source": "./daddydrac--veritas",
+      "description": "Ontological based research and development software engineering agent, that is math heavy."
     },
     {
       "name": "loiane--specs-driven-development",
