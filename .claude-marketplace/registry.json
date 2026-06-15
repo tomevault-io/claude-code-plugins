@@ -6684,6 +6684,11 @@
       "description": "A batteries-included, reactive JavaScript UI framework. No virtual DOM. Compile-time JSX transforms. Proxy-based stores. Surgical DOM patching."
     },
     {
+      "name": "tukuaiai--tradecat",
+      "source": "./tukuaiai--tradecat",
+      "description": "\u4ea4\u6613\u732b\u6570\u636e\u7cfb\u7edf"
+    },
+    {
       "name": "dao-ailab--quack",
       "source": "./dao-ailab--quack",
       "description": "A Quirky Assortment of CuTe Kernels"
@@ -6877,11 +6882,6 @@
       "name": "ahekot--comfyui-vnccs",
       "source": "./ahekot--comfyui-vnccs",
       "description": "Visual Novel Character Creation Suite is a comprehensive tool for creating character sprites for visual novels. It allows you to create unique characters with a consistent appearance across all images"
-    },
-    {
-      "name": "tukuaiai--tradecat",
-      "source": "./tukuaiai--tradecat",
-      "description": "\u4ea4\u6613\u732b\u6570\u636e\u7cfb\u7edf"
     },
     {
       "name": "fynnfluegge--agtx",
@@ -9369,6 +9369,11 @@
       "description": "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into w"
     },
     {
+      "name": "therealseandonahoe--agents-md",
+      "source": "./therealseandonahoe--agents-md",
+      "description": "Drop-in AGENTS.md that makes every coding agent behave like a senior engineer instead of an eager intern. Kills sycophancy, stops drive-by refactors, forces verification loops. Synthesizes Karpathy's "
+    },
+    {
       "name": "docker--model-runner",
       "source": "./docker--model-runner",
       "description": "Docker Model Runner"
@@ -11342,6 +11347,11 @@
       "name": "xiangpenghao--liquid-cache",
       "source": "./xiangpenghao--liquid-cache",
       "description": "Pushdown cache for DataFusion"
+    },
+    {
+      "name": "xiaguan--pegainfer",
+      "source": "./xiaguan--pegainfer",
+      "description": "Pure Rust + CUDA LLM inference engine"
     },
     {
       "name": "tamboui--tamboui",
@@ -14674,11 +14684,6 @@
       "description": "An online Minecraft source code viewer"
     },
     {
-      "name": "xiaguan--pegainfer",
-      "source": "./xiaguan--pegainfer",
-      "description": "Pure Rust + CUDA LLM inference engine"
-    },
-    {
       "name": "yuminosukesato--pyproc",
       "source": "./yuminosukesato--pyproc",
       "description": "Call Python from Go without CGO or microservices - Unix domain socket based IPC for ML inference and data processin"
@@ -15217,6 +15222,11 @@
       "name": "microsoft--fabric-cicd",
       "source": "./microsoft--fabric-cicd",
       "description": "Jumpstart CICD deployments in Microsoft Fabric"
+    },
+    {
+      "name": "aerovato--container",
+      "source": "./aerovato--container",
+      "description": "Safely run OpenCode, Codex, Claude Code with full permissions."
     },
     {
       "name": "lsm1103--cc",
@@ -23154,11 +23164,6 @@
       "description": "This is an OBS Studio plugin that allows to transmit video and audio with RTMP / SRT etc. for each source individually."
     },
     {
-      "name": "therealseandonahoe--agents-md",
-      "source": "./therealseandonahoe--agents-md",
-      "description": "Drop-in AGENTS.md that makes every coding agent behave like a senior engineer instead of an eager intern. Kills sycophancy, stops drive-by refactors, forces verification loops. Synthesizes Karpathy's "
-    },
-    {
       "name": "ahaodev--shadmin",
       "source": "./ahaodev--shadmin",
       "description": "An Enterprise-Grade Full-Stack RBAC Permission Management System Built with Go + React"
@@ -27797,6 +27802,11 @@
       "name": "tillahoffmann--jax-mps",
       "source": "./tillahoffmann--jax-mps",
       "description": "A JAX backend for Apple Metal Performance Shaders (MPS), enabling GPU-accelerated JAX computations on Apple Silicon."
+    },
+    {
+      "name": "marciogranzotto--clawd-tank",
+      "source": "./marciogranzotto--clawd-tank",
+      "description": "clawd-tank"
     },
     {
       "name": "signet-ai--signetai",
@@ -36079,6 +36089,11 @@
       "description": "Enterprise Development Memory"
     },
     {
+      "name": "jordansrowles--leanlucene",
+      "source": "./jordansrowles--leanlucene",
+      "description": "A .NET-native full-text search engine. Segment-centric indexing, memory-mapped reads, and atomic commit semantics. Targets .NET 10+. Inspired by Apache Lucene."
+    },
+    {
       "name": "dotgeminidev---gemini",
       "source": "./dotgeminidev---gemini",
       "description": ".gemini"
@@ -38867,11 +38882,6 @@
       "name": "v-iole-t--tab-harbor",
       "source": "./v-iole-t--tab-harbor",
       "description": "\u4e00\u4e2a\u66f4\u5b89\u9759\u7684\u65b0\u6807\u7b7e\u9875\u5de5\u4f5c\u53f0\uff0c\u628a\u6253\u5f00\u4e2d\u7684\u6807\u7b7e\u3001\u5feb\u6377\u94fe\u63a5\u3001\u5f85\u8bfb\u548c\u8f7b\u91cf\u5f85\u529e\u6536\u8fdb\u540c\u4e00\u4e2a\u987a\u624b\u7684\u7a7a\u95f4\u91cc\u3002"
-    },
-    {
-      "name": "marciogranzotto--clawd-tank",
-      "source": "./marciogranzotto--clawd-tank",
-      "description": "clawd-tank"
     },
     {
       "name": "tealios--errata",
@@ -45497,11 +45507,6 @@
       "name": "losses--flame-ocean-website",
       "source": "./losses--flame-ocean-website",
       "description": "flame-ocean-website"
-    },
-    {
-      "name": "jordansrowles--leanlucene",
-      "source": "./jordansrowles--leanlucene",
-      "description": "A .NET-native full-text search engine. Segment-centric indexing, memory-mapped reads, and atomic commit semantics. Targets .NET 10+. Inspired by Apache Lucene."
     },
     {
       "name": "jovidecroock--pracht",
