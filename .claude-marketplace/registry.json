@@ -1399,6 +1399,16 @@
       "description": "\ud83c\udfcb Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exercise database."
     },
     {
+      "name": "agentwrapper--agent-orchestrator",
+      "source": "./agentwrapper--agent-orchestrator",
+      "description": " Agentic orchestrator for parallel coding agents \u2014 plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews."
+    },
+    {
+      "name": "agentwrapper--agent-orchestrator",
+      "source": "./agentwrapper--agent-orchestrator",
+      "description": " Agentic orchestrator for parallel coding agents \u2014 plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews."
+    },
+    {
       "name": "0xplaygrounds--rig",
       "source": "./0xplaygrounds--rig",
       "description": "\u2699\ufe0f\ud83e\udd80 Build modular and scalable LLM Applications in Rust"
@@ -3284,6 +3294,11 @@
       "description": "A security-focused library OS supporting kernel- and user-mode execution"
     },
     {
+      "name": "kenn-io--agentsview",
+      "source": "./kenn-io--agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. "
+    },
+    {
       "name": "white0dew--xiaohongshuskills",
       "source": "./white0dew--xiaohongshuskills",
       "description": "\u652f\u6301\u5c0f\u7ea2\u4e66\u81ea\u52a8\u53d1\u5e03\u3001\u81ea\u52a8\u8bc4\u8bba\u3001\u81ea\u52a8\u68c0\u7d22\u7684 Skill\u3002\u652f\u6301 OpenClaw\u3001Codex\u3001CC \u7b49"
@@ -3942,6 +3957,11 @@
       "name": "betastreetomnis--xhs-ai-publisher",
       "source": "./betastreetomnis--xhs-ai-publisher",
       "description": "AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt desktop UI, FastAPI service, login-state reuse, preview publish, and automated browser workflows."
+    },
+    {
+      "name": "microsoft--pg-durable",
+      "source": "./microsoft--pg-durable",
+      "description": "PostgreSQL in-database durable execution"
     },
     {
       "name": "vercel--ai-elements",
@@ -8614,6 +8634,11 @@
       "description": "A  multi-agent framework written in Rust that enables you to build, deploy, and coordinate multiple intelligent agents"
     },
     {
+      "name": "friuns2--codex-mobile",
+      "source": "./friuns2--codex-mobile",
+      "description": "\ud83d\ude80 Run Codex Mobile Anywhere: Linux, Windows, or Termux on Android \ud83d\ude80"
+    },
+    {
       "name": "starwind-ui--starwind-ui",
       "source": "./starwind-ui--starwind-ui",
       "description": "shadcn/ui for Astro. 45+ animated and accessible components. Install via CLI. Own the code."
@@ -11324,6 +11349,11 @@
       "description": "BPMN-Process automation for everyone "
     },
     {
+      "name": "openinfer-project--openinfer",
+      "source": "./openinfer-project--openinfer",
+      "description": "Pure Rust + CUDA LLM inference engine"
+    },
+    {
       "name": "epiral--agent-clip",
       "source": "./epiral--agent-clip",
       "description": "AI Agent as a Pinix Clip \u2014 agentic loop with memory, tools, and vision"
@@ -12452,6 +12482,11 @@
       "name": "run-llama--llama-agents",
       "source": "./run-llama--llama-agents",
       "description": "Llama Agents + Workflows are an event-driven, async-first, step-based way to control the execution flow of AI applications like agents."
+    },
+    {
+      "name": "kocoro-lab--kocoro",
+      "source": "./kocoro-lab--kocoro",
+      "description": "A Mac-compatible AI partner with memory. \u2014 local computer access, browser control, IM channels, MCP-native. Built on Shannon."
     },
     {
       "name": "cloudflare--mcp",
@@ -14879,6 +14914,11 @@
       "description": "DECeption with Evaluative Integrated Validation Engine (DECEIVE): Let an LLM do all the hard honeypot work!"
     },
     {
+      "name": "evrendom--rudel",
+      "source": "./evrendom--rudel",
+      "description": "Claude Code & Codex Session Analytics"
+    },
+    {
       "name": "discus0434--nook",
       "source": "./discus0434--nook",
       "description": "A daily digest web app that scrapes and summarizes blogs, Reddit threads, GitHub trending, and Hacker-News-trending articles all in one place."
@@ -15032,6 +15072,11 @@
       "name": "2mawi2--schaltwerk",
       "source": "./2mawi2--schaltwerk",
       "description": "The IDE without editor"
+    },
+    {
+      "name": "madeye--meow-rs",
+      "source": "./madeye--meow-rs",
+      "description": "A high-performance Rust implementation of the mihomo (Clash Meta) proxy kernel."
     },
     {
       "name": "mkurman--tamux",
@@ -19564,6 +19609,11 @@
       "description": "Your efficient agentic AI coding CLI assistant"
     },
     {
+      "name": "joonghyun-lee-frieren--oh-my-antigravity",
+      "source": "./joonghyun-lee-frieren--oh-my-antigravity",
+      "description": "Context-engineering-powered multi-agent team workflow pack for Antigravity CLI."
+    },
+    {
       "name": "themattberman--meta-ads-kit",
       "source": "./themattberman--meta-ads-kit",
       "description": "Open source AI ad manager. Replace 20 min of Ads Manager with a 2-min briefing. Built with OpenClaw + social-cli."
@@ -19927,6 +19977,11 @@
       "name": "lostintangent--gistpad-mcp",
       "source": "./lostintangent--gistpad-mcp",
       "description": "\ud83d\udcd3 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists"
+    },
+    {
+      "name": "karanjot786--termui",
+      "source": "./karanjot786--termui",
+      "description": "TermUI is a TypeScript/JavaScript framework for building terminal apps. Flexbox layout, JSX, hooks, global state, theming, animations, routing, and hot reload. No native dependencies. "
     },
     {
       "name": "crisng95--flowkit",
@@ -25359,6 +25414,11 @@
       "description": "Local-first GitHub dashboard for maintainers to triage, review, and merge PRs and issues across repos without needing GitHub's built-in notification emails or dashboard"
     },
     {
+      "name": "nteract--nteract",
+      "source": "./nteract--nteract",
+      "description": "We're back! Now firing notebooks out of a t-shirt gun."
+    },
+    {
       "name": "lakr233--cookey",
       "source": "./lakr233--cookey",
       "description": "Cookey"
@@ -26207,6 +26267,11 @@
       "name": "alloy-framework--alloy",
       "source": "./alloy-framework--alloy",
       "description": "A code generation framework inspired by JavaScript front-end frameworks"
+    },
+    {
+      "name": "comfy-org--comfy-desktop",
+      "source": "./comfy-org--comfy-desktop",
+      "description": "Comfy-Desktop"
     },
     {
       "name": "anthaathi--pico",
@@ -29667,6 +29732,11 @@
       "name": "jingbanz--evolving",
       "source": "./jingbanz--evolving",
       "description": "An autonomous CLI that iterates on a codebase toward a user-defined goal \u2014 one small, safe, measurable change at a time."
+    },
+    {
+      "name": "sentioxyz--sentio-sdk",
+      "source": "./sentioxyz--sentio-sdk",
+      "description": "sentio-sdk"
     },
     {
       "name": "mitchellh--go-libghostty",
@@ -84102,6 +84172,11 @@
       "name": "christopherarter--superpowers-reasonix",
       "source": "./christopherarter--superpowers-reasonix",
       "description": "Superpowers skill port to Reasonix coding harness."
+    },
+    {
+      "name": "dososo--blcaptain-style-skill",
+      "source": "./dososo--blcaptain-style-skill",
+      "description": "\u4e2d\u6587\u56fe\u6587\u5361\u7247\u751f\u6210 Skill\uff1a\u4e00\u6bb5\u5185\u5bb9 \u2192 \u6d77\u62a5\u7ea7\u56fe\u6587\u7ec4\u56fe\uff08\u5c0f\u7ea2\u4e66 3:4 / \u516c\u4f17\u53f7\u5c01\u9762\uff09\u30021 \u5f15\u64ce + 3 \u89c6\u89c9\u8bed\u8a00\uff08\u9759\u7eb8 Still Paper / \u5b9e\u8bc1 Signal Proof / \u56fe\u6865 Bridge Canvas\uff09\uff0c\u667a\u80fd\u9a71\u52a8 + \u72ec\u5bb6\u5f71\u50cf\u914d\u65b9\u3002"
     },
     {
       "name": "skenetechnologies--plg-skills",
