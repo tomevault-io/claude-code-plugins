@@ -3169,6 +3169,11 @@
       "description": "Modern, fast and obfuscated VPN protocol"
     },
     {
+      "name": "callstack--agent-device",
+      "source": "./callstack--agent-device",
+      "description": "CLI to control iOS and Android devices for AI agents"
+    },
+    {
       "name": "nyldn--claude-octopus",
       "source": "./nyldn--claude-octopus",
       "description": "Put up to 8 AI models on every coding task \u2014 blind spots surface before you ship. Claude Code plugin."
@@ -4262,6 +4267,11 @@
       "name": "victoriametrics--victorialogs",
       "source": "./victoriametrics--victorialogs",
       "description": "Fast and easy to use database for logs, which can efficiently handle terabytes of logs"
+    },
+    {
+      "name": "kenn-io--msgvault",
+      "source": "./kenn-io--msgvault",
+      "description": "Archive a lifetime of email and chat. Offline search, analytics, and AI query over your full message history. Powered by DuckDB"
     },
     {
       "name": "wquguru--harness-books",
@@ -5417,6 +5427,16 @@
       "name": "zacsweers--metro",
       "source": "./zacsweers--metro",
       "description": "A multiplatform, compile-time dependency injection framework for Kotlin"
+    },
+    {
+      "name": "proma-ai--proma",
+      "source": "./proma-ai--proma",
+      "description": "\u628a\u6700\u4e1d\u6ed1\u7684\u901a\u7528 Agent \u4f53\u9a8c\u5e26\u8fdb\u4f60\u7684\u5de5\u4f5c\u6d41\uff0c\u4e3a 100x \u4e13\u4e1a\u7528\u6237\u800c\u751f\u7684\u672a\u6765\u4ea7\u54c1\uff0c\u6b63\u5728\u5b9e\u73b0 proactive Agent \u9636\u6bb5\u3002\u57fa\u4e8e Claude Agent SDK \u7684\u5b8c\u6574\u5f00\u6e90\u5b9e\u8df5\uff0c\u539f\u751f\u652f\u6301\u98de\u4e66\u7fa4\u804a\u8c03\u7528\u3001\u7075\u6d3b\u63a5\u5165\u4efb\u610f\u5927\u6a21\u578b\u4f9b\u5e94\u5546 \u2014\u2014 \u8ba9\u9876\u7ea7 Agent \u80fd\u529b\u771f\u6b63\u8dd1\u5728\u4f60\u6bcf\u5929\u7528\u7684\u5730\u65b9\u3002"
+    },
+    {
+      "name": "proma-ai--proma",
+      "source": "./proma-ai--proma",
+      "description": "\u628a\u6700\u4e1d\u6ed1\u7684\u901a\u7528 Agent \u4f53\u9a8c\u5e26\u8fdb\u4f60\u7684\u5de5\u4f5c\u6d41\uff0c\u4e3a 100x \u4e13\u4e1a\u7528\u6237\u800c\u751f\u7684\u672a\u6765\u4ea7\u54c1\uff0c\u6b63\u5728\u5b9e\u73b0 proactive Agent \u9636\u6bb5\u3002\u57fa\u4e8e Claude Agent SDK \u7684\u5b8c\u6574\u5f00\u6e90\u5b9e\u8df5\uff0c\u539f\u751f\u652f\u6301\u98de\u4e66\u7fa4\u804a\u8c03\u7528\u3001\u7075\u6d3b\u63a5\u5165\u4efb\u610f\u5927\u6a21\u578b\u4f9b\u5e94\u5546 \u2014\u2014 \u8ba9\u9876\u7ea7 Agent \u80fd\u529b\u771f\u6b63\u8dd1\u5728\u4f60\u6bcf\u5929\u7528\u7684\u5730\u65b9\u3002"
     },
     {
       "name": "kai-scheduler--kai-scheduler",
@@ -6704,6 +6724,11 @@
       "description": "A fully functional pump.fun / letsbonk.fun trading and sniping bot not relying on any 3rd party APIs"
     },
     {
+      "name": "microsoft--mxc",
+      "source": "./microsoft--mxc",
+      "description": "Policy-driven, layered isolation and containment "
+    },
+    {
       "name": "pathintegral-institute--mcpm-sh",
       "source": "./pathintegral-institute--mcpm-sh",
       "description": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features."
@@ -7764,6 +7789,11 @@
       "description": "Open source app to control jailbroken 8 sleep pods on LAN "
     },
     {
+      "name": "unilabsim--unilab",
+      "source": "./unilabsim--unilab",
+      "description": "UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms"
+    },
+    {
       "name": "charmbracelet--fantasy",
       "source": "./charmbracelet--fantasy",
       "description": "Build AI agents with Go. Multiple providers, multiple models, one API. \ud83e\uddd9"
@@ -8437,6 +8467,11 @@
       "name": "git-on-my-level--codex-autorunner",
       "source": "./git-on-my-level--codex-autorunner",
       "description": "codex-autorunner"
+    },
+    {
+      "name": "songloft-org--songloft",
+      "source": "./songloft-org--songloft",
+      "description": "\ud83c\udfb5 \u9762\u5411\u4e2a\u4eba\u7528\u6237\u7684\u81ea\u6258\u7ba1\u97f3\u4e50\u670d\u52a1\u5668"
     },
     {
       "name": "99percentpeople--weblink",
@@ -10677,6 +10712,11 @@
       "name": "0xsero--vllm-studio",
       "source": "./0xsero--vllm-studio",
       "description": "Control panel for VLLM, Sglang, llama.cpp, exllamav3"
+    },
+    {
+      "name": "dokhacgiakhoa--agent-skills-setup-for-antigravity",
+      "source": "./dokhacgiakhoa--agent-skills-setup-for-antigravity",
+      "description": "Agent-skills-setup-for-AntiGravity"
     },
     {
       "name": "neurprojects--neur-app",
@@ -27387,6 +27427,11 @@
       "name": "hessesian--kmp-lsp",
       "source": "./hessesian--kmp-lsp",
       "description": "Fast, low-memory LSP server for Kotlin and Java, written in Rust"
+    },
+    {
+      "name": "fran-olivares--usulnet",
+      "source": "./fran-olivares--usulnet",
+      "description": "Open-source Docker infrastructure platform. One web UI \u2014 containers, security, DNS, VPN, monitoring, backups, reverse proxy, terminal, and multi-node orchestration. Replace a dozen tools with one."
     },
     {
       "name": "jetxu-llm--docmason",
@@ -69704,6 +69749,11 @@
       "description": "MRPC: A mini rpc framework in cpp"
     },
     {
+      "name": "devin-lai--coreai-onnx",
+      "source": "./devin-lai--coreai-onnx",
+      "description": "Convert ONNX models directly to Apple's Core AI (.aimodel) format, the next-generation successor to Core ML."
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -79742,6 +79792,11 @@
       "name": "s-hiraoku--vscode-sidebar-terminal",
       "source": "./s-hiraoku--vscode-sidebar-terminal",
       "description": "vscode-sidebar-terminal"
+    },
+    {
+      "name": "yaosiyuuu6--odyssey-skill",
+      "source": "./yaosiyuuu6--odyssey-skill",
+      "description": "\u771f\u5b9e\u4eba\u751f\u51b3\u7b56\u7b5b\u9009\u5668\uff0c\u5f53\u4f60\u9762\u5bf9\u4eba\u751f\u91cd\u5927\u51b3\u7b56\u65f6\uff0c\u5e2e\u4f60\u627e\u5230\u6700\u7b26\u5408\u4f60\u5f53\u4e0b\u60c5\u51b5\u7684\u64ad\u5ba2/B\u7ad9\u89c6\u9891"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -92602,6 +92657,11 @@
       "name": "chaitin--agent-compose",
       "source": "./chaitin--agent-compose",
       "description": "agent-compose"
+    },
+    {
+      "name": "aestheticsuraj234--chai-ai-code-reviewer",
+      "source": "./aestheticsuraj234--chai-ai-code-reviewer",
+      "description": "chai-ai-code-reviewer"
     },
     {
       "name": "hyaway--hyaway",
