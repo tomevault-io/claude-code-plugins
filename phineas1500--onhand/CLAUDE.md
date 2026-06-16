@@ -1,0 +1,21 @@
+# onhand
+
+> - After changing `packages/browser-extension/` or rebuilding `packages/browser-extension/onhand-runtime.bundle.js`, use Computer Use to reload the unpacked Onhand extension in Chrome from `chrome://extensions` before live validation. If the page renders blank or the old service worker stays alive, close the Onhand side panel first and open `chrome://extensions` in a fresh Chrome tab/window before clicking reload.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/onhand/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Notes
+
+- After changing `packages/browser-extension/` or rebuilding `packages/browser-extension/onhand-runtime.bundle.js`, use Computer Use to reload the unpacked Onhand extension in Chrome from `chrome://extensions` before live validation. If the page renders blank or the old service worker stays alive, close the Onhand side panel first and open `chrome://extensions` in a fresh Chrome tab/window before clicking reload.
+
+---
+> Source: [Phineas1500/Onhand](https://github.com/Phineas1500/Onhand) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-16 -->
