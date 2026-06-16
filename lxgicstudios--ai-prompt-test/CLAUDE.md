@@ -1,0 +1,25 @@
+# ai-prompt-test
+
+> Unit testing for prompts.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/ai-prompt-test/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Prompt Test
+
+Unit testing for prompts.
+
+```bash
+npx ai-prompt-test init
+```
+
+---
+> Source: [lxgicstudios/ai-prompt-test](https://github.com/lxgicstudios/ai-prompt-test) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-16 -->
