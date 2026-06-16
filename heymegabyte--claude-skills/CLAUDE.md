@@ -1,18 +1,18 @@
-# emdash-skills
+# claude-skills
 
-> Emdash Skills — 14-category product-building OS for Windsurf.
+> Load CONVENTIONS.md for stack defaults. Load _router.md for skill routing.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/emdash-skills/SKILL.md
+Read and follow the instructions in .claude/skills/claude-skills/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Emdash Skills for Windsurf
+# Emdash Skills for GitHub Copilot
 
 Load CONVENTIONS.md for stack defaults. Load _router.md for skill routing.
 14 categories (01-14), 94 reference docs, 18 agents.
