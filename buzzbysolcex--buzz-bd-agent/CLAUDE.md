@@ -1,0 +1,36 @@
+# buzz-bd-agent
+
+> > Autonomous AI BD Agent · 15 Intelligence Sources · 26 Cron Jobs · ERC-8004 Registered
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/buzz-bd-agent/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Buzz BD Agent v4.4.0 — Skill Definition
+
+> Autonomous AI BD Agent · 15 Intelligence Sources · 26 Cron Jobs · ERC-8004 Registered
+
+See [README.md](README.md) for complete documentation.
+
+| Field          | Value                                   |
+| -------------- | --------------------------------------- |
+| Agent          | Buzz BD Agent v4.4.0                    |
+| Platform       | SolCex Exchange                         |
+| Infrastructure | Akash Network                           |
+| LLM            | MiniMax M2.5-highspeed via AkashML      |
+| Identity       | ERC-8004 — ETH #25045, Base #17483      |
+| Sources        | 15 active (13 free + 2 paid)            |
+| Cron Jobs      | 26                                      |
+| Interop        | elizaOS plugin (@solcex/plugin-buzz-bd) |
+| Payments       | x402 protocol (USDC via PayAI)          |
+| Cost           | ~$41/month                              |
+
+---
+> Source: [buzzbysolcex/buzz-bd-agent](https://github.com/buzzbysolcex/buzz-bd-agent) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-16 -->
