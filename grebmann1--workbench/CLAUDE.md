@@ -1,25 +1,25 @@
-# agent-simplicity-and-dedup
+# agent-types-and-safety
 
-> Reuse local patterns, reduce duplication, and keep changes narrowly scoped
+> Preserve strong types and distinguish real type checks from weaker signals
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-simplicity-and-dedup/SKILL.md
+Read and follow the instructions in .claude/skills/agent-types-and-safety/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Agent Simplicity And Dedup
+# Agent Types And Safety
 
-- Read nearby files first and match local naming, structure, and abstraction patterns before inventing new ones.
-- Prefer reusing existing utilities, components, constants, and modules over copying logic into a second place.
-- If code is duplicated, first look for an existing helper or a small extraction that improves clarity without widening scope.
-- Keep diffs tightly scoped to the request and avoid opportunistic refactors that add risk without clear value.
-- Choose the simplest implementation that satisfies the request with the fewest new branches, layers, and runtime costs.
+- Prefer existing types, validated data shapes, and shared helpers over ad hoc inline types or duplicated type logic.
+- Avoid introducing `any`, wide casts, or weaker return types unless the local codebase pattern truly requires it.
+- When you touch typed code, use the closest real typecheck or TypeScript build command for that package when one exists.
+- Do not claim full TypeScript verification from a green lint pass or successful bundle alone.
+- In areas with weak or partial typing coverage, call out the remaining risk instead of overstating confidence.
 
 ---
 > Source: [grebmann1/workbench](https://github.com/grebmann1/workbench) — distributed by [TomeVault](https://tomevault.io).
