@@ -1,23 +1,25 @@
-# agent-planning-roadmap
+# agent-simplicity-and-dedup
 
-> Store deferred implementation plans in auto-roadmap and remove them after execution
+> Reuse local patterns, reduce duplication, and keep changes narrowly scoped
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-planning-roadmap/SKILL.md
+Read and follow the instructions in .claude/skills/agent-simplicity-and-dedup/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Agent Planning Roadmap
+# Agent Simplicity And Dedup
 
-- When creating a plan that is not executed immediately, save it under `auto-roadmap/` so it can be resumed later.
-- If a plan from `auto-roadmap/` is executed and completed, remove that plan file from `auto-roadmap/` as part of cleanup.
-- Do not store transient implementation notes in `auto-roadmap/`; use it for durable future work only.
+- Read nearby files first and match local naming, structure, and abstraction patterns before inventing new ones.
+- Prefer reusing existing utilities, components, constants, and modules over copying logic into a second place.
+- If code is duplicated, first look for an existing helper or a small extraction that improves clarity without widening scope.
+- Keep diffs tightly scoped to the request and avoid opportunistic refactors that add risk without clear value.
+- Choose the simplest implementation that satisfies the request with the fewest new branches, layers, and runtime costs.
 
 ---
 > Source: [grebmann1/workbench](https://github.com/grebmann1/workbench) — distributed by [TomeVault](https://tomevault.io).
