@@ -1,0 +1,38 @@
+# mcp-epochs
+
+> MCP server providing current Unix timestamp to LLMs.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/mcp-epochs/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# MCP Epochs
+
+MCP server providing current Unix timestamp to LLMs.
+
+## When to use this skill
+
+Use this skill when you need to:
+- Get the current Unix timestamp
+- Get timestamps in different formats
+- Time-sensitive operations
+
+## Tools
+
+- `get_unix_time` - Returns current Unix timestamp, milliseconds, and ISO8601 format
+
+## Install
+
+```bash
+pip install mcp-epochs
+```
+
+---
+> Source: [daedalus/mcp-epochs](https://github.com/daedalus/mcp-epochs) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-16 -->
