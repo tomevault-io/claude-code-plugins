@@ -2,16 +2,15 @@
 
 > Tome by [ricardodantas](https://github.com/ricardodantas/ratatui-themes) — distributed by [TomeVault](https://tomevault.io)
 
-A collection of popular color themes for ratatui terminal UI applications
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [ricardodantas/ratatui-themes](https://github.com/ricardodantas/ratatui-themes).
+Original source: `` in [ricardodantas/ratatui-themes](https://github.com/ricardodantas/ratatui-themes).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
