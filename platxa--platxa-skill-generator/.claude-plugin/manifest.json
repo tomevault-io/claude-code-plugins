@@ -1,0 +1,24 @@
+{
+  "name": "platxa--platxa-skill-generator",
+  "displayName": "platxa-skill-generator",
+  "description": "platxa-skill-generator",
+  "version": "1.0.0",
+  "author": "platxa",
+  "homepage": "https://github.com/platxa/platxa-skill-generator",
+  "type": "tome",
+  "skills": [
+    "code-documenter",
+    "commit-message",
+    "platxa-error-handling",
+    "platxa-frontend-builder",
+    "platxa-jwt-auth",
+    "platxa-k8s-ops",
+    "platxa-monaco-config",
+    "platxa-monitoring",
+    "platxa-sidecar-builder",
+    "platxa-testing",
+    "platxa-yjs-server",
+    "pr-description",
+    "test-generator"
+  ]
+}
