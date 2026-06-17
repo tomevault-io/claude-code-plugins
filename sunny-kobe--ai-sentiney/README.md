@@ -2,12 +2,10 @@
 
 > Tome by [sunny-kobe](https://github.com/sunny-kobe/ai_sentiney) — distributed by [TomeVault](https://tomevault.io)
 
-您的本地 AI 投顾情报官。基于 Google Gemini Pro 与 AkShare，实时监测 A 股行情、北向资金与市场舆情，为您提供冷酷理性的午间风控预警与收盘复盘报告，并通过飞书 (Feishu) 实时推送。
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [sunny-kobe/ai_sentiney](https://github.com/sunny-kobe/ai_sentiney).
+Original source: `` in [sunny-kobe/ai_sentiney](https://github.com/sunny-kobe/ai_sentiney).
 
 ## Also available for
 
@@ -15,6 +13,7 @@ Original source: `GEMINI.md` in [sunny-kobe/ai_sentiney](https://github.com/sunn
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/sunny-kobe/ai_sentiney](https://github.com/sunny-kobe/ai_sentiney)
