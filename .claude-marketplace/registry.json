@@ -22959,6 +22959,11 @@
       "description": "\u89c6\u9891\u77e5\u8bc6\u7ba1\u7406\u7f51\u7ad9 \u652f\u6301\u6296\u97f3 \u5c0f\u7ea2\u4e66 b\u7ad9\u89c6\u9891\u5206\u6790\u7ba1\u7406\u89e3\u6790"
     },
     {
+      "name": "igorshadurin--open-clap",
+      "source": "./igorshadurin--open-clap",
+      "description": "Local-first TypeScript system for orchestrating Codex tasks across projects and subprojects with a Next.js UI, shared contracts, server-driven state changes, SQLite-backed persistence, daemon-based ex"
+    },
+    {
       "name": "cnighswonger--claude-code-cache-fix",
       "source": "./cnighswonger--claude-code-cache-fix",
       "description": "Fixes prompt cache regression in Claude Code that causes up to 20x cost increase on resumed sessions"
@@ -30247,6 +30252,11 @@
       "name": "ceeon--best-minds",
       "source": "./ceeon--best-minds",
       "description": "best-minds"
+    },
+    {
+      "name": "learningmatter-mit--atomisticskills",
+      "source": "./learningmatter-mit--atomisticskills",
+      "description": "Intergrating Atomistic Skills into Agentic IDEs (Cursor, Claude Code, Google Antigravity, OpenClaw, etc)"
     },
     {
       "name": "mitchellh--go-libghostty",
@@ -46679,6 +46689,11 @@
       "description": "ezorm"
     },
     {
+      "name": "mochios--mochios",
+      "source": "./mochios--mochios",
+      "description": "A hybrid kernel that simply refuses to die. While other OSs are busy collecting Blue Screens, mochiOS is busy actually running your code"
+    },
+    {
       "name": "chimedeck--chimedeck",
       "source": "./chimedeck--chimedeck",
       "description": "A full-stack workspace and card management app with boards, lists, comments, attachments, pricing tools, CLI commands, and automated tests. Built with React, Bun/TypeScript, and an extensible server/c"
@@ -60339,6 +60354,11 @@
       "description": "A declarative, Brewfile-like wrapper for apt, inspired by brew bundle \u2014 not a full config management system."
     },
     {
+      "name": "jiahao-shao1--sjh-skills",
+      "source": "./jiahao-shao1--sjh-skills",
+      "description": "sjh-skills"
+    },
+    {
       "name": "ekozmaster--vibe-reverse-engineering",
       "source": "./ekozmaster--vibe-reverse-engineering",
       "description": "A set LLM-Friendly tools for Cursor to Reverse Engineer binaries, specially games"
@@ -65974,6 +65994,11 @@
       "description": "AI-CFD-Scientist"
     },
     {
+      "name": "twistermc--ticklet",
+      "source": "./twistermc--ticklet",
+      "description": "Mac app to log what you're doing on your machine by keeping track of window names. Simple & private. "
+    },
+    {
       "name": "khangbdd--phoenix",
       "source": "./khangbdd--phoenix",
       "description": "phoenix"
@@ -69259,6 +69284,11 @@
       "description": "Shimmer text effect for Ratatui"
     },
     {
+      "name": "uxjulia--crosspoint-simulator",
+      "source": "./uxjulia--crosspoint-simulator",
+      "description": "Simulate Crosspoint firmware without flashing onto your device"
+    },
+    {
       "name": "jojobeans1981--ember-campfire-edition",
       "source": "./jojobeans1981--ember-campfire-edition",
       "description": "The introductory app for what will be  the next generation of dyslexia intervention using AI."
@@ -71187,6 +71217,11 @@
       "name": "elastic--cli",
       "source": "./elastic--cli",
       "description": "Interact with Elasticsearch, Elastic Serverless and Elastic Cloud APIs from the command line"
+    },
+    {
+      "name": "roman-pinchuk--conf-edit-ha",
+      "source": "./roman-pinchuk--conf-edit-ha",
+      "description": "Lightweight YAML configuration editor for Home Assistant"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -81529,6 +81564,11 @@
       "description": "Web top up untuk berbagai game, voucher, dan PPOB."
     },
     {
+      "name": "dhruv0206--devproof",
+      "source": "./dhruv0206--devproof",
+      "description": "Platform to find open source issuess"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -89204,11 +89244,6 @@
       "description": "A Windows 32-bit PE executable emulator for running classic Windows games and applications on modern systems."
     },
     {
-      "name": "tsrigo--papertools",
-      "source": "./tsrigo--papertools",
-      "description": "PaperTools \u662f\u4e00\u4e2a\u5b8c\u6574\u7684\u5b66\u672f\u8bba\u6587\u5904\u7406\u6d41\u6c34\u7ebf\uff0c\u63d0\u4f9b\u81ea\u52a8\u5316\u7684\u8bba\u6587\u722c\u53d6\u3001\u667a\u80fd\u7b5b\u9009\u3001\u603b\u7ed3\u751f\u6210\u548c\u7f51\u9875\u751f\u6210\u529f\u80fd\u3002"
-    },
-    {
       "name": "damien-schneider--reflet",
       "source": "./damien-schneider--reflet",
       "description": "The best open-source alternative to featurebase. https://www.reflet.app"
@@ -91939,6 +91974,11 @@
       "description": "k version 3 Language Interpreter in C#"
     },
     {
+      "name": "tsrigo--papertools",
+      "source": "./tsrigo--papertools",
+      "description": "PaperTools \u662f\u4e00\u4e2a\u5b8c\u6574\u7684\u5b66\u672f\u8bba\u6587\u5904\u7406\u6d41\u6c34\u7ebf\uff0c\u63d0\u4f9b\u81ea\u52a8\u5316\u7684\u8bba\u6587\u722c\u53d6\u3001\u667a\u80fd\u7b5b\u9009\u3001\u603b\u7ed3\u751f\u6210\u548c\u7f51\u9875\u751f\u6210\u529f\u80fd\u3002"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -92572,11 +92612,6 @@
       "name": "teneoprotocolai--teneo-skills",
       "source": "./teneoprotocolai--teneo-skills",
       "description": "Teneo Protocol AI agent skills for Claude Code and AI coding assistants"
-    },
-    {
-      "name": "jiahao-shao1--sjh-skills",
-      "source": "./jiahao-shao1--sjh-skills",
-      "description": "sjh-skills"
     },
     {
       "name": "obst2580--memrosetta",
@@ -95854,11 +95889,6 @@
       "description": "Standalone OpenClaw context-safe plugin for tool-result trimming and context-engine slot installation."
     },
     {
-      "name": "rodrigopereiradevelopment--arca-ionic",
-      "source": "./rodrigopereiradevelopment--arca-ionic",
-      "description": "arca-ionic"
-    },
-    {
       "name": "hkyutong--wechat-claw",
       "source": "./hkyutong--wechat-claw",
       "description": "Wechat-Claw"
@@ -96347,6 +96377,11 @@
       "name": "bensyverson--operator",
       "source": "./bensyverson--operator",
       "description": "A minimal, un-opinionated agent library for Swift providing conversation and tool calling"
+    },
+    {
+      "name": "sapjax--the-way-of-react",
+      "source": "./sapjax--the-way-of-react",
+      "description": "Reinventing React from Scratch"
     },
     {
       "name": "lqhl--rabitq-rs",
@@ -98439,9 +98474,9 @@
       "description": "Real-time token usage and cost tracking plugin for OpenCode"
     },
     {
-      "name": "mohiwalla--memes",
-      "source": "./mohiwalla--memes",
-      "description": "Selected good meme GIFs by community"
+      "name": "rodrigopereiradevelopment--arca-ionic",
+      "source": "./rodrigopereiradevelopment--arca-ionic",
+      "description": "arca-ionic"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -98767,11 +98802,6 @@
       "name": "codenjoyme--vibecoding-training",
       "source": "./codenjoyme--vibecoding-training",
       "description": "vibecoding-training"
-    },
-    {
-      "name": "mohiwalla--memes",
-      "source": "./mohiwalla--memes",
-      "description": "Selected good meme GIFs by community"
     },
     {
       "name": "echorgi--obsidian-visual-ui-editor",
@@ -99857,11 +99887,6 @@
       "name": "rhyssullivan--claude-sandbox-bot",
       "source": "./rhyssullivan--claude-sandbox-bot",
       "description": "Demo of Claude Code in Vercel Sandbox in Discord"
-    },
-    {
-      "name": "sapjax--the-way-of-react",
-      "source": "./sapjax--the-way-of-react",
-      "description": "Reinventing React from Scratch"
     },
     {
       "name": "lawyered0--clawyer",
@@ -102737,6 +102762,31 @@
       "name": "nixliuxin--awesome-gaussian-splatting-artists",
       "source": "./nixliuxin--awesome-gaussian-splatting-artists",
       "description": "Curated gallery of the world's best Gaussian Splatting, NeRF & 3D/4D capture artists. The Volumography movement."
+    },
+    {
+      "name": "mohiwalla--memes",
+      "source": "./mohiwalla--memes",
+      "description": "Selected good meme GIFs by community"
+    },
+    {
+      "name": "nexus-substrate--nexus-agents",
+      "source": "./nexus-substrate--nexus-agents",
+      "description": "Governance substrate for your AI coding agents \u2014 adversarial review, drift-detected rules, immutable audit, closed-loop telemetry"
+    },
+    {
+      "name": "mohiwalla--memes",
+      "source": "./mohiwalla--memes",
+      "description": "Selected good meme GIFs by community"
+    },
+    {
+      "name": "nexus-substrate--nexus-agents",
+      "source": "./nexus-substrate--nexus-agents",
+      "description": "Governance substrate for your AI coding agents \u2014 adversarial review, drift-detected rules, immutable audit, closed-loop telemetry"
+    },
+    {
+      "name": "nexus-substrate--nexus-agents",
+      "source": "./nexus-substrate--nexus-agents",
+      "description": "Governance substrate for your AI coding agents \u2014 adversarial review, drift-detected rules, immutable audit, closed-loop telemetry"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -107087,6 +107137,21 @@
       "name": "imchong--robotics-notebooks",
       "source": "./imchong--robotics-notebooks",
       "description": "\u673a\u5668\u4eba\u6280\u672f\u6808\u8d44\u6599\u6c47\u603b"
+    },
+    {
+      "name": "madebyaris--agent-orchestration",
+      "source": "./madebyaris--agent-orchestration",
+      "description": "Agent Orchestration: MCP server enabling multi-agent collaboration with shared memory, task queue, resource locks, Cursor rules, and AGENTS.md workflows."
+    },
+    {
+      "name": "madebyaris--agent-orchestration",
+      "source": "./madebyaris--agent-orchestration",
+      "description": "Agent Orchestration: MCP server enabling multi-agent collaboration with shared memory, task queue, resource locks, Cursor rules, and AGENTS.md workflows."
+    },
+    {
+      "name": "madebyaris--agent-orchestration",
+      "source": "./madebyaris--agent-orchestration",
+      "description": "Agent Orchestration: MCP server enabling multi-agent collaboration with shared memory, task queue, resource locks, Cursor rules, and AGENTS.md workflows."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -119107,6 +119172,41 @@
       "name": "yusong652--yade-mcp",
       "source": "./yusong652--yade-mcp",
       "description": "MCP server connecting AI agents to YADE \u2014 run DEM simulations through natural conversation"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "hensu-project--hensu",
+      "source": "./hensu-project--hensu",
+      "description": "Infrastructure-as-code for AI agent workflows"
+    },
+    {
+      "name": "vectorpeak--knowfoundry-rag-console",
+      "source": "./vectorpeak--knowfoundry-rag-console",
+      "description": "KnowFoundry-RAG-Console"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -135864,6 +135964,91 @@
       "description": "The Ch(e)at Code \u2014 Agent Patterns for Copilot Chat (AIWF Team Newsletter Archive)"
     },
     {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "luckycrm--timey",
+      "source": "./luckycrm--timey",
+      "description": "Timey is a real-time team chat application built with TanStack Start, React, and SpacetimeDB. Features include direct messages, group channels, message reactions, and presence tracking."
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "zouharvi--last-translation-benchmark",
+      "source": "./zouharvi--last-translation-benchmark",
+      "description": "Crowdsourcing of hard to translate inputs (texts, images, audios) at scale."
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "luckycrm--timey",
+      "source": "./luckycrm--timey",
+      "description": "Timey is a real-time team chat application built with TanStack Start, React, and SpacetimeDB. Features include direct messages, group channels, message reactions, and presence tracking."
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
+      "name": "luckycrm--timey",
+      "source": "./luckycrm--timey",
+      "description": "Timey is a real-time team chat application built with TanStack Start, React, and SpacetimeDB. Features include direct messages, group channels, message reactions, and presence tracking."
+    },
+    {
+      "name": "maziarzamani--spaceduck",
+      "source": "./maziarzamani--spaceduck",
+      "description": "spaceduck is a personal AI that works while you don't. "
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -147649,6 +147834,11 @@
       "description": "healthsim-workspace"
     },
     {
+      "name": "freemty--paper-style",
+      "source": "./freemty--paper-style",
+      "description": "paper-style"
+    },
+    {
       "name": "microsoft--amplifier-app-openclaw",
       "source": "./microsoft--amplifier-app-openclaw",
       "description": "amplifier-app-openclaw"
@@ -147819,6 +148009,16 @@
       "description": "citation-relevance-auditor"
     },
     {
+      "name": "wolfe-jam--faf-skills",
+      "source": "./wolfe-jam--faf-skills",
+      "description": "faf-skills"
+    },
+    {
+      "name": "hongming-huang--pretext-frontend-motion",
+      "source": "./hongming-huang--pretext-frontend-motion",
+      "description": "pretext-frontend-motion"
+    },
+    {
       "name": "redrock453--vika-ok",
       "source": "./redrock453--vika-ok",
       "description": "vika_ok"
@@ -147952,6 +148152,26 @@
       "name": "hexafield--stateproof",
       "source": "./hexafield--stateproof",
       "description": "stateproof"
+    },
+    {
+      "name": "genius-cai--myunsw-cli",
+      "source": "./genius-cai--myunsw-cli",
+      "description": "myunsw-cli"
+    },
+    {
+      "name": "yzdame--mistral-ocr-skill",
+      "source": "./yzdame--mistral-ocr-skill",
+      "description": "Mistral-OCR-SKILL"
+    },
+    {
+      "name": "heyfuaad--bossman",
+      "source": "./heyfuaad--bossman",
+      "description": "bossman"
+    },
+    {
+      "name": "yijianw--multi-agent-coordinator",
+      "source": "./yijianw--multi-agent-coordinator",
+      "description": "Multi-Agent-Coordinator"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -235832,6 +236052,211 @@
       "name": "spandanareddib--pulse-architect",
       "source": "./spandanareddib--pulse-architect",
       "description": "pulse-architect"
+    },
+    {
+      "name": "maojunzc--knowledge-base",
+      "source": "./maojunzc--knowledge-base",
+      "description": "A knowledge base application"
+    },
+    {
+      "name": "foluis--fifa-2026-flags-getter",
+      "source": "./foluis--fifa-2026-flags-getter",
+      "description": "Fifa-2026-flags-Getter"
+    },
+    {
+      "name": "hewq--launchkit-ai",
+      "source": "./hewq--launchkit-ai",
+      "description": "launchkit-ai"
+    },
+    {
+      "name": "andersonfqueiroz--barbertech",
+      "source": "./andersonfqueiroz--barbertech",
+      "description": "Reposit\u00f3rio que vou usar para estudar."
+    },
+    {
+      "name": "theplane01--portofolio-android",
+      "source": "./theplane01--portofolio-android",
+      "description": "portofolio-android"
+    },
+    {
+      "name": "sunix--tennis-match-scoring-web-app",
+      "source": "./sunix--tennis-match-scoring-web-app",
+      "description": "Tennis-Match-Scoring-Web-App"
+    },
+    {
+      "name": "mathysin--copyman-cli",
+      "source": "./mathysin--copyman-cli",
+      "description": "copyman-cli"
+    },
+    {
+      "name": "pizanao--lake-house-lab",
+      "source": "./pizanao--lake-house-lab",
+      "description": "Local data lakehouse lab with Django, dbt, DuckDB and React"
+    },
+    {
+      "name": "jeby-228--mantra-api-frontend",
+      "source": "./jeby-228--mantra-api-frontend",
+      "description": "\u7d00\u9304\u53e3\u982d\u79aa\u7684APP"
+    },
+    {
+      "name": "bnema--hexcheck",
+      "source": "./bnema--hexcheck",
+      "description": "hexcheck"
+    },
+    {
+      "name": "satishdwivedi-01--investment-portfolio-tracker",
+      "source": "./satishdwivedi-01--investment-portfolio-tracker",
+      "description": "Investment-Portfolio-Tracker"
+    },
+    {
+      "name": "pops-rox--terraform-az-overlays-containerinstance",
+      "source": "./pops-rox--terraform-az-overlays-containerinstance",
+      "description": "\ud83d\udce6 Terraform overlay for Azure Container Instances"
+    },
+    {
+      "name": "chihebnabil--token-saver",
+      "source": "./chihebnabil--token-saver",
+      "description": "token-saver"
+    },
+    {
+      "name": "jacklangille--iwx",
+      "source": "./jacklangille--iwx",
+      "description": "iwx"
+    },
+    {
+      "name": "miguelort24--recetarreweb",
+      "source": "./miguelort24--recetarreweb",
+      "description": "RecetArreWeb"
+    },
+    {
+      "name": "waldirborbajr--tms",
+      "source": "./waldirborbajr--tms",
+      "description": "tms"
+    },
+    {
+      "name": "juanfersaca--sigci-copei",
+      "source": "./juanfersaca--sigci-copei",
+      "description": "sigci-copei"
+    },
+    {
+      "name": "sameerbajaj--goodreads-cli",
+      "source": "./sameerbajaj--goodreads-cli",
+      "description": "goodreads-cli"
+    },
+    {
+      "name": "peteraccaaa--admin-back-go",
+      "source": "./peteraccaaa--admin-back-go",
+      "description": "admin_back_go"
+    },
+    {
+      "name": "windgod-project-for-garena--climbing-world",
+      "source": "./windgod-project-for-garena--climbing-world",
+      "description": "Climbing-World"
+    },
+    {
+      "name": "apollostreetcompany--clauditor",
+      "source": "./apollostreetcompany--clauditor",
+      "description": "clauditor"
+    },
+    {
+      "name": "thepointe--las-cat",
+      "source": "./thepointe--las-cat",
+      "description": "las-cat"
+    },
+    {
+      "name": "windgod-project-for-garena--climbing-world",
+      "source": "./windgod-project-for-garena--climbing-world",
+      "description": "Climbing-World"
+    },
+    {
+      "name": "team-telnyx--telnyx-openclaw-intelligence",
+      "source": "./team-telnyx--telnyx-openclaw-intelligence",
+      "description": "telnyx-openclaw-intelligence"
+    },
+    {
+      "name": "fpdy--pizor",
+      "source": "./fpdy--pizor",
+      "description": "pizor"
+    },
+    {
+      "name": "windgod-project-for-garena--climbing-world",
+      "source": "./windgod-project-for-garena--climbing-world",
+      "description": "Climbing-World"
+    },
+    {
+      "name": "tusosos--3d-print-model-generator",
+      "source": "./tusosos--3d-print-model-generator",
+      "description": "3d-print-model-generator"
+    },
+    {
+      "name": "winnietheplayer--livingatlas",
+      "source": "./winnietheplayer--livingatlas",
+      "description": "LivingAtlas"
+    },
+    {
+      "name": "windgod-project-for-garena--climbing-world",
+      "source": "./windgod-project-for-garena--climbing-world",
+      "description": "Climbing-World"
+    },
+    {
+      "name": "louisgillies--mindframe",
+      "source": "./louisgillies--mindframe",
+      "description": "mindframe"
+    },
+    {
+      "name": "techxadil-code--localaid-lens-ai-emergency-resource-finder",
+      "source": "./techxadil-code--localaid-lens-ai-emergency-resource-finder",
+      "description": "Moving from \"scattered social media noise\" to \"structured actionable data\" is exactly where AI provides the most value in civic tech."
+    },
+    {
+      "name": "windgod-project-for-garena--climbing-world",
+      "source": "./windgod-project-for-garena--climbing-world",
+      "description": "Climbing-World"
+    },
+    {
+      "name": "windy629--copilot-cli-skill",
+      "source": "./windy629--copilot-cli-skill",
+      "description": "copilot-cli-skill"
+    },
+    {
+      "name": "sacmaumb-dot--laptop-phone-shop",
+      "source": "./sacmaumb-dot--laptop-phone-shop",
+      "description": "laptop-phone-shop"
+    },
+    {
+      "name": "viaggiostyle-netizen--vsbooking",
+      "source": "./viaggiostyle-netizen--vsbooking",
+      "description": "vsbooking"
+    },
+    {
+      "name": "l1uyun--xiaolab-group-meeting-skill",
+      "source": "./l1uyun--xiaolab-group-meeting-skill",
+      "description": "xiaolab-group-meeting-skill"
+    },
+    {
+      "name": "rmsgh0911--harness-javascript",
+      "source": "./rmsgh0911--harness-javascript",
+      "description": "Harness_Javascript"
+    },
+    {
+      "name": "aiagentwithdhruv--laptop-finder-ai",
+      "source": "./aiagentwithdhruv--laptop-finder-ai",
+      "description": "AI-powered laptop recommendation system with RAG chat, side-by-side comparison, and smart filtering. Built with Next.js 15, FastAPI, PostgreSQL + pgvector, and GPT-4o."
+    },
+    {
+      "name": "tsubasaogawa--semantic-commit-helper",
+      "source": "./tsubasaogawa--semantic-commit-helper",
+      "description": "semantic-commit-helper"
+    },
+    {
+      "name": "aiagentwithdhruv--laptop-finder-ai",
+      "source": "./aiagentwithdhruv--laptop-finder-ai",
+      "description": "AI-powered laptop recommendation system with RAG chat, side-by-side comparison, and smart filtering. Built with Next.js 15, FastAPI, PostgreSQL + pgvector, and GPT-4o."
+    },
+    {
+      "name": "ipcer-firegod--init-vue",
+      "source": "./ipcer-firegod--init-vue",
+      "description": "init-vue"
     }
   ]
 }
