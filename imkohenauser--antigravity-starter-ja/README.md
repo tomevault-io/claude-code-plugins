@@ -7,14 +7,14 @@ A starter template for Google Antigravity IDE, optimized for Japanese developmen
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [imkohenauser/antigravity-starter-ja](https://github.com/imkohenauser/antigravity-starter-ja).
+Original source: `AGENTS.md` in [imkohenauser/antigravity-starter-ja](https://github.com/imkohenauser/antigravity-starter-ja).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/imkohenauser/antigravity-starter-ja](https://github.com/imkohenauser/antigravity-starter-ja)
