@@ -2,10 +2,12 @@
 
 > Source: [infracost/agent-skills](https://github.com/infracost/agent-skills) — distributed by [TomeVault](https://tomevault.io)
 
+Infracost AI Agent Skills
+
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `` in [infracost/agent-skills](https://github.com/infracost/agent-skills).
+Original source: `GEMINI.md` in [infracost/agent-skills](https://github.com/infracost/agent-skills).
 
 ## Also available for
 
@@ -13,7 +15,6 @@ Original source: `` in [infracost/agent-skills](https://github.com/infracost/age
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
-- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/infracost/agent-skills](https://github.com/infracost/agent-skills)
