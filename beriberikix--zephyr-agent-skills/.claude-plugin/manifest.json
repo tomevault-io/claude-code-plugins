@@ -1,0 +1,28 @@
+{
+  "name": "beriberikix--zephyr-agent-skills",
+  "displayName": "zephyr-agent-skills",
+  "description": "zephyr-agent-skills",
+  "version": "1.0.0",
+  "author": "beriberikix",
+  "homepage": "https://github.com/beriberikix/zephyr-agent-skills",
+  "type": "tome",
+  "skills": [
+    "connectivity-ble",
+    "connectivity-ip",
+    "connectivity-usb-can",
+    "devicetree",
+    "hardware-io",
+    "iot-protocols",
+    "kernel-basics",
+    "kernel-services",
+    "multicore",
+    "native-sim",
+    "power-performance",
+    "specialized",
+    "storage",
+    "testing-debugging",
+    "zephyr-foundations",
+    "zephyr-index",
+    "zephyr-module"
+  ]
+}
