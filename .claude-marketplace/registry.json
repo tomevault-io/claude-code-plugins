@@ -16924,6 +16924,11 @@
       "description": "Enhance your Workers with serverless containers"
     },
     {
+      "name": "jackwener--tg-cli",
+      "source": "./jackwener--tg-cli",
+      "description": "tg-cli"
+    },
+    {
       "name": "vast-ai-research--anigen",
       "source": "./vast-ai-research--anigen",
       "description": "[SIGGRAPH 2026] AniGen: Unified S^3 Fields for Animatable 3D Asset Generation"
@@ -20897,6 +20902,11 @@
       "name": "mplsllc--macsurf",
       "source": "./mplsllc--macsurf",
       "description": "A modern web browser for Classic Mac OS 9 PowerPC. Real CSS3, ES5 JavaScript, native HTTPS \u2014 built with CodeWarrior on the Carbon API."
+    },
+    {
+      "name": "dageno-agents--geo-content-writer",
+      "source": "./dageno-agents--geo-content-writer",
+      "description": "geo-content-writer"
     },
     {
       "name": "microsoft--power-platform-skills",
@@ -34974,6 +34984,11 @@
       "description": "literature-downloader-skill"
     },
     {
+      "name": "raintree-technology--agent-starter",
+      "source": "./raintree-technology--agent-starter",
+      "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack profiles, synced to each agent's native config, plus 29 hand-maintained skills."
+    },
+    {
       "name": "ryuu12358--frockly",
       "source": "./ryuu12358--frockly",
       "description": "Frockly is a visual tool for building Excel formulas using Blockly. It helps prevent syntax errors and makes complex formulas easier to understand, especially for beginners and non-programmers."
@@ -43039,6 +43054,11 @@
       "description": "hhxg-top-hhxg-python"
     },
     {
+      "name": "sinyalee--han-man-elegy",
+      "source": "./sinyalee--han-man-elegy",
+      "description": "\u300a\u4eba\u59bb\u7ea6\u4f1a\u6307\u5357\u300b\u7535\u5b50\u4e66\u53ca\u6e90\u4ee3\u7801"
+    },
+    {
       "name": "eduardo-sl--go-agent-skills",
       "source": "./eduardo-sl--go-agent-skills",
       "description": "Curated AI agent skills for Go projects."
@@ -47037,6 +47057,11 @@
       "name": "fuwenhao12--academic-ref-inserter",
       "source": "./fuwenhao12--academic-ref-inserter",
       "description": "academic-ref-inserter"
+    },
+    {
+      "name": "bpisano--swifttui",
+      "source": "./bpisano--swifttui",
+      "description": "A SwiftUI engine that renders to the terminal."
     },
     {
       "name": "chimedeck--chimedeck",
@@ -53519,6 +53544,11 @@
       "description": "Deterministic agent harness for Temporal (in Rust)"
     },
     {
+      "name": "wzyn20051216--ros-robotics-skill",
+      "source": "./wzyn20051216--ros-robotics-skill",
+      "description": "ros-robotics-skill"
+    },
+    {
       "name": "bug-ops--mcp-execution",
       "source": "./bug-ops--mcp-execution",
       "description": "\ud83d\ude80 Generate executable TypeScript tools from MCP servers with 98% token savings. Progressive loading pattern for AI agents. Production-ready."
@@ -58872,6 +58902,11 @@
       "name": "orangeviolin--skill-evolve",
       "source": "./orangeviolin--skill-evolve",
       "description": "skill-evolve"
+    },
+    {
+      "name": "maseval--maseval",
+      "source": "./maseval--maseval",
+      "description": "Multi-Agent LLM Evaluation Docs: https://maseval.readthedocs.io/"
     },
     {
       "name": "r44vc0rp--itui",
@@ -89719,6 +89754,11 @@
       "description": "Documentation on how to use QML to customize Native Instrument Traktor controllers."
     },
     {
+      "name": "amrxtgh--bytesurgeon",
+      "source": "./amrxtgh--bytesurgeon",
+      "description": "Surgical JVM performance monitoring: Patch bytecode, hook agents, visualize hotspot and ofc no source code touched!"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -92837,6 +92877,11 @@
       "name": "igoryuzo--uniswapv4-hooks-skill",
       "source": "./igoryuzo--uniswapv4-hooks-skill",
       "description": "uniswapV4-hooks-skill"
+    },
+    {
+      "name": "sirkitree--conversation-logger",
+      "source": "./sirkitree--conversation-logger",
+      "description": "conversation-logger"
     },
     {
       "name": "vm--nila-code",
@@ -99464,6 +99509,16 @@
       "description": "webcode \u7528\u6765\u628a ChatGPT\u3001Gemini\u3001DeepSeek \u7b49\u8fd9\u7c7b\u7f51\u9875 AI \u63a5\u5230\u672c\u5730 VS Code \u4e2d\uff0c\u652f\u6301\u8bfb\u3001\u5199\u3001\u7f16\u8f91\u672c\u5730\u6587\u4ef6\uff0c\u8fd0\u884c\u547d\u4ee4\uff0c\u8fd8\u652f\u6301 MCP \u548c Skills\u3002"
     },
     {
+      "name": "tortastudios--sentry-instrumentation",
+      "source": "./tortastudios--sentry-instrumentation",
+      "description": "sentry-instrumentation"
+    },
+    {
+      "name": "welfordian--mitm-proxy",
+      "source": "./welfordian--mitm-proxy",
+      "description": " Go-based MITM HTTP/HTTPS proxy with HTTP/2 and HTTP/1.1 interception, local CA/per-host cert generation, CONNECT/WebSocket tunneling, disk caching, admin dashboard, traffic capture, block policies, a"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -103852,6 +103907,21 @@
       "name": "sirilsengolraj-source--presentation-skill",
       "source": "./sirilsengolraj-source--presentation-skill",
       "description": "presentation-skill"
+    },
+    {
+      "name": "rgbkrk--voice",
+      "source": "./rgbkrk--voice",
+      "description": "voice"
+    },
+    {
+      "name": "tuna-os--bluefin-cli",
+      "source": "./tuna-os--bluefin-cli",
+      "description": "bluefin-cli"
+    },
+    {
+      "name": "owainlewis--neo",
+      "source": "./owainlewis--neo",
+      "description": "The best minimalist coding agent harness and agent orchestrator. "
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -108347,6 +108417,11 @@
       "name": "jason5330--ai-self-eval",
       "source": "./jason5330--ai-self-eval",
       "description": "ai-self-eval"
+    },
+    {
+      "name": "lightninglabs--tap-sdk",
+      "source": "./lightninglabs--tap-sdk",
+      "description": "Build Taproot Assets applications"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -113677,6 +113752,16 @@
       "name": "gabotechs--libcudf-rs",
       "source": "./gabotechs--libcudf-rs",
       "description": "Rust bindings for libcudf"
+    },
+    {
+      "name": "egge21m--cocod",
+      "source": "./egge21m--cocod",
+      "description": "cocod"
+    },
+    {
+      "name": "gyf-dev--windows-bash-zsh",
+      "source": "./gyf-dev--windows-bash-zsh",
+      "description": "windows-bash-zsh"
     },
     {
       "name": "makenowjust--naraku",
@@ -121007,6 +121092,41 @@
       "name": "itachidevv--clawville",
       "source": "./itachidevv--clawville",
       "description": "ClawVille"
+    },
+    {
+      "name": "mehrozsheikh--aso-appstore-listing-skill",
+      "source": "./mehrozsheikh--aso-appstore-listing-skill",
+      "description": "aso-appstore-listing-skill"
+    },
+    {
+      "name": "tb5z035i--arxiv-digest",
+      "source": "./tb5z035i--arxiv-digest",
+      "description": "arxiv-digest"
+    },
+    {
+      "name": "catchpeak--bilibili-video-summarizer",
+      "source": "./catchpeak--bilibili-video-summarizer",
+      "description": "bilibili-video-summarizer"
+    },
+    {
+      "name": "a31521424--pixel-to-beads",
+      "source": "./a31521424--pixel-to-beads",
+      "description": "Convert images into fuse bead (Perler/Hama) patterns with color quantization, dithering algorithms, and automatic material counting."
+    },
+    {
+      "name": "jtama--project-graph-generator",
+      "source": "./jtama--project-graph-generator",
+      "description": "Java project graph generator"
+    },
+    {
+      "name": "visionforge-ou--foreman",
+      "source": "./visionforge-ou--foreman",
+      "description": "A Boris-style agentic orchestrator TUI that supervises headless Claude Code agents through a gated software-delivery pipeline \u2014 pointed at any repository."
+    },
+    {
+      "name": "linkerdog--rara",
+      "source": "./linkerdog--rara",
+      "description": "rara"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -139004,6 +139124,106 @@
       "description": "SkillsFan\u7684\u7535\u8111\u5ba2\u6237\u7aef"
     },
     {
+      "name": "tim0-12432--calendar-heatmap-panel",
+      "source": "./tim0-12432--calendar-heatmap-panel",
+      "description": "Grafana Panel with Calendar Heatmap"
+    },
+    {
+      "name": "getsentry--launchpad",
+      "source": "./getsentry--launchpad",
+      "description": "launchpad"
+    },
+    {
+      "name": "schoi80--djkr8",
+      "source": "./schoi80--djkr8",
+      "description": "Optimize your Rekordbox playlist for smooth harmonic mixing"
+    },
+    {
+      "name": "getsentry--launchpad",
+      "source": "./getsentry--launchpad",
+      "description": "launchpad"
+    },
+    {
+      "name": "ichikacoding--weather-checker-v1",
+      "source": "./ichikacoding--weather-checker-v1",
+      "description": "weather-checker-v1"
+    },
+    {
+      "name": "dj-flitzefinger--miui-browser-tab-keepalive",
+      "source": "./dj-flitzefinger--miui-browser-tab-keepalive",
+      "description": "Tampermonkey userscript that prevents MIUI/HyperOS from killing mobile browser tabs. Works with Firefox, Edge, Yandex, Kiwi, and other browsers. No root required."
+    },
+    {
+      "name": "jtc-byte--zmeta-spec",
+      "source": "./jtc-byte--zmeta-spec",
+      "description": "ZMeta v1.0: A transport-agnostic, event-based metadata standard for resilient ISR, supporting degraded and denied environments, multi-sensor fusion, and operator-facing state."
+    },
+    {
+      "name": "major--oinker",
+      "source": "./major--oinker",
+      "description": "\ud83d\udc3d Async Python client for the Porkbun API - oink your way to DNS management"
+    },
+    {
+      "name": "hynek-jina--linky",
+      "source": "./hynek-jina--linky",
+      "description": "PWA for managing Lightning and Nostr contacts"
+    },
+    {
+      "name": "majiayu000--rnk",
+      "source": "./majiayu000--rnk",
+      "description": "Declarative TUI framework for Rust with React-like hooks, flexbox layout, and 45+ components"
+    },
+    {
+      "name": "synaptent--aragora",
+      "source": "./synaptent--aragora",
+      "description": "Omnivorous Multi Agent Decision Making Engine - Ingest from any source, query from any channel, get multi-agent consensus"
+    },
+    {
+      "name": "adamf83--my-rail-commute",
+      "source": "./adamf83--my-rail-commute",
+      "description": "A Home Assistant integration for tracking UK rail commutes using National Rail real-time data from the Darwin API"
+    },
+    {
+      "name": "divitmittal--merinetworth",
+      "source": "./divitmittal--merinetworth",
+      "description": "Bank account consolidation system with multi-format statement extraction and visual analytics dashboard"
+    },
+    {
+      "name": "leter--claude-code-in-action",
+      "source": "./leter--claude-code-in-action",
+      "description": "Claude Code in Action \u5b98\u65b9\u8bfe\u7a0b\u4e2d\u6587\u7248 / Chinese-localized Claude Code course"
+    },
+    {
+      "name": "mshr-h--obsidian-vault-backup",
+      "source": "./mshr-h--obsidian-vault-backup",
+      "description": "Create local ZIP backups of your Obsidian vault with automatic retention management"
+    },
+    {
+      "name": "discoverse-dev--gaussianrenderer",
+      "source": "./discoverse-dev--gaussianrenderer",
+      "description": "GaussianRenderer"
+    },
+    {
+      "name": "kartikey321--knex-dart",
+      "source": "./kartikey321--knex-dart",
+      "description": "A port of knexjs library for dart backends"
+    },
+    {
+      "name": "objectstack-ai--objectui",
+      "source": "./objectstack-ai--objectui",
+      "description": "ObjectUI is a universal Server-Driven UI (SDUI) engine built on React + Tailwind + Shadcn."
+    },
+    {
+      "name": "alexandrelam--taskforce",
+      "source": "./alexandrelam--taskforce",
+      "description": "Taskforce: Parallel branches. Parallel AI. Ship 10x faster."
+    },
+    {
+      "name": "jameshwade--deputy",
+      "source": "./jameshwade--deputy",
+      "description": "Agentic AI Workflows for R"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -148704,6 +148924,31 @@
       "description": "canvas-flow"
     },
     {
+      "name": "freestylefly--daily-reporter-skill",
+      "source": "./freestylefly--daily-reporter-skill",
+      "description": "daily-reporter-skill"
+    },
+    {
+      "name": "christitustech--titusbooks",
+      "source": "./christitustech--titusbooks",
+      "description": "I hate quickbooks, I'm making my own self-hosted all data never leaves local network."
+    },
+    {
+      "name": "shyamsridhar123--claudecode-copilot-proxy",
+      "source": "./shyamsridhar123--claudecode-copilot-proxy",
+      "description": "Proxy server enabling Claude Code to work seamlessly with GitHub Copilot. Bridges AI coding assistants for enhanced developer experience."
+    },
+    {
+      "name": "agentjido--jido-claude",
+      "source": "./agentjido--jido-claude",
+      "description": "Claude Code adapter for Jido.Harness and Jido agent workflows."
+    },
+    {
+      "name": "extension-js--examples",
+      "source": "./extension-js--examples",
+      "description": "Browser extension examples and templates for common patterns."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -150974,6 +151219,11 @@
       "description": "px-asset-extract"
     },
     {
+      "name": "zmtsikriteas--praxis",
+      "source": "./zmtsikriteas--praxis",
+      "description": "praxis"
+    },
+    {
       "name": "microsoft--amplifier-app-openclaw",
       "source": "./microsoft--amplifier-app-openclaw",
       "description": "amplifier-app-openclaw"
@@ -151007,6 +151257,11 @@
       "name": "hummusonrails--arbitrum-dapp-skill",
       "source": "./hummusonrails--arbitrum-dapp-skill",
       "description": "arbitrum-dapp-skill"
+    },
+    {
+      "name": "forketyfork--compose-ui-test-server",
+      "source": "./forketyfork--compose-ui-test-server",
+      "description": "compose-ui-test-server"
     },
     {
       "name": "adityak74--embenx",
@@ -151612,6 +151867,11 @@
       "name": "optimumailabs--token-efficiency-agent",
       "source": "./optimumailabs--token-efficiency-agent",
       "description": "Token-Efficiency-Agent"
+    },
+    {
+      "name": "toorcn--agent-team-manager",
+      "source": "./toorcn--agent-team-manager",
+      "description": "agent-team-manager"
     },
     {
       "name": "dil8654--claude-code-springboot-template",
@@ -152342,6 +152602,36 @@
       "name": "markusbetter--bilibili-transcribe-summary-skill",
       "source": "./markusbetter--bilibili-transcribe-summary-skill",
       "description": "bilibili-transcribe-summary-skill"
+    },
+    {
+      "name": "leck88--ma30-dca-strategy",
+      "source": "./leck88--ma30-dca-strategy",
+      "description": "ma30-dca-strategy"
+    },
+    {
+      "name": "smarks26--shopify-schema-audit",
+      "source": "./smarks26--shopify-schema-audit",
+      "description": "shopify-schema-audit"
+    },
+    {
+      "name": "zurbrick--agent-memory-loop",
+      "source": "./zurbrick--agent-memory-loop",
+      "description": "agent-memory-loop"
+    },
+    {
+      "name": "danysgit--unraid-app-builder-skill",
+      "source": "./danysgit--unraid-app-builder-skill",
+      "description": "unraid-app-builder-skill"
+    },
+    {
+      "name": "dmoraine--clawinboxrag",
+      "source": "./dmoraine--clawinboxrag",
+      "description": "ClawInboxRAG"
+    },
+    {
+      "name": "leonai42--fppt-std",
+      "source": "./leonai42--fppt-std",
+      "description": "fppt-std"
     },
     {
       "name": "wallbreakerno4--telegram-timer-bot",
@@ -241667,6 +241957,96 @@
       "name": "spheceo--s2-leads-api",
       "source": "./spheceo--s2-leads-api",
       "description": "Google Maps lead scraper built in Go."
+    },
+    {
+      "name": "hvvhu--project-app",
+      "source": "./hvvhu--project-app",
+      "description": "Project_app"
+    },
+    {
+      "name": "rana0001--nextjs-electron-migration-skill",
+      "source": "./rana0001--nextjs-electron-migration-skill",
+      "description": "nextjs-electron-migration-skill"
+    },
+    {
+      "name": "gabriel0952--ios-simulator-skill",
+      "source": "./gabriel0952--ios-simulator-skill",
+      "description": "ios-simulator-skill"
+    },
+    {
+      "name": "arkbuilder--summon-familiar",
+      "source": "./arkbuilder--summon-familiar",
+      "description": "summon-familiar"
+    },
+    {
+      "name": "cubaseuser123--fastmcp-3-0-typescript-agent-skill",
+      "source": "./cubaseuser123--fastmcp-3-0-typescript-agent-skill",
+      "description": "fastmcp-3.0-typescript-agent_skill"
+    },
+    {
+      "name": "mizuri0x--sme-crm-mini",
+      "source": "./mizuri0x--sme-crm-mini",
+      "description": "sme-crm-mini"
+    },
+    {
+      "name": "nicholaswhittle--claude-queue",
+      "source": "./nicholaswhittle--claude-queue",
+      "description": "claude-queue"
+    },
+    {
+      "name": "meursault44--pharos-agent-transaction-firewall",
+      "source": "./meursault44--pharos-agent-transaction-firewall",
+      "description": "pharos-agent-transaction-firewall"
+    },
+    {
+      "name": "sisovin--aspnet-fullstack-skill",
+      "source": "./sisovin--aspnet-fullstack-skill",
+      "description": "ASPNET-FULLSTACK-SKILL"
+    },
+    {
+      "name": "avansaber--auditclaw-aws",
+      "source": "./avansaber--auditclaw-aws",
+      "description": "auditclaw-aws"
+    },
+    {
+      "name": "sanchahous--ai-news-scrapper",
+      "source": "./sanchahous--ai-news-scrapper",
+      "description": "ai-news-scrapper"
+    },
+    {
+      "name": "dilaz--rust-clone-optimization-skill",
+      "source": "./dilaz--rust-clone-optimization-skill",
+      "description": "rust-clone-optimization-skill"
+    },
+    {
+      "name": "krishnaraheja--message-writer-skill",
+      "source": "./krishnaraheja--message-writer-skill",
+      "description": "message-writer-skill"
+    },
+    {
+      "name": "jreakin--jre-vidget",
+      "source": "./jreakin--jre-vidget",
+      "description": "jre-vidget"
+    },
+    {
+      "name": "camshaft--scherzo",
+      "source": "./camshaft--scherzo",
+      "description": "scherzo"
+    },
+    {
+      "name": "prudrapatna--openclaw-dynamic-skill-injection",
+      "source": "./prudrapatna--openclaw-dynamic-skill-injection",
+      "description": "openclaw-dynamic-skill-injection"
+    },
+    {
+      "name": "threebigtemple--jquants-daily-report",
+      "source": "./threebigtemple--jquants-daily-report",
+      "description": "jquants-daily-report"
+    },
+    {
+      "name": "christiananese--medusa-astro-starter",
+      "source": "./christiananese--medusa-astro-starter",
+      "description": "medusa-astro-starter"
     }
   ]
 }
