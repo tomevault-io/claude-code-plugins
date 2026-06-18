@@ -1,17 +1,18 @@
-# agents
+# han-man-elegy
 
-> Canonical AI agent instructions for this project
+> This project keeps a single canonical instruction file. Read `AGENTS.md` in the
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agents/SKILL.md
+Read and follow the instructions in .claude/skills/han-man-elegy/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Instructions for AI agents
 
 This project keeps a single canonical instruction file. Read `AGENTS.md` in the
 repository root and follow it fully before doing anything else. It defines the
