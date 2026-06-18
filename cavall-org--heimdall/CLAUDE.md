@@ -1,6 +1,6 @@
 # heimdall
 
-> Heimdall runtime guardrails
+> Heimdall is the agentic interface to Ketcher for molecule operations. Three
 
 ## Usage
 
@@ -11,7 +11,6 @@ Read and follow the instructions in .claude/skills/heimdall/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # Heimdall runtime guardrails
 
