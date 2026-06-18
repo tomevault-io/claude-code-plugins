@@ -1,0 +1,31 @@
+# appfactory
+
+> For all code under this repository:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/appfactory/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## iOS miniapp organization rules
+
+For all code under this repository:
+
+1. Keep `ContentView.swift` lightweight and focused on app-level composition only.
+2. Place all miniapp implementation code under `HelloWorldiOS/HelloWorldiOS/miniapps/{appName}/`.
+   - Example: the Todo miniapp must live under `HelloWorldiOS/HelloWorldiOS/miniapps/todo/`.
+3. Follow the Single Responsibility Principle:
+   - Keep files small and focused.
+   - Prefer splitting UI into small `View` types and keeping models in dedicated files.
+   - Avoid large, monolithic view files when adding or updating miniapps.
+
+---
+> Source: [mpaliath/AppFactory](https://github.com/mpaliath/AppFactory) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-17 -->
