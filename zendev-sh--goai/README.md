@@ -2,16 +2,15 @@
 
 > Sourced from [zendev-sh/goai](https://github.com/zendev-sh/goai) and converted for every major platform by [TomeVault](https://tomevault.io)
 
-Go AI SDK, the Go way.  One unified API across 21+ providers. Streaming, structured output, MCP support, stdlib only. Go AI SDK for AI applications inspired by Vercel AI SDK.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [zendev-sh/goai](https://github.com/zendev-sh/goai).
+Original source: `` in [zendev-sh/goai](https://github.com/zendev-sh/goai).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
