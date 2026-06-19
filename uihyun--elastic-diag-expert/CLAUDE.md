@@ -1,0 +1,22 @@
+# elastic-diag-expert
+
+> Expert for Elastic Stack (ES, ECK, ECE, Agent, Logstash, Kibana) diagnostics. Analyzes logs, diagnostic bundles, and API outputs for root causes and actionable fixes. Handles cluster health, shard allocation, master bottlenecks, and JVM errors.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/elastic-diag-expert/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Instructions
+
+[Paste the entire content of instructions.md here]
+
+---
+> Source: [uihyun/elastic-diag-expert](https://github.com/uihyun/elastic-diag-expert) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-19 -->
