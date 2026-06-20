@@ -2,16 +2,15 @@
 
 > Tome by [yusufaltunbicak](https://github.com/yusufaltunbicak/outlook-cli) — distributed by [TomeVault](https://tomevault.io)
 
-Outlook 365 CLI — read, send, and manage emails, calendar, and contacts from the terminal without API keys
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [yusufaltunbicak/outlook-cli](https://github.com/yusufaltunbicak/outlook-cli).
+Original source: `` in [yusufaltunbicak/outlook-cli](https://github.com/yusufaltunbicak/outlook-cli).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
