@@ -1,6 +1,6 @@
 # codedebrief
 
-> Keep CodeDebrief synchronized
+> <!-- codedebrief:instructions:start -->
 
 ## Usage
 
@@ -11,7 +11,6 @@ Read and follow the instructions in .claude/skills/codedebrief/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 <!-- codedebrief:instructions:start -->
 ## CodeDebrief
