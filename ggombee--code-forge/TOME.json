@@ -1,0 +1,44 @@
+{
+  "name": "code-forge",
+  "owner": "ggombee",
+  "repo": "code-forge",
+  "description": "AI agent\uc758 skills, agents \ub4f1\uc744 \uc870\ud569\ud574\uc11c \uc138\ud305\ud574\uc8fc\ub294 code-forge",
+  "type": "config",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [],
+  "source_url": "https://github.com/ggombee/code-forge",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-06-22T05:46:54Z"
+}
