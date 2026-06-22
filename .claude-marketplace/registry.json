@@ -110849,6 +110849,11 @@
       "description": "RAG parameter sweep experimentation tool \u2014 systematically evaluate embedding models, chunking strategies, and retrieval methods using MongoDB Atlas Vector Search. Supports both Voyage AI (hosted) and "
     },
     {
+      "name": "turtle-hwan--im-ai-copyeditor",
+      "source": "./turtle-hwan--im-ai-copyeditor",
+      "description": "LLM\uc774 \ubaa8\ub4e0 \ubb38\uc7a5\uc744 \ud55c \uc904\uc529 \uc77d\uace0, \uc0ac\ub78c\uc774 \uc77d\uae30 \uc88b\uc740 \uae00\ub85c \ub2e4\ub4ec\ub294 \uc2a4\ud0ac"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
