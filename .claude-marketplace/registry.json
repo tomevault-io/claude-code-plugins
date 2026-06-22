@@ -18094,9 +18094,19 @@
       "description": "A minimal CSS framework with utilities that are actually useful."
     },
     {
+      "name": "laiso--ts-bench",
+      "source": "./laiso--ts-bench",
+      "description": "Benchmark CLI for comparing AI coding agents on TypeScript workloads."
+    },
+    {
       "name": "stolinski--graffiti",
       "source": "./stolinski--graffiti",
       "description": "A minimal CSS framework with utilities that are actually useful."
+    },
+    {
+      "name": "laiso--ts-bench",
+      "source": "./laiso--ts-bench",
+      "description": "Benchmark CLI for comparing AI coding agents on TypeScript workloads."
     },
     {
       "name": "diodeinc--pcb",
@@ -18284,11 +18294,6 @@
       "description": "\ud83c\udf30 Terminal-based automated file organizer inspired by Hazel. Watch folders and organize files with rules."
     },
     {
-      "name": "laiso--ts-bench",
-      "source": "./laiso--ts-bench",
-      "description": "Benchmark CLI for comparing AI coding agents on TypeScript workloads."
-    },
-    {
       "name": "tsiendragon--qwen-image-finetune",
       "source": "./tsiendragon--qwen-image-finetune",
       "description": "Repo for Qwen Image Finetune"
@@ -18307,11 +18312,6 @@
       "name": "tsiendragon--qwen-image-finetune",
       "source": "./tsiendragon--qwen-image-finetune",
       "description": "Repo for Qwen Image Finetune"
-    },
-    {
-      "name": "laiso--ts-bench",
-      "source": "./laiso--ts-bench",
-      "description": "Benchmark CLI for comparing AI coding agents on TypeScript workloads."
     },
     {
       "name": "humanstack--vibe-coding-template",
@@ -36692,6 +36692,11 @@
       "name": "yassershkeir--django-smart-ratelimit",
       "source": "./yassershkeir--django-smart-ratelimit",
       "description": "A flexible and efficient rate limiting library for Django applications"
+    },
+    {
+      "name": "bropines--xray-config-ui-editor",
+      "source": "./bropines--xray-config-ui-editor",
+      "description": "xray-config-ui-editor"
     },
     {
       "name": "tjx666--vscode-mcp",
@@ -128299,6 +128304,11 @@
       "description": "Run and manage the full Happy stack (server, daemon, UI) locally and expose them easily and securely over Tailscale for mobile access"
     },
     {
+      "name": "phuthuycoding--moicle",
+      "source": "./phuthuycoding--moicle",
+      "description": "Reusable AI agents, commands, skills, and architecture references for Claude Code, Antigravity, Cursor or AI IDE"
+    },
+    {
       "name": "martynpekala--openlens",
       "source": "./martynpekala--openlens",
       "description": "iOS companion app for OpenCode- chat with your AI coding assistant from your phone"
@@ -130552,11 +130562,6 @@
       "name": "old-man-warcraft--azerothpanel",
       "source": "./old-man-warcraft--azerothpanel",
       "description": "A web-based management panel for AzerothCore WoW private servers \u2014 FastAPI backend, React/TypeScript frontend, Docker Compose deployment"
-    },
-    {
-      "name": "bropines--xray-config-ui-editor",
-      "source": "./bropines--xray-config-ui-editor",
-      "description": "xray-config-ui-editor"
     },
     {
       "name": "zeixcom--le-truc",
@@ -142834,6 +142839,21 @@
       "description": "GameHelper for Path of Exile 2"
     },
     {
+      "name": "pyts1n9--baiqingtodo",
+      "source": "./pyts1n9--baiqingtodo",
+      "description": "It is a Todo-List and Notepad Tool"
+    },
+    {
+      "name": "voidchecksum--pcx-ai-toolkit",
+      "source": "./voidchecksum--pcx-ai-toolkit",
+      "description": "AI-powered scripting toolkit for Perception.cx \u2014 complete Enma/AngelScript/Lua docs, coding guidelines, MCP configs, LSP servers, and Claude Code skills"
+    },
+    {
+      "name": "voidchecksum--pcx-ai-toolkit",
+      "source": "./voidchecksum--pcx-ai-toolkit",
+      "description": "AI-powered scripting toolkit for Perception.cx \u2014 complete Enma/AngelScript/Lua docs, coding guidelines, MCP configs, LSP servers, and Claude Code skills"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -145622,11 +145642,6 @@
       "name": "mikeparcewski--wicked-garden",
       "source": "./mikeparcewski--wicked-garden",
       "description": "AI-Native SDLC \u2014 the complete software development lifecycle as a Claude Code plugin."
-    },
-    {
-      "name": "phuthuycoding--moicle",
-      "source": "./phuthuycoding--moicle",
-      "description": "Reusable AI agents, commands, skills, and architecture references for Claude Code, Antigravity, Cursor or AI IDE"
     },
     {
       "name": "vitalio-sh--thunderbird-cli",
@@ -153012,6 +153027,11 @@
       "name": "rewstapp--agent-smith-go",
       "source": "./rewstapp--agent-smith-go",
       "description": "agent-smith-go"
+    },
+    {
+      "name": "mikhailmogilnikov--hyperellipse",
+      "source": "./mikhailmogilnikov--hyperellipse",
+      "description": "CSS corner-shape polyfill \u2014 squircles, superellipses, scoops & notches"
     },
     {
       "name": "cheerhuan--save-your-token",
