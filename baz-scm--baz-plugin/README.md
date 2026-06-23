@@ -1,0 +1,30 @@
+# baz-plugin
+
+> Source: [baz-scm/baz-plugin](https://github.com/baz-scm/baz-plugin) — distributed by [TomeVault](https://tomevault.io)
+
+Install baz and empower your coding agent to be faster, cheaper and more precise
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `.cursor/rules/*.mdc` in [baz-scm/baz-plugin](https://github.com/baz-scm/baz-plugin).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/baz-scm/baz-plugin](https://github.com/baz-scm/baz-plugin)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install baz-scm/baz-plugin
+```
+Source: [github.com/baz-scm/baz-plugin](https://github.com/baz-scm/baz-plugin).
+
+<!-- genome:d-i-q -->
