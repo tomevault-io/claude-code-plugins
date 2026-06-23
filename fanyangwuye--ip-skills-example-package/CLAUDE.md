@@ -1,0 +1,51 @@
+# ip-skills-example-package
+
+> This repository provides four IP workflow skills:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/ip-skills-example-package/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Instructions
+
+This repository provides four IP workflow skills:
+
+- `skills/ip-copy-skill`
+- `skills/ip-image-skill`
+- `skills/ip-music-skill`
+- `skills/ip-video-skill`
+
+When an agent is asked to use this repository, it should read the relevant `SKILL.md` files before acting. For full IP/video workflows, read all four.
+
+Standard full workflow:
+
+```text
+copy/script planning
+-> IP asset pack
+-> character design sheet
+-> scene reference
+-> storyboard / shot table
+-> first-frame keyframe
+-> I2V clip
+-> tail-frame extraction
+-> next clip / bridge clip
+-> continuity check
+```
+
+Do not skip character sheets, scene refs, storyboard/shot table, reviewed keyframes, or tail-frame continuity checks.
+
+For setup by agent type, read:
+
+```text
+docs/agent_config.md
+```
+
+---
+> Source: [fanyangwuye/IP-skills-Example-package](https://github.com/fanyangwuye/IP-skills-Example-package) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-23 -->
