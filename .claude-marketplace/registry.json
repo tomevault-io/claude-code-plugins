@@ -50824,6 +50824,21 @@
       "description": "Staging Room for benchmarking, orchestration and other operations for local Hermes AI Agent"
     },
     {
+      "name": "aotemiao--artemis",
+      "source": "./aotemiao--artemis",
+      "description": "\u5f00\u7bb1\u5373\u7528\u7684 Spring Cloud \u5fae\u670d\u52a1\u5de5\u7a0b\u5e95\u5ea7\uff0c\u5185\u7f6e DDD/COLA \u5206\u5c42\u3001\u53ef\u89c2\u6d4b\u6027\u3001\u6cbb\u7406\u811a\u672c\u4e0e\u9762\u5411 agentic \u5f00\u53d1\u7684 Harness Engineering\u3002"
+    },
+    {
+      "name": "aotemiao--artemis",
+      "source": "./aotemiao--artemis",
+      "description": "\u5f00\u7bb1\u5373\u7528\u7684 Spring Cloud \u5fae\u670d\u52a1\u5de5\u7a0b\u5e95\u5ea7\uff0c\u5185\u7f6e DDD/COLA \u5206\u5c42\u3001\u53ef\u89c2\u6d4b\u6027\u3001\u6cbb\u7406\u811a\u672c\u4e0e\u9762\u5411 agentic \u5f00\u53d1\u7684 Harness Engineering\u3002"
+    },
+    {
+      "name": "aotemiao--artemis",
+      "source": "./aotemiao--artemis",
+      "description": "\u5f00\u7bb1\u5373\u7528\u7684 Spring Cloud \u5fae\u670d\u52a1\u5de5\u7a0b\u5e95\u5ea7\uff0c\u5185\u7f6e DDD/COLA \u5206\u5c42\u3001\u53ef\u89c2\u6d4b\u6027\u3001\u6cbb\u7406\u811a\u672c\u4e0e\u9762\u5411 agentic \u5f00\u53d1\u7684 Harness Engineering\u3002"
+    },
+    {
       "name": "lynx-family--lynx-ui",
       "source": "./lynx-family--lynx-ui",
       "description": "Out-of-the-box Lynx Component Library"
@@ -65354,6 +65369,11 @@
       "description": "docker-git"
     },
     {
+      "name": "crosspoint-reader--crosspoint-simulator",
+      "source": "./crosspoint-reader--crosspoint-simulator",
+      "description": "Simulate Crosspoint firmware without flashing onto your device"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -66557,6 +66577,11 @@
       "name": "randolph2014--ai-team-platform",
       "source": "./randolph2014--ai-team-platform",
       "description": "AI Team Platform - \u4ece\u9700\u6c42\u5230\u4e0a\u7ebf\u7684\u81ea\u52a8\u5316\u4ea4\u4ed8\u5e73\u53f0"
+    },
+    {
+      "name": "zhaohongxuan--journal-partner",
+      "source": "./zhaohongxuan--journal-partner",
+      "description": "Obsidian plugin \u2013 highlight journal timestamps with custom colors and readonly protection"
     },
     {
       "name": "mulhamna--jira-commands",
@@ -98284,6 +98309,11 @@
       "description": "Fivetran Connector SDK Connectors Catalog"
     },
     {
+      "name": "matthiastjong--shellgate-legacy",
+      "source": "./matthiastjong--shellgate-legacy",
+      "description": "Self hosted secure gateway for AI agents. One token. Full control. Complete audit trail."
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -101852,6 +101882,21 @@
       "name": "nandinigoyaldev--open-source-contribution-atelier",
       "source": "./nandinigoyaldev--open-source-contribution-atelier",
       "description": "A full-stack learning and operations platform for teaching open source contribution from beginner to advanced levels"
+    },
+    {
+      "name": "agentra-labs--paper2product",
+      "source": "./agentra-labs--paper2product",
+      "description": "\"ArXiv to Product\" \u2014 A multi-agent CLI pipeline that analyzes research papers and generates ranked startup ideas with market analysis."
+    },
+    {
+      "name": "agentra-labs--paper2product",
+      "source": "./agentra-labs--paper2product",
+      "description": "\"ArXiv to Product\" \u2014 A multi-agent CLI pipeline that analyzes research papers and generates ranked startup ideas with market analysis."
+    },
+    {
+      "name": "aiki-sh--cli",
+      "source": "./aiki-sh--cli",
+      "description": "Agent agnostic framework for building autonomous coding workflows."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -124404,6 +124449,21 @@
       "description": "Discover and compare shadcn presets instantly"
     },
     {
+      "name": "modem-dev--glance-agent-plugins",
+      "source": "./modem-dev--glance-agent-plugins",
+      "description": "Agent plugins for glance.sh \u2014 temporary image sharing for coding agents"
+    },
+    {
+      "name": "rekin226--aquascope",
+      "source": "./rekin226--aquascope",
+      "description": "Open-source Python toolkit for water data, hydrology, and agricultural water management \u2014 15 unified collectors (USGS, FAO, GEMStat, EU WFD\u2026), Bulletin 17C flood frequency, FAO-56 ET\u2080, and an AI metho"
+    },
+    {
+      "name": "geeks-accelerator--ollama-herd",
+      "source": "./geeks-accelerator--ollama-herd",
+      "description": "Local AI load balancer for Ollama fleets \u2014 auto-discovery, smart routing, OpenAI-compatible API, zero config. Perfect for Mac Minis & Studios."
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -143434,6 +143494,11 @@
       "description": "Security-first, self-hosted AI agents - isolation you can prove, not just promise."
     },
     {
+      "name": "mangowhoiscloud--geode",
+      "source": "./mangowhoiscloud--geode",
+      "description": "GEODE v0.99.70: \ubc94\uc6a9 \uc790\uc728 \uc2e4\ud589 \uc5d0\uc774\uc804\ud2b8 \ud558\ub124\uc2a4 \u00b7 while(tool_use) AgenticLoop \u00b7 54 Tools + 13 MCP \u00b7 46 Hook Events (L1\u2192L4 \uc131\uc219\ub3c4) \u00b7 Autonomous Safety (\ube44\uc6a9 \uc0c1\ud55c + \ub798\uce6b + \ub2e4\uc591\uc131) \u00b7 5-Layer Verification \u00b7 3-Provider Resilience"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -153967,6 +154032,21 @@
       "name": "realnaka--alphaloop",
       "source": "./realnaka--alphaloop",
       "description": "\u4eba\u673a\u6295\u7814\u95ed\u73af\uff1a\u4f60\u51fa\u65b9\u5411\uff0cAI \u5e2e\u4f60\u67e5\u8bc1/\u9009\u80a1/\u8bb0\u8d26\uff0c\u51b3\u7b56\u6743\u5f52\u4eba\u3002A human-agent investment-research operating model as an installable skill suite."
+    },
+    {
+      "name": "harmont-dev--hyper",
+      "source": "./harmont-dev--hyper",
+      "description": "Distributed Firecracker VM Orchestrator written in Elixir"
+    },
+    {
+      "name": "lingyunjie321--text-to-sql-lite",
+      "source": "./lingyunjie321--text-to-sql-lite",
+      "description": "text-to-sql-lite"
+    },
+    {
+      "name": "abertnl--bili-ticket-get",
+      "source": "./abertnl--bili-ticket-get",
+      "description": "B\u7ad9\u4f1a\u5458\u8d2d\u62a2\u7968\u5de5\u5177"
     },
     {
       "name": "cheerhuan--save-your-token",
