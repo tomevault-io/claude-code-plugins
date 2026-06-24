@@ -1,4 +1,4 @@
-# honey-for-devs
+# honey
 
 > <!-- AUTO-GENERATED from skills/honey/SKILL.md by scripts/build-rules.js. Edit the source, then run: node scripts/build-rules.js -->
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/honey-for-devs/SKILL.md
+Read and follow the instructions in .claude/skills/honey/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
