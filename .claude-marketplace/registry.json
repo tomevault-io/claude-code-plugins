@@ -42209,6 +42209,11 @@
       "description": "nvwa-skill"
     },
     {
+      "name": "ralforion--orionbelt-semantic-layer",
+      "source": "./ralforion--orionbelt-semantic-layer",
+      "description": "Open-source Semantic Sidecar for AI, analytics, and governed data systems. Compiles declarative YAML models into optimized SQL, semantic context, KPIs, and DQ rules."
+    },
+    {
       "name": "hw-native-sys--pypto",
       "source": "./hw-native-sys--pypto",
       "description": "A community-driven pypto implementation "
@@ -61134,6 +61139,11 @@
       "description": "audio-paper-digest"
     },
     {
+      "name": "ralforion--orionbelt-analytics",
+      "source": "./ralforion--orionbelt-analytics",
+      "description": "Ontology-based MCP server that analyzes database schemas (PostgreSQL, Snowflake, ClickHouse, Dremio) and generates RDF/OWL ontologies with SQL mappings for fan-trap-free Text-to-SQL."
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "source": "./rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI"
@@ -66602,6 +66612,11 @@
       "name": "zhaohongxuan--journal-partner",
       "source": "./zhaohongxuan--journal-partner",
       "description": "Obsidian plugin \u2013 highlight journal timestamps with custom colors and readonly protection"
+    },
+    {
+      "name": "thiagomiranda3--getman",
+      "source": "./thiagomiranda3--getman",
+      "description": "My own HTTP Client app"
     },
     {
       "name": "mulhamna--jira-commands",
@@ -77162,6 +77177,11 @@
       "name": "majcheradam--ocrbase",
       "source": "./majcheradam--ocrbase",
       "description": "\ud83d\udcc4 PDF/IMG ->.MD/JSON Document OCR API for PaddleOCR and GLMOCR. Self-hostable."
+    },
+    {
+      "name": "baseintelligence--term-executor",
+      "source": "./baseintelligence--term-executor",
+      "description": "Secure agent execution service for term-challenge via Basilica"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -95139,6 +95159,21 @@
       "description": "Local-first static analysis that turns source code into deterministic, source-grounded workflow maps for coding agents via MCP."
     },
     {
+      "name": "thegreencedar--codestory",
+      "source": "./thegreencedar--codestory",
+      "description": "CodeStory is a codebase grounding engine that preindexes code into a knowledge graph and enriches it with semantic context. Paired with coding agents, it results in fewer tokens, fewer tool calls, and"
+    },
+    {
+      "name": "thegreencedar--codestory",
+      "source": "./thegreencedar--codestory",
+      "description": "CodeStory is a codebase grounding engine that preindexes code into a knowledge graph and enriches it with semantic context. Paired with coding agents, it results in fewer tokens, fewer tool calls, and"
+    },
+    {
+      "name": "thegreencedar--codestory",
+      "source": "./thegreencedar--codestory",
+      "description": "CodeStory is a codebase grounding engine that preindexes code into a knowledge graph and enriches it with semantic context. Paired with coding agents, it results in fewer tokens, fewer tool calls, and"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -111169,6 +111204,11 @@
       "description": "Reed-Solomon erasure coding backup tool with AES-256 encryption, GUI & CLI | Reed-Solomon \u7ea0\u5220\u7801\u52a0\u5bc6\u5907\u4efd\u5de5\u5177\uff0c\u652f\u6301 GUI \u548c CLI"
     },
     {
+      "name": "nvidia-isaac--cunls",
+      "source": "./nvidia-isaac--cunls",
+      "description": "Nvidia Isaac CUDA-Accelerated Nonlinear Least Square Solver "
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -124572,6 +124612,21 @@
       "name": "flinedev--recall",
       "source": "./flinedev--recall",
       "description": "Never lose context in Claude Code again \u2014 automatic context recovery after compaction and manual session recall"
+    },
+    {
+      "name": "backblaze-b2-samples--vibe-coding-starter-kit",
+      "source": "./backblaze-b2-samples--vibe-coding-starter-kit",
+      "description": "Starter kit for vibe coders building apps with file uploads and object storage. This full-stack dashboard template integrates with Backblaze B2 Cloud Storage and includes secure upload flows, file bro"
+    },
+    {
+      "name": "qiaolei81--copilot-session-viewer",
+      "source": "./qiaolei81--copilot-session-viewer",
+      "description": "\ud83d\udd0d Web UI for GitHub Copilot session logs - visualize events, analyze timelines, get AI insights"
+    },
+    {
+      "name": "waishnav--self-improvement-frontend-design-skill-loop-for-codex",
+      "source": "./waishnav--self-improvement-frontend-design-skill-loop-for-codex",
+      "description": "self-improvement-frontend-design-skill-loop-for-codex"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -154182,6 +154237,31 @@
       "name": "fengfengzhidao--port-lite",
       "source": "./fengfengzhidao--port-lite",
       "description": "\u7aef\u53e3\u8fdb\u7a0b\u67e5\u770b\u5668"
+    },
+    {
+      "name": "green-pt--honey-for-devs",
+      "source": "./green-pt--honey-for-devs",
+      "description": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs \u2014 write less code, less prose, and denser agent-to-agent handoffs (\u221253%, lossless "
+    },
+    {
+      "name": "green-pt--honey-for-devs",
+      "source": "./green-pt--honey-for-devs",
+      "description": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs \u2014 write less code, less prose, and denser agent-to-agent handoffs (\u221253%, lossless "
+    },
+    {
+      "name": "zeke--preview-deployments-skill",
+      "source": "./zeke--preview-deployments-skill",
+      "description": "An agent skill to add preview deployments to your Cloudflare apps using GitHub Actions workflows and the GitHub Deployments API."
+    },
+    {
+      "name": "green-pt--honey-for-devs",
+      "source": "./green-pt--honey-for-devs",
+      "description": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs \u2014 write less code, less prose, and denser agent-to-agent handoffs (\u221253%, lossless "
+    },
+    {
+      "name": "quin95--sublink-worker",
+      "source": "./quin95--sublink-worker",
+      "description": "A lightweight proxy subscription converter and manager, support Clash/Sing-Box/Surge/Xray, deployable on Cloudflare Workers/Vercel/Node.js.\u8f7b\u91cf\u7ea7\u4ee3\u7406\u8ba2\u9605\u94fe\u63a5\u8f6c\u6362\u4e0e\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 Clash / Sing-Box / Surge / Xray\uff0c\u53ef\u5feb\u901f\u90e8\u7f72\u4e8e Cl"
     },
     {
       "name": "cheerhuan--save-your-token",
