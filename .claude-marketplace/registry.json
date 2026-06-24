@@ -11499,6 +11499,11 @@
       "description": "In this repo there are some tips and a template to train your YOLO model for any kind of computer vision application"
     },
     {
+      "name": "joske--yserver",
+      "source": "./joske--yserver",
+      "description": "A modern X11 server written from scratch in Rust."
+    },
+    {
       "name": "computerlovetech--agr",
       "source": "./computerlovetech--agr",
       "description": "A package manager for AI agents. Install agent skills from GitHub with a single command."
@@ -30694,6 +30699,21 @@
       "description": "Mermaid integration using pattern from cloudflare-docs"
     },
     {
+      "name": "threemoonslab--agents-shipgate",
+      "source": "./threemoonslab--agents-shipgate",
+      "description": "The deterministic merge gate for AI-generated agent capability changes \u2014 a local-first, static Tool-Use Readiness review for MCP, OpenAPI, and SDK tool surfaces. Open-source CLI + GitHub Action."
+    },
+    {
+      "name": "threemoonslab--agents-shipgate",
+      "source": "./threemoonslab--agents-shipgate",
+      "description": "The deterministic merge gate for AI-generated agent capability changes \u2014 a local-first, static Tool-Use Readiness review for MCP, OpenAPI, and SDK tool surfaces. Open-source CLI + GitHub Action."
+    },
+    {
+      "name": "threemoonslab--agents-shipgate",
+      "source": "./threemoonslab--agents-shipgate",
+      "description": "The deterministic merge gate for AI-generated agent capability changes \u2014 a local-first, static Tool-Use Readiness review for MCP, OpenAPI, and SDK tool surfaces. Open-source CLI + GitHub Action."
+    },
+    {
       "name": "odradekai--bundles-forge",
       "source": "./odradekai--bundles-forge",
       "description": "An agentic skills framework & bundle-plugin engineering toolkit that works."
@@ -31954,6 +31974,11 @@
       "description": "taleb-skill"
     },
     {
+      "name": "mezonai--mezon-desktop",
+      "source": "./mezonai--mezon-desktop",
+      "description": "mezon-desktop"
+    },
+    {
       "name": "espennilsen--pi",
       "source": "./espennilsen--pi",
       "description": "pi"
@@ -33107,6 +33132,11 @@
       "name": "imlewc--video-to-subtitle-summary-skill",
       "source": "./imlewc--video-to-subtitle-summary-skill",
       "description": "video-to-subtitle-summary-skill"
+    },
+    {
+      "name": "chattersift--chattersift",
+      "source": "./chattersift--chattersift",
+      "description": "Reddit monitoring made simple: watch subreddits for the keywords that matter and get alerted when they appear."
     },
     {
       "name": "ubundi--claw-journal",
@@ -38864,6 +38894,11 @@
       "description": "Seedance2.0-ShotDesign-Skills"
     },
     {
+      "name": "a-streetcoder--agent-deck",
+      "source": "./a-streetcoder--agent-deck",
+      "description": "Agent Deck"
+    },
+    {
       "name": "aelf-hzz780--ai-bounty-skill",
       "source": "./aelf-hzz780--ai-bounty-skill",
       "description": "Public Codex skill for claiming AI bounty on aelf tDVV via RewardClaimContract, supporting EOA Claim() and Portkey CA ClaimByPortkeyToCa()."
@@ -41552,6 +41587,11 @@
       "name": "jovancoding--network-ai",
       "source": "./jovancoding--network-ai",
       "description": "Network-AI"
+    },
+    {
+      "name": "nshkrdotcom--trinity-coordinator",
+      "source": "./nshkrdotcom--trinity-coordinator",
+      "description": "TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-model hidden-state router + Axon coordination head, with Thinker/Worker/Verifier orchestration and policy loop for acceptanc"
     },
     {
       "name": "attilaszasz--sdd-pilot",
@@ -44547,6 +44587,11 @@
       "name": "bybit-exchange--skills",
       "source": "./bybit-exchange--skills",
       "description": "skills"
+    },
+    {
+      "name": "zulut30--wordpress-skills",
+      "source": "./zulut30--wordpress-skills",
+      "description": "Professional Agent Skill for building, auditing, testing, and releasing modern WordPress plugins with Codex, Cursor, and Claude Code."
     },
     {
       "name": "indiesoftby--defold-agent-config",
@@ -50042,6 +50087,11 @@
       "name": "wshuyi--zettel-builder",
       "source": "./wshuyi--zettel-builder",
       "description": "zettel-builder"
+    },
+    {
+      "name": "extend-hq--extend-cli",
+      "source": "./extend-hq--extend-cli",
+      "description": "extend-cli"
     },
     {
       "name": "mylxsw--llm-gateway",
@@ -64197,6 +64247,11 @@
       "name": "baseintelligence--platform-v2",
       "source": "./baseintelligence--platform-v2",
       "description": "Fully decentralized P2P infrastructure for distributed evaluation on Bittensor"
+    },
+    {
+      "name": "voleeo--voleeo-api",
+      "source": "./voleeo--voleeo-api",
+      "description": "Local-first desktop API client built for developers and AI agents"
     },
     {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
@@ -84434,6 +84489,11 @@
       "description": "Pi Modular Persona Orchestrator: A lightweight, local-first agentic infrastructure that eliminates \"subagent bloat\" and \"framework soup\" using Pi's native TypeScript extensions and static, versioned P"
     },
     {
+      "name": "junghan0611--entwurf",
+      "source": "./junghan0611--entwurf",
+      "description": "Use Claude Code, Codex, and Gemini CLI through Agent Client Protocol (ACP) inside pi \u2014 and make native Claude Code sessions garden-addressable peers."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -98464,6 +98524,26 @@
       "description": "\u57fa\u4e8e Spring Boot 4 + Vue 3 \u7684\u5fae\u670d\u52a1\u811a\u624b\u67b6\u5e73\u53f0\uff0c\u91c7\u7528 Harness \u5de5\u4e1a\u8bbe\u8ba1\u6a21\u5f0f\u6784\u5efa\uff0c\u4e3a AI \u8f85\u52a9\u5f00\u53d1\u63d0\u4f9b\u884c\u4e1a\u6700\u4f73\u5b9e\u8df5\u57fa\u7840\u3002"
     },
     {
+      "name": "stablenaira-hub--solidity-toolkit",
+      "source": "./stablenaira-hub--solidity-toolkit",
+      "description": "Solidity compiler tooling and smart-contract analysis workspace for Tirixa Web3 infrastructure."
+    },
+    {
+      "name": "stablenaira-hub--solidity-toolkit",
+      "source": "./stablenaira-hub--solidity-toolkit",
+      "description": "Solidity compiler tooling and smart-contract analysis workspace for Tirixa Web3 infrastructure."
+    },
+    {
+      "name": "sbrjt--leetcode-enhancer",
+      "source": "./sbrjt--leetcode-enhancer",
+      "description": "A browser extension to improve the LeetCode experience."
+    },
+    {
+      "name": "stablenaira-hub--solidity-toolkit",
+      "source": "./stablenaira-hub--solidity-toolkit",
+      "description": "Solidity compiler tooling and smart-contract analysis workspace for Tirixa Web3 infrastructure."
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -106617,6 +106697,11 @@
       "name": "asa-degroff--porrima",
       "source": "./asa-degroff--porrima",
       "description": "A self-hosted, memory-native AI agent framework and cross-platform GUI application."
+    },
+    {
+      "name": "uphiago--recon-skills",
+      "source": "./uphiago--recon-skills",
+      "description": "212 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 28 sectors. Updated with web enum, email sec, google dorks, cloud IAM."
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -124822,6 +124907,16 @@
       "name": "dazeb--lvgl-ai-studio",
       "source": "./dazeb--lvgl-ai-studio",
       "description": "A web UI for LVGL UI generation in C or MicroPython."
+    },
+    {
+      "name": "ndom91--llama-dash",
+      "source": "./ndom91--llama-dash",
+      "description": "The operations layer for your local LLM stack"
+    },
+    {
+      "name": "sthalbert--longue-vue",
+      "source": "./sthalbert--longue-vue",
+      "description": "CMDB for kubernetes"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
