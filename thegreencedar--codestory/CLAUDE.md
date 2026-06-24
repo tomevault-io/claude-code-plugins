@@ -1,6 +1,6 @@
 # codestory
 
-> Use CodeStory proactively for repository questions. Do not wait for the user to mention it by name.
+> CodeStory local grounding. Use repo evidence before source claims.
 
 ## Usage
 
@@ -11,6 +11,7 @@ Read and follow the instructions in .claude/skills/codestory/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # CodeStory Grounding
 
