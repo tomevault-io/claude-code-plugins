@@ -117434,6 +117434,11 @@
       "description": "Language Server Protocol integration for the pi coding agent. Faithful port of the LSP tools from oh-my-openagent: shared server pool, refCount lifecycle, idle/init reaping, typed crash retry, and a /"
     },
     {
+      "name": "zvec-ai--zvec-go",
+      "source": "./zvec-ai--zvec-go",
+      "description": "zvec-go"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -125517,6 +125522,16 @@
       "name": "linxule--interpretive-orchestration",
       "source": "./linxule--interpretive-orchestration",
       "description": " Epistemic partnership infrastructure for AI-assisted qualitative research. Claude Code plugin with 3-stage methodology, 4 specialized agents, and 11 skills."
+    },
+    {
+      "name": "microsoft--build26-brk243-claw-and-agent-harness-in-microsoft-foundry",
+      "source": "./microsoft--build26-brk243-claw-and-agent-harness-in-microsoft-foundry",
+      "description": "Resources for building and deploying agents using Claw and agent harness in Microsoft Foundry \u2014 patterns for agent orchestration, testing, and production deployment. From Microsoft Build 2026."
+    },
+    {
+      "name": "microsoft--build26-brk243-claw-and-agent-harness-in-microsoft-foundry",
+      "source": "./microsoft--build26-brk243-claw-and-agent-harness-in-microsoft-foundry",
+      "description": "Resources for building and deploying agents using Claw and agent harness in Microsoft Foundry \u2014 patterns for agent orchestration, testing, and production deployment. From Microsoft Build 2026."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -144559,6 +144574,16 @@
       "description": "Artificial Ecology For Thought and Emergent Reasoning.  The Colony That Builds With You."
     },
     {
+      "name": "rickicode--patchright-browser",
+      "source": "./rickicode--patchright-browser",
+      "description": "MCP server for browser automation via Patchright. Multi-profile Chromium, headed/headless, StreamableHTTP protocol. Includes dashboard, skills, and AI agent setup."
+    },
+    {
+      "name": "nodnarbnitram--claude-code-extensions",
+      "source": "./nodnarbnitram--claude-code-extensions",
+      "description": "These are a collection of extension for Claude Code that can typically also be used in opencode. "
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -157627,6 +157652,21 @@
       "name": "simonlin1212--sdesign",
       "source": "./simonlin1212--sdesign",
       "description": "\u4e00\u53e5\u8bdd\u751f\u6210\u53ef\u6f14\u793a\u3001\u53ef\u5bfc\u51fa\u7684\u7cbe\u7f8e PPT\u2014\u2014\u7528\u4f60\u5df2\u6709\u7684 AI \u8ba2\u9605\uff08Claude Code \u7b49\uff09\u51fa\u7247\uff0c\u514d API key\u3002 Open-source AI slide generator \u2014 one sentence into a polished, exportable deck, powered by the AI subscription you already have. No API key"
+    },
+    {
+      "name": "guykh--air-sviva-custom-component",
+      "source": "./guykh--air-sviva-custom-component",
+      "description": "Home Assistnat Custom Component for Air Quality from Israeli Ministry of Environmental Protection monitors"
+    },
+    {
+      "name": "abclize--mdtopdf",
+      "source": "./abclize--mdtopdf",
+      "description": "Agent-friendly Markdown-to-PDF CLI with local PDF rendering and JSON diagnostics."
+    },
+    {
+      "name": "cosen1024--resume-builder-skill",
+      "source": "./cosen1024--resume-builder-skill",
+      "description": "\u7b80\u5386\u751f\u6210 Skill\uff08Codex / Claude Code/OpenCode \u7b49\uff09\uff1a\u4ee5 Markdown \u4e3a\u5185\u5bb9\u6e90\uff0c\u591a\u5957\u53ef\u5207\u6362\u6a21\u677f\u3001\u591a\u914d\u8272\u3001\u53ef\u9009\u8bc1\u4ef6\u7167\uff0cWeasyPrint \u79bb\u7ebf\u6e32\u67d3\u4e3a\u53ef\u641c\u7d22 A4 PDF\uff1b\u5185\u7f6e   STAR/\u91cf\u5316\u6da6\u8272\u4e0e JD \u5b9a\u5411\u5339\u914d\u3002"
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -253492,6 +253532,91 @@
       "name": "itzaks--ably-realtime-skill",
       "source": "./itzaks--ably-realtime-skill",
       "description": "ably-realtime-skill"
+    },
+    {
+      "name": "sameque--micro-commerce",
+      "source": "./sameque--micro-commerce",
+      "description": "micro-commerce"
+    },
+    {
+      "name": "kento345--sample-game-3d",
+      "source": "./kento345--sample-game-3d",
+      "description": "\u91d1\u66dc1,2"
+    },
+    {
+      "name": "sameque--micro-commerce",
+      "source": "./sameque--micro-commerce",
+      "description": "micro-commerce"
+    },
+    {
+      "name": "shaurya202--opencodelikeclaude",
+      "source": "./shaurya202--opencodelikeclaude",
+      "description": "a github repo that adds features to opencode"
+    },
+    {
+      "name": "carslewi1981--petit-com",
+      "source": "./carslewi1981--petit-com",
+      "description": "PetIT.com"
+    },
+    {
+      "name": "lmontero18--yourideaiscooked",
+      "source": "./lmontero18--yourideaiscooked",
+      "description": "YOURIDEAISCOOKED"
+    },
+    {
+      "name": "couterhs-ux--fazendaos",
+      "source": "./couterhs-ux--fazendaos",
+      "description": "FazendaOS"
+    },
+    {
+      "name": "zerotouk287-afk--habit-agents",
+      "source": "./zerotouk287-afk--habit-agents",
+      "description": "habit-agents"
+    },
+    {
+      "name": "pavanmundrai1611--programprachurana",
+      "source": "./pavanmundrai1611--programprachurana",
+      "description": "programprachurana"
+    },
+    {
+      "name": "must4faa--testing",
+      "source": "./must4faa--testing",
+      "description": "testing"
+    },
+    {
+      "name": "qtycc-cc--tencent2026-test",
+      "source": "./qtycc-cc--tencent2026-test",
+      "description": "Tencent2026_test"
+    },
+    {
+      "name": "naraatzy--ta-aran",
+      "source": "./naraatzy--ta-aran",
+      "description": "ta-aran"
+    },
+    {
+      "name": "awesomejt--studio-playlists",
+      "source": "./awesomejt--studio-playlists",
+      "description": "studio-playlists"
+    },
+    {
+      "name": "prashantalhat--document-intelligence",
+      "source": "./prashantalhat--document-intelligence",
+      "description": "document-intelligence"
+    },
+    {
+      "name": "a7k6h7i0--softing",
+      "source": "./a7k6h7i0--softing",
+      "description": "softing"
+    },
+    {
+      "name": "alantian--vsc",
+      "source": "./alantian--vsc",
+      "description": "vsc"
+    },
+    {
+      "name": "awhub-0--practice-saga-web",
+      "source": "./awhub-0--practice-saga-web",
+      "description": "practice for make new landing page"
     }
   ]
 }
