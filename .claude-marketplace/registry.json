@@ -107089,6 +107089,11 @@
       "description": "\u9879\u76ee\u811a\u624b\u67b6 v2.0 Agent-First \u7684\u5de5\u7a0b\u5316\u914d\u7f6e\uff0c\u5b8c\u5168\u673a\u5668\u53ef\u6267\u884c\uff0c\u96f6\u6a21\u7cca\u6307\u4ee4  \u6838\u5fc3\u7406\u5ff5: \u8ba4\u77e5\u811a\u624b\u67b6 + \u8d28\u91cf\u95e8\u63a7 + \u77e5\u8bc6\u56fe\u8c31 + \u65ad\u70b9\u6062\u590d"
     },
     {
+      "name": "parsehawk--parsehawk",
+      "source": "./parsehawk--parsehawk",
+      "description": "Local-first document AI. Run 100% locally by default, with API, CLI, and Web UI."
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -111847,6 +111852,11 @@
       "name": "fishcodetech--muteki",
       "source": "./fishcodetech--muteki",
       "description": "Project Muteki (\u7121\u6575): autonomous multi-model CTF-solving AI agent swarm"
+    },
+    {
+      "name": "cmaneu--entra-local",
+      "source": "./cmaneu--entra-local",
+      "description": "A local Entra ID emulator for application developers that need to mock authentication"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -117482,6 +117492,11 @@
       "name": "gmi-software--react-native-better-clustering",
       "source": "./gmi-software--react-native-better-clustering",
       "description": "Better (Faster) way to cluster points on react-native-maps"
+    },
+    {
+      "name": "vibesolve--vibesolve",
+      "source": "./vibesolve--vibesolve",
+      "description": "Convert plain-English problem description into a Timefold solver prototype"
     },
     {
       "name": "makenowjust--naraku",
