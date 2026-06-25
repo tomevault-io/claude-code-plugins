@@ -1,0 +1,54 @@
+# commit-messages
+
+> Rules for generating git commit messages
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/commit-messages/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Commit Message Format
+
+Use **Conventional Commits** style for all commit messages.
+
+## Prefixes
+
+- `feat:` new features
+- `fix:` bug fixes
+- `refactor:` code restructuring without behavior change
+- `docs:` documentation only
+- `chore:` build, config, tooling
+- `perf:` performance improvements
+- `test:` adding/updating tests
+
+## Scope
+
+Use the current project phase as scope when the change is phase-specific:
+
+```
+feat(phase4): add obstacle observations to policy
+fix(phase4): widen goal sigma to 3.0
+```
+
+Omit scope for cross-cutting changes:
+
+```
+refactor: extract reward terms into cfg parameters
+docs: update changelog for p2a-3 results
+```
+
+## Rules
+
+- Subject line must be lowercase, imperative mood, no period at the end
+- Keep the subject line under 72 characters
+- Use the body (separated by a blank line) for additional context when needed
+
+---
+> Source: [garykuepper/ggSwarm](https://github.com/garykuepper/ggSwarm) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-25 -->
