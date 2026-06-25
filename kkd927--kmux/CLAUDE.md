@@ -1,0 +1,27 @@
+# kmux
+
+> `kmux` is a terminal app for working with coding AI agents such as Claude Code, Codex CLI, and Gemini CLI.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/kmux/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## kmux focus
+
+`kmux` is a terminal app for working with coding AI agents such as Claude Code, Codex CLI, and Gemini CLI.
+
+The product should prioritize reliable multi-surface agent workflows: agent output must stay stable, readable, and unbroken while users switch surfaces, split panes, restore sessions, and keep multiple agent conversations running side by side.
+
+When changing terminal, pane, surface, restore, or rendering behavior, treat coding-agent output continuity as a primary product requirement.
+
+---
+> Source: [kkd927/kmux](https://github.com/kkd927/kmux) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-25 -->
