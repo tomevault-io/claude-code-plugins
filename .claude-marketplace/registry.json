@@ -28414,6 +28414,11 @@
       "description": "repo-harness"
     },
     {
+      "name": "ralforion--orionbelt-ontology-builder",
+      "source": "./ralforion--orionbelt-ontology-builder",
+      "description": "Browser-based ontology workbench for OWL ontologies and SKOS vocabularies. Streamlit + rdflib, no Java, no Prot\u00e9g\u00e9. Bulk operations, OWL-RL reasoning, gist upper-ontology starters, merge-aware imports"
+    },
+    {
       "name": "hainrixz--open-carrusel",
       "source": "./hainrixz--open-carrusel",
       "description": "AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap."
@@ -117529,6 +117534,16 @@
       "description": "Convert plain-English problem description into a Timefold solver prototype"
     },
     {
+      "name": "stancsz--fnd-reverb-vst3",
+      "source": "./stancsz--fnd-reverb-vst3",
+      "description": "Open-source, modular reverb engine offering high-fidelity algorithms inspired by Valhalla classics (VintageVerb, Room). Features community-contributed decay models, deep modulation, and VST3 compatibi"
+    },
+    {
+      "name": "shunsukehayashi--mergegate",
+      "source": "./shunsukehayashi--mergegate",
+      "description": "MergeGate: deterministic execution protocol for AI-assisted development and the execution layer for GitNexus-style code intelligence"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -125682,6 +125697,16 @@
       "name": "imanchalsingh--parkfinder",
       "source": "./imanchalsingh--parkfinder",
       "description": "This project demonstrates my ability to design and build production-ready applications with a strong focus on scalability, security, and user experience."
+    },
+    {
+      "name": "general-sense--xdflow",
+      "source": "./general-sense--xdflow",
+      "description": "Metadata-driven ML pipelines for labeled structured data"
+    },
+    {
+      "name": "anaxonda--dala",
+      "source": "./anaxonda--dala",
+      "description": "web to epub downloader with threaded comment navigation in epub. hacker news, substck, reddit, general, etc."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -145194,6 +145219,116 @@
       "description": "Agent skills for trading perpetuals and swapping tokens on GMX V2."
     },
     {
+      "name": "azure--agentops",
+      "source": "./azure--agentops",
+      "description": "AgentOps Accelerator is an open source framework and CLI for adding continuous evaluation and observability to enterprise AI agents. It standardizes evaluation patterns, automates assessments in CI/CD"
+    },
+    {
+      "name": "tigerbruce--double-spet-foc",
+      "source": "./tigerbruce--double-spet-foc",
+      "description": "\u53cc\u8f74\u6b65\u8fdb\u4f3a\u670d FOC \u63a7\u5236\u5668 \u2014 \u5c06\u4e24\u76f8\u6df7\u5408\u5f0f\u6b65\u8fdb\u7535\u673a\u53d8\u6210\u95ed\u73af\u4f3a\u670d\u3002"
+    },
+    {
+      "name": "filearchitect--app",
+      "source": "./filearchitect--app",
+      "description": "Create file and folder structures with plain text"
+    },
+    {
+      "name": "wyre-technology--connectwise-manage-mcp",
+      "source": "./wyre-technology--connectwise-manage-mcp",
+      "description": "MCP server for ConnectWise Manage (PSA) \u2014 tickets, companies, contacts, projects, and time entry tools for AI assistants"
+    },
+    {
+      "name": "tigerbruce--double-spet-foc",
+      "source": "./tigerbruce--double-spet-foc",
+      "description": "\u53cc\u8f74\u6b65\u8fdb\u4f3a\u670d FOC \u63a7\u5236\u5668 \u2014 \u5c06\u4e24\u76f8\u6df7\u5408\u5f0f\u6b65\u8fdb\u7535\u673a\u53d8\u6210\u95ed\u73af\u4f3a\u670d\u3002"
+    },
+    {
+      "name": "berriai--litellm-observatory",
+      "source": "./berriai--litellm-observatory",
+      "description": "End-to-end testing suite for LiteLLM deployments - provider tests, performance metrics, and API validation"
+    },
+    {
+      "name": "tigerbruce--double-spet-foc",
+      "source": "./tigerbruce--double-spet-foc",
+      "description": "\u53cc\u8f74\u6b65\u8fdb\u4f3a\u670d FOC \u63a7\u5236\u5668 \u2014 \u5c06\u4e24\u76f8\u6df7\u5408\u5f0f\u6b65\u8fdb\u7535\u673a\u53d8\u6210\u95ed\u73af\u4f3a\u670d\u3002"
+    },
+    {
+      "name": "tigerbruce--double-spet-foc",
+      "source": "./tigerbruce--double-spet-foc",
+      "description": "\u53cc\u8f74\u6b65\u8fdb\u4f3a\u670d FOC \u63a7\u5236\u5668 \u2014 \u5c06\u4e24\u76f8\u6df7\u5408\u5f0f\u6b65\u8fdb\u7535\u673a\u53d8\u6210\u95ed\u73af\u4f3a\u670d\u3002"
+    },
+    {
+      "name": "garykuepper--ggswarm",
+      "source": "./garykuepper--ggswarm",
+      "description": "A fully decentralized coordination framework where global formation behavior emerges naturally from local agent interactions. By combining Graph Neural Networks for spatial reasoning with advanced tra"
+    },
+    {
+      "name": "kunchenguid--tasks-axi",
+      "source": "./kunchenguid--tasks-axi",
+      "description": "Agent-ergonomic CLI for task/backlog management with pluggable backends (markdown, sqlite, remote trackers)"
+    },
+    {
+      "name": "indranilbanerjee--contentforge",
+      "source": "./indranilbanerjee--contentforge",
+      "description": "Open-source enterprise content production plugin \u2014 21 skills, 13 agents, 11 quality gates, 29-pattern AI humanizer, fact-checker, real .docx output with C2PA signing (EU AI Act Article 50 ready). Inst"
+    },
+    {
+      "name": "tha23rd--recaf-mcp",
+      "source": "./tha23rd--recaf-mcp",
+      "description": "MCP server plugin for Recaf \u2014 enabling AI agents to perform Java reverse engineering"
+    },
+    {
+      "name": "azure--agentops",
+      "source": "./azure--agentops",
+      "description": "AgentOps Accelerator is an open source framework and CLI for adding continuous evaluation and observability to enterprise AI agents. It standardizes evaluation patterns, automates assessments in CI/CD"
+    },
+    {
+      "name": "polymaker3d--polymaker-preset",
+      "source": "./polymaker3d--polymaker-preset",
+      "description": "This is the place holding all filament presets from Polymaker"
+    },
+    {
+      "name": "lllll081926i--ankismart",
+      "source": "./lllll081926i--ankismart",
+      "description": "Ankismart"
+    },
+    {
+      "name": "nytroxdev--veltix",
+      "source": "./nytroxdev--veltix",
+      "description": "The networking library you always wanted"
+    },
+    {
+      "name": "lefinepro--ocawe",
+      "source": "./lefinepro--ocawe",
+      "description": "Workflow automation as simple as taking notes"
+    },
+    {
+      "name": "mark-life--telegram-claude-codex",
+      "source": "./mark-life--telegram-claude-codex",
+      "description": "Telegram bot that runs Claude Code or OpenAI Codex on your VPS and streams responses back to chat. Supports project switching, sessions, voice, plan mode, and queues."
+    },
+    {
+      "name": "figuretu--my-skills",
+      "source": "./figuretu--my-skills",
+      "description": "my-skills"
+    },
+    {
+      "name": "jmapio--jmap-test-suite",
+      "source": "./jmapio--jmap-test-suite",
+      "description": "JMAP Conformance Test Suite"
+    },
+    {
+      "name": "pobsiz--obsidian-diary",
+      "source": "./pobsiz--obsidian-diary",
+      "description": "Obsidian Diary"
+    },
+    {
+      "name": "dicklesworthstone--frankenscipy",
+      "source": "./dicklesworthstone--frankenscipy",
+      "description": "Clean-room Rust reimplementation of SciPy with Condition-Aware Solver Portfolio (CASP) \u2014 runtime algorithm selection driven by conditioning diagnostics, stability certificates, and decision-theoretic "
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -155942,6 +156077,11 @@
       "name": "squadcodercom--squadcoder",
       "source": "./squadcodercom--squadcoder",
       "description": "Your AI dev team in a box \u2014 parallel specialist agents, persistent memory, 820+ skills. Open-source, local-first."
+    },
+    {
+      "name": "zarldev--zarlmono",
+      "source": "./zarldev--zarlmono",
+      "description": "mono repo"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -254322,6 +254462,11 @@
       "name": "awhub-0--practice-saga-web",
       "source": "./awhub-0--practice-saga-web",
       "description": "practice for make new landing page"
+    },
+    {
+      "name": "engineai-dev--commitizen",
+      "source": "./engineai-dev--commitizen",
+      "description": "Fork of conventional commit messages CLI"
     }
   ]
 }
