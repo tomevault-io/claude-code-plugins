@@ -70189,6 +70189,11 @@
       "description": "WebLLM Gateway\uff1a\u8ba9 Qwen/DeepSeek \u7f51\u9875\u6a21\u578b\u63a5\u5165 OpenAI/Anthropic \u517c\u5bb9 Agent \u5de5\u5177\u94fe\uff0c\u652f\u6301 OpenClaw\u3001Hermes\u3001Claude Code\u3001Codex \u5de5\u5177\u8c03\u7528"
     },
     {
+      "name": "akiojin--unity-mcp-server",
+      "source": "./akiojin--unity-mcp-server",
+      "description": "[DEPRECATED] Unity MCP server \u2014 successor: akiojin/unity-cli"
+    },
+    {
       "name": "10xchengtu--mux0",
       "source": "./10xchengtu--mux0",
       "description": "MUX0"
@@ -80312,6 +80317,11 @@
       "name": "omnigentx--jarvis",
       "source": "./omnigentx--jarvis",
       "description": "Omnigentx Jarvis \u2014 voice + chat AI assistant powered by Fast Agent (MCP) with Vue dashboard. Single-user, self-hosted, multi-skill orchestration."
+    },
+    {
+      "name": "lwj1994--flutter-view-model",
+      "source": "./lwj1994--flutter-view-model",
+      "description": "pure & lightweight state management library for Flutter"
     },
     {
       "name": "seven7763--windsurf-tools",
@@ -126004,6 +126014,16 @@
       "description": "Set of instructions for Claude Code base installation that integrates in any project"
     },
     {
+      "name": "evanzhang008--open-walnut",
+      "source": "./evanzhang008--open-walnut",
+      "description": "Personal AI butler powered by Claude \u2014 task management, Claude Code sessions, memory system, and web UI. Self-hosted, local-first, open source."
+    },
+    {
+      "name": "chrplr--goxpyriment",
+      "source": "./chrplr--goxpyriment",
+      "description": "An (AI friendly) psychology experiment framework"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -145784,6 +145804,21 @@
       "description": "prajaakeeya-frontend"
     },
     {
+      "name": "klh--speedy-claude",
+      "source": "./klh--speedy-claude",
+      "description": "Make Claude Code 10-1400x faster at file operations. Modern CLI tools + CLAUDE.md rules that replace sequential Read+Edit with single parallel pipelines."
+    },
+    {
+      "name": "easyeda--eext-run-api-gateway",
+      "source": "./easyeda--eext-run-api-gateway",
+      "description": "\u5609\u7acb\u521bEDA\u4e13\u4e1a\u7248\u6269\u5c55\uff1aRun API Gateway \u2014 \u4e3a AI \u7f16\u7a0b\u5de5\u5177\uff08OpenCode\u3001QwenCode\u3001KimiCode \u7b49\uff09\u63d0\u4f9b WebSocket API \u7f51\u5173\u6865\u63a5\u670d\u52a1\u7684\u5de5\u5177\u3002EasyEDA Pro Extension: Run API Gateway \u2014 a tool that provides WebSocket API gateway bridging services fo"
+    },
+    {
+      "name": "okikio--cloudflare-ddns",
+      "source": "./okikio--cloudflare-ddns",
+      "description": "DDNS using Cloudflare Workers, built for NAS, homelab, and self-hosted setups using Cloudflare domains."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -156577,6 +156612,11 @@
       "name": "sugers955--agent-mill",
       "source": "./sugers955--agent-mill",
       "description": "AgentMill - Enterprise-Grade AI Agent Platform & Agent Factory for Building Custom Digital Employees"
+    },
+    {
+      "name": "abivan-tech--zvec-mcp",
+      "source": "./abivan-tech--zvec-mcp",
+      "description": "zvec-mcp"
     },
     {
       "name": "cheerhuan--save-your-token",
