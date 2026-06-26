@@ -1,0 +1,29 @@
+# net-public
+
+> Source: [stuckinaboot/net-public](https://github.com/stuckinaboot/net-public) — distributed by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `` in [stuckinaboot/net-public](https://github.com/stuckinaboot/net-public).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+## Bundled Skills (1)
+
+- [net-protocol](https://github.com/stuckinaboot/net-public/tree/main/plugins/net-protocol/skills/net-protocol)
+
+From [stuckinaboot/net-public](https://github.com/stuckinaboot/net-public) — a repo with 0+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+
+<!-- genome:d-e-s -->
