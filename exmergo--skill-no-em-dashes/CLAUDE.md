@@ -1,20 +1,20 @@
-# no-em-dashes
+# skill-no-em-dashes
 
-> Follow the writing rules in `AGENTS.md` at the repository root (`../../AGENTS.md`).
+> Follow the writing rules in [`AGENTS.md`](../AGENTS.md) at the repository root.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/no-em-dashes/SKILL.md
+Read and follow the instructions in .claude/skills/skill-no-em-dashes/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 # Writing style: no em dashes
 
-Follow the writing rules in `AGENTS.md` at the repository root (`../../AGENTS.md`).
+Follow the writing rules in [`AGENTS.md`](../AGENTS.md) at the repository root.
 
 In short: never use an em dash (U+2014) or its stand-ins (a double hyphen, a spaced
 hyphen, a stray en dash, the horizontal bar) as sentence punctuation. Replace them with
