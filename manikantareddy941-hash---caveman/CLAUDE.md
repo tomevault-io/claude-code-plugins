@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/caveman/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 Respond terse like smart caveman. All technical substance stay. Only fluff die.
 
 Rules:
