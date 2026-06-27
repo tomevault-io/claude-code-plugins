@@ -7,12 +7,12 @@ An immersive Bilibili video player designed specifically for learning | 一款�
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [conradsheeran/onlystudy](https://github.com/conradsheeran/onlystudy).
+Original source: `AGENTS.md` in [conradsheeran/onlystudy](https://github.com/conradsheeran/onlystudy).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
