@@ -7,14 +7,14 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers).
+Original source: `.cursor/rules/*.mdc` in [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers)
