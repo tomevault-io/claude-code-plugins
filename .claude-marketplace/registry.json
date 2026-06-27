@@ -17614,6 +17614,11 @@
       "description": "simp-skill"
     },
     {
+      "name": "ryantsai--kkterm",
+      "source": "./ryantsai--kkterm",
+      "description": "Super-tool for vibe coders & system admins \u2014 terminals, SSH, SFTP, RDP/VNC, dashboards, install helpers, and a built-in AI assistant."
+    },
+    {
       "name": "p697--clawket",
       "source": "./p697--clawket",
       "description": "Mobile Client for OpenClaw, Hermes, and More"
@@ -18022,6 +18027,11 @@
       "name": "gsd-build--gsd-browser",
       "source": "./gsd-build--gsd-browser",
       "description": "gsd-browser"
+    },
+    {
+      "name": "nv-tlabs--omni-dreams",
+      "source": "./nv-tlabs--omni-dreams",
+      "description": "NVIDIA OmniDreams is a world model that generates photorealistic video for autonomous-driving simulation in real time."
     },
     {
       "name": "muxy-app--muxy",
@@ -39362,6 +39372,11 @@
       "name": "draco-agent--tech-news-digest",
       "source": "./draco-agent--tech-news-digest",
       "description": "tech-news-digest"
+    },
+    {
+      "name": "corebunch--instatic",
+      "source": "./corebunch--instatic",
+      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute"
     },
     {
       "name": "xiaoyiweio--deepsafe-scan",
@@ -71939,6 +71954,11 @@
       "description": "kernelbench.com \u2014 GPU kernel engineering benchmarks for autonomous LLM coding agents. v3 archive + v-hard latest."
     },
     {
+      "name": "maples7--vibechard",
+      "source": "./maples7--vibechard",
+      "description": "Per-task isolated worktrees for parallel Apple development with AI agents. Run multiple Claude / Codex / Copilot / Cursor sessions on the same Xcode project without build.db locks, DerivedData thrash,"
+    },
+    {
       "name": "jojobeans1981--ember-campfire-edition",
       "source": "./jojobeans1981--ember-campfire-edition",
       "description": "The introductory app for what will be  the next generation of dyslexia intervention using AI."
@@ -82499,6 +82519,16 @@
       "description": "Local cockpit for Codex imagegen, pixel art, image editing, animation, and sprite-sheet workflows."
     },
     {
+      "name": "tctvn--cay",
+      "source": "./tctvn--cay",
+      "description": "cay - g\u00f5 \u0111\u01b0\u1ee3c telex \ud83d\ude01"
+    },
+    {
+      "name": "justrach--codegraff2",
+      "source": "./justrach--codegraff2",
+      "description": "CodeGraff: a faster, lightweight coding agent for focused terminal development"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -92584,6 +92614,11 @@
       "description": "An auditable enterprise sales insight agent with LangGraph, evidence grounding, deterministic guardrails, evaluation, and human review."
     },
     {
+      "name": "andreujuanc--prr",
+      "source": "./andreujuanc--prr",
+      "description": "AI-powered pull request reviewer in your terminal. Review diffs, navigate findings, comment, and submit, all without leaving the CLI"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -99104,6 +99139,16 @@
       "description": "Coding agent skills for accessing Estonia's official public data"
     },
     {
+      "name": "fedramp--2026-markdown",
+      "source": "./fedramp--2026-markdown",
+      "description": "Raw markdown content from FR Consolidated Rules for 2026 - best for LLMs and AI services!"
+    },
+    {
+      "name": "jasl--vllm-ds4-sm120-harness",
+      "source": "./jasl--vllm-ds4-sm120-harness",
+      "description": "vllm-ds4-sm120-harness"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -102737,6 +102782,16 @@
       "name": "stuckinaboot--net-public",
       "source": "./stuckinaboot--net-public",
       "description": "net-public"
+    },
+    {
+      "name": "gongyu0918-debug--skill-usefulness-audit",
+      "source": "./gongyu0918-debug--skill-usefulness-audit",
+      "description": "Manual-triggered skill that scores installed agent skills by usage, overlap, and ablation impact."
+    },
+    {
+      "name": "algfwq--timenotes",
+      "source": "./algfwq--timenotes",
+      "description": "TimeNotes \u4e00\u6b3e\u57fa\u4e8e Wails3 \u7684\u684c\u9762\u624b\u8d26\u5f0f\u7b14\u8bb0\u8f6f\u4ef6"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -107387,6 +107442,11 @@
       "name": "sidiora-technologies--kindlelaunch",
       "source": "./sidiora-technologies--kindlelaunch",
       "description": "Successor Protocol to Sidiora.fun Launchpad. Revamped mechanics for the new generation of Multi-purpose and agentic token launches"
+    },
+    {
+      "name": "antonillos--makevn",
+      "source": "./antonillos--makevn",
+      "description": "Terminal-first workflows for Java Maven repositories."
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -112167,6 +112227,36 @@
       "name": "lookatitude--beluga-ai",
       "source": "./lookatitude--beluga-ai",
       "description": "beluga-ai"
+    },
+    {
+      "name": "openclaw--crawlbar",
+      "source": "./openclaw--crawlbar",
+      "description": "Menu bar control plane for local-first crawl apps"
+    },
+    {
+      "name": "ai-freer--fortune-skill",
+      "source": "./ai-freer--fortune-skill",
+      "description": "Chinese traditional fortune-telling AI skill (BaZi \u516b\u5b57 + Zi Wei Dou Shu \u7d2b\u5fae\u6597\u6570) for Claude Code, Codex, Cursor, Trae and any agent platform. PolyForm Noncommercial."
+    },
+    {
+      "name": "laravel--lsp",
+      "source": "./laravel--lsp",
+      "description": "lsp"
+    },
+    {
+      "name": "deadronos--nanogpt-provider-vscode-extension",
+      "source": "./deadronos--nanogpt-provider-vscode-extension",
+      "description": "nanogpt-provider-vscode-extension"
+    },
+    {
+      "name": "phantomyard--phantombot",
+      "source": "./phantomyard--phantombot",
+      "description": "AI Assistant That Uses Your Favorite Harness"
+    },
+    {
+      "name": "calebliu--econ-paper-workflow",
+      "source": "./calebliu--econ-paper-workflow",
+      "description": "9-phase workflow for empirical economics papers (UK MSc / PhD / journal). Validated on two real papers in a single working day each. Pure public data + R + Pandoc."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -117872,6 +117962,191 @@
       "name": "imdevarsh--gorkie",
       "source": "./imdevarsh--gorkie",
       "description": "gorkie"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "joelhooks--pi-bellwether",
+      "source": "./joelhooks--pi-bellwether",
+      "description": "Bellwether \ud83d\udc0f\ud83d\udd14 \u2014 Pi package for managing Herdr agents, panes, and runtime sessions from Pi"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "isaiahpressman--kaggle-orbit-wars",
+      "source": "./isaiahpressman--kaggle-orbit-wars",
+      "description": "An RL library for the Kaggle 2026 Orbit Wars competition"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "appautomaton--automaton",
+      "source": "./appautomaton--automaton",
+      "description": "AI coding agent framework \u2014 portable, stage-gated harness for Claude Code, Codex, and OpenCode"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "abaygora9-arch--defi-yield-optimizer",
+      "source": "./abaygora9-arch--defi-yield-optimizer",
+      "description": "DeFi Yield Intelligence Platform \u2014 29 chains, multi-factor risk engine, Monte Carlo simulation"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
+    },
+    {
+      "name": "danielvm-git--bigpowers",
+      "source": "./danielvm-git--bigpowers",
+      "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides a prescriptive, vertical-slice methodology for building software with AI agents"
     },
     {
       "name": "makenowjust--naraku",
@@ -126127,6 +126402,36 @@
       "name": "blairleduc--pico-logo",
       "source": "./blairleduc--pico-logo",
       "description": "This is a implementation of classic Logo for the Raspberry Pi Pico."
+    },
+    {
+      "name": "harnetics--harnetics",
+      "source": "./harnetics--harnetics",
+      "description": "\u5546\u4e1a\u822a\u5929\u6587\u6863\u5bf9\u9f50\u5de5\u4f5c\u53f0\uff1a\u9762\u5411\u822a\u5929\u5de5\u7a0b\u56e2\u961f\u7684\u8de8\u90e8\u95e8\u8ffd\u6eaf\u3001\u8349\u7a3f\u751f\u6210\u4e0e\u53d8\u66f4\u5f71\u54cd\u5206\u6790\u3002"
+    },
+    {
+      "name": "ishandutta0098--outskill-mini-projects",
+      "source": "./ishandutta0098--outskill-mini-projects",
+      "description": "outskill-mini-projects"
+    },
+    {
+      "name": "trailofbits--codex-config",
+      "source": "./trailofbits--codex-config",
+      "description": "codex-config"
+    },
+    {
+      "name": "harnetics--harnetics",
+      "source": "./harnetics--harnetics",
+      "description": "\u5546\u4e1a\u822a\u5929\u6587\u6863\u5bf9\u9f50\u5de5\u4f5c\u53f0\uff1a\u9762\u5411\u822a\u5929\u5de5\u7a0b\u56e2\u961f\u7684\u8de8\u90e8\u95e8\u8ffd\u6eaf\u3001\u8349\u7a3f\u751f\u6210\u4e0e\u53d8\u66f4\u5f71\u54cd\u5206\u6790\u3002"
+    },
+    {
+      "name": "zotero-cat--zotero-cat",
+      "source": "./zotero-cat--zotero-cat",
+      "description": "Zotero-Cat is a Zotero item-pane assistant for reading, summarizing, reviewing, and discussing research items with user-selected model providers. "
+    },
+    {
+      "name": "patlux--pi-chatgpt-limit",
+      "source": "./patlux--pi-chatgpt-limit",
+      "description": "Pi extension that shows ChatGPT Codex subscription usage in the footer"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -146189,6 +146494,76 @@
       "description": "Aish is an AI-powered shell assistant designed for command-line environments."
     },
     {
+      "name": "shmitzas--mixscrims",
+      "source": "./shmitzas--mixscrims",
+      "description": "Faceit-style PUG matches for CS2 - managed entirely in-game, no external tools required"
+    },
+    {
+      "name": "designpipe--exfig",
+      "source": "./designpipe--exfig",
+      "description": "ExFig \u2014 fast design-to-code CLI for Figma & Penpot with parallel exports, batch processing & smart caching for iOS, Android, Flutter & Web. Runs on macOS, Linux, Windows."
+    },
+    {
+      "name": "btravstack--temporal-contract",
+      "source": "./btravstack--temporal-contract",
+      "description": "End-to-end type safety and automatic validation for workflows and activities"
+    },
+    {
+      "name": "sjkim1127--fission",
+      "source": "./sjkim1127--fission",
+      "description": "Rust reverse-engineering and decompilation workspace for project-level software restoration."
+    },
+    {
+      "name": "qinhuaihe--clash-chain-configurator",
+      "source": "./qinhuaihe--clash-chain-configurator",
+      "description": "\u5feb\u901f\u751f\u6210clash\u94fe\u5f0f\u4ee3\u7406\u914d\u7f6e"
+    },
+    {
+      "name": "neverinfamous--db-mcp",
+      "source": "./neverinfamous--db-mcp",
+      "description": "Secure Database MCP Server featuring a V8 Isolate Code Mode sandbox that unifies 181+ tools, delivering 70-90% token savings. Built for enterprise with HTTP/SSE transports, OAuth 2.1, dynamic filterin"
+    },
+    {
+      "name": "conradsheeran--onlystudy",
+      "source": "./conradsheeran--onlystudy",
+      "description": "An immersive Bilibili video player designed specifically for learning | \u4e00\u6b3e\u4e13\u4e3a\u5b66\u4e60\u8bbe\u8ba1\u7684\u6c89\u6d78\u5f0f Bilibili \u89c6\u9891\u64ad\u653e\u5668"
+    },
+    {
+      "name": "simplyprint--nfc-agent",
+      "source": "./simplyprint--nfc-agent",
+      "description": "Local NFC read + write API for Windows, Linux and Mac."
+    },
+    {
+      "name": "anteriovieira--osc-mcp-server",
+      "source": "./anteriovieira--osc-mcp-server",
+      "description": "MCP server for controlling digital mixers (Behringer X32, Midas M32, etc.) via OSC"
+    },
+    {
+      "name": "wanweiwei07--one",
+      "source": "./wanweiwei07--one",
+      "description": "one"
+    },
+    {
+      "name": "tmc--gputrace",
+      "source": "./tmc--gputrace",
+      "description": "Apple Silicon gputrace analysis tool"
+    },
+    {
+      "name": "rustnn--trtx-rs",
+      "source": "./rustnn--trtx-rs",
+      "description": "TRT-RTX rust binding"
+    },
+    {
+      "name": "dzianisv--opencode-plugins",
+      "source": "./dzianisv--opencode-plugins",
+      "description": "Reflection/judge layer for OpenCode & Claude Code \u2014 catches premature stops, enforces workflow gates (tests, CI, PRs). 78% of agent stops are premature."
+    },
+    {
+      "name": "autobrr--sfvbrr",
+      "source": "./autobrr--sfvbrr",
+      "description": "sfvbrr is a Golang tool to validate scene releases"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -157117,6 +157492,21 @@
       "name": "eddacraft--anvil-plan-spec",
       "source": "./eddacraft--anvil-plan-spec",
       "description": "Lightweight spec for planning and task authorisation in AI-assisted development."
+    },
+    {
+      "name": "pinakdhabu--exam-prompt",
+      "source": "./pinakdhabu--exam-prompt",
+      "description": "20 AI skills for 10/10 exam answers at any university worldwide. Works with ChatGPT, Claude, Gemini, Cursor, Copilot, Codex."
+    },
+    {
+      "name": "pinakdhabu--exam-prompt",
+      "source": "./pinakdhabu--exam-prompt",
+      "description": "20 AI skills for 10/10 exam answers at any university worldwide. Works with ChatGPT, Claude, Gemini, Cursor, Copilot, Codex."
+    },
+    {
+      "name": "thiras--clobster",
+      "source": "./thiras--clobster",
+      "description": "CLOBster is a terminal user interface (TUI) framework for Polymarket prediction markets. "
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -255802,6 +256192,11 @@
       "name": "lance-fisher--lancewfisher-v2",
       "source": "./lance-fisher--lancewfisher-v2",
       "description": "Personal splash page - lancewfisher.com"
+    },
+    {
+      "name": "nam2626--todolist-app-gemini-cli",
+      "source": "./nam2626--todolist-app-gemini-cli",
+      "description": "todolist-app-gemini-cli"
     }
   ]
 }
