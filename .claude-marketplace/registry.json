@@ -54524,11 +54524,6 @@
       "description": "REST API API Quran using go"
     },
     {
-      "name": "ftahirops--xtop",
-      "source": "./ftahirops--xtop",
-      "description": "xtop \u2014 modern replacement for top/htop with root-cause analysis and eBPF insights."
-    },
-    {
       "name": "rtlzeromemory--zireael",
       "source": "./rtlzeromemory--zireael",
       "description": "Deterministic terminal UI core engine in C (FFI/ABI backend fo Rezi)."
@@ -55077,6 +55072,11 @@
       "name": "agents365-ai--yt2bb",
       "source": "./agents365-ai--yt2bb",
       "description": "yt2bb"
+    },
+    {
+      "name": "ftahirops--xtop",
+      "source": "./ftahirops--xtop",
+      "description": "xtop \u2014 modern replacement for top/htop with root-cause analysis and eBPF insights."
     },
     {
       "name": "bug-ops--mcp-execution",
@@ -118514,6 +118514,11 @@
       "description": "llama.cpp-deepseek-v4"
     },
     {
+      "name": "enriqueneyra--aether",
+      "source": "./enriqueneyra--aether",
+      "description": "All-in-one home air quality monitor measuring Temp, Humidity, CO2, VOCs, Particulate Matter, and NOx. Powered by ESP32-C3 running esphome, and built with Home Assistant integration"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -126832,6 +126837,11 @@
       "name": "experientiallabs--world-model-harness",
       "source": "./experientiallabs--world-model-harness",
       "description": "World-model-as-a-harness for simulating AI agent environments"
+    },
+    {
+      "name": "eaftan--safere",
+      "source": "./eaftan--safere",
+      "description": "A safe linear-time regular expression matching library for Java, based on RE2"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -147349,6 +147359,11 @@
       "description": "seo otter is an SEO to give you some help to optimize your content based on markdown for sites like astor, quarto"
     },
     {
+      "name": "scottschindler--pr-review-agent",
+      "source": "./scottschindler--pr-review-agent",
+      "description": "Eve + Next.js PR reviewer council with product, code, QA subagents, GitHub triggers, and Slack notifications."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -158592,6 +158607,11 @@
       "name": "cortexreach--smart-octopus",
       "source": "./cortexreach--smart-octopus",
       "description": "smart_octopus"
+    },
+    {
+      "name": "rawwerks--recursive-coding-agents",
+      "source": "./rawwerks--recursive-coding-agents",
+      "description": "Recursive Coding Agents \u2014 AI Engineer World's Fair 2026 talk + website (SvelteKit, Cloudflare Workers)"
     },
     {
       "name": "cheerhuan--save-your-token",
