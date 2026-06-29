@@ -1,21 +1,21 @@
-# cross-platform
+# frontend-i18n
 
-> Cross-platform compatibility rules for csghub-lite (macOS, Linux, Windows)
+> Frontend internationalization requirements for web UI changes
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cross-platform/SKILL.md
+Read and follow the instructions in .claude/skills/frontend-i18n/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Cross-Platform Compatibility
+# Frontend Internationalization
 
-Canonical rule: `docs/agent-guidelines/cross-platform.md`.
+Canonical rule: `docs/agent-guidelines/frontend-i18n.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
