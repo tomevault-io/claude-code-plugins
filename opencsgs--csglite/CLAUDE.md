@@ -1,25 +1,24 @@
-# csglite
+# ai-app-oss-mirror
 
-> Use `AGENTS.md` as the primary project instruction file.
+> Mirror AI app releases to StarHub OSS with versioned artifacts
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/csglite/SKILL.md
+Read and follow the instructions in .claude/skills/ai-app-oss-mirror/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Copilot Instructions
 
-Use `AGENTS.md` as the primary project instruction file.
+# AI App OSS Mirror
 
-Full, tool-neutral rules live in `docs/agent-guidelines/`. Do not create a
-Copilot-only project rule unless the behavior is specific to Copilot. For
-shared rules, update the canonical guideline first and keep this adapter
-minimal.
+Canonical rule: `docs/agent-guidelines/ai-app-oss-mirror.md`.
+
+Follow that file. Do not add duplicated rule text here; update the canonical
+guideline instead.
 
 ---
 > Source: [OpenCSGs/csglite](https://github.com/OpenCSGs/csglite) — distributed by [TomeVault](https://tomevault.io).
