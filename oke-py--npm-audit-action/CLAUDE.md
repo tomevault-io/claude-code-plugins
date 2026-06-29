@@ -1,0 +1,48 @@
+# npm-audit-action
+
+> This repository is a GitHub Action that runs `npm audit` and reports findings by commenting on PRs or creating issues. The action executes from `dist/index.js` and is built from TypeScript sources in `src/`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/npm-audit-action/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Summary for Coding Agents
+
+## Overview
+
+This repository is a GitHub Action that runs `npm audit` and reports findings by commenting on PRs or creating issues. The action executes from `dist/index.js` and is built from TypeScript sources in `src/`.
+
+## Key Files
+
+- `action.yml`: Action inputs/outputs and runtime (`node24`)
+- `src/main.ts`: Entry point
+- `src/issue.ts`, `src/pr.ts`: Issue and PR comment logic
+- `dist/index.js`: Bundled output used by GitHub Actions
+- `__tests__/`: Vitest tests
+
+## Local Commands
+
+```bash
+npm ci
+npm run format:write
+npm run lint
+npm run test
+npm run test:coverage
+npm run package
+```
+
+## Guardrails
+
+- Node.js 24+ is required (`package.json` engines).
+- Keep `dist/` in sync with source changes; CI checks the bundle output.
+- Follow Conventional Commits and keep PR text in English.
+
+---
+> Source: [oke-py/npm-audit-action](https://github.com/oke-py/npm-audit-action) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-29 -->
