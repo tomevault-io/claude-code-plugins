@@ -1,21 +1,21 @@
-# ai-app-oss-mirror
+# api-swagger-sync
 
-> Mirror AI app releases to StarHub OSS with versioned artifacts
+> Keep Swagger/OpenAPI in sync with local API changes
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ai-app-oss-mirror/SKILL.md
+Read and follow the instructions in .claude/skills/api-swagger-sync/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# AI App OSS Mirror
+# API Swagger Sync
 
-Canonical rule: `docs/agent-guidelines/ai-app-oss-mirror.md`.
+Canonical rule: `docs/agent-guidelines/api-swagger-sync.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
