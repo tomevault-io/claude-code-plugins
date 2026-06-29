@@ -1,4 +1,4 @@
-# phantom-reach
+# phantomreach
 
 > Read `AGENTS.md` first. It is the canonical Phantom Reach agent playbook for project context, local run commands, audit APIs, report storage, and research workflows.
 
@@ -7,13 +7,12 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/phantom-reach/SKILL.md
+Read and follow the instructions in .claude/skills/phantomreach/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-# Cursor Instructions
+# GitHub Copilot Instructions
 
 Read `AGENTS.md` first. It is the canonical Phantom Reach agent playbook for project context, local run commands, audit APIs, report storage, and research workflows.
 
