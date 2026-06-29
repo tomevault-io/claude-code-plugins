@@ -7,13 +7,13 @@ A Vue library for previewing paged media layouts before printing.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [pkc918/vue-paged-media](https://github.com/pkc918/vue-paged-media).
+Original source: `AGENTS.md` in [pkc918/vue-paged-media](https://github.com/pkc918/vue-paged-media).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
