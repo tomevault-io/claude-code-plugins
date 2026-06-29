@@ -1,21 +1,20 @@
-# manual-local-release
+# model-source-routing
 
-> Publish releases from local builds instead of GitHub Actions
+> Canonical rule: `docs/agent-guidelines/model-source-routing.md`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/manual-local-release/SKILL.md
+Read and follow the instructions in .claude/skills/model-source-routing/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Model Source Routing
 
-# Manual Local Release
-
-Canonical rule: `docs/agent-guidelines/release-notes.md`.
+Canonical rule: `docs/agent-guidelines/model-source-routing.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
