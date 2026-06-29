@@ -2,8 +2,6 @@
 
 > Tome by [zhixianio](https://github.com/zhixianio/clawpal) — distributed by [TomeVault](https://tomevault.io)
 
-ClawPal - Manage OpenClaw agents, models, and configs with a visual interface. Stop editing JSON by hand.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
