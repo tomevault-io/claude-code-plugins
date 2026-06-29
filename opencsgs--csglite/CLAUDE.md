@@ -1,24 +1,25 @@
-# api-swagger-sync
+# csglite
 
-> Keep Swagger/OpenAPI in sync with local API changes
+> Use `AGENTS.md` as the primary project instruction file.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/api-swagger-sync/SKILL.md
+Read and follow the instructions in .claude/skills/csglite/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Copilot Instructions
 
-# API Swagger Sync
+Use `AGENTS.md` as the primary project instruction file.
 
-Canonical rule: `docs/agent-guidelines/api-swagger-sync.md`.
-
-Follow that file. Do not add duplicated rule text here; update the canonical
-guideline instead.
+Full, tool-neutral rules live in `docs/agent-guidelines/`. Do not create a
+Copilot-only project rule unless the behavior is specific to Copilot. For
+shared rules, update the canonical guideline first and keep this adapter
+minimal.
 
 ---
 > Source: [OpenCSGs/csglite](https://github.com/OpenCSGs/csglite) — distributed by [TomeVault](https://tomevault.io).
