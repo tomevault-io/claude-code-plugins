@@ -1,21 +1,20 @@
-# python-compatibility
+# storage-temp-files
 
-> Python 3.9+ compatibility for Python code and dependencies
+> Canonical rule: `docs/agent-guidelines/storage.md`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/python-compatibility/SKILL.md
+Read and follow the instructions in .claude/skills/storage-temp-files/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Storage And Temporary Files
 
-# Python Compatibility
-
-Canonical rule: `docs/agent-guidelines/python.md`.
+Canonical rule: `docs/agent-guidelines/storage.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
