@@ -1,21 +1,21 @@
-# platform-sensitive-files
+# python-compatibility
 
-> Multi-platform requirements for Go and install script changes
+> Python 3.9+ compatibility for Python code and dependencies
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/platform-sensitive-files/SKILL.md
+Read and follow the instructions in .claude/skills/python-compatibility/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Multi-Platform Support
+# Python Compatibility
 
-Canonical rule: `docs/agent-guidelines/cross-platform.md`.
+Canonical rule: `docs/agent-guidelines/python.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
