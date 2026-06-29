@@ -1,21 +1,21 @@
-# frontend-i18n
+# gitlab-token-source
 
-> Frontend internationalization requirements for web UI changes
+> Read GitLab token from local secrets.env
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontend-i18n/SKILL.md
+Read and follow the instructions in .claude/skills/gitlab-token-source/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Frontend Internationalization
+# GitLab Token Source
 
-Canonical rule: `docs/agent-guidelines/frontend-i18n.md`.
+Canonical rule: `docs/agent-guidelines/network-and-secrets.md`.
 
 Follow that file. Do not add duplicated rule text here; update the canonical
 guideline instead.
