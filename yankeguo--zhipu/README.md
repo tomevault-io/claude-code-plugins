@@ -2,8 +2,6 @@
 
 > Source: [yankeguo/zhipu](https://github.com/yankeguo/zhipu) — distributed by [TomeVault](https://tomevault.io)
 
-A 3rd-Party Golang Client Library for Zhipu AI Platform
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
