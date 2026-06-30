@@ -2,8 +2,6 @@
 
 > Source: [jorben/grider](https://github.com/jorben/grider) — distributed by [TomeVault](https://tomevault.io)
 
-Grid Trading Assistant. 网格交易助手
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
