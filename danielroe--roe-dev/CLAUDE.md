@@ -1,0 +1,30 @@
+# roe-dev
+
+> - Follow standard TypeScript conventions and best practices
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/roe-dev/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Code Quality Requirements
+
+- Follow standard TypeScript conventions and best practices
+- Use `<script setup lang="ts">` and the composition API when creating Vue components
+- Use clear, descriptive variable and function names
+- Add comments only to explain complex logic or non-obvious implementations
+- Write unit tests for core functionality using `vitest`
+- Write end-to-end tests using Playwright and `@nuxt/test-utils`
+- Keep functions focused and manageable (generally under 50 lines), and extract complex logic into separate domain-specific files
+- Remove code that is not used or needed
+- Use error handling patterns consistently
+- Create and maintain a `PROGRESS.md` file to track ongoing work and issues
+
+---
+> Source: [danielroe/roe.dev](https://github.com/danielroe/roe.dev) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-29 -->
