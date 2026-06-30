@@ -2,8 +2,6 @@
 
 > Source: [kenforthewin/atomic](https://github.com/kenforthewin/atomic) — distributed by [TomeVault](https://tomevault.io)
 
-Self-hosted, semantically-connected personal knowledge base
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
