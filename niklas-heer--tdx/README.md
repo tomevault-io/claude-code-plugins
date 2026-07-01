@@ -2,8 +2,6 @@
 
 > Tome by [niklas-heer](https://github.com/niklas-heer/tdx) — distributed by [TomeVault](https://tomevault.io)
 
-tdx - your todos, in markdown, done fast.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
