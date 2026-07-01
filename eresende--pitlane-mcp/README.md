@@ -2,8 +2,6 @@
 
 > Source: [eresende/pitlane-mcp](https://github.com/eresende/pitlane-mcp) — distributed by [TomeVault](https://tomevault.io)
 
-Token-efficient navigation substrate for AI coding agents. Index code once and retrieve only the symbols you need.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
