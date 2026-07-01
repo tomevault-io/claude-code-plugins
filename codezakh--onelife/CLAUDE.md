@@ -1,19 +1,19 @@
-# use-pytest
+# use-uv
 
-> If asked to implement a test, use pytest and put it in the `tests` directory.
+> The interpreter for this project is managed by `uv`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/use-pytest/SKILL.md
+Read and follow the instructions in .claude/skills/use-uv/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-If asked to implement a test, use pytest and put it in the `tests` directory.
+The interpreter for this project is managed by `uv`.
+Use `uv run --env-file .env <command>` to run commands.
 
 ---
 > Source: [codezakh/onelife](https://github.com/codezakh/onelife) — distributed by [TomeVault](https://tomevault.io).
