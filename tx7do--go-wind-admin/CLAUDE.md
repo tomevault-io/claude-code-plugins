@@ -1,6 +1,6 @@
 # go-wind-admin
 
-> 本文件定义此项目的编码约定和架构规范，供 AI Agent 在生成和修改代码时遵循。
+> GoWind React Admin 是基于 React 19 的企业级后台管理脚手架。
 
 ## Usage
 
@@ -12,108 +12,230 @@ Read and follow the instructions in .claude/skills/go-wind-admin/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GoWind Admin — Agent 开发规范
+# GoWind React Admin 脚手架开发指南
 
-本文件定义此项目的编码约定和架构规范，供 AI Agent 在生成和修改代码时遵循。
+## 项目概述
 
-## 项目身份
-
-**go-wind-vue3-element-admin** — Vue 3 + Vite + TypeScript + Element Plus 后台管理模板。
+GoWind React Admin 是基于 React 19 的企业级后台管理脚手架。
 
 ## 技术栈
 
-Vue 3.5, TypeScript 5.9, Vite 8, Element Plus 2.x, vxe-table 4.x, Pinia 3, @tanstack/vue-query 5, vue-router 5, vue-i18n 11, UnoCSS + SCSS, vee-validate + zod, axios (gRPC-Web)
+- React 19 + TypeScript 6
+- Ant Design v6 + ProComponents 2
+- Vite 8 (SWC)
+- Zustand 5 + TanStack React Query 5
+- React Router v6
+- i18next + react-i18next
+- Less + UnoCSS
+- Iconify (lucide 图标集)
+- pnpm
 
-## 架构概览
+## 目录结构
 
 ```
-src/api/generated/    → gRPC 自动生成（禁止修改）
-src/api/client.ts     → ApiClient 单例（懒加载各服务 Client）
-src/api/composables/  → Vue Query hooks + 枚举工具（通过 apiClient 调用）
-src/components/Pro/   → 配置化 CRUD 组件库（ProPage/ProTable/ProModal...）
-src/core/             → transport, i18n, router, access
-src/pages/app/        → 业务页面（按模块分目录）
-src/locales/          → i18n 翻译资源（zh-CN / en-US）
-src/router/routes/    → 路由配置（modules/app/*.ts 为动态路由）
+src/
+├── api/                    # API 层（两层架构）
+│   ├── generated/          # 自动生成代码（禁止手动修改）
+│   ├── client.ts           # apiClient 单例（懒加载各 Service）
+│   └── hooks/              # Hooks 层 - React Query 集成
+├── core/                   # 核心模块（access/i18n/preferences/router/storage/transport）
+├── hooks/                  # 业务 Hooks
+├── layouts/                # 布局组件
+├── locales/                # 翻译资源（zh-CN/en-US）
+├── pages/                  # 页面（app/ 业务，core/ 系统）
+├── router/                 # 路由配置（config/guards/modules）
+├── stores/                 # Zustand Stores
+├── styles/                 # 全局样式
+└── utils/                  # 工具函数
 ```
 
-## 规则
+## API 两层架构
 
-### TypeScript
-- 接口无 I 前缀（`User` 非 `IUser`）
-- 路由类型用 `RouteRecordRaw`
-- 路由数组 map+sort 后断言 `RouteRecordRaw[]`
-- 类型窄化用 `typeof`，不用 `isFunction`
-- `defineExpose` 暴露属性直接访问
-
-### 国际化（强制）
-- 所有可见文本用 `$t()`/`t()`，禁止硬编码中文
-- `$t()` 用于模板和 computed；`t()` 用于 composable 顶层
-- key 命名：`pages.<module>.<field>` / `enum.<module>.<field>.<VALUE>` / `routes.<module>.<page>` / `common.<category>.<key>`
-
-### API 分层规则
-
-**ApiClient 单例** (`src/api/client.ts`):
-- 全局唯一实例，通过 `ClientTransport` 适配 axios 请求
-- 懒加载属性访问器按需创建各服务 Client（如 `apiClient.userService`）
-- protobuf 重新生成后自动包含新服务
-
-**Composable 层** (`src/api/composables/`):
-- 从 `generated/` 只导入类型（`type` import），运行时调用通过 `apiClient`
-- 导出：`use*` Hook + `fetch*` 函数 + 枚举工具
-- queryKey：`["操作名", 参数]`
-- 列表查询：`apiClient.xxxService.List(query.toRawParams())`
-- **创建参数用 `{ data: {...} }` 包裹**
-- **更新操作用 `makeUpdateMask` 生成掩码**
-- 枚举列表：`computed(() => [...])` + `t()`
-- 在 `composables/index.ts` 添加 `export *`
-
-### 组件
-- `ElDrawer` 必须设置 `:append-to-body="true"`
-- `ElDialog` 的 `appendTo` 是字符串选择器
-- `ElTreeSelect` value 不接受 undefined，用 null
-- 暗黑模式文本色用 `var(--el-text-color-*)`
-
-### 样式
-- CSS 变量前缀 `--gowind-*`（避让 `--el-*`）
-- 主题色存 HSL 数值
-- 用 `style.setProperty()` 更新变量
-
-### 路由
-- 动态路由：`router/routes/modules/app/<module>.ts`
-- 顶层用 `Layout` 包裹
-- `meta.title` 用 i18n key，`meta.icon` 用 `lucide:` 前缀
-- `meta.authority` 控制权限
-- `export default routes`
-
-## 新建 CRUD 模块步骤
-
-1. `src/api/composables/<module>.ts` — hooks + 枚举（通过 apiClient 调用）
-2. `src/api/composables/index.ts` — 添加 `export *`
-3. `src/locales/{zh-CN,en-US}/pages/<module>.json` — 页面翻译
-4. `src/locales/zh-CN/enum.json` — 枚举翻译
-5. `src/locales/zh-CN/routes.json` — 路由标题
-6. `src/router/routes/modules/app/<module>.ts` — 路由
-7. `src/pages/app/<module>/<module>/index.vue` — ProPage 列表页
-8. `src/pages/app/<module>/<module>/<module>-drawer.vue` — useProModal 弹窗
-
-## 常见陷阱
-
-- gRPC 创建接口：必须 `{ data: {...} }` 包裹
-- PowerShell 命令连接：用 `;` 不用 `&&`
-- `ElLink` underline：废弃 boolean，用字符串
-- vue-i18n `$te`：不支持 ns 选项对象
-
-## 构建命令
-
-```bash
-pnpm dev          # 开发服务器
-pnpm build        # 类型检查 + 构建
-pnpm type-check   # 类型检查
-pnpm lint         # 全量 lint
+```
+Generated (自动生成类型和 Service Client) → Hooks (通过 apiClient 直调，React Query 集成)
 ```
 
-Node: `^20.19.0 || >=22.12.0` | 包管理器: pnpm | Git: Conventional Commits
+`apiClient`（`src/api/client.ts`）是单例，以懒加载 getter 聚合所有 Service Client。Hooks 层直接通过 `apiClient.xxxService.Method()` 调用。
+
+### 使用规则
+
+| 场景 | 方式 |
+|------|------|
+| React 组件 | `useXxx()` Hook（`api/hooks/`） |
+| Zustand Store / 路由守卫 / 工具函数 | `fetchXxx()` 方法（`api/hooks/`） |
+
+### 命名规范
+
+- Hooks 层：`useListXxx()`, `useGetXxx()` + `fetchListXxx()`, `fetchXxx()`
+
+### Hooks 层模板
+
+```typescript
+import { useMutation, useQuery, type UseMutationOptions, type UseQueryOptions } from '@tanstack/react-query';
+import { apiClient } from '@/api/client';
+import { type PaginationQuery, queryClient } from '@/core';
+
+export function useListXxx(query: PaginationQuery, options?: UseQueryOptions<...>) {
+  return useQuery({
+    queryKey: ['listXxx', query],
+    queryFn: () => apiClient.xxxService.List(query.toRawParams()),
+    ...options,
+  });
+}
+export async function fetchListXxx(params: PaginationQuery) {
+  return queryClient.fetchQuery({
+    queryKey: ['listXxx', params], queryFn: () => apiClient.xxxService.List(params.toRawParams()), retry: 0,
+  });
+}
+```
+
+## 路由系统
+
+`src/router/modules/*.tsx` 通过 `import.meta.glob` 自动导入。
+
+### 路由配置模板
+
+```tsx
+import type { AppRouteObject } from '@/core/router/types';
+import { createLazyRoute } from '@/core/router';
+
+export const myModuleRoutes: AppRouteObject[] = [
+  {
+    name: 'my-module',
+    path: 'my-module',
+    meta: {
+      title: 'routes:myModule',
+      icon: 'lucide:some-icon',
+      order: 10,
+      authority: ['sys:my_module:view'],
+    },
+    children: [
+      {
+        name: 'my-module-list',
+        path: 'list',
+        element: createLazyRoute(() => import('@/pages/app/my-module')),
+        meta: { title: 'routes:myModuleList' },
+      },
+    ],
+  },
+];
+export default myModuleRoutes;
+```
+
+### Route Meta 关键字段
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `title` | `string` | `'routes:xxx'` 格式的 i18n 翻译键 |
+| `icon` | `string` | Iconify 图标名 |
+| `order` | `number` | 菜单排序 |
+| `authority` | `string[]` | 角色码和权限码混合数组 |
+| `hideInMenu` | `boolean` | 隐藏菜单项 |
+| `hideInTab` | `boolean` | 隐藏标签页 |
+| `keepAlive` | `boolean` | 缓存页面 |
+
+### 权限模式
+
+- `frontend`（默认）：前端路由 + `meta.authority` 过滤
+- `backend`：后端返回菜单 + `pageMap` 动态匹配
+
+## 权限系统
+
+### 数据来源（分离存储）
+
+- 角色码 → `useUserStore.userRoles`
+- 权限码 → `useUserStore.accessCodes`
+- `meta.authority` → 角色码和权限码混合数组
+
+### 三种鉴权方式
+
+```tsx
+// 1. useAccess Hook（推荐）
+const { hasAccessByCodes, hasAccessByRoles } = useAccess();
+{hasAccessByCodes(['sys:user:create']) && <Button>新建</Button>}
+
+// 2. AccessControl 组件
+<AccessControl codes={['sys:user:create']} type="code">
+  <Button>新建</Button>
+</AccessControl>
+
+// 3. 非组件场景
+const { hasAccessByCodes } = getAccessStatic();
+```
+
+- 权限码格式：`模块:资源:操作`（如 `sys:user:create`）
+- 超级管理员角色：`*:*:*`，自动通过所有检查
+
+## 状态管理
+
+| Store | 文件 | 用途 | 持久化 |
+|-------|------|------|--------|
+| `useAuthStore` | `stores/auth.ts` | Token、登录/登出 | token |
+| `useUserStore` | `stores/user.ts` | 用户信息、角色码、权限码 | userInfo |
+| `usePreferencesStore` | `core/preferences/store/` | 偏好设置 | 全部 |
+
+```typescript
+// React 组件中 — selector 精确订阅
+const token = useAuthStore((s) => s.accessToken);
+
+// 非组件环境
+const token = useAuthStore.getState().accessToken;
+```
+
+## 国际化
+
+### 命名空间
+
+| 类别 | 目录 | 示例 |
+|------|------|------|
+| 核心 | `_core/` | `common`, `auth`, `routes`, `editor` |
+| 业务 | `_modules/` | `user`, `role`, `dashboard` 等 |
+
+### 使用方式
+
+```tsx
+import { useI18n } from '@/core/i18n';
+const { t } = useI18n('user');     // 指定命名空间
+t('username');                      // 查找 user 命名空间
+```
+
+### 新增翻译
+
+在 `src/locales/zh-CN/_modules/` 和 `en-US/_modules/` 创建同名 JSON，自动收集。
+
+### 翻译键规则
+
+- 插值用 `{{var}}`，**不是** `#{var}`
+- 路由标题用 `'routes:xxx'` 格式
+- 硬编码文本必须提取到翻译文件
+
+## 代码风格
+
+- Prettier: 单引号、分号、尾逗号 `all`、行宽 100、2 空格缩进、LF 换行
+- 路径别名: `@/` → `src/`，`#/` → `types/`
+- ESLint: TypeScript 严格模式，React Hooks 规则强制
+- 提交: Conventional Commits
+
+## 关键注意事项
+
+1. **PaginationQuery 必须用 new**: `new PaginationQuery({ page, pageSize })`
+2. **非组件环境禁用 useXxx Hook**: 只能用 `fetchXxx()` 或 `apiClient` 直调
+3. **国际化插值**: `{{var}}` 而非 `#{var}`
+4. **meta.title 格式**: `'routes:xxx'`
+5. **禁止修改 generated 目录**: 由工具自动生成
+6. **DrawerForm 用 formRef**: 没有 `useForm`
+7. **antd v6**: `items` 替代 `TabPane`，Alert 用 `title` 替代 `message`
+8. **ProTable scroll.y**: 初始值必须是像素值（数字）
+9. **角色码和权限码分离**: `userRoles` + `accessCodes`，不混合
+10. **不要使用 `userInfo?.permissions`**: 该字段不存在
+
+## 新增完整功能模块清单
+
+1. 翻译: `src/locales/{zh-CN,en-US}/_modules/xxx.json`
+2. 页面: `src/pages/app/xxx/index.tsx`
+3. API: `src/api/hooks/xxx.ts`（通过 `apiClient` 直调）+ 导出
+4. 路由: `src/router/modules/xxx.tsx`（自动导入）
+5. 权限: 配置 `meta.authority` + 页面中使用 `useAccess()`
 
 ---
 > Source: [tx7do/go-wind-admin](https://github.com/tx7do/go-wind-admin) — distributed by [TomeVault](https://tomevault.io).
