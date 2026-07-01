@@ -1,0 +1,28 @@
+# nuxt-prometheus
+
+> - After changing files under `src/`, rebuild before validating behavior.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nuxt-prometheus/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## Build And Verification
+
+- After changing files under `src/`, rebuild before validating behavior.
+- Run `pnpm prepack` before test verification when changes need fresh `dist` output.
+- Use `pnpm run dev:prepare` after `src` changes when you need the playground or browser verification to reflect them.
+
+## Metrics Verification
+
+- Do not verify route metrics via client-side navigation when the goal is to confirm server-side request metrics.
+- For browser verification of metrics, request each page directly from the server using URL navigation such as `/a`, `/b`, `/c`, then open `/metrics`.
+
+---
+> Source: [artmizu/nuxt-prometheus](https://github.com/artmizu/nuxt-prometheus) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-06-29 -->
