@@ -1,13 +1,13 @@
-# always-use-uv
+# use-just-recipes
 
-> when running python commands or python executables like pytest use  `uv run python ...` or `uv run <cmd>`
+> When running things like unit tests, e2e tests, migrations, first look for a corresponding just recipe @justfile
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/always-use-uv/SKILL.md
+Read and follow the instructions in .claude/skills/use-just-recipes/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
