@@ -158294,6 +158294,11 @@
       "description": "AgentLoop"
     },
     {
+      "name": "tinyhumansai--tinyagents",
+      "source": "./tinyhumansai--tinyagents",
+      "description": "A recursive language-model (RLM) harness for Rust."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -170357,6 +170362,21 @@
       "name": "lgrammel--apple-container-sandbox",
       "source": "./lgrammel--apple-container-sandbox",
       "description": "Run AI SDK sandbox sessions in Apple Container on your Mac."
+    },
+    {
+      "name": "mathysgrapotte--100dayscuda",
+      "source": "./mathysgrapotte--100dayscuda",
+      "description": "Learning cuda in a 100 days"
+    },
+    {
+      "name": "yethesamartaka-foxy--foxy",
+      "source": "./yethesamartaka-foxy--foxy",
+      "description": "Foxy"
+    },
+    {
+      "name": "sanhsien--openshelf",
+      "source": "./sanhsien--openshelf",
+      "description": "\u6279\u6b21\u532f\u51fa Google Play \u5716\u66f8\uff1a\u7121 DRM \u66f8\u4e0b\u8f09 EPUB/PDF\uff0cDRM \u66f8\u4e0b\u8f09\u5b98\u65b9 .acsm \u4f9b Adobe Digital Editions \u95b1\u8b80\u3002\u4e0d\u89e3\u6790 ACSM\u3001\u4e0d\u62bd\u91d1\u9470\u3001\u4e0d\u79fb\u9664\u4fdd\u8b77\u3002"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -269757,6 +269777,11 @@
       "name": "cosergd--coser-bot-docs",
       "source": "./cosergd--coser-bot-docs",
       "description": "coser-bot-docs"
+    },
+    {
+      "name": "raeedcho--cst-machinery",
+      "source": "./raeedcho--cst-machinery",
+      "description": "A repository to look at shared neural machinery between externally-cued and internally-cued movements"
     }
   ]
 }
