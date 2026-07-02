@@ -56704,6 +56704,11 @@
       "description": "KoalaCards"
     },
     {
+      "name": "nimblesite--osprey",
+      "source": "./nimblesite--osprey",
+      "description": "A modern functional programming language designed for elegance, safety, and performance. Written in Rust, outputs to LLVM."
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -66852,6 +66857,11 @@
       "name": "dcermak--skiff",
       "source": "./dcermak--skiff",
       "description": "skiff"
+    },
+    {
+      "name": "jetyu--snaptium",
+      "source": "./jetyu--snaptium",
+      "description": "A modern multi-platform note-taking application built with Electron, featuring local data storage for complete security and control."
     },
     {
       "name": "affitor--open-affiliate",
@@ -83139,6 +83149,11 @@
       "description": "Background computer use for desktop agents on Windows and macOS"
     },
     {
+      "name": "noemaai-labs--noema-ios",
+      "source": "./noemaai-labs--noema-ios",
+      "description": "Noema iOS app source files"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -86862,6 +86877,11 @@
       "name": "ente--mobile-ocr",
       "source": "./ente--mobile-ocr",
       "description": "mobile_ocr"
+    },
+    {
+      "name": "vinnie357--kina",
+      "source": "./vinnie357--kina",
+      "description": "kubernetes in apple container based on kind"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -94197,6 +94217,16 @@
       "name": "kainulla--skillfire",
       "source": "./kainulla--skillfire",
       "description": "Will your SKILL.md win the routing race, or get cannibalized by the skills people already have? The agent-skill collision tester."
+    },
+    {
+      "name": "zbzailabs--polyglow",
+      "source": "./zbzailabs--polyglow",
+      "description": "Polyglow is a multilingual Astro theme for content-first blogs, editorial sites, and global publishing."
+    },
+    {
+      "name": "chenkeliang--duckdb-query",
+      "source": "./chenkeliang--duckdb-query",
+      "description": "AI-native visual SQL workbench on DuckDB. Query local CSV/Excel/JSON + remote MySQL/Postgres together with text-to-SQL chat \u2014 no ETL, local-first, cross-source JOINs. \u00b7 \u57fa\u4e8e DuckDB \u7684 AI \u53ef\u89c6\u5316 SQL \u5de5\u4f5c\u53f0,\u672c\u5730\u6587\u4ef6"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -105274,6 +105304,11 @@
       "description": "Reproducible evaluation for AI coding agents. Multi-turn scenarios against Claude Code, Codex, Copilot, Cursor, Gemini CLI, Goose, OpenCode, or any custom agent you plug in; verify behavior with rule "
     },
     {
+      "name": "wybthon--wybthon",
+      "source": "./wybthon--wybthon",
+      "description": "Build interactive web apps in Python. No JavaScript required."
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -108607,6 +108642,16 @@
       "name": "lefeaker--zendio",
       "source": "./lefeaker--zendio",
       "description": "Zendio: local-first browser clipping and structured Markdown export for Obsidian."
+    },
+    {
+      "name": "zhanglongxiao111--indesign-cli",
+      "source": "./zhanglongxiao111--indesign-cli",
+      "description": "indesign-cli"
+    },
+    {
+      "name": "liyk-master--auto-rename",
+      "source": "./liyk-master--auto-rename",
+      "description": "auto_rename"
     },
     {
       "name": "hyaway--hyaway",
@@ -112307,6 +112352,16 @@
       "name": "roderickqiu--seenot-app",
       "source": "./roderickqiu--seenot-app",
       "description": "Intent-aware Android screen time intervention that watches the current screen, not just the app-level management!"
+    },
+    {
+      "name": "libra-tools--git-internal",
+      "source": "./libra-tools--git-internal",
+      "description": "Internal Git infrastructure, experiments, and foundational components for Git-compatible monorepo systems"
+    },
+    {
+      "name": "sagarbehere--finzytrack",
+      "source": "./sagarbehere--finzytrack",
+      "description": "Personal finance app"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -117022,6 +117077,11 @@
       "name": "rhargreaves--ion",
       "source": "./rhargreaves--ion",
       "description": "Light-weight C++ HTTP/2 server"
+    },
+    {
+      "name": "xiaochengzjc--cxshell",
+      "source": "./xiaochengzjc--cxshell",
+      "description": "A cross-platform SSH/SFTP terminal and remote session client built with Avalonia and AtomUI"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -121922,6 +121982,16 @@
       "name": "code-yeongyu--sisyphus-private",
       "source": "./code-yeongyu--sisyphus-private",
       "description": "sisyphus-private"
+    },
+    {
+      "name": "avalix-labs--create-dot-app",
+      "source": "./avalix-labs--create-dot-app",
+      "description": "A command-line interface (CLI) tool designed to streamline the development process for Polkadot-based decentralized applications (dApps)."
+    },
+    {
+      "name": "avalix-labs--create-dot-app",
+      "source": "./avalix-labs--create-dot-app",
+      "description": "A command-line interface (CLI) tool designed to streamline the development process for Polkadot-based decentralized applications (dApps)."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -128157,6 +128227,16 @@
       "name": "fosrl--pangolin-kube-controller",
       "source": "./fosrl--pangolin-kube-controller",
       "description": "A Kubernetes controller for the Pangolin server "
+    },
+    {
+      "name": "fangsunjian--agent-adventure",
+      "source": "./fangsunjian--agent-adventure",
+      "description": "agent-adventure"
+    },
+    {
+      "name": "initialneil--project-with-reflect",
+      "source": "./initialneil--project-with-reflect",
+      "description": "Claude Code meta-skill: turn each project/machine/device into a self-improving skill (log -> reflect -> improve)."
     },
     {
       "name": "makenowjust--naraku",
@@ -136732,6 +136812,26 @@
       "name": "xushengfeng--myde",
       "source": "./xushengfeng--myde",
       "description": "A Wayland compositor written in Electron.js"
+    },
+    {
+      "name": "vibenights--angularvibecoding",
+      "source": "./vibenights--angularvibecoding",
+      "description": "Unlock Rapid Development: Your Angular 20 Boilerplate for VibeCoding & Beyond! | Tailwind4 and DaysiUI ready for FirebaseStudio"
+    },
+    {
+      "name": "jordan-haidee--zeedle",
+      "source": "./jordan-haidee--zeedle",
+      "description": "Music at the speed of a blink, designed for pure simplicity, also an ideal starter project for anyone new to Rust GUI development"
+    },
+    {
+      "name": "kousen--junie-training",
+      "source": "./kousen--junie-training",
+      "description": "Course materials for JetBrains Junie training"
+    },
+    {
+      "name": "organvm--a-i--skills",
+      "source": "./organvm--a-i--skills",
+      "description": "Public repository of AI agent skills: specialized capabilities and workflows across 12 categories"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -157569,6 +157669,106 @@
       "description": "Chrome extension to summarize the text in the current tab"
     },
     {
+      "name": "a-25--ios-mcp-code-quality-server",
+      "source": "./a-25--ios-mcp-code-quality-server",
+      "description": "This server enables AI assistants to run Xcode tests, perform linter analysis, and provide detailed feedback on iOS projects through structured, actionable reports."
+    },
+    {
+      "name": "rahulgarg123--openscad-mcp",
+      "source": "./rahulgarg123--openscad-mcp",
+      "description": "MCP server for OpenSCAD rendering"
+    },
+    {
+      "name": "fiftonb--seeyourbz",
+      "source": "./fiftonb--seeyourbz",
+      "description": "\u4e00\u4e2a\u96c6\u4f20\u7edf\u9ec4\u5386\u3001\u516b\u5b57\u547d\u7406\u3001\u6843\u82b1\u8fd0\u6d4b\u7b97\u3001\u661f\u5ea7\u8fd0\u52bf\u3001AI \u4eba\u751f K \u7ebf\u56fe\u4e8e\u4e00\u4f53\u7684\u73b0\u4ee3\u5316\u4f20\u7edf\u6587\u5316\u5b66\u4e60\u5e73\u53f0\uff0c\u57fa\u4e8e tyme4ts \u65e5\u5386\u5de5\u5177\u5e93\u5f00\u53d1\u3002"
+    },
+    {
+      "name": "isundaylee--istaroth",
+      "source": "./isundaylee--istaroth",
+      "description": "Project Istaroth is a RAG-based LLM system for answering Genshin Impact lore questions."
+    },
+    {
+      "name": "filipolszewsk--qlcplus",
+      "source": "./filipolszewsk--qlcplus",
+      "description": "Q Light Controller Plus (QLC+) is a free and cross-platform software to control DMX or analog lighting systems like moving heads, dimmers, scanners etc. This project is a fork of the great QLC project"
+    },
+    {
+      "name": "project-monai--physiomotion4d",
+      "source": "./project-monai--physiomotion4d",
+      "description": "Generate anatomic models in Omniverse with physiological motion derived from medical images."
+    },
+    {
+      "name": "lmh200609-commits--mineradio-lx",
+      "source": "./lmh200609-commits--mineradio-lx",
+      "description": "Mineradio fork with LX-compatible custom source support"
+    },
+    {
+      "name": "email-check-app--email-validator-js",
+      "source": "./email-check-app--email-validator-js",
+      "description": "Verify email address checking MX records, and SMTP connection, check for disposable email addresses and free email providers."
+    },
+    {
+      "name": "allanyiin--toolanything",
+      "source": "./allanyiin--toolanything",
+      "description": "One Function to MCP and Tool calling"
+    },
+    {
+      "name": "wulffern--lelo-temp-sky130a",
+      "source": "./wulffern--lelo-temp-sky130a",
+      "description": "Temperature sensor"
+    },
+    {
+      "name": "hackjutsu--vibe-speech",
+      "source": "./hackjutsu--vibe-speech",
+      "description": "Local near real-time voice AI assistant"
+    },
+    {
+      "name": "spectara--revela",
+      "source": "./spectara--revela",
+      "description": "Revela helps photographers create elegant websites to showcase their work with clarity and ease. The default theme is minimalist, placing images front and center. Lightweight and customizable."
+    },
+    {
+      "name": "gwbtc--urbit-mcp",
+      "source": "./gwbtc--urbit-mcp",
+      "description": "A general-purpose MCP interface for Urbit, a networked personal server."
+    },
+    {
+      "name": "intercooperative-network--icn",
+      "source": "./intercooperative-network--icn",
+      "description": "A substrate daemon for the cooperative internet. Constraint engine where apps translate governance into generic constraints, kernel enforces them blindly."
+    },
+    {
+      "name": "samuxbuilds--capsummarize",
+      "source": "./samuxbuilds--capsummarize",
+      "description": "Turn Any Video into Blogs, Threads & Notes with AI"
+    },
+    {
+      "name": "modelscript--modelscript",
+      "source": "./modelscript--modelscript",
+      "description": "ModelScript is a completely web-native, polyglot incremental compiler supporting multiple engineering domains \u2014 from requirements and system architecture to simulation, CAD, CAE, and manufacturing. By"
+    },
+    {
+      "name": "poelzi--serde-nixos",
+      "source": "./poelzi--serde-nixos",
+      "description": "A Rust procedural macro that automatically generates NixOS type definitions from your Rust structures using serde."
+    },
+    {
+      "name": "altairalabs--promptkit",
+      "source": "./altairalabs--promptkit",
+      "description": "Test, red-team, and deploy LLM applications with confidence. Multi-provider support (OpenAI, Anthropic, Gemini), MCP integration, self-play testing, and production SDK."
+    },
+    {
+      "name": "deemkeen--diffwatch",
+      "source": "./deemkeen--diffwatch",
+      "description": "A real-time CLI tool for watching file changes and visualizing diffs in your terminal"
+    },
+    {
+      "name": "cap-go--capacitor-contacts",
+      "source": "./cap-go--capacitor-contacts",
+      "description": "Capacitor plugin to interact with native contact iOS and Android"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -169394,6 +169594,86 @@
       "description": "Mineradio \u4fee\u6539\u7248\uff1a\u652f\u6301\u9177\u72d7\u97f3\u4e50\u767b\u5f55\u3001\u4e91\u7aef\u6b4c\u5355\u540c\u6b65\u3001\u7528\u6237\u4fe1\u606f\u540c\u6b65\uff0c\u5e76\u4f18\u5316\u4e09\u5e73\u53f0\u767b\u5f55\u4e0e\u64ad\u653e\u5668\u89c6\u89c9\u4f53\u9a8c\u3002"
     },
     {
+      "name": "erikvullings--compress-comics",
+      "source": "./erikvullings--compress-comics",
+      "description": "Compresses comic books (CBR or CBZ extension) by using webp and decreasing the target height."
+    },
+    {
+      "name": "tsu-moe--tanstartercn",
+      "source": "./tsu-moe--tanstartercn",
+      "description": "A highly customizable shadcn registry template repository built with TanStack Start. Fork, customize, and deploy free to Cloudflare Workers."
+    },
+    {
+      "name": "baelfyre--orchestra",
+      "source": "./baelfyre--orchestra",
+      "description": "Installable AI workflow plugin that routes complex software tasks through focused specialist skills for architecture, UI/UX, docs, diagrams, databases, QA, security, and resilience review."
+    },
+    {
+      "name": "mastra-ai--workflow-builder-template",
+      "source": "./mastra-ai--workflow-builder-template",
+      "description": "workflow-builder-template"
+    },
+    {
+      "name": "adld-ai--appintoss-kit",
+      "source": "./adld-ai--appintoss-kit",
+      "description": "The workflow for disciplined Apps in Toss generation. Research needs, build mini-apps in loops, generate assets, and prepare submission-ready releases."
+    },
+    {
+      "name": "pxx-design--cabinet",
+      "source": "./pxx-design--cabinet",
+      "description": "Translate a feeling you can't name into transferable moves an AI can build \u2014 a browser inspiration library (feel \u2190 move \u2190 reference), no backend. \u628a\u8bf4\u4e0d\u6e05\u7684\u611f\u89c9\u7ffb\u8bd1\u6210 AI \u80fd\u9020\u7684\u624b\u6cd5\u3002"
+    },
+    {
+      "name": "chainlesschain--chainlesschain",
+      "source": "./chainlesschain--chainlesschain",
+      "description": "chainlesschain"
+    },
+    {
+      "name": "georgeglarson--venicecode",
+      "source": "./georgeglarson--venicecode",
+      "description": "VeniceCode - AI-powered development tool with Venice AI integration. Based on sst/opencode with enhanced model compatibility."
+    },
+    {
+      "name": "t3x-dev--t3x-core",
+      "source": "./t3x-dev--t3x-core",
+      "description": "Version control for structured state."
+    },
+    {
+      "name": "wadackel--ofsht",
+      "source": "./wadackel--ofsht",
+      "description": "A command-line tool for managing Git worktrees with automation features."
+    },
+    {
+      "name": "elcritch--ntagger",
+      "source": "./elcritch--ntagger",
+      "description": "Nim ctags processor"
+    },
+    {
+      "name": "racos-dev--taurent",
+      "source": "./racos-dev--taurent",
+      "description": "taurent"
+    },
+    {
+      "name": "adambossy--transactoid",
+      "source": "./adambossy--transactoid",
+      "description": "AI agent for deeply and precisely analyzing my personal finances. "
+    },
+    {
+      "name": "mblode--beautiful-qr-code",
+      "source": "./mblode--beautiful-qr-code",
+      "description": "Generate beautiful, customizable QR codes in JavaScript"
+    },
+    {
+      "name": "sylphxai--webgpu",
+      "source": "./sylphxai--webgpu",
+      "description": "WebGPU for Node.js via wgpu-rs (modern, lightweight alternative to Dawn)"
+    },
+    {
+      "name": "phuryn--burnstop",
+      "source": "./phuryn--burnstop",
+      "description": "A budget fuse for Claude Code: cap a session in tokens or dollars and halt runaway goals and loops. Auto-arms a $50 cap on goals."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -171967,6 +172247,16 @@
       "name": "alexewerlof--linkedout",
       "source": "./alexewerlof--linkedout",
       "description": "An app to browse LinkedIn data exports offline"
+    },
+    {
+      "name": "agricidaniel--local-competitor-map",
+      "source": "./agricidaniel--local-competitor-map",
+      "description": "AI-powered local-competitor intelligence on a photorealistic Google 3D map. Ask in plain English and see who competes with any business, ranked with ratings and reviews."
+    },
+    {
+      "name": "wdl-dev--wdl",
+      "source": "./wdl-dev--wdl",
+      "description": "Self-hosted multi-tenant Workers platform on stock Cloudflare workerd with multi-replica failover"
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -268737,6 +269027,26 @@
       "name": "pdg137--anagrams",
       "source": "./pdg137--anagrams",
       "description": "anagrams"
+    },
+    {
+      "name": "wahyufauzi--neozpir-gw",
+      "source": "./wahyufauzi--neozpir-gw",
+      "description": "neozpir-gw"
+    },
+    {
+      "name": "eakkpong--edpex-smkcc",
+      "source": "./eakkpong--edpex-smkcc",
+      "description": "edpex-smkcc"
+    },
+    {
+      "name": "gilberth--ops-identity",
+      "source": "./gilberth--ops-identity",
+      "description": "OpsIdentity - Enterprise Active Directory Hygiene, Architecture & Configuration Drift Platform"
+    },
+    {
+      "name": "chainyo--desktop-app-template",
+      "source": "./chainyo--desktop-app-template",
+      "description": "A good tauri app starter I use for my desktop app"
     }
   ]
 }
