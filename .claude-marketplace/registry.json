@@ -170484,6 +170484,16 @@
       "description": "Put the controls back in Mission Control \u2014 close, minimize, zoom, hide, or quit any window right from the macOS Mission Control overview, with full keyboard control. Native, localized, open source."
     },
     {
+      "name": "yeet-src--agent-lock",
+      "source": "./yeet-src--agent-lock",
+      "description": "Confine an AI agent (Claude Code, Codex, oh-my-pi, ...) to one directory with a BPF-LSM program, and watch it live over eBPF."
+    },
+    {
+      "name": "blackcat-informatics--purrdf",
+      "source": "./blackcat-informatics--purrdf",
+      "description": "PurRDF \u2014 one RDF 1.2 engine, one behavior, every language: interned primitives, Turtle/TriG/N-Quads/RDF-XML/JSON-LD codecs, RDFC-1.0, SPARQL 1.1/1.2, SHACL Core, GTS graph transport, and Python/WebAss"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
