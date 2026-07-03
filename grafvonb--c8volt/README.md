@@ -7,12 +7,12 @@ c8volt is a Camunda CLI for Camunda 8 operations.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [grafvonb/c8volt](https://github.com/grafvonb/c8volt).
+Original source: `AGENTS.md` in [grafvonb/c8volt](https://github.com/grafvonb/c8volt).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
