@@ -10139,6 +10139,11 @@
       "description": "uview-plus"
     },
     {
+      "name": "layoutit--polycss",
+      "source": "./layoutit--polycss",
+      "description": "A CSS 3D engine for the DOM. Renders polygon meshes in HTML by leveraging matrix3d transforms. "
+    },
+    {
       "name": "filiksyos--gitreverse",
       "source": "./filiksyos--gitreverse",
       "description": "Reverse engineer any repo into it's original prompt"
@@ -27927,6 +27932,11 @@
       "name": "zerox-dg--vi-rs",
       "source": "./zerox-dg--vi-rs",
       "description": "vi-rs"
+    },
+    {
+      "name": "inclusionai--awex",
+      "source": "./inclusionai--awex",
+      "description": "A high-performance RL training-inference weight synchronization framework, designed to enable second-level parameter updates from training to inference in RL workflows"
     },
     {
       "name": "kaihv--open-banking-chile",
@@ -137304,6 +137314,16 @@
       "description": "Claude orchestrates and reviews; Codex CLI implements. A Claude Code plugin for the two-model kitchen: /serve tasks end to end, /simmer goals until green. Your head chef doesn't chop onions."
     },
     {
+      "name": "m-saad-bin-mazhar--ms-rags-all-in-one",
+      "source": "./m-saad-bin-mazhar--ms-rags-all-in-one",
+      "description": "ms-rags-all-in-one-"
+    },
+    {
+      "name": "ba-itsys--keycloak-push-mfa-extension",
+      "source": "./ba-itsys--keycloak-push-mfa-extension",
+      "description": "Keycloak push MFA Extension"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -158722,6 +158742,36 @@
       "name": "littlepenguin66--mcpacker",
       "source": "./littlepenguin66--mcpacker",
       "description": "A command-line tool to convert client modpacks into ready-to-run Minecraft servers"
+    },
+    {
+      "name": "sbrin--dictant",
+      "source": "./sbrin--dictant",
+      "description": "Minimalistic dictation app for Mac. (OpenAI Whisper wrapper)"
+    },
+    {
+      "name": "joshuadavidthomas--vibeusage",
+      "source": "./joshuadavidthomas--vibeusage",
+      "description": "Track usage across agentic LLM providers from your terminal"
+    },
+    {
+      "name": "shi-gg--linkdave",
+      "source": "./shi-gg--linkdave",
+      "description": "performance, memory efficient, stability focused lavalink rewrite"
+    },
+    {
+      "name": "workato-devs--recipe-skills",
+      "source": "./workato-devs--recipe-skills",
+      "description": "Connector-specific knowledge for AI coding agents building Workato recipes. Datapill syntax, field mappings, control flow patterns, error handling, and schema design. Also home to connector-specific w"
+    },
+    {
+      "name": "imbue-ai--ratchets",
+      "source": "./imbue-ai--ratchets",
+      "description": "Ratchet enforces that style violations for your project only monotonically decrease"
+    },
+    {
+      "name": "sudoeren--karpa",
+      "source": "./sudoeren--karpa",
+      "description": "The modern open-source alternative to cloud translation services. 100% Local, 100% Private."
     },
     {
       "name": "loiane--specs-driven-development",
