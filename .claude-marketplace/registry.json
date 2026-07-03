@@ -158779,6 +158779,16 @@
       "description": "The modern open-source alternative to cloud translation services. 100% Local, 100% Private."
     },
     {
+      "name": "msiccdev--ai-context-kit",
+      "source": "./msiccdev--ai-context-kit",
+      "description": "AI Context Kit provides a structured, instruction-based framework for context-aware AI collaboration across LLM providers. It includes authoritative specs, canonical templates, and skills workflows fo"
+    },
+    {
+      "name": "charlontank--agents-sleep-preventer",
+      "source": "./charlontank--agents-sleep-preventer",
+      "description": "Keep your Mac awake while Claude Code or Codex is working"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -171017,6 +171027,66 @@
       "name": "mason369--ai-rvc",
       "source": "./mason369--ai-rvc",
       "description": "\u4e00\u952e AI \u7ffb\u5531 (One-click AI Cover Generation)\uff1aAI \u68c0\u7d22\u5f0f\u58f0\u97f3\u8f6c\u6362\u5de5\u5177 - AI Retrieval-based Voice Conversion (RVC) toolkit with efficient training and inference pipelines"
+    },
+    {
+      "name": "thecolab-ai--the-for-good-project",
+      "source": "./thecolab-ai--the-for-good-project",
+      "description": "An open research commons where people and AI agents work together to solve New Zealand's biggest societal problems. By thecolab.ai."
+    },
+    {
+      "name": "meltedinhex--analyst-ai-pack",
+      "source": "./meltedinhex--analyst-ai-pack",
+      "description": "An open agent-skills library for malware analysis, reverse engineering, and threat hunting - 118 curated, runnable skills mapped to MITRE ATT&CK, D3FEND, and CAR."
+    },
+    {
+      "name": "meltedinhex--analyst-ai-pack",
+      "source": "./meltedinhex--analyst-ai-pack",
+      "description": "An open agent-skills library for malware analysis, reverse engineering, and threat hunting - 118 curated, runnable skills mapped to MITRE ATT&CK, D3FEND, and CAR."
+    },
+    {
+      "name": "awlx--packetyeeter",
+      "source": "./awlx--packetyeeter",
+      "description": "PacketYeeter: eBPF-based DDoS protection and traffic filtering for Linux (XDP + TC)"
+    },
+    {
+      "name": "qzzqzzb--openclaudescience",
+      "source": "./qzzqzzb--openclaudescience",
+      "description": "A local-first research agent workbench for scientific files, code, skills, and compute. Built on DeepAgents and LangGraph, with project context, previews, tools, and human approvals in one browser UI."
+    },
+    {
+      "name": "arithmomaniac--copilot-session-tools",
+      "source": "./arithmomaniac--copilot-session-tools",
+      "description": "Search & browse your Copilot chat history across CLI + VS Code. Works out-of-the-box with Chronicle."
+    },
+    {
+      "name": "servletcloud--fstache",
+      "source": "./servletcloud--fstache",
+      "description": "Fast dependency-free, typed Mustache renderer for Python 3.12+"
+    },
+    {
+      "name": "juananzzz--resonus",
+      "source": "./juananzzz--resonus",
+      "description": "A clean Android music player for your self-hosted server \u2014 and your local files."
+    },
+    {
+      "name": "liangdi--a2ui",
+      "source": "./liangdi--a2ui",
+      "description": "Rust impl of the A2UI protocol (ratatui terminal + Slint / egui / Bevy / Iced / Dioxus desktop)"
+    },
+    {
+      "name": "catsite05--novelvoice",
+      "source": "./catsite05--novelvoice",
+      "description": "NovelVoice\u662f\u4e00\u4e2aWeb\u5e94\u7528\u7a0b\u5e8f\uff0c\u80fd\u591f\u5c06\u81ea\u52a8\u4e2d\u6587\u5c0f\u8bf4\u6587\u672c\u6587\u4ef6\u8f6c\u6362\u4e3a\u9ad8\u8d28\u91cf\u7684\u6709\u58f0\u4e66\uff0c\u5e76\u63d0\u4f9b\u8fb9\u8f6c\u8fb9\u64ad\u7684\u5728\u7ebf\u64ad\u653e\u529f\u80fd\u3002\u8be5\u7cfb\u7edf\u4f7f\u7528LLM\u667a\u80fd\u5206\u6790\u6587\u672c\u5185\u5bb9\uff0c\u8bc6\u522b\u89d2\u8272\u548c\u5bf9\u8bdd\uff0c\u5e76\u4f7f\u7528\u591a\u58f0\u97f3\u5408\u6210\u6280\u672f\uff0c\u53ef\u4ee5\u6839\u636e\u89d2\u8272\u6027\u522b\u548c\u6027\u683c\u7279\u5f81\u5206\u914d\u4e0d\u540c\u7684\u8bed\u97f3\uff0c\u751f\u6210\u903c\u771f\u7684\u6709\u58f0\u4e66\u4f53\u9a8c\u3002\u9002\u5408\u4e0eNAS\u7b49\u8bbe\u5907\u7ed3\u5408\u4f7f\u7528\uff0c\u5b9e\u73b0\u65e0\u7ebf\u4e0a\u7f51\u64ad\u653e\u3002NovelVoice is a web application that automaticall"
+    },
+    {
+      "name": "shrektan--formaldoc",
+      "source": "./shrektan--formaldoc",
+      "description": "FormalDoc helps you turn AI-generated text into properly formatted Word documents"
+    },
+    {
+      "name": "cyberboyayush--memcontext",
+      "source": "./cyberboyayush--memcontext",
+      "description": "Persistent, evolving memory for AI agents and applications. Save once, retrieve forever."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -270562,6 +270632,46 @@
       "name": "merostax--customer-management-front",
       "source": "./merostax--customer-management-front",
       "description": "customer-management-front"
+    },
+    {
+      "name": "clever021--deezer-explorer",
+      "source": "./clever021--deezer-explorer",
+      "description": "Projeto Pesquisa Deezer 01"
+    },
+    {
+      "name": "usmanperyani-alt--applyai",
+      "source": "./usmanperyani-alt--applyai",
+      "description": "applyai"
+    },
+    {
+      "name": "databreef-io--databreef-io",
+      "source": "./databreef-io--databreef-io",
+      "description": "DataBreef.io"
+    },
+    {
+      "name": "sridhar7601--skillfit-ai",
+      "source": "./sridhar7601--skillfit-ai",
+      "description": "Kannada-first AI video assessment for Karnataka workforce fitment \u2014 multilingual interviews, integrity checks, fitment classification. PanIIT AI for Bharat Hackathon Theme 5."
+    },
+    {
+      "name": "sw-capco--policy-portal",
+      "source": "./sw-capco--policy-portal",
+      "description": "policy-portal"
+    },
+    {
+      "name": "guudin--ir-sniffing-beken-cb3s",
+      "source": "./guudin--ir-sniffing-beken-cb3s",
+      "description": "ir-sniffing-beken-cb3s"
+    },
+    {
+      "name": "mehmtcankilnc--my-portfolio",
+      "source": "./mehmtcankilnc--my-portfolio",
+      "description": "my-portfolio"
+    },
+    {
+      "name": "aonura--evaninlezzetleri",
+      "source": "./aonura--evaninlezzetleri",
+      "description": "evaninlezzetleri"
     }
   ]
 }
