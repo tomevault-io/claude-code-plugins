@@ -1,10 +1,12 @@
 {
   "name": "ndycode--codex-multi-auth",
   "displayName": "codex-multi-auth",
-  "description": "OpenAI Codex CLI multi-account OAuth manager with resilient routing, quota-aware rotation, and terminal-first diagnostics.",
+  "description": "codex-multi-auth",
   "version": "1.0.0",
   "author": "ndycode",
   "homepage": "https://github.com/ndycode/codex-multi-auth",
-  "type": "config",
-  "skills": []
+  "type": "tome",
+  "skills": [
+    "oc-codex-multi-auth"
+  ]
 }
