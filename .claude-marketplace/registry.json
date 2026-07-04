@@ -64369,6 +64369,11 @@
       "description": "LLM Wiki template \u2014 Karpathy 3-layer pattern + Gold In Gold Out purpose gate + Claude Code harness (7 commands, 2 hooks, 18 web clipper templates)"
     },
     {
+      "name": "smh01-mirrors--protonvpn-next-mirror",
+      "source": "./smh01-mirrors--protonvpn-next-mirror",
+      "description": "Primary development on Codeberg - https://codeberg.org/SMH01/ProtonVPN-Next"
+    },
+    {
       "name": "w3cj--ruta",
       "source": "./w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx"
@@ -109204,6 +109209,11 @@
       "description": "AI-powered job search automation built on Open Code + Geometra MCP. So that means entirely free to use end to end. Evaluate offers, generate ATS-optimized CVs, scan portals, negotiate   offers, and tr"
     },
     {
+      "name": "iriseye931-ai--blockhouse",
+      "source": "./iriseye931-ai--blockhouse",
+      "description": "A launch-control room for your local AI agents \u2014 block minifig crew, NASA-style GO/NO-GO board, real-time events from Claude Code hooks and agent logs. No cloud, no simulation."
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -112932,6 +112942,16 @@
       "name": "easylink-ai-open--agent-runtime",
       "source": "./easylink-ai-open--agent-runtime",
       "description": "Standalone agent runtime core with neutral LLM types, provider clients, tool loop, and extension protocols."
+    },
+    {
+      "name": "wave-rf--wavehouse",
+      "source": "./wave-rf--wavehouse",
+      "description": "Schema-aware real-time API gateway for ClickHouse. Async ingestion with per-table batching, JWT/JWKS auth, Hasura-style access policies, query caching, real-time SSE streaming, optional deduplication."
+    },
+    {
+      "name": "wave-rf--wavehouse",
+      "source": "./wave-rf--wavehouse",
+      "description": "Schema-aware real-time API gateway for ClickHouse. Async ingestion with per-table batching, JWT/JWKS auth, Hasura-style access policies, query caching, real-time SSE streaming, optional deduplication."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -117677,6 +117697,11 @@
       "name": "lovelyzombieyho--anica",
       "source": "./lovelyzombieyho--anica",
       "description": "An agentic AI video editor built with Rust for vibe editing."
+    },
+    {
+      "name": "fruitriin--addf",
+      "source": "./fruitriin--addf",
+      "description": "ADDF (\u81ea\u52d5\u4eba\u5f62\u81ea\u5f8b\u958b\u767a\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af/AutomatonDevDriveFramework) is AgenticDevelopmentDrivenFramwork"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -129004,6 +129029,11 @@
       "description": "Collect digital evidence in one place.Disk, RAM, and Android acquisition."
     },
     {
+      "name": "ppak10--rocketsmith",
+      "source": "./ppak10--rocketsmith",
+      "description": "Use agents to design and build high powered rockets"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -137717,6 +137747,26 @@
       "name": "wackygem--fleur",
       "source": "./wackygem--fleur",
       "description": "Fleur \u662f\u4e00\u4e2a\u7531 harness-engineering \u9a71\u52a8 100% AI Coding \u7684\u9762\u5411\u6caa\u6df1A\u80a1\u6295\u7814\u5e73\u53f0\uff0c\u529f\u80fd\u8986\u76d6\u884c\u60c5\u4e0e\u8d22\u52a1\u6570\u636e\u91c7\u96c6\u3001\u6280\u672f\u6307\u6807\u8ba1\u7b97\u3001\u89c4\u5219\u9009\u80a1\u3001\u7b56\u7565\u56de\u6d4b\u3001\u53ca\u7ec4\u5408\u8fd0\u884c\u76d1\u63a7\u3002"
+    },
+    {
+      "name": "acedatacloud--skills",
+      "source": "./acedatacloud--skills",
+      "description": "Agent Skills for AceDataCloud AI services \u2014 music, image, video generation, web search, and more. Compatible with Claude Code, GitHub Copilot, Gemini CLI, and all agentskills.io-compatible agents."
+    },
+    {
+      "name": "zazencodes--zazencodes-season-3",
+      "source": "./zazencodes--zazencodes-season-3",
+      "description": "YouTube video source code for Season 3"
+    },
+    {
+      "name": "yakupbulbul--scenarix",
+      "source": "./yakupbulbul--scenarix",
+      "description": "AI-powered drama series studio - generate screenplays, images, voiceovers, subtitles, and background music, exported as vertical video."
+    },
+    {
+      "name": "acedatacloud--skills",
+      "source": "./acedatacloud--skills",
+      "description": "Agent Skills for AceDataCloud AI services \u2014 music, image, video generation, web search, and more. Compatible with Claude Code, GitHub Copilot, Gemini CLI, and all agentskills.io-compatible agents."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -159312,6 +159362,136 @@
       "name": "prismplural--prism-app",
       "source": "./prismplural--prism-app",
       "description": "End-to-End Encrypted Plural System Tracking & Communication Tools"
+    },
+    {
+      "name": "jolicode--wallet-kit",
+      "source": "./jolicode--wallet-kit",
+      "description": "One fluent API to model Apple Wallet and Google Wallet payloads in typed PHP"
+    },
+    {
+      "name": "hereon-institutems--oasis",
+      "source": "./hereon-institutems--oasis",
+      "description": "OASiS \u2014 an open-source multi-physics and multi-code framework for verified computer simulations. Model Context Protocol (MCP) server connecting AI coding agents to 8 finite element solvers (FEniCSx, d"
+    },
+    {
+      "name": "tonatos--xiaomi-be7000-setup",
+      "source": "./tonatos--xiaomi-be7000-setup",
+      "description": "\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0441\u0442\u0435\u043a \u0434\u043b\u044f \u0440\u043e\u0443\u0442\u0435\u0440\u0430 Xiaomi BE7000 \u0441 Vless Client & Server, Entware OPKG, TorrServer, docker compose \u0441 \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u043c \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c."
+    },
+    {
+      "name": "rbrands--intervals-icu-sync",
+      "source": "./rbrands--intervals-icu-sync",
+      "description": "Connect any GenAI tool to your intervals.icu data \u2014 includes MCP server, Python scripts, system prompts and coaching logic based on Joe Friel."
+    },
+    {
+      "name": "bomly-dev--bomly-cli",
+      "source": "./bomly-dev--bomly-cli",
+      "description": "Free, open-source CLI for dependency intelligence, SBOMs, vulnerability auditing, and CI policy gates."
+    },
+    {
+      "name": "hereon-institutems--oasis",
+      "source": "./hereon-institutems--oasis",
+      "description": "OASiS \u2014 an open-source multi-physics and multi-code framework for verified computer simulations. Model Context Protocol (MCP) server connecting AI coding agents to 8 finite element solvers (FEniCSx, d"
+    },
+    {
+      "name": "nitin27may--e-commerce-agents",
+      "source": "./nitin27may--e-commerce-agents",
+      "description": "6 specialized AI agents collaborating via A2A protocol to power e-commerce \u2014 product discovery, orders, pricing, reviews, inventory & support. Built with Microsoft Agent Framework, FastAPI, Next.js, a"
+    },
+    {
+      "name": "prajaakeeya--prajaakeeya-backend",
+      "source": "./prajaakeeya--prajaakeeya-backend",
+      "description": "prajaakeeya-backend"
+    },
+    {
+      "name": "alessiorubicini--apple-foundation-models-agent-skill",
+      "source": "./alessiorubicini--apple-foundation-models-agent-skill",
+      "description": "Add expert Apple Foundation Models guidance to your AI coding tool (Agent Skills open format)"
+    },
+    {
+      "name": "getdictus--dictus-desktop",
+      "source": "./getdictus--dictus-desktop",
+      "description": "100% offline voice dictation for macOS, Windows & Linux \u2014 Whisper & Parakeet on-device, no cloud, open source."
+    },
+    {
+      "name": "puppyfront-web--social-publish-skills",
+      "source": "./puppyfront-web--social-publish-skills",
+      "description": "\u9762\u5411 Agent \u7684\u53d1\u5e03\u6280\u80fd + TypeScript/Playwright CLI\uff1a\u652f\u6301\u5fae\u4fe1\u89c6\u9891\u53f7\u3001\u6296\u97f3\u3001\u5feb\u624b\u89c6\u9891\u4e0a\u4f20\u4e0e\u591a\u5e73\u53f0\u7f16\u6392\uff1bCookie \u4e0e\u626b\u7801\u767b\u5f55\uff1b\u4e0d\u4f9d\u8d56\u7b2c\u4e09\u65b9\u4e0a\u4f20\u4ed3\u5e93\u3002"
+    },
+    {
+      "name": "bomly-dev--bomly-cli",
+      "source": "./bomly-dev--bomly-cli",
+      "description": "Free, open-source CLI for dependency intelligence, SBOMs, vulnerability auditing, and CI policy gates."
+    },
+    {
+      "name": "runwisp--runwisp",
+      "source": "./runwisp--runwisp",
+      "description": "Cron job manager + process supervisor in a single binary. Web dashboard, TUI, retries, failure notifications. crond/supervisord replacement"
+    },
+    {
+      "name": "hereon-institutems--oasis",
+      "source": "./hereon-institutems--oasis",
+      "description": "OASiS \u2014 an open-source multi-physics and multi-code framework for verified computer simulations. Model Context Protocol (MCP) server connecting AI coding agents to 8 finite element solvers (FEniCSx, d"
+    },
+    {
+      "name": "jolicode--wallet-kit",
+      "source": "./jolicode--wallet-kit",
+      "description": "One fluent API to model Apple Wallet and Google Wallet payloads in typed PHP"
+    },
+    {
+      "name": "baseinfinity--codex-sdlc-wizard",
+      "source": "./baseinfinity--codex-sdlc-wizard",
+      "description": "SDLC Wizard adapter for OpenAI Codex CLI. Plan is certified, implementation needed. PRs welcome!"
+    },
+    {
+      "name": "mpsuesser--effect-claudecode",
+      "source": "./mpsuesser--effect-claudecode",
+      "description": "Effect v4 bindings for Claude Code's plugin primitives \u2014 hooks, skills, settings, MCP servers, frontmatter"
+    },
+    {
+      "name": "tezra-io--fermix",
+      "source": "./tezra-io--fermix",
+      "description": "Your personal AI, everywhere you are."
+    },
+    {
+      "name": "vmux-ai--vmux",
+      "source": "./vmux-ai--vmux",
+      "description": "Vibe Multiplexer \u2014 One prompt. Anything, done. The browser + IDE that get sh*t done"
+    },
+    {
+      "name": "verda-cloud--verda-cli",
+      "source": "./verda-cloud--verda-cli",
+      "description": "verda-cli"
+    },
+    {
+      "name": "accagain2014--llm4rec-wiki",
+      "source": "./accagain2014--llm4rec-wiki",
+      "description": "Automated LLM4Rec Wiki Project Driven by Large Language Models. LLM\u9a71\u52a8\u7ef4\u62a4\u7684LLM4Rec\u77e5\u8bc6\u5e93."
+    },
+    {
+      "name": "hugobowne--mythos-preview-model-card",
+      "source": "./hugobowne--mythos-preview-model-card",
+      "description": "mythos-preview-model-card"
+    },
+    {
+      "name": "elkadrinaoufal1996--hormozi-marketing-ultimate",
+      "source": "./elkadrinaoufal1996--hormozi-marketing-ultimate",
+      "description": "Ultimate marketing plugin for Claude Code and Cowork \u2014  selling digital products (PDF guides, templates, printables)  using Alex Hormozi complete methodology. 40+ skills, 6 slash  commands /hook /offe"
+    },
+    {
+      "name": "aeroxy--job-bro",
+      "source": "./aeroxy--job-bro",
+      "description": "AI-powered LinkedIn job posting analyzer Chrome extension."
+    },
+    {
+      "name": "jerryagbesi--skipper",
+      "source": "./jerryagbesi--skipper",
+      "description": "Manage your ssh connections "
+    },
+    {
+      "name": "maleick--autoresearch",
+      "source": "./maleick--autoresearch",
+      "description": "Autonomous recursive self-improvement engine. Subagent-first iteration loop: Plan \u2192 Modify \u2192 Verify \u2192 Keep/Discard \u2192 Learn \u2192 Repeat. Optimizes any measurable goal overnight."
     },
     {
       "name": "loiane--specs-driven-development",
