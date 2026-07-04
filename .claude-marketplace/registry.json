@@ -3754,6 +3754,11 @@
       "description": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents."
     },
     {
+      "name": "gkurt--tegaki",
+      "source": "./gkurt--tegaki",
+      "description": "Handwriting animation for the web. Supports any font or text."
+    },
+    {
       "name": "openai--openai-agents-js",
       "source": "./openai--openai-agents-js",
       "description": "A lightweight, powerful framework for multi-agent workflows and voice agents"
@@ -27604,6 +27609,11 @@
       "description": "apollo-link-scalars"
     },
     {
+      "name": "traverse-framework--traverse",
+      "source": "./traverse-framework--traverse",
+      "description": "Contract-driven runtime for portable business capabilities \u2014 spec-governed, WASM-first, composable across browser, edge, cloud, and AI."
+    },
+    {
       "name": "ntygod--zhiwei",
       "source": "./ntygod--zhiwei",
       "description": "\u672c\u5730\u4f18\u5148\u7684\u4e2a\u4eba AI Agent \u52a9\u624b\uff0c\u652f\u6301\u8bb0\u5fc6\u3001\u81ea\u4e3b\u4efb\u52a1\u3001\u5de5\u5177\u6388\u6743\u548c\u5de5\u4f5c\u6d41\u3002"
@@ -29554,6 +29564,16 @@
       "description": "ControllerImage"
     },
     {
+      "name": "jentic--jentic-one",
+      "source": "./jentic--jentic-one",
+      "description": "Self-hosted API execution layer that sits between your agent and the outside world. Your agent says what it wants to do. Jentic One handles the how \u2014 finding the right API, injecting credentials at ru"
+    },
+    {
+      "name": "jentic--jentic-one",
+      "source": "./jentic--jentic-one",
+      "description": "Self-hosted API execution layer that sits between your agent and the outside world. Your agent says what it wants to do. Jentic One handles the how \u2014 finding the right API, injecting credentials at ru"
+    },
+    {
       "name": "badlogic--pi-share-hf",
       "source": "./badlogic--pi-share-hf",
       "description": "Collect, review, and upload redacted pi session files to a Hugging Face dataset"
@@ -30182,6 +30202,11 @@
       "name": "alex-on-ai--webreaper",
       "source": "./alex-on-ai--webreaper",
       "description": "WebReaper"
+    },
+    {
+      "name": "kryptosai--mcp-observatory",
+      "source": "./kryptosai--mcp-observatory",
+      "description": "Test, secure, and monitor MCP servers before agents depend on them."
     },
     {
       "name": "wedow--harness",
@@ -38677,6 +38702,11 @@
       "name": "dcaslin--d2-checklist",
       "source": "./dcaslin--d2-checklist",
       "description": "d2-checklist"
+    },
+    {
+      "name": "zengfr--n8n-workflow-all-templates",
+      "source": "./zengfr--n8n-workflow-all-templates",
+      "description": "n8n-workflow-all-templates"
     },
     {
       "name": "freepeak--leankg",
@@ -50174,6 +50204,11 @@
       "description": "hippo"
     },
     {
+      "name": "nightnei--wordpress-developer-mcp-server",
+      "source": "./nightnei--wordpress-developer-mcp-server",
+      "description": "wordpress-developer-mcp-server"
+    },
+    {
       "name": "bioliminal--bioliminal-mobile-application",
       "source": "./bioliminal--bioliminal-mobile-application",
       "description": "Bioliminal mobile application (Flutter)"
@@ -61557,6 +61592,11 @@
       "name": "sergey-rybalkin--emmet-net",
       "source": "./sergey-rybalkin--emmet-net",
       "description": "Emmet.net"
+    },
+    {
+      "name": "jansimek--gecko",
+      "source": "./jansimek--gecko",
+      "description": "gecko"
     },
     {
       "name": "s-zx--crest",
@@ -122639,6 +122679,11 @@
       "description": "Workshop : Observe, optimize and protect your hosted agents in Microsoft Foundry "
     },
     {
+      "name": "imchong--humanoid-robot-learning-paper-notebooks",
+      "source": "./imchong--humanoid-robot-learning-paper-notebooks",
+      "description": "\u4eba\u5f62\u673a\u5668\u4eba\u5f3a\u5316\u5b66\u4e60\u8bba\u6587\u9605\u8bfb\u4efb\u52a1\u6c47\u603b"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -128952,6 +128997,11 @@
       "name": "supabase-community--opencode-supabase",
       "source": "./supabase-community--opencode-supabase",
       "description": "opencode-supabase"
+    },
+    {
+      "name": "noirlang--amele",
+      "source": "./noirlang--amele",
+      "description": "Collect digital evidence in one place.Disk, RAM, and Android acquisition."
     },
     {
       "name": "makenowjust--naraku",
@@ -137662,6 +137712,11 @@
       "name": "microsoft--build26-brk241-from-prototype-to-production-build-and-run-agents-at-scale",
       "source": "./microsoft--build26-brk241-from-prototype-to-production-build-and-run-agents-at-scale",
       "description": "Engineering patterns for taking AI agents to production \u2014 deployment, tools, memory, long-running work, human oversight, and observability at scale. From Microsoft Build 2026."
+    },
+    {
+      "name": "wackygem--fleur",
+      "source": "./wackygem--fleur",
+      "description": "Fleur \u662f\u4e00\u4e2a\u7531 harness-engineering \u9a71\u52a8 100% AI Coding \u7684\u9762\u5411\u6caa\u6df1A\u80a1\u6295\u7814\u5e73\u53f0\uff0c\u529f\u80fd\u8986\u76d6\u884c\u60c5\u4e0e\u8d22\u52a1\u6570\u636e\u91c7\u96c6\u3001\u6280\u672f\u6307\u6807\u8ba1\u7b97\u3001\u89c4\u5219\u9009\u80a1\u3001\u7b56\u7565\u56de\u6d4b\u3001\u53ca\u7ec4\u5408\u8fd0\u884c\u76d1\u63a7\u3002"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
