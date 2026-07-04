@@ -4104,6 +4104,11 @@
       "description": "A Windows context menu management tool with new menu monitoring"
     },
     {
+      "name": "usefulsoftwareco--executor",
+      "source": "./usefulsoftwareco--executor",
+      "description": "The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure environment."
+    },
+    {
       "name": "miantiao-me--hacker-podcast",
       "source": "./miantiao-me--hacker-podcast",
       "description": "\u4e00\u4e2a\u57fa\u4e8e AI \u7684 Hacker News \u4e2d\u6587\u64ad\u5ba2\u9879\u76ee\uff0c\u6bcf\u5929\u81ea\u52a8\u6293\u53d6 Hacker News \u70ed\u95e8\u6587\u7ae0\uff0c\u901a\u8fc7 AI \u751f\u6210\u4e2d\u6587\u603b\u7ed3\u5e76\u8f6c\u6362\u4e3a\u64ad\u5ba2\u5185\u5bb9\u3002"
@@ -52182,6 +52187,16 @@
       "name": "lemonmade--quilt",
       "source": "./lemonmade--quilt",
       "description": "quilt"
+    },
+    {
+      "name": "k-kolomeitsev--data-structure-protocol",
+      "source": "./k-kolomeitsev--data-structure-protocol",
+      "description": "data-structure-protocol"
+    },
+    {
+      "name": "k-kolomeitsev--data-structure-protocol",
+      "source": "./k-kolomeitsev--data-structure-protocol",
+      "description": "data-structure-protocol"
     },
     {
       "name": "indiesoftby--defold-agent-config",
@@ -102584,6 +102599,11 @@
       "description": "Persistent, verified memory for coding agents \u2014 so they stop re-explaining your codebase and never act on stale knowledge. Every memory is checked against your actual code; lives in your repo as plain"
     },
     {
+      "name": "ketraterm--ketraterm",
+      "source": "./ketraterm--ketraterm",
+      "description": "A fast, allocation-conscious terminal emulator for the JVM, built for modern TUI and IDE integrations."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -113009,6 +113029,16 @@
       "description": "Schema-aware real-time API gateway for ClickHouse. Async ingestion with per-table batching, JWT/JWKS auth, Hasura-style access policies, query caching, real-time SSE streaming, optional deduplication."
     },
     {
+      "name": "mateffy--struktur",
+      "source": "./mateffy--struktur",
+      "description": "All-in-one tool for structured data extraction using LLMs. Feed it documents, get back validated JSON. Handles parsing files, chunking, retries, merging, and deduplication \u2014 you just define the schema"
+    },
+    {
+      "name": "diegoguidaf--pulseweaver",
+      "source": "./diegoguidaf--pulseweaver",
+      "description": "Self-hosted forward-auth sidecar that gates your services by request IP + host \u2014 give family and friends per-user access without touching the apps behind your reverse proxy. Not authentication; a roam"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -122769,6 +122799,16 @@
       "description": "\u4eba\u5f62\u673a\u5668\u4eba\u5f3a\u5316\u5b66\u4e60\u8bba\u6587\u9605\u8bfb\u4efb\u52a1\u6c47\u603b"
     },
     {
+      "name": "orka-agents--orka",
+      "source": "./orka-agents--orka",
+      "description": "\ud83d\udc0b Cloud and AI-native multi-agent orchestration platform for Kubernetes"
+    },
+    {
+      "name": "royalapplications--royalterminal",
+      "source": "./royalapplications--royalterminal",
+      "description": "High-performance .NET 10 terminal stack with a backend-neutral Avalonia core (RoyalTerminal.Avalonia), framebuffer shader support, official native Ghostty VT integration (libghostty-vt), and a separat"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -129112,6 +129152,11 @@
       "name": "nextain--naia-shell",
       "source": "./nextain--naia-shell",
       "description": "Naia OS - Next AI Networks OS"
+    },
+    {
+      "name": "bmarolleau--ibm-i-application-modernization-with-bob",
+      "source": "./bmarolleau--ibm-i-application-modernization-with-bob",
+      "description": "IBM-i-Application-Modernization-with-Bob"
     },
     {
       "name": "makenowjust--naraku",
@@ -137937,6 +137982,16 @@
       "name": "hmakt99--akf",
       "source": "./hmakt99--akf",
       "description": "Trust metadata for AI agents \u2014 a stamp costs ~15 tokens, re-verifying costs 15,000. Agents stamp what they verify; the next agent runs 'akf check' and builds on it. pip install akf"
+    },
+    {
+      "name": "aestheticsuraj234--mobleet-clone",
+      "source": "./aestheticsuraj234--mobleet-clone",
+      "description": "mobleet-clone"
+    },
+    {
+      "name": "galaxyproject--loom",
+      "source": "./galaxyproject--loom",
+      "description": "loom"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -159804,6 +159859,81 @@
       "description": "A fast, cross-platform binary package manager built on OCI registries. Turn Docker Hub, GHCR, or any OCI-compliant registry into a binary distribution platform \u2014 zero extra infrastructure"
     },
     {
+      "name": "lhpaul--ai-dev-framework-template",
+      "source": "./lhpaul--ai-dev-framework-template",
+      "description": "A tool-agnostic AI-assisted development framework template. Structured workflow (Spec \u2192 Plan \u2192 Implement \u2192 Review) with canonical protocols, agent definitions for Claude Code/Cursor, and a guided proj"
+    },
+    {
+      "name": "anashel-rpg--ev2090",
+      "source": "./anashel-rpg--ev2090",
+      "description": "ev2090"
+    },
+    {
+      "name": "lhpaul--ai-dev-framework-template",
+      "source": "./lhpaul--ai-dev-framework-template",
+      "description": "A tool-agnostic AI-assisted development framework template. Structured workflow (Spec \u2192 Plan \u2192 Implement \u2192 Review) with canonical protocols, agent definitions for Claude Code/Cursor, and a guided proj"
+    },
+    {
+      "name": "lhpaul--ai-dev-framework-template",
+      "source": "./lhpaul--ai-dev-framework-template",
+      "description": "A tool-agnostic AI-assisted development framework template. Structured workflow (Spec \u2192 Plan \u2192 Implement \u2192 Review) with canonical protocols, agent definitions for Claude Code/Cursor, and a guided proj"
+    },
+    {
+      "name": "lhpaul--ai-dev-framework-template",
+      "source": "./lhpaul--ai-dev-framework-template",
+      "description": "A tool-agnostic AI-assisted development framework template. Structured workflow (Spec \u2192 Plan \u2192 Implement \u2192 Review) with canonical protocols, agent definitions for Claude Code/Cursor, and a guided proj"
+    },
+    {
+      "name": "rimzzlabs--lanjut",
+      "source": "./rimzzlabs--lanjut",
+      "description": "Lanjut is a local-first r\u00e9sum\u00e9 builder that stays entirely in your browser. No account, nothing uploaded. Style it freely, and every export is structured to sail through applicant tracking systems."
+    },
+    {
+      "name": "rsyncosx--rawcull",
+      "source": "./rsyncosx--rawcull",
+      "description": "Sony ARW culling app"
+    },
+    {
+      "name": "lhpaul--ai-dev-framework-template",
+      "source": "./lhpaul--ai-dev-framework-template",
+      "description": "A tool-agnostic AI-assisted development framework template. Structured workflow (Spec \u2192 Plan \u2192 Implement \u2192 Review) with canonical protocols, agent definitions for Claude Code/Cursor, and a guided proj"
+    },
+    {
+      "name": "elcritch--merenda",
+      "source": "./elcritch--merenda",
+      "description": "Cocoa flavored GUI with a dash of QT sprinkled in written in pure Nim"
+    },
+    {
+      "name": "intellectronica--mdbasequery",
+      "source": "./intellectronica--mdbasequery",
+      "description": "CLI and library for querying Markdown-Frontmatter bases (Obsidian-compatible)."
+    },
+    {
+      "name": "jammutkarsh--wandersort",
+      "source": "./jammutkarsh--wandersort",
+      "description": "WanderSort is a local-first media organiser that scans your chaotic pile of photos and videos \u2014 scattered across hard drives, SD cards, and phone dumps \u2014 and structures them into a clean, human-readab"
+    },
+    {
+      "name": "robhunter--agentdeals",
+      "source": "./robhunter--agentdeals",
+      "description": "MCP server aggregating free tiers, startup credits & developer tool deals. 4 tools, 54 categories, 1,525+ offers."
+    },
+    {
+      "name": "fredhjc--waoowaoo",
+      "source": "./fredhjc--waoowaoo",
+      "description": "\u9996\u5bb6\u5de5\u4e1a\u7ea7\u5168\u6d41\u7a0b\u53ef\u63a7\u534f\u4f5c\u5f0f\u4e13\u4e1aAIagent\u5f71\u89c6\u751f\u4ea7\u5e73\u53f0\uff0c\u4ece\u77ed\u7247\u5230\u6f2b\u5267\u5230\u771f\u4eba\u7ea7\u5f71\u89c6\u5267\u4e00\u7ad9\u641e\u5b9a\uff0c\u91c7\u7528\u597d\u83b1\u575e\u4e13\u4e1a\u5236\u4f5c\u56e2\u961f\u601d\u8def\uff0c\u8ba9\u4f60\u62e5\u6709\u865a\u62df\u5236\u7247\u573a"
+    },
+    {
+      "name": "voodootikigod--skills-check",
+      "source": "./voodootikigod--skills-check",
+      "description": "The missing quality toolkit for Agent Skills"
+    },
+    {
+      "name": "nathfavour--clarigggzos",
+      "source": "./nathfavour--clarigggzos",
+      "description": "the universal realtime, efficient agentic operating system to power future devices like smart glasses"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -172292,6 +172422,16 @@
       "name": "adam-s--car-diagnosis",
       "source": "./adam-s--car-diagnosis",
       "description": "Diagnose a car fault from its sound \u2014 an honest, end-to-end audio-ML pipeline (scrape \u2192 clean \u2192 CLAP \u2192 calibrated triage). Proof of concept."
+    },
+    {
+      "name": "yuk1ty--herdr-spreader",
+      "source": "./yuk1ty--herdr-spreader",
+      "description": "Spin up your whole herdr workspace layout \u2014 tabs, panes, commands, and all \u2014 from a single YAML file."
+    },
+    {
+      "name": "vovoronale--rehoboam-sensor-card",
+      "source": "./vovoronale--rehoboam-sensor-card",
+      "description": "A Home Assistant dashboard card for visualizing sensor history and anomaly limits as an animated 3D ring."
     },
     {
       "name": "cheerhuan--save-your-token",
