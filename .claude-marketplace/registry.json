@@ -63519,6 +63519,11 @@
       "description": "Human-supervised AI code generation using Plan-Do-Check-Act methodology with TDD and refactoring. Works as Claude Code skill or standalone prompts."
     },
     {
+      "name": "100yenadmin--fable-token-saving-skills-orchestrator",
+      "source": "./100yenadmin--fable-token-saving-skills-orchestrator",
+      "description": "\ud83e\uddda Fable-first Claude orchestration kit for token-saving lane routing, dense turns, and cache-preserving wait discipline."
+    },
+    {
       "name": "bug-ops--mcp-execution",
       "source": "./bug-ops--mcp-execution",
       "description": "\ud83d\ude80 Generate executable TypeScript tools from MCP servers with 98% token savings. Progressive loading pattern for AI agents. Production-ready."
@@ -78202,6 +78207,11 @@
       "name": "oomol-lab--open-connector",
       "source": "./oomol-lab--open-connector",
       "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI."
+    },
+    {
+      "name": "100yenadmin--lossless-codex-orchestrator-lco",
+      "source": "./100yenadmin--lossless-codex-orchestrator-lco",
+      "description": "Index, search, summarize, and approval-gate local Codex sessions through OpenClaw/MCP. Agent-first recall and dry-run orchestration for Codex-heavy work."
     },
     {
       "name": "eliornl--applypilot",
