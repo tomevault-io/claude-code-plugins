@@ -2,9 +2,9 @@
   "name": "clisbot",
   "owner": "longbkit",
   "repo": "clisbot",
-  "description": "Agentic Coding CLI & chat bot",
-  "type": "config",
-  "source_format": "AGENTS.md",
+  "description": "",
+  "type": "tome",
+  "source_format": "GEMINI.md",
   "formats": [
     {
       "format": "claude_md",
@@ -37,8 +37,27 @@
       "platform": "Windsurf"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "clisbot",
+      "path": "skills/queue-workflow/SKILL.md",
+      "github_url": "https://github.com/longbkit/clisbot/tree/main/skills/queue-workflow/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "clisbot",
+      "path": "skills/web-diff-review/SKILL.md",
+      "github_url": "https://github.com/longbkit/clisbot/tree/main/skills/web-diff-review/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "clisbot",
+      "path": "skills/release-clisbot/SKILL.md",
+      "github_url": "https://github.com/longbkit/clisbot/tree/main/skills/release-clisbot/SKILL.md",
+      "description": ""
+    }
+  ],
   "source_url": "https://github.com/longbkit/clisbot",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-01T21:57:07Z"
+  "distributed_at": "2026-07-04T02:32:53Z"
 }
