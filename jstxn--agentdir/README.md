@@ -7,13 +7,13 @@ Local-first Maildir-inspired work mailstore for software agents
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [jstxn/agentdir](https://github.com/jstxn/agentdir).
+Original source: `AGENTS.md` in [jstxn/agentdir](https://github.com/jstxn/agentdir).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
