@@ -1,0 +1,45 @@
+# repository-harness
+
+> Use `.codex/skills/harness-intake-griller/SKILL.md` when a request needs
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/repository-harness/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Instructions
+
+## Project Skills
+
+Use `.codex/skills/harness-intake-griller/SKILL.md` when a request needs
+discussion, feature intake, docs, or story shaping before Symphony execution.
+The skill is project-scoped; do not use a global copy as the source of truth.
+
+<!-- HARNESS:BEGIN -->
+## Harness
+
+This repo uses Harness. Before work, read:
+
+- `README.md`
+- `docs/HARNESS.md`
+- `docs/FEATURE_INTAKE.md`
+- `docs/ARCHITECTURE.md`
+- `docs/CONTEXT_RULES.md`
+- `docs/TOOL_REGISTRY.md`
+- `scripts/bin/harness-cli query matrix` on macOS/Linux, or `.\scripts\bin\harness-cli.exe query matrix` on Windows
+
+Use the Rust Harness CLI at `scripts/bin/harness-cli` on macOS/Linux or
+`scripts/bin/harness-cli.exe` on Windows as the main operational tool. Before a
+step that could use an external tool, run `scripts/bin/harness-cli query tools
+--capability <name> --status present` to see what is equipped; an absent
+capability is a clean skip.
+<!-- HARNESS:END -->
+
+---
+> Source: [hoangnb24/repository-harness](https://github.com/hoangnb24/repository-harness) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-04 -->
