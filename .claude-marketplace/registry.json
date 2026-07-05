@@ -36044,6 +36044,11 @@
       "description": "OpenCode goal plugin for Codex-style goal mode, /goal slash commands, persistent objectives, and AI coding agent focus."
     },
     {
+      "name": "happenmass--omux",
+      "source": "./happenmass--omux",
+      "description": "Orchestrate AI coding agents (Claude Code, Codex) as parallel subagents over tmux \u2014 a loop-engineering runtime with auto-continue, execute-then-review, and cross-session memory."
+    },
+    {
       "name": "dkyazzentwatwa--apple-flow",
       "source": "./dkyazzentwatwa--apple-flow",
       "description": "Your Apple-Native AI Agent"
@@ -75717,6 +75722,11 @@
       "name": "ameshkov--tokenguard-copilot",
       "source": "./ameshkov--tokenguard-copilot",
       "description": "Use third-party OpenAI-compatible models with VS Code Copilot Chat. Includes proper reasoning support, usage tracking, etc."
+    },
+    {
+      "name": "agentcathq--webmcp-react",
+      "source": "./agentcathq--webmcp-react",
+      "description": "React hooks for exposing your app's functionality as WebMCP tools - transport-agnostic, SSR-safe, Strict Mode safe, W3C spec-aligned"
     },
     {
       "name": "laskewitz--inventory-report",
