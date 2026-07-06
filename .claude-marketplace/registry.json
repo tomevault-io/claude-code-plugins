@@ -161739,6 +161739,21 @@
       "description": "Integration for D\u00e9 EV charger"
     },
     {
+      "name": "microsoft--purview-dlm-mcp",
+      "source": "./microsoft--purview-dlm-mcp",
+      "description": "purview-dlm-mcp"
+    },
+    {
+      "name": "lulzx--cuda-metal",
+      "source": "./lulzx--cuda-metal",
+      "description": "CUDA compiler and runtime for Apple Silicon"
+    },
+    {
+      "name": "mancusolab--scientific-software-playbook",
+      "source": "./mancusolab--scientific-software-playbook",
+      "description": "scientific-software-playbook"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -174537,6 +174552,11 @@
       "name": "anmoln7--agent-standard-oss",
       "source": "./anmoln7--agent-standard-oss",
       "description": "A house standard that keeps AI-agent instruction files (AGENTS.md / CLAUDE.md) honest and single-sourced \u2014 one source of truth, in-repo fix log, anti-drift contracts, and safe commit/deploy hygiene."
+    },
+    {
+      "name": "pieceoffall--jdbg",
+      "source": "./pieceoffall--jdbg",
+      "description": "Debug Java like an agent: persistent runtime sessions, safe JDI inspection, jdb fallback, and MCP/CLI control."
     },
     {
       "name": "cheerhuan--save-your-token",
