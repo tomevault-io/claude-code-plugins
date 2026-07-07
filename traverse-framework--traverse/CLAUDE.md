@@ -131,5 +131,5 @@ Read `.specify/memory/constitution.md` before any implementation work.
 <!-- MANUAL ADDITIONS END -->
 
 ---
-> Source: [traverse-framework/Traverse](https://github.com/traverse-framework/Traverse) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-04 -->
+> Source: [traverse-framework/traverse](https://github.com/traverse-framework/traverse) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-07 -->
