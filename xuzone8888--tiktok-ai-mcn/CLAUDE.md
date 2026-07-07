@@ -1,0 +1,27 @@
+# tiktok-ai-mcn
+
+> - **Mandatory**: All conversations, explanations, plans, comments, and documentation MUST be in **Chinese (Simplified)**.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/tiktok-ai-mcn/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Antigravity/Cursor Rules
+
+## Language Requirement
+- **Mandatory**: All conversations, explanations, plans, comments, and documentation MUST be in **Chinese (Simplified)**.
+- **English Exclusion**: Use English ONLY for code keywords, variable names, and standard technical terms that are commonly used in English (e.g., Next.js, React, API).
+
+## Communication Style
+- Be concise and direct.
+- Use Chinese for step-by-step reasoning.
+
+---
+> Source: [xuzone8888/tiktok-ai-mcn](https://github.com/xuzone8888/tiktok-ai-mcn) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-07 -->
