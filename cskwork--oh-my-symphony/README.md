@@ -7,14 +7,14 @@ Multi-agent fork of OpenAI Symphony — drives Codex, Claude Code, Gemini, and P
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [cskwork/oh-my-symphony](https://github.com/cskwork/oh-my-symphony).
+Original source: `AGENTS.md` in [cskwork/oh-my-symphony](https://github.com/cskwork/oh-my-symphony).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/cskwork/oh-my-symphony](https://github.com/cskwork/oh-my-symphony)
