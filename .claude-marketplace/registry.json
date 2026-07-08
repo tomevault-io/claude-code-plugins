@@ -47464,6 +47464,11 @@
       "description": "Lurker is a beautiful self-hosted modern IRC client with a retro flair, most easily described as \"your personal IRCCloud, with Weechat looks\"."
     },
     {
+      "name": "laikit-dev--luogu-saver-legacy",
+      "source": "./laikit-dev--luogu-saver-legacy",
+      "description": "\u53ef\u9760\u7684\u6d1b\u8c37\u4e13\u680f\u548c\u526a\u8d34\u677f\u4fdd\u5b58\u5e73\u53f0"
+    },
+    {
       "name": "milvasoft--milvaion",
       "source": "./milvasoft--milvaion",
       "description": "Distributed job scheduler with decoupled scheduler & workers, built for scale."
@@ -140189,6 +140194,11 @@
       "description": "Local-first operating memory for AI coding agents - Claude Code, Codex, and any MCP client. Tracks decisions and their evolution. SQLite + on-device embeddings, no cloud."
     },
     {
+      "name": "cap-go--capacitor-photo-library",
+      "source": "./cap-go--capacitor-photo-library",
+      "description": "Capacitor plugin Displays photo gallery as web page, or boring native screen which you cannot modify but require no authorization"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -163059,6 +163069,36 @@
       "description": "\u591aAgent\u534f\u4f5c\u5546\u54c1\u56fe\u7247/\u89c6\u9891\u81ea\u52a8\u751f\u6210\u7cfb\u7edf \u57fa\u4e8e LangGraph \u6784\u5efa\u7684\u591aAgent\u534f\u4f5c\u7cfb\u7edf\uff0c\u5b9e\u73b0\u5546\u54c1\u8425\u9500\u89c6\u89c9\u5185\u5bb9\u7684\u81ea\u52a8\u5316\u751f\u6210\u3002  \u529f\u80fd\u7279\u6027 \ud83e\udd16 \u591aAgent\u534f\u4f5c\u67b6\u6784: 7\u4e2a\u4e13\u4e1aAgent\u534f\u540c\u5de5\u4f5c \ud83d\uddbc\ufe0f \u667a\u80fd\u56fe\u7247\u751f\u6210: \u4e3b\u56fe\u3001\u573a\u666f\u56fe\u3001\u5356\u70b9\u56fe\u81ea\u52a8\u751f\u6210 \ud83c\udfac \u89c6\u9891\u5206\u955c\u751f\u6210: \u667a\u80fd\u5206\u955c\u8bbe\u8ba1+\u89c6\u9891\u5408\u6210 \ud83c\udfa8 \u521b\u610f\u81ea\u52a8\u7b56\u5212: \u98ce\u683c\u63a8\u8350\u3001\u914d\u8272\u65b9\u6848\u8bbe\u8ba1 \u2705 \u8d28\u91cf\u81ea\u52a8\u5ba1\u6838: \u5185\u5bb9\u8d28\u91cf\u68c0\u6d4b\u3001\u5408\u89c4\u5ba1\u6838"
     },
     {
+      "name": "bootc-dev--bootc-operator",
+      "source": "./bootc-dev--bootc-operator",
+      "description": "A Kubernetes operator for managing bootc nodes"
+    },
+    {
+      "name": "slok--gosimov",
+      "source": "./slok--gosimov",
+      "description": "Simple AI agent library in go (general usage but focused on infra/platform tooling automation)"
+    },
+    {
+      "name": "11cookies11--embedded-loop-demo",
+      "source": "./11cookies11--embedded-loop-demo",
+      "description": "embedded-loop-demo"
+    },
+    {
+      "name": "jal-co--pi-skills-sh",
+      "source": "./jal-co--pi-skills-sh",
+      "description": "Browse, install & manage skills.sh skills from inside pi"
+    },
+    {
+      "name": "iptoux--localvoice",
+      "source": "./iptoux--localvoice",
+      "description": "Offline-first desktop voice dictation app with local Whisper transcription, custom dictionary, and zero telemetry."
+    },
+    {
+      "name": "bootc-dev--bootc-operator",
+      "source": "./bootc-dev--bootc-operator",
+      "description": "A Kubernetes operator for managing bootc nodes"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -176119,6 +176159,16 @@
       "description": "for public transport"
     },
     {
+      "name": "llm-space--llm-space",
+      "source": "./llm-space--llm-space",
+      "description": "A workbench for prompt and agent development \u2014 build, trace, debug, evaluate, and manage, all in one place."
+    },
+    {
+      "name": "xboot--xstar",
+      "source": "./xboot--xstar",
+      "description": "A portable embedded system framework for writing cross-platform firmware and applications"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -178772,6 +178822,11 @@
       "name": "supergillis--superdash",
       "source": "./supergillis--superdash",
       "description": "Home Assistant kiosk app for Android tablets"
+    },
+    {
+      "name": "lidonghaofirst--mineradio-lx",
+      "source": "./lidonghaofirst--mineradio-lx",
+      "description": "Mineradio with LX Music custom source support"
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -277292,6 +277347,276 @@
       "name": "henrymyos--fantasy-disc-golf",
       "source": "./henrymyos--fantasy-disc-golf",
       "description": "fantasy-disc-golf"
+    },
+    {
+      "name": "famousmaster206--maths-basis-phoenix",
+      "source": "./famousmaster206--maths-basis-phoenix",
+      "description": "MATHS-BASIS-Phoenix"
+    },
+    {
+      "name": "srlmgr--backend",
+      "source": "./srlmgr--backend",
+      "description": "Backend application"
+    },
+    {
+      "name": "nitishdola--dmo-audit",
+      "source": "./nitishdola--dmo-audit",
+      "description": "dmo-audit"
+    },
+    {
+      "name": "mshirel--song-history",
+      "source": "./mshirel--song-history",
+      "description": "song-history"
+    },
+    {
+      "name": "danza0--fluently",
+      "source": "./danza0--fluently",
+      "description": "fluently"
+    },
+    {
+      "name": "famatyyk--ctoai",
+      "source": "./famatyyk--ctoai",
+      "description": "CTOAi"
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "sunmanofficial189--claude-hq",
+      "source": "./sunmanofficial189--claude-hq",
+      "description": "\ud83d\udd27 The ultimate agentic command center \u2014 a curated arsenal of GitHub repos, MCP servers, custom skills, and automation tools that Claude autonomously selects and activates based on task requirements."
+    },
+    {
+      "name": "sunmanofficial189--claude-hq",
+      "source": "./sunmanofficial189--claude-hq",
+      "description": "\ud83d\udd27 The ultimate agentic command center \u2014 a curated arsenal of GitHub repos, MCP servers, custom skills, and automation tools that Claude autonomously selects and activates based on task requirements."
+    },
+    {
+      "name": "pjsvis--just-silo",
+      "source": "./pjsvis--just-silo",
+      "description": "Directory-based skill pattern for AI agents. Mount a silo, just harvest."
+    },
+    {
+      "name": "gavelino--gavelino-github-io",
+      "source": "./gavelino--gavelino-github-io",
+      "description": "Personal Webpage"
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "wendell04--pm",
+      "source": "./wendell04--pm",
+      "description": "PM"
+    },
+    {
+      "name": "chingleel17--sessionhub",
+      "source": "./chingleel17--sessionhub",
+      "description": "SessionHub"
+    },
+    {
+      "name": "wealdly--justquest",
+      "source": "./wealdly--justquest",
+      "description": "Quest Automation, my way."
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "quarterssa--quarters-website",
+      "source": "./quarterssa--quarters-website",
+      "description": "Quarters-Website"
+    },
+    {
+      "name": "matthewdavi--tanstack-db-ag-grid-worker",
+      "source": "./matthewdavi--tanstack-db-ag-grid-worker",
+      "description": "a mess I made where you run wasm sqlite in a worker and it renders to ag grid "
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "nanami-git--maldi-nn",
+      "source": "./nanami-git--maldi-nn",
+      "description": "Deep learning tools and models for MALDI-TOF mass spectra analysis"
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "sarrahgandhi--wedding",
+      "source": "./sarrahgandhi--wedding",
+      "description": "wedding"
+    },
+    {
+      "name": "sakaricky--pumpapp",
+      "source": "./sakaricky--pumpapp",
+      "description": "Full stack web app to manage petrol station and convenience store"
+    },
+    {
+      "name": "shimizu--r3f-webgpu-template",
+      "source": "./shimizu--r3f-webgpu-template",
+      "description": "React Three Fiber + WebGPU\u306e\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8"
+    },
+    {
+      "name": "ruzveld83--dotfiles",
+      "source": "./ruzveld83--dotfiles",
+      "description": "dotfiles"
+    },
+    {
+      "name": "chanakya-net--intelibill",
+      "source": "./chanakya-net--intelibill",
+      "description": "intelibill"
+    },
+    {
+      "name": "mo-101--idimikang-main",
+      "source": "./mo-101--idimikang-main",
+      "description": "IdimIkang-main"
+    },
+    {
+      "name": "anzisheng--spring",
+      "source": "./anzisheng--spring",
+      "description": "spring"
+    },
+    {
+      "name": "gnol86--fenriq-com",
+      "source": "./gnol86--fenriq-com",
+      "description": "fenriq.com"
+    },
+    {
+      "name": "theweeezel--galavant-user-dashboard",
+      "source": "./theweeezel--galavant-user-dashboard",
+      "description": "Galavant \u2014 walk-to-earn user dashboard on Bitcoin via OPNet"
+    },
+    {
+      "name": "jackscarter4-cmyk--claude-code",
+      "source": "./jackscarter4-cmyk--claude-code",
+      "description": "swing coach"
+    },
+    {
+      "name": "sandy-brook-devworks-llc--sandy-brook-labs",
+      "source": "./sandy-brook-devworks-llc--sandy-brook-labs",
+      "description": "Landing site for Sandy Brook DevWorks Lab Projects"
+    },
+    {
+      "name": "boris-hbx--ergouweb",
+      "source": "./boris-hbx--ergouweb",
+      "description": "ergouWeb"
+    },
+    {
+      "name": "haryunio--law-solver",
+      "source": "./haryunio--law-solver",
+      "description": "A simple solving app for custom questions"
+    },
+    {
+      "name": "sanjaysudhakar-abs--ps360",
+      "source": "./sanjaysudhakar-abs--ps360",
+      "description": "PS360"
+    },
+    {
+      "name": "vinidosite7--tiotrack",
+      "source": "./vinidosite7--tiotrack",
+      "description": "TIOtrack"
+    },
+    {
+      "name": "leonfpontes--senhas",
+      "source": "./leonfpontes--senhas",
+      "description": "Senhas"
+    },
+    {
+      "name": "spirovanni--arcana-pulse",
+      "source": "./spirovanni--arcana-pulse",
+      "description": "Arcana Credit Union as the institution, Arcana Pulse as the consumer app, and arcanacu.org as the web home."
+    },
+    {
+      "name": "await-d--openawork",
+      "source": "./await-d--openawork",
+      "description": "OpenAWork"
+    },
+    {
+      "name": "jusmejr93--surpry",
+      "source": "./jusmejr93--surpry",
+      "description": "surpry"
+    },
+    {
+      "name": "heckspoiler--frontend",
+      "source": "./heckspoiler--frontend",
+      "description": "frontend"
+    },
+    {
+      "name": "bobeenlee--bbl-ai-lab",
+      "source": "./bobeenlee--bbl-ai-lab",
+      "description": "bbl-ai-lab"
+    },
+    {
+      "name": "by20999--memory-gallery",
+      "source": "./by20999--memory-gallery",
+      "description": "Memory-gallery"
+    },
+    {
+      "name": "mshirel--song-history",
+      "source": "./mshirel--song-history",
+      "description": "song-history"
+    },
+    {
+      "name": "muyuq--pytots-web",
+      "source": "./muyuq--pytots-web",
+      "description": "\u9762\u5411 Python \u5f00\u53d1\u8005\u7684 TypeScript \u5b66\u4e60\u5e73\u53f0"
+    },
+    {
+      "name": "solomonsolutionsllc--solomon-solutions-web",
+      "source": "./solomonsolutionsllc--solomon-solutions-web",
+      "description": "Solomon Solutions parent company website - solomonsolutions.tech"
+    },
+    {
+      "name": "famatyyk--ctoai",
+      "source": "./famatyyk--ctoai",
+      "description": "CTOAi"
+    },
+    {
+      "name": "zilbervlad--boston-pie-academy",
+      "source": "./zilbervlad--boston-pie-academy",
+      "description": "boston-pie-academy"
+    },
+    {
+      "name": "sunmanofficial189--claude-hq",
+      "source": "./sunmanofficial189--claude-hq",
+      "description": "\ud83d\udd27 The ultimate agentic command center \u2014 a curated arsenal of GitHub repos, MCP servers, custom skills, and automation tools that Claude autonomously selects and activates based on task requirements."
+    },
+    {
+      "name": "minikot88--das",
+      "source": "./minikot88--das",
+      "description": "das"
+    },
+    {
+      "name": "masakari3794--smec",
+      "source": "./masakari3794--smec",
+      "description": "SMEC"
+    },
+    {
+      "name": "pazthor--dotfiles",
+      "source": "./pazthor--dotfiles",
+      "description": "dotfiles"
+    },
+    {
+      "name": "mrpeel--cricketbattingtracker",
+      "source": "./mrpeel--cricketbattingtracker",
+      "description": "CricketBattingTracker"
+    },
+    {
+      "name": "vorkosigan76--magazine-processing",
+      "source": "./vorkosigan76--magazine-processing",
+      "description": "magazine_processing"
     }
   ]
 }
