@@ -1,4 +1,4 @@
-# laravel-boost
+# drorange0-2-26
 
 > <laravel-boost-guidelines>
 
@@ -7,11 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/laravel-boost/SKILL.md
+Read and follow the instructions in .claude/skills/drorange0-2-26/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 <laravel-boost-guidelines>
 === foundation rules ===
@@ -498,7 +497,7 @@ export default () => (
 - Opacity values are still numeric.
 
 | Deprecated |	Replacement |
-|---+-----|
+|------------+--------------|
 | bg-opacity-* | bg-black/* |
 | text-opacity-* | text-black/* |
 | border-opacity-* | border-black/* |
