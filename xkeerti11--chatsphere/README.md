@@ -7,14 +7,14 @@ chat  app
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [xkeerti11/chatsphere](https://github.com/xkeerti11/chatsphere).
+Original source: `GEMINI.md` in [xkeerti11/chatsphere](https://github.com/xkeerti11/chatsphere).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
-- **Gemini CLI** — `GEMINI.md`
+- **Cursor** — `project-config.mdc`
 - **Windsurf** — `project-config.md`
 
 From [xkeerti11/chatsphere](https://github.com/xkeerti11/chatsphere) — a repo with 0+ stars on GitHub.
