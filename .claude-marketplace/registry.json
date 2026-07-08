@@ -64924,6 +64924,11 @@
       "description": "Local-first memory governance for AI agents: shared, reviewable, auditable memory via SQLite and MCP."
     },
     {
+      "name": "ballerina-nutcracker--ballerina",
+      "source": "./ballerina-nutcracker--ballerina",
+      "description": "Native Ballerina Interpreter"
+    },
+    {
       "name": "w3cj--ruta",
       "source": "./w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx"
@@ -65837,6 +65842,11 @@
       "name": "lihan0705--hindsight-lite",
       "source": "./lihan0705--hindsight-lite",
       "description": "Hindsight-lite: Agent Memory That  Learns lightweight version. Get inspired by hindsight.vectorize.io"
+    },
+    {
+      "name": "brendanlefebvre--supersync-koplugin",
+      "source": "./brendanlefebvre--supersync-koplugin",
+      "description": "Full metadata sync for KOreader via user's own cloud storage"
     },
     {
       "name": "vrsen--mcp-code-exec-agent",
@@ -124664,6 +124674,11 @@
       "description": "A Kubernetes operator for managing GitHub organizations and repositories as code using Custom Resource Definitions (CRDs)."
     },
     {
+      "name": "radiumcoders--isometric-github-contributions",
+      "source": "./radiumcoders--isometric-github-contributions",
+      "description": "Isometric-Github-Contributions"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -140267,6 +140282,11 @@
       "name": "zzackllack--anibridge",
       "source": "./zzackllack--anibridge",
       "description": "FastAPI service that bridges streaming catalogues (AniWorld, Serienstream/s.to, Megakino) to automation tools. It exposes a fake Torznab feed and a fake qBittorrent-compatible API so that applications"
+    },
+    {
+      "name": "jviall--rekordbox-edit",
+      "source": "./jviall--rekordbox-edit",
+      "description": "A command-line tool for bulk operations on your Rekordbox library"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -163214,6 +163234,26 @@
       "description": "no_std ROS 2 client for microcontrollers and RTOS (Zephyr, FreeRTOS, NuttX, ThreadX) and Linux. Rust-first with C/C++ APIs; pluggable Zenoh / XRCE-DDS / Cyclone DDS backends; interoperates with standa"
     },
     {
+      "name": "deer-flow--llm-space",
+      "source": "./deer-flow--llm-space",
+      "description": "A desktop app for agent builders \u2014 prototype your next agent ideas, inspect every step of your harness execution, debug failures, and evaluate performance, all in one place."
+    },
+    {
+      "name": "kbediako--codex-termux-pocket",
+      "source": "./kbediako--codex-termux-pocket",
+      "description": "Codex CLI tweaked for Android/Termux (self-update + build version)"
+    },
+    {
+      "name": "sxzz--kevins-journey",
+      "source": "./sxzz--kevins-journey",
+      "description": "Kevin's travel footprints visualized on a map."
+    },
+    {
+      "name": "makomakogo--novel-proofer",
+      "source": "./makomakogo--novel-proofer",
+      "description": "\u8272\u60c5\u5c0f\u8bf4\u6821\u5bf9\u683c\u5f0f\u5316\u5de5\u5177\uff0c\u5145\u5206\u5229\u7528\u767d\u5ad6\u7684ai\u989d\u5ea6\uff0c\u7eaf vibe coding \u4ea7\u7269"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -176332,6 +176372,21 @@
       "name": "seth-peters--treebox",
       "source": "./seth-peters--treebox",
       "description": "Isolated, ready-to-run git worktrees for coding agents - host-native or docker-sandboxed."
+    },
+    {
+      "name": "yuriipalam--codex-status-bar",
+      "source": "./yuriipalam--codex-status-bar",
+      "description": "A compact macOS menu bar companion for Codex: live status icons, elapsed timers, active and unread sessions, usage indicators, and approval/input alerts."
+    },
+    {
+      "name": "mentallyquill--recursion",
+      "source": "./mentallyquill--recursion",
+      "description": "A Recursive Multi-Step Thinking Extension for SillyTavern"
+    },
+    {
+      "name": "jvuori--zmux",
+      "source": "./jvuori--zmux",
+      "description": "The convenience of Zellij, but in tmux"
     },
     {
       "name": "cheerhuan--save-your-token",
