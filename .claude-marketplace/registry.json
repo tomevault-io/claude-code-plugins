@@ -140219,6 +140219,16 @@
       "description": "An open-source tool designed to manage, organize, and streamline your entire AI filmmaking asset workflow."
     },
     {
+      "name": "fardinlab--jpicst",
+      "source": "./fardinlab--jpicst",
+      "description": "jpicst"
+    },
+    {
+      "name": "learn57130--fable-5",
+      "source": "./learn57130--fable-5",
+      "description": "Fable 5 methodology as a Claude Code plugin: decompose by verification boundaries, verify against the world, choose next by plan-change. Ships fable-scout + fable-refuter agents."
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -163144,6 +163154,21 @@
       "description": "\ud83d\udcc8 Professional momentum stock scanner using Qullamaggie methodology - 20-point scoring with live Yahoo Finance data"
     },
     {
+      "name": "fardinlab--rnail",
+      "source": "./fardinlab--rnail",
+      "description": "rnail"
+    },
+    {
+      "name": "de-bias--debiasr",
+      "source": "./de-bias--debiasr",
+      "description": "Bias adjustment for mobile-phone-derived mobility data"
+    },
+    {
+      "name": "aeondave--malskill",
+      "source": "./aeondave--malskill",
+      "description": "Offensive oriented Skill for agentic AI"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -176227,6 +176252,21 @@
       "name": "zhiweio--eaglerag",
       "source": "./zhiweio--eaglerag",
       "description": "Search knowledge by what documents mean and how they look \u2014 not one or the other."
+    },
+    {
+      "name": "tamdogood--parler-protocol",
+      "source": "./tamdogood--parler-protocol",
+      "description": "a secure chat protocol for AI agents"
+    },
+    {
+      "name": "matteo-grella--fucina",
+      "source": "./matteo-grella--fucina",
+      "description": "CPU-first tensor/autograd runtime and LLM inference engine in pure Zig \u2014 eager execution, GGUF in and out, LoRA training on CPU, benchmarked pairwise against llama.cpp."
+    },
+    {
+      "name": "19akshansh--zachcourse",
+      "source": "./19akshansh--zachcourse",
+      "description": "An AI-Powered Personalized Learning Platform for KagglexGoogle Vibecoding Capstone Competition"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -277962,6 +278002,316 @@
       "name": "jasonw404--inkpi",
       "source": "./jasonw404--inkpi",
       "description": "InkPi"
+    },
+    {
+      "name": "m07amed25--devreview-ai",
+      "source": "./m07amed25--devreview-ai",
+      "description": "Automated code reviews powered by AI. Catch bugs, security issues, and code quality problems instantly directly in your GitHub pull requests."
+    },
+    {
+      "name": "wallarm--ingress-nextgen",
+      "source": "./wallarm--ingress-nextgen",
+      "description": "Kubernetes Ingress controller with integrated Wallarm services - NextGen"
+    },
+    {
+      "name": "ketanchoyal--auddio-addon-sdk",
+      "source": "./ketanchoyal--auddio-addon-sdk",
+      "description": "\"Audiio Addon SDK\""
+    },
+    {
+      "name": "sardark942--vendors-io",
+      "source": "./sardark942--vendors-io",
+      "description": "vendors.io"
+    },
+    {
+      "name": "ahwazakhtar--thesishe",
+      "source": "./ahwazakhtar--thesishe",
+      "description": "ThesisHE"
+    },
+    {
+      "name": "remarkablemark--emoji",
+      "source": "./remarkablemark--emoji",
+      "description": "\ud83d\udd0d Emoji Search: browse and copy emoji to your clipboard"
+    },
+    {
+      "name": "cayn-one--timeline-hub",
+      "source": "./cayn-one--timeline-hub",
+      "description": "Personal telegram bot for long-term storing, fetching and interacting with media via pretty UI"
+    },
+    {
+      "name": "plures--plureslm-vscode",
+      "source": "./plures--plureslm-vscode",
+      "description": "Plures LM VS Code extension \u2014 persistent AI memory for GitHub Copilot Chat (@memory participant)"
+    },
+    {
+      "name": "kfkhalili--khalidalkhalili-com",
+      "source": "./kfkhalili--khalidalkhalili-com",
+      "description": "khalidalkhalili.com"
+    },
+    {
+      "name": "pinut1--touhou--bullet-rhapsody",
+      "source": "./pinut1--touhou--bullet-rhapsody",
+      "description": "Touhou_Bullet_Rhapsody_V01"
+    },
+    {
+      "name": "daly-dai--ai-admin-pro",
+      "source": "./daly-dai--ai-admin-pro",
+      "description": "ai-admin-pro"
+    },
+    {
+      "name": "luisfg10--ai-chatbot-assistant",
+      "source": "./luisfg10--ai-chatbot-assistant",
+      "description": "AI chatbot assistant served on a GUI to solve user queries and tasks without relying on high-level agentic frameworks."
+    },
+    {
+      "name": "kfkhalili--khalidalkhalili-com",
+      "source": "./kfkhalili--khalidalkhalili-com",
+      "description": "khalidalkhalili.com"
+    },
+    {
+      "name": "send--elidex",
+      "source": "./send--elidex",
+      "description": "elidex"
+    },
+    {
+      "name": "orx0815--slingslop",
+      "source": "./orx0815--slingslop",
+      "description": "Hypermedia Driven Application (HDA) based on Apache Sling. Using HTMX / Datastar to GET component markup and to POST content via Sling's OOTB endpoints"
+    },
+    {
+      "name": "kfkhalili--khalidalkhalili-com",
+      "source": "./kfkhalili--khalidalkhalili-com",
+      "description": "khalidalkhalili.com"
+    },
+    {
+      "name": "matracey--lucide-icons-mcp-server",
+      "source": "./matracey--lucide-icons-mcp-server",
+      "description": "MCP server for Lucide Icons \u2014 search docs, props, and code examples from any AI coding assistant"
+    },
+    {
+      "name": "nicholasjohngriffiths--tin200",
+      "source": "./nicholasjohngriffiths--tin200",
+      "description": "TIN200 Webapp"
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "mts-services--drorange0-2-26",
+      "source": "./mts-services--drorange0-2-26",
+      "description": "drorange0_2_26"
+    },
+    {
+      "name": "amank9115--autisense-ai",
+      "source": "./amank9115--autisense-ai",
+      "description": "AI-enabled early autism screening & care management platform"
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "bflinkdesign--agent-comms",
+      "source": "./bflinkdesign--agent-comms",
+      "description": "Universal inter-agent communication bus. File-based JSONL. Zero dependencies."
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "nathanjohnpayne--device-source-of-truth",
+      "source": "./nathanjohnpayne--device-source-of-truth",
+      "description": "Disney Streaming device catalog for partner inventory, specs, deployments, telemetry, and ADK version tracking."
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "solidrhino--dotfiles",
+      "source": "./solidrhino--dotfiles",
+      "description": "Cross-platform dotfiles managed with chezmoi \u2014 fish shell, Neovim/LazyVim, and automated macOS/Linux setup"
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "westonwestenborg--criterion-closet-picks",
+      "source": "./westonwestenborg--criterion-closet-picks",
+      "description": "Searchable database of Criterion Collection Closet Picks episodes"
+    },
+    {
+      "name": "mastersoftherealm--realmsrpg-test",
+      "source": "./mastersoftherealm--realmsrpg-test",
+      "description": "Vercel/Supabase/Next.js repo for RealmsRPG-Test (private, no org)"
+    },
+    {
+      "name": "globalscoreagent--global-score-indexer",
+      "source": "./globalscoreagent--global-score-indexer",
+      "description": "global-score-indexer"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "smartcrabai--smartcrab",
+      "source": "./smartcrabai--smartcrab",
+      "description": "macOS desktop framework for building, running, and managing AI-powered workflows"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "oeig-io--repo-utils",
+      "source": "./oeig-io--repo-utils",
+      "description": "Utility scripts for managing repositories"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "julioandolfo--mkt-privus",
+      "source": "./julioandolfo--mkt-privus",
+      "description": "mkt-privus"
+    },
+    {
+      "name": "phyberapex--hibiki",
+      "source": "./phyberapex--hibiki",
+      "description": "Electron companion app to play music in discord during a D&D session"
+    },
+    {
+      "name": "d0rbu--research-project-template",
+      "source": "./d0rbu--research-project-template",
+      "description": "Correctness-first Python boilerplate for research projects."
+    },
+    {
+      "name": "prekzursil--swfoc-mod-menu",
+      "source": "./prekzursil--swfoc-mod-menu",
+      "description": "Profile-driven SWFOC trainer/editor for base game, AOTR, and ROE with launch-context detection, save tooling, and calibration-first runtime reliability."
+    },
+    {
+      "name": "gershonconsulting--company",
+      "source": "./gershonconsulting--company",
+      "description": "company"
+    },
+    {
+      "name": "darkstarrd-dev--mediaplayerx",
+      "source": "./darkstarrd-dev--mediaplayerx",
+      "description": "MediaPlayerX"
+    },
+    {
+      "name": "makimakisalmon--muscle-map-2d",
+      "source": "./makimakisalmon--muscle-map-2d",
+      "description": "muscle_map_2D"
+    },
+    {
+      "name": "clarkmiyamoto--scsi",
+      "source": "./clarkmiyamoto--scsi",
+      "description": "Self Consistent Stochastic Interpolants implementation"
+    },
+    {
+      "name": "ketanchoyal--auddio-addon-sdk",
+      "source": "./ketanchoyal--auddio-addon-sdk",
+      "description": "\"Audiio Addon SDK\""
+    },
+    {
+      "name": "tonytawil--gamey",
+      "source": "./tonytawil--gamey",
+      "description": "Gamey"
+    },
+    {
+      "name": "axunion--nitonabbc-app",
+      "source": "./axunion--nitonabbc-app",
+      "description": "nitonabbc-app"
+    },
+    {
+      "name": "sitejob-nl--nexoveranda",
+      "source": "./sitejob-nl--nexoveranda",
+      "description": "nexoveranda"
+    },
+    {
+      "name": "wallarm--ingress-nextgen",
+      "source": "./wallarm--ingress-nextgen",
+      "description": "Kubernetes Ingress controller with integrated Wallarm services - NextGen"
+    },
+    {
+      "name": "detectivecrewze--for-you-always",
+      "source": "./detectivecrewze--for-you-always",
+      "description": "for-you-always"
+    },
+    {
+      "name": "samuelfrench--claude-indicator",
+      "source": "./samuelfrench--claude-indicator",
+      "description": "Translucent desktop widget showing Claude Code Max subscription usage limits"
+    },
+    {
+      "name": "h3cz--ace-your-permit",
+      "source": "./h3cz--ace-your-permit",
+      "description": "Duolingo-style Illinois driving test prep app"
+    },
+    {
+      "name": "designforfailure--tax-co-pilot",
+      "source": "./designforfailure--tax-co-pilot",
+      "description": "Tax_Co-Pilot is a locally hosted, privacy-first personal tax software system designed for auditability and reproducibility."
+    },
+    {
+      "name": "late-bloomer420--mitch",
+      "source": "./late-bloomer420--mitch",
+      "description": "miTch"
+    },
+    {
+      "name": "deliciousbuding--vectorcontrol",
+      "source": "./deliciousbuding--vectorcontrol",
+      "description": "VectorControl \u662f\u4e00\u4e2a\u9762\u5411\u4e2a\u4eba\u6295\u8d44\u51b3\u7b56\u7684\u5168\u6808\u7cfb\u7edf\uff0c\u6838\u5fc3\u76ee\u6807\u662f\u628a\u201c\u6570\u636e\u83b7\u53d6 -> \u4f30\u503c\u6c47\u603b -> \u52a8\u4f5c\u5efa\u8bae -> \u6267\u884c\u8bb0\u5f55 -> \u65e5\u62a5\u590d\u76d8\u201d\u505a\u6210\u53ef\u5ba1\u8ba1\u3001\u53ef\u56de\u653e\u3001\u53ef\u90e8\u7f72\u7684\u95ed\u73af\u3002"
+    },
+    {
+      "name": "entropiacity--entropia",
+      "source": "./entropiacity--entropia",
+      "description": "Digital State Arena"
+    },
+    {
+      "name": "kfkhalili--khalidalkhalili-com",
+      "source": "./kfkhalili--khalidalkhalili-com",
+      "description": "khalidalkhalili.com"
+    },
+    {
+      "name": "hellowkeyzj--matcha-claw",
+      "source": "./hellowkeyzj--matcha-claw",
+      "description": "Matcha-claw"
+    },
+    {
+      "name": "upadhyayalab--ppt-image-inserter",
+      "source": "./upadhyayalab--ppt-image-inserter",
+      "description": "Automated insertion of images into PowerPoints"
+    },
+    {
+      "name": "battermanz--hatchdoor",
+      "source": "./battermanz--hatchdoor",
+      "description": "Hatchdoor"
     }
   ]
 }
