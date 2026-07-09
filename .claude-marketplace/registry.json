@@ -163564,6 +163564,11 @@
       "description": "A Claude Code Agent Skill for temporal awareness via the date command"
     },
     {
+      "name": "codingstark-dev--opencode-dataset-plugin",
+      "source": "./codingstark-dev--opencode-dataset-plugin",
+      "description": "Capture OpenCode agent sessions into a local JSONL dataset, review examples in an OpenTUI terminal UI, and export to the formats LLM researchers actually use."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -176737,6 +176742,11 @@
       "name": "miladjoodi--remote-jobboard",
       "source": "./miladjoodi--remote-jobboard",
       "description": "Fullstack remote job board built with Next.js, Prisma & PostgreSQL \u2014 syncs jobs from Remotive API"
+    },
+    {
+      "name": "schmidtfx--ekz-tariffs",
+      "source": "./schmidtfx--ekz-tariffs",
+      "description": "Dynamic Energy prices for EKZ"
     },
     {
       "name": "cheerhuan--save-your-token",
