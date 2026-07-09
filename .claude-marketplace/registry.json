@@ -13754,6 +13754,11 @@
       "description": "Nominal's open-source library for hardware test instrumentation"
     },
     {
+      "name": "nominal-io--instro",
+      "source": "./nominal-io--instro",
+      "description": "Nominal's open-source library for hardware test instrumentation"
+    },
+    {
       "name": "computerlovetech--agr",
       "source": "./computerlovetech--agr",
       "description": "A package manager for AI agents. Install agent skills from GitHub with a single command."
@@ -29402,6 +29407,11 @@
       "name": "hunvreus--heypi",
       "source": "./hunvreus--heypi",
       "description": "Chat agents for your team, with approvals and sandboxed tools. Slack, Discord, Telegram, webhooks."
+    },
+    {
+      "name": "pandazki--pneuma-skills",
+      "source": "./pandazki--pneuma-skills",
+      "description": "pneuma-skills"
     },
     {
       "name": "hoangnb24--skills",
@@ -77324,6 +77334,16 @@
       "description": "Synthefy Tabular public package staging repository"
     },
     {
+      "name": "dev-null-sec--ai-board",
+      "source": "./dev-null-sec--ai-board",
+      "description": "\u7ed9 AI agent \u7528\u7684\u672c\u5730\u8ba1\u5212\u770b\u677f CLI"
+    },
+    {
+      "name": "edonadei--caliper",
+      "source": "./edonadei--caliper",
+      "description": "Local-first eval harness for Claude Code, Codex, Hermes and Pi skills"
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -78957,6 +78977,11 @@
       "name": "zubax--holoso",
       "source": "./zubax--holoso",
       "description": "Simple high-level synthesis of portable Verilog directly from idiomatic imperative Python for numerical/DSP-heavy applications. Not an HDL."
+    },
+    {
+      "name": "jasonxzwen--ai-daily-cn",
+      "source": "./jasonxzwen--ai-daily-cn",
+      "description": "Automated Chinese AI daily publisher that turns structured agent-generated reports into searchable, archived GitHub Pages HTML pages."
     },
     {
       "name": "eliornl--applypilot",
@@ -80682,6 +80707,11 @@
       "name": "huggingface--hf-discover",
       "source": "./huggingface--hf-discover",
       "description": "Agentic Resource Discovery Client/Server"
+    },
+    {
+      "name": "wierdbytes--autosk",
+      "source": "./wierdbytes--autosk",
+      "description": "autosk"
     },
     {
       "name": "10xchengtu--mux0",
@@ -86299,6 +86329,11 @@
       "description": "Analyze your youtube music listening history"
     },
     {
+      "name": "chefroger--smart-trade-ai",
+      "source": "./chefroger--smart-trade-ai",
+      "description": "AI assistant for international trade \u2014 20 B2B skills (lead gen, OSINT, email, docs, compliance). End-to-end customer development pipeline. Runs locally. \u5916\u8d38\u4e1a\u52a1\u5458 AI \u52a9\u624b\u3002"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -88247,6 +88282,11 @@
       "name": "romabeckman--harness-kit",
       "source": "./romabeckman--harness-kit",
       "description": "harness-kit is a powerful utility tool designed to streamline development and automation within the Harness ecosystem. It provides reusable abstractions and modular components to reduce boilerplate, s"
+    },
+    {
+      "name": "dengmengmian--agentgate-ai",
+      "source": "./dengmengmian--agentgate-ai",
+      "description": "\u4e00\u4e2a\u672c\u5730 AI \u7f51\u5173\uff0c\u7edf\u4e00\u7ba1\u7406\u6a21\u578b\u8bf7\u6c42 \u00b7 Local AI gateway for any AI client \u2014 route, convert, fail over, and trace requests across 26 providers."
     },
     {
       "name": "lucianaib0318--geomind",
@@ -91017,6 +91057,11 @@
       "name": "ppttzhu--00-sightreading-3-0",
       "source": "./ppttzhu--00-sightreading-3-0",
       "description": "00-SightReading_3.0"
+    },
+    {
+      "name": "amanayayatu-tech--ksana",
+      "source": "./amanayayatu-tech--ksana",
+      "description": "\u4e00\u4e2a\u672c\u5730\u5316\u7684\u539f\u751f\u4eba\u5de5\u667a\u80fd\u6295\u8d44\u7814\u7a76\u548c\u51b3\u7b56\u7cfb\u7edf\u3002\u5b83\u7684\u8bbe\u8ba1\u7406\u5ff5\u662f\u4f5c\u4e3a\u4e00\u4e2a\u79c1\u4eba\u6295\u8d44\u59d4\u5458\u4f1a\uff0c\u800c\u4e0d\u662f\u4e00\u4e2a\u901a\u7528\u7684\u80a1\u7968\u7b5b\u9009\u5668\u3001\u6295\u8d44\u7ec4\u5408\u7ecf\u7406\u6216\u81ea\u52a8\u4ea4\u6613\u673a\u5668\u4eba\u3002"
     },
     {
       "name": "seven7763--windsurf-tools",
@@ -95707,6 +95752,21 @@
       "name": "latentwill--ideonomy-skill",
       "source": "./latentwill--ideonomy-skill",
       "description": "A Claude Code skill for expanding ideas via Patrick Gunkel's ideonomy, synthesized from Grace Kind's essays. Picks a different combination of operators, organons, and dimension-prompts each invocation"
+    },
+    {
+      "name": "gbeurier--nirs4all-methods",
+      "source": "./gbeurier--nirs4all-methods",
+      "description": "A portable Partial Least Squares engine in C++17 with a stable C ABI and first-class bindings for Python, R, MATLAB, JavaScript/WASM and Android. NIRS / chemometrics / omics / process monitoring. AOM-"
+    },
+    {
+      "name": "kaiwen0418--agent-benchmark",
+      "source": "./kaiwen0418--agent-benchmark",
+      "description": "AgentBench is an interactive benchmarking platform for tool-using AI agents.  Connect your own agent, run practical tasks, and watch every action unfold in real time. With reproducible environments, f"
+    },
+    {
+      "name": "ob-labs--agentseek-api",
+      "source": "./ob-labs--agentseek-api",
+      "description": "Run LangGraph and LangChain apps behind a FastAPI runtime with a standalone agentseek-api CLI"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -103632,6 +103692,16 @@
       "name": "dbfu--teamagentx",
       "source": "./dbfu--teamagentx",
       "description": "teamagentx"
+    },
+    {
+      "name": "monelge--graphrag-mcp-platform",
+      "source": "./monelge--graphrag-mcp-platform",
+      "description": "GraphRag-MCP-Platform"
+    },
+    {
+      "name": "monelge--graphrag-mcp-platform",
+      "source": "./monelge--graphrag-mcp-platform",
+      "description": "GraphRag-MCP-Platform"
     },
     {
       "name": "onevcat--xin",
@@ -114499,6 +114569,26 @@
       "description": "A powerful, AI open-source diagnostic tool  that can improve your sites SEO"
     },
     {
+      "name": "wesleysimplicio--ds4-simplicio-apple-v6",
+      "source": "./wesleysimplicio--ds4-simplicio-apple-v6",
+      "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
+      "name": "stone-yu--ai-draw-skill",
+      "source": "./stone-yu--ai-draw-skill",
+      "description": "AI\u753b\u56feSkill\uff0c\u65e0\u9700\u989d\u5916\u63d0\u793a\u8bcd\uff0c\u76f4\u63a5\u63cf\u8ff0\u6587\u5b57\u3001\u6587\u7ae0\u5168\u6587\u3001\u94fe\u63a5\u5730\u5740\u3001\u56fe\u7247\u3001pdf\u7b49\u4efb\u610f\u9700\u6c42\u683c\u5f0f\uff0c\u5373\u53ef\u751f\u6210html\u683c\u5f0f\u6e32\u67d3\u56fe\u6216PPT\uff0c\u591a\u79cd\u4e3b\u9898\u53ef\u9009\u62e9\uff0c\u6548\u679c\u60ca\u8273\uff0c\u4e14HTML\u65b9\u4fbf\u4fee\u6539\u548c\u8c03\u6574Type one prompt, get a polished HTML deck or architecture diagram. 36 PPT themes + 12 diagram themes (saas-m"
+    },
+    {
+      "name": "wesleysimplicio--ds4-simplicio-apple-v6",
+      "source": "./wesleysimplicio--ds4-simplicio-apple-v6",
+      "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
+      "name": "armandsnow--make-ur-agent-writer",
+      "source": "./armandsnow--make-ur-agent-writer",
+      "description": "Multi-agent LLM pipeline for long-form novel continuation \u00b7 \u591a Agent \u957f\u7bc7\u5c0f\u8bf4\u7eed\u5199\u6d41\u6c34\u7ebf\uff0c19 \u8f6e\u8fed\u4ee3 + \u5168\u7a0b mock-first"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -119372,6 +119462,11 @@
       "name": "evanlong-me--model-usage",
       "source": "./evanlong-me--model-usage",
       "description": "Zero-config CLI for analyzing AI model usage & costs across all local TUI tools \u2014 pi, Claude Code, Codex, Gemini CLI, OpenCode, and more"
+    },
+    {
+      "name": "joeridijkstra--masthead",
+      "source": "./joeridijkstra--masthead",
+      "description": "masthead"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -124757,6 +124852,31 @@
       "name": "yazdanctx--yazdan-me",
       "source": "./yazdanctx--yazdan-me",
       "description": "my personal website"
+    },
+    {
+      "name": "devartifex--copilot-cost",
+      "source": "./devartifex--copilot-cost",
+      "description": "Local-only cost tracking for the GitHub Copilot CLI \u2014 statusline + private dashboard from your OTel traces."
+    },
+    {
+      "name": "gooyoung--pi-langfuse",
+      "source": "./gooyoung--pi-langfuse",
+      "description": "langfuse extension for pi-coding-agent"
+    },
+    {
+      "name": "nicolasmelo1--logion",
+      "source": "./nicolasmelo1--logion",
+      "description": "Agent-native course marketplace and skill registry for executable AI-agent curricula"
+    },
+    {
+      "name": "sfrangulov--claude-code-handbook-ru",
+      "source": "./sfrangulov--claude-code-handbook-ru",
+      "description": "\u041a\u0443\u0440\u0438\u0440\u0443\u0435\u043c\u044b\u0439 handbook \u043f\u043e Claude Code \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c: hooks, skills, CLAUDE.md \u0448\u0430\u0431\u043b\u043e\u043d\u044b, MCP-\u0441\u0435\u0440\u0432\u0435\u0440\u044b, \u043a\u0435\u0439\u0441\u044b."
+    },
+    {
+      "name": "paradedb--drizzle-paradedb",
+      "source": "./paradedb--drizzle-paradedb",
+      "description": "Official extension to Drizzle for use with ParadeDB"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -131272,6 +131392,31 @@
       "name": "jwilger--eventcore-archive-20260705",
       "source": "./jwilger--eventcore-archive-20260705",
       "description": "Moved to https://git.johnwilger.com/jwilger/eventcore because my home lab has better uptime than GitHub :-/"
+    },
+    {
+      "name": "mfittko--dev-loops",
+      "source": "./mfittko--dev-loops",
+      "description": "Shared Pi workflow infrastructure for reusable local and remote development loops"
+    },
+    {
+      "name": "goldbar123467--golfwebgui",
+      "source": "./goldbar123467--golfwebgui",
+      "description": "WEBGUI"
+    },
+    {
+      "name": "mfittko--dev-loops",
+      "source": "./mfittko--dev-loops",
+      "description": "Shared Pi workflow infrastructure for reusable local and remote development loops"
+    },
+    {
+      "name": "defold--extension-automation-bridge",
+      "source": "./defold--extension-automation-bridge",
+      "description": "Debug-only native extension for inspecting a running Defold game and sending input from local automation clients such as Codex"
+    },
+    {
+      "name": "tommasobbianchi--shidaoslicer",
+      "source": "./tommasobbianchi--shidaoslicer",
+      "description": "Belt-printer fork of OrcaSlicer for 45\u00b0 inclined-belt machines (CR-30 / IdeaFormer IR3 V2 family). AGPL-3.0."
     },
     {
       "name": "makenowjust--naraku",
@@ -140377,6 +140522,11 @@
       "name": "jviall--rekordbox-edit",
       "source": "./jviall--rekordbox-edit",
       "description": "A command-line tool for bulk operations on your Rekordbox library"
+    },
+    {
+      "name": "ttwk--opencode-tokenwatch",
+      "source": "./ttwk--opencode-tokenwatch",
+      "description": "OpenCode CLI\u7684\u5b9e\u65f6Token\u7528\u91cf\u7edf\u8ba1\u3001\u7f13\u5b58\u5206\u6790\u4e0e\u6027\u80fd\u6307\u6807\u63d2\u4ef6\u3002Real-time token usage, cache analytics & performance dashboard plugin for OpenCode CLI"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -163364,6 +163514,11 @@
       "description": "llm-notes-all-in-one"
     },
     {
+      "name": "open-syria--datasets-api",
+      "source": "./open-syria--datasets-api",
+      "description": "Public read-only API for OpenSyria datasets, including Syrian geography, cities, districts, localities, universities, transport, releases, and source attribution."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -176507,6 +176662,31 @@
       "name": "tenor-john--obsidian-scholarium",
       "source": "./tenor-john--obsidian-scholarium",
       "description": "Scholarium (from Latin scholaris, \"of scholars\") is your all-in-one research workspace inside Obsidian."
+    },
+    {
+      "name": "enxilium--inkline",
+      "source": "./enxilium--inkline",
+      "description": "Inkline is a dedicated document editor for creative writers. Unlike generic apps like Google Docs or Microsoft Word, we offer dedicated interfaces to keep track of characters, organizations, or locati"
+    },
+    {
+      "name": "mantle-ui--mantle-ui",
+      "source": "./mantle-ui--mantle-ui",
+      "description": "React UI Component Library"
+    },
+    {
+      "name": "halloweedev--usagepal",
+      "source": "./halloweedev--usagepal",
+      "description": "Track all your AI coding subscriptions from your menu bar. Open-source fork of OpenUsage. macOS, Rust + Tauri."
+    },
+    {
+      "name": "midudev--mundial-de-clicks",
+      "source": "./midudev--mundial-de-clicks",
+      "description": "mundial-de-clicks"
+    },
+    {
+      "name": "tricked-dev--solidverdant",
+      "source": "./tricked-dev--solidverdant",
+      "description": "ANDROID SOLIDTIME APP - Easily manage your solidtime time tracking using a android tile"
     },
     {
       "name": "cheerhuan--save-your-token",
