@@ -1,10 +1,17 @@
 {
   "name": "mattolson--agent-sandbox",
   "displayName": "agent-sandbox",
-  "description": "Secure local dev environment for AI agent collaboration",
+  "description": "agent-sandbox",
   "version": "1.0.0",
   "author": "mattolson",
   "homepage": "https://github.com/mattolson/agent-sandbox",
-  "type": "config",
-  "skills": []
+  "type": "tome",
+  "skills": [
+    "agent-sandbox",
+    "agent-sandbox",
+    "agent-sandbox",
+    "agent-sandbox",
+    "agent-sandbox",
+    "agent-sandbox"
+  ]
 }
