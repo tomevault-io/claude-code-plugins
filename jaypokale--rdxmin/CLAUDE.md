@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/rdxmin/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 # RDXmin
 
 RDXmin — maximum-efficiency dev mode. Two compressions, always active together.
