@@ -5774,6 +5774,11 @@
       "description": "atomic"
     },
     {
+      "name": "firecrawl--pdf-inspector",
+      "source": "./firecrawl--pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
+    },
+    {
       "name": "k-dense-ai--claude-scientific-writer",
       "source": "./k-dense-ai--claude-scientific-writer",
       "description": "A general purpose scientific writer"
@@ -8802,11 +8807,6 @@
       "name": "hyper-mcp-rs--hyper-mcp",
       "source": "./hyper-mcp-rs--hyper-mcp",
       "description": "\ud83d\udce6\ufe0f A fast, secure MCP server that extends its capabilities through WebAssembly plugins."
-    },
-    {
-      "name": "firecrawl--pdf-inspector",
-      "source": "./firecrawl--pdf-inspector",
-      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
     },
     {
       "name": "supabitapp--supacode",
@@ -27217,6 +27217,11 @@
       "name": "vybenetwork--x402-client",
       "source": "./vybenetwork--x402-client",
       "description": "Client SDK for the Vybe x402 API. Pay-per-call USDC over HTTP and prepaid-credit WebSocket streaming for Vybe's Solana analytics API. Built for AI agents."
+    },
+    {
+      "name": "yulong-ge--aifeedtracker",
+      "source": "./yulong-ge--aifeedtracker",
+      "description": "Real-time content creator update monitor with AI-powered video summarization and Feishu bot integration."
     },
     {
       "name": "azure-samples--python-mcp-demos",
@@ -119817,6 +119822,11 @@
       "name": "fideus-labs--konfai",
       "source": "./fideus-labs--konfai",
       "description": "A simple and flexible deep learning framework based on PyTorch and YAML configuration files."
+    },
+    {
+      "name": "mrbear1024--ai-content-kb",
+      "source": "./mrbear1024--ai-content-kb",
+      "description": "A review-first reference architecture for AI-assisted personal content knowledge systems"
     },
     {
       "name": "ripeseed--rs-tunnel",
