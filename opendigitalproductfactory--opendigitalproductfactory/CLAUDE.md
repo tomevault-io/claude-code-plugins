@@ -1,4 +1,4 @@
-# 000-load-agents
+# opendigitalproductfactory
 
 > Read /AGENTS.md at the repo root before any work in this project. It is the canonical rulebook; tool-specific files in this repo are pointers to it.
 
@@ -7,10 +7,12 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/000-load-agents/SKILL.md
+Read and follow the instructions in .claude/skills/opendigitalproductfactory/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
+# Load AGENTS.md
 
 Read /AGENTS.md at the repo root before any work in this project. It is the canonical rulebook; tool-specific files in this repo are pointers to it.
 
