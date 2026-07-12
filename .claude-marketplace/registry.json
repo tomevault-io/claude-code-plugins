@@ -165774,6 +165774,16 @@
       "description": "Program to create MIDI files from Synthesia piano videos"
     },
     {
+      "name": "quinnjr--armybox",
+      "source": "./quinnjr--armybox",
+      "description": "A #[no_std] BusyBox/Toybox clone in Rust - 291 applets, 108KB binary, 100% Toybox compatible"
+    },
+    {
+      "name": "btafoya--gomailserver",
+      "source": "./btafoya--gomailserver",
+      "description": "Modern, composable all-in-one mail server in Go with SMTP, IMAP, CalDAV, CardDAV, DKIM, SPF, DMARC, antivirus, and anti-spam"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -179482,6 +179492,16 @@
       "name": "korovin-aa97--talkthrough-mcp",
       "source": "./korovin-aa97--talkthrough-mcp",
       "description": "MCP server: turn narrated screen recordings into agent-ready data \u2014 local Whisper transcript, scene keyframes, OCR, wall-clock anchoring. Record your screen, talk \u2014 your AI agent files the bugs."
+    },
+    {
+      "name": "yonidavidson--agentcomm",
+      "source": "./yonidavidson--agentcomm",
+      "description": "A tiny mailbox for AI agents \u2014 one CLI, six backends (GitHub repo, SQLite, S3, GCS, Postgres, local). The repo is the bus."
+    },
+    {
+      "name": "milanglacier--pi-dynamic-workflow",
+      "source": "./milanglacier--pi-dynamic-workflow",
+      "description": "Dynamic workflow orchestration for pi: the LLM authors a JS orchestration script that fans out isolated pi subagent sessions. Written by Claude Fable 5."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -282637,6 +282657,16 @@
       "name": "sgraff610--golf-strategy",
       "source": "./sgraff610--golf-strategy",
       "description": "golf-strategy"
+    },
+    {
+      "name": "fadymakram10--martshop",
+      "source": "./fadymakram10--martshop",
+      "description": "martshop"
+    },
+    {
+      "name": "bgyss--zosia",
+      "source": "./bgyss--zosia",
+      "description": "zosia"
     }
   ]
 }
