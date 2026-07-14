@@ -1,0 +1,26 @@
+# claude-architect
+
+> - Advance the minor version for every marketplace release: `0.3.0` -> `0.4.0` -> `0.5.0`. Do not publish patch-version tags.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/claude-architect/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Instructions
+
+## Releases
+
+- Advance the minor version for every marketplace release: `0.3.0` -> `0.4.0` -> `0.5.0`. Do not publish patch-version tags.
+- Keep `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, the README version badge, and `CHANGELOG.md` on the same version.
+- Run `bash scripts/validate-release.sh` before every release push.
+- Do not commit a release tag or push it when validation fails.
+
+---
+> Source: [Pythoughts-labs/claude-architect](https://github.com/Pythoughts-labs/claude-architect) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-14 -->
