@@ -39944,6 +39944,11 @@
       "description": "ha-db_infoscreen"
     },
     {
+      "name": "andry-lebedev--neobank-primitives",
+      "source": "./andry-lebedev--neobank-primitives",
+      "description": "neobank-primitives"
+    },
+    {
       "name": "jjongguet--oh-my-product",
       "source": "./jjongguet--oh-my-product",
       "description": "oh-my-product"
@@ -88839,6 +88844,11 @@
       "description": "Open Source & Self-hosted Spotify release tracker. Auto-syncs new releases to playlists and includes power-user utilities like a discography generator and ghost track cleaner."
     },
     {
+      "name": "theswerd--brainless",
+      "source": "./theswerd--brainless",
+      "description": "Claude Code, Codex, and Grok interfaces as shadcn components"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "source": "./lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill"
@@ -107914,6 +107924,21 @@
       "description": "Open-source alternative to Maestri. Native macOS multi-agent orchestration canvas \u2014 connect, coordinate & deploy Claude Code, Codex, OpenCode, Gemini CLI agents visually."
     },
     {
+      "name": "harpercodelabs--simple-ai-tools-dashboard",
+      "source": "./harpercodelabs--simple-ai-tools-dashboard",
+      "description": "simple-ai-tools-dashboard"
+    },
+    {
+      "name": "harpercodelabs--next-supabase-start-kit",
+      "source": "./harpercodelabs--next-supabase-start-kit",
+      "description": "next-supabase-start-kit"
+    },
+    {
+      "name": "harpercodelabs--invoice-v2",
+      "source": "./harpercodelabs--invoice-v2",
+      "description": "invoice-v2"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -120504,6 +120529,11 @@
       "description": "Tool to report source code metrics"
     },
     {
+      "name": "pythoughts-labs--claude-architect",
+      "source": "./pythoughts-labs--claude-architect",
+      "description": "Architect-first delegation for Claude Code and OpenCode. A Fable/Opus session routes implementation to Codex, the OpenCode provider pool, local Pi ($0), or autonomous Pythinker, then reviews every dif"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -126027,6 +126057,11 @@
       "name": "paymobaccept--paymob-ai-integration-skill",
       "source": "./paymobaccept--paymob-ai-integration-skill",
       "description": "Official Paymob payment integration skill for Claude Code \u2014 Intention API, HMAC, mobile wallets, BNPLs, Apple Pay across Node.js, Python, PHP, Flutter and more"
+    },
+    {
+      "name": "yjoonjang--rebuttal-skills",
+      "source": "./yjoonjang--rebuttal-skills",
+      "description": "Draft grounded rebuttals to your paper's reviews, with the experiments actually run in your workspace"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -132682,6 +132717,11 @@
       "name": "feigecode--navop",
       "source": "./feigecode--navop",
       "description": "Navop combines Navigate and Operation\u2014a unified workspace that helps developers navigate and operate databases, servers, terminals, and AI tools from one place."
+    },
+    {
+      "name": "shinshin86--live2d-add-motion-sample-web-ui",
+      "source": "./shinshin86--live2d-add-motion-sample-web-ui",
+      "description": "live2d-add-motion-sample-web-ui"
     },
     {
       "name": "makenowjust--naraku",
@@ -142127,6 +142167,16 @@
       "name": "mhyrzt--xrat",
       "source": "./mhyrzt--xrat",
       "description": "Rust CLI/TUI proxy manager for Xray-core, V2Ray-core, and sing-box: import subscriptions,   test latency, rotate proxies, scan edge IPs, and run managed local proxy sessions."
+    },
+    {
+      "name": "zkbys--whiteboard",
+      "source": "./zkbys--whiteboard",
+      "description": "whiteboard"
+    },
+    {
+      "name": "asimons81--wp-chatgpt-publisher",
+      "source": "./asimons81--wp-chatgpt-publisher",
+      "description": "Finally, a way to let ChatGPT touch your WordPress site that doesn't involve handing over your API key, your admin password, or your dignity."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -166314,6 +166364,41 @@
       "description": "A chrome extension to Modify HTTP headers, block assets or domains & redirect requests. Organise rules by folder and tab, optionally scope to domains."
     },
     {
+      "name": "nocentino--sql-on-k8s-operator",
+      "source": "./nocentino--sql-on-k8s-operator",
+      "description": "A Kubernetes operator for SQL Server on Linux that automates the full lifecycle of standalone instances and Always On Availability Groups (AG)."
+    },
+    {
+      "name": "amyotoff--open-pipi",
+      "source": "./amyotoff--open-pipi",
+      "description": "Open-source, token-frugal agents for real teams \u2014 private memory, shared packs, your hardware."
+    },
+    {
+      "name": "eladav--backburner",
+      "source": "./eladav--backburner",
+      "description": "Keep your side projects moving. Backburner runs AI coding agents on your machine, controlled through GitHub issues and pull requests."
+    },
+    {
+      "name": "laceprndpm--my-nano-vllm",
+      "source": "./laceprndpm--my-nano-vllm",
+      "description": "my-nano-vllm"
+    },
+    {
+      "name": "lin-zhijie-nana--kapathy-llm-wiki",
+      "source": "./lin-zhijie-nana--kapathy-llm-wiki",
+      "description": "\u8fd9\u662f\u6211\u7684\u7b2c\u4e00\u4e2a\u9879\u76ee\uff0c\u672c\u9879\u76ee\u662f\u5bf9 Karpathy \u539f\u59cb gist\uff08karpathy/442a6bf555914893e9891c11519de94f\uff09\u7684\u4e2d\u6587\u6574\u7406\u4e0e\u6269\u5c55\uff0c\u65e8\u5728\u5e2e\u52a9\u4e2d\u6587\u7528\u6237\u7406\u89e3\u548c\u5b9e\u8df5\u8fd9\u5957\u5de5\u4f5c\u6d41"
+    },
+    {
+      "name": "ausagentsmith-org--rusttorrent",
+      "source": "./ausagentsmith-org--rusttorrent",
+      "description": "A modern BitTorrent client written in Rust \u2014 fast, lightweight, self-hosted"
+    },
+    {
+      "name": "misaka11132--ppt-master",
+      "source": "./misaka11132--ppt-master",
+      "description": "ppt-master"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -180299,6 +180384,26 @@
       "description": "Grok Build plugin: hand work to local Claude Code or Codex as a background task"
     },
     {
+      "name": "moonray--repoprompt-workflows",
+      "source": "./moonray--repoprompt-workflows",
+      "description": "repoprompt-workflows"
+    },
+    {
+      "name": "doughnutbean--bilispider",
+      "source": "./doughnutbean--bilispider",
+      "description": "\u4e00\u4e2abilibili\u67e5\u8bc4\u8bba\u672c\u5730\u5316\u90e8\u7f72\u5de5\u5177\uff0c\u5305\u62ec\u76ee\u6807\u8bc4\u8bba\u722c\u53d6\u4e0e\u76ee\u6807\u8bc4\u8bba\u67e5\u8be2\u4e24\u90e8\u5206\uff0c\u8ba9\u6211\u770b\u770b\uff01\uff08\u5305\u542b\u4e2a\u4eba\u5c0f\u578b\u6570\u636e\u5e93\uff0c\u6b22\u8fce\u5c06\u4f60\u722c\u53d6\u7684\u5185\u5bb9\u5408\u5e76\u5230\u672c\u6570\u636e\u5e93\uff09"
+    },
+    {
+      "name": "js0980420--open-cards",
+      "source": "./js0980420--open-cards",
+      "description": "open-cards"
+    },
+    {
+      "name": "deathcats4--instsci-workflow",
+      "source": "./deathcats4--instsci-workflow",
+      "description": "Agent-friendly InstSci workflow preview for legal paper acquisition, browser evidence, and Zotero handoff"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -183132,6 +183237,11 @@
       "name": "drferdii--ferdiiskandar-com",
       "source": "./drferdii--ferdiiskandar-com",
       "description": "Sentra Founder Dossier \u2014 public site for dr Ferdi Iskandar, physician, hospital CEO, and founder of Sentra Artificial Intelligence"
+    },
+    {
+      "name": "neeeophytee--ai-cost-cutter-skills",
+      "source": "./neeeophytee--ai-cost-cutter-skills",
+      "description": "10 skills that cut your AI bill with proof instead of vibes. MIT, works in Claude Code, Codex, Cursor. Every skill's check is executed by CI."
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
