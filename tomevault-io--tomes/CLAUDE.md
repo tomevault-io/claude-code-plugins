@@ -1,16 +1,20 @@
-# agents-md
+# copilot-instructions-md
 
-> Core CLI code lives in `src/` (commands, API client, services, auth, server, TDD, and shared utils).
+> > Core CLI code lives in `src/` (commands, API client, services, auth, server, TDD, and shared utils).
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agents-md/SKILL.md
+Read and follow the instructions in .claude/skills/copilot-instructions-md/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
+## cli
+
+> Core CLI code lives in `src/` (commands, API client, services, auth, server, TDD, and shared utils).
 
 # Repository Guidelines
 
@@ -60,7 +64,7 @@ For local development, isolate CLI state with `VIZZLY_HOME` (for example `~/.viz
 
 ---
 > Source: [vizzly-testing/cli](https://github.com/vizzly-testing/cli) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:agents_md:2026-05-14 -->
+<!-- tomevault:4.0:copilot_instructions:2026-05-14 -->
 
 ---
 > Source: [tomevault-io/tomes](https://github.com/tomevault-io/tomes) — distributed by [TomeVault](https://tomevault.io).
