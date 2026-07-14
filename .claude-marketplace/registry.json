@@ -81224,6 +81224,11 @@
       "description": "paxm"
     },
     {
+      "name": "botirkhaltaev--semanticcache",
+      "source": "./botirkhaltaev--semanticcache",
+      "description": "A Go library for semantic caching with LRU eviction, supporting vector-based similarity search with pluggable embedding backends (local or cloud)."
+    },
+    {
       "name": "10xchengtu--mux0",
       "source": "./10xchengtu--mux0",
       "description": "MUX0"
@@ -96382,6 +96387,11 @@
       "name": "aicl-lab--cursor-rules",
       "source": "./aicl-lab--cursor-rules",
       "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding guidance"
+    },
+    {
+      "name": "tareqmy--gitwig",
+      "source": "./tareqmy--gitwig",
+      "description": "a rust based tui an alternative to sourcetree"
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -126069,6 +126079,11 @@
       "description": "Draft grounded rebuttals to your paper's reviews, with the experiments actually run in your workspace"
     },
     {
+      "name": "martinandreev--conduit",
+      "source": "./martinandreev--conduit",
+      "description": "Spec-driven orchestration for coding-agent teams: refine requirements into contracts, run isolated specialist agents in parallel, and review live diffs in a terminal TUI."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -132737,6 +132752,16 @@
       "name": "bunnies3011--gpt-upi-tool",
       "source": "./bunnies3011--gpt-upi-tool",
       "description": "gpt-upi-tool"
+    },
+    {
+      "name": "cvoya-com--graph",
+      "source": "./cvoya-com--graph",
+      "description": "An abstraction for a Graph that supports LINQ expressions."
+    },
+    {
+      "name": "cvoya-com--graph",
+      "source": "./cvoya-com--graph",
+      "description": "An abstraction for a Graph that supports LINQ expressions."
     },
     {
       "name": "makenowjust--naraku",
@@ -142197,6 +142222,11 @@
       "name": "kamune-org--kamune",
       "source": "./kamune-org--kamune",
       "description": "Communication over untrusted networks"
+    },
+    {
+      "name": "risys-lab--reasonclip",
+      "source": "./risys-lab--reasonclip",
+      "description": "[ECCV 2026] Visually Grounded Commonsense Reasoning Surpervison for CLIP-like Models"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
