@@ -96569,6 +96569,11 @@
       "description": "Codex\u3001Claude Code\u7684\u9006\u5411\u7834\u9664\u9650\u5236CTF"
     },
     {
+      "name": "yashraj-n--tenet",
+      "source": "./yashraj-n--tenet",
+      "description": "An AI agent that reads your GitHub issues so you don't have to. Comment /tenet-build, it explores the repo, ships a pull request, and reviews PRs on the side. Works while you sleep. Doesn't ask for eq"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -126379,6 +126384,11 @@
       "description": "A type-safe, modular Rust application framework built on Axum. Batteries-included: DI, controllers, middleware, guards, pipes, WebSocket gateways, scheduling, caching, and OpenAPI."
     },
     {
+      "name": "eigen-is--eigen",
+      "source": "./eigen-is--eigen",
+      "description": "Your own workspace. A self-hosted, open source alternative to Google Workspace: mail, drive, docs, sheets, slides, calendar and chat."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -133082,6 +133092,11 @@
       "name": "enkhbold470--bci-mcp",
       "source": "./enkhbold470--bci-mcp",
       "description": "Stream live EEG brain state (focus, calm, attention) from any EEG device into Claude and any MCP client \u2014 a real Model Context Protocol server + brain-computer interface toolkit."
+    },
+    {
+      "name": "scottylabs--maps",
+      "source": "./scottylabs--maps",
+      "description": "READ-ONLY MIRROR"
     },
     {
       "name": "makenowjust--naraku",
@@ -142617,6 +142632,11 @@
       "name": "keros68--metrik",
       "source": "./keros68--metrik",
       "description": "\u672c\u5730\u4f18\u5148\u7684 AI Agent \u7528\u91cf\u7edf\u8ba1\u684c\u9762\u5e94\u7528\uff1a\u5b98\u65b9\u914d\u989d\u3001\u672c\u5730 Token\u3001\u4f30\u7b97\u6210\u672c\u4e09\u7c7b\u4e8b\u5b9e\u5206\u5f00\u5448\u73b0\uff0c\u8bfb\u4e0d\u5230\u5c31\u8bf4\u4e0d\u53ef\u7528"
+    },
+    {
+      "name": "cognitedata--library",
+      "source": "./cognitedata--library",
+      "description": "The Cognite deployment packs \u2014 downloadable, extensible Toolkit modules that you configure and deploy with the Cognite Toolkit."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -167229,6 +167249,16 @@
       "description": "Neovim plugin for llm CLI"
     },
     {
+      "name": "wangyuahn--nori-code",
+      "source": "./wangyuahn--nori-code",
+      "description": "Loop-core multi-agent coding tool that orchestrates work through plan\u2192implement\u2192review cycles. The    orchestrator is read-only \u2014 it searches project memory, enforces custom rules, and delegates all c"
+    },
+    {
+      "name": "potistudio--aexlo",
+      "source": "./potistudio--aexlo",
+      "description": "Load \"After Effects Effect Plugin (.aex)\" and render them directly without Adobe After Effects. (currently under heavy development)"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -181417,6 +181447,21 @@
       "name": "cursey--memmy",
       "source": "./cursey--memmy",
       "description": "memmy"
+    },
+    {
+      "name": "sunkuangdong--deep-research-assistant",
+      "source": "./sunkuangdong--deep-research-assistant",
+      "description": "A multi-agent project and integrated various middlewares."
+    },
+    {
+      "name": "catoncat--xsearch",
+      "source": "./catoncat--xsearch",
+      "description": "One-shot structured search CLI and Agent Skill for OpenAI-compatible Grok model endpoints"
+    },
+    {
+      "name": "pzarzycki--token-companion",
+      "source": "./pzarzycki--token-companion",
+      "description": "Local, privacy-first desktop analytics for Claude and Codex usage records already on disk."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -285037,6 +285082,51 @@
       "name": "genneth--pacioli",
       "source": "./genneth--pacioli",
       "description": "Bare-bones spending tracker"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "presbrey--pkg",
+      "source": "./presbrey--pkg",
+      "description": "all my new go libraries live here"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "elizio--vanilla-webapp-framework",
+      "source": "./elizio--vanilla-webapp-framework",
+      "description": "vanilla-webapp-framework"
+    },
+    {
+      "name": "pantalasa--frontend",
+      "source": "./pantalasa--frontend",
+      "description": "frontend"
     }
   ]
 }
