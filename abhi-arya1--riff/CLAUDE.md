@@ -1,4 +1,4 @@
-# riff
+# use-bun-instead-of-node-vite-npm-pnpm
 
 > Use Bun instead of Node.js, npm, pnpm, or vite.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/riff/SKILL.md
+Read and follow the instructions in .claude/skills/use-bun-instead-of-node-vite-npm-pnpm/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
