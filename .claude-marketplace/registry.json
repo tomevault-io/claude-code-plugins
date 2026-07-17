@@ -142964,6 +142964,11 @@
       "description": "Ansible \u81ea\u52a8\u5316\u90e8\u7f72\u4e0e\u8fd0\u7ef4 MySQL InnoDB Cluster\uff1a\u96c6\u6210 MySQL Router\u3001HAProxy\u3001Keepalived\u3001\u8bfb\u5199\u5206\u79bb\u3001\u6269\u7f29\u5bb9\u548c\u53ef\u9009\u5907\u4efd\u3002"
     },
     {
+      "name": "kenandarabeh--sofizpay-sdk-python",
+      "source": "./kenandarabeh--sofizpay-sdk-python",
+      "description": "sofizpay-sdk-python"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -167859,6 +167864,56 @@
       "description": "Automatically itemize and categorize retail transactions in Monarch Money"
     },
     {
+      "name": "jamesoleinik--launch-control",
+      "source": "./jamesoleinik--launch-control",
+      "description": "Launch Control \u2014 a 12-episode LinkedIn series building a launch-management system on Microsoft Dataverse: data model, agents (declarative + autonomous + code-first), generative Power Apps page, and ag"
+    },
+    {
+      "name": "flowmux-ai--flowmux-terminal",
+      "source": "./flowmux-ai--flowmux-terminal",
+      "description": "FlowMux \u2014 Agent Workflow Multiplexer Terminal. Go with the agents' flow."
+    },
+    {
+      "name": "sitcon-tw--flickr-photo-finder",
+      "source": "./sitcon-tw--flickr-photo-finder",
+      "description": "SITCON Flickr \u516c\u958b\u6d3b\u52d5\u7167\u7247\u7d22\u5f15\u8207\u641c\u5c0b\u5de5\u5177\uff0c\u5354\u52a9\u7c4c\u5099\u5718\u968a\u7528\u793e\u7fa4\u3001\u7db2\u7ad9\u3001\u8d0a\u52a9\u3001\u65b0\u805e\u7a3f\u8207\u6d3b\u52d5\u56de\u9867\u7b49\u771f\u5be6\u9700\u6c42\u627e\u7167\u7247\u3002"
+    },
+    {
+      "name": "buptzyb--torch-cudagraph-debug",
+      "source": "./buptzyb--torch-cudagraph-debug",
+      "description": "CUDA Graph runtime tensor debugging utilities for PyTorch"
+    },
+    {
+      "name": "swarajbachu--zuse",
+      "source": "./swarajbachu--zuse",
+      "description": "A repository for forkzero"
+    },
+    {
+      "name": "itradingai--aiwiki",
+      "source": "./itradingai--aiwiki",
+      "description": "Local Markdown knowledge base for AI assistants. Save what your AI reads, ask it later, and keep everything local."
+    },
+    {
+      "name": "barrydeen--wisp-ios",
+      "source": "./barrydeen--wisp-ios",
+      "description": "wisp-ios"
+    },
+    {
+      "name": "jwjxlxl--wolin-learn-master",
+      "source": "./jwjxlxl--wolin-learn-master",
+      "description": "wolin_learn-master"
+    },
+    {
+      "name": "jamesoleinik--launch-control",
+      "source": "./jamesoleinik--launch-control",
+      "description": "Launch Control \u2014 a 12-episode LinkedIn series building a launch-management system on Microsoft Dataverse: data model, agents (declarative + autonomous + code-first), generative Power Apps page, and ag"
+    },
+    {
+      "name": "phoenixlucky--zerotoken-skill",
+      "source": "./phoenixlucky--zerotoken-skill",
+      "description": "\u26a1 ZeroToken Skill \u2014 \u8ba9 Agent \u7528\u6700\u5c11\u7684 token \u505a\u6700\u51c6\u7684\u4e8b\u3002\u63d0\u793a\u8bcd\u7eaa\u5f8b\u89c4\u8303\uff1a\u538b\u7f29\u65e0\u6548\u4e0a\u4e0b\u6587\u3001\u65e0\u6548\u89e3\u91ca\u3001\u65e0\u6548\u5de5\u5177\u8c03\u7528\u3001\u65e0\u6548\u8f93\u51fa\uff0c\u51c6\u786e\u6027\u4e0d\u964d\u3002"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -182332,6 +182387,36 @@
       "name": "myonics--chromstream",
       "source": "./myonics--chromstream",
       "description": "Python package for parsing and processing on-line gas chromatography data"
+    },
+    {
+      "name": "tecnicalbot--mobile-agent",
+      "source": "./tecnicalbot--mobile-agent",
+      "description": "Mobile Agent is an open-source AI agent built specifically for mobile devices that runs entirely on your phone."
+    },
+    {
+      "name": "vibebrains--vibeide",
+      "source": "./vibebrains--vibeide",
+      "description": "VibeIDE"
+    },
+    {
+      "name": "mxucc--cpa-account-config-manager",
+      "source": "./mxucc--cpa-account-config-manager",
+      "description": "cpa-account-config-manager"
+    },
+    {
+      "name": "roland-luo--codex-dream-skin",
+      "source": "./roland-luo--codex-dream-skin",
+      "description": "codex\u4e3b\u9898\u76ae\u80a4\uff0cfork\u81eahttps://github.com/Fei-Away/Codex-Dream-Skin"
+    },
+    {
+      "name": "sunshinelixun--video-publish-skill",
+      "source": "./sunshinelixun--video-publish-skill",
+      "description": "Local-first Codex skill for preparing and safely staging video publishing assets"
+    },
+    {
+      "name": "davidmosiah--whoop-mcp",
+      "source": "./davidmosiah--whoop-mcp",
+      "description": "Local-first MCP server for WHOOP recovery, HRV & sleep \u2014 Claude, Cursor, ChatGPT ready"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -286299,11 +286384,6 @@
       "description": "portfolio"
     },
     {
-      "name": "rhinos0608--pi-smartread",
-      "source": "./rhinos0608--pi-smartread",
-      "description": "Pi-SmartRead"
-    },
-    {
       "name": "wildkemo--ir-project",
       "source": "./wildkemo--ir-project",
       "description": "ir-project"
@@ -286517,6 +286597,96 @@
       "name": "diiimodiiimo--songbird",
       "source": "./diiimodiiimo--songbird",
       "description": "Songbird"
+    },
+    {
+      "name": "rhinos0608--pi-smartread",
+      "source": "./rhinos0608--pi-smartread",
+      "description": "Pi-SmartRead"
+    },
+    {
+      "name": "alfaturachman--portofolio-nextjs",
+      "source": "./alfaturachman--portofolio-nextjs",
+      "description": "portofolio-nextjs"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "alfaturachman--portofolio-nextjs",
+      "source": "./alfaturachman--portofolio-nextjs",
+      "description": "portofolio-nextjs"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "source": "./sc-nipunaabeywickrama--xmcloud-starter-js-07-08",
+      "description": "xmcloud-starter-js-07-08"
+    },
+    {
+      "name": "alfaturachman--portofolio-nextjs",
+      "source": "./alfaturachman--portofolio-nextjs",
+      "description": "portofolio-nextjs"
+    },
+    {
+      "name": "jergensturdley--terminal-explorer",
+      "source": "./jergensturdley--terminal-explorer",
+      "description": "terminal-explorer"
+    },
+    {
+      "name": "uigleki--dotfiles",
+      "source": "./uigleki--dotfiles",
+      "description": "Maximum efficiency, minimum complexity development environment using Nix flakes."
+    },
+    {
+      "name": "hsagency587--longkai2",
+      "source": "./hsagency587--longkai2",
+      "description": "LEZIONI DI WING CHUN"
+    },
+    {
+      "name": "hallboard-team--template-backend-mongodb",
+      "source": "./hallboard-team--template-backend-mongodb",
+      "description": "A template with .NET and MongoDB database."
+    },
+    {
+      "name": "alfaturachman--portofolio-nextjs",
+      "source": "./alfaturachman--portofolio-nextjs",
+      "description": "portofolio-nextjs"
+    },
+    {
+      "name": "xxx3r--sns-s-s",
+      "source": "./xxx3r--sns-s-s",
+      "description": "Python simulation framework for space-based solar-nano-sphere swarm dynamics and power-chain modeling power"
     }
   ]
 }
