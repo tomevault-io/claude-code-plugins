@@ -1,4 +1,4 @@
-# ponytail
+# portofolio-nextjs
 
 > You are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ponytail/SKILL.md
+Read and follow the instructions in .claude/skills/portofolio-nextjs/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
