@@ -7,12 +7,12 @@ A rhythm-based JOI (Jerk Off Instruction) game with video synchronization, beat 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [JacobPillai/Enjoining](https://github.com/JacobPillai/Enjoining).
+Original source: `AGENTS.md` in [JacobPillai/Enjoining](https://github.com/JacobPillai/Enjoining).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
