@@ -1,19 +1,19 @@
-# recheck-301-optional-func-test
+# recheck-302-optional-func-alltest
 
-> AI instruction file for tripvibe by Jiyoon-Yang
+> 프로젝트 전체테스트 npm run test:e2e 요청
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/recheck-301-optional-func-test/SKILL.md
+Read and follow the instructions in .claude/skills/recheck-302-optional-func-alltest/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-테스트조건 재검토 요청
+프로젝트 전체테스트 npm run test:e2e 요청
 
 ---
 > Source: [Jiyoon-Yang/tripvibe](https://github.com/Jiyoon-Yang/tripvibe) — distributed by [TomeVault](https://tomevault.io).
