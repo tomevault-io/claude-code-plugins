@@ -1,26 +1,33 @@
-# 002-swift-style
+# 003-build-and-test
 
-> - **Indentation**: 2 spaces; ~100‑char line limit.
+> Build, Test, and Development commands for WonderWhisper
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/002-swift-style/SKILL.md
+Read and follow the instructions in .claude/skills/003-build-and-test/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Swift Style Guide
+# Build, Test, and Development
 
-- **Indentation**: 2 spaces; ~100‑char line limit.
-- **Naming**: types `PascalCase`; methods/vars `camelCase`; constants `static let`.
-- **Files**: one primary type per file; filename matches type (e.g., `AudioTranscriber.swift`).
-- **UI**: prefer SwiftUI with small, composable views and preview providers.
-- **Formatting/Lint**: if configured, run `swiftformat .` and `swiftlint` before committing.
+- **Open in Xcode**:
+  - `open "WonderWhisper.xcodeproj"` (use `.xcworkspace` if present).
+- **Build (Debug)**:
+  - ```bash
+    xcodebuild -project "WonderWhisper.xcodeproj" -scheme "WonderWhisper" -configuration Debug build
+    ```
+- **Test (macOS)**:
+  - ```bash
+    xcodebuild -project "WonderWhisper.xcodeproj" -scheme "WonderWhisper" -destination 'platform=macOS' test
+    ```
+- **Run locally**:
+  - Use Xcode, or `./Scripts/build-and-run.sh` for a script-built Debug app.
 
-Favor clarity and explicitness. Avoid deep nesting beyond 2–3 levels; use guard clauses; handle errors explicitly.
+Prefer absolute paths in commands within this workspace.
 
 ---
 > Source: [dkapo88/WonderWhisper-macOS](https://github.com/dkapo88/WonderWhisper-macOS) — distributed by [TomeVault](https://tomevault.io).
