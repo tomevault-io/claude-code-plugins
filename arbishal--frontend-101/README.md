@@ -1,0 +1,26 @@
+# Frontend-101
+
+> Source: [arBishal/Frontend-101](https://github.com/arBishal/Frontend-101) — distributed by [TomeVault](https://tomevault.io)
+
+Everyday frontend concepts explained with interactive demo.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [arBishal/Frontend-101](https://github.com/arBishal/Frontend-101).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/arBishal/Frontend-101](https://github.com/arBishal/Frontend-101)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-p -->
