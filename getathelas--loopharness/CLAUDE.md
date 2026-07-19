@@ -1,0 +1,32 @@
+# loopharness
+
+> - **Open all PRs against `develop`**, not `main`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/loopharness/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Instructions
+
+## Branching and PRs
+
+- **Open all PRs against `develop`**, not `main`.
+- `develop` is the integration branch where agent work lands first.
+- A scheduled job automatically opens a PR from `develop` to `main` once per day, so there is no need to target `main` directly.
+
+## Workflow
+
+1. Branch from `develop`.
+2. Make your changes.
+3. Open a PR back into `develop`.
+4. The daily `develop` → `main` PR will pick up your merged work automatically.
+
+---
+> Source: [getathelas/LoopHarness](https://github.com/getathelas/LoopHarness) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-18 -->
