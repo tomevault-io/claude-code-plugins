@@ -168794,6 +168794,11 @@
       "description": "Frigate Home Assistant AI Notification Blueprint"
     },
     {
+      "name": "nataliapc--msxcode",
+      "source": "./nataliapc--msxcode",
+      "description": "An AI client for MSX2 machines with a RAM Mapper and a UNAPI TCPIP device."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -183647,6 +183652,16 @@
       "name": "yyu0310--cc-to-grok-bridge",
       "source": "./yyu0310--cc-to-grok-bridge",
       "description": "Bridge Claude Code \u2192 Grok Build: shared rules/skills, hook adapter hard-gates, optional memory mirror"
+    },
+    {
+      "name": "sunrisepeak--mbun",
+      "source": "./sunrisepeak--mbun",
+      "description": "Rewrite Bun in MC++ - Just for fun"
+    },
+    {
+      "name": "angristan--pi-extensions",
+      "source": "./angristan--pi-extensions",
+      "description": "pi is \ud83d\udc10"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -288567,6 +288582,11 @@
       "name": "manwjh--research-garden",
       "source": "./manwjh--research-garden",
       "description": "research-garden"
+    },
+    {
+      "name": "shagai--template-metaprograming",
+      "source": "./shagai--template-metaprograming",
+      "description": "Try to improve my knowledge of Template Metaprograming using Codex"
     }
   ]
 }
