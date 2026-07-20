@@ -1,24 +1,24 @@
 # AI instruction files for Unla
 
-> Sourced from [AmoyLab/Unla](https://github.com/AmoyLab/Unla) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [AmoyLab/Unla](https://github.com/AmoyLab/Unla), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [AmoyLab/Unla](https://github.com/AmoyLab/Unla).
+Original source: `AGENTS.md` in [AmoyLab/Unla](https://github.com/AmoyLab/Unla).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From a repo with 0+ stars on GitHub. [See the full profile](https://tomevault.io/claim/AmoyLab)
+From [AmoyLab/Unla](https://github.com/AmoyLab/Unla) — a repo with 2177+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
