@@ -1,0 +1,29 @@
+# griddyn
+
+> - This repository uses CMake, and the common local Windows build entry point is `cmake --build build --config Debug --parallel 4`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/griddyn/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Repository Guidelines
+
+## Build Notes
+
+- This repository uses CMake, and the common local Windows build entry point is `cmake --build build --config Debug --parallel 4`.
+- On some Windows environments, MSBuild can fail before compilation with `MSB6001` and a duplicate-environment-key error mentioning both `Path` and `PATH`.
+- Only if that exact issue appears, rerun the build from `cmd` with the mixed-case `Path` entry cleared for the child process:
+  `cmd /v:on /c "set Path=& cmake --build build --config Debug --parallel 4"`
+- Use the same pattern for other CMake build targets when needed, for example:
+  `cmd /v:on /c "set Path=& cmake --build build --config Debug --target NetworkComponentTests --clean-first --parallel 4"`
+- Do not assume every build needs this workaround; use normal build commands unless the `Path`/`PATH` collision is actually present.
+
+---
+> Source: [LLNL/GridDyn](https://github.com/LLNL/GridDyn) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-20 -->
