@@ -1,0 +1,42 @@
+# axum-login
+
+> This repo is a workspace with the library at `axum-login/` and examples under
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/axum-login/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS
+
+This repo is a workspace with the library at `axum-login/` and examples under
+`examples/*`.
+
+## Expectations
+- Prefer the builder-based `require` API for new docs/examples; macros are legacy
+  conveniences.
+- Keep public API changes breaking only in breaking releases; document in
+  `CHANGELOG.md`.
+- Avoid unnecessary cloning; favor `Arc` where shared state is needed.
+- Keep docs and examples in sync with the library API.
+
+## Style
+- Run `cargo fmt` (or `cargo +nightly fmt --all -- --check` in CI).
+- Clippy is enforced: `cargo clippy --workspace --all-targets --all-features -- -D warnings`.
+
+## Tests
+- Full suite: `cargo test` (includes unit, integration, doc tests).
+- Targeted runs are ok while iterating, but re-run full suite before shipping.
+
+## Release hygiene
+- Update `CHANGELOG.md` for net-new changes relative to `main`.
+- Keep commit messages descriptive and documentation-friendly.
+
+---
+> Source: [maxcountryman/axum-login](https://github.com/maxcountryman/axum-login) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-20 -->
