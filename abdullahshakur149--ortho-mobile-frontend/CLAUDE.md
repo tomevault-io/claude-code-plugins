@@ -1,18 +1,18 @@
-# rule-2
+# rule-3
 
-> always import colors from the colors.dart file
+> if you are asked to make a functionality change, make sure to not mess up the UI while doing that
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/rule-2/SKILL.md
+Read and follow the instructions in .claude/skills/rule-3/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-always import colors from the colors.dart file
+if you are asked to make a functionality change, make sure to not mess up the UI while doing that
 
 ---
 > Source: [abdullahshakur149/ortho-mobile-frontend](https://github.com/abdullahshakur149/ortho-mobile-frontend) — distributed by [TomeVault](https://tomevault.io).
