@@ -1,18 +1,18 @@
-# rule-1
+# rule-2
 
-> only make the changes you are asked to, nothing more, nothing less
+> always import colors from the colors.dart file
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/rule-1/SKILL.md
+Read and follow the instructions in .claude/skills/rule-2/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-only make the changes you are asked to, nothing more, nothing less
+always import colors from the colors.dart file
 
 ---
 > Source: [abdullahshakur149/ortho-mobile-frontend](https://github.com/abdullahshakur149/ortho-mobile-frontend) — distributed by [TomeVault](https://tomevault.io).
