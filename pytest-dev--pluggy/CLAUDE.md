@@ -1,0 +1,21 @@
+# pluggy
+
+> See @CLAUDE.md for AI coding agent instructions.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/pluggy/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+See @CLAUDE.md for AI coding agent instructions.
+
+---
+> Source: [pytest-dev/pluggy](https://github.com/pytest-dev/pluggy) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-20 -->
