@@ -1,0 +1,32 @@
+# attachme
+
+> - Multi-module Gradle project: `agent` and `plugin`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/attachme/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Project overview
+- Multi-module Gradle project: `agent` and `plugin`.
+- IntelliJ Platform plugin built from `plugin` using Java 21 toolchain.
+
+## Common commands
+- `./gradlew build` for full build.
+- `./gradlew :plugin:runIde` to launch the IDE with the plugin.
+- `./gradlew :agent:build` to build the agent jar only.
+
+## Notes
+- Use the Gradle wrapper for all tasks.
+- Keep changes compatible with the IntelliJ Platform Gradle plugin setup in `plugin/build.gradle.kts`.
+
+---
+> Source: [JetBrains/attachme](https://github.com/JetBrains/attachme) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-21 -->
