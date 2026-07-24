@@ -5,12 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [metao1/microservice-online-store](https://github.com/metao1/microservice-online-store).
+Original source: `copilot-instructions.md` in [metao1/microservice-online-store](https://github.com/metao1/microservice-online-store).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
