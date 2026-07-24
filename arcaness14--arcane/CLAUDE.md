@@ -1,4 +1,4 @@
-# ss14-tests
+# ss14-ui
 
 > <!-- SPDX-License-Identifier: LicenseRef-OpenSpace-AgentPrompts-Restricted -->
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ss14-tests/SKILL.md
+Read and follow the instructions in .claude/skills/ss14-ui/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,21 +15,28 @@ Or copy the instructions below directly into your CLAUDE.md:
 <!-- SPDX-License-Identifier: LicenseRef-OpenSpace-AgentPrompts-Restricted -->
 
 ---
-description: Test-layer selection and authoring rules for SS14 content and integration coverage.
+description: UI, XAML, BUI, and predicted client-state rules for SS14 client work.
 globs:
-  - Content.Tests/**/*.cs
-  - Content.IntegrationTests/**/*.cs
+  - Content.Client/**/*.cs
+  - Content.Client/**/*.xaml
+  - Content.Client/**/*.xaml.cs
+  - Content.Goobstation.Client/**/*.cs
+  - Content.Goobstation.Client/**/*.xaml
+  - Content.Goobstation.Client/**/*.xaml.cs
+  - Content.Goobstation.UIKit/**/*.cs
+  - Content.Goobstation.UIKit/**/*.xaml
+  - Content.Goobstation.UIKit/**/*.xaml.cs
 alwaysApply: false
 ---
 
 Read these skills before editing matching files:
 
-- @.agents/skills/ss14-tests-authoring/SKILL.md
 - @.agents/skills/ss14-naming-conventions/SKILL.md
 - @.agents/skills/ss14-upstream-maintenance/SKILL.md
-
-- Prefer the smallest test layer that covers the risk.
-- Keep test additions focused on the changed behavior.
+- @.agents/skills/ss14-prediction/SKILL.md
+- @.agents/skills/ss14-localization-strings/SKILL.md
+- @.agents/skills/ss14-localization-code/SKILL.md
+- @.agents/skills/ss14-ui-bui/SKILL.md
 
 ---
 > Source: [ArcaneSS14/arcane](https://github.com/ArcaneSS14/arcane) — distributed by [TomeVault](https://tomevault.io).
