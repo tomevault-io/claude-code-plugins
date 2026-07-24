@@ -1,0 +1,33 @@
+# ss14-core
+
+> <!-- SPDX-License-Identifier: LicenseRef-OpenSpace-AgentPrompts-Restricted -->
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/ss14-core/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+<!-- SPDX-License-Identifier: LicenseRef-OpenSpace-AgentPrompts-Restricted -->
+
+---
+description: Core SS14 Orion repo guidance, skill routing, and validation rules.
+alwaysApply: true
+---
+
+Apply @AGENTS.md
+Apply @.agents/rules/ss14-skill-preflight-and-refresh.md
+Apply @.agents/rules/ss14-engine-boundaries.md
+Apply @.agents/rules/ss14-localization-required.md
+Apply @.agents/rules/ss14-testing-and-validation.md
+
+- Use `.agents/skills/` as the canonical project skill set.
+- Keep changes inside content boundaries unless the task explicitly requires engine work.
+
+---
+> Source: [ArcaneSS14/arcane](https://github.com/ArcaneSS14/arcane) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
