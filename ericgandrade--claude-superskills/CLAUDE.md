@@ -12,11 +12,11 @@ Read and follow the instructions in .claude/skills/claude-superskills/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# AGENTS.md
+# GEMINI.md
 
 > ⛔ DO NOT ADD INSTRUCTIONS HERE. This file is a redirect pointer only.
 > All instructions belong in [CLAUDE.md](./CLAUDE.md). Read CLAUDE.md.
 
 ---
 > Source: [ericgandrade/claude-superskills](https://github.com/ericgandrade/claude-superskills) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-20 -->
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
