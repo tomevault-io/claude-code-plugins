@@ -1,8 +1,6 @@
 # agentic-agile-template
 
-> Source: [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template) — distributed by [TomeVault](https://tomevault.io)
-
-Agentic-Agile Development bridges Agile process values with the capabilities of AI coding agents. It is a methodology for building software through human-agent partnerships.
+> Source: [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `copilot-instructions.md` in [microsoft/agentic-agile-template]
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template) — a repo with 10+ stars on GitHub.
+From [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template) — a repo with 81+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-s -->
