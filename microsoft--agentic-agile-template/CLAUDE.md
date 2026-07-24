@@ -1,6 +1,6 @@
 # agentic-agile-template
 
-> > This file provides GitHub Copilot with project-specific context. For the full development process, see `CLAUDE.md` in the repository root.
+> > This file provides GitHub Copilot with project-specific context. For the universal cross-agent entry point used by this project, see [`AGENTS.md`](../../../AGENTS.md).
 
 ## Usage
 
@@ -14,7 +14,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 # Copilot Instructions
 
-> This file provides GitHub Copilot with project-specific context. For the full development process, see `CLAUDE.md` in the repository root.
+> This file provides GitHub Copilot with project-specific context. For the universal cross-agent entry point used by this project, see [`AGENTS.md`](../../../AGENTS.md).
 
 ## Project Description
 
@@ -76,4 +76,4 @@ project-root/
 
 ---
 > Source: [microsoft/agentic-agile-template](https://github.com/microsoft/agentic-agile-template) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-20 -->
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
