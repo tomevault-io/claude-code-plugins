@@ -1,0 +1,38 @@
+# agent-threat-rules
+
+> Gemini CLI for one-shot Q&A, summaries, and generation.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/agent-threat-rules/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Gemini CLI
+
+Use Gemini in one-shot mode with a positional prompt (avoid interactive mode).
+
+Quick start
+
+- `gemini "Answer this question..."`
+- `gemini --model <name> "Prompt..."`
+- `gemini --output-format json "Return JSON"`
+
+Extensions
+
+- List: `gemini --list-extensions`
+- Manage: `gemini extensions <command>`
+
+Notes
+
+- If auth is required, run `gemini` once interactively and follow the login flow.
+- Avoid `--yolo` for safety.
+
+---
+> Source: [Agent-Threat-Rule/agent-threat-rules](https://github.com/Agent-Threat-Rule/agent-threat-rules) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
