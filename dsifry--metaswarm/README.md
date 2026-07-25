@@ -1,8 +1,6 @@
 # metaswarm
 
-> Tome by [dsifry](https://github.com/dsifry/metaswarm) — distributed by [TomeVault](https://tomevault.io/claim/dsifry)
-
-AI instruction files for metaswarm by dsifry
+> Source: [dsifry/metaswarm](https://github.com/dsifry/metaswarm). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,14 +15,10 @@ Original source: `GEMINI.md` in [dsifry/metaswarm](https://github.com/dsifry/met
 - **Cursor** — `project-config.mdc`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/dsifry](https://tomevault.io/claim/dsifry)
-
-## Bundled Skills (2)
-
-- [external-tools](https://github.com/dsifry/metaswarm/tree/main/skills/external-tools)
-- [visual-review](https://github.com/dsifry/metaswarm/tree/main/skills/visual-review)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/dsifry/metaswarm](https://github.com/dsifry/metaswarm)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/dsifry) to manage distribution.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:d-e-q -->
