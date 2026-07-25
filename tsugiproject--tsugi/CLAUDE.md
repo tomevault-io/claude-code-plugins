@@ -1,0 +1,47 @@
+# tsugi
+
+> This project uses a generic `AI_INSTRUCTIONS.md` file for AI assistant instructions.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/tsugi/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Cursor AI Instructions for tsugi-php
+
+This project uses a generic `AI_INSTRUCTIONS.md` file for AI assistant instructions.
+See that file for the complete guidelines. Key instructions below:
+
+## Testing
+After making code changes, always run the full test suite using one of these shortcuts:
+
+**Preferred (composer script):**
+```bash
+composer test
+```
+
+**Alternative (direct command):**
+```bash
+./vendor/bin/phpunit tests --bootstrap vendor/autoload.php
+```
+
+Verify all tests pass before considering the task complete. Some skipped tests are acceptable, but all non-skipped tests must pass.
+
+## Code Style
+- Follow existing PHP code style in the project
+- Use PSR-12 coding standards where applicable
+- Maintain consistency with existing code patterns
+
+## Documentation
+- Add appropriate comments for complex logic
+- Update inline documentation when modifying functions
+- Keep test files well-documented with clear test descriptions
+
+---
+> Source: [tsugiproject/tsugi](https://github.com/tsugiproject/tsugi) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
