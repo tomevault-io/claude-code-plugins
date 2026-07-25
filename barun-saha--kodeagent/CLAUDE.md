@@ -12,6 +12,7 @@ Read and follow the instructions in .claude/skills/kodeagent/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+
 1. In Python code, always use single quote for strings unless double quotes are necessary. Use triple double quotes for docstrings.
 2. When defining functions, always include type hints for parameters and return types.
 3. Except for logs, use f-strings for string formatting instead of other methods like % or .format().
@@ -29,4 +30,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [barun-saha/kodeagent](https://github.com/barun-saha/kodeagent) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-19 -->
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
