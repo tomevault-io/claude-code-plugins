@@ -1,0 +1,28 @@
+# 8BitAnalysers
+
+> Tome by [TheGoodDoktor](https://github.com/TheGoodDoktor/8BitAnalysers), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `copilot-instructions.md` in [TheGoodDoktor/8BitAnalysers](https://github.com/TheGoodDoktor/8BitAnalysers).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/TheGoodDoktor/8BitAnalysers](https://github.com/TheGoodDoktor/8BitAnalysers)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install TheGoodDoktor/8BitAnalysers
+```
+Source: [github.com/TheGoodDoktor/8BitAnalysers](https://github.com/TheGoodDoktor/8BitAnalysers).
+
+<!-- genome:t-i-q -->
