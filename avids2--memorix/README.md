@@ -1,8 +1,6 @@
 # memorix
 
-> Tome by [AVIDS2](https://github.com/AVIDS2/memorix) — distributed by [TomeVault](https://tomevault.io)
-
-Open-source cross-agent memory layer for coding agents via MCP. Compatible with Cursor, Claude Code, Codex, Windsurf, Gemini CLI, GitHub Copilot, Kiro, OpenCode, Antigravity, and Trae.
+> Tome by [AVIDS2](https://github.com/AVIDS2/memorix), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `GEMINI.md` in [AVIDS2/memorix](https://github.com/AVIDS2/memor
 - **Cursor** — `project-config.mdc`
 - **Windsurf** — `project-config.md`
 
-From [AVIDS2/memorix](https://github.com/AVIDS2/memorix) — a repo with 384+ stars on GitHub.
+From [AVIDS2/memorix](https://github.com/AVIDS2/memorix) — a repo with 576+ stars on GitHub.
 
 ---
 
