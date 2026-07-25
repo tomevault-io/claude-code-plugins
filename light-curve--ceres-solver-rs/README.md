@@ -1,0 +1,24 @@
+# ceres-solver-rs
+
+> Tome by [light-curve](https://github.com/light-curve/ceres-solver-rs), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `copilot-instructions.md` in [light-curve/ceres-solver-rs](https://github.com/light-curve/ceres-solver-rs).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/light-curve/ceres-solver-rs](https://github.com/light-curve/ceres-solver-rs)
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:t-e-p -->
