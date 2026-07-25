@@ -1,6 +1,6 @@
 # company-ranking
 
-> - go/: Go API server. Generated code lives under `go/server`; tests in `go/server/*_test.go`.
+> This document provides context about the `company-ranking` project for the Gemini AI assistant.
 
 ## Usage
 
@@ -12,50 +12,82 @@ Read and follow the instructions in .claude/skills/company-ranking/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repository Guidelines
+# Gemini Project Context: company-ranking
 
-## Project Structure & Module Organization
-- go/: Go API server. Generated code lives under `go/server`; tests in `go/server/*_test.go`.
-- ruby/: Rails app for data processing and scraping tasks. Tests in `ruby/spec`.
-- typescript/: Next.js frontend (App Router). UI in `typescript/app` and `typescript/components`.
-- openapi/: API schema (`openapi.yaml`). Used to generate server/client code.
-- compose.yaml: Docker Compose services for db, go, ruby, typescript, swagger.
-- misc: `terraform/` and `supabase/` hold infra/config; see directories as needed.
+This document provides context about the `company-ranking` project for the Gemini AI assistant.
 
-## Build, Test, and Development Commands
-- Bootstrap: `cp .env_sample .env && cp .envrc_sample .envrc && docker compose build`
-- Run stack: `docker compose up` (Next.js on `$FRONT_HOST_PORT`, API on `$API_HOST_PORT`).
-- Go: `make go/install/tools`, `make go/test`, `make go/lint`, `make go/lint/fix`.
-- Ruby: `make ruby/test`, `make ruby/lint`, `make ruby/lint/fix`.
-- TypeScript: `make typescript/lint`, `make typescript/format`.
-- OpenAPI codegen: `make go/generate/server` and `make typescript/generate/client`.
+## Project Overview
 
-## Coding Style & Naming Conventions
-- Go: formatted by `gofmt`/`goimports`; lint via `golangci-lint`. Package/file names `lower_snake`, exported types `CamelCase`.
-- Ruby: 2-space indent, snake_case for files/methods; lint with RuboCop.
-- TypeScript: ESLint + Prettier (2 spaces). Components `PascalCase` (e.g., `components/Header.tsx`), route folders lowercase.
+`company-ranking` is a web application that displays sales and annual salaries of publicly listed companies in Japan in a ranked format. It supports both English and Japanese languages.
 
-## Testing Guidelines
-- Go: `make go/test` runs `go test -race -shuffle` with coverage to `go/coverage.out`.
-- Ruby: `make ruby/test` runs RSpec. Ensure DB is migrated/seeded as needed (`docker compose run --rm ruby bundle exec rails db:setup`).
-- TypeScript: No unit tests yet; ensure `npm run build` succeeds and run `make typescript/lint`.
+The project is a monorepo composed of a Go backend, a Ruby on Rails batch processing system, and a Next.js frontend.
 
-## Commit & Pull Request Guidelines
-- Commits: short, imperative subject lines (optionally scoped), e.g., `go: fix pagination meta`, `typescript: update Header`.
-- Branches: `feature/<brief>`, `fix/<brief>`, or `chore/<brief>`.
-- PRs: include a clear description, linked issues (`Closes #123`), and screenshots/gifs for UI changes. Ensure CI is green and run `make go/lint` + `make typescript/lint` + `make ruby/lint` locally.
+## Technology Stack
 
-## Security & Configuration Tips
-- Never commit secrets. Copy `.env_sample` → `.env`; use `.envrc` with direnv if desired.
-- Key vars: `NEXT_PUBLIC_API_URL`, `POSTGRES_*`, `EDINET_API_KEY`. Ports are set in `.env` and referenced by `compose.yaml`.
-- After changing `openapi/openapi.yaml`, regenerate server/client and re-run linters.
+- **Frontend**: [Next.js](https://nextjs.org/) (TypeScript) with [Tailwind CSS](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/).
+- **Backend (API)**: [Go](https://go.dev/) using `oapi-codegen` for code generation from an OpenAPI specification.
+- **Backend (Data Processing)**: [Ruby on Rails](https://rubyonrails.org/) for scraping and processing company data.
+- **API Specification**: [OpenAPI](https://www.openapis.org/)
+- **Database**: PostgreSQL
+- **Infrastructure**:
+  - [Docker](https://www.docker.com/) for local development environment.
+  - [Terraform](https://www.terraform.io/) for Infrastructure as Code.
+  - [Google Cloud](https://cloud.google.com/) for deployment (inferred from Cloud Build and Terraform configurations).
 
-## Agent Communication
-- 本リポジトリでの AI アシスタントとのやりとりは、原則として日本語で行います。
-- コミットメッセージは英語でOKです（既存のガイドラインに準拠）。
-- 通常の会話や作業のやりとりは日本語で行います。
-- PR のタイトルおよび本文は英語で統一します。
+## Directory Structure
+
+- `go/`: Go backend API server.
+- `ruby/`: Ruby on Rails application for data processing tasks.
+- `typescript/`: Next.js frontend application.
+- `openapi/`: Contains the `openapi.yaml` specification file.
+- `terraform/`: Terraform configuration for production infrastructure.
+- `supabase/`: Contains database schema and seed data.
+- `compose.yaml`: Docker Compose configuration for local development.
+- `Makefile`: Top-level Makefile with common commands.
+
+## Key Commands
+
+Commands should generally be run from the project root directory.
+
+### Local Development Setup
+
+As per the `README.md`, the setup process is:
+1. `cp .env_sample .env`
+2. `cp .envrc_sample .envrc`
+3. `docker-compose build`
+4. `docker-compose run --rm ruby bundle`
+5. `docker-compose run --rm ruby bundle exec rails db:setup`
+6. `docker-compose run --rm go make install/tools`
+7. `cd typescript && npm install && cd ../`
+8. `docker-compose up`
+
+### Testing
+
+- **Go**: `make test` (defined in `go/Makefile`)
+- **Ruby**: `docker-compose run --rm ruby bundle exec rspec`
+- **TypeScript/Next.js**: The project uses ESLint for linting, but a dedicated test script is not present in `typescript/package.json`.
+
+### Linting
+
+- **Go**: `make lint` (defined in `go/Makefile`)
+- **Ruby**: `docker-compose run --rm ruby bundle exec rubocop`
+- **TypeScript/Next.js**: `cd typescript && npm run lint`
+
+### Building
+
+- **TypeScript/Next.js**: `cd typescript && npm run build`
+
+### Code Generation
+
+- **Go (Server-side from OpenAPI)**: `make go/generate/server`
+- **TypeScript (Client-side from OpenAPI)**: `make typescript/generate/client`
+
+### Data Processing (Ruby)
+
+- `bundle exec rake save_securities:all`: Scrapes the security list.
+- `bundle exec rake save_document_summary:year`: Fetches document metadata from the EDINET API.
+- `bundle exec rake save_document_detail:batch`: Fetches detailed document data from the EDINET API.
 
 ---
 > Source: [yuki0920/company-ranking](https://github.com/yuki0920/company-ranking) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-20 -->
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
