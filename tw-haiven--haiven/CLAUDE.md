@@ -1,6 +1,6 @@
 # haiven
 
-> When I am not just asking a question, but we're building a new feature, then I would like you to always use TDD:
+> - Our backend is in Python and in the app/ subfolder. The app needs to be started from that directory.
 
 ## Usage
 
@@ -11,19 +11,6 @@ Read and follow the instructions in .claude/skills/haiven/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
-
-## Tests
-When I am not just asking a question, but we're building a new feature, then I would like you to always use TDD:
-1. write a test first
-2. run (or let me run) the test first so it can go red (fail)
-and ONLY then
-3. write the implementation
-4. run the test again to see if it passes
-
-## Ask me before making decisions like choosing a technology or framework
-
-## Help me always get to the next "runnable" step that I can commit, remind me to make commits when we get to a point that is a working state
 
 ## Backend
 - Our backend is in Python and in the app/ subfolder. The app needs to be started from that directory.
@@ -38,7 +25,10 @@ and ONLY then
 - We're using vitest for testing
 - We're using the "prettier" library for formatting
 - Always use remix icons for icons
+- Do not create JSDocs
+- Our components currently go in the ui/app folder, and the file naming convention is _name_of_component.js
+- Never use innerHTML in combination with useRef, consider React state instead, it is more secure
 
 ---
 > Source: [tw-haiven/haiven](https://github.com/tw-haiven/haiven) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
