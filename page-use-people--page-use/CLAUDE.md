@@ -1,0 +1,26 @@
+# page-use
+
+> - Keep this file lean and read it before running repo commands or editing code.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/page-use/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# agent rules
+
+- Keep this file lean and read it before running repo commands or editing code.
+- Never run host-machine `pnpm` in this repo. Use `docker compose run --rm mono pnpm ...`
+- Prefer demo-scoped pnpm commands like `pnpm --dir demos/<name> ...` and keep lockfile changes limited to the affected importer/package whenever possible.
+- Keep package versions pinned exactly and aligned across apps.
+- Functional only, no classes, `const` everywhere, no `any`
+- Prefer immutable data and small pure functions
+
+---
+> Source: [page-use-people/page-use](https://github.com/page-use-people/page-use) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
