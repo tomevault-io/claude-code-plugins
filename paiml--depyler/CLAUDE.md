@@ -1,6 +1,6 @@
 # depyler
 
-> This document provides a high-level overview of the Depyler project, intended for new contributors and users.
+> The Depyler Agent provides continuous Python-to-Rust transpilation services through the Model Context Protocol (MCP), enabling seamless integration with Claude Code and other AI assistants.
 
 ## Usage
 
@@ -12,112 +12,298 @@ Read and follow the instructions in .claude/skills/depyler/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Depyler: Python to Rust Transpiler
+# Depyler Background Agent Mode
 
-This document provides a high-level overview of the Depyler project, intended for new contributors and users.
+The Depyler Agent provides continuous Python-to-Rust transpilation services through the Model Context Protocol (MCP), enabling seamless integration with Claude Code and other AI assistants.
 
-## CRITICAL: Contract-First Design
-
-**NEVER write code before writing a provable contract.**
-
-All code changes MUST have a corresponding contract (YAML in ../provable-contracts/contracts/<project>/ or .pmat-work/<TICKET>/contract.json) BEFORE implementation. This is enforced by `pmat comply` CB-1400.
-
-- Use `pmat comply check` to verify contract coverage
-- Minimum verification level: L1 (recommended L3+)
-- See docs/agent-instructions/provable-contract-first-agents.md for the full workflow
-
-## Project Overview
-
-Depyler is a sophisticated transpiler that converts Python code into safe, idiomatic, and energy-efficient Rust code. It leverages Python's type annotations to generate high-quality Rust code, and includes a semantic verification engine to ensure that the transpiled code is behaviorally equivalent to the original Python source.
-
-The project is designed with a focus on correctness, performance, and developer productivity. It provides tools for not only transpilation but also for analyzing the complexity of migrating Python codebases to Rust.
-
-## Key Features
-
-*   **Python to Rust Transpilation:** Converts a significant subset of the Python language to Rust, including functions, classes, collections, control flow, and async/await.
-*   **Semantic Verification:** Uses property-based testing to verify the correctness of the transpiled code.
-*   **Migration Analysis:** Provides a tool to analyze Python code and estimate the effort required for migration to Rust.
-*   **Modular Architecture:** The project is organized as a Cargo workspace with several specialized crates, promoting separation of concerns and maintainability.
-*   **AI Assistant Integration:** Includes an MCP (Model Context Protocol) server for integration with AI assistants, enabling code transformation and analysis through a conversational interface.
-*   **High-Quality Standards:** The project adheres to strict quality gates, including high test coverage, low cyclomatic complexity, and comprehensive documentation.
-
-## Getting Started
-
-### Installation
-
-To install the Depyler CLI, use the following command:
+## Quick Start
 
 ```bash
-cargo install depyler
+# Start the agent in foreground mode
+depyler agent start --foreground
+
+# Start as background daemon
+depyler agent start --port 3000
+
+# Check status
+depyler agent status
+
+# Stop the agent
+depyler agent stop
 ```
 
-### Basic Usage
+## Features
 
-**Transpile a Python file:**
+### 🚀 MCP Server Integration
+- **PMCP-powered**: High-performance MCP server using the PMCP SDK
+- **6 Transpilation Tools**: Comprehensive Python-to-Rust conversion capabilities
+- **Real-time Monitoring**: File system watching with automatic transpilation
+- **Claude Code Ready**: Direct integration with Claude Desktop and VS Code
+
+### 🛠️ Available MCP Tools
+
+1. **transpile_python_file**: Convert individual Python files to Rust
+2. **transpile_python_directory**: Batch transpilation for entire directories
+3. **monitor_python_project**: Set up continuous monitoring for a project
+4. **get_transpilation_status**: Query transpilation metrics and status
+5. **verify_rust_code**: Validate generated Rust code
+6. **analyze_python_compatibility**: Check Python feature support
+
+### 📊 Background Daemon Features
+- Process management with PID file tracking
+- Graceful shutdown handling
+- Health checks and automatic recovery
+- Configurable working directory
+- Comprehensive logging
+
+## Installation & Setup
+
+### 1. Install Depyler
 
 ```bash
-depyler transpile my_script.py
+# From source
+cargo install --path crates/depyler
+
+# Or download pre-built binary
+curl -L https://github.com/paiml/depyler/releases/latest/download/depyler-linux-x64 -o depyler
+chmod +x depyler
+sudo mv depyler /usr/local/bin/
 ```
 
-**Analyze a Python file for migration complexity:**
+### 2. Configure Claude Code
+
+Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
+
+```json
+{
+  "mcpServers": {
+    "depyler": {
+      "command": "depyler",
+      "args": ["agent", "start", "--foreground"],
+      "env": {
+        "RUST_LOG": "info"
+      }
+    }
+  }
+}
+```
+
+### 3. Start Using in Claude Code
+
+Once configured, Claude will have access to Depyler's transpilation tools. You can:
+- Ask Claude to transpile Python files to Rust
+- Set up project monitoring for automatic transpilation
+- Get compatibility analysis for Python code
+- Verify generated Rust code quality
+
+## Configuration
+
+### Configuration File
+
+Create `~/.depyler/agent.json`:
+
+```json
+{
+  "agent": {
+    "port": 3000,
+    "debug": false,
+    "auto_transpile": true,
+    "verification_level": "basic"
+  },
+  "transpilation_monitor": {
+    "update_interval": 2,
+    "watch_patterns": ["**/*.py"],
+    "debounce_interval": 500,
+    "max_batch_size": 20,
+    "auto_transpile": true,
+    "verification_level": "basic"
+  },
+  "daemon": {
+    "working_directory": "~/.depyler",
+    "log_file": "~/.depyler/agent.log",
+    "pid_file": "/tmp/depyler_agent.pid",
+    "auto_restart": true,
+    "restart_delay": 5,
+    "max_restarts": 3
+  }
+}
+```
+
+### Environment Variables
+
+- `DEPYLER_PORT`: MCP server port (default: 3000)
+- `DEPYLER_DEBUG`: Enable debug logging
+- `DEPYLER_CONFIG`: Path to configuration file
+- `RUST_LOG`: Logging level (trace, debug, info, warn, error)
+
+## Command Reference
+
+### Start Agent
 
 ```bash
-depyler analyze my_script.py
+depyler agent start [OPTIONS]
+
+OPTIONS:
+    --port <PORT>           MCP server port [default: 3000]
+    --config <PATH>         Configuration file path
+    --foreground           Run in foreground (don't daemonize)
+    --debug                Enable debug mode
 ```
 
-**Transpile and verify the output:**
+### Monitor Projects
 
 ```bash
-depyler transpile my_script.py --verify
+# Add project to monitoring
+depyler agent add-project /path/to/project --id my-project
+
+# Remove project
+depyler agent remove-project my-project
+
+# List monitored projects
+depyler agent list-projects
 ```
 
-## Project Structure
-
-The Depyler project is a Cargo workspace with the following key components:
-
-*   `crates/`: This directory contains the individual crates that make up the Depyler project.
-    *   `depyler-core/`: The core transpilation logic.
-    *   `depyler-analyzer/`: The migration complexity analysis tool.
-    *   `depyler-verify/`: The semantic verification engine.
-    *   `depyler-mcp/`: The MCP server for AI assistant integration.
-    *   `depyler/`: The main CLI application.
-*   `docs/`: Contains detailed documentation about the project's architecture, features, and usage.
-*   `examples/`: A collection of Python scripts that can be used to test and demonstrate Depyler's capabilities.
-*   `tests/`: Contains the integration and unit tests for the project.
-*   `Cargo.toml`: The workspace configuration file, which defines the project's dependencies and structure.
-*   `README.md`: The main README file for the project.
-
-## Development
-
-### Running Tests
-
-To run the full test suite for the project, use the following command:
+### View Logs
 
 ```bash
-cargo test --workspace
+# Show last 50 lines
+depyler agent logs
+
+# Show last 100 lines
+depyler agent logs -n 100
+
+# Follow log output
+depyler agent logs --follow
 ```
 
-### Code Style and Quality
+## API Examples
 
-The project enforces a strict code style and quality standards. Before submitting any changes, please run the following commands to ensure that your code meets these standards:
+### Using with MCP Clients
 
-**Format the code:**
+```javascript
+// Example MCP client request
+{
+  "jsonrpc": "2.0",
+  "method": "tools/call",
+  "params": {
+    "name": "transpile_python_file",
+    "arguments": {
+      "file_path": "/path/to/script.py",
+      "output_path": "/path/to/output.rs",
+      "verify": true
+    }
+  },
+  "id": 1
+}
+```
+
+### Response Format
+
+```javascript
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [{
+      "type": "text",
+      "text": "✅ Successfully transpiled script.py → output.rs\n..."
+    }],
+    "metadata": {
+      "python_file": "/path/to/script.py",
+      "rust_file": "/path/to/output.rs",
+      "python_lines": 100,
+      "rust_lines": 150,
+      "transpilation_time_ms": 45,
+      "verification": "passed",
+      "warnings_count": 0
+    }
+  },
+  "id": 1
+}
+```
+
+## Architecture
+
+```
+┌─────────────────────┐
+│   Claude Code       │
+│   (MCP Client)      │
+└──────────┬──────────┘
+           │ JSON-RPC
+           ▼
+┌─────────────────────┐
+│  Depyler MCP Server │
+│     (PMCP SDK)      │
+├─────────────────────┤
+│   Tool Handlers     │
+│  - Transpile File   │
+│  - Monitor Project  │
+│  - Verify Code      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  Transpiler Engine  │
+│  - AST → HIR → Rust │
+│  - Type Inference   │
+│  - Verification     │
+└─────────────────────┘
+```
+
+## Performance
+
+- **Transpilation Speed**: >10MB/s for typical Python code
+- **Memory Usage**: <100MB for agent daemon
+- **File Watching**: Instant detection with 500ms debounce
+- **Batch Processing**: Up to 20 files per batch
+- **Concurrent Requests**: Thread-safe with async/await
+
+## Troubleshooting
+
+### Agent Won't Start
 
 ```bash
-cargo fmt --all
+# Check if port is in use
+lsof -i :3000
+
+# Check for existing PID file
+rm /tmp/depyler_agent.pid
+
+# Run with debug logging
+RUST_LOG=debug depyler agent start --foreground --debug
 ```
 
-**Run the linter:**
+### Connection Issues
 
 ```bash
-cargo clippy --all-targets --all-features -- -D warnings
+# Test MCP server directly
+echo '{"jsonrpc":"2.0","method":"tools/list","id":1}' | \
+  depyler agent start --foreground
 ```
 
-### Contributing
+### File Watching Not Working
 
-Contributions are welcome! Please refer to the `CONTRIBUTING.md` file for more details on how to contribute to the project.
+- Ensure you have proper permissions for watched directories
+- Check `inotify` limits on Linux: `cat /proc/sys/fs/inotify/max_user_watches`
+- Verify patterns in configuration match your files
+
+## Security Considerations
+
+- The agent only transpiles files, never executes code
+- File system access is read-only for Python files
+- Generated Rust files are written with user permissions
+- No network access beyond local MCP connections
+- Configuration files should not contain sensitive data
+
+## Support
+
+- **Issues**: https://github.com/paiml/depyler/issues
+- **Documentation**: https://docs.rs/depyler
+- **Discord**: https://discord.gg/depyler
+
+## License
+
+MIT OR Apache-2.0
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/paiml)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/paiml)
-<!-- tomevault:4.0:claude_md:2026-04-07 -->
+> Source: [paiml/depyler](https://github.com/paiml/depyler) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
