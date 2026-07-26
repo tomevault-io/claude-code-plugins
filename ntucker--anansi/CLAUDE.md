@@ -1,0 +1,27 @@
+# anansi
+
+> Package Development Workflow
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/anansi/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+When modifying files in `packages/*`:
+
+1. **Build after changes**: Run `yarn build` from the package directory (or use workspace command from root):
+   ```bash
+   yarn workspace <package-name> run build
+   ```
+
+2. **Test consumers**: After building, test changes in an example app like `examples/concurrent` by running `yarn start` from that directory.
+
+---
+> Source: [ntucker/anansi](https://github.com/ntucker/anansi) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
