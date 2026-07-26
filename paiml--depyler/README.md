@@ -1,11 +1,11 @@
 # depyler
 
-> Config by [paiml](https://github.com/paiml/depyler) — distributed by [TomeVault](https://tomevault.io/claim/paiml)
+> Tome by [paiml](https://github.com/paiml/depyler), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [paiml/depyler](https://github.com/paiml/depyler).
+Original source: `` in [paiml/depyler](https://github.com/paiml/depyler).
 
 ## Also available for
 
@@ -13,11 +13,13 @@ Original source: `GEMINI.md` in [paiml/depyler](https://github.com/paiml/depyler
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/paiml](https://tomevault.io/claim/paiml)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/paiml/depyler](https://github.com/paiml/depyler)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/paiml) to manage distribution.
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-q -->
