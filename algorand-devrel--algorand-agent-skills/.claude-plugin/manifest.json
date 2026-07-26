@@ -1,13 +1,10 @@
 {
   "name": "algorand-devrel--algorand-agent-skills",
   "displayName": "algorand-agent-skills",
-  "description": "Canonical collection of Agent Skills for for AI-assisted development on Algorand",
+  "description": "algorand-agent-skills",
   "version": "1.0.0",
   "author": "algorand-devrel",
   "homepage": "https://github.com/algorand-devrel/algorand-agent-skills",
-  "type": "tome",
-  "skills": [
-    "algorand-typescript",
-    "skill-creator"
-  ]
+  "type": "config",
+  "skills": []
 }
