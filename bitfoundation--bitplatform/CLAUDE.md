@@ -1,0 +1,23 @@
+# bitplatform
+
+> This project uses @AGENTS.md (at the repository root) as the single source of truth for all coding conventions, project structure, technology stack, and behavioral directives.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/bitplatform/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Gemini Instructions
+
+This project uses @AGENTS.md (at the repository root) as the single source of truth for all coding conventions, project structure, technology stack, and behavioral directives.
+
+**Before performing any task, read the full content of `/AGENTS.md`.**
+
+---
+> Source: [bitfoundation/bitplatform](https://github.com/bitfoundation/bitplatform) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
