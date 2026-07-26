@@ -1,6 +1,6 @@
 # reactiveui
 
-> This repository’s canonical agent guidance has been consolidated into:
+> The canonical agent guidance for this repository lives in **[CLAUDE.md](./CLAUDE.md)**.
 
 ## Usage
 
@@ -12,14 +12,12 @@ Read and follow the instructions in .claude/skills/reactiveui/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-This repository’s canonical agent guidance has been consolidated into:
+# agent.md
 
-- `agent.md` in the root folder or relative path is `../agent.md` to this file.
+The canonical agent guidance for this repository lives in **[CLAUDE.md](./CLAUDE.md)**.
 
-GitHub Copilot (and other coding agents) should read and follow `agent.md` for build/test commands, repository architecture context, coding standards, and AOT requirements.
-
-If there is any conflict between this file and `agent.md`, follow **agent.md**.
+Follow CLAUDE.md. If anything elsewhere conflicts with it, CLAUDE.md wins.
 
 ---
 > Source: [reactiveui/ReactiveUI](https://github.com/reactiveui/ReactiveUI) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
