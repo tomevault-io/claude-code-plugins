@@ -1,0 +1,26 @@
+# dxcompiler
+
+> - Always check actual file contents before making claims about code
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/dxcompiler/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# GitHub Copilot Instructions
+
+## Anti-Hallucination Guidelines
+
+- Always check actual file contents before making claims about code
+- When uncertain about implementation details, suggest investigation commands
+- Distinguish between speculation and verified facts
+- Reference specific line numbers when quoting code
+
+---
+> Source: [dnanexus/dxCompiler](https://github.com/dnanexus/dxCompiler) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
