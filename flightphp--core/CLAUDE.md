@@ -41,4 +41,4 @@ This is the main FlightPHP core library for building fast, simple, and extensibl
 
 ---
 > Source: [flightphp/core](https://github.com/flightphp/core) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
