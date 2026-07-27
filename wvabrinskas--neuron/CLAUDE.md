@@ -1,0 +1,98 @@
+# neuron
+
+> Use when creating a new optimizer.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/neuron/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+## Optimizer Subclass Creation
+
+When creating a new Optimizer:
+
+### Structure Requirements:
+- **Inherit from BaseOptimizer**: Use `BaseOptimizer` as the base class
+- **Implement optimization algorithm**: Override key optimization methods
+- **Handle gradient accumulation**: Work with the gradient accumulator system
+- **Support momentum/adaptive learning**: Implement algorithm-specific features
+
+### Template Pattern:
+```swift
+import Foundation
+import NumSwift
+
+/// [Description of the optimization algorithm]
+public class [OptimizerName]: BaseOptimizer {
+    
+    // Algorithm-specific parameters (always use Tensor.Scalar, never hardcode Float/Float16)
+    private var [param1]: Tensor.Scalar
+    private var [param2]: Tensor.Scalar
+
+    // State variables for optimization (use TensorStorage, not Tensor.Value)
+    private var [stateVar1]: [TensorStorage] = []
+    private var [stateVar2]: [TensorStorage] = []
+    
+    public override var trainable: Trainable {
+        didSet {
+            build() // Rebuild state when trainable changes
+        }
+    }
+    
+    public init(_ trainable: Trainable,
+                device: Device = CPU(),
+                learningRate: Tensor.Scalar,
+                batchSize: Int,
+                [algorithmParams]) {
+        
+        // Set algorithm parameters
+        self.[param1] = [param1]
+        self.[param2] = [param2]
+        
+        super.init(trainable,
+                   device: device,
+                   learningRate: learningRate,
+                   batchSize: batchSize)
+        
+        build()
+    }
+    
+    // Build/rebuild optimizer state
+    private func build() {
+        // Initialize state variables based on trainable layers
+        // Reset state arrays (use TensorStorage.create(count: 0) as placeholder)
+        [stateVar1] = [TensorStorage].init(repeating: TensorStorage.create(count: 0), count: trainable.layers.count)
+        [stateVar2] = [TensorStorage].init(repeating: TensorStorage.create(count: 0), count: trainable.layers.count)
+
+        // State is lazily sized on first gradient application when count is known
+    }
+    
+    // Core optimization step
+    public override func apply(_ gradients: Tensor.Gradient) {
+        // Implement algorithm-specific gradient application
+        // Update state variables
+        // Apply computed updates to layer weights
+        
+        super.apply(gradients) // Call parent for common functionality
+    }
+    
+    // Reset optimizer state
+    public override func reset() {
+        super.reset()
+        build() // Rebuild state
+    }
+}
+```
+
+### Key Implementation Points:
+- **Use `Tensor.Scalar` not `Float`**: Never hardcode `Float` or `Float16` in optimizer code that interacts with Tensor. Use `Tensor.Scalar` for all hyperparameters (learning rate, beta, epsilon), numeric literals (e.g., `Tensor.Scalar(1.0)` not `1.0 as Float`), and local variables. This ensures quantization compatibility.
+
+---
+> Source: [wvabrinskas/Neuron](https://github.com/wvabrinskas/Neuron) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
