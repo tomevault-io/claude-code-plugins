@@ -1,8 +1,6 @@
 # AI instruction files for puppyone
 
-> Sourced from [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Context drive for your AI agents
+> Sourced from [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [puppyone-ai/puppyone](https://github.com/puppyo
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone) — a repo with 23+ stars on GitHub.
+From [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone) — a repo with 1091+ stars on GitHub.
 
 ---
 
