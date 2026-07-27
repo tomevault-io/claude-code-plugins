@@ -1,8 +1,6 @@
 # AI instruction files for pi-extensions
 
-> Sourced from [MattDevy/pi-extensions](https://github.com/MattDevy/pi-extensions) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-A set of pi-extensions, including pi-continuous-learning that continually improves you pi coding agent experience
+> Sourced from [MattDevy/pi-extensions](https://github.com/MattDevy/pi-extensions), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [MattDevy/pi-extensions](https://github.com/Matt
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/MattDevy/pi-extensions](https://github.com/MattDevy/pi-extensions)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/MattDevy/pi-extensions](https://github.com/MattDevy/pi-extensions)
 
 ---
 
