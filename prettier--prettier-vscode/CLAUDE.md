@@ -1,0 +1,55 @@
+# prettier-vscode
+
+> This is a VS Code extension. Follow these patterns:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/prettier-vscode/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# TypeScript Source Guidelines
+
+This is a VS Code extension. Follow these patterns:
+
+## Imports
+
+- Import VS Code API from `vscode` module: `import { commands, workspace, window } from "vscode"`
+- Use named imports, not namespace imports
+- Group imports: vscode first, then node modules, then local modules
+- **ESM**: Always use `.js` extension for local imports (e.g., `import { foo } from "./utils.js"`)
+
+## VS Code Extension Patterns
+
+- Use `ExtensionContext.subscriptions` to register disposables for cleanup
+- Access settings via `workspace.getConfiguration("prettier")`
+- Use `LoggingService` for all logging (not console.log)
+- Commands are registered via `commands.registerCommand()`
+
+## Class Patterns
+
+- Services follow dependency injection pattern (pass dependencies via constructor)
+- Key services: `LoggingService`, `ModuleResolver` (from `ModuleResolverNode.ts`/`ModuleResolverWeb.ts`), `PrettierEditService`, `StatusBar`
+- Use `Disposable` interface for cleanup
+
+## Prettier Integration
+
+- Support both Prettier v2 and v3+ via `PrettierInstance` interface (defined in `src/types.ts`)
+- `PrettierDynamicInstance` loads Prettier using dynamic ESM `import()` for lazy loading
+- Module resolution: local install → global install → bundled Prettier
+- Handle `.prettierrc`, `.prettierignore`, and `package.json` prettier config
+
+## Error Handling
+
+- Log errors through `LoggingService`
+- Show user-facing errors via `window.showErrorMessage()`
+- Handle Workspace Trust restrictions appropriately
+
+---
+> Source: [prettier/prettier-vscode](https://github.com/prettier/prettier-vscode) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
