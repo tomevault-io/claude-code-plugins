@@ -1,6 +1,6 @@
 # pynguin
 
-> SPDX-FileCopyrightText: 2019–2026 Pynguin Contributors
+> **See [AGENTS.md](./AGENTS.md) for:**
 
 ## Usage
 
@@ -12,13 +12,7 @@ Read and follow the instructions in .claude/skills/pynguin/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!--
-SPDX-FileCopyrightText: 2019–2026 Pynguin Contributors
-
-SPDX-License-Identifier: CC-BY-4.0
--->
-
-# GitHub Copilot Instructions
+# Junie Development Guidelines for Pynguin
 
 **See [AGENTS.md](./AGENTS.md) for:**
 - Project architecture and codebase structure
@@ -30,4 +24,4 @@ If you read this file, you must also read `AGENTS.md`!
 
 ---
 > Source: [se2p/pynguin](https://github.com/se2p/pynguin) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
