@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [jiji262/douyin-downloader](https://github.com/j
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) — a repo with 8966+ stars on GitHub.
+From [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) — a repo with 8979+ stars on GitHub.
 
 ---
 
