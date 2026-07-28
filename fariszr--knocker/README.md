@@ -1,8 +1,6 @@
 # knocker
 
-> Tome by [FarisZR](https://github.com/FarisZR/knocker) — distributed by [TomeVault](https://tomevault.io)
-
-Knocker, a knock based access control service for your homelab
+> Tome by [FarisZR](https://github.com/FarisZR/knocker), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
