@@ -1,8 +1,6 @@
 # termisu
 
-> Source: [omarluq/termisu](https://github.com/omarluq/termisu) — distributed by [TomeVault](https://tomevault.io)
-
-🍮 Minimalistic API for writing text-based user interfaces in pure Crystal
+> Source: [omarluq/termisu](https://github.com/omarluq/termisu). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [omarluq/termisu](https://github.com/omarluq/ter
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [omarluq/termisu](https://github.com/omarluq/termisu) — a repo with 27+ stars on GitHub.
+From [omarluq/termisu](https://github.com/omarluq/termisu) — a repo with 32+ stars on GitHub.
 
 ---
 
