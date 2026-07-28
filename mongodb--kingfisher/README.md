@@ -1,8 +1,6 @@
 # AI instruction files for kingfisher
 
-> Sourced from [mongodb/kingfisher](https://github.com/mongodb/kingfisher) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Find, validate, and map the impact of leaked secrets across your stack. Revoke fast. 900+ rules.
+> Sourced from [mongodb/kingfisher](https://github.com/mongodb/kingfisher), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [mongodb/kingfisher](https://github.com/mongodb/
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [mongodb/kingfisher](https://github.com/mongodb/kingfisher) — a repo with 1090+ stars on GitHub.
+From [mongodb/kingfisher](https://github.com/mongodb/kingfisher) — a repo with 1175+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
