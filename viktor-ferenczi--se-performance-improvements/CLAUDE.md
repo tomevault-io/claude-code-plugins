@@ -16,4 +16,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [viktor-ferenczi/se-performance-improvements](https://github.com/viktor-ferenczi/se-performance-improvements) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-21 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
