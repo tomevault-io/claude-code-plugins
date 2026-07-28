@@ -1,8 +1,6 @@
 # mockd
 
-> Source: [getmockd/mockd](https://github.com/getmockd/mockd) — distributed by [TomeVault](https://tomevault.io)
-
-High-performance, multi-protocol mock server. HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, SOAP in one binary.
+> Source: [getmockd/mockd](https://github.com/getmockd/mockd). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
