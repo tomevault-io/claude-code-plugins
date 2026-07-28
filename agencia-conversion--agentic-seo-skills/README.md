@@ -1,8 +1,6 @@
 # agentic-seo-skills
 
-> Tome by [agencia-conversion](https://github.com/agencia-conversion/agentic-seo-skills) — distributed by [TomeVault](https://tomevault.io)
-
-Agentic SEO operating system as a Claude Code plugin: project Wiki, DataForSEO workflows, content briefs, technical SEO, and human-approval gates.
+> Tome by [agencia-conversion](https://github.com/agencia-conversion/agentic-seo-skills), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
