@@ -1,8 +1,6 @@
 # dayu-agent
 
-> Source: [noho/dayu-agent](https://github.com/noho/dayu-agent) — distributed by [TomeVault](https://tomevault.io)
-
-大愚Agent
+> Source: [noho/dayu-agent](https://github.com/noho/dayu-agent). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [noho/dayu-agent](https://github.com/noho/dayu-a
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/noho/dayu-agent](https://github.com/noho/dayu-agent)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/noho/dayu-agent](https://github.com/noho/dayu-agent)
 
 ---
 
