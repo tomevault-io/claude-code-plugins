@@ -1,8 +1,6 @@
 # AI instruction files for XenoAtom.Logging
 
-> Sourced from [XenoAtom/XenoAtom.Logging](https://github.com/XenoAtom/XenoAtom.Logging) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Zero-alloc structured logging for .NET - fast formatters, rich terminal visuals, production-ready file & JSON sinks.
+> Sourced from [XenoAtom/XenoAtom.Logging](https://github.com/XenoAtom/XenoAtom.Logging), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -21,6 +19,6 @@ From [XenoAtom/XenoAtom.Logging](https://github.com/XenoAtom/XenoAtom.Logging) â
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) â€” the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
