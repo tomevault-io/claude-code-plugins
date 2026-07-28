@@ -1,0 +1,392 @@
+# prometheus-proxy
+
+> The agent runs inside the firewall and scrapes local metrics endpoints on behalf of the proxy.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/prometheus-proxy/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Agent Configuration
+
+The agent runs inside the firewall and scrapes local metrics endpoints on behalf of the proxy.
+
+## Path Configs
+
+The `pathConfigs` array defines which metrics endpoints the agent exposes through the proxy:
+
+### Basic Configuration
+
+```hocon
+--8<-- "ConfigExamples.txt:path-config-basic"
+```
+
+### Multiple Endpoints
+
+```hocon
+--8<-- "ConfigExamples.txt:path-config-multi"
+```
+
+### With Labels
+
+Labels are included in service discovery responses and can be used for filtering:
+
+```hocon
+--8<-- "ConfigExamples.txt:path-config-with-labels"
+```
+
+Each path config entry has these fields:
+
+| Field    | Required | Description                                                   |
+|:---------|:---------|:--------------------------------------------------------------|
+| `name`   | Yes      | Human-readable endpoint name (for logs and debugging)         |
+| `path`   | Yes      | Single URL segment on the proxy that Prometheus scrapes (no embedded `/`) |
+| `url`    | Yes      | Actual metrics endpoint the agent fetches from                |
+| `labels` | No       | JSON string of labels for service discovery (default: `"{}"`) |
+
+!!! note "Paths are a single segment"
+
+    A `path` is one URL segment — it must not contain an embedded `/`. The proxy serves each
+    registered path at `/<path>` (a one-segment route), so a multi-segment value like
+    `app/metrics` is rejected at registration (the agent logs the failure rather than reconnecting).
+    Use `app_metrics` instead.
+
+## Dynamic Target Discovery
+
+By default `pathConfigs` is read once at startup, so adding or removing a target means editing the
+config and restarting the agent. Enable dynamic discovery to have the agent reconcile its registered
+paths against a **watched file** at runtime — no restart, and paths that did not change keep scraping:
+
+```hocon
+agent {
+  discovery {
+    enabled = false                                    // Enable dynamic discovery
+    file.path = "/etc/prometheus-proxy/targets.conf"   // HOCON/JSON list of paths
+    reconcileIntervalSecs = 30                         // Poll and full-resync interval
+  }
+}
+```
+
+The discovery file holds a `paths` list of the same `{ name, path, url, labels }` entries as
+`pathConfigs`:
+
+```hocon
+paths = [
+  { name = "app1", path = "app1_metrics", url = "http://app1:9090/metrics" }
+  { name = "app2", path = "app2_metrics", url = "http://app2:9090/metrics" }
+]
+```
+
+Every interval the agent registers newly-listed paths, unregisters removed ones, and re-registers a
+path whose URL or labels changed.
+
+Because the file is a plain list, it can be **generated** rather than hand-maintained — a Kubernetes
+`ConfigMap` mounted into the agent pod (see
+[the Kubernetes walkthrough](../kubernetes.md#updating-targets-without-restarting-the-agent)), an
+Ansible template, or a cron job querying a service registry. Automation then needs permission only to
+write a file, never to restart the agent, and the churning target list stays separate from the stable
+config holding ports, TLS, and the proxy address.
+
+A fully annotated version of this file -- required versus defaulted fields, the single-segment `path`
+rule, HOCON substitutions, and the empty-versus-deleted distinction -- ships as
+[`examples/discovery-targets.conf`](https://github.com/pambrose/prometheus-proxy/blob/master/examples/discovery-targets.conf)
+and is shown verbatim on the [Example Configs](../examples.md) page.
+
+| Situation                               | Behavior                                                     |
+|:----------------------------------------|:------------------------------------------------------------|
+| Path in both `pathConfigs` and the file | Static wins; the discovered entry is skipped (logged)       |
+| File missing / unreadable / malformed   | Keeps the last-known-good set (a read failure drops nothing) |
+| Valid but empty file                    | Removes all discovered paths                                |
+| `pathConfigs` empty                     | Discovery-only — every path comes from the file             |
+
+!!! note "Polling, not file-watching"
+
+    Discovery polls the file on the interval rather than relying on OS file-change events, which are
+    unreliable under Kubernetes ConfigMap updates (symlink swaps) and some bind mounts. The interval
+    doubles as a full-resync safety net.
+
+!!! note "Config-file only"
+
+    `discovery.file.path` points at a list, so — like `pathConfigs` — it has no CLI/env equivalent.
+    The scalar `enabled`, `file.path`, and `reconcileIntervalSecs` can also be set via `-D` overrides.
+
+Dynamic target discovery is distinct from [Prometheus service discovery](../service-discovery.md),
+which exposes an endpoint so *Prometheus* can find proxied targets; discovery instead lets the *agent*
+pick up target changes behind the firewall without a restart.
+
+On the proxy's [dashboard](../web-dashboard.md#the-paths-layout), each path is tagged `cfg` (static)
+or `disc` (discovered), so when a target is unexpectedly present or absent you can tell at a glance
+whether a human or the automation registered it.
+
+## Proxy Connection
+
+```hocon
+agent {
+  proxy {
+    hostname = "proxy-host.example.com"   // Proxy hostname
+    port = 50051                          // Proxy gRPC port
+  }
+}
+```
+
+Or specify on the command line:
+
+```bash
+java -jar prometheus-agent.jar --proxy proxy-host.example.com:50051 --config agent.conf
+```
+
+### Proxy failover
+
+For redundancy, give the agent an ordered list of proxy endpoints instead of a single hostname. It
+connects to the first that answers and moves to the next on a failed connect; when a working
+connection drops it returns to the head of the list, so a recovered primary is picked up on the next
+reconnect. Only one connection is active at a time.
+
+```hocon
+agent {
+  proxy {
+    port = 50051                                    // Default port for entries that omit one
+    endpoints = [
+      "proxy-a.example.com:50051",                  // Tried first
+      "proxy-b.example.com:50051"                   // Used when proxy-a is unreachable
+    ]
+  }
+}
+```
+
+`--proxy` and `PROXY_HOSTNAME` accept the same list as a comma-separated value, and either one
+**replaces** `endpoints` entirely rather than adding to it:
+
+```bash
+java -jar prometheus-agent.jar --proxy proxy-a.example.com:50051,proxy-b.example.com:50051
+```
+
+A single value behaves exactly as it always has, so existing configurations need no change. `hostname`
+is used only when `endpoints` is empty; the two are never merged. An unparseable entry fails at
+startup rather than surfacing later as a connection error.
+
+!!! warning "All endpoints share one TLS configuration"
+
+    The agent builds a single TLS context and authority override for the whole list. Endpoints with
+    different CAs or certificate SANs fail with an opaque handshake error rather than a clear
+    configuration error.
+
+See [High availability](../production.md#high-availability) for the Prometheus side — in particular,
+scrape an HA pair with `static_config`, never `http_sd_config`.
+
+## Agent Authentication
+
+If the proxy requires a [pre-shared agent token](../security/index.md#agent-authentication-pre-shared-token),
+set the matching value on the agent. It is presented as a gRPC metadata header on every call and is
+never logged. Resolved from `--agent_token` → `AGENT_TOKEN` → `agent.agentToken`; empty (the default)
+sends no token.
+
+```hocon
+agent {
+  agentToken = "shared-secret"   // Must match the proxy's proxy.agentToken
+}
+```
+
+## HTTP Client Settings
+
+Configure how the agent makes HTTP requests to scrape endpoints:
+
+```hocon
+--8<-- "ConfigExamples.txt:agent-http-config"
+```
+
+### HTTP Client Cache
+
+The agent caches HTTP clients keyed by authentication credentials (for basic auth / bearer token
+scenarios). Configure cache behavior:
+
+```hocon
+--8<-- "ConfigExamples.txt:agent-cache-config"
+```
+
+## Scraping HTTPS Endpoints
+
+For HTTPS scrape targets signed by a private or internal CA, point the agent at a trust store that
+contains that CA (`--https_truststore` / `HTTPS_TRUST_STORE_PATH` / `agent.http.trustStorePath`, with
+the matching `*_password`) so certificates are still validated. An empty path uses the JDK default
+trust store, and `--trust_all_x509` (which disables verification entirely) takes precedence. See
+[Scraping HTTPS Endpoints](../security/index.md#scraping-https-endpoints) for details.
+
+## Scrape Settings
+
+```hocon
+--8<-- "ConfigExamples.txt:agent-scrape-config"
+```
+
+| Setting               | Default | Description                                       |
+|:----------------------|:--------|:--------------------------------------------------|
+| `scrapeTimeoutSecs`   | 15      | Total time allowed for a scrape including retries |
+| `scrapeMaxRetries`    | 0       | Maximum retries; 0 disables retries               |
+| `chunkContentSizeKbs` | 32      | Responses larger than this are chunked            |
+| `minGzipSizeBytes`    | 512     | Responses larger than this are gzip-compressed    |
+
+## Metric Filtering
+
+The agent-to-proxy hop is usually the expensive one — a WAN link, metered egress, a constrained
+tunnel — yet filtering with Prometheus `metric_relabel_configs` discards data only *after* it has
+crossed it. Filtering at the agent drops unwanted metric families before they are sent, and it runs
+before the payload is gzipped and chunked, so the saving composes with `chunkContentSizeKbs` and
+`minGzipSizeBytes` above. Filters are declared in a top-level `agent.filters` list, keyed by `path`
+rather than nested inside `pathConfigs`:
+
+```hocon
+--8<-- "examples/agent-filters.conf"
+```
+
+| Field             | Required | Description                                                    |
+|:------------------|:---------|:----------------------------------------------------------------|
+| `path`            | Yes      | The `pathConfigs` (or discovered) path this filter applies to |
+| `metricNameAllow` | Yes      | Fully-anchored regexes; an empty list allows every family     |
+| `metricNameDeny`  | Yes      | Fully-anchored regexes; evaluated after `metricNameAllow`     |
+
+Both list fields must be present on every element -- write `metricNameAllow: []` for a deny-only
+filter. The default is `filters: []` (no filtering), so an existing config with no `filters` key loads
+unchanged.
+
+**Regexes are fully anchored** (`Regex.matches()`), matching Prometheus `relabel_config` /
+`metric_relabel_configs` semantics: `deny: [ "go_" ]` matches nothing, `deny: [ "go_.*" ]` is required
+to match `go_goroutines`.
+
+**Matching is against the metric family, not each series.** A `# HELP` or `# TYPE` line (or `# UNIT`,
+for OpenMetrics) opens a family and the allow/deny verdict is computed once against the family name;
+every sample line that belongs to that family -- the exact name, or the name plus a recognized
+histogram/summary/OpenMetrics suffix (`_bucket`, `_sum`, `_count`, `_created`, `_total`, `_gsum`,
+`_gcount`, `_info`) -- inherits that verdict instead of being matched again. A histogram's `_bucket`,
+`_sum`, and `_count` series are therefore always kept or dropped together, along with the family's
+metadata lines. One consequence worth knowing: once a family is open, a series-level rule such as
+`metricNameDeny: [ "http_req_duration_seconds_bucket" ]` is a silent no-op, since the `_bucket` lines
+inherit the family's verdict rather than being matched themselves. A sample line with no open family
+(a payload with no `TYPE` lines at all) is judged literally on its own full name.
+
+**An empty `metricNameAllow` allows everything.** `metricNameDeny` is applied *after* allow, so deny
+wins on overlap.
+
+To make family scoping concrete, given this filter:
+
+```hocon
+{ path: "app1_metrics", metricNameAllow: [], metricNameDeny: [ "go_.*" ] }
+```
+
+a scraped payload is transformed like this:
+
+=== "Scraped from the target"
+
+    ```
+    # HELP go_goroutines Number of goroutines
+    # TYPE go_goroutines gauge
+    go_goroutines 12
+    # HELP http_req_duration_seconds Request duration
+    # TYPE http_req_duration_seconds histogram
+    http_req_duration_seconds_bucket{le="0.1"} 5
+    http_req_duration_seconds_bucket{le="+Inf"} 9
+    http_req_duration_seconds_sum 3.2
+    http_req_duration_seconds_count 9
+    ```
+
+=== "Sent to the proxy"
+
+    ```
+    # HELP http_req_duration_seconds Request duration
+    # TYPE http_req_duration_seconds histogram
+    http_req_duration_seconds_bucket{le="0.1"} 5
+    http_req_duration_seconds_bucket{le="+Inf"} 9
+    http_req_duration_seconds_sum 3.2
+    http_req_duration_seconds_count 9
+    ```
+
+The `go_goroutines` family goes entirely, `# HELP` and `# TYPE` lines included. The histogram is
+untouched: `deny` never matched it, and its `_bucket` / `_sum` / `_count` series are evaluated as one
+family rather than individually — which is what stops a filter from delivering a histogram with some
+of its series missing.
+
+!!! note "Fails open on payloads it can't safely filter"
+
+    A non-text `Content-Type` (protobuf, an HTML error body) passes through unfiltered. A body that is
+    not valid UTF-8 also passes through unfiltered and byte-exact rather than risk corrupting it. Both
+    conditions log a warning once per path -- the worst case is bandwidth not saved, never a corrupted
+    payload.
+
+Filters apply by path to both statically configured paths and paths added by
+[dynamic discovery](#dynamic-target-discovery); a filter's `path` is matched the same way regardless
+of which route registered it. An invalid regex fails agent startup rather than surfacing later at
+scrape time.
+
+!!! tip "Confirming a filter attached"
+
+    A filter whose `path` does not match a registered path is otherwise silent — it simply never runs.
+    The agent's registration log line for each path reports whether one attached:
+
+    ```text
+    Registered http://app1:9090/metrics as /app1_metrics with labels {} (static) with a metric filter
+    ```
+
+    If the line for your path does not end with `with a metric filter`, the `path` in your `filters`
+    entry does not match the registered path. The `agent_filter_*` counters below are the other way to
+    tell: they are only ever created for paths whose filter actually ran.
+
+Two counters, both labeled by `launch_id` and `path`, track filtering and are only created for paths
+that actually have a filter configured:
+
+| Metric                        | Labels              | Description                                   |
+|:-------------------------------|:--------------------|:-----------------------------------------------|
+| `agent_filter_lines_dropped`  | `launch_id`, `path` | Exposition lines dropped by the filter        |
+| `agent_filter_bytes_saved`    | `launch_id`, `path` | Bytes removed from the payload by the filter  |
+
+Not implemented: `dropLabels`, metric renaming/relabeling, and an agent-global filter -- every filter
+is per-path.
+
+## Consolidated Mode
+
+By default, each path is owned by a single agent. Enable consolidated mode to allow multiple
+agents to register the same path:
+
+```hocon
+--8<-- "ConfigExamples.txt:consolidated-mode"
+```
+
+This is useful for redundancy -- if one agent goes down, another can serve the same path.
+
+## Agent Naming
+
+Give agents descriptive names for easier identification in logs and metrics:
+
+```bash
+java -jar prometheus-agent.jar --name production-agent-01 --config agent.conf
+```
+
+Or in the config file:
+
+```hocon
+agent.name = "production-agent-01"
+```
+
+If no name is provided, the agent uses `Unnamed-<hostname>`.
+
+## Full Example
+
+Here is a real-world config from the `examples/` directory:
+
+```hocon
+--8<-- "examples/simple.conf"
+```
+
+See also:
+
+- [`examples/myapps.conf`](https://github.com/pambrose/prometheus-proxy/blob/master/examples/myapps.conf) -- multiple endpoints
+- [`examples/federate.conf`](https://github.com/pambrose/prometheus-proxy/blob/master/examples/federate.conf) -- Prometheus federation
+- [`examples/discovery-targets.conf`](https://github.com/pambrose/prometheus-proxy/blob/master/examples/discovery-targets.conf) -- a [dynamic discovery](#dynamic-target-discovery) targets file (watched, not passed to `--config`)
+
+---
+> Source: [pambrose/prometheus-proxy](https://github.com/pambrose/prometheus-proxy) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
