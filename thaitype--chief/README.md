@@ -1,8 +1,6 @@
 # chief
 
-> Source: [thaitype/chief](https://github.com/thaitype/chief) — distributed by [TomeVault](https://tomevault.io)
-
-A portable framework that reduces the cognitive load of working with AI coding agents — plan, build, verify, milestone by milestone.
+> Source: [thaitype/chief](https://github.com/thaitype/chief). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [thaitype/chief](https://github.com/thaitype/chi
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/thaitype/chief](https://github.com/thaitype/chief)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/thaitype/chief](https://github.com/thaitype/chief)
 
 ---
 
