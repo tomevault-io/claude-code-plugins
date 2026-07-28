@@ -1,8 +1,6 @@
 # SharpClawCode
 
-> Source: [clawdotnet/SharpClawCode](https://github.com/clawdotnet/SharpClawCode) — distributed by [TomeVault](https://tomevault.io)
-
-C# coding-agent harness (.NET 10, Microsoft Agent Framework) — sessions, tools, permissions, providers, MCP, plugins
+> Source: [clawdotnet/SharpClawCode](https://github.com/clawdotnet/SharpClawCode). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [clawdotnet/SharpClawCode](https://github.com/cl
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [clawdotnet/SharpClawCode](https://github.com/clawdotnet/SharpClawCode) — a repo with 44+ stars on GitHub.
+From [clawdotnet/SharpClawCode](https://github.com/clawdotnet/SharpClawCode) — a repo with 78+ stars on GitHub.
 
 ---
 
