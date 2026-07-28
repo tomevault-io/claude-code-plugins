@@ -3569,6 +3569,11 @@
       "description": "\u57fa\u4e8e Playwright \u548cAI\u5b9e\u73b0\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6/\u5b9a\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff0c\u914d\u5907\u4e86\u529f\u80fd\u5b8c\u5584\u7684\u540e\u53f0\u7ba1\u7406UI\u3002\u5e2e\u52a9\u7528\u6237\u4ece\u95f2\u9c7c\u6d77\u91cf\u5546\u54c1\u4e2d\uff0c\u627e\u5230\u5fc3\u4eea\u4ea7\u54c1\u3002"
     },
     {
+      "name": "nasa--fprime",
+      "source": "./nasa--fprime",
+      "description": "fprime"
+    },
+    {
       "name": "go-shiori--shiori",
       "source": "./go-shiori--shiori",
       "description": "shiori"
@@ -4119,6 +4124,11 @@
       "description": "hyperdx"
     },
     {
+      "name": "facebook--stylex",
+      "source": "./facebook--stylex",
+      "description": "stylex"
+    },
+    {
       "name": "classicoldsong--apollo",
       "source": "./classicoldsong--apollo",
       "description": "Sunshine fork - The easiest way to stream with the native resolution of your client device"
@@ -4582,6 +4592,11 @@
       "name": "fluxcd--flux2",
       "source": "./fluxcd--flux2",
       "description": "flux2"
+    },
+    {
+      "name": "rfordatascience--tidytuesday",
+      "source": "./rfordatascience--tidytuesday",
+      "description": "tidytuesday"
     },
     {
       "name": "openatx--uiautomator2",
@@ -5992,6 +6007,11 @@
       "name": "eventual-inc--daft",
       "source": "./eventual-inc--daft",
       "description": "Daft"
+    },
+    {
+      "name": "zxlie--fehelper",
+      "source": "./zxlie--fehelper",
+      "description": "FeHelper"
     },
     {
       "name": "dlt-hub--dlt",
@@ -13399,6 +13419,16 @@
       "description": "Build agentic TUI applications with .NET Razor and Spectre.Console"
     },
     {
+      "name": "instawork--hyperview",
+      "source": "./instawork--hyperview",
+      "description": "hyperview"
+    },
+    {
+      "name": "instawork--hyperview",
+      "source": "./instawork--hyperview",
+      "description": "hyperview"
+    },
+    {
       "name": "watfaq--clash-rs",
       "source": "./watfaq--clash-rs",
       "description": "clash-rs"
@@ -14232,6 +14262,11 @@
       "name": "callstackincubator--agent-skills",
       "source": "./callstackincubator--agent-skills",
       "description": "agent-skills"
+    },
+    {
+      "name": "ulixee--hero",
+      "source": "./ulixee--hero",
+      "description": "hero"
     },
     {
       "name": "openshift--installer",
@@ -15757,6 +15792,16 @@
       "name": "llmsresearch--paperbanana",
       "source": "./llmsresearch--paperbanana",
       "description": "Open source implementation and extension of Google Research\u2019s PaperBanana for automated academic figures, diagrams, and research visuals, expanded to new domains like slide generation."
+    },
+    {
+      "name": "bettertyped--hyper-fetch",
+      "source": "./bettertyped--hyper-fetch",
+      "description": "hyper-fetch"
+    },
+    {
+      "name": "bettertyped--hyper-fetch",
+      "source": "./bettertyped--hyper-fetch",
+      "description": "hyper-fetch"
     },
     {
       "name": "pipe-cd--pipecd",
@@ -18264,6 +18309,11 @@
       "description": "ReGoap"
     },
     {
+      "name": "luxkun--regoap",
+      "source": "./luxkun--regoap",
+      "description": "ReGoap"
+    },
+    {
       "name": "apache--freemarker",
       "source": "./apache--freemarker",
       "description": "freemarker"
@@ -18477,6 +18527,11 @@
       "name": "luccahuguet--yazelix",
       "source": "./luccahuguet--yazelix",
       "description": "yazelix"
+    },
+    {
+      "name": "microsoft--onnxruntime-genai",
+      "source": "./microsoft--onnxruntime-genai",
+      "description": "onnxruntime-genai"
     },
     {
       "name": "lanrhyme--micyou",
@@ -20004,6 +20059,11 @@
       "description": "antigravity-skills"
     },
     {
+      "name": "xoofx--zio",
+      "source": "./xoofx--zio",
+      "description": "zio"
+    },
+    {
       "name": "razzmatazz--csharp-language-server",
       "source": "./razzmatazz--csharp-language-server",
       "description": "csharp-language-server"
@@ -20232,6 +20292,11 @@
       "name": "icsharpcode--codeconverter",
       "source": "./icsharpcode--codeconverter",
       "description": "CodeConverter"
+    },
+    {
+      "name": "openvinotoolkit--model-server",
+      "source": "./openvinotoolkit--model-server",
+      "description": "model_server"
     },
     {
       "name": "giancarloerra--socraticode",
@@ -22399,6 +22464,11 @@
       "description": "High-performance AI coding agent CLI written in Rust with zero unsafe code"
     },
     {
+      "name": "eondrcode--obsidian-i18n",
+      "source": "./eondrcode--obsidian-i18n",
+      "description": "obsidian-i18n"
+    },
+    {
       "name": "neondatabase--appdotbuild-agent",
       "source": "./neondatabase--appdotbuild-agent",
       "description": "The agent that generates working apps (and maybe some other things)"
@@ -23447,6 +23517,11 @@
       "name": "taleliyahu--awesome-ai-security",
       "source": "./taleliyahu--awesome-ai-security",
       "description": "Curated resources, research, and tools for securing AI systems"
+    },
+    {
+      "name": "plasmapy--plasmapy",
+      "source": "./plasmapy--plasmapy",
+      "description": "PlasmaPy"
     },
     {
       "name": "sjjian--openhare",
@@ -29504,6 +29579,11 @@
       "description": "eslint-plugin-oxlint"
     },
     {
+      "name": "nostr-dev-kit--ndk",
+      "source": "./nostr-dev-kit--ndk",
+      "description": "ndk"
+    },
+    {
       "name": "neurprojects--neur-app",
       "source": "./neurprojects--neur-app",
       "description": "The Intelligent Copilot for Solana"
@@ -34854,6 +34934,11 @@
       "description": "jstime"
     },
     {
+      "name": "microsoft--lisa",
+      "source": "./microsoft--lisa",
+      "description": "lisa"
+    },
+    {
       "name": "dimillian--pokeswift",
       "source": "./dimillian--pokeswift",
       "description": "A reimplementation of the Pokemon Red/Blue engine in Swift and SwiftUI"
@@ -37652,6 +37737,11 @@
       "name": "yuqie6--productflow",
       "source": "./yuqie6--productflow",
       "description": "ProductFlow"
+    },
+    {
+      "name": "open-telemetry--opentelemetry-android",
+      "source": "./open-telemetry--opentelemetry-android",
+      "description": "opentelemetry-android"
     },
     {
       "name": "preetsuthar17--loftlyy",
@@ -41484,6 +41574,11 @@
       "description": "react-native-get-location"
     },
     {
+      "name": "pulearn--pulearn",
+      "source": "./pulearn--pulearn",
+      "description": "pulearn"
+    },
+    {
       "name": "silvertakana--worldwideview",
       "source": "./silvertakana--worldwideview",
       "description": "worldwideview"
@@ -42592,6 +42687,36 @@
       "name": "tw93--tw93",
       "source": "./tw93--tw93",
       "description": "tw93"
+    },
+    {
+      "name": "zhangquanchen--3dthinker",
+      "source": "./zhangquanchen--3dthinker",
+      "description": "3DThinker"
+    },
+    {
+      "name": "zhangquanchen--3dthinker",
+      "source": "./zhangquanchen--3dthinker",
+      "description": "3DThinker"
+    },
+    {
+      "name": "zhangquanchen--3dthinker",
+      "source": "./zhangquanchen--3dthinker",
+      "description": "3DThinker"
+    },
+    {
+      "name": "zhangquanchen--3dthinker",
+      "source": "./zhangquanchen--3dthinker",
+      "description": "3DThinker"
+    },
+    {
+      "name": "statico--awesome-javascript-grids",
+      "source": "./statico--awesome-javascript-grids",
+      "description": "awesome-javascript-grids"
+    },
+    {
+      "name": "statico--awesome-javascript-grids",
+      "source": "./statico--awesome-javascript-grids",
+      "description": "awesome-javascript-grids"
     },
     {
       "name": "originalankur--generateagents-md",
@@ -45074,6 +45199,16 @@
       "description": "clickhouse-datasource"
     },
     {
+      "name": "pythermalcomfort--pythermalcomfort",
+      "source": "./pythermalcomfort--pythermalcomfort",
+      "description": "pythermalcomfort"
+    },
+    {
+      "name": "dynatrace--dynatrace-operator",
+      "source": "./dynatrace--dynatrace-operator",
+      "description": "dynatrace-operator"
+    },
+    {
       "name": "joshuadavidthomas--opencode-beads",
       "source": "./joshuadavidthomas--opencode-beads",
       "description": "An OpenCode plugin for the beads issue tracker"
@@ -46802,6 +46937,11 @@
       "name": "okta--okta-sdk-golang",
       "source": "./okta--okta-sdk-golang",
       "description": "okta-sdk-golang"
+    },
+    {
+      "name": "dotnet--vscode-dotnet-runtime",
+      "source": "./dotnet--vscode-dotnet-runtime",
+      "description": "vscode-dotnet-runtime"
     },
     {
       "name": "nubaeon--empirica",
@@ -49579,6 +49719,11 @@
       "description": "Companion"
     },
     {
+      "name": "skblaz--py3plex",
+      "source": "./skblaz--py3plex",
+      "description": "py3plex"
+    },
+    {
       "name": "peiiii--nextclaw",
       "source": "./peiiii--nextclaw",
       "description": "NextClaw: Your omnipotent personal assistant, residing above the digital realm. Basically Ultra-Lightweight OpenClaw Pro Max."
@@ -49962,6 +50107,11 @@
       "name": "et06731--opencode-im-bridge",
       "source": "./et06731--opencode-im-bridge",
       "description": "opencode-im-bridge"
+    },
+    {
+      "name": "besser-pearl--besser",
+      "source": "./besser-pearl--besser",
+      "description": "BESSER"
     },
     {
       "name": "hypothesi--mcp-server-tauri",
@@ -51952,6 +52102,11 @@
       "name": "yourdaylight--stock-datasource",
       "source": "./yourdaylight--stock-datasource",
       "description": "stock_datasource"
+    },
+    {
+      "name": "joelazar--dotfiles",
+      "source": "./joelazar--dotfiles",
+      "description": "dotfiles"
     },
     {
       "name": "standardagents--sip",
@@ -54162,6 +54317,11 @@
       "name": "skyf0l--rsacracker",
       "source": "./skyf0l--rsacracker",
       "description": "RsaCracker"
+    },
+    {
+      "name": "anibullet--bskeytools",
+      "source": "./anibullet--bskeytools",
+      "description": "BsKeyTools"
     },
     {
       "name": "viemccoy--excalibur",
@@ -59249,6 +59409,11 @@
       "description": "Neuron"
     },
     {
+      "name": "waldiez--waldiez",
+      "source": "./waldiez--waldiez",
+      "description": "waldiez"
+    },
+    {
       "name": "currycan--hatickets",
       "source": "./currycan--hatickets",
       "description": "\u5927\u9ea6\u7f51\u62a2\u7968\u81ea\u52a8\u5316 \u2014 Mobile(U2) / Desktop(Tauri+Rust) \u65b9\u6848"
@@ -60339,6 +60504,11 @@
       "description": "goldenmatch"
     },
     {
+      "name": "stride3d--stride-community-toolkit",
+      "source": "./stride3d--stride-community-toolkit",
+      "description": "stride-community-toolkit"
+    },
+    {
       "name": "cloveric--cc-telegram-bridge",
       "source": "./cloveric--cc-telegram-bridge",
       "description": "Real Claude Code & Codex CLI on Telegram \u2014 runs their native harness directly, no reimplemented API wrappers. Sessions, memory, tools, all built-in. Multi-bot Agent Bus, resume local sessions on your "
@@ -60809,6 +60979,11 @@
       "description": "mixpanel-react-native"
     },
     {
+      "name": "mratmeyer--rsslookup",
+      "source": "./mratmeyer--rsslookup",
+      "description": "rsslookup"
+    },
+    {
       "name": "boostsecurityio--smokedmeat",
       "source": "./boostsecurityio--smokedmeat",
       "description": "A CI/CD Red Team Framework for demonstrating Build Pipeline security risks."
@@ -61047,6 +61222,11 @@
       "name": "socketry--live",
       "source": "./socketry--live",
       "description": "live"
+    },
+    {
+      "name": "agent-one-lab--agentfly",
+      "source": "./agent-one-lab--agentfly",
+      "description": "AgentFly"
     },
     {
       "name": "akeit0--okojo",
@@ -63962,6 +64142,11 @@
       "name": "apollon77--daikin-controller-cloud",
       "source": "./apollon77--daikin-controller-cloud",
       "description": "daikin-controller-cloud"
+    },
+    {
+      "name": "go-openapi--strfmt",
+      "source": "./go-openapi--strfmt",
+      "description": "strfmt"
     },
     {
       "name": "pithings--voipi",
@@ -72869,6 +73054,11 @@
       "description": "pew-pew-plaza-packs"
     },
     {
+      "name": "mckruz--comfyui-expert",
+      "source": "./mckruz--comfyui-expert",
+      "description": "ComfyUI-Expert"
+    },
+    {
       "name": "40rbidd3n--hydro0x01",
       "source": "./40rbidd3n--hydro0x01",
       "description": "Secure, production-grade IoT hydroponic automation system with ESP32, MQTT telemetry, and real-time dashboard"
@@ -74054,6 +74244,11 @@
       "description": "PowerControl"
     },
     {
+      "name": "oculus-samples--voicesdk-samples-whisperer",
+      "source": "./oculus-samples--voicesdk-samples-whisperer",
+      "description": "voicesdk-samples-whisperer"
+    },
+    {
       "name": "pureween--polypilot",
       "source": "./pureween--polypilot",
       "description": "PolyPilot"
@@ -74472,6 +74667,11 @@
       "name": "nvidia-omniverse--kit-usd-agents",
       "source": "./nvidia-omniverse--kit-usd-agents",
       "description": "kit-usd-agents"
+    },
+    {
+      "name": "knotsberryofficial-hash--n8n-node-billflux-invoice-receipt-ocr",
+      "source": "./knotsberryofficial-hash--n8n-node-billflux-invoice-receipt-ocr",
+      "description": "n8n-node-billflux-invoice-receipt-ocr"
     },
     {
       "name": "sonarsource--sonarqube-agent-plugins",
@@ -78432,6 +78632,11 @@
       "name": "oculus-samples--unity-appspacewarp",
       "source": "./oculus-samples--unity-appspacewarp",
       "description": "Unity-AppSpaceWarp"
+    },
+    {
+      "name": "photo-cli--photo-cli",
+      "source": "./photo-cli--photo-cli",
+      "description": "photo-cli"
     },
     {
       "name": "tmdgusya--engineering-discipline",
@@ -82974,6 +83179,11 @@
       "description": "unxt"
     },
     {
+      "name": "nickelsh1ts--streamarr",
+      "source": "./nickelsh1ts--streamarr",
+      "description": "streamarr"
+    },
+    {
       "name": "v-iole-t--tab-harbor",
       "source": "./v-iole-t--tab-harbor",
       "description": "\u4e00\u4e2a\u66f4\u5b89\u9759\u7684\u65b0\u6807\u7b7e\u9875\u5de5\u4f5c\u53f0\uff0c\u628a\u6253\u5f00\u4e2d\u7684\u6807\u7b7e\u3001\u5feb\u6377\u94fe\u63a5\u3001\u5f85\u8bfb\u548c\u8f7b\u91cf\u5f85\u529e\u6536\u8fdb\u540c\u4e00\u4e2a\u987a\u624b\u7684\u7a7a\u95f4\u91cc\u3002"
@@ -83702,6 +83912,16 @@
       "name": "microsoft--omnichannel-chat-sdk",
       "source": "./microsoft--omnichannel-chat-sdk",
       "description": "omnichannel-chat-sdk"
+    },
+    {
+      "name": "osu-nlp-group--saev",
+      "source": "./osu-nlp-group--saev",
+      "description": "saev"
+    },
+    {
+      "name": "osu-nlp-group--saev",
+      "source": "./osu-nlp-group--saev",
+      "description": "saev"
     },
     {
       "name": "claude-world--claude-skill-antivirus",
@@ -85324,6 +85544,76 @@
       "description": "consent_manager"
     },
     {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "limanmys--core",
+      "source": "./limanmys--core",
+      "description": "core"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
+      "name": "phulin--tower-together",
+      "source": "./phulin--tower-together",
+      "description": "tower-together"
+    },
+    {
       "name": "ursushoribilismusic--agentic-fleet-hub",
       "source": "./ursushoribilismusic--agentic-fleet-hub",
       "description": "Self-hosted orchestration layer for autonomous AI agent teams. Shared memory, heartbeat scheduling, vault-first secrets, and cross-model peer review \u2014 one command to deploy."
@@ -85977,6 +86267,11 @@
       "name": "nitic-robot-club--natto-library",
       "source": "./nitic-robot-club--natto-library",
       "description": "natto_library"
+    },
+    {
+      "name": "hvwin8--clawx",
+      "source": "./hvwin8--clawx",
+      "description": "ClawX"
     },
     {
       "name": "hw-native-sys--pypto",
@@ -86724,6 +87019,26 @@
       "description": "tbdflow"
     },
     {
+      "name": "purple-technology--purple-stack",
+      "source": "./purple-technology--purple-stack",
+      "description": "purple-stack"
+    },
+    {
+      "name": "purple-technology--purple-stack",
+      "source": "./purple-technology--purple-stack",
+      "description": "purple-stack"
+    },
+    {
+      "name": "purple-technology--purple-stack",
+      "source": "./purple-technology--purple-stack",
+      "description": "purple-stack"
+    },
+    {
+      "name": "purple-technology--purple-stack",
+      "source": "./purple-technology--purple-stack",
+      "description": "purple-stack"
+    },
+    {
       "name": "bioliminal--bioliminal-mobile-application",
       "source": "./bioliminal--bioliminal-mobile-application",
       "description": "Bioliminal mobile application (Flutter)"
@@ -87312,6 +87627,16 @@
       "name": "dotnet--nbgv",
       "source": "./dotnet--nbgv",
       "description": "nbgv"
+    },
+    {
+      "name": "kilnx-org--kilnx",
+      "source": "./kilnx-org--kilnx",
+      "description": "kilnx"
+    },
+    {
+      "name": "stellar--stellar-disbursement-platform-backend",
+      "source": "./stellar--stellar-disbursement-platform-backend",
+      "description": "stellar-disbursement-platform-backend"
     },
     {
       "name": "asakin--llm-context-base",
@@ -91374,6 +91699,11 @@
       "description": "enterprise-sdk"
     },
     {
+      "name": "reactivemarbles--crisscross",
+      "source": "./reactivemarbles--crisscross",
+      "description": "CrissCross"
+    },
+    {
       "name": "anhtester--antigravity-testing-kit",
       "source": "./anhtester--antigravity-testing-kit",
       "description": "\u0110\u00e2y l\u00e0 b\u1ed9 SKILL, WORKFLOW, RULE do Anh Tester x\u00e2y d\u1ef1ng d\u00e0nh ri\u00eang cho c\u1ed9ng \u0111\u1ed3ng Tester \u0111\u1ec3 thi\u1ebft l\u1eadp AI Agent tr\u00ean Antigravity h\u1ed7 tr\u1ee3 ki\u1ec3m th\u1eed ph\u1ea7n m\u1ec1m."
@@ -95307,6 +95637,11 @@
       "name": "x3zvawq--unluac-rs",
       "source": "./x3zvawq--unluac-rs",
       "description": "unluac-rs"
+    },
+    {
+      "name": "gregsdennis--dependencies-action",
+      "source": "./gregsdennis--dependencies-action",
+      "description": "dependencies-action"
     },
     {
       "name": "chimedeck--chimedeck",
@@ -101627,6 +101962,41 @@
       "name": "lolner95--godotter",
       "source": "./lolner95--godotter",
       "description": "godotter"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
+    },
+    {
+      "name": "webtrit--webtrit-phone",
+      "source": "./webtrit--webtrit-phone",
+      "description": "webtrit_phone"
     },
     {
       "name": "webtrit--webtrit-phone",
@@ -109514,6 +109884,16 @@
       "description": "agentserver"
     },
     {
+      "name": "samfold--mcp-net",
+      "source": "./samfold--mcp-net",
+      "description": "Mcp.Net"
+    },
+    {
+      "name": "samfold--mcp-net",
+      "source": "./samfold--mcp-net",
+      "description": "Mcp.Net"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -114234,6 +114614,11 @@
       "description": "jupyter-deploy"
     },
     {
+      "name": "oculus-samples--unity-performancesettings",
+      "source": "./oculus-samples--unity-performancesettings",
+      "description": "Unity-PerformanceSettings"
+    },
+    {
       "name": "r44vc0rp--itui",
       "source": "./r44vc0rp--itui",
       "description": "itui"
@@ -115739,6 +116124,61 @@
       "description": "amber-express"
     },
     {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "stupidloud--cachewrtbuild",
+      "source": "./stupidloud--cachewrtbuild",
+      "description": "cachewrtbuild"
+    },
+    {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "hass-energy--amber-express",
+      "source": "./hass-energy--amber-express",
+      "description": "amber-express"
+    },
+    {
+      "name": "mholovetskyi--openclawenterprise",
+      "source": "./mholovetskyi--openclawenterprise",
+      "description": "openclawenterprise"
+    },
+    {
+      "name": "mholovetskyi--openclawenterprise",
+      "source": "./mholovetskyi--openclawenterprise",
+      "description": "openclawenterprise"
+    },
+    {
+      "name": "mholovetskyi--openclawenterprise",
+      "source": "./mholovetskyi--openclawenterprise",
+      "description": "openclawenterprise"
+    },
+    {
+      "name": "mholovetskyi--openclawenterprise",
+      "source": "./mholovetskyi--openclawenterprise",
+      "description": "openclawenterprise"
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "source": "./rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI"
@@ -117222,6 +117662,11 @@
       "name": "spencerkit--coder-studio",
       "source": "./spencerkit--coder-studio",
       "description": "coder-studio"
+    },
+    {
+      "name": "mangiapanejohn-dev--resonix-ag",
+      "source": "./mangiapanejohn-dev--resonix-ag",
+      "description": "Resonix-AG"
     },
     {
       "name": "mangiapanejohn-dev--resonix-ag",
@@ -120482,6 +120927,11 @@
       "name": "732124645--promptops",
       "source": "./732124645--promptops",
       "description": "PromptOps"
+    },
+    {
+      "name": "rxvt--s3fetch",
+      "source": "./rxvt--s3fetch",
+      "description": "s3fetch"
     },
     {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
@@ -336027,6 +336477,11 @@
       "name": "slbailey--retrowaves",
       "source": "./slbailey--retrowaves",
       "description": "24x7 Radio Station Simulator"
+    },
+    {
+      "name": "alexjbowen--jobsboard",
+      "source": "./alexjbowen--jobsboard",
+      "description": "jobsBoard"
     }
   ]
 }
