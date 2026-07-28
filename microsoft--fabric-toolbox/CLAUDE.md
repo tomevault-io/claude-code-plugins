@@ -1,0 +1,26 @@
+# fabric-toolbox
+
+> 1. **Mandatory** Using semantic_model_mcp_server MCP
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/fabric-toolbox/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## Tools
+1. **Mandatory** Using semantic_model_mcp_server MCP
+
+## TMSL Reference
+When working with TMSL (Tabular Model Scripting Language) objects, **strongly recommend** referring to the official Microsoft Learn documentation:
+- https://learn.microsoft.com/en-us/analysis-services/tmsl/tmsl-reference-tabular-objects?view=sql-analysis-services-2025
+
+This article provides the authoritative schema and syntax for TMSL objects including tables, columns, measures, relationships, and all valid properties. Always validate TMSL structure against this reference to ensure compliance and avoid deployment errors.
+
+---
+> Source: [microsoft/fabric-toolbox](https://github.com/microsoft/fabric-toolbox) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
