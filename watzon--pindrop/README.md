@@ -1,8 +1,6 @@
 # pindrop
 
-> Tome by [watzon](https://github.com/watzon/pindrop) — distributed by [TomeVault](https://tomevault.io)
-
-A native macOS menu bar dictation app using local speech-to-text with WhisperKit
+> Tome by [watzon](https://github.com/watzon/pindrop), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [watzon/pindrop](https://github.com/watzon/pindr
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/watzon/pindrop](https://github.com/watzon/pindrop)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/watzon/pindrop](https://github.com/watzon/pindrop)
 
 ---
 
