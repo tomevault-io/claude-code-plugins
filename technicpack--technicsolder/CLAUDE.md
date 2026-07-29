@@ -1,0 +1,28 @@
+# technicsolder
+
+> - Follow existing code conventions. When creating or editing a file, check sibling files for structure, approach, and naming.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/technicsolder/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Conventions
+
+- Follow existing code conventions. When creating or editing a file, check sibling files for structure, approach, and naming.
+- Use descriptive names for variables and methods. For example, `isRegisteredForDiscounts`, not `discount()`.
+- Check for existing components to reuse before writing a new one.
+- Stick to existing directory structure; don't create new base folders without approval.
+- Do not change application dependencies without approval.
+- If a frontend change isn't reflected in the UI, ask the user to run `npm run build`, `npm run dev`, or `composer run dev`.
+- Only create documentation files if explicitly requested.
+- Be concise — focus on what's important rather than explaining obvious details.
+
+---
+> Source: [TechnicPack/TechnicSolder](https://github.com/TechnicPack/TechnicSolder) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
