@@ -5,7 +5,7 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.windsurf/rules/*.md` in [Dave-London/Pare](https://github.com/Dave-London/Pare).
+Original source: `` in [Dave-London/Pare](https://github.com/Dave-London/Pare).
 
 ## Also available for
 
@@ -14,6 +14,7 @@ Original source: `.windsurf/rules/*.md` in [Dave-London/Pare](https://github.com
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 From [Dave-London/Pare](https://github.com/Dave-London/Pare) — a repo with 135+ stars on GitHub.
 
