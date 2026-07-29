@@ -1,22 +1,22 @@
-# zod-best-practices
+# zustand-best-practices
 
-> Best practices for schema validation with Zod
+> Best practices for state management with Zustand
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/zod-best-practices/SKILL.md
+Read and follow the instructions in .claude/skills/zustand-best-practices/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-- Define clear and reusable schemas for data validation
-- Use Zod's type inference for TypeScript integration and type safety
-- Implement custom validation rules using Zod's `refine` method
-- Utilize Zod with `react-hook-form` for seamless form validation
+- Use the `create` function to define your store for simplicity and performance.
+- Implement middleware like `persist` for persisting state across sessions.
+- Utilize the `useStore` hook for accessing store state in components.
+- Leverage the `immer` middleware for easier state updates with mutable syntax.
 
 ---
 > Source: [zjutimes2015/talkflow](https://github.com/zjutimes2015/talkflow) — distributed by [TomeVault](https://tomevault.io).
