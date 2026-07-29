@@ -1,8 +1,6 @@
 # AI instruction files for PlayPalace11
 
-> Sourced from [XGDevGroup/PlayPalace11](https://github.com/XGDevGroup/PlayPalace11) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Blind-Accessible Turn-Based Games Server
+> Sourced from [XGDevGroup/PlayPalace11](https://github.com/XGDevGroup/PlayPalace11), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
