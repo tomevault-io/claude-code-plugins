@@ -1,8 +1,6 @@
 # AI instruction files for gemini-rss-app
 
-> Sourced from [Sallyn0225/gemini-rss-app](https://github.com/Sallyn0225/gemini-rss-app) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-RSS 聚合 + AI 翻译与总结的资讯阅读器，支持多源订阅、按日总结与内容分类，兼容 OpenAI / Gemini / Anthropic 等多种 AI API 格式。
+> Sourced from [Sallyn0225/gemini-rss-app](https://github.com/Sallyn0225/gemini-rss-app), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [Sallyn0225/gemini-rss-app](https://github.com/S
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Sallyn0225/gemini-rss-app](https://github.com/Sallyn0225/gemini-rss-app) — a repo with 73+ stars on GitHub.
+From [Sallyn0225/gemini-rss-app](https://github.com/Sallyn0225/gemini-rss-app) — a repo with 82+ stars on GitHub.
 
 ---
 
