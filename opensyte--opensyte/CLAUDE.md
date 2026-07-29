@@ -1,4 +1,4 @@
-# instructions
+# opensyte
 
 > OpenSyte is an open-source all-in-one business management software built with the T3 stack (Next.js, TypeScript, tRPC, Prisma). It provides comprehensive modules for CRM, Project Management, Finance, HR, and Workflow Automation.
 
@@ -7,10 +7,14 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/instructions/SKILL.md
+Read and follow the instructions in .claude/skills/opensyte/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
+---
+applyTo: "**"
+---
 
 ## Project Overview
 
@@ -430,4 +434,4 @@ NEXTAUTH_SECRET="..."
 
 ---
 > Source: [Opensyte/opensyte](https://github.com/Opensyte/opensyte) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-21 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
