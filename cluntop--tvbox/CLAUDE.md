@@ -150,4 +150,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [cluntop/tvbox](https://github.com/cluntop/tvbox) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-06-01 -->
+<!-- tomevault:4.0:claude_md:2026-07-25 -->
