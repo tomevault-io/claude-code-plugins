@@ -1,6 +1,6 @@
 # nvim-redraft
 
-> <!-- OPENSPEC:START -->
+> Instructions for AI coding assistants using OpenSpec for spec-driven development.
 
 ## Usage
 
@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/nvim-redraft/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!-- OPENSPEC:START -->
 # OpenSpec Instructions
 
 Instructions for AI coding assistants using OpenSpec for spec-driven development.
@@ -467,8 +466,6 @@ openspec archive [change]  # Mark complete
 
 Remember: Specs are truth. Changes are proposals. Keep them in sync.
 
-<!-- OPENSPEC:END -->
-
 ---
 > Source: [jim-at-jibba/nvim-redraft](https://github.com/jim-at-jibba/nvim-redraft) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-05 -->
+<!-- tomevault:4.0:claude_md:2026-07-21 -->
