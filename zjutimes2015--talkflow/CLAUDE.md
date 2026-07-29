@@ -1,22 +1,23 @@
-# react-hook-form-best-practices
+# stripe-best-practices
 
-> Best practices for form handling with React Hook Form
+> Best practices for integrating Stripe payments
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/react-hook-form-best-practices/SKILL.md
+Read and follow the instructions in .claude/skills/stripe-best-practices/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-- Use the `useForm` hook for efficient form state management.
-- Implement validation using Zod with `@hookform/resolvers` for type-safe form validation.
-- Utilize the `Controller` component for integrating with custom inputs.
-- Leverage the `useFormContext` hook for sharing form state across components.
+- Use the `@stripe/stripe-js` package for client-side Stripe integration.
+- Implement proper error handling and user feedback for payment flows.
+- Utilize Stripe's Elements for secure, customizable payment inputs.
+- Leverage Stripe's Webhooks for real-time payment status updates.
+- Follow Stripe's best practices for PCI compliance and security
 
 ---
 > Source: [zjutimes2015/talkflow](https://github.com/zjutimes2015/talkflow) — distributed by [TomeVault](https://tomevault.io).
