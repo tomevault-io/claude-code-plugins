@@ -1,35 +1,23 @@
-# trigger
+# writing-tests
 
-> Trigger.dev v3 conventions (tasks live in @proxed/jobs)
+> Writing tests with Bun
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/trigger/SKILL.md
+Read and follow the instructions in .claude/skills/writing-tests/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Trigger.dev (v3)
+# Writing tests (Bun)
 
-## How Trigger is wired in this repo
-
-- Task implementations live in `packages/jobs` (importable as `@proxed/jobs`).
-- Trigger.dev loads from `apps/app/jobs` because `apps/app/trigger.config.ts` has `dirs: ["jobs"]`.
-- Pattern: implement tasks in `packages/jobs`, then re-export them from `apps/app/jobs/*`.
-
-## Local dev
-
-- From repo root: `bun run dev:trigger`
-
-## Conventions
-
-- Use `@trigger.dev/sdk/v3` (`task` / `schemaTask`) — never v2 APIs.
-- Always `export` each task and keep `id` unique and stable.
-- Prefer `schemaTask` + Zod schemas for payload validation.
-- Avoid `triggerAndWait` in request/response paths; prefer fire-and-forget with observability.
+- Prefer adding tests near the code you changed (co-located) before creating new suites.
+- For bug fixes: add a failing test first, then implement the fix.
+- Keep tests deterministic: avoid real network calls; prefer fixtures/mocks.
+- Run tests in the relevant workspace (or repo root) with `bun test` / `bun run test` where available.
 
 ---
 > Source: [nech-ai/proxed](https://github.com/nech-ai/proxed) — distributed by [TomeVault](https://tomevault.io).
