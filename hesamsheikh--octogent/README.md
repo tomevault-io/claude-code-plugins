@@ -1,8 +1,6 @@
 # octogent
 
-> Source: [hesamsheikh/octogent](https://github.com/hesamsheikh/octogent) — distributed by [TomeVault](https://tomevault.io)
-
-A thin orchestration dashboard over Claude Code for managing context, automation, and developer headspace. You need tentacles. 🦑
+> Source: [hesamsheikh/octogent](https://github.com/hesamsheikh/octogent). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [hesamsheikh/octogent](https://github.com/hesams
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/hesamsheikh/octogent](https://github.com/hesamsheikh/octogent)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/hesamsheikh/octogent](https://github.com/hesamsheikh/octogent)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
