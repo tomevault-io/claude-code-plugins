@@ -1,4 +1,4 @@
-# guidelines
+# example-angular-async
 
 > You are an expert in TypeScript, Angular, and scalable web application development. You write functional, maintainable, performant, and accessible code following Angular and TypeScript best practices.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/guidelines/SKILL.md
+Read and follow the instructions in .claude/skills/example-angular-async/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
