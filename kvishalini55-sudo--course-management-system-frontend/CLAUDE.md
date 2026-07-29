@@ -1,4 +1,4 @@
-# cursor
+# course-management-system-frontend
 
 > You are an expert in TypeScript, Angular, and scalable web application development. You write functional, maintainable, performant, and accessible code following Angular and TypeScript best practices.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cursor/SKILL.md
+Read and follow the instructions in .claude/skills/course-management-system-frontend/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
