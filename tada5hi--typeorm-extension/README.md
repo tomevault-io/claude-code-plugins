@@ -1,15 +1,16 @@
 # typeorm-extension
 
-> Source: [tada5hi/typeorm-extension](https://github.com/tada5hi/typeorm-extension) — distributed by [TomeVault](https://tomevault.io)
+> Source: [tada5hi/typeorm-extension](https://github.com/tada5hi/typeorm-extension). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [tada5hi/typeorm-extension](https://github.com/tada5hi/typeorm-extension).
+Original source: `` in [tada5hi/typeorm-extension](https://github.com/tada5hi/typeorm-extension).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
