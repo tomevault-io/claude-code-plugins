@@ -1,6 +1,6 @@
 # lalph
 
-> Tome by [tim-smart](https://github.com/tim-smart/lalph) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [tim-smart](https://github.com/tim-smart/lalph), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
