@@ -1,8 +1,6 @@
 # intentkit
 
-> Tome by [crestalnetwork](https://github.com/crestalnetwork/intentkit) — distributed by [TomeVault](https://tomevault.io)
-
-IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.
+> Tome by [crestalnetwork](https://github.com/crestalnetwork/intentkit), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [crestalnetwork/intentkit](https://github.com/cr
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [crestalnetwork/intentkit](https://github.com/crestalnetwork/intentkit) — a repo with 6497+ stars on GitHub.
+From [crestalnetwork/intentkit](https://github.com/crestalnetwork/intentkit) — a repo with 6504+ stars on GitHub.
 
 ---
 
