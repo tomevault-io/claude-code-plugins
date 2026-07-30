@@ -1,0 +1,38 @@
+# claude-agent-lifecycle-iron-law
+
+> IRON LAW — Cradle must not take over Claude Agent SDK turn/session lifecycle
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/claude-agent-lifecycle-iron-law/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# IRON LAW: Do not take over Claude Agent lifecycle
+
+Cradle **MUST NOT** own Claude Agent SDK turn/session scheduling.
+
+## Authority
+
+- Turns, coalescing, `result` boundaries, `interrupt` / `still_queued`, and `cancelAsyncMessage` belong to the long-lived Claude `Query` + `AsyncIterable`.
+- Cradle only **projects** SDK events into UI Runs, messages, SSE, queue records, and observability.
+
+## Forbidden (known failure mode: empty user run → system synthetic run)
+
+- Closing/clearing the active **user** UI run on an empty or early top-level `result`, then opening a `origin: system` synthetic run to continue the same Claude work.
+- Using Cradle UI Run / `currentTurn` as if it were Claude's scheduler.
+- Adopt/absorb heuristics, text-match queue ownership, or any Cradle policy that reinterprets Claude's scheduling as Cradle turns.
+
+## Required
+
+- Prefer deleting wrong scheduling seams over adding more lifecycle ownership.
+- If a fix requires Cradle to own Claude's turn lifecycle again: **stop and redesign**.
+
+---
+> Source: [wibus-wee/cradle-app](https://github.com/wibus-wee/cradle-app) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-29 -->
