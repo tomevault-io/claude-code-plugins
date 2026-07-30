@@ -1,26 +1,10 @@
 {
   "name": "lobehub--lobe-chat-agents",
-  "displayName": "lobe",
-  "description": "AI instruction skills by lobehub",
+  "displayName": "lobe-chat-agents",
+  "description": "lobe-chat-agents",
   "version": "1.0.0",
   "author": "lobehub",
   "homepage": "https://github.com/lobehub/lobe-chat-agents",
-  "type": "tome",
-  "skills": [
-    "add-provider-doc",
-    "add-setting-env",
-    "debug",
-    "desktop",
-    "drizzle",
-    "hotkey",
-    "i18n",
-    "microcopy",
-    "modal",
-    "project-overview",
-    "react",
-    "recent-data",
-    "testing",
-    "typescript",
-    "zustand"
-  ]
+  "type": "config",
+  "skills": []
 }
