@@ -1,8 +1,6 @@
 # neuron-ai
 
-> Tome by [neuron-core](https://github.com/neuron-core/neuron-ai) — distributed by [TomeVault](https://tomevault.io)
-
-The PHP Agentic Framework to build production-ready AI driven applications. Connect components (LLMs, vector DBs, memory) to agents that can interact with your data.
+> Tome by [neuron-core](https://github.com/neuron-core/neuron-ai), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [neuron-core/neuron-ai](https://github.com/neuro
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/neuron-core/neuron-ai](https://github.com/neuron-core/neuron-ai)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/neuron-core/neuron-ai](https://github.com/neuron-core/neuron-ai)
 
 ---
 
