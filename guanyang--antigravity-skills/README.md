@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [guanyang/antigravity-skills](https://github.com
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills) — a repo with 934+ stars on GitHub.
+From [guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills) — a repo with 935+ stars on GitHub.
 
 ---
 
