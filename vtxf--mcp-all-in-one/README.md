@@ -1,8 +1,6 @@
 # mcp-all-in-one
 
-> Tome by [vtxf](https://github.com/vtxf/mcp-all-in-one) — distributed by [TomeVault](https://tomevault.io)
-
-A powerful MCP (Model Context Protocol) service aggregator that combines multiple MCP services into a single unified MCP service with self-configuration capabilities.
+> Tome by [vtxf](https://github.com/vtxf/mcp-all-in-one), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
