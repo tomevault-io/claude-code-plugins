@@ -1,0 +1,111 @@
+{
+  "name": "remindb",
+  "owner": "radimsem",
+  "repo": "remindb",
+  "description": "",
+  "type": "tome",
+  "source_format": "AGENTS.md",
+  "formats": [
+    {
+      "format": "claude_md",
+      "display": "CLAUDE.md",
+      "platform": "Claude Code"
+    },
+    {
+      "format": "agents_md",
+      "display": "AGENTS.md",
+      "platform": "Codex"
+    },
+    {
+      "format": "copilot_instructions",
+      "display": "copilot-instructions.md",
+      "platform": "GitHub Copilot"
+    },
+    {
+      "format": "cursor_mdc",
+      "display": ".cursor/rules/*.mdc",
+      "platform": "Cursor"
+    },
+    {
+      "format": "gemini_md",
+      "display": "GEMINI.md",
+      "platform": "Gemini CLI"
+    },
+    {
+      "format": "windsurf_rules",
+      "display": ".windsurf/rules/*.md",
+      "platform": "Windsurf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "remindb",
+      "path": "skills/remind/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/skills/remind/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": "skills/memorize/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/skills/memorize/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": "skills/remember/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/skills/remember/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": "skills/remindb-setup/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/skills/remindb-setup/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-parser/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-parser/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-mcp-tool/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-mcp-tool/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-store-query/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-store-query/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-fuzz-target/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-fuzz-target/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-bench-scenario/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-bench-scenario/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/add-integration-test/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/add-integration-test/SKILL.md",
+      "description": ""
+    },
+    {
+      "name": "remindb",
+      "path": ".claude/skills/tune-temperature-policy/SKILL.md",
+      "github_url": "https://github.com/radimsem/remindb/tree/main/.claude/skills/tune-temperature-policy/SKILL.md",
+      "description": ""
+    }
+  ],
+  "source_url": "https://github.com/radimsem/remindb",
+  "distributed_by": "TomeVault",
+  "distributed_at": "2026-07-30T13:09:07Z"
+}
