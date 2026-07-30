@@ -1,6 +1,6 @@
-# Claude-Code-Zen-mcp-Skill-Work
+# AI instruction files for Claude-Code-Zen-mcp-Skill-Work
 
-> Config by [VCnoC](https://github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work) — distributed by [TomeVault](https://tomevault.io/claim/VCnoC)
+> Sourced from [VCnoC/Claude-Code-Zen-mcp-Skill-Work](https://github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,9 +15,14 @@ Original source: `AGENTS.md` in [VCnoC/Claude-Code-Zen-mcp-Skill-Work](https://g
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/VCnoC](https://tomevault.io/claim/VCnoC)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work](https://github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/VCnoC) to manage distribution.
+Install this config instantly:
+```
+npx tomevault install VCnoC/Claude-Code-Zen-mcp-Skill-Work
+```
+Source: [github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work](https://github.com/VCnoC/Claude-Code-Zen-mcp-Skill-Work).
+
+<!-- genome:a-i-p -->
