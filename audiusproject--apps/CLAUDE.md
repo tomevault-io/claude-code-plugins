@@ -1,0 +1,79 @@
+# apps
+
+> TypeScript/React coding standards - prefer null coalescing, optional chaining, ternaries for rendering, optional types, and organized string constants
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/apps/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# TypeScript Best Practices
+
+## Null Coalescing & Optional Chaining
+
+Use `??` and `?.` instead of `&&`/`||` for null checks.
+
+```typescript
+// ✅ Good
+const value = user?.name ?? 'Anonymous'
+const displayName = user?.profile?.displayName ?? 'Unknown'
+
+// ❌ Bad
+const value = (user && user.name) || 'Anonymous'
+const displayName =
+  (user && user.profile && user.profile.displayName) || 'Unknown'
+```
+
+## Conditional Rendering
+
+Use ternaries instead of `&&` for JSX conditional rendering.
+
+```tsx
+// ✅ Good
+return !user ? null : <UserProfile user={user} />
+return list.length === 0 ? null : <List items={list} />
+
+// ❌ Bad
+return user && <UserProfile user={user} />
+return list.length && <List items={list} />
+```
+
+## String Constants
+
+Organize user-facing strings in a `messages` object at the top of components.
+
+```tsx
+// ✅ Good
+const messages = {
+  title: 'Welcome',
+  error: 'Something went wrong'
+}
+
+return <h1>{messages.title}</h1>
+
+// ❌ Bad
+return <h1>Welcome</h1>
+```
+
+## Flex Component Direction
+
+Flex components default to column direction on mobile and row direction on web. Use the `column` prop directly instead of `direction='column'`, or omit the prop entirely for the default responsive behavior.
+
+```tsx
+// ✅ Good
+<Flex>...</Flex>          // Default: Mobile column, Web row
+<Flex column>...</Flex>   // Explicit column on both platforms
+
+// ❌ Bad
+<Flex direction='column'>...</Flex>
+```
+
+---
+> Source: [AudiusProject/apps](https://github.com/AudiusProject/apps) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
