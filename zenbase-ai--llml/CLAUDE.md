@@ -1,75 +1,281 @@
-# ts
+# llml
 
-> The TypeScript implementation is a minimalist, functional, and robust library with zero production dependencies besides `dedent`. It prioritizes predictable output and developer experience through a simple API and strict typing, while gracefully handling varied and unpredictable input data.
+> INHERITS: ../.cursor/rules/spec.mdc.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ts/SKILL.md
+Read and follow the instructions in .claude/skills/llml/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# TypeScript Coding Rules for LLML Project
+INHERITS: ../.cursor/rules/spec.mdc.
 
-## Overall Philosophy
+# TypeScript LLML Specification
 
-The TypeScript implementation is a minimalist, functional, and robust library with zero production dependencies besides `dedent`. It prioritizes predictable output and developer experience through a simple API and strict typing, while gracefully handling varied and unpredictable input data.
+## Custom Formatters
 
-## Project Structure & Conventions
+The TypeScript implementation supports custom formatters for domain-specific value transformation. Formatters allow you to customize how specific types are serialized into the LLML output.
 
-### Tooling
-- **Runtime and Package Management:** Use `bun` for all operations (installing dependencies, running scripts, building). The project is configured with `bun.lockb`.
-- **Testing:** `vitest` is the testing framework. Use `bun test` to run the test suite.
-- **Type Checking:** `typescript` is used for static analysis. Run `bun run tsc --noEmit` to check for type errors without generating JavaScript files.
+### Formatter Type Definition
 
-### Module System
-- The project uses **ES Modules (ESM)** exclusively, as defined by `"type": "module"` in `package.json`.
-- Use `import`/`export` syntax. Do not use `require`/`module.exports`.
+```typescript
+type Formatter<T = unknown> = [
+  predicate: (value: unknown) => value is T,
+  format: (value: T) => string
+]
+```
 
-### File Organization
-- **Source Code:** All core logic resides in the `src/` directory. The main entry point is `src/index.ts`.
-- **Utilities:** Pure, reusable helper functions (like `kebabCase`) should be placed in `src/utils.ts`.
-- **Tests:** All test files are located in the `tests/` directory. Maintain the one-to-one mapping of feature-to-test-file (e.g., `nested.ts` logic is tested in `tests/nested.test.ts`).
+### SwagXMLOptions Extension
 
-## Coding Style & Patterns
+```typescript
+interface SwagXMLOptions {
+  indent?: string
+  prefix?: string
+  formatters?: Formatter[]
+}
+```
 
-- **Functional Approach:** The core logic is implemented as a set of pure functions. The main `llml` function is recursive and delegates formatting tasks to helpers. Avoid classes and stateful logic.
-- **Immutability:** Do not mutate input data. Functions should return new, transformed values.
-- **Dependencies:** Maintain the zero-dependency principle for production code. The only exception is `dedent`, which is used for cleaning up multiline strings. Do not add new production dependencies without strong justification.
-- **Readability:** Use `const` by default and `let` only when a variable must be reassigned. Code is formatted with a 2-space indent.
-- **Comments:** Add JSDoc-style comments to exported functions and complex utility functions to explain their purpose, parameters, and return values, as seen in `src/utils.ts`.
+### Usage Examples
 
-## Type Usage & Safety
+#### Basic Custom Formatter
 
-- **Strict Mode:** The project enforces `"strict": true` in `tsconfig.json`. All new code must adhere to strict type-checking rules.
-- **Input Flexibility (`any`):** The main `llml` function accepts `any` as its primary data input. This is an intentional design choice to allow the library to serialize any valid JavaScript object structure.
-- **Internal Type Guarding:** Because the input is `any`, it is **critical** to use type guards to safely handle the data internally. Use `typeof`, `Array.isArray`, `instanceof`, and `value == null` checks to narrow down the type before processing it.
-- **Explicit Interfaces:** Define and export interfaces for configuration objects, as demonstrated by `LLMLOptions`.
-- **Function Overloads:** Use function overloads for the main `llml` function to provide clearer type definitions and better autocompletion for consumers based on how they call it (e.g., with no arguments vs. with data).
+```typescript
+class MyDomainType {
+  constructor(public myDomainField: string) {}
+}
 
-## Error Handling
+const customRenderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is MyDomainType => v instanceof MyDomainType,
+      (v) => `${v.myDomainField}.......`
+    ]
+  ]
+})
 
-- **No-Throw Policy:** The library does not throw errors for invalid or unexpected input data (e.g., empty objects, `null` values).
-- **Graceful Fallbacks:**
-  - For empty objects (`{}`) or empty arrays (`[]`), return an empty string (`""`).
-  - For `null` or `undefined` passed as the top-level data, return an empty string.
-  - When `null` or `undefined` are values within an object, they should be stringified as `"null"` or `"undefined"`.
-  - For primitive values passed directly to `llml`, return their string representation.
+const data = {
+  user: new MyDomainType("alice"),
+  count: 42
+}
 
-## Testing Approach
+llml(data, { renderer: customRenderer })
+// Output:
+// <user>alice.......</user>
+// <count>42</count>
+```
 
-- **File-per-Feature:** Each distinct feature or area of concern should have its own test file in the `tests/` directory (e.g., `lists.test.ts`, `prefix.test.ts`).
-- **Test Structure:** Use `describe` to group tests for a specific feature and `it` to define individual, atomic test cases. Test names should be descriptive.
-- **Globals:** `vitest` is configured with `globals: true`, so you can use `describe`, `it`, and `expect` without importing them.
-- **Comprehensive Coverage:** Ensure high test coverage by testing:
-  - **Happy Path:** The expected output for valid inputs.
-  - **Edge Cases:** `null`, `undefined`, empty strings, empty arrays, empty objects, `0`, and `false`.
-  - **All Features:** Ensure every option and transformation rule (kebab-casing, lists, nesting, prefixes, indentation) is explicitly tested.
-- **Assertions:** Use `expect(result).toBe(expected)` for clear, readable assertions. For multiline strings, construct the `expected` string using an array and `.join('\n')` for readability.
+#### Multiple Formatters
+
+```typescript
+class User {
+  constructor(public name: string, public email: string) {}
+}
+
+class Product {
+  constructor(public id: string, public name: string, public price: number) {}
+}
+
+const renderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is User => v instanceof User,
+      (v) => `${v.name} <${v.email}>`
+    ],
+    [
+      (v): v is Product => v instanceof Product,
+      (v) => `${v.name} ($${v.price})`
+    ]
+  ]
+})
+
+const data = {
+  customer: new User("Alice", "alice@example.com"),
+  item: new Product("p1", "Widget", 29.99),
+  quantity: 2
+}
+
+llml(data, { renderer })
+// Output:
+// <customer>Alice <alice@example.com></customer>
+// <item>Widget ($29.99)</item>
+// <quantity>2</quantity>
+```
+
+#### Date Formatting
+
+```typescript
+const renderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is Date => v instanceof Date,
+      (v) => v.toISOString().split('T')[0] // YYYY-MM-DD format
+    ]
+  ]
+})
+
+const data = {
+  created: new Date('2025-07-01T10:30:00Z'),
+  name: "Test Event"
+}
+
+llml(data, { renderer })
+// Output:
+// <created>2025-07-01</created>
+// <name>Test Event</name>
+```
+
+#### URL Formatting
+
+```typescript
+const renderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is URL => v instanceof URL,
+      (v) => v.toString()
+    ]
+  ]
+})
+
+const data = {
+  homepage: new URL('https://example.com'),
+  title: "My Website"
+}
+
+llml(data, { renderer })
+// Output:
+// <homepage>https://example.com</homepage>
+// <title>My Website</title>
+```
+
+### Formatter Processing Rules
+
+1. **Order Matters**: Formatters are processed in the order they appear in the array
+2. **First Match Wins**: The first formatter whose predicate returns `true` is used
+3. **Type Safety**: The predicate must be a proper type guard for TypeScript type safety
+4. **Fallback**: If no formatter matches, the default serialization is used
+5. **Recursive Application**: Formatters are applied recursively to nested objects and arrays
+
+### Complex Type Formatting
+
+```typescript
+interface APIResponse<T> {
+  data: T
+  status: number
+  timestamp: Date
+}
+
+class APIResponseWrapper<T> implements APIResponse<T> {
+  constructor(
+    public data: T,
+    public status: number,
+    public timestamp: Date = new Date()
+  ) {}
+}
+
+const renderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is APIResponseWrapper<any> => v instanceof APIResponseWrapper,
+      (v) => `Status: ${v.status}, Data: ${JSON.stringify(v.data)}`
+    ],
+    [
+      (v): v is Date => v instanceof Date,
+      (v) => v.toISOString()
+    ]
+  ]
+})
+
+const response = new APIResponseWrapper({ message: "Hello" }, 200)
+const data = {
+  api_result: response,
+  processed_at: new Date()
+}
+
+llml(data, { renderer })
+// Output:
+// <api_result>Status: 200, Data: {"message":"Hello"}</api_result>
+// <processed_at>2025-07-01T10:30:00.000Z</processed_at>
+```
+
+### Array and Object Handling with Formatters
+
+Formatters are applied to individual values within arrays and objects:
+
+```typescript
+class Money {
+  constructor(public amount: number, public currency: string) {}
+}
+
+const renderer = createSwagXMLRenderer({
+  formatters: [
+    [
+      (v): v is Money => v instanceof Money,
+      (v) => `${v.amount} ${v.currency}`
+    ]
+  ]
+})
+
+const data = {
+  prices: [
+    new Money(100, 'USD'),
+    new Money(85, 'EUR'),
+    new Money(120, 'GBP')
+  ],
+  total: new Money(305, 'USD')
+}
+
+llml(data, { renderer })
+// Output:
+// <prices>
+//   <prices-1>100 USD</prices-1>
+//   <prices-2>85 EUR</prices-2>
+//   <prices-3>120 GBP</prices-3>
+// </prices>
+// <total>305 USD</total>
+```
+
+### Implementation Requirements
+
+1. **Type Guards**: Predicates must be proper TypeScript type guards
+2. **Pure Functions**: Formatters should be pure functions without side effects
+3. **Error Handling**: Invalid formatters should not crash the renderer
+4. **Performance**: Formatters should be efficient for large datasets
+5. **Consistency**: Formatted output should be deterministic
+
+### Error Handling
+
+```typescript
+// Invalid formatter - will be skipped
+const badFormatter: Formatter = [
+  (v): v is string => typeof v === 'string',
+  (v) => { throw new Error('Bad formatter') } // This will cause issues
+]
+
+// Safe formatter with error handling
+const safeFormatter: Formatter<MyType> = [
+  (v): v is MyType => v instanceof MyType,
+  (v) => {
+    try {
+      return v.toString()
+    } catch {
+      return '[Error formatting value]'
+    }
+  }
+]
+```
+
+### Best Practices
+
+1. **Specific Predicates**: Use precise type guards to avoid conflicts
+2. **Simple Formatters**: Keep formatting logic simple and focused
+3. **Test Coverage**: Test formatters with various input types
+4. **Documentation**: Document custom formatters for team members
+5. **Consistent Style**: Follow consistent formatting patterns across formatters
 
 ---
 > Source: [zenbase-ai/llml](https://github.com/zenbase-ai/llml) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-06 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
