@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [chroma-core/chroma](https://github.com/chroma-c
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [chroma-core/chroma](https://github.com/chroma-core/chroma) — a repo with 28837+ stars on GitHub.
+From [chroma-core/chroma](https://github.com/chroma-core/chroma) — a repo with 28841+ stars on GitHub.
 
 ---
 
