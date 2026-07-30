@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [mui/material-ui](https://github.com/mui/materia
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [mui/material-ui](https://github.com/mui/material-ui) — a repo with 98620+ stars on GitHub.
+From [mui/material-ui](https://github.com/mui/material-ui) — a repo with 98622+ stars on GitHub.
 
 ---
 
