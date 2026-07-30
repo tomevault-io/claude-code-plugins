@@ -1,21 +1,26 @@
-# webpage
+# easynext
 
-> Senior Next.js Developer Guideline
+> Common Guideline
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/webpage/SKILL.md
+Read and follow the instructions in .claude/skills/easynext/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
+
+
+# Senior Developer Guidelines
 
 ## Must
 
 - always use client component for all components. (use `use client` directive)
 - always use promise for page.tsx params props.
+- use valid picsum.photos stock image for placeholder image
 
 ## Library
 
@@ -167,10 +172,9 @@ use following libraries for specific functionalities:
 
 ## Supabase
 
-## Supabase
-
-- if you need to add new table, please show me the create query sql. I'll paste it into supabase.
-- store sql query for `.sql` file. in /database/sql/
+- if you need to add new table, please create migration. I'll paste it into supabase.
+- do not run supabase locally
+- store migration query for `.sql` file. in /supabase/migrations/
 
 ## Package Manager
 
@@ -185,4 +189,4 @@ Apply these principles judiciously, considering project and team needs.
 
 ---
 > Source: [easynextjs/easynext](https://github.com/easynextjs/easynext) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-20 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
