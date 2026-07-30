@@ -1,8 +1,6 @@
 # AI instruction files for codedb
 
-> Sourced from [justrach/codedb](https://github.com/justrach/codedb) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Zig code intelligence server and MCP toolset for AI agents. Fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote GitHub repo queries.
+> Sourced from [justrach/codedb](https://github.com/justrach/codedb), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
