@@ -1,6 +1,6 @@
 # mcp2skill
 
-> Tome by [fenwei-dev](https://github.com/fenwei-dev/mcp2skill) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [fenwei-dev](https://github.com/fenwei-dev/mcp2skill), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,10 +15,10 @@ Original source: `AGENTS.md` in [fenwei-dev/mcp2skill](https://github.com/fenwei
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/fenwei-dev/mcp2skill](https://github.com/fenwei-dev/mcp2skill)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/fenwei-dev/mcp2skill](https://github.com/fenwei-dev/mcp2skill)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:t-e-q -->
