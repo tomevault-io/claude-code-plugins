@@ -1,18 +1,17 @@
 # matterbridge-hass
 
-> Source: [Luligu/matterbridge-hass](https://github.com/Luligu/matterbridge-hass) — distributed by [TomeVault](https://tomevault.io)
-
-Matterbridge Home Assistant plugin
+> Source: [Luligu/matterbridge-hass](https://github.com/Luligu/matterbridge-hass). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [Luligu/matterbridge-hass](https://github.com/Luligu/matterbridge-hass).
+Original source: `` in [Luligu/matterbridge-hass](https://github.com/Luligu/matterbridge-hass).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -21,6 +20,6 @@ Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Sou
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-p -->
