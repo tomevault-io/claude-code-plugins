@@ -1,0 +1,52 @@
+# r3ngine
+
+> You are working in the `r3ngine` repository.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/r3ngine/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+You are working in the `r3ngine` repository.
+
+Read these tracked docs first:
+1. `README.md`
+2. `documents/README.md`
+3. `documents/architecture-overview.md`
+4. `documents/scan-pipeline.md`
+5. `.github/workflows/temporal-scan-flow.md`
+
+Optional local aid:
+- `documents/PROJECT_SCHEMA.md` may exist as a local untracked navigation file. Use it if present, but do not assume it exists in git.
+
+Repository navigation:
+- Prefer targeted reads over full repo rescans.
+- For orchestration, inspect `web/reNgine/temporal_workflows.py`.
+- For task execution/parsing, inspect `web/reNgine/tasks.py` and `web/reNgine/temporal_activities.py`.
+- For UI work, inspect `frontend/src/features/` before shared components.
+
+Theme rules:
+- Start in `frontend/src/theme/`, `frontend/src/context/ThemeContext.tsx`, and the affected feature page.
+- Prefer `useThemeTokens()`, `useSemanticColors()`, and helpers in `frontend/src/theme/semanticColors.ts`.
+- Use shared helpers such as `getDialogPaperSx`, `getMenuPaperSx`, `getSurfaceSx`, and `getFieldSx`.
+- Keep available theme options aligned with `selectableThemes`.
+- Avoid new hardcoded UI colors outside the theme layer unless they are intentionally data-driven or brand-specific.
+
+Architecture notes:
+- Temporal is the primary orchestration layer.
+- Compare `MasterScanWorkflow` and `SubScanWorkflow` before changing shared scan behavior.
+- Trace behavior as:
+  `API view -> workflow starter in tasks.py -> workflow -> activity -> task function -> model write`
+
+Validation:
+- Do not assume the full local stack starts successfully.
+- Prefer static checks such as `npx tsc -b`, `npm run lint`, targeted Python compile, and focused Django tests.
+
+---
+> Source: [whiterabb17/r3ngine](https://github.com/whiterabb17/r3ngine) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-30 -->
