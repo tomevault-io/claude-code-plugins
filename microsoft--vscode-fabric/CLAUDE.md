@@ -1,0 +1,34 @@
+# vscode-fabric
+
+> Instructions for working with GenAIScript files
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/vscode-fabric/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+## GenAIScript Code Generation Instructions
+
+GenAIScript is a custom runtime for node.js. It provides a set of unique APIs and support the TypeScript syntax, ESM, await/async.
+
+- GenAIScript documentation: https://microsoft.github.io/genaiscript/llms-full.txt
+- GenAIScript ambient type definitions: https://microsoft.github.io/genaiscript/genaiscript.d.ts
+
+## Guidance for Code Generation
+
+- you always generate TypeScript code using ESM modules for Node.JS.
+- you prefer using APIs from GenAIScript `genaiscript.d.ts` rather than node.js. Do NOT use node.js imports.
+- you keep the code simple, avoid exception handlers or error checking.
+- you add `TODOs` where you are unsure so that the user can review them
+- you use the global types in genaiscript.d.ts are already loaded in the global context, no need to import them.
+- save generated code in the `./genaisrc` folder with `.genai.mts` extension
+
+---
+> Source: [microsoft/vscode-fabric](https://github.com/microsoft/vscode-fabric) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
