@@ -1,6 +1,6 @@
 # brainstools
 
-> BRAINSTools is a CMake SuperBuild harness for neuro-image analysis tools
+> Provides: `itkIO.h` (ITK image I/O helpers), `GenericTransformImage.h`
 
 ## Usage
 
@@ -12,77 +12,104 @@ Read and follow the instructions in .claude/skills/brainstools/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# BRAINSTools AI Agent Guide
+# BRAINSTools C++ Conventions
 
-BRAINSTools is a CMake SuperBuild harness for neuro-image analysis tools
-(registration, segmentation, atlas generation, DWI processing, defacing)
-built on ITK, VTK, ANTs, and SlicerExecutionModel. It follows ITK coding
-conventions and uses the same SuperBuild infrastructure as 3D Slicer.
+BRAINSTools follows ITK coding conventions throughout. All ITK idioms apply.
 
-## Context on Demand
+## ITK Object Creation and Pipeline
 
-Load only what your task requires:
+```cpp
+// Factory method returns SmartPointer — never use new/delete
+auto filter = FilterType::New();
+filter->SetInput(image);
+filter->Update();   // Lazy: nothing runs until here
+auto output = filter->GetOutput();
 
-| Task | Read |
-|------|------|
-| Understanding project layout, tool structure, SuperBuild phases | `Documentation/AI/architecture.md` |
-| Configuring or building BRAINSTools | `Documentation/AI/building.md` |
-| Writing, running, or debugging tests | `Documentation/AI/testing.md` |
-| Code style, naming conventions, commit format, CI | `Documentation/AI/style.md` |
-| Writing BRAINSTools C++: ITK idioms, SEM CLI, macros | `Documentation/AI/conventions.md` |
-| Creating commits: format, prefixes, hook behavior | `Documentation/AI/git-commits.md` |
-| Opening PRs: draft policy, checklist, AI disclosure | `Documentation/AI/pull-requests.md` |
+// Parameters changed after Update() require another Update()
+filter->SetRadius(3);
+filter->Update();
+```
 
-## AI-Generated Commits and Pull Requests
+## Class Boilerplate Macros
 
-### Draft Pull Requests
+```cpp
+class MyHelper : public itk::Object {
+public:
+  using Self       = MyHelper;
+  using Superclass = itk::Object;
+  using Pointer    = itk::SmartPointer<Self>;
 
-Open AI-agent-assisted PRs in **Draft mode**. Do not convert to *Ready for
-Review* until:
+  itkNewMacro(Self);                          // Provides New()
+  itkTypeMacro(MyHelper, itk::Object);        // RTTI
+  itkSetMacro(Threshold, double);             // Generates SetThreshold()
+  itkGetConstMacro(Threshold, double);        // Generates GetThreshold()
+  itkBooleanMacro(UseHistogramMatching);      // Generates On/Off()
 
-- [ ] All automated CI tests pass.
-- [ ] The implementation is correct, complete, and fully understood.
-- [ ] The PR description accurately reflects the changes made.
-- [ ] You can explain every line to a reviewer — you are accountable for all
-      code in the PR.
-- [ ] You have run relevant tests locally and confirmed they pass.
-- [ ] You have reviewed for security issues (buffer overflows, deprecated APIs, etc.).
+private:
+  double m_Threshold{ 0.0 };
+  bool   m_UseHistogramMatching{ false };
+};
+```
 
-### Transparency Requirements
+## Image Iteration
 
-- State clearly in the PR description how AI tools contributed.
-- Identify AI-generated portions and what modifications were made.
-- Include evidence of local testing — do not rely on AI assertions of correctness.
-- Commit messages must describe **what** changed and **why**.
-- Follow BRAINSTools commit format: `PREFIX: Description (≤78 chars)` — enforced by hook.
-- A bare `Co-Authored-By: AI-Tool` tagline is **not** sufficient disclosure.
+Use iterators, not raw buffer access:
 
-## Critical Pitfalls
+```cpp
+itk::ImageRegionIterator<ImageType> it(image, region);
+for (; !it.IsAtEnd(); ++it) {
+  it.Set(it.Get() * 2.0);
+}
+```
 
-1. **SuperBuild phases** — `BRAINSTools_SUPERBUILD=ON` builds deps; the inner
-   product is in `<build>/BRAINSTools-<type>-<version>-build/`. Editing
-   BRAINSTools source only requires rebuilding Phase II.
-2. **Template errors are verbose** — focus on the *first* error only.
-3. **Never `delete` ITK objects** — always use `SmartPointer`
-   (`auto filter = FilterType::New()`).
-4. **`Update()` is required** — ITK filters don't execute until called;
-   parameter changes after `Update()` need another call.
-5. **Dependency overrides** — to test against an ITK fork, use
-   `-DBRAINSTools_ITKv5_GIT_REPOSITORY=...` and
-   `-DBRAINSTools_ITKv5_GIT_TAG=...` at configure time; do not edit source.
-6. **Protected branches** — direct commits to `main`, `release`, or
-   `dashboard` are blocked by the pre-commit hook. Work on a feature branch.
-7. **ExternalData** — never commit large test data files directly; commit only
-   the `.md5` / `.sha512` hash sidecar and upload data separately.
+## SlicerExecutionModel (SEM) CLI Pattern
 
-## Resources
+Most tools expose a CLI via an XML descriptor. The `main()` is thin:
 
-- GitHub: https://github.com/BRAINSia/BRAINSTools
-- Wiki: https://github.com/BRAINSia/BRAINSTools/wiki
-- ITK docs (conventions): https://docs.itk.org/
-- ITK Software Guide: https://itk.org/ItkSoftwareGuide.pdf
-- CDash: https://www.cdash.org/CDash/index.php?project=BRAINSTools
+```cpp
+// ToolName.cxx
+#include "ToolNameCLP.h"   // generated by SEM from ToolName.xml
+int main(int argc, char * argv[]) {
+  PARSE_ARGS;              // SEM macro: parses argc/argv using the XML spec
+  // ... call into BRAINSToolNameHelper or itk filters
+  return EXIT_SUCCESS;
+}
+```
+
+Key XML elements:
+- `<parameters>` groups flags shown together in --help
+- `<image>` for `itk::Image` I/O, `<transform>` for ITK transforms
+- `channel="input"` / `channel="output"` distinguishes I/O direction
+
+## Tool File Layout
+
+```
+ToolName/
+├── CMakeLists.txt
+├── ToolName.xml                  ← SEM CLI descriptor
+├── ToolName.cxx                  ← thin main()
+├── ToolNameHelper.h/.cxx         ← algorithm implementation
+└── TestSuite/
+    ├── CMakeLists.txt
+    └── ToolNameTest.cxx
+```
+
+## BRAINSCommonLib
+
+Shared utilities used across all tools. Always link against it:
+```cmake
+target_link_libraries(MyTool BRAINSCommonLib)
+```
+
+Provides: `itkIO.h` (ITK image I/O helpers), `GenericTransformImage.h`
+(transform I/O), landmark utilities, and common type aliases.
+
+## Template Errors
+
+BRAINSTools inherits ITK's template-heavy design. When compilation fails:
+- Focus on the **first error** only — later errors are usually cascades
+- Check that ITK module dependencies are declared correctly in `CMakeLists.txt`
 
 ---
 > Source: [BRAINSia/BRAINSTools](https://github.com/BRAINSia/BRAINSTools) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-20 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
