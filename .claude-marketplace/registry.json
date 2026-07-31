@@ -2794,9 +2794,19 @@
       "description": "valkey"
     },
     {
+      "name": "valkey-io--valkey",
+      "source": "./valkey-io--valkey",
+      "description": "valkey"
+    },
+    {
       "name": "elixir-lang--elixir",
       "source": "./elixir-lang--elixir",
       "description": "elixir"
+    },
+    {
+      "name": "microsoft--winget-cli",
+      "source": "./microsoft--winget-cli",
+      "description": "winget-cli"
     },
     {
       "name": "matteocrippa--awesome-swift",
@@ -3289,6 +3299,11 @@
       "description": "gentelella"
     },
     {
+      "name": "colorlibhq--gentelella",
+      "source": "./colorlibhq--gentelella",
+      "description": "gentelella"
+    },
+    {
       "name": "huggingface--peft",
       "source": "./huggingface--peft",
       "description": "peft"
@@ -3407,6 +3422,16 @@
       "name": "dotnet--roslyn",
       "source": "./dotnet--roslyn",
       "description": "roslyn"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
     },
     {
       "name": "github--docs",
@@ -5754,6 +5779,26 @@
       "description": "chia-blockchain"
     },
     {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
+      "name": "shadowsocks--shadowsocks-rust",
+      "source": "./shadowsocks--shadowsocks-rust",
+      "description": "shadowsocks-rust"
+    },
+    {
       "name": "lmcache--lmcache",
       "source": "./lmcache--lmcache",
       "description": "LMCache"
@@ -7202,6 +7247,16 @@
       "name": "ericlbuehler--mistral-rs",
       "source": "./ericlbuehler--mistral-rs",
       "description": "mistral.rs"
+    },
+    {
+      "name": "clappr--clappr",
+      "source": "./clappr--clappr",
+      "description": "clappr"
+    },
+    {
+      "name": "clappr--clappr",
+      "source": "./clappr--clappr",
+      "description": "clappr"
     },
     {
       "name": "0xplaygrounds--rig",
@@ -15794,6 +15849,16 @@
       "description": "loongcollector"
     },
     {
+      "name": "alibaba--loongcollector",
+      "source": "./alibaba--loongcollector",
+      "description": "loongcollector"
+    },
+    {
+      "name": "alibaba--loongcollector",
+      "source": "./alibaba--loongcollector",
+      "description": "loongcollector"
+    },
+    {
       "name": "danielpaulus--go-ios",
       "source": "./danielpaulus--go-ios",
       "description": "go-ios"
@@ -16562,6 +16627,11 @@
       "name": "microcks--microcks",
       "source": "./microcks--microcks",
       "description": "microcks"
+    },
+    {
+      "name": "kubernetes-sigs--cri-tools",
+      "source": "./kubernetes-sigs--cri-tools",
+      "description": "cri-tools"
     },
     {
       "name": "elyra-ai--elyra",
@@ -17442,6 +17512,11 @@
       "name": "codergamester--mcp-unity",
       "source": "./codergamester--mcp-unity",
       "description": "mcp-unity"
+    },
+    {
+      "name": "jbangdev--jbang",
+      "source": "./jbangdev--jbang",
+      "description": "jbang"
     },
     {
       "name": "vercel-labs--opensrc",
@@ -18407,6 +18482,11 @@
       "name": "pageai-pro--page-ui",
       "source": "./pageai-pro--page-ui",
       "description": "page-ui"
+    },
+    {
+      "name": "kenzok8--small-package",
+      "source": "./kenzok8--small-package",
+      "description": "small-package"
     },
     {
       "name": "jasonacox--tinytuya",
@@ -20324,6 +20404,11 @@
       "description": "cite"
     },
     {
+      "name": "open-source-legal--cite",
+      "source": "./open-source-legal--cite",
+      "description": "cite"
+    },
+    {
       "name": "pnp--cli-microsoft365",
       "source": "./pnp--cli-microsoft365",
       "description": "cli-microsoft365"
@@ -22012,6 +22097,11 @@
       "name": "metacraft-labs--codetracer",
       "source": "./metacraft-labs--codetracer",
       "description": "CodeTracer is a user-friendly time-traveling debugger designed to support a wide range of programming languages."
+    },
+    {
+      "name": "surrealdb--surrealist",
+      "source": "./surrealdb--surrealist",
+      "description": "surrealist"
     },
     {
       "name": "surrealdb--surrealist",
@@ -29329,6 +29419,11 @@
       "description": "kube-image-keeper"
     },
     {
+      "name": "b-m-capital-research--honeclaw",
+      "source": "./b-m-capital-research--honeclaw",
+      "description": "honeclaw"
+    },
+    {
       "name": "microsoft--work-iq",
       "source": "./microsoft--work-iq",
       "description": "MCP Server and CLI for accessing Work IQ"
@@ -29734,6 +29829,56 @@
       "description": "streampipes"
     },
     {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
       "name": "grootmade--grootmade",
       "source": "./grootmade--grootmade",
       "description": "The official connected dashboard plugin for installs, updates, collections, and site assets."
@@ -30047,6 +30192,11 @@
       "name": "pbakaus--radiant",
       "source": "./pbakaus--radiant",
       "description": "A curated collection of generative shader art"
+    },
+    {
+      "name": "liquidos-ai--autoagents",
+      "source": "./liquidos-ai--autoagents",
+      "description": "AutoAgents"
     },
     {
       "name": "dotnet--nerdbank-streams",
@@ -30402,6 +30552,11 @@
       "name": "pmndrs--koota",
       "source": "./pmndrs--koota",
       "description": "\ud83c\udf0e Performant real-time state management for React and TypeScript"
+    },
+    {
+      "name": "jmix-framework--jmix",
+      "source": "./jmix-framework--jmix",
+      "description": "jmix"
     },
     {
       "name": "lightly-ai--lightly-studio",
@@ -36184,6 +36339,11 @@
       "description": "dasblog-core"
     },
     {
+      "name": "microsoft--powerappscodeapps",
+      "source": "./microsoft--powerappscodeapps",
+      "description": "PowerAppsCodeApps"
+    },
+    {
       "name": "wandb--catnip",
       "source": "./wandb--catnip",
       "description": "Like catnip, a highly addictive agentic coding tool"
@@ -36722,6 +36882,11 @@
       "name": "badger--home",
       "source": "./badger--home",
       "description": "home"
+    },
+    {
+      "name": "dvershinin--lastversion",
+      "source": "./dvershinin--lastversion",
+      "description": "lastversion"
     },
     {
       "name": "sisig-ai--doctor",
@@ -40349,6 +40514,61 @@
       "description": "lc-studylab"
     },
     {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
+      "name": "dsccommunity--sqlserverdsc",
+      "source": "./dsccommunity--sqlserverdsc",
+      "description": "SqlServerDsc"
+    },
+    {
       "name": "epiral--weixin-bot",
       "source": "./epiral--weixin-bot",
       "description": "WeChat iLink Bot SDK for Node.js and Python \u2014 zero-config agent integration"
@@ -42047,6 +42267,11 @@
       "name": "vercel-labs--mdxg",
       "source": "./vercel-labs--mdxg",
       "description": "mdxg"
+    },
+    {
+      "name": "snowflakedb--gosnowflake",
+      "source": "./snowflakedb--gosnowflake",
+      "description": "gosnowflake"
     },
     {
       "name": "snowflakedb--gosnowflake",
@@ -50324,6 +50549,11 @@
       "description": "RL-X"
     },
     {
+      "name": "tryethernal--ethernal",
+      "source": "./tryethernal--ethernal",
+      "description": "ethernal"
+    },
+    {
       "name": "remorses--zele",
       "source": "./remorses--zele",
       "description": "Email & Calendar CLI \u2014 Gmail, IMAP/SMTP, Google Calendar from your terminal"
@@ -56519,6 +56749,36 @@
       "description": "faststore"
     },
     {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
+      "name": "santosomar--ai-agents-for-cybersecurity",
+      "source": "./santosomar--ai-agents-for-cybersecurity",
+      "description": "AI-agents-for-cybersecurity"
+    },
+    {
       "name": "xenoatom--xenoatom-terminal-ui",
       "source": "./xenoatom--xenoatom-terminal-ui",
       "description": "XenoAtom.Terminal.UI is a modern, reactive retained-mode terminal UI framework for .NET"
@@ -57622,6 +57882,11 @@
       "name": "pbakaus--agent-reviews",
       "source": "./pbakaus--agent-reviews",
       "description": "agent-reviews"
+    },
+    {
+      "name": "vcs-python--vcspull",
+      "source": "./vcs-python--vcspull",
+      "description": "vcspull"
     },
     {
       "name": "vcs-python--vcspull",
@@ -58777,6 +59042,11 @@
       "name": "noteplan--plugins",
       "source": "./noteplan--plugins",
       "description": "plugins"
+    },
+    {
+      "name": "reddit--devvit",
+      "source": "./reddit--devvit",
+      "description": "devvit"
     },
     {
       "name": "dosaygo-studio--hackerbook",
@@ -61197,6 +61467,11 @@
       "name": "jduncan-rva--skill-porter",
       "source": "./jduncan-rva--skill-porter",
       "description": "skill-porter"
+    },
+    {
+      "name": "lidge-jun--cli-jaw",
+      "source": "./lidge-jun--cli-jaw",
+      "description": "cli-jaw"
     },
     {
       "name": "peiiii--nextclaw",
@@ -65589,6 +65864,11 @@
       "description": "ConfluencePS"
     },
     {
+      "name": "strands-agents--evals",
+      "source": "./strands-agents--evals",
+      "description": "evals"
+    },
+    {
       "name": "10xchengtu--input0",
       "source": "./10xchengtu--input0",
       "description": "Input0 \u2014 A macOS voice input tool: hold a hotkey to record, release to transcribe locally via STT, refine with LLM, and auto-paste into the active text field."
@@ -69374,6 +69654,11 @@
       "description": "IntuneHydrationKit"
     },
     {
+      "name": "rust-lang--rust-project-goals",
+      "source": "./rust-lang--rust-project-goals",
+      "description": "rust-project-goals"
+    },
+    {
       "name": "erha19--ping-island",
       "source": "./erha19--ping-island",
       "description": "A macOS menu bar (Vibe Island liked ) app that monitors AI coding sessions in a Dynamic Island-style surface \u2014 approve, respond, and jump back to the right window, all from the notch. \u4e00\u6b3e macOS \u83dc\u5355\u680f\u5e94\u7528\uff0c\u4ee5"
@@ -69902,6 +70187,11 @@
       "name": "thorek1--macromodelling-jl",
       "source": "./thorek1--macromodelling-jl",
       "description": "MacroModelling.jl"
+    },
+    {
+      "name": "vividfog--nordpool-predict-fi",
+      "source": "./vividfog--nordpool-predict-fi",
+      "description": "nordpool-predict-fi"
     },
     {
       "name": "sys-zdk--robot-path-planner-public",
@@ -71479,6 +71769,21 @@
       "description": "Pare"
     },
     {
+      "name": "yamcodes--arkenv",
+      "source": "./yamcodes--arkenv",
+      "description": "arkenv"
+    },
+    {
+      "name": "cashscript--cashscript",
+      "source": "./cashscript--cashscript",
+      "description": "cashscript"
+    },
+    {
+      "name": "toshimaru--auto-author-assign",
+      "source": "./toshimaru--auto-author-assign",
+      "description": "auto-author-assign"
+    },
+    {
       "name": "redth--maui-sherpa",
       "source": "./redth--maui-sherpa",
       "description": "Let MAUI Sherpa guide you through all your .NET MAUI dev environment needs!"
@@ -71664,6 +71969,11 @@
       "description": "ICDAR2021_MFD"
     },
     {
+      "name": "evotecit--htmltinkerx",
+      "source": "./evotecit--htmltinkerx",
+      "description": "HtmlTinkerX"
+    },
+    {
       "name": "htekdev--vidpipe",
       "source": "./htekdev--vidpipe",
       "description": "CLI tool that auto-processes video recordings: transcribes, removes silence, generates captions, creates shorts, social posts, and more"
@@ -71847,6 +72157,31 @@
       "name": "homotechsual--ninjaone",
       "source": "./homotechsual--ninjaone",
       "description": "NinjaOne"
+    },
+    {
+      "name": "reown-com--react-native-examples",
+      "source": "./reown-com--react-native-examples",
+      "description": "react-native-examples"
+    },
+    {
+      "name": "reown-com--react-native-examples",
+      "source": "./reown-com--react-native-examples",
+      "description": "react-native-examples"
+    },
+    {
+      "name": "reown-com--react-native-examples",
+      "source": "./reown-com--react-native-examples",
+      "description": "react-native-examples"
+    },
+    {
+      "name": "reown-com--react-native-examples",
+      "source": "./reown-com--react-native-examples",
+      "description": "react-native-examples"
+    },
+    {
+      "name": "reown-com--react-native-examples",
+      "source": "./reown-com--react-native-examples",
+      "description": "react-native-examples"
     },
     {
       "name": "squarewavesystems--opcilloscope",
@@ -80629,6 +80964,16 @@
       "description": "obsidian_project-browser"
     },
     {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
       "name": "khanhnam-nathan--pyneat",
       "source": "./khanhnam-nathan--pyneat",
       "description": "Pyneat"
@@ -88449,6 +88794,11 @@
       "description": "gscan"
     },
     {
+      "name": "spooled-cloud--spooled-backend",
+      "source": "./spooled-cloud--spooled-backend",
+      "description": "spooled-backend"
+    },
+    {
       "name": "40rbidd3n--hydro0x01",
       "source": "./40rbidd3n--hydro0x01",
       "description": "Secure, production-grade IoT hydroponic automation system with ESP32, MQTT telemetry, and real-time dashboard"
@@ -91812,6 +92162,11 @@
       "name": "pppppm--mmdetection-distiller",
       "source": "./pppppm--mmdetection-distiller",
       "description": "mmdetection-distiller"
+    },
+    {
+      "name": "ethpandaops--spamoor",
+      "source": "./ethpandaops--spamoor",
+      "description": "spamoor"
     },
     {
       "name": "ethpandaops--spamoor",
@@ -97847,6 +98202,16 @@
       "name": "vtxf--mcp-all-in-one",
       "source": "./vtxf--mcp-all-in-one",
       "description": "mcp-all-in-one"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
     },
     {
       "name": "pinecone-io--go-pinecone",
@@ -117634,6 +117999,11 @@
       "description": "matrix"
     },
     {
+      "name": "samerde--dllpickle",
+      "source": "./samerde--dllpickle",
+      "description": "DLLPickle"
+    },
+    {
       "name": "rudrankriyam--foundation-models-framework-cli",
       "source": "./rudrankriyam--foundation-models-framework-cli",
       "description": "A powerful command-line interface for Foundation Models on Apple platforms."
@@ -124822,6 +125192,11 @@
       "name": "deephaven--web-client-ui",
       "source": "./deephaven--web-client-ui",
       "description": "web-client-ui"
+    },
+    {
+      "name": "conforma--cli",
+      "source": "./conforma--cli",
+      "description": "cli"
     },
     {
       "name": "s-zx--crest",
@@ -132849,6 +133224,36 @@
       "description": "OID-See"
     },
     {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "tanchaowen84--flowchartai",
+      "source": "./tanchaowen84--flowchartai",
+      "description": "flowchartai"
+    },
+    {
+      "name": "tanchaowen84--flowchartai",
+      "source": "./tanchaowen84--flowchartai",
+      "description": "flowchartai"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -138797,6 +139202,16 @@
       "name": "project-codeflare--codeflare-sdk",
       "source": "./project-codeflare--codeflare-sdk",
       "description": "codeflare-sdk"
+    },
+    {
+      "name": "replicatedhq--embedded-cluster",
+      "source": "./replicatedhq--embedded-cluster",
+      "description": "embedded-cluster"
+    },
+    {
+      "name": "replicatedhq--embedded-cluster",
+      "source": "./replicatedhq--embedded-cluster",
+      "description": "embedded-cluster"
     },
     {
       "name": "r44vc0rp--itui",
@@ -148017,6 +148432,11 @@
       "name": "jayren3996--edkit-jl",
       "source": "./jayren3996--edkit-jl",
       "description": "EDKit.jl"
+    },
+    {
+      "name": "scopeo--draftnrun",
+      "source": "./scopeo--draftnrun",
+      "description": "draftnrun"
     },
     {
       "name": "laskewitz--inventory-report",
