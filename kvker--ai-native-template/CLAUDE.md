@@ -1,0 +1,23 @@
+# ai-native-template
+
+> | [task-autonomy](task-autonomy.md) | an-task 等任务流程中的 AI 自主决策边界 |
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/ai-native-template/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# memories
+
+| Memory | 描述 |
+|--------|------|
+| [task-autonomy](task-autonomy.md) | an-task 等任务流程中的 AI 自主决策边界 |
+
+---
+> Source: [kvker/ai-native-template](https://github.com/kvker/ai-native-template) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-31 -->
