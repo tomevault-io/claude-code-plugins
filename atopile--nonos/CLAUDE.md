@@ -1,4 +1,4 @@
-# ato
+# nonos
 
 > ato is a declarative DSL to design electronics (PCBs) with.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ato/SKILL.md
+Read and follow the instructions in .claude/skills/nonos/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -722,4 +722,4 @@ module App:
 
 ---
 > Source: [atopile/nonos](https://github.com/atopile/nonos) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-06-02 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
