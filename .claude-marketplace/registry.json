@@ -2074,6 +2074,11 @@
       "description": "uppy"
     },
     {
+      "name": "transloadit--uppy",
+      "source": "./transloadit--uppy",
+      "description": "uppy"
+    },
+    {
       "name": "vercel--turborepo",
       "source": "./vercel--turborepo",
       "description": "turborepo"
@@ -3402,6 +3407,26 @@
       "name": "dotnet--roslyn",
       "source": "./dotnet--roslyn",
       "description": "roslyn"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
+    },
+    {
+      "name": "github--docs",
+      "source": "./github--docs",
+      "description": "docs"
     },
     {
       "name": "wagtail--wagtail",
@@ -5714,6 +5739,21 @@
       "description": "chia-blockchain"
     },
     {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
+      "name": "chia-network--chia-blockchain",
+      "source": "./chia-network--chia-blockchain",
+      "description": "chia-blockchain"
+    },
+    {
       "name": "lmcache--lmcache",
       "source": "./lmcache--lmcache",
       "description": "LMCache"
@@ -5947,6 +5987,11 @@
       "name": "netflix--metaflow",
       "source": "./netflix--metaflow",
       "description": "metaflow"
+    },
+    {
+      "name": "mongodb--node-mongodb-native",
+      "source": "./mongodb--node-mongodb-native",
+      "description": "node-mongodb-native"
     },
     {
       "name": "mongodb--node-mongodb-native",
@@ -9792,6 +9837,11 @@
       "name": "mcsmanager--mcsmanager",
       "source": "./mcsmanager--mcsmanager",
       "description": "MCSManager"
+    },
+    {
+      "name": "gameservermanagers--linuxgsm",
+      "source": "./gameservermanagers--linuxgsm",
+      "description": "LinuxGSM"
     },
     {
       "name": "firebase--firebaseui-web",
@@ -15264,6 +15314,21 @@
       "description": "pxt"
     },
     {
+      "name": "microsoft--pxt",
+      "source": "./microsoft--pxt",
+      "description": "pxt"
+    },
+    {
+      "name": "microsoft--pxt",
+      "source": "./microsoft--pxt",
+      "description": "pxt"
+    },
+    {
+      "name": "microsoft--pxt",
+      "source": "./microsoft--pxt",
+      "description": "pxt"
+    },
+    {
       "name": "web-infra-dev--rspress",
       "source": "./web-infra-dev--rspress",
       "description": "rspress"
@@ -15702,6 +15767,21 @@
       "name": "aws--amazon-ecs-agent",
       "source": "./aws--amazon-ecs-agent",
       "description": "amazon-ecs-agent"
+    },
+    {
+      "name": "alibaba--loongcollector",
+      "source": "./alibaba--loongcollector",
+      "description": "loongcollector"
+    },
+    {
+      "name": "alibaba--loongcollector",
+      "source": "./alibaba--loongcollector",
+      "description": "loongcollector"
+    },
+    {
+      "name": "alibaba--loongcollector",
+      "source": "./alibaba--loongcollector",
+      "description": "loongcollector"
     },
     {
       "name": "alibaba--loongcollector",
@@ -20069,6 +20149,11 @@
       "description": "CLI tool to discover, manage, and document your IT infrastructure and home lab."
     },
     {
+      "name": "mk6i--open-oscar-server",
+      "source": "./mk6i--open-oscar-server",
+      "description": "open-oscar-server"
+    },
+    {
       "name": "covibes--zeroshot",
       "source": "./covibes--zeroshot",
       "description": "Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI."
@@ -21954,6 +22039,16 @@
       "description": "surrealist"
     },
     {
+      "name": "surrealdb--surrealist",
+      "source": "./surrealdb--surrealist",
+      "description": "surrealist"
+    },
+    {
+      "name": "surrealdb--surrealist",
+      "source": "./surrealdb--surrealist",
+      "description": "surrealist"
+    },
+    {
       "name": "contentful--contentful-js",
       "source": "./contentful--contentful-js",
       "description": "contentful.js"
@@ -23119,6 +23214,11 @@
       "description": "GPT-RAG"
     },
     {
+      "name": "moonbitlang--core",
+      "source": "./moonbitlang--core",
+      "description": "core"
+    },
+    {
       "name": "open-less--openless",
       "source": "./open-less--openless",
       "description": "Hold a key, speak, release \u2014 AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (\u6309\u4f4f\u5feb\u6377\u952e\u8bf4\u8bdd\uff0c\u677e\u5f00\u5373\u5f97\u6da6\u8272\u540e\u7684\u6587\u5b57)"
@@ -23742,6 +23842,16 @@
       "name": "cybercog--laravel-ban",
       "source": "./cybercog--laravel-ban",
       "description": "laravel-ban"
+    },
+    {
+      "name": "datadog--integrations-core",
+      "source": "./datadog--integrations-core",
+      "description": "integrations-core"
+    },
+    {
+      "name": "datadog--integrations-core",
+      "source": "./datadog--integrations-core",
+      "description": "integrations-core"
     },
     {
       "name": "symfony--ai",
@@ -24794,6 +24904,11 @@
       "description": "hexo-blog-encrypt"
     },
     {
+      "name": "arm-software--cmsis-dsp",
+      "source": "./arm-software--cmsis-dsp",
+      "description": "CMSIS-DSP"
+    },
+    {
       "name": "autonomousvision--navsim",
       "source": "./autonomousvision--navsim",
       "description": "navsim"
@@ -24967,6 +25082,11 @@
       "name": "forcedotcom--salesforcedx-vscode",
       "source": "./forcedotcom--salesforcedx-vscode",
       "description": "salesforcedx-vscode"
+    },
+    {
+      "name": "endojs--endo",
+      "source": "./endojs--endo",
+      "description": "endo"
     },
     {
       "name": "databuddy-analytics--databuddy",
@@ -25294,6 +25414,11 @@
       "description": "ytmdesktop2"
     },
     {
+      "name": "auth0--auth0-spa-js",
+      "source": "./auth0--auth0-spa-js",
+      "description": "auth0-spa-js"
+    },
+    {
       "name": "glommer--pgmicro",
       "source": "./glommer--pgmicro",
       "description": "An in-process reimplementation of PostgreSQL, backed by a SQLite-compatible storage engine"
@@ -25562,6 +25687,11 @@
       "name": "darkroomengineering--satus",
       "source": "./darkroomengineering--satus",
       "description": "satus"
+    },
+    {
+      "name": "scikit-hep--awkward",
+      "source": "./scikit-hep--awkward",
+      "description": "awkward"
     },
     {
       "name": "pistazie--cdk-dia",
@@ -25969,6 +26099,26 @@
       "description": "Home"
     },
     {
+      "name": "fal-ai--fal",
+      "source": "./fal-ai--fal",
+      "description": "fal"
+    },
+    {
+      "name": "fal-ai--fal",
+      "source": "./fal-ai--fal",
+      "description": "fal"
+    },
+    {
+      "name": "fal-ai--fal",
+      "source": "./fal-ai--fal",
+      "description": "fal"
+    },
+    {
+      "name": "fal-ai--fal",
+      "source": "./fal-ai--fal",
+      "description": "fal"
+    },
+    {
       "name": "guanyang--antigravity-skills",
       "source": "./guanyang--antigravity-skills",
       "description": "antigravity-skills"
@@ -26362,6 +26512,11 @@
       "name": "new-silvermoon--awesome-android-agent-skills",
       "source": "./new-silvermoon--awesome-android-agent-skills",
       "description": "awesome-android-agent-skills"
+    },
+    {
+      "name": "alchemycms--alchemy-cms",
+      "source": "./alchemycms--alchemy-cms",
+      "description": "alchemy_cms"
     },
     {
       "name": "ericblade--quagga2",
@@ -27109,6 +27264,11 @@
       "description": "Local speech-to-text for macOS \u2014 on-device AI, fully private, no cloud"
     },
     {
+      "name": "zkywsg--daily-llm",
+      "source": "./zkywsg--daily-llm",
+      "description": "Daily-LLM"
+    },
+    {
       "name": "gulbanana--gg",
       "source": "./gulbanana--gg",
       "description": "gg"
@@ -27259,6 +27419,11 @@
       "description": "UMA"
     },
     {
+      "name": "naymspace--backpex",
+      "source": "./naymspace--backpex",
+      "description": "backpex"
+    },
+    {
       "name": "shanraisshan--codex-cli-best-practice",
       "source": "./shanraisshan--codex-cli-best-practice",
       "description": "from vibe coding to agentic engineering - practice makes codex perfect"
@@ -27367,6 +27532,16 @@
       "name": "subtlegradient--appify-ui",
       "source": "./subtlegradient--appify-ui",
       "description": "Appify-UI"
+    },
+    {
+      "name": "thefrontside--effection",
+      "source": "./thefrontside--effection",
+      "description": "effection"
+    },
+    {
+      "name": "thefrontside--effection",
+      "source": "./thefrontside--effection",
+      "description": "effection"
     },
     {
       "name": "pfrest--pfsense-pkg-restapi",
@@ -27977,6 +28152,11 @@
       "name": "getkyo--kyo",
       "source": "./getkyo--kyo",
       "description": "kyo"
+    },
+    {
+      "name": "michaelpporter--breadcrumbs",
+      "source": "./michaelpporter--breadcrumbs",
+      "description": "breadcrumbs"
     },
     {
       "name": "wesm--agentsview",
@@ -29144,6 +29324,11 @@
       "description": "\u4f60\u7684\u7aef\u4fa7 AI \u52a9\u624b\uff0c\u5979\u53ef\u4ee5\u64cd\u4f5c\u7ec8\u7aef\uff0c\u4e5f\u53ef\u4ee5\u5b8c\u6210 Android \u4e16\u754c\u7684\u5e7f\u6cdb\u4efb\u52a1 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world"
     },
     {
+      "name": "enix--kube-image-keeper",
+      "source": "./enix--kube-image-keeper",
+      "description": "kube-image-keeper"
+    },
+    {
       "name": "microsoft--work-iq",
       "source": "./microsoft--work-iq",
       "description": "MCP Server and CLI for accessing Work IQ"
@@ -29537,6 +29722,16 @@
       "name": "pdpipe--pdpipe",
       "source": "./pdpipe--pdpipe",
       "description": "pdpipe"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
+    },
+    {
+      "name": "apache--streampipes",
+      "source": "./apache--streampipes",
+      "description": "streampipes"
     },
     {
       "name": "grootmade--grootmade",
@@ -35039,6 +35234,11 @@
       "description": "react-native-boilerplate"
     },
     {
+      "name": "podly-pure-podcasts--podly-pure-podcasts",
+      "source": "./podly-pure-podcasts--podly-pure-podcasts",
+      "description": "podly_pure_podcasts"
+    },
+    {
       "name": "raids-lab--crater",
       "source": "./raids-lab--crater",
       "description": "Crater is a cloud-native AI training & inference platform."
@@ -40249,6 +40449,11 @@
       "description": "codever"
     },
     {
+      "name": "codeverdotdev--codever",
+      "source": "./codeverdotdev--codever",
+      "description": "codever"
+    },
+    {
       "name": "gthulhu--gthulhu",
       "source": "./gthulhu--gthulhu",
       "description": "eBPF-based workload orchestration platform, built for Cloud Native ecosystem."
@@ -42172,6 +42377,26 @@
       "name": "nrwl--monorepo-tools",
       "source": "./nrwl--monorepo-tools",
       "description": "monorepo.tools"
+    },
+    {
+      "name": "mobiflight--mobiflight-connector",
+      "source": "./mobiflight--mobiflight-connector",
+      "description": "MobiFlight-Connector"
+    },
+    {
+      "name": "mobiflight--mobiflight-connector",
+      "source": "./mobiflight--mobiflight-connector",
+      "description": "MobiFlight-Connector"
+    },
+    {
+      "name": "mobiflight--mobiflight-connector",
+      "source": "./mobiflight--mobiflight-connector",
+      "description": "MobiFlight-Connector"
+    },
+    {
+      "name": "mobiflight--mobiflight-connector",
+      "source": "./mobiflight--mobiflight-connector",
+      "description": "MobiFlight-Connector"
     },
     {
       "name": "mobiflight--mobiflight-connector",
@@ -57399,6 +57624,11 @@
       "description": "agent-reviews"
     },
     {
+      "name": "vcs-python--vcspull",
+      "source": "./vcs-python--vcspull",
+      "description": "vcspull"
+    },
+    {
       "name": "okx--onchainos-skills",
       "source": "./okx--onchainos-skills",
       "description": "Skills for AI agents to integrate with the OKX OnchainOS API \u2014 Wallet, token discovery, market data, DEX swap, and transaction broadcasting."
@@ -62669,6 +62899,11 @@
       "description": "dbt-llm-agent"
     },
     {
+      "name": "popstas--telegram-download-chat",
+      "source": "./popstas--telegram-download-chat",
+      "description": "telegram-download-chat"
+    },
+    {
       "name": "truecourse-ai--truecourse",
       "source": "./truecourse-ai--truecourse",
       "description": "AI-powered architecture analysis and code intelligence. Detects circular deps, layer violations, dead modules, and more. Web UI + CLI."
@@ -64582,6 +64817,11 @@
       "name": "idaibin--rustzen-admin",
       "source": "./idaibin--rustzen-admin",
       "description": "rustzen-admin"
+    },
+    {
+      "name": "konflux-ci--konflux-ci",
+      "source": "./konflux-ci--konflux-ci",
+      "description": "konflux-ci"
     },
     {
       "name": "qingquanyao--xilinx-skill",
@@ -68704,6 +68944,11 @@
       "description": "discord-hono"
     },
     {
+      "name": "virtuslab--git-machete-intellij-plugin",
+      "source": "./virtuslab--git-machete-intellij-plugin",
+      "description": "git-machete-intellij-plugin"
+    },
+    {
       "name": "chernistry--bernstein",
       "source": "./chernistry--bernstein",
       "description": "Deterministic orchestrator for 18 CLI AI coding agents. Git worktree isolation, HMAC audit trail, MCP server mode."
@@ -69399,6 +69644,11 @@
       "description": "SimpleAdmin"
     },
     {
+      "name": "fable-compiler--fable-python",
+      "source": "./fable-compiler--fable-python",
+      "description": "Fable.Python"
+    },
+    {
       "name": "enoch85--bazarr-jellyfin",
       "source": "./enoch85--bazarr-jellyfin",
       "description": "Search and download subtitles directly from Jellyfin using your Bazarr instance."
@@ -69642,6 +69892,11 @@
       "name": "jboss-fuse--fuse",
       "source": "./jboss-fuse--fuse",
       "description": "fuse"
+    },
+    {
+      "name": "thorek1--macromodelling-jl",
+      "source": "./thorek1--macromodelling-jl",
+      "description": "MacroModelling.jl"
     },
     {
       "name": "thorek1--macromodelling-jl",
@@ -70047,6 +70302,16 @@
       "name": "agencyenterprise--neurotechdevkit",
       "source": "./agencyenterprise--neurotechdevkit",
       "description": "neurotechdevkit"
+    },
+    {
+      "name": "keboo--dotnettemplates",
+      "source": "./keboo--dotnettemplates",
+      "description": "DotnetTemplates"
+    },
+    {
+      "name": "munich-quantum-toolkit--qmap",
+      "source": "./munich-quantum-toolkit--qmap",
+      "description": "qmap"
     },
     {
       "name": "correctroadh--opentoggl",
@@ -70482,6 +70747,21 @@
       "name": "luligu--matterbridge-shelly",
       "source": "./luligu--matterbridge-shelly",
       "description": "matterbridge-shelly"
+    },
+    {
+      "name": "fazedordecodigo--pyflunt",
+      "source": "./fazedordecodigo--pyflunt",
+      "description": "PyFlunt"
+    },
+    {
+      "name": "fazedordecodigo--pyflunt",
+      "source": "./fazedordecodigo--pyflunt",
+      "description": "PyFlunt"
+    },
+    {
+      "name": "fazedordecodigo--pyflunt",
+      "source": "./fazedordecodigo--pyflunt",
+      "description": "PyFlunt"
     },
     {
       "name": "michaelliv--mercury",
@@ -80329,6 +80609,26 @@
       "description": "obsidian_project-browser"
     },
     {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
+      "name": "daledesilva--obsidian-project-browser",
+      "source": "./daledesilva--obsidian-project-browser",
+      "description": "obsidian_project-browser"
+    },
+    {
       "name": "khanhnam-nathan--pyneat",
       "source": "./khanhnam-nathan--pyneat",
       "description": "Pyneat"
@@ -85659,6 +85959,11 @@
       "description": "react-starter-boilerplate"
     },
     {
+      "name": "devfile--devworkspace-operator",
+      "source": "./devfile--devworkspace-operator",
+      "description": "devworkspace-operator"
+    },
+    {
       "name": "jjongguet--oh-my-product",
       "source": "./jjongguet--oh-my-product",
       "description": "oh-my-product"
@@ -89499,6 +89804,11 @@
       "description": "mixpanel-flutter"
     },
     {
+      "name": "mixpanel--mixpanel-flutter",
+      "source": "./mixpanel--mixpanel-flutter",
+      "description": "mixpanel-flutter"
+    },
+    {
       "name": "pureween--polypilot",
       "source": "./pureween--polypilot",
       "description": "PolyPilot"
@@ -91967,6 +92277,11 @@
       "name": "nitaybz--apple-home-dashboard",
       "source": "./nitaybz--apple-home-dashboard",
       "description": "apple-home-dashboard"
+    },
+    {
+      "name": "intrafere--moto-autonomous-asi",
+      "source": "./intrafere--moto-autonomous-asi",
+      "description": "MOTO-Autonomous-ASI"
     },
     {
       "name": "intrafere--moto-autonomous-asi",
@@ -97532,6 +97847,26 @@
       "name": "vtxf--mcp-all-in-one",
       "source": "./vtxf--mcp-all-in-one",
       "description": "mcp-all-in-one"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
+    },
+    {
+      "name": "pinecone-io--go-pinecone",
+      "source": "./pinecone-io--go-pinecone",
+      "description": "go-pinecone"
     },
     {
       "name": "pinecone-io--go-pinecone",
@@ -112929,6 +113264,11 @@
       "description": "ClimaTimeSteppers.jl"
     },
     {
+      "name": "blinkenlights--polychrome",
+      "source": "./blinkenlights--polychrome",
+      "description": "polychrome"
+    },
+    {
       "name": "lktiep--cortex-hub",
       "source": "./lktiep--cortex-hub",
       "description": "Self-hosted AI Agent Memory + Code Intelligence Platform \u2014 one MCP endpoint for persistent memory, AST-aware code search, shared knowledge, and quality enforcement across all your AI coding agents."
@@ -124464,6 +124804,26 @@
       "description": "cli"
     },
     {
+      "name": "deephaven--web-client-ui",
+      "source": "./deephaven--web-client-ui",
+      "description": "web-client-ui"
+    },
+    {
+      "name": "deephaven--web-client-ui",
+      "source": "./deephaven--web-client-ui",
+      "description": "web-client-ui"
+    },
+    {
+      "name": "deephaven--web-client-ui",
+      "source": "./deephaven--web-client-ui",
+      "description": "web-client-ui"
+    },
+    {
+      "name": "deephaven--web-client-ui",
+      "source": "./deephaven--web-client-ui",
+      "description": "web-client-ui"
+    },
+    {
       "name": "s-zx--crest",
       "source": "./s-zx--crest",
       "description": "An open source, AI-native terminal."
@@ -129624,6 +129984,11 @@
       "description": "ditherit"
     },
     {
+      "name": "mattia72--dripgrepper",
+      "source": "./mattia72--dripgrepper",
+      "description": "DRipGrepper"
+    },
+    {
       "name": "w3cj--ruta",
       "source": "./w3cj--ruta",
       "description": "A tiny type-safe client-side router for hono/jsx"
@@ -132447,6 +132812,36 @@
       "name": "tanchaowen84--flowchartai",
       "source": "./tanchaowen84--flowchartai",
       "description": "flowchartai"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "tanchaowen84--flowchartai",
+      "source": "./tanchaowen84--flowchartai",
+      "description": "flowchartai"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "tanchaowen84--flowchartai",
+      "source": "./tanchaowen84--flowchartai",
+      "description": "flowchartai"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
+    },
+    {
+      "name": "oid-see--oid-see",
+      "source": "./oid-see--oid-see",
+      "description": "OID-See"
     },
     {
       "name": "oid-see--oid-see",
@@ -138377,6 +138772,26 @@
       "name": "replicatedhq--embedded-cluster",
       "source": "./replicatedhq--embedded-cluster",
       "description": "embedded-cluster"
+    },
+    {
+      "name": "project-codeflare--codeflare-sdk",
+      "source": "./project-codeflare--codeflare-sdk",
+      "description": "codeflare-sdk"
+    },
+    {
+      "name": "project-codeflare--codeflare-sdk",
+      "source": "./project-codeflare--codeflare-sdk",
+      "description": "codeflare-sdk"
+    },
+    {
+      "name": "replicatedhq--embedded-cluster",
+      "source": "./replicatedhq--embedded-cluster",
+      "description": "embedded-cluster"
+    },
+    {
+      "name": "project-codeflare--codeflare-sdk",
+      "source": "./project-codeflare--codeflare-sdk",
+      "description": "codeflare-sdk"
     },
     {
       "name": "project-codeflare--codeflare-sdk",
@@ -241292,6 +241707,11 @@
       "name": "visheshd--docmcp",
       "source": "./visheshd--docmcp",
       "description": "MCP to index techincal docs on local vector database to work with Cursor"
+    },
+    {
+      "name": "kent-liu--meshtastic-firmware-zhtw",
+      "source": "./kent-liu--meshtastic-firmware-zhtw",
+      "description": "Unofficial Meshtastic firmware with Traditional Chinese display and a Bopomofo input method"
     },
     {
       "name": "loiane--specs-driven-development",
