@@ -1,26 +1,29 @@
-# 07-development-workflow
+# 08-troubleshooting
 
-> Version control, testing, iterative approach, and AI collaboration guidelines.
+> Svelte 5 reminder
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/07-development-workflow/SKILL.md
+Read and follow the instructions in .claude/skills/08-troubleshooting/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# 07-development-workflow
+# 08-troubleshooting
 
-## Development Workflow
+## Troubleshooting - How to fix potential issues that may arise during development.
 
-STRICT REQUIREMENT:
-- Version Control: Follow best practices with Git (feature branches, pull requests).
-- Testing: All major features should include unit/integration tests.
-- Iterative Development: Prioritize functional increments.
+SVELTE 5 (WITH RUNES) HELP:
+- In Svelte 5, we can't export and reassign state variables. 
+Instead, we need to either:
+  1. Export a function that returns the state value, or
+  2. Only mutate properties of the state object without reassigning it.
+
+JavaScript property descriptor rules, you cannot have both a getter/setter and a value/writable attribute in the same descriptor. 
 
 ---
 > Source: [fivelity/usmp](https://github.com/fivelity/usmp) — distributed by [TomeVault](https://tomevault.io).
