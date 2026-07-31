@@ -1,31 +1,26 @@
-# 06-documentation-standards
+# 07-development-workflow
 
-> Markdown usage, specific document types, and update frequency.
+> Version control, testing, iterative approach, and AI collaboration guidelines.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/06-documentation-standards/SKILL.md
+Read and follow the instructions in .claude/skills/07-development-workflow/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# 06-documentation-standards
 
-## Documentation Standards
+# 07-development-workflow
+
+## Development Workflow
 
 STRICT REQUIREMENT:
-- Maintain documentation in `docs/` using Markdown (`.md`).
-- API Documentation: Update `docs/API_DOCUMENTATION.md` with endpoint details.
-- Developer Guide: Ensure `docs/DEVELOPER_GUIDE.md` covers setup, testing, and contributions.
-- User Guide: Keep `docs/USER_GUIDE.md` updated for platform usage.
-- Maintain specialized documentation:
-  - `docs/SVELTE_STANDARDS.md`
-  - `docs/CUSTOM_WIDGET_DEVELOPMENT.md`
-  - `docs/THEME_SYSTEM.md`
-  - `docs/TROUBLESHOOTING.md`
+- Version Control: Follow best practices with Git (feature branches, pull requests).
+- Testing: All major features should include unit/integration tests.
+- Iterative Development: Prioritize functional increments.
 
 ---
 > Source: [fivelity/usmp](https://github.com/fivelity/usmp) — distributed by [TomeVault](https://tomevault.io).
