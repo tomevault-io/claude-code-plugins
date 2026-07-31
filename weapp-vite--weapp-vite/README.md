@@ -1,8 +1,6 @@
 # weapp-vite
 
-> Tome by [weapp-vite](https://github.com/weapp-vite/weapp-vite) — distributed by [TomeVault](https://tomevault.io)
-
-weapp-vite 把现代化的 web 开发方式，带入传统的小程序开发吧！
+> Tome by [weapp-vite](https://github.com/weapp-vite/weapp-vite), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
