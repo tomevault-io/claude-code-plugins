@@ -1,4 +1,4 @@
-# after-each-chat
+# genoarmory
 
 > Always write a chat-end JSON summary to ./tmp
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/after-each-chat/SKILL.md
+Read and follow the instructions in .claude/skills/genoarmory/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -43,4 +43,4 @@ At the **end of every chat turn**, do the following without exception:
 
 ---
 > Source: [MAGICS-LAB/GenoArmory](https://github.com/MAGICS-LAB/GenoArmory) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-28 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
