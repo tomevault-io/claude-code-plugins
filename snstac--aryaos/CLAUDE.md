@@ -1,0 +1,32 @@
+# aryaos
+
+> After repo edits, rsync tree to lab Pi (pi@aryaos-dev-pi)
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/aryaos/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Lab Pi sync after changes
+
+When you finish **meaningful edits** to this repository (not trivial typo-only nits), run from the repo root:
+
+```bash
+./scripts/sync-to-dev-pi.sh
+```
+
+This mirrors the working tree to `~/aryaos-sync/` on the lab Pi (default **`pi@aryaos-dev-pi`** via `~/.ssh/config`; set **`ARYAOS_DEV_PI_HOST=172.17.2.158`** if needed). The script **prefers** the dev private key at **`shared_files/aryaos/ssh/aryaos-dev-lab`** when a probe SSH succeeds; otherwise **`ARYAOS_DEV_PI_PASSWORD`** / **`scripts/.dev-pi-creds.local`** with **`sshpass`**. Details: [docs/dev-pi.md](docs/dev-pi.md).
+
+If the user only changed portal/CGI/lighttpd pieces and wants them **live** on the Pi immediately, also run `ARYAOS_SSH=pi@aryaos-dev-pi ./scripts/sync-portal-review.sh` after `sync-to-dev-pi.sh`.
+
+If `sync-to-dev-pi.sh` fails (no network, missing key/password, auth errors), report the error and stop; do not claim the Pi was updated.
+
+---
+> Source: [snstac/aryaos](https://github.com/snstac/aryaos) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
