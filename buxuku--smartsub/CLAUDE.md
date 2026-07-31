@@ -1,0 +1,63 @@
+# smartsub
+
+> - 本地构建：`yarn build:local`
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/smartsub/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# 开发指南
+
+## 开发环境设置
+
+1. 安装依赖：
+```bash
+yarn install
+```
+
+2. 启动开发服务器：
+```bash
+yarn dev
+```
+
+## 构建说明
+
+- 开发构建：`yarn build`
+- 本地构建：`yarn build:local`
+
+## 重要依赖
+
+- Electron - 桌面应用框架
+- Next.js - React 框架
+- Whisper.cpp - 语音识别
+- FFmpeg - 音视频处理
+- i18next - 国际化支持
+
+## 开发注意事项
+
+1. 主进程代码位于 `main/` 目录
+2. 渲染进程代码位于 `renderer/` 目录
+3. 使用 TypeScript 进行开发
+4. 遵循项目的代码格式化规则（使用 Prettier）
+5. 注意处理跨进程通信
+6. 注意处理文件系统操作的安全性
+7. 如果需要安装三方依赖，使用 `yarn` 命令
+8. 新增页面或者组件，需要考虑多语言文档的支持
+9. 尽量保持组件和工具的高度抽离和封装，避免同一文件太多的组件和逻辑代码
+
+## 调试技巧
+
+1. 主进程调试：使用 Chrome DevTools
+2. 渲染进程调试：使用 Next.js 开发工具
+3. 使用 `console.log` 进行日志记录
+4. 使用 Electron 的开发者工具进行调试
+
+---
+> Source: [buxuku/SmartSub](https://github.com/buxuku/SmartSub) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
