@@ -5,17 +5,17 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [alibaba/loongcollector](https://github.com/alibaba/loongcollector).
+Original source: `.cursor/rules/*.mdc` in [alibaba/loongcollector](https://github.com/alibaba/loongcollector).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [alibaba/loongcollector](https://github.com/alibaba/loongcollector) — a repo with 2166+ stars on GitHub.
+From [alibaba/loongcollector](https://github.com/alibaba/loongcollector) — a repo with 2167+ stars on GitHub.
 
 ---
 
