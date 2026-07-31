@@ -1,8 +1,6 @@
 # cli-jaw
 
-> Source: [lidge-jun/cli-jaw](https://github.com/lidge-jun/cli-jaw) — distributed by [TomeVault](https://tomevault.io)
-
-🦈 2-line install personal AI assistant. 5 engines (Claude, Codex, Gemini, OpenCode, Copilot), 108 skills, zero ban risk.
+> Source: [lidge-jun/cli-jaw](https://github.com/lidge-jun/cli-jaw). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -21,6 +19,6 @@ Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Sou
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-p -->
