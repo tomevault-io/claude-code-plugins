@@ -1,0 +1,21 @@
+# openwinblue
+
+> Las instrucciones de proyecto para asistentes AI están en [`CLAUDE.md`](../CLAUDE.md) en la raíz del repo. Contiene arquitectura, layout, comandos de build/test y convenciones del proyecto.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/openwinblue/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# GitHub Copilot — instrucciones
+
+Las instrucciones de proyecto para asistentes AI están en [`CLAUDE.md`](../CLAUDE.md) en la raíz del repo. Contiene arquitectura, layout, comandos de build/test y convenciones del proyecto.
+
+---
+> Source: [santiquiroz/openwinblue](https://github.com/santiquiroz/openwinblue) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-30 -->
