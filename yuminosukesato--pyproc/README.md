@@ -1,8 +1,6 @@
 # AI instruction files for pyproc
 
-> Sourced from [YuminosukeSato/pyproc](https://github.com/YuminosukeSato/pyproc) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Call Python from Go without CGO or microservices - Unix domain socket based IPC for ML inference and data processin
+> Sourced from [YuminosukeSato/pyproc](https://github.com/YuminosukeSato/pyproc), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [YuminosukeSato/pyproc](https://github.com/Yumin
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/YuminosukeSato/pyproc](https://github.com/YuminosukeSato/pyproc)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/YuminosukeSato/pyproc](https://github.com/YuminosukeSato/pyproc)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-q -->
