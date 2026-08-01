@@ -1,42 +1,38 @@
-# go-skills
+# go-agent-skills
 
-> Go agent skills repository — curated skills for Go development
+> This repository contains curated AI agent skills for Go development,
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/go-skills/SKILL.md
+Read and follow the instructions in .claude/skills/go-agent-skills/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # Go Agent Skills
 
 This repository contains curated AI agent skills for Go development, 
 grounded in Effective Go, Go Code Review Comments, and real-world patterns from large-scale Go services.
 
-## Installation
+Install: `npx skills add eduardo-sl/go-agent-skills -a cline`
 
-```bash
-npx skills add eduardo-sl/go-agent-skills -a cursor
-```
+Or manually: copy `skills/*/*/` into `.cline/skills/`.
 
-Or manually: copy the contents of `skills/*/*/` into `.cursor/skills/`.
-
-## Available Skills
-
-- go-coding-standards, go-code-review, go-error-handling, go-context, go-modernize
-- go-architecture-review, go-interface-design, go-api-design, go-design-patterns
-- go-database
-- go-concurrency-review, go-security-audit, go-performance-review, go-observability
-- go-test-quality, go-test-table-driven
-- go-dependency-audit, git-commit
+Skills: go-coding-standards, go-code-review, go-error-handling, go-context, go-modernize,
+go-data-structures, go-documentation,
+go-architecture-review, go-project-layout, go-interface-design, go-api-design, go-grpc,
+go-design-patterns, go-dependency-injection, go-cli,
+go-database,
+go-concurrency-review, go-security-audit, go-performance-review, go-observability,
+go-troubleshooting,
+go-test-quality, go-test-table-driven,
+go-dependency-audit, go-ci, go-refactoring, go-semantic-tools, git-commit.
 
 Each skill is in `skills/(category)/skill-name/SKILL.md`.
 
 ---
 > Source: [eduardo-sl/go-agent-skills](https://github.com/eduardo-sl/go-agent-skills) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-04-23 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
