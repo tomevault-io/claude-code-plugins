@@ -1,8 +1,6 @@
 # AI instruction files for goated
 
-> Sourced from [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Always-on personal AI assistant built around Claude Code and Codex.
+> Sourced from [Endgame-Labs/goated](https://github.com/Endgame-Labs/goated), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [Endgame-Labs/goated](https://github.com/Endgame
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/Endgame-Labs/goated](https://github.com/Endgame-Labs/goated)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/Endgame-Labs/goated](https://github.com/Endgame-Labs/goated)
 
 ---
 
