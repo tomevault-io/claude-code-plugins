@@ -5,11 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [nsxdavid/anthropic-max-router](https://github.com/nsxdavid/anthropic-max-router).
+Original source: `` in [nsxdavid/anthropic-max-router](https://github.com/nsxdavid/anthropic-max-router).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
