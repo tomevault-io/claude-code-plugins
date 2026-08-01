@@ -1,0 +1,45 @@
+# morphir-elm
+
+> See [AGENTS.md](AGENTS.md) for AI agent instructions including:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/morphir-elm/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# CLAUDE.md - Morphir-Elm
+
+See [AGENTS.md](AGENTS.md) for AI agent instructions including:
+
+- **Git commit guidelines** (no Co-Authored-By - EasyCLA requirement)
+- Tech stack overview (mise, Bun, Elm, TypeScript)
+- Functional programming principles
+- Functional domain modeling practices
+- Code style guidelines
+
+## Quick Reference
+
+```bash
+# Build
+mise run build          # All components
+mise run build:cli      # CLI v1 only
+mise run build:cli2     # CLI v2 only
+
+# Test
+mise run test           # All tests
+mise run test:unit      # Elm unit tests
+
+# Setup
+mise run setup          # Install dependencies
+```
+
+See [DEVELOPING.md](DEVELOPING.md) for full documentation.
+
+---
+> Source: [finos/morphir-elm](https://github.com/finos/morphir-elm) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-24 -->
