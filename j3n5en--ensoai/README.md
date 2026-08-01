@@ -1,8 +1,6 @@
 # EnsoAI
 
-> Tome by [J3n5en](https://github.com/J3n5en/EnsoAI) — distributed by [TomeVault](https://tomevault.io)
-
-Multiple Agents, Parallel Flow
+> Tome by [J3n5en](https://github.com/J3n5en/EnsoAI), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [J3n5en/EnsoAI](https://github.com/J3n5en/EnsoAI
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [J3n5en/EnsoAI](https://github.com/J3n5en/EnsoAI) — a repo with 888+ stars on GitHub.
+From [J3n5en/EnsoAI](https://github.com/J3n5en/EnsoAI) — a repo with 990+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:t-e-s -->
