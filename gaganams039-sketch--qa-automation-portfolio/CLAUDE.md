@@ -1,0 +1,26 @@
+# qa-automation-portfolio
+
+> ﻿# Copilot instructions
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/qa-automation-portfolio/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+﻿# Copilot instructions
+
+- Use Playwright for all E2E tests
+- Use role-based locators (getByRole, getByPlaceholder) over CSS selectors
+- No fixed sleeps or waitForTimeout
+- Every test must have at least one happy path and one negative case
+- Use async/await throughout
+- Test files go in tests/todomvc/
+
+---
+> Source: [gaganams039-sketch/qa-automation-portfolio](https://github.com/gaganams039-sketch/qa-automation-portfolio) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-01 -->
