@@ -1,4 +1,4 @@
-# laravel-boost
+# laravel-saas-starter
 
 > <laravel-boost-guidelines>
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/laravel-boost/SKILL.md
+Read and follow the instructions in .claude/skills/laravel-saas-starter/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -599,4 +599,4 @@ $this->app->singleton(Service::class, fn () => new Service(fn () => request()));
 
 ---
 > Source: [XCO-Agency/Laravel-SAAS-Starter](https://github.com/XCO-Agency/Laravel-SAAS-Starter) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-04-29 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
