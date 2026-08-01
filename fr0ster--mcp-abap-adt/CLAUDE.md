@@ -1,50 +1,48 @@
-# main
+# mcp-abap-adt
 
-> mcp-abap-adt project rules and guidelines
+> It is strictly forbidden to attempt to access, analyze, or assume the existence of any include, object, function, class, or structure unless it is:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/main/SKILL.md
+Read and follow the instructions in .claude/skills/mcp-abap-adt/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+## 01. Fundamental Cline Rule (Supersedes All Others)
 
-# mcp-abap-adt Rules
+It is strictly forbidden to attempt to access, analyze, or assume the existence of any include, object, function, class, or structure unless it is:
+- explicitly present in the retrieved code (e.g., via INCLUDE, CALL FUNCTION, CLASS, etc.), or
+- explicitly listed in the result of GetIncludesList (or an equivalent dependency listing function).
 
-## Language Requirements
-All repository artifacts authored by the assistant (source code, documentation, comments, commit messages, etc.) must be written in English.
+Any attempt to access or analyze objects not present in these sources is prohibited.
 
-Direct communication with the user must follow the language used by the user in the current conversation.
+---
 
-## Project Context
-- **Name:** mcp-abap-adt – MCP server for SAP ABAP ADT (ABAP Development Tools).
-- **Purpose:** Provides a Model Context Protocol (MCP) server for interacting with SAP ABAP systems.
-- **Key Modules:** `src/handlers/`, `src/lib/connection/`, `src/lib/`, `tests/`
+### Fundamental Principles
 
-## Code Standards
-- Source code: English only
-- Comments: English only, explain "why" not "what"
-- Variable/function/class names: English only
-- Error messages: English only
-- Log messages: English only
+1. **No Assumptions About Existence**
+   - You must not make any assumptions about the existence of includes, classes, functions, or other objects unless they are explicitly present in the retrieved code or listed by GetIncludesList (or equivalent).
+   - Analysis and interaction are only permitted with objects explicitly present in code or include lists.
 
-## Fundamental Cline Rules
-- No assumptions about object existence unless explicitly present in retrieved code or listed by GetIncludesList
-- No reliance on unspecified standards (SAP, ABAP, documentation standards) unless explicitly specified
-- Context over abstract standards - never ignore user's context in favor of abstract standards
-- Clarification requirement - always ask for clarification if language, format, structure are not specified
-- Default language: English (unless otherwise specified)
+2. **No Reliance on Unspecified Standards**
+   - Do not rely on any industry, corporate, or "standard" practices or requirements (including SAP, ABAP, or documentation standards) unless they are explicitly specified in the user request or provided context.
 
-## Architecture Notes
-- Connection types: CloudAbapConnection, OnPremAbapConnection, BaseAbapConnection
-- Handlers use centralized caching via `objectsListCache`
-- Handlers return structured results (no file writes from handler logic)
-- Testing: YAML-based configuration in `tests/test-config.yaml`
+3. **Context Over Abstract Standards**
+   - Never ignore the user's context in favor of abstract standards, except when providing code improvement recommendations (best practices in code analysis sections).
+
+4. **Clarification Requirement**
+   - If language, format, structure, or storage location are not specified in the user request or context, always ask the user for clarification before proceeding.
+
+5. **Confirmation of Assumptions**
+   - All assumptions regarding language, format, structure, or standards must be confirmed by the user before acting on them.
+
+6. **Default Language**
+   - If the language is not defined in the request or context, use English by default (unless otherwise specified in the rules or context).
 
 ---
 > Source: [fr0ster/mcp-abap-adt](https://github.com/fr0ster/mcp-abap-adt) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-04 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
