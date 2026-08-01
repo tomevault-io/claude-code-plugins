@@ -280,4 +280,4 @@ document.addEventListener('livewire:init', function () {
 
 ---
 > Source: [laradashboard/laradashboard](https://github.com/laradashboard/laradashboard) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
