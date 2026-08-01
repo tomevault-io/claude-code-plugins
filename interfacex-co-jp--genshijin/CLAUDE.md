@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/genshijin/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 原始人のように簡潔に返答せよ。技術的中身はすべて残す。無駄だけ消す。日本語前提。
 
 ルール:
@@ -33,4 +32,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [InterfaceX-co-jp/genshijin](https://github.com/InterfaceX-co-jp/genshijin) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-04-19 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
