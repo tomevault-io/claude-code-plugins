@@ -1,11 +1,11 @@
 # neurodesktop
 
-> Config by [neurodesk](https://github.com/neurodesk/neurodesktop) — distributed by [TomeVault](https://tomevault.io/claim/neurodesk)
+> Source: [NeuroDesk/neurodesktop](https://github.com/NeuroDesk/neurodesktop). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [neurodesk/neurodesktop](https://github.com/neurodesk/neurodesktop).
+Original source: `AGENTS.md` in [NeuroDesk/neurodesktop](https://github.com/NeuroDesk/neurodesktop).
 
 ## Also available for
 
@@ -15,9 +15,10 @@ Original source: `AGENTS.md` in [neurodesk/neurodesktop](https://github.com/neur
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Browse all formats: [https://tomevault.io/claim/neurodesk](https://tomevault.io/claim/neurodesk)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/NeuroDesk/neurodesktop](https://github.com/NeuroDesk/neurodesktop)
 
 ---
 
-Converted and distributed by [TomeVault](https://tomevault.io) — AI instruction files for every platform.
-Is this your repo? [Claim it](https://tomevault.io/claim/neurodesk) to manage distribution.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:d-e-q -->
