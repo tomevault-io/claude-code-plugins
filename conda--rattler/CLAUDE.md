@@ -1,0 +1,24 @@
+# rattler
+
+> - Rust monorepo for conda package management (solving, installing, fetching repodata), used by pixi, rattler-build, prefix.dev
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/rattler/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+- Rust monorepo for conda package management (solving, installing, fetching repodata), used by pixi, rattler-build, prefix.dev
+- Build: `pixi run build` | Test: `pixi run test` | Lint all: `pixi run lint`
+- Single test: `pixi run -- cargo nextest run -p <crate_name> <test_name>`
+- Before committing, run `pixi run cargo-fmt` and `pixi run cargo-clippy` to ensure formatting and lint compliance
+- crates in `crates/`, Python bindings in `py-rattler/`, WASM bindings in `js-rattler/`
+- When creating PRs, use conventional commits and use the PR template. If possible, add the user's prompt there.
+
+---
+> Source: [conda/rattler](https://github.com/conda/rattler) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-22 -->
