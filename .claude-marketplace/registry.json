@@ -12254,6 +12254,11 @@
       "description": "pipelines"
     },
     {
+      "name": "kubeflow--pipelines",
+      "source": "./kubeflow--pipelines",
+      "description": "pipelines"
+    },
+    {
       "name": "swe-agent--mini-swe-agent",
       "source": "./swe-agent--mini-swe-agent",
       "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
@@ -29884,6 +29889,11 @@
       "description": "The agent that remembers and learns."
     },
     {
+      "name": "mariadb4j--mariadb4j",
+      "source": "./mariadb4j--mariadb4j",
+      "description": "MariaDB4j"
+    },
+    {
       "name": "mhdzumair--mediafusion",
       "source": "./mhdzumair--mediafusion",
       "description": "MediaFusion"
@@ -33912,6 +33922,11 @@
       "name": "liquidos-ai--autoagents",
       "source": "./liquidos-ai--autoagents",
       "description": "AutoAgents"
+    },
+    {
+      "name": "taffybar--taffybar",
+      "source": "./taffybar--taffybar",
+      "description": "taffybar"
     },
     {
       "name": "dotnet--nerdbank-streams",
@@ -43799,6 +43814,11 @@
       "description": "liquid-cache"
     },
     {
+      "name": "signalk--signalk-server",
+      "source": "./signalk--signalk-server",
+      "description": "signalk-server"
+    },
+    {
       "name": "reyamira--models",
       "source": "./reyamira--models",
       "description": "TUI and CLI for browsing AI models, benchmarks, coding agents, and statuses for AI providers."
@@ -44097,6 +44117,46 @@
       "name": "godotneers--g-u-i-d-e",
       "source": "./godotneers--g-u-i-d-e",
       "description": "G.U.I.D.E"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
     },
     {
       "name": "ton-blockchain--acton",
@@ -48539,6 +48599,11 @@
       "description": "LLMServingSim"
     },
     {
+      "name": "apache--skywalking-banyandb",
+      "source": "./apache--skywalking-banyandb",
+      "description": "skywalking-banyandb"
+    },
+    {
       "name": "pageai-pro--vibe-coding-starter",
       "source": "./pageai-pro--vibe-coding-starter",
       "description": "Create great UIs with AI, see the full tutorial"
@@ -49994,6 +50059,16 @@
       "description": "blueprint"
     },
     {
+      "name": "azuread--microsoft-authentication-library-for-objc",
+      "source": "./azuread--microsoft-authentication-library-for-objc",
+      "description": "microsoft-authentication-library-for-objc"
+    },
+    {
+      "name": "azuread--microsoft-authentication-library-for-objc",
+      "source": "./azuread--microsoft-authentication-library-for-objc",
+      "description": "microsoft-authentication-library-for-objc"
+    },
+    {
       "name": "managedcode--dotnet-skills",
       "source": "./managedcode--dotnet-skills",
       "description": "Installable .NET skill catalog and CLI for Codex, Claude Code, GitHub Copilot, and Gemini."
@@ -50812,6 +50887,11 @@
       "name": "babelfish-for-postgresql--babelfish-extensions",
       "source": "./babelfish-for-postgresql--babelfish-extensions",
       "description": "babelfish_extensions"
+    },
+    {
+      "name": "homeport--havener",
+      "source": "./homeport--havener",
+      "description": "havener"
     },
     {
       "name": "astronomer--agents",
@@ -76509,6 +76589,11 @@
       "description": "decipher-research-agent"
     },
     {
+      "name": "selemondev--marquee",
+      "source": "./selemondev--marquee",
+      "description": "marquee"
+    },
+    {
       "name": "ahaodev--shadmin",
       "source": "./ahaodev--shadmin",
       "description": "An Enterprise-Grade Full-Stack RBAC Permission Management System Built with Go + React"
@@ -79567,6 +79652,156 @@
       "name": "stolostron--multicluster-observability-operator",
       "source": "./stolostron--multicluster-observability-operator",
       "description": "multicluster-observability-operator"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
+    },
+    {
+      "name": "jupyter-naas--abi",
+      "source": "./jupyter-naas--abi",
+      "description": "abi"
     },
     {
       "name": "correctroadh--opentoggl",
@@ -96667,6 +96902,11 @@
       "name": "jojojotarou--ldoh",
       "source": "./jojojotarou--ldoh",
       "description": "LDOH"
+    },
+    {
+      "name": "liuzhengdongfortest--ma",
+      "source": "./liuzhengdongfortest--ma",
+      "description": "MA"
     },
     {
       "name": "jjongguet--oh-my-product",
@@ -117287,6 +117527,41 @@
       "name": "callstackincubator--skillgym",
       "source": "./callstackincubator--skillgym",
       "description": "skillgym"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
+    },
+    {
+      "name": "vicnaum--shinode",
+      "source": "./vicnaum--shinode",
+      "description": "shinode"
     },
     {
       "name": "bioliminal--bioliminal-mobile-application",
@@ -155117,6 +155392,11 @@
       "name": "pratos--sanjaya",
       "source": "./pratos--sanjaya",
       "description": "sanjaya"
+    },
+    {
+      "name": "cyclopsmc--iconexporter",
+      "source": "./cyclopsmc--iconexporter",
+      "description": "IconExporter"
     },
     {
       "name": "rajjjaryan--career-copilot",
