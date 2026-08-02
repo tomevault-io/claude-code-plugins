@@ -1,0 +1,52 @@
+# tiged
+
+> All commits MUST follow **Conventional Commits**.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/tiged/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent guidelines
+
+## Commits (required)
+
+All commits MUST follow **Conventional Commits**.
+
+Format:
+
+- `type(scope): summary`
+- Optional body for context
+- Use `!` or a `BREAKING CHANGE:` footer for breaking changes
+
+Allowed `type` (typical): `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `build`, `ci`.
+
+Examples:
+
+- `fix(tar): handle PAX path correctly`
+- `docs: document overwrite behavior`
+- `feat(cli)!: change default output directory`
+
+## Checks (required)
+
+Before pushing, ALWAYS run:
+
+- `npm run lint`
+- `npm run format`
+- `npm run test-types`
+
+Run `npm run format` even after creating/modifying Markdown files.
+
+If you need to auto-fix issues:
+
+- `npm run lint:fix`
+- `npm run format`
+
+---
+> Source: [tiged/tiged](https://github.com/tiged/tiged) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-22 -->
