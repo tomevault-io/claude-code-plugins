@@ -1,6 +1,6 @@
 # skywalking-banyandb
 
-> Source: [apache/skywalking-banyandb](https://github.com/apache/skywalking-banyandb). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [apache/skywalking-banyandb](https://github.com/apache/skywalking-banyandb). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -14,12 +14,6 @@ Original source: `AGENTS.md` in [apache/skywalking-banyandb](https://github.com/
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
-
-## Bundled Skills (3)
-
-- [skywalking-banyandb](https://github.com/apache/skywalking-banyandb/tree/main/skills/compiling/SKILL.md)
-- [skywalking-banyandb](https://github.com/apache/skywalking-banyandb/tree/main/skills/vendor-update/SKILL.md)
-- [skywalking-banyandb](https://github.com/apache/skywalking-banyandb/tree/main/skills/gh-pull-request/SKILL.md)
 
 From [apache/skywalking-banyandb](https://github.com/apache/skywalking-banyandb) — a repo with 346+ stars on GitHub.
 
