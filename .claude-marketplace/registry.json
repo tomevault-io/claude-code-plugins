@@ -9734,6 +9734,11 @@
       "description": "anomalib"
     },
     {
+      "name": "swe-agent--mini-swe-agent",
+      "source": "./swe-agent--mini-swe-agent",
+      "description": "mini-swe-agent"
+    },
+    {
       "name": "sawyerhood--dev-browser",
       "source": "./sawyerhood--dev-browser",
       "description": "A Claude Skill to give your agent the ability to use a web browser"
@@ -15852,6 +15857,11 @@
       "name": "kenn-io--agentsview",
       "source": "./kenn-io--agentsview",
       "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. "
+    },
+    {
+      "name": "openflagr--flagr",
+      "source": "./openflagr--flagr",
+      "description": "flagr"
     },
     {
       "name": "rust-cross--cargo-zigbuild",
@@ -23252,6 +23262,11 @@
       "name": "keijiro--noiseshader",
       "source": "./keijiro--noiseshader",
       "description": "NoiseShader"
+    },
+    {
+      "name": "tris203--precognition-nvim",
+      "source": "./tris203--precognition-nvim",
+      "description": "precognition.nvim"
     },
     {
       "name": "nextacular--nextacular",
@@ -44084,6 +44099,16 @@
       "description": "G.U.I.D.E"
     },
     {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
+      "name": "ton-blockchain--acton",
+      "source": "./ton-blockchain--acton",
+      "description": "acton"
+    },
+    {
       "name": "borski--travel-hacking-toolkit",
       "source": "./borski--travel-hacking-toolkit",
       "description": "AI-powered travel hacking with points, miles, and award flights. Drop-in skills and MCP servers for OpenCode and Claude Code."
@@ -45254,6 +45279,11 @@
       "description": "minion-agent"
     },
     {
+      "name": "suzuki-shunsuke--tfaction",
+      "source": "./suzuki-shunsuke--tfaction",
+      "description": "tfaction"
+    },
+    {
       "name": "web-infra-dev--rslint",
       "source": "./web-infra-dev--rslint",
       "description": "\ud83d\ude80 Go Faster. Go Typed"
@@ -45562,6 +45592,11 @@
       "name": "longhorn--longhorn-engine",
       "source": "./longhorn--longhorn-engine",
       "description": "longhorn-engine"
+    },
+    {
+      "name": "alchemy-run--distilled",
+      "source": "./alchemy-run--distilled",
+      "description": "distilled"
     },
     {
       "name": "ruilisi--lsbot",
@@ -46334,6 +46369,11 @@
       "description": "ERNIE-SDK"
     },
     {
+      "name": "sudoskys--telegramify-markdown",
+      "source": "./sudoskys--telegramify-markdown",
+      "description": "telegramify-markdown"
+    },
+    {
       "name": "r-huijts--xcode-mcp-server",
       "source": "./r-huijts--xcode-mcp-server",
       "description": "MCP Server implementation for Xcode integration"
@@ -46407,6 +46447,11 @@
       "name": "owndev--open-webui-functions",
       "source": "./owndev--open-webui-functions",
       "description": "Open-WebUI-Functions"
+    },
+    {
+      "name": "creeper5820--creeper-qt",
+      "source": "./creeper5820--creeper-qt",
+      "description": "creeper-qt"
     },
     {
       "name": "opencowai--opencow",
@@ -47374,6 +47419,11 @@
       "description": "im-whale-shark"
     },
     {
+      "name": "havendv--h-pipes",
+      "source": "./havendv--h-pipes",
+      "description": "H.Pipes"
+    },
+    {
       "name": "mengjian-github--xiaomo-starter-kit",
       "source": "./mengjian-github--xiaomo-starter-kit",
       "description": "\ud83d\udc08\u200d\u2b1b OpenClaw \u4e2d\u6587 AI \u52a9\u624b\u6a21\u677f | 5\u5206\u949f\u62e5\u6709\u4f60\u7684 AI \u79c1\u4eba\u52a9\u624b"
@@ -47707,6 +47757,16 @@
       "name": "microsoft--windows-rust-driver-samples",
       "source": "./microsoft--windows-rust-driver-samples",
       "description": "Windows-rust-driver-samples"
+    },
+    {
+      "name": "yumenaka--comigo",
+      "source": "./yumenaka--comigo",
+      "description": "comigo"
+    },
+    {
+      "name": "yumenaka--comigo",
+      "source": "./yumenaka--comigo",
+      "description": "comigo"
     },
     {
       "name": "nutlope--make-comics",
@@ -49909,6 +49969,31 @@
       "description": "blueprint"
     },
     {
+      "name": "tangle-network--blueprint",
+      "source": "./tangle-network--blueprint",
+      "description": "blueprint"
+    },
+    {
+      "name": "tangle-network--blueprint",
+      "source": "./tangle-network--blueprint",
+      "description": "blueprint"
+    },
+    {
+      "name": "tangle-network--blueprint",
+      "source": "./tangle-network--blueprint",
+      "description": "blueprint"
+    },
+    {
+      "name": "tangle-network--blueprint",
+      "source": "./tangle-network--blueprint",
+      "description": "blueprint"
+    },
+    {
+      "name": "tangle-network--blueprint",
+      "source": "./tangle-network--blueprint",
+      "description": "blueprint"
+    },
+    {
       "name": "managedcode--dotnet-skills",
       "source": "./managedcode--dotnet-skills",
       "description": "Installable .NET skill catalog and CLI for Codex, Claude Code, GitHub Copilot, and Gemini."
@@ -49997,6 +50082,16 @@
       "name": "meilisearch--meilisearch-dotnet",
       "source": "./meilisearch--meilisearch-dotnet",
       "description": "meilisearch-dotnet"
+    },
+    {
+      "name": "shopify--ui-extensions",
+      "source": "./shopify--ui-extensions",
+      "description": "ui-extensions"
+    },
+    {
+      "name": "shopify--ui-extensions",
+      "source": "./shopify--ui-extensions",
+      "description": "ui-extensions"
     },
     {
       "name": "intern3-chat--intern3-chat",
@@ -69344,6 +69439,16 @@
       "description": "wayflow"
     },
     {
+      "name": "openshift--machine-api-operator",
+      "source": "./openshift--machine-api-operator",
+      "description": "machine-api-operator"
+    },
+    {
+      "name": "openshift--machine-api-operator",
+      "source": "./openshift--machine-api-operator",
+      "description": "machine-api-operator"
+    },
+    {
       "name": "magiccube--helixent",
       "source": "./magiccube--helixent",
       "description": "Helixent is a small library for building ReAct-style agent loops based on the Bun stack."
@@ -74479,6 +74584,11 @@
       "description": "dish-ai-commit"
     },
     {
+      "name": "rryam--auralkit",
+      "source": "./rryam--auralkit",
+      "description": "AuralKit"
+    },
+    {
       "name": "vijayabaskar56--tanstack-start-faster",
       "source": "./vijayabaskar56--tanstack-start-faster",
       "description": "A highly performant e-commerce template using TanStack and Cloudflare, inspired by NextFaster"
@@ -75454,6 +75564,16 @@
       "description": "uuv"
     },
     {
+      "name": "bitcoinresearchkit--brk",
+      "source": "./bitcoinresearchkit--brk",
+      "description": "brk"
+    },
+    {
+      "name": "bitcoinresearchkit--brk",
+      "source": "./bitcoinresearchkit--brk",
+      "description": "brk"
+    },
+    {
       "name": "cnighswonger--claude-code-cache-fix",
       "source": "./cnighswonger--claude-code-cache-fix",
       "description": "Fixes prompt cache regression in Claude Code that causes up to 20x cost increase on resumed sessions"
@@ -75672,6 +75792,36 @@
       "name": "havendv--dependencypropertygenerator",
       "source": "./havendv--dependencypropertygenerator",
       "description": "DependencyPropertyGenerator"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
+    },
+    {
+      "name": "21-dot-dev--swift-secp256k1",
+      "source": "./21-dot-dev--swift-secp256k1",
+      "description": "swift-secp256k1"
     },
     {
       "name": "viemccoy--excalibur",
@@ -76102,6 +76252,11 @@
       "name": "azure--agentbaker",
       "source": "./azure--agentbaker",
       "description": "AgentBaker"
+    },
+    {
+      "name": "nix-community--ethereum-nix",
+      "source": "./nix-community--ethereum-nix",
+      "description": "ethereum.nix"
     },
     {
       "name": "mitkox--ai-coding-factory",
@@ -76702,6 +76857,11 @@
       "name": "rickydane--codriver",
       "source": "./rickydane--codriver",
       "description": "CoDriver"
+    },
+    {
+      "name": "wled--wled-docs",
+      "source": "./wled--wled-docs",
+      "description": "WLED-Docs"
     },
     {
       "name": "thorstenrhau--token",
@@ -77387,6 +77547,51 @@
       "name": "careamics--careamics",
       "source": "./careamics--careamics",
       "description": "careamics"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "agentcommercekit--ack",
+      "source": "./agentcommercekit--ack",
+      "description": "ack"
+    },
+    {
+      "name": "equinor--design-system",
+      "source": "./equinor--design-system",
+      "description": "design-system"
     },
     {
       "name": "lawrenceching--smm",
@@ -78337,6 +78542,16 @@
       "name": "rust-lang--rust-project-goals",
       "source": "./rust-lang--rust-project-goals",
       "description": "rust-project-goals"
+    },
+    {
+      "name": "tjuse--tju-vis",
+      "source": "./tjuse--tju-vis",
+      "description": "tju-vis"
+    },
+    {
+      "name": "jayminwest--os-eco",
+      "source": "./jayminwest--os-eco",
+      "description": "os-eco"
     },
     {
       "name": "erha19--ping-island",
@@ -79349,6 +79564,11 @@
       "description": "toolathlon_gym"
     },
     {
+      "name": "stolostron--multicluster-observability-operator",
+      "source": "./stolostron--multicluster-observability-operator",
+      "description": "multicluster-observability-operator"
+    },
+    {
       "name": "correctroadh--opentoggl",
       "source": "./correctroadh--opentoggl",
       "description": "OpenToggl is a free, private-first, AI-friendly alternative to Toggl"
@@ -79557,6 +79777,21 @@
       "name": "mimir--mimir",
       "source": "./mimir--mimir",
       "description": "mimir"
+    },
+    {
+      "name": "scikit-hep--hist",
+      "source": "./scikit-hep--hist",
+      "description": "hist"
+    },
+    {
+      "name": "apache--hugegraph-ai",
+      "source": "./apache--hugegraph-ai",
+      "description": "hugegraph-ai"
+    },
+    {
+      "name": "apache--hugegraph-ai",
+      "source": "./apache--hugegraph-ai",
+      "description": "hugegraph-ai"
     },
     {
       "name": "chekdata--chek-ego-miner",
@@ -80149,6 +80384,11 @@
       "description": "Tailwind.Extensions.AspNetCore"
     },
     {
+      "name": "kguo-cs--ipad",
+      "source": "./kguo-cs--ipad",
+      "description": "iPad"
+    },
+    {
       "name": "julianromli--opencode-template",
       "source": "./julianromli--opencode-template",
       "description": "OpenCode CLI Template by @faizntfd"
@@ -80434,6 +80674,11 @@
       "description": "pfc-mcp"
     },
     {
+      "name": "adyen--adyen-node-api-library",
+      "source": "./adyen--adyen-node-api-library",
+      "description": "adyen-node-api-library"
+    },
+    {
       "name": "skywind3000--gamelib",
       "source": "./skywind3000--gamelib",
       "description": "Single-header C++ Game Library for Beginners \u2014 no SDL/DirectX/OpenGL, no setup, just include and play."
@@ -80659,6 +80904,11 @@
       "description": "arkenv"
     },
     {
+      "name": "cirello-io--dynamolock",
+      "source": "./cirello-io--dynamolock",
+      "description": "dynamolock"
+    },
+    {
       "name": "redth--maui-sherpa",
       "source": "./redth--maui-sherpa",
       "description": "Let MAUI Sherpa guide you through all your .NET MAUI dev environment needs!"
@@ -80857,6 +81107,16 @@
       "name": "pestphp--pest-plugin-browser",
       "source": "./pestphp--pest-plugin-browser",
       "description": "pest-plugin-browser"
+    },
+    {
+      "name": "izcoser--stegpy",
+      "source": "./izcoser--stegpy",
+      "description": "stegpy"
+    },
+    {
+      "name": "cybercog--laravel-eloquent-flag",
+      "source": "./cybercog--laravel-eloquent-flag",
+      "description": "laravel-eloquent-flag"
     },
     {
       "name": "htekdev--vidpipe",
@@ -81067,6 +81327,11 @@
       "name": "reown-com--react-native-examples",
       "source": "./reown-com--react-native-examples",
       "description": "react-native-examples"
+    },
+    {
+      "name": "txpipe--dolos",
+      "source": "./txpipe--dolos",
+      "description": "dolos"
     },
     {
       "name": "squarewavesystems--opcilloscope",
@@ -81572,6 +81837,11 @@
       "name": "mzying2001--sw",
       "source": "./mzying2001--sw",
       "description": "sw"
+    },
+    {
+      "name": "srivatsankrishnan--oss-arch-gym",
+      "source": "./srivatsankrishnan--oss-arch-gym",
+      "description": "oss-arch-gym"
     },
     {
       "name": "lakr233--cookey",
@@ -136309,6 +136579,11 @@
       "description": "opensalt"
     },
     {
+      "name": "whoz-oss--coday",
+      "source": "./whoz-oss--coday",
+      "description": "coday"
+    },
+    {
       "name": "treadiehq--private-connect",
       "source": "./treadiehq--private-connect",
       "description": "Secure access to private services for developers and AI agents."
@@ -137962,6 +138237,11 @@
       "name": "snoozbuster--is-smm-beaten-yet",
       "source": "./snoozbuster--is-smm-beaten-yet",
       "description": "is-smm-beaten-yet"
+    },
+    {
+      "name": "project-llzk--llzk-lib",
+      "source": "./project-llzk--llzk-lib",
+      "description": "llzk-lib"
     },
     {
       "name": "s-zx--crest",
