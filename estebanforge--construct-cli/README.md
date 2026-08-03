@@ -1,8 +1,6 @@
 # AI instruction files for construct-cli
 
-> Sourced from [EstebanForge/construct-cli](https://github.com/EstebanForge/construct-cli) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-The secure loading program (sandbox) for AI Agents
+> Sourced from [EstebanForge/construct-cli](https://github.com/EstebanForge/construct-cli), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
