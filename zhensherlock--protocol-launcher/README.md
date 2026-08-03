@@ -1,8 +1,6 @@
 # protocol-launcher
 
-> Tome by [zhensherlock](https://github.com/zhensherlock/protocol-launcher) — distributed by [TomeVault](https://tomevault.io)
-
-One-click launch URL generator for protocol-based apps
+> Tome by [zhensherlock](https://github.com/zhensherlock/protocol-launcher), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [zhensherlock/protocol-launcher](https://github.
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/zhensherlock/protocol-launcher](https://github.com/zhensherlock/protocol-launcher)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/zhensherlock/protocol-launcher](https://github.com/zhensherlock/protocol-launcher)
 
 ---
 
