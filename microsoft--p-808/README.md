@@ -1,16 +1,15 @@
 # P.808
 
-> Source: [microsoft/P.808](https://github.com/microsoft/P.808). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [microsoft/P.808](https://github.com/microsoft/P.808). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `` in [microsoft/P.808](https://github.com/microsoft/P.808).
+Original source: `AGENTS.md` in [microsoft/P.808](https://github.com/microsoft/P.808).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
