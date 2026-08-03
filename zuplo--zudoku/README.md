@@ -1,23 +1,21 @@
 # zudoku
 
-> Source: [zuplo/zudoku](https://github.com/zuplo/zudoku) — distributed by [TomeVault](https://tomevault.io)
-
-Framework for building high quality, interactive API documentation.
+> Source: [zuplo/zudoku](https://github.com/zuplo/zudoku). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [zuplo/zudoku](https://github.com/zuplo/zudoku).
+Original source: `AGENTS.md` in [zuplo/zudoku](https://github.com/zuplo/zudoku).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/zuplo/zudoku](https://github.com/zuplo/zudoku)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/zuplo/zudoku](https://github.com/zuplo/zudoku)
 
 ---
 
