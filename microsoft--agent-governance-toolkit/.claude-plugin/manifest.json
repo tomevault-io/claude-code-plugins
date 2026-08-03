@@ -1,19 +1,10 @@
 {
   "name": "microsoft--agent-governance-toolkit",
-  "displayName": "agent",
-  "description": "AI Agent Governance Toolkit \u2014 Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+  "displayName": "agent-governance-toolkit",
+  "description": "agent-governance-toolkit",
   "version": "1.0.0",
   "author": "microsoft",
   "homepage": "https://github.com/microsoft/agent-governance-toolkit",
-  "type": "tome",
-  "skills": [
-    "build-and-test",
-    "project-structure",
-    "python-code-quality",
-    "python-development",
-    "python-package-management",
-    "python-samples",
-    "python-testing",
-    "verify-dotnet-samples"
-  ]
+  "type": "config",
+  "skills": []
 }
