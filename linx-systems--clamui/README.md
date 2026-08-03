@@ -1,8 +1,6 @@
 # AI instruction files for clamui
 
-> Sourced from [linx-systems/clamui](https://github.com/linx-systems/clamui) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-ClamAV Desktop application ( GUI )
+> Sourced from [linx-systems/clamui](https://github.com/linx-systems/clamui), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
