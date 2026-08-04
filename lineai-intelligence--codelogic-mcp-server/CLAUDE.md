@@ -1,21 +1,23 @@
-# debugging
+# environment-variables
 
-> Debugging guidance for the CodeLogic MCP Server
+> Key environment variables for the CodeLogic MCP Server
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/debugging/SKILL.md
+Read and follow the instructions in .claude/skills/environment-variables/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Enable Debug Mode by setting `CODELOGIC_DEBUG_MODE=true`
-- Use debugpy capabilities for remote debugging
-- Check logs in the logs directory for detailed information
-- Use proper logging levels for different types of information
+- `CODELOGIC_SERVER_HOST`: CodeLogic server URL
+- `CODELOGIC_USERNAME`: Username for authentication
+- `CODELOGIC_PASSWORD`: Password for authentication
+- `CODELOGIC_WORKSPACE_NAME`: Workspace name
+- `CODELOGIC_DEBUG_MODE`: Enable debug logging
+- `CODELOGIC_TEST_MODE`: Used by test framework
 
 ---
 > Source: [lineai-intelligence/codelogic-mcp-server](https://github.com/lineai-intelligence/codelogic-mcp-server) — distributed by [TomeVault](https://tomevault.io).
