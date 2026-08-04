@@ -1,8 +1,6 @@
 # vox
 
-> Source: [bearcove/vox](https://github.com/bearcove/vox) — distributed by [TomeVault](https://tomevault.io)
-
-Rust-native RPC, friendly to other languages via facet-powered codegen
+> Source: [bearcove/vox](https://github.com/bearcove/vox). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [bearcove/vox](https://github.com/bearcove/vox).
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [bearcove/vox](https://github.com/bearcove/vox) — a repo with 91+ stars on GitHub.
+From [bearcove/vox](https://github.com/bearcove/vox) — a repo with 110+ stars on GitHub.
 
 ---
 
