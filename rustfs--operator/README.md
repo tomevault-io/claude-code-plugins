@@ -1,8 +1,6 @@
 # operator
 
-> Tome by [rustfs](https://github.com/rustfs/operator) — distributed by [TomeVault](https://tomevault.io)
-
-RustFS k8s operator 
+> Tome by [rustfs](https://github.com/rustfs/operator), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [rustfs/operator](https://github.com/rustfs/oper
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [rustfs/operator](https://github.com/rustfs/operator) — a repo with 83+ stars on GitHub.
+From [rustfs/operator](https://github.com/rustfs/operator) — a repo with 103+ stars on GitHub.
 
 ---
 
