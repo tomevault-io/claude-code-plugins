@@ -1,8 +1,6 @@
 # XenoAtom.Terminal.UI
 
-> Source: [XenoAtom/XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI) — distributed by [TomeVault](https://tomevault.io)
-
-XenoAtom.Terminal.UI is a modern, reactive retained-mode terminal UI framework for .NET
+> Source: [XenoAtom/XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [XenoAtom/XenoAtom.Terminal.UI](https://github.c
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [XenoAtom/XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI) — a repo with 214+ stars on GitHub.
+From [XenoAtom/XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI) — a repo with 282+ stars on GitHub.
 
 ---
 
