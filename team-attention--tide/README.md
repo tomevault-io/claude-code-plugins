@@ -1,6 +1,6 @@
 # AI instruction files for tide
 
-> Sourced from [team-attention/tide](https://github.com/team-attention/tide) and converted for every major platform by [TomeVault](https://tomevault.io)
+> Sourced from [team-attention/tide](https://github.com/team-attention/tide), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [team-attention/tide](https://github.com/team-at
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [team-attention/tide](https://github.com/team-attention/tide) — a repo with 69+ stars on GitHub.
+From [team-attention/tide](https://github.com/team-attention/tide) — a repo with 73+ stars on GitHub.
 
 ---
 
