@@ -1,8 +1,6 @@
 # AI instruction files for arcbox
 
-> Sourced from [arcboxlabs/arcbox](https://github.com/arcboxlabs/arcbox) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <200ms boot. Local first, OCI compatible, pure Rust.
+> Sourced from [arcboxlabs/arcbox](https://github.com/arcboxlabs/arcbox), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [arcboxlabs/arcbox](https://github.com/arcboxlab
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [arcboxlabs/arcbox](https://github.com/arcboxlabs/arcbox) — a repo with 84+ stars on GitHub.
+From [arcboxlabs/arcbox](https://github.com/arcboxlabs/arcbox) — a repo with 237+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:a-e-s -->
