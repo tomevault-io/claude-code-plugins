@@ -1,8 +1,6 @@
 # AI instruction files for vmecpp
 
-> Sourced from [proximafusion/vmecpp](https://github.com/proximafusion/vmecpp) and converted for every major platform by [TomeVault](https://tomevault.io)
-
- From-scratch C++ and Python reimplementation of the Variational Moments Equilibrium Code (VMEC).
+> Sourced from [proximafusion/vmecpp](https://github.com/proximafusion/vmecpp), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
