@@ -42,4 +42,4 @@ In addition to the rules enforced by `.editorconfig`, you SHOULD:
 
 ---
 > Source: [meziantou/Meziantou.NET.Sdk](https://github.com/meziantou/Meziantou.NET.Sdk) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-05 -->
+<!-- tomevault:4.0:claude_md:2026-07-22 -->
