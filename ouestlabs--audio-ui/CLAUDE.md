@@ -1,29 +1,28 @@
-# ultracite
+# audio-ui
 
-> Ultracite Rules - AI-Ready Formatter and Linter
+> This project uses **Ultracite**, a zero-config preset that enforces strict code quality standards through automated formatting and linting.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracite/SKILL.md
+Read and follow the instructions in .claude/skills/audio-ui/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 # Ultracite Code Standards
 
-This project uses **Ultracite**, a zero-config Biome preset that enforces strict code quality standards through automated formatting and linting.
+This project uses **Ultracite**, a zero-config preset that enforces strict code quality standards through automated formatting and linting.
 
 ## Quick Reference
 
-- **Format code**: `npx ultracite fix`
-- **Check for issues**: `npx ultracite check`
-- **Diagnose setup**: `npx ultracite doctor`
+- **Format code**: `bun x ultracite fix`
+- **Check for issues**: `bun x ultracite check`
+- **Diagnose setup**: `bun x ultracite doctor`
 
-Biome (the underlying engine) provides extremely fast Rust-based linting and formatting. Most issues are automatically fixable.
+Biome (the underlying engine) provides robust linting and formatting. Most issues are automatically fixable.
 
 ---
 
@@ -135,8 +134,8 @@ Biome's linter will catch most issues automatically. Focus your attention on:
 
 ---
 
-Most formatting and common issues are automatically fixed by Biome. Run `npx ultracite fix` before committing to ensure compliance.
+Most formatting and common issues are automatically fixed by Biome. Run `bun x ultracite fix` before committing to ensure compliance.
 
 ---
 > Source: [ouestlabs/audio-ui](https://github.com/ouestlabs/audio-ui) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-06-01 -->
+<!-- tomevault:4.0:claude_md:2026-07-25 -->
