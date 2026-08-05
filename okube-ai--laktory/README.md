@@ -5,12 +5,11 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `` in [okube-ai/laktory](https://github.com/okube-ai/laktory).
+Original source: `AGENTS.md` in [okube-ai/laktory](https://github.com/okube-ai/laktory).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
