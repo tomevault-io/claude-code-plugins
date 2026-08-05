@@ -1,8 +1,6 @@
 # claudian
 
-> Source: [YishenTu/claudian](https://github.com/YishenTu/claudian) — distributed by [TomeVault](https://tomevault.io)
-
-An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault
+> Source: [YishenTu/claudian](https://github.com/YishenTu/claudian). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
