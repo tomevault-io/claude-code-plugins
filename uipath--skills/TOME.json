@@ -2,9 +2,9 @@
   "name": "skills",
   "owner": "UiPath",
   "repo": "skills",
-  "description": "This is a repository of skills for interfacing UiPath capabilities to external developers.",
+  "description": "",
   "type": "config",
-  "source_format": ".cursor/rules/*.mdc",
+  "source_format": "AGENTS.md",
   "formats": [
     {
       "format": "claude_md",
@@ -40,5 +40,5 @@
   "skills": [],
   "source_url": "https://github.com/UiPath/skills",
   "distributed_by": "TomeVault",
-  "distributed_at": "2026-05-05T02:50:46Z"
+  "distributed_at": "2026-08-05T09:16:33Z"
 }
