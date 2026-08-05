@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [open-goal/jak-project](https://github.com/open-
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [open-goal/jak-project](https://github.com/open-goal/jak-project) — a repo with 3462+ stars on GitHub.
+From [open-goal/jak-project](https://github.com/open-goal/jak-project) — a repo with 3464+ stars on GitHub.
 
 ---
 
