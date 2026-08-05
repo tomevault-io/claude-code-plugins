@@ -1,0 +1,30 @@
+# relaybar
+
+> - Work on the currently checked-out branch.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/relaybar/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Repository instructions
+
+## Git workflow
+
+- Work on the currently checked-out branch.
+- Do not create or switch branches unless the user explicitly requests it.
+- Do not open pull requests unless the user explicitly requests one.
+- When asked to commit and push, commit directly to the current branch.
+- If the current branch is protected or cannot be pushed, stop and report the blocker.
+- Before editing, verify that the local branch is synchronized with its remote.
+- After a pull request is merged, switch to `main` and update it with `git pull --ff-only`.
+- Never force-push `main`.
+
+---
+> Source: [lx2026/RelayBar](https://github.com/lx2026/RelayBar) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-23 -->
