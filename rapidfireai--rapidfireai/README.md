@@ -1,0 +1,28 @@
+# rapidfireai
+
+> Tome by [RapidFireAI](https://github.com/RapidFireAI/rapidfireai), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [RapidFireAI/rapidfireai](https://github.com/RapidFireAI/rapidfireai).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/RapidFireAI/rapidfireai](https://github.com/RapidFireAI/rapidfireai)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install RapidFireAI/rapidfireai
+```
+Source: [github.com/RapidFireAI/rapidfireai](https://github.com/RapidFireAI/rapidfireai).
+
+<!-- genome:t-i-q -->
