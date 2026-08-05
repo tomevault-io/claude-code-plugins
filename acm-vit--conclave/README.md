@@ -1,8 +1,6 @@
 # conclave
 
-> Source: [ACM-VIT/conclave](https://github.com/ACM-VIT/conclave) — distributed by [TomeVault](https://tomevault.io)
-
-Real-time meetings platform with web/mobile clients, SFU, and an apps SDK
+> Source: [ACM-VIT/conclave](https://github.com/ACM-VIT/conclave). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [ACM-VIT/conclave](https://github.com/ACM-VIT/co
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [ACM-VIT/conclave](https://github.com/ACM-VIT/conclave) — a repo with 31+ stars on GitHub.
+From [ACM-VIT/conclave](https://github.com/ACM-VIT/conclave) — a repo with 34+ stars on GitHub.
 
 ---
 
