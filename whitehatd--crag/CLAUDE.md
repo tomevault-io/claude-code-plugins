@@ -1,68 +1,90 @@
-# governance
+# crag
 
-> Governance rules for @whitehatd/crag — compiled from governance.md by crag
+> <!-- crag:auto-start -->
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/governance/SKILL.md
+Read and follow the instructions in .claude/skills/crag/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+<!-- crag:auto-start -->
+# AGENTS.md
 
-# Windsurf Rules — @whitehatd/crag
+> Generated from governance.md by [crag](https://crag.sh). Regenerate: `crag compile --target agents-md`
 
-Generated from governance.md by [crag](https://crag.sh). Regenerate: `crag compile --target windsurf`
-
-## Project
+## Project: @whitehatd/crag
 
 Make every AI agent obey your codebase. One governance.md → compiled to CI, hooks, and every agent. No drift.
 
-**Stack:** node
+## Quality Gates
 
-## Runtimes
+All changes must pass these checks before commit:
 
-node
-
-## Cascade Behavior
-
-When Windsurf's Cascade agent operates on this project:
-
-- **Always read governance.md first.** It is the single source of truth for quality gates and policies.
-- **Run all mandatory gates before proposing changes.** Stop on first failure.
-- **Respect classifications.** OPTIONAL gates warn but don't block. ADVISORY gates are informational.
-- **Respect path scopes.** Gates with a `path:` annotation must run from that directory.
-- **No destructive commands.** Never run rm -rf, dd, DROP TABLE, force-push to main, curl|bash, docker system prune.
-- - No hardcoded secrets — grep for sk_live, AKIA, password= before commit
-- **Conventional commits.** Every commit must follow `<type>(<scope>): <description>`.
-- **Commit trailer:** Co-Authored-By: Claude <noreply@anthropic.com>
-
-## Quality Gates (run in order)
-
+### Test
 1. `node test/all.js`
-2. `node --check bin/crag.js`
-3. `node bin/crag.js help > /dev/null`
-4. `node bin/crag.js version`
-5. `node bin/crag.js analyze --dry-run > /dev/null`
-6. `node bin/crag.js upgrade --check > /dev/null`
-7. `node bin/crag.js workspace --json > /dev/null`
-8. `node bin/crag.js analyze > /dev/null`
 
-## Rules of Engagement
+### Build
+1. `node --check bin/crag.js`
+2. `node --check bin/crag-mcp.js`
 
-1. **Minimal changes.** Don't rewrite files that weren't asked to change.
-2. **No new dependencies** without explicit approval.
-3. **Prefer editing** existing files over creating new ones.
-4. **Always explain** non-obvious changes in commit messages.
-5. **Ask before** destructive operations (delete, rename, migrate schema).
+### Ci (inferred from workflow)
+1. `node bin/crag.js help > /dev/null`
+2. `node bin/crag.js version`
+3. `node bin/crag.js analyze --dry-run > /dev/null`
+4. `node bin/crag.js upgrade --check > /dev/null`
+5. `node bin/crag.js workspace --json > /dev/null`
 
----
+## Coding Standards
 
-**Tool:** crag — https://crag.sh
+- Stack: node
+- Conventional commits (feat:, fix:, docs:, etc.)
+- Commit trailer: Co-Authored-By: Claude <noreply@anthropic.com>
+
+## Architecture
+
+- Type: cli
+- Entry: bin/crag.js, bin/crag-mcp.js
+
+## Key Directories
+
+- `.circleci/` — CI/CD
+- `.github/` — CI/CD
+- `assets/` — static assets
+- `bin/` — executables
+- `docs/` — documentation
+- `scripts/` — tooling
+- `src/` — source
+- `test/` — tests
+
+## Code Style
+
+- Indent: 2 spaces
+
+## Anti-Patterns
+
+Do not:
+- Do not write absolute local paths in governance (e.g. `D:/project/src/`) — use relative paths only (e.g. `src/`). Governance files are checked into the repo and must remain portable across machines.
+- Do not leave `console.log` in production code — use a proper logger
+- Do not use synchronous filesystem APIs in request handlers
+
+## Security
+
+- No hardcoded secrets — grep for sk_live, AKIA, password= before commit
+
+## Workflow
+
+1. Read `AGENTS.md` at the start of every session — it is the single source of truth.
+2. Run all mandatory quality gates before committing.
+3. If a gate fails, fix the issue and re-run only the failed gate.
+4. Use the project commit conventions for all changes.
+
+<!-- crag:auto-end -->
 
 ---
 > Source: [WhitehatD/crag](https://github.com/WhitehatD/crag) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-04 -->
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
