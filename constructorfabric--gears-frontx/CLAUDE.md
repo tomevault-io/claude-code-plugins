@@ -1,19 +1,19 @@
-# frontx
+# global
 
-> Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
+> Always use the ./.ai/GUIDELINES.md
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontx/SKILL.md
+Read and follow the instructions in .claude/skills/global/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Use `.ai/GUIDELINES.md` as the single source of truth for HAI3 development guidelines.
+Always use the ./.ai/GUIDELINES.md
 
 ---
 > Source: [constructorfabric/gears-frontx](https://github.com/constructorfabric/gears-frontx) — distributed by [TomeVault](https://tomevault.io).
