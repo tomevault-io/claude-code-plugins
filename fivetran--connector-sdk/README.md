@@ -1,16 +1,15 @@
 # connector_sdk
 
-> Source: [fivetran/connector_sdk](https://github.com/fivetran/connector_sdk). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [fivetran/connector_sdk](https://github.com/fivetran/connector_sdk). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `` in [fivetran/connector_sdk](https://github.com/fivetran/connector_sdk).
+Original source: `AGENTS.md` in [fivetran/connector_sdk](https://github.com/fivetran/connector_sdk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
