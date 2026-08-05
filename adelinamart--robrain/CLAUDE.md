@@ -1,6 +1,6 @@
 # robrain
 
-> RoBrain MCP — session lifecycle and context tools
+> This project uses RoBrain Sensing MCP for passive session capture.
 
 ## Usage
 
@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/robrain/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 <!-- robrain -->
 ## RoBrain — Context Management (OSS self-hosted)
 
@@ -22,7 +21,7 @@ Call Sensing tools exactly as instructed to maintain session memory.
 
 ### Session start (mandatory, first thing in every new chat)
 ```
-sensing_start_session(project_id="5a8ff3c609de", working_dir="<cwd>")
+sensing_start_session(project_id="5a8ff3c609de")
 ```
 Use the session_id from the tool response (or pass your own unique id per chat). Initialize sequence=1 before your first reply.
 
@@ -30,6 +29,7 @@ Use the session_id from the tool response (or pass your own unique id per chat).
 ```
 sensing_record_turn(session_id="<stored session_id>", sequence=<n>, user_message="<full user message>", claude_reply="<full assistant reply>", files_touched=[...], injected_memory_ids=[])
 ```
+The `claude_reply` parameter is the MCP field name for your full assistant reply (any editor).
 Increment sequence by 1 after each successful call.
 
 If topic_shift=true is returned, note it for follow-up context retrieval.
@@ -42,4 +42,4 @@ sensing_end_session(session_id="<stored session_id>", summary="one sentence: wha
 
 ---
 > Source: [adelinamart/robrain](https://github.com/adelinamart/robrain) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-11 -->
+<!-- tomevault:4.0:claude_md:2026-07-25 -->
