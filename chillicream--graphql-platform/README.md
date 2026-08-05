@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [ChilliCream/graphql-platform](https://github.co
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [ChilliCream/graphql-platform](https://github.com/ChilliCream/graphql-platform) — a repo with 5729+ stars on GitHub.
+From [ChilliCream/graphql-platform](https://github.com/ChilliCream/graphql-platform) — a repo with 5731+ stars on GitHub.
 
 ---
 
