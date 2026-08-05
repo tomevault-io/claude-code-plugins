@@ -1,8 +1,6 @@
 # aisix
 
-> Tome by [api7](https://github.com/api7/aisix) — distributed by [TomeVault](https://tomevault.io)
-
-An open source, Native AI Gateway and LLM proxy built in Rust
+> Tome by [api7](https://github.com/api7/aisix), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
