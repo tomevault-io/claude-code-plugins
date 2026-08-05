@@ -1,0 +1,28 @@
+# spur
+
+> Tome by [ROCm](https://github.com/ROCm/spur), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [ROCm/spur](https://github.com/ROCm/spur).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/ROCm/spur](https://github.com/ROCm/spur)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install ROCm/spur
+```
+Source: [github.com/ROCm/spur](https://github.com/ROCm/spur).
+
+<!-- genome:t-i-p -->
