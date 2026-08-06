@@ -1,6 +1,6 @@
 # MentraOS
 
-> Source: [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
