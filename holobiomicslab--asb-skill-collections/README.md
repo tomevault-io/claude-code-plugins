@@ -7,12 +7,12 @@ Curated, evidence-grounded skill and software-tool collections for scientific AI
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections).
+Original source: `AGENTS.md` in [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
