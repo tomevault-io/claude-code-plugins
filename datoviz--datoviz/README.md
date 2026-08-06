@@ -1,6 +1,6 @@
 # datoviz
 
-> Source: [datoviz/datoviz](https://github.com/datoviz/datoviz). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [datoviz/datoviz](https://github.com/datoviz/datoviz). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [datoviz/datoviz](https://github.com/datoviz/dat
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [datoviz/datoviz](https://github.com/datoviz/datoviz) — a repo with 793+ stars on GitHub.
+From [datoviz/datoviz](https://github.com/datoviz/datoviz) — a repo with 799+ stars on GitHub.
 
 ---
 
