@@ -1,0 +1,26 @@
+# qr-crypt
+
+> Tome by [transparent-pegasus](https://github.com/transparent-pegasus/qr-crypt), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+exchange keys in person, encrypt text fully offline.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [transparent-pegasus/qr-crypt](https://github.com/transparent-pegasus/qr-crypt).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/transparent-pegasus/qr-crypt](https://github.com/transparent-pegasus/qr-crypt)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:t-c-p -->
