@@ -1,8 +1,6 @@
 # robocode
 
-> Tome by [wikieden](https://github.com/wikieden/robocode) — distributed by [TomeVault](https://tomevault.io)
-
-Rust-first reimplementation of a local agent CLI inspired by Claude Code.
+> Tome by [wikieden](https://github.com/wikieden/robocode), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [wikieden/robocode](https://github.com/wikieden/
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [wikieden/robocode](https://github.com/wikieden/robocode) — a repo with 102+ stars on GitHub.
+From [wikieden/robocode](https://github.com/wikieden/robocode) — a repo with 99+ stars on GitHub.
 
 ---
 
