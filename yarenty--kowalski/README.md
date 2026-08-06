@@ -1,6 +1,6 @@
 # kowalski
 
-> Tome by [yarenty](https://github.com/yarenty/kowalski) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [yarenty](https://github.com/yarenty/kowalski), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [yarenty/kowalski](https://github.com/yarenty/ko
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [yarenty/kowalski](https://github.com/yarenty/kowalski) — a repo with 62+ stars on GitHub.
+From [yarenty/kowalski](https://github.com/yarenty/kowalski) — a repo with 63+ stars on GitHub.
 
 ---
 
