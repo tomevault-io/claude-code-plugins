@@ -7,13 +7,13 @@ Frontend Expert — chat-first agent skills for shipping product web UI (tokens,
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [sukirman1901/frontend-expert](https://github.com/sukirman1901/frontend-expert).
+Original source: `AGENTS.md` in [sukirman1901/frontend-expert](https://github.com/sukirman1901/frontend-expert).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
