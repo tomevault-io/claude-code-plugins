@@ -1,6 +1,6 @@
 # osbuild-composer
 
-> Source: [osbuild/osbuild-composer](https://github.com/osbuild/osbuild-composer). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [osbuild/osbuild-composer](https://github.com/osbuild/osbuild-composer). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
