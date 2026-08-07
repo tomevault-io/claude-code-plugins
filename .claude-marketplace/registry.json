@@ -16174,6 +16174,11 @@
       "description": "apps-android-wikipedia"
     },
     {
+      "name": "forward-future--loopy",
+      "source": "./forward-future--loopy",
+      "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows."
+    },
+    {
       "name": "holaboss-ai--holaos",
       "source": "./holaboss-ai--holaos",
       "description": "The agent environment for long-horizon work, continuity, and self-evolution."
@@ -38989,6 +38994,11 @@
       "description": "dbt-osmosis"
     },
     {
+      "name": "solo-agent--solo",
+      "source": "./solo-agent--solo",
+      "description": "For human and AI agents to collaborate through channels, tasks, and persistent workspaces."
+    },
+    {
       "name": "simonw--research",
       "source": "./simonw--research",
       "description": "Research projects"
@@ -61764,6 +61774,11 @@
       "description": "reachy_mini_conversation_app"
     },
     {
+      "name": "coollabsio--shoutrrr",
+      "source": "./coollabsio--shoutrrr",
+      "description": "An open-source alternative to Buffer, Typefully, and Hootsuite. Write once and schedule everywhere."
+    },
+    {
       "name": "redai-infra--relax",
       "source": "./redai-infra--relax",
       "description": "An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale"
@@ -80349,6 +80364,11 @@
       "description": "bitdance-agenthub"
     },
     {
+      "name": "devcxl--mattpocock-skills-zh",
+      "source": "./devcxl--mattpocock-skills-zh",
+      "description": "Matt Pocock \u6280\u80fd\u96c6\u7684\u4e2d\u6587\u7ffb\u8bd1\u7248 \u2014 \u5730\u9053\u4e2d\u6587\uff0c\u539f\u6c41\u539f\u5473\u7684\u6280\u672f\u672f\u8bed\u3002\u57fa\u4e8e mattpocock/skills \u590d\u523b\u3002\u6bcf\u65e5\u4e2d\u534812\u70b9\u949f\u540c\u6b65"
+    },
+    {
       "name": "jduncan-rva--skill-porter",
       "source": "./jduncan-rva--skill-porter",
       "description": "Universal tool to convert Claude Code skills to Gemini CLI extensions and vice versa"
@@ -82657,6 +82677,11 @@
       "name": "rocketchat--fuselage",
       "source": "./rocketchat--fuselage",
       "description": "fuselage"
+    },
+    {
+      "name": "zqq-699--blockhelm-launcher",
+      "source": "./zqq-699--blockhelm-launcher",
+      "description": "\u7b80\u6d01\u73b0\u4ee3\u7684 Minecraft Java \u7248\u542f\u52a8\u5668\uff0c\u652f\u6301\u5b9e\u4f8b\u3001\u8d44\u6e90\u4e0e\u8d26\u6237\u7ba1\u7406\u3002"
     },
     {
       "name": "cnighswonger--claude-code-cache-fix",
@@ -115624,6 +115649,11 @@
       "description": "chef-splunk"
     },
     {
+      "name": "rolecraft-sh--rolecraft",
+      "source": "./rolecraft-sh--rolecraft",
+      "description": "The package manager for AI agents \u2014 install, test, publish, and manage skills & MCP servers across 86+ agents. Zero-dependency CLI."
+    },
+    {
       "name": "jayparikh--agentviz",
       "source": "./jayparikh--agentviz",
       "description": "agentviz"
@@ -131359,6 +131389,11 @@
       "description": "Local-first, multi-provider coding desktop with Codex-style Steering, task controls, inline artifacts, PR review, tools, skills, MCP, and research."
     },
     {
+      "name": "851-labs--tokenmaxxing",
+      "source": "./851-labs--tokenmaxxing",
+      "description": "A local CLI, built on ccusage, that syncs your token usage with everyone else."
+    },
+    {
       "name": "bioliminal--bioliminal-mobile-application",
       "source": "./bioliminal--bioliminal-mobile-application",
       "description": "Bioliminal mobile application (Flutter)"
@@ -134457,6 +134492,11 @@
       "name": "aprilarius--aprireader",
       "source": "./aprilarius--aprireader",
       "description": "Privacy-first desktop reader and personal library for Windows"
+    },
+    {
+      "name": "oomol-lab--wanta",
+      "source": "./oomol-lab--wanta",
+      "description": "An open-source desktop AI agent foundation powered by OpenCode and connected through OpenConnector, with local tools, permission controls, and artifacts."
     },
     {
       "name": "eduardo-sl--go-agent-skills",
@@ -144519,6 +144559,11 @@
       "description": "Zero-dependency TypeScript framework for production AI agents: durable execution, long-term memory, hybrid RAG, MCP tool calling, human-in-the-loop approval, planning and CodeAct sandboxes. One stream"
     },
     {
+      "name": "andrewctf--velocity",
+      "source": "./andrewctf--velocity",
+      "description": "Self-hosted OSINT situation console: live aircraft, ships, satellites, quakes and conflict events fused on one 3D globe, with position history you own and replay for as long as you keep it. No API key"
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -150822,6 +150867,11 @@
       "name": "a672780966---harness-os",
       "source": "./a672780966---harness-os",
       "description": "Local semantic copilot and governed agent engineering runtime for AI-assisted software delivery."
+    },
+    {
+      "name": "saberzero1--motions",
+      "source": "./saberzero1--motions",
+      "description": "Enhances Obsidian's built-in Vim mode with Markdown-aware text objects, structural navigation, workspace keyboard control, and a polished Neovim-native experience."
     },
     {
       "name": "izittmarvin--memcoach",
@@ -252077,6 +252127,16 @@
       "name": "zime-ai--zime-gtm-skills",
       "source": "./zime-ai--zime-gtm-skills",
       "description": "Build your own sales-call review tooling: Agent Skills that audit call transcripts and CRM exports against GTM rubrics."
+    },
+    {
+      "name": "shirohata--vc-rs",
+      "source": "./shirohata--vc-rs",
+      "description": "Real-time RVC voice changer in Rust: standalone GUI, CLI, and VST3 plugin running ONNX models on Windows ML or TensorRT"
+    },
+    {
+      "name": "likeagfeld--saturnmania",
+      "source": "./likeagfeld--saturnmania",
+      "description": "SaturnMania"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
