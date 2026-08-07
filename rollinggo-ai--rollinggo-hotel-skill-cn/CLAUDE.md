@@ -1,0 +1,24 @@
+# rollinggo-hotel-skill-cn
+
+> When assisting users with the RollingGo Hotel ecosystem:
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/rollinggo-hotel-skill-cn/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+When assisting users with the RollingGo Hotel ecosystem:
+
+- Always use the `rgh` command prefix for CLI interactions.
+- Ensure that the OAuth PKCE flow (`rgh login`) is recognized as the authentication method.
+- When generating scripts or sequences, always ensure `rgh price-confirm` is called BEFORE `rgh book` to obtain the `referenceNo`.
+- Consult the `skills/rollinggo-hotel-booking/references/cli-params.md` file for exact parameter names. Do not hallucinate flags like `--phone` which have been deprecated.
+
+---
+> Source: [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-06 -->
