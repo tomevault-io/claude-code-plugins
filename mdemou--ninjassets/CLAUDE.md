@@ -1,19 +1,19 @@
-# api-documentation
+# backend-layering
 
-> Backend API documentation conventions with hapi-swagger and createResponseDoc
+> Backend architecture conventions for controllers, domains, and repositories
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/api-documentation/SKILL.md
+Read and follow the instructions in .claude/skills/backend-layering/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-**Read `backend/docs/api-documentation.md` before doing anything — it contains all patterns, conventions, and examples for this rule.**
+**Read `backend/docs/backend-layering.md` before doing anything — it contains all patterns, conventions, and examples for this rule.**
 
 ---
 > Source: [mdemou/ninjassets](https://github.com/mdemou/ninjassets) — distributed by [TomeVault](https://tomevault.io).
