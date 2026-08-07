@@ -1,19 +1,21 @@
-# global
+# gears-frontx
 
-> Always use the ./.ai/GUIDELINES.md
+> ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/global/SKILL.md
+Read and follow the instructions in .claude/skills/gears-frontx/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Cypilot
 
-Always use the ./.ai/GUIDELINES.md
+
+ALWAYS open and follow `{cypilot_path}/.core/skills/cypilot/SKILL.md`
 
 ---
 > Source: [constructorfabric/gears-frontx](https://github.com/constructorfabric/gears-frontx) — distributed by [TomeVault](https://tomevault.io).
