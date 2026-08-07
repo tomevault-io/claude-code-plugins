@@ -7,13 +7,13 @@ Unofficial George Hotz–inspired radical-simplicity coding guidelines for AI ag
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [frankekn/george-hotz-skills](https://github.com/frankekn/george-hotz-skills).
+Original source: `AGENTS.md` in [frankekn/george-hotz-skills](https://github.com/frankekn/george-hotz-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
