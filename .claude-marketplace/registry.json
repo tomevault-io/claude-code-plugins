@@ -281214,6 +281214,11 @@
       "description": "Paragon Enterprise deployment assets"
     },
     {
+      "name": "syrinoxsis--irondeploy",
+      "source": "./syrinoxsis--irondeploy",
+      "description": "Deploy Windows 10 and 11 from WinPE: images, drivers, offline domain join, and post-install software, driven by a local API."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -299082,6 +299087,26 @@
       "name": "dmccreary--learning-graphs",
       "source": "./dmccreary--learning-graphs",
       "description": "A microsite for creating concept dependency graph networks for education."
+    },
+    {
+      "name": "aurorascharff--gitville",
+      "source": "./aurorascharff--gitville",
+      "description": "An interactive pixel village showing the live work on any GitHub repo, built with Next.js 16 and SWR."
+    },
+    {
+      "name": "iamaamir--pi-bifrost",
+      "source": "./iamaamir--pi-bifrost",
+      "description": "Automatically route each Pi prompt to a model based on task complexity, price, speed, or context length. Smart model router for pi."
+    },
+    {
+      "name": "jag-k--clipboard-transformer",
+      "source": "./jag-k--clipboard-transformer",
+      "description": "A native desktop app that quietly cleans copied text and links using rules you control"
+    },
+    {
+      "name": "thefrontside--staticalize",
+      "source": "./thefrontside--staticalize",
+      "description": "The framework agnostic static site generator"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -407317,6 +407342,16 @@
       "name": "kiseno256--jomon",
       "source": "./kiseno256--jomon",
       "description": "jomon"
+    },
+    {
+      "name": "aryan00302--nextttt",
+      "source": "./aryan00302--nextttt",
+      "description": "nextttt"
+    },
+    {
+      "name": "tinabanthia--tre-giorni",
+      "source": "./tinabanthia--tre-giorni",
+      "description": "tre-giorni"
     }
   ]
 }
