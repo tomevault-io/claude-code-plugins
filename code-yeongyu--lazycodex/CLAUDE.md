@@ -1,6 +1,6 @@
 # lazycodex
 
-> Conventions for human contributors and AI agents working on this repository.
+> **Generated:** 2026-07-03
 
 ## Usage
 
@@ -12,58 +12,52 @@ Read and follow the instructions in .claude/skills/lazycodex/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repository Conventions
+# lazycodex-executor-verify
 
-Conventions for human contributors and AI agents working on this repository.
+**Generated:** 2026-07-03
 
-## Stack
+## OVERVIEW
 
-- Node >=20 runtime.
-- npm package manager.
-- TypeScript 6 strict mode.
-- Biome 2 linting and formatting.
-- Vitest 4 test runner.
+Codex `SubagentStop` hook component: the evidence gate for the ultrawork implementation workers (`lazycodex-worker-low|medium|high`). When a worker stops without a valid evidence receipt, the hook emits `{"decision": "block", "reason": <directive>}` and Codex sends it back to work. Matcher is `^lazycodex-worker-(low|medium|high)$`; read-only roles like `lazycodex-qa-executor` and `lazycodex-gate-reviewer` (same `ultrawork/agents/` family) are NOT gated by this hook. (The historical `lazycodex-executor` agent was removed; this component keeps its name.)
 
-## Forbidden
+Valid receipt: `last_assistant_message` contains `EVIDENCE_RECORDED: <path>` where `<path>` resolves to a non-empty regular file strictly inside `<cwd>/.omo/evidence/`. Symlinks and directories rejected; containment checked on realpaths (file inside evidence root inside cwd, traversal-safe). A valid receipt clears attempt state and exits silently.
 
-- No `as any` or `as unknown`.
-- No `@ts-ignore` or `@ts-expect-error`.
-- No enums.
-- No non-null assertions.
-- No default exports. `vitest.config.ts` is exempt because the framework requires that shape.
+Escape hatches: after 3 blocked attempts (`MAX_ATTEMPTS`) the stop passes and state clears; a transcript containing a context-pressure marker ("context compacted", "context_length_exceeded", ...) passes immediately. Malformed stdin, unknown events, unrelated agents: silent exit 0 (fail-open).
 
-## File Ceiling
+## KEY FILES
 
-- Keep each `src/` TypeScript file under 250 pure LOC.
-- Split by responsibility before a file reaches the ceiling.
+| File | Role |
+|------|------|
+| `src/codex-hook.ts` | Core `runSubagentStopHook()`: input guard, receipt validation, attempt escalation, block decision |
+| `src/state.ts` | Attempt counter at `<cwd>/.omo/lazycodex-executor-verify/<session>-<agent>.json`; atomic tmp+rename write; `MAX_ATTEMPTS = 3` |
+| `src/directive.ts` | Loads `directive.md` at import time; `renderDirective()` fills `{{ATTEMPT_COUNT}}` + `{{LAST_ASSISTANT_MESSAGE}}` |
+| `directive.md` | Korean block message ("your completion claim is not trusted until evidence is recorded"); RUNTIME-READ via `../directive.md` relative to `dist/` |
+| `src/cli.ts` | Node bin `lazycodex-executor-verify hook subagent-stop`: stdin JSON in, block JSON (or nothing) on stdout |
+| `src/types.ts` | `SubagentStopInput` field guard, `StopHookOutput` (block-only shape), injectable `HookFileSystem` |
+| `hooks/hooks.json` | Component-local wiring (Unix `node .../dist/cli.js` command only) |
+| `test/codex-hook.test.ts`, `test/cli.test.ts` | Vitest given/when/then: symlink/traversal/zero-byte receipts, attempt escalation and cap, context pressure, malformed stdin |
 
-## Test Discipline
+## WHERE TO LOOK
 
-- Use Vitest with nested `describe` names in `#given`, `#when`, and `#then` form, or inline `// given`, `// when`, and `// then` comments.
-- Never use Arrange-Act-Assert comments.
-- Keep fixtures in `test/fixtures/`.
+| Task | Location |
+|------|----------|
+| Change the block message | `directive.md`; keep both `{{...}}` placeholders and the literal `EVIDENCE_RECORDED: <path>` final-line contract |
+| Change receipt validation | `src/codex-hook.ts` (`hasValidEvidenceReceipt`, `extractEvidencePath`, `isNonEmptyFileInsideEvidenceRoot`) |
+| Change the retry budget | `src/state.ts` `MAX_ATTEMPTS` |
+| Worker-side contract | `../ultrawork/agents/lazycodex-worker-{low,medium,high}.toml` instruct the final `EVIDENCE_RECORDED: <path>` line this hook parses |
+| Plugin-level wiring | `../../hooks/subagent-stop-verifying-lazycodex-executor-evidence.json` (adds `commandWindows` via `../bootstrap/scripts/node-dispatch.ps1`) |
+| Wiring + contract tests | `../../test/aggregate-hooks.test.mjs`, `../../test/component-hook-contract-cases.mjs`, `../../test/hook-status-message.test.mjs`, `../../test/component-bundled-cli.test.mjs` |
 
-## Layout
+## NOTES
 
-- `src/boulder-reader.ts`: reads `.omo/boulder.json`, resolves the active work for the session, re-exports `getPlanChecklist`/`PlanChecklist` from `plan-checklist.ts`. `readContinuationState` returns null only when the plan has no readable top-level checklist (`total === 0`).
-- `src/plan-checklist.ts`: `PlanChecklist` (`completed`/`remaining`/`total`/`nextTaskLabel`) and `getPlanChecklist`/`parsePlanChecklist`. Counts structured `## TODOs` rows (`N. <title>`) and `## Final Verification Wave` rows (`F<number>. <title>`); falls back to simple top-level `- [ ]`/`- [x]` checkboxes. Skips fenced blocks and respects `#`/`##` section boundaries.
-- `src/codex-hook.ts`: Stop/SubagentStop hook; fills `REMAINING_COUNT`/`TOTAL_COUNT`/`NEXT_TASK_LABEL` from the checklist into `directive.md`.
-- `directive.md`: directive template with placeholders, applied per invocation.
-
-## Build and Hooks
-
-- Build output goes to `dist/`.
-- `hooks/hooks.json` registers Codex `Stop` and `SubagentStop` hooks.
-- Hook commands run `node ${PLUGIN_ROOT}/components/start-work-continuation/dist/cli.js hook stop` and `node ${PLUGIN_ROOT}/components/start-work-continuation/dist/cli.js hook subagent-stop`.
-
-## Constraints
-
-- Never let the hook block a Codex turn because of malformed input.
-- Never make a network call from the hook.
-- Keep the directive in `directive.md`. Do not inline it into TypeScript files.
-- The hook only continues sessions listed in `.omo/boulder.json` as `codex:<session_id>`.
-- The hook continues while the plan has a readable top-level checklist (`total > 0`). A fully-checked plan still blocks Stop until the final gate runs and the Boulder work is marked completed; an unreadable or empty checklist yields no output.
+- Node >=20, npm + vitest + biome, TypeScript 6 strict. No Bun APIs: Codex launches hooks with Node. `npm test` builds first, then runs vitest.
+- `hooks/hooks.json` (component) and `../../hooks/subagent-stop-verifying-lazycodex-executor-evidence.json` (aggregate) are hand-maintained twins. Edit both or aggregate tests fail. Only the aggregate copy carries the Windows dispatch.
+- `dist/` is gitignored, but root `package.json` `files` ships `.../lazycodex-executor-verify/dist/cli.js` and the hook command targets `dist/cli.js`. Nothing works from a fresh clone until a build runs.
+- `directive.md` is read at runtime, not bundled: `dist/directive.js` resolves `../directive.md`, so the file must stay at component root (it is in `package.json` `files`).
+- `stop_hook_active: true` does NOT bypass the check; the directive says so explicitly. Only the attempt cap and context-pressure markers let a receipt-less stop through.
+- Blocking output is the stable Codex stop-hook contract: `decision: "block"` + `reason`, nothing else. A passing stop is empty stdout, exit 0. The only nonzero exit is a CLI usage error.
+- The receipt regex takes the first `EVIDENCE_RECORDED:` match and a single `\S+` token: no spaces in evidence paths.
 
 ---
 > Source: [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-21 -->
+<!-- tomevault:4.0:claude_md:2026-07-25 -->
