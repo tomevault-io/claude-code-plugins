@@ -1,0 +1,26 @@
+# AI instruction files for tracer
+
+> Sourced from [clabby/tracer](https://github.com/clabby/tracer), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
+
+Aggregated trace viewer built on Grafana's Tempo.
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [clabby/tracer](https://github.com/clabby/tracer).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [clabby/tracer](https://github.com/clabby/tracer) — a repo with 10+ stars on GitHub.
+
+---
+
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
+
+<!-- genome:a-e-s -->
