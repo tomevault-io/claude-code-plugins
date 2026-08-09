@@ -190339,6 +190339,11 @@
       "description": "H Computer Use Agents examples"
     },
     {
+      "name": "sporevm--sporevm",
+      "source": "./sporevm--sporevm",
+      "description": "Forkable aarch64 Linux microVMs with fast capture, resume, and local fan-out"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -194347,6 +194352,11 @@
       "name": "appllama--top-welcome-screens",
       "source": "./appllama--top-welcome-screens",
       "description": "How top iOS apps say hello | 10 animated welcome screens inspired by top-earning apps. Rebuilt in React Native + Expo."
+    },
+    {
+      "name": "charmbracelet--pi-hyper-provider",
+      "source": "./charmbracelet--pi-hyper-provider",
+      "description": "Extension for Pi that integrates Charm's Hyper inference provider"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -210999,6 +211009,16 @@
       "description": "\u300a\u6d1b\u514b\u738b\u56fd\uff1a\u4e16\u754c\u300b\u98ce\u683c\u7684 React \u7ec4\u4ef6\u5e93\u3002RocoKingdom: World-style React UI component library."
     },
     {
+      "name": "tristanwqy--goofish-aimonitor",
+      "source": "./tristanwqy--goofish-aimonitor",
+      "description": "\ud83d\udc1f \u95f2\u9c7c/Goofish \u667a\u80fd\u76d1\u63a7\u63a7\u5236\u53f0\uff1aAI \u5927\u6a21\u578b\u9009\u54c1 + \u6536\u85cf\u964d\u4ef7\u00b7\u552e\u7f44\u5373\u65f6\u63d0\u9192\uff0c\u5168\u672c\u5730\u8fd0\u884c\u4e0d\u5916\u4f20\u3002Xianyu second-hand deal monitor \u2014 LLM-filtered picks, price-drop & sold-out alerts, dead-link detection. Playwright \u00b7 FastAPI \u00b7 React \u00b7 Docker."
+    },
+    {
+      "name": "arman-jalili--rigorix-oss",
+      "source": "./arman-jalili--rigorix-oss",
+      "description": "A deterministic coding-agent runtime for repeatable, auditable AI software engineering."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -214772,6 +214792,11 @@
       "name": "chenshuo--txt2png",
       "source": "./chenshuo--txt2png",
       "description": "Knuth-Plass line-breaking in Python and C++"
+    },
+    {
+      "name": "xieqiyong--agentscope-coding-agent",
+      "source": "./xieqiyong--agentscope-coding-agent",
+      "description": "\u57fa\u4e8eagentscope \u5f00\u6e90\u7684\u591a\u667a\u80fd\u4f53coding agent"
     },
     {
       "name": "vm--nila-code",
@@ -218647,6 +218672,21 @@
       "name": "iamkanguk97--mikro-orm-markdown",
       "source": "./iamkanguk97--mikro-orm-markdown",
       "description": "Generate Mermaid ERD diagrams and Markdown schema docs from MikroORM entities without a live database connection."
+    },
+    {
+      "name": "sjh9714--mergewarden",
+      "source": "./sjh9714--mergewarden",
+      "description": "Tells you when a pull request quietly edits the files that instruct your coding agents: AGENTS.md, CLAUDE.md, .mcp.json, .cursor. A GitHub Action, one option to install. It never closes anything."
+    },
+    {
+      "name": "ningzimu--awesome-skills",
+      "source": "./ningzimu--awesome-skills",
+      "description": "Curated collection of useful AI agent skills"
+    },
+    {
+      "name": "go1c--lumioagent",
+      "source": "./go1c--lumioagent",
+      "description": "LumioAgent"
     },
     {
       "name": "hyaway--hyaway",
@@ -223397,6 +223437,11 @@
       "name": "personaljarvis--personaljarvis",
       "source": "./personaljarvis--personaljarvis",
       "description": "Self-hosted voice assistant. Speak to your computer: it answers aloud, types your dictation, and operates your apps."
+    },
+    {
+      "name": "ekagraagarwal--banyancode",
+      "source": "./ekagraagarwal--banyancode",
+      "description": "BanyanCode"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -228882,6 +228927,21 @@
       "name": "blxzer77--cursor-trellis",
       "source": "./blxzer77--cursor-trellis",
       "description": "cursor-trellis"
+    },
+    {
+      "name": "yanxuan-lc--excalivibe",
+      "source": "./yanxuan-lc--excalivibe",
+      "description": "ExcaliVibe is a Vibe Working capability suite. The idea grows out of Vibe Coding, but it isn't limited to coding \u2014 it targets a broader range of business scenarios, turning the Agent into a more capab"
+    },
+    {
+      "name": "agentagc--sadegh-media",
+      "source": "./agentagc--sadegh-media",
+      "description": "A Professional and Creative content creation team"
+    },
+    {
+      "name": "styly-dev--styly-mdm",
+      "source": "./styly-dev--styly-mdm",
+      "description": "STYLY-MDM"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -234967,6 +235027,16 @@
       "name": "harineko0--modality-ts",
       "source": "./harineko0--modality-ts",
       "description": "Model-checking-based testing tool for frontend state-transition"
+    },
+    {
+      "name": "xiongqvq---b2b-lead-hunter-skill",
+      "source": "./xiongqvq---b2b-lead-hunter-skill",
+      "description": "AI Agent Skill for B2B lead research, decision-maker discovery, customs checks, outreach drafting & controlled sending. Works with Claude Code, Cursor, Cline & Hermes.\u5916\u8d38\u5ba2\u6237\u6316\u6398 AI \u6280\u80fd\u5305\uff1a\u627e\u6d77\u5916\u4e70\u5bb6\u3001\u6316\u51b3\u7b56\u4eba\u3001\u67e5\u6d77\u5173\u4fe1\u53f7\u3001\u5199\u5f00"
+    },
+    {
+      "name": "chuckwu0--larkway",
+      "source": "./chuckwu0--larkway",
+      "description": "Turn your Claude Code / Codex subscription into a Feishu agent your whole team can @"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -242312,6 +242382,21 @@
       "name": "ningk1ng--ephysguard",
       "source": "./ningk1ng--ephysguard",
       "description": "Pi-Based Coding Agent Harness Safety Framework for In Vivo Electrophysiology Analysis"
+    },
+    {
+      "name": "blackblue-labs--kaji",
+      "source": "./blackblue-labs--kaji",
+      "description": "The personal status and control layer for an AI-native Mac."
+    },
+    {
+      "name": "ellierocks--lsw1-decomp",
+      "source": "./ellierocks--lsw1-decomp",
+      "description": "A work-in-progress decompilation of LEGO Star Wars: The Video Game for the Nintendo GameCube."
+    },
+    {
+      "name": "agno-agi--context",
+      "source": "./agno-agi--context",
+      "description": "A self-hosted context manager. @context organizes your work into a private CRM and knowledge base and helps you stay on top of things."
     },
     {
       "name": "makenowjust--naraku",
@@ -252807,6 +252892,41 @@
       "name": "peva3--lightroom-presets",
       "source": "./peva3--lightroom-presets",
       "description": "Free Lightroom film simulation presets \u2014 Kodak Portra, Fujifilm Classic Chrome, Cinestill 800T, Ilford HP5, and more vintage & trending photo looks"
+    },
+    {
+      "name": "ruddercode--rudder",
+      "source": "./ruddercode--rudder",
+      "description": "Prompt based testing and coverage for high-velocity agentic coding. See how much your prompts are reflected in your agent's code using test coverage"
+    },
+    {
+      "name": "0thernes--cosmogonic-quantum-mechalogodrom",
+      "source": "./0thernes--cosmogonic-quantum-mechalogodrom",
+      "description": "Deterministic non-LLM A-Life cosmos on Tsotchke math. v0.23.0 adds race-safe Big Tree fruit/leaf food, a neutral social sanctuary, bounded ecology visits, and removes Xenomimic tether remnants. WebGL2"
+    },
+    {
+      "name": "anatase-org--anatase",
+      "source": "./anatase-org--anatase",
+      "description": "A modern immutable distribution for development and play"
+    },
+    {
+      "name": "laohuad--laohu-ai-visual",
+      "source": "./laohuad--laohu-ai-visual",
+      "description": "$0.047/s or \u00a50.3/s seedance2 low price"
+    },
+    {
+      "name": "vibecodeguild--auto-caption-generator",
+      "source": "./vibecodeguild--auto-caption-generator",
+      "description": "Auto-Caption-Generator"
+    },
+    {
+      "name": "postmark-town--postmark",
+      "source": "./postmark-town--postmark",
+      "description": "A town for agents, built by agents."
+    },
+    {
+      "name": "dunky-dev--state-machine",
+      "source": "./dunky-dev--state-machine",
+      "description": "\ud83e\udde0 The UI's brain in a state machine. Write once, run it on any JS runtime."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -300012,6 +300132,11 @@
       "name": "jenesyx--openreply-fa",
       "source": "./jenesyx--openreply-fa",
       "description": "open sourced Manychat(Novinhub): comment-dm automation + account analytics. the link below will not allow you to oauth; you must self-host with your own api keys."
+    },
+    {
+      "name": "huven--exfat-resize",
+      "source": "./huven--exfat-resize",
+      "description": "Resize existing exFAT filesystem"
     },
     {
       "name": "cheerhuan--save-your-token",
