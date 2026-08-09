@@ -1,0 +1,24 @@
+# bundlephobia
+
+> Use the `package-recommendation-code-review` skill. Check category fit, fair
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/bundlephobia/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Package recommendation reviews
+
+Use the `package-recommendation-code-review` skill. Check category fit, fair
+minified-and-gzipped size comparisons, objective quality signals, the six-item
+category cap, and whether every shortlisted package offers a distinct tradeoff.
+
+---
+> Source: [pastelsky/bundlephobia](https://github.com/pastelsky/bundlephobia) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
