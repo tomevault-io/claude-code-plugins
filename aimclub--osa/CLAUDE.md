@@ -1,6 +1,6 @@
 # osa
 
-> ::: osa_tool.osa_agent.agents.repo_analysis.agent
+> ::: osa_tool.osa_agent.agents.finalizer.agent
 
 ## Usage
 
@@ -12,10 +12,10 @@ Read and follow the instructions in .claude/skills/osa/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repo Analysis Agent
+# Finalizer Agent
 
-::: osa_tool.osa_agent.agents.repo_analysis.agent
+::: osa_tool.osa_agent.agents.finalizer.agent
 
 ---
 > Source: [aimclub/OSA](https://github.com/aimclub/OSA) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
