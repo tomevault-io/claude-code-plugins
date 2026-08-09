@@ -5,7 +5,7 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.windsurf/rules/*.md` in [evelant/synchrotron](https://github.com/evelant/synchrotron).
+Original source: `` in [evelant/synchrotron](https://github.com/evelant/synchrotron).
 
 ## Also available for
 
@@ -14,6 +14,7 @@ Original source: `.windsurf/rules/*.md` in [evelant/synchrotron](https://github.
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/evelant/synchrotron](https://github.com/evelant/synchrotron)
 
