@@ -1,0 +1,32 @@
+# agent-scripts
+
+> Guidance for coding agents working in this repository.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/agent-scripts/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+Guidance for coding agents working in this repository.
+
+## Commits
+
+- Do not commit, amend, or push without explicit user approval.
+
+## Validation
+
+- Static check: run `shellcheck --severity=warning` on `scripts/mvn-lite scripts/launch-browser scripts/html-screenshot tests/*.sh maintainers/bump-version` before finishing changes to those paths. Do not fold experimental trees under `experiments/` into repo-wide validation.
+- Tests: run `./tests/test-versions.sh` for version changes; run the full `./tests/test-*.sh` suite when a `scripts/` utility or the tests themselves change.
+- Experiments under `experiments/` are self-contained: validate them with their local README/tests only.
+- Follow existing script style: `set -euo pipefail` (or `set -uo pipefail` in tests), no comments unless requested, `printf` over `echo`.
+
+---
+> Source: [ejboy/agent-scripts](https://github.com/ejboy/agent-scripts) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
