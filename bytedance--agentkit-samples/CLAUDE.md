@@ -140,4 +140,4 @@ async def run_agent(agent: Agent, prompt: str) -> str:
 
 ---
 > Source: [bytedance/agentkit-samples](https://github.com/bytedance/agentkit-samples) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
