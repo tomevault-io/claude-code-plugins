@@ -1,8 +1,6 @@
 # AI instruction files for OmicsClaw
 
-> Sourced from [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Conversational & memory-enabled AI research partner for multi-omics analysis. From biological idea to full research paper.
+> Sourced from [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
