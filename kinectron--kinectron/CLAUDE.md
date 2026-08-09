@@ -1,0 +1,87 @@
+# kinectron
+
+> 1. **Version 1.0.0 Released**: The project has completed its initial development phase
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/kinectron/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Cline Rules for Kinectron Project
+
+## Development Approach
+
+1. **Version 1.0.0 Released**: The project has completed its initial development phase
+2. **Stable API**: The client API is now stable with version 1.0.0
+3. **Complete Feature Set**: All streams are fully implemented and working
+4. **Future Improvements**:
+   - Focus on refinements and optimizations
+   - Maintain API compatibility
+   - Address technical debt systematically
+
+## Project Components
+
+1. **Application (`app/`)**: Electron-based desktop app with main/renderer processes
+2. **Client API (`client/`)**: Modern JavaScript API using PeerJS
+3. **Testing**: Peer connection and stream testing
+
+## Working Method
+
+1. **Understand Context**: Analyze architecture and data flows
+2. **Break Tasks Into Units**: Focus on one component at a time
+3. **Review Legacy Code**: Analyze existing implementations
+4. **Follow Patterns**: Apply consistent architecture
+5. **Implement Changes**: Make focused changes with clear purpose
+
+## Code Guidelines
+
+1. **Modern JavaScript**: ES6+, JSDoc for types
+2. **Modular Architecture**: Simple modules with clear responsibilities
+3. **Performance**: Optimize for real-time, mind memory usage
+4. **Error Handling**: Basic handling for common cases only
+5. **Documentation**: Document public methods and interfaces
+
+## Stream Implementation Pattern
+
+1. Server-side processor (app/main/processors/[stream]Processor.js)
+2. Server-side handler (app/main/handlers/[stream]Handler.js)
+3. Client-side API methods in kinectron-modern.js
+4. Testing in streamTest.html
+
+## Current Status
+
+All streams are fully implemented and working:
+
+- Color stream
+- Depth stream
+- Raw Depth stream
+- Body tracking
+- Key stream
+- RGBD stream
+- Depth Key stream
+
+Current focus is on documentation, refinements, and addressing technical debt.
+
+## UI and API Guidelines
+
+1. **Application Interface**: Consistent UI, clear feedback
+2. **API Design**: Intuitive methods, breaking changes acceptable
+
+## Peer Connection Guidelines
+
+1. **Connection Management**: Handle establishment/termination
+2. **Data Transmission**: Focus on functionality over optimization
+
+## Documentation Guidelines
+
+1. **Code Documentation**: Comment complex logic, use JSDoc
+2. **User Documentation**: Clear examples, configuration options
+
+---
+> Source: [kinectron/kinectron](https://github.com/kinectron/kinectron) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
