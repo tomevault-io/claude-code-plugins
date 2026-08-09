@@ -1,0 +1,28 @@
+# marqo
+
+> - Unit tests are in ./tests/unit_tests, integ tests are in ./tests/integ_tests, API tests are in ./tests/api_tests/v1/tests/api_tests
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/marqo/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+- Unit tests are in ./tests/unit_tests, integ tests are in ./tests/integ_tests, API tests are in ./tests/api_tests/v1/tests/api_tests
+- If you add new tests, make sure to run them and verify they pass.
+- To run unit and integ tests, make sure working directory is repo root and set PYTHONPATH=./src.
+- If running integ or API tests, make sure Vespa is running via docker ps. If not running, use
+python scripts/vespa_local/vespa_local.py full_start to run Vespa first.
+- To run API tests, first run Marqo API in one process by running src/marqo/tensor_search/api.py using PYTHONPATH=./src MARQO_ENABLE_BATCH_APIS=true MARQO_MODE=COMBINED. While the API is running, run API tests via pytest using PYTHONPATH=./tests/api_tests/v1/tests/api_tests . If Marqo API fails to run, stop. Terminate Marqo API when done.
+- Unit tests must follow the same package hierarchy as the code they test.
+- Add to existing test files where appropriate. Create new test files only when necessary, Follow the format of existing tests.
+- Put all imports at the top of the file when possible.
+- Don't write the actual line in the implementation you're testing in the test code comments, because this line could change.
+
+---
+> Source: [marqo-ai/marqo](https://github.com/marqo-ai/marqo) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
