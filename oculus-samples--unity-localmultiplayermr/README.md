@@ -5,11 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [oculus-samples/Unity-LocalMultiplayerMR](https://github.com/oculus-samples/Unity-LocalMultiplayerMR).
+Original source: `` in [oculus-samples/Unity-LocalMultiplayerMR](https://github.com/oculus-samples/Unity-LocalMultiplayerMR).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
