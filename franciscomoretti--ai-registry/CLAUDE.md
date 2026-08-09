@@ -1,4 +1,4 @@
-# ultracite
+# ai-registry
 
 > Ultracite Rules - AI-Ready Formatter and Linter
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ultracite/SKILL.md
+Read and follow the instructions in .claude/skills/ai-registry/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -343,4 +343,4 @@ try {
 
 ---
 > Source: [FranciscoMoretti/ai-registry](https://github.com/FranciscoMoretti/ai-registry) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-05 -->
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
