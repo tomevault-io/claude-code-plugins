@@ -1,8 +1,6 @@
 # lumis
 
-> Source: [leandrocp/lumis](https://github.com/leandrocp/lumis) — distributed by [TomeVault](https://tomevault.io)
-
-Syntax Highlighter powered by Tree-sitter and Neovim themes.
+> Source: [leandrocp/lumis](https://github.com/leandrocp/lumis). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [leandrocp/lumis](https://github.com/leandrocp/l
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [leandrocp/lumis](https://github.com/leandrocp/lumis) — a repo with 90+ stars on GitHub.
+From [leandrocp/lumis](https://github.com/leandrocp/lumis) — a repo with 221+ stars on GitHub.
 
 ---
 
