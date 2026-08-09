@@ -1,19 +1,18 @@
-# secrets
+# snackbar
 
-> put all secrets in @.staging.json and @.prod.json
+> When a snackbar is to be shown, do this
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/secrets/SKILL.md
+Read and follow the instructions in .claude/skills/snackbar/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-put all secrets in @.staging.json and @.prod.json 
-they are read by the app in [http_constants.dart](mdc:lib/constants/http/http_constants.dart), so you should add them there too.
+Snackbars should always be displayed using the method in [snackbar_widget.dart](mdc:lib/widgets/snackbar_widget.dart)
 
 ---
 > Source: [xuehaipeng/medito-app](https://github.com/xuehaipeng/medito-app) — distributed by [TomeVault](https://tomevault.io).
