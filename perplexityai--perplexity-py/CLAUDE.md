@@ -1,0 +1,44 @@
+# perplexity-py
+
+> Follow [CONTRIBUTING.md](./CONTRIBUTING.md) for setup, development, and release
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/perplexity-py/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent guidance
+
+Follow [CONTRIBUTING.md](./CONTRIBUTING.md) for setup, development, and release
+commands.
+
+## Scope
+
+- Treat `src/perplexity/generated/` and `src/perplexity/resources/` as output
+  from a private SDK codegen pipeline. Do not edit them.
+- Keep handwritten changes focused and preserve unrelated generated files.
+- Declare dependencies in `pyproject.toml`; use `uv.toml` only for UV resolver
+  or index configuration. Keep `BUILD.bazel` wheel metadata aligned.
+
+## Workflow
+
+- Use Bazel targets instead of direct Python test or build commands.
+- Run `bazel run //:uv_lock.update` after dependency changes.
+- Run `bazel run //:gazelle` after adding files or changing imports.
+- Do not bump versions, edit release PR output, or publish packages manually.
+
+## Validation
+
+- Run `bazel test //...`.
+- Run `pnpm lefthook run pre-commit --all-files --force --fail-on-changes`.
+- Run live tests only when explicitly requested and `PPLX_API_TOKEN` is
+  available.
+
+---
+> Source: [perplexityai/perplexity-py](https://github.com/perplexityai/perplexity-py) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
