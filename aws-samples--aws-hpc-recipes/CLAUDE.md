@@ -1,6 +1,6 @@
 # aws-hpc-recipes
 
-> This repository contains 100+ infrastructure-as-code recipes for HPC on AWS. Each recipe includes CloudFormation templates, documentation, and assets.
+> Conventions for authoring community **PCS node lifecycle action (NLA)** scripts in
 
 ## Usage
 
@@ -12,60 +12,54 @@ Read and follow the instructions in .claude/skills/aws-hpc-recipes/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# AWS HPC Recipes
+# Agent guide: recipes/pcs-scripts
 
-## Quick Reference
+Conventions for authoring community **PCS node lifecycle action (NLA)** scripts in
+this namespace. These supplement — they do not repeat — the checks that CI already
+enforces. Read `recipes/pcs-scripts/README.md` for the full contributor checklist and
+`docs/` for repository-wide rules.
 
-This repository contains 100+ infrastructure-as-code recipes for HPC on AWS. Each recipe includes CloudFormation templates, documentation, and assets.
+## What CI already enforces (do not re-explain, just satisfy)
 
-## Repository Map
+- **ShellCheck is blocking here.** Every `*.sh` under `recipes/pcs-scripts/` MUST pass
+  `shellcheck` cleanly at default severity (`scripts/validate_shellcheck.py`). Elsewhere
+  in the repo it is advisory only.
+- Structure, `metadata.yml` schema, partition safety, and (per recipe) `tests/validate.sh`
+  run in `make validate` / CI. Run `make lint && make test` in the recipe directory before
+  proposing changes.
 
-- `recipes/` — All recipes, organized by namespace (see `docs/ARCHITECTURE.md`)
-- `scripts/` — Python utilities for recipe management and validation
-- `templates/` — Jinja2 templates for generating recipe scaffolds and docs
-- `config/` — Metadata configuration (namespaces, tags, 
-colors)
-- `docs/` — Deep documentation (start here for details)
+## NLA conventions CI does NOT check — get these right by hand
 
-## Key Documentation
+- **Versioned filenames + checksums.** Name scripts `‹name›-v‹MAJOR.MINOR.PATCH›.sh` and
+  ship a companion `‹script›.sha256`. After editing any script, regenerate with
+  `make checksums` (a stale checksum fails `tests/validate.sh`, but only if you remember to
+  run it — regenerate as part of every script edit).
+- **Fail fast on instance metadata.** IMDS calls MUST use short timeouts
+  (`curl --connect-timeout 1 --max-time 2 …`). A lifecycle action runs during node
+  bootstrap; a hanging metadata call stalls the whole node. Never call IMDS without a bound.
+- **Decide best-effort vs. fail-loud, and document it.** For each script, choose deliberately:
+  a critical action (e.g. storage tuning) should fail loudly and pair with `onError: TERMINATE`;
+  a cosmetic or optional action (e.g. tagging, MOTD) should degrade to a warning + `exit 0` and
+  pair with `onError: CONTINUE`. State the intended `onError` and `executionPolicy` in the
+  script header and the recipe README.
+- **Do not manage log files.** The PCS agent captures stdout/stderr to
+  `/var/log/amazon/pcs/lifecycle/actions/‹stage›/‹script-name›.log`. Emit consistent,
+  prefixed messages to stdout/stderr; never open your own log file.
+- **No package installation.** Assume prerequisites are baked into the AMI. Detect a missing
+  prerequisite and either fail loudly or degrade (per the criticality decision above); document
+  required packages in the script header and recipe README.
+- **The public bucket is single-Region.** Assets are served from `aws-hpc-recipes` in
+  `us-east-1` only — the S3 URI is region-agnostic, but any HTTPS URL keeps the
+  `s3.us-east-1.amazonaws.com` host regardless of the cluster's Region. Do not rewrite that
+  host per Region (this is the opposite of AWS's per-Region `aws-pcs-repo-‹region›` buckets).
 
-| Topic | Location |
-|-------|----------|
-| Recipe structure & namespaces | `docs/ARCHITECTURE.md` |
-| CloudFormation rules & patterns | `docs/CLOUDFORMATION.md` |
-| Validation & testing | `docs/TESTING.md` |
-| Security practices | `docs/SECURITY.md` |
-| Code style conventions | `docs/STYLE.md` |
-| Development workflow | `docs/develop.md` |
-| Linting details | `docs/linting.md` |
-| Getting started | `docs/start.md` |
+## When adding a new recipe here
 
-## Essential Commands
-
-```bash
-# Create a new recipe (interactive)
-python -m scripts.new_recipe
-
-# Regenerate recipes/README.md from metadata
-make readme
-
-# Run all validation (structure, metadata, partitions, cfn-lint)
-make validate
-
-# Build and test all recipes
-make build
-make test
-
-# Deploy to S3 (personal testing)
-HPCDK_TAG=mybranch HPCDK_S3_BUCKET=mybucket HPCDK_PROFILE=myprofile make deploy
-```
-
-## Asset URLs
-
-Templates are mirrored to S3 on merge to main:
-- HTTPS: `https://aws-hpc-recipes.s3.us-east-1.amazonaws.com/main/recipes/<namespace>/<recipe>/assets/<file>`
-- S3: `s3://aws-hpc-recipes/main/recipes/<namespace>/<recipe>/assets/<file>`
+- Follow the standard skeleton (`README.md`, `metadata.yml`, `Makefile`, `assets/`, `docs/`,
+  `tests/`); `metadata.yml` uses `type: shell` and tags including `community`.
+- Copy `node_lifecycle_demo`'s `Makefile` and `tests/validate.sh` as the starting point — they
+  encode the lint/test/checksum loop this namespace expects.
 
 ---
 > Source: [aws-samples/aws-hpc-recipes](https://github.com/aws-samples/aws-hpc-recipes) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-20 -->
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
