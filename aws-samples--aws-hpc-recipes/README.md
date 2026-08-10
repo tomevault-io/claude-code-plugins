@@ -1,6 +1,6 @@
 # aws-hpc-recipes
 
-> Source: [aws-samples/aws-hpc-recipes](https://github.com/aws-samples/aws-hpc-recipes). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [aws-samples/aws-hpc-recipes](https://github.com/aws-samples/aws-hpc-recipes). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
