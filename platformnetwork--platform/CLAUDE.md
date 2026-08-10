@@ -1,6 +1,6 @@
 # platform
 
-> Product repo: `/projects/platform-network/platform` (BaseIntelligence/base).
+> Operator/agent contract for staging and prod. Full procedures live in [`README.md`](README.md); do not duplicate them here.
 
 ## Usage
 
@@ -12,172 +12,170 @@ Read and follow the instructions in .claude/skills/platform/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# AGENTS.md — Base monorepo developer guide
+# AGENTS.md — deploy (DigitalOcean + Compose)
 
-Product repo: `/projects/platform-network/platform` (BaseIntelligence/base).
+Operator/agent contract for staging and prod. Full procedures live in [`README.md`](README.md); do not duplicate them here.
 
-This file is the **product** developer guide. Keep it short. Do not turn it into a
-mission log, cutover diary, or Swarm novel.
+## Topology (4 droplets, NYC1)
 
-## What you are building
+| Host | Role | Gateway |
+|------|------|---------|
+| `base-staging` | staging master | yes (`role-master` + `env-staging`) |
+| `base-staging-validator` | staging validator | no — VPC → staging master `:8080` |
+| `base-prod` | prod master | yes (`role-master` + `env-prod`) |
+| `base-prod-validator` | prod validator | no — VPC → prod master `:8080` |
 
-BASE is a Bittensor subnet control plane:
+Terraform: [`terraform/`](terraform/). Firewall: SSH from operator IP; CI uses ephemeral `/32` via `.github/actions/do-firewall` (always tear down). Spaces for Postgres backups (promote/restore).
 
-- **Master** aggregates challenge weights, serves registry + sealed vectors, and
-  **never** calls on-chain `set_weights`.
-- **Prism** and **Agent Challenge** run **embedded** in the master container
-  (ASGI on localhost via supervisor + reverse proxy). Separate challenge Compose
-  services are not required.
-- **Validators** are weight-only clients of `https://chain.joinbase.ai`: they
-  `GET /v1/weights/latest` and submit that vector with their own wallet.
+## Compose matrix
 
-Public surfaces:
+`remote-deploy.sh --env staging|prod --role master|validator` stacks:
 
-| Surface | URL |
-|---------|-----|
-| API host | `https://chain.joinbase.ai` |
-| UI | `https://joinbase.ai` |
-| API shapes | OpenAPI in code (`/openapi.json`, `/challenges/{slug}/openapi.json`) |
+| File | Purpose |
+|------|---------|
+| `compose/role-master.yml` | gateway profile, VPC publish; **no validator** (avoids dual CRV4 submit) |
+| `compose/role-validator.yml` | no gateway; external gateway endpoint; sole on-chain submitter |
+| `compose/env-staging.yml` | testnet 541, faster coordination |
+| `compose/env-prod.yml` | mainnet, conservative intervals |
+| `compose/env-local.yml` | **local only** — ports/smoke knobs/tunnel env; always on top of `env-staging` |
 
-**OpenAPI is API truth.** Do not invent long markdown API dumps.
+Verify: `./deploy/scripts/assert-compose-matrix.sh`.  
+Root `docker-compose.staging-*.yml` overrides are **obsolete** — use `deploy/compose/` only.  
+`remote-deploy.sh` never selects `env-local*.yml`.
 
-## Layout
+## Postgres vs ephemeral state
 
-```text
-src/base/                         # master, proxy, validator client, CLI
-packages/challenges/
-  prism/                          # import: prism_challenge
-  agent-challenge/                # import: agent_challenge
-deploy/compose/                   # supported install (master embed)
-tests/                            # unit + integration
-docs/                             # keep minimal (see Docs policy)
-```
+Compose always runs a digest-pinned `postgres` service (`base-pgdata` volume, healthcheck, `deploy/env/postgres.env`). App `BASE_DATABASE_URL` must match that file (materialize via `./deploy/scripts/materialize-env.sh`; local-e2e also injects `LOCAL_DATABASE_URL` from it).
 
-Invariants that do not rename:
+| Data | Store |
+|------|--------|
+| Design harnesses / runs / stages / artifacts metadata / admin rounds | **Postgres** (`design_*`) |
+| Prism submissions / stage events | **Postgres** (`prism_*`) |
+| Gateway raw weight leaves + sealed bundles | **Postgres** (`raw_weight_snapshot`, `epoch_bundle`, …) |
+| Validator attestations (when DB configured) | **Postgres** |
+| Design sandbox staging files | volume `${BASE_STATE_DIR}/design/staging` + `design-artifacts` |
+| Gateway challenge **backend registry** | **in-memory** — re-seed after gateway restart (`remote-deploy.sh` does this on master) |
+| site-api (`GET /v1/site/*`) | no DB — proxies challenge upstreams via gateway |
+| Unit/integration tests | may construct `Memory*Store` directly; omit `BASE_DATABASE_URL` only there |
 
-- GHCR image **names**
-- Public paths `/challenges/prism` and `/challenges/agent-challenge`
-- Python packages `prism_challenge` and `agent_challenge`
+Migrations (`crates/db/migrations`) run on boot in gateway / design-challenge / prism-challenge when `BASE_DATABASE_URL` is set. Compose requires `deploy/env/{design,prism}-challenge.env` so challenges cannot silently boot on memory.
 
-This is a **uv workspace**. Root `pyproject.toml` / `uv.lock` own the workspace;
-challenge packages are members under `packages/challenges/*`.
-
-## Day-1 commands
+Verify rows (local master stack):
 
 ```bash
-cd /projects/platform-network/platform
-uv sync
-
-# unit smoke (prefer scoped first)
-UV_CACHE_DIR=/var/tmp/uv-cache uv run pytest -q --maxfail=5
-
-# lint
-uv run ruff check src packages/challenges
+docker compose -f docker-compose.yml exec -T postgres \
+  sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c \
+  "SELECT COUNT(*) FROM design_harness; SELECT COUNT(*) FROM prism_submission;"'
 ```
 
-Challenge package import smoke (root `uv run` alone may not put challenge packages
-on `PYTHONPATH`):
+## Local testnet E2E
+
+Full procedure: [`docs/runbooks/local-testnet-e2e.md`](../docs/runbooks/local-testnet-e2e.md).
 
 ```bash
-uv run --package prism-challenge python -c "import prism_challenge"
-uv run --package agent-challenge python -c "import agent_challenge"
+./deploy/scripts/materialize-env.sh
+./deploy/scripts/local-e2e.sh --dry-run          # plan + compose render
+./deploy/scripts/local-e2e.sh --smoke            # healthz + weights seal smoke + tunnel
+./deploy/scripts/local-e2e.sh --live             # owner wallet + REQUIRE_OWNER=1
+./deploy/scripts/local-e2e.sh --down
 ```
 
-Scoped AC / sealer regression:
+| Prereq | smoke | live |
+|--------|-------|------|
+| Docker, Compose v2 | yes | yes |
+| `cloudflared` (or `--no-tunnel`) | yes | yes |
+| `deploy/env/*.env` (examples OK) | yes | yes |
+| `gateway_sk` (seal) + `prism_sk` / `design_sk` (leaf sigs; pubs ↔ trust root) | yes (prefer `~/.base-secrets/challenge-*.sk`) | real preferred |
+| `deploy/secrets/wallets/base-owner` | **no** (not needed for `/v1/weights/latest`) | **yes** (netuid 541 owner) |
+| `base-validator` wallet | **no** (fetch-only) | for on-chain weight submit |
+| Fresh `target/release/{gateway,validator,…}` (or `BASE_DOCKER_BUILD_FROM=source`) | recommended | **required** for real chain |
+
+**Weights seal smoke (default on `--smoke`):** after healthz, `local-e2e.sh` runs `weights-smoke` — signed prism leaves for the live metagraph → `POST /v1/admin/seal` → assert `GET /v1/weights/latest` is **200** with **`sealed: true`**. Skip with `--no-weights-smoke`. Pre-seal, latest is **200 burn** (`sealed: false`, uid 0 = 100%) — never 404; that is unrelated to a missing gateway owner wallet. Prefer `--burn` on mainnet when sealing without real challenge scores (all `NoScore` → uid 0).
+
+**Interim prod burn seal (until prism auto-emits):** keep a fresh sealed bundle on the master gateway so validators can Match + CRV4 submit. On the prod master this runs as a **systemd timer** (`base-burn-seal.timer`, every 21 min — above the 100-block `WeightsSetRateLimit`, inside the ~256-block Finney state-pruning window) driving [`scripts/prod-burn-seal.sh`](scripts/prod-burn-seal.sh); units live in [`systemd/`](systemd/). Install:
 
 ```bash
-UV_CACHE_DIR=/var/tmp/uv-cache uv run pytest \
-  packages/challenges/agent-challenge/tests \
-  -k "miner_env or residual or tree_sha or review_api or key_release" -q
-
-UV_CACHE_DIR=/var/tmp/uv-cache uv run pytest tests/unit \
-  -k "sealer or aggregation or weights" -q
+install -m 0755 target/release/weights-smoke /opt/base/bin/weights-smoke
+install -m 0755 deploy/scripts/prod-burn-seal.sh /opt/base/deploy/scripts/prod-burn-seal.sh
+install -m 0644 deploy/systemd/base-burn-seal.{service,timer} /etc/systemd/system/
+systemctl daemon-reload && systemctl enable --now base-burn-seal.timer
 ```
 
-## Runtime topology (production)
+Manual one-shot (from an operator host with secrets) is still:
 
-Supported install is **Docker Compose master + PostgreSQL only**:
-
-```text
-Master container
-  ├─ master proxy / API
-  ├─ continuous weights sealer (in-process)
-  ├─ Prism ASGI      :18080 (localhost)
-  └─ Agent Challenge :18081 (localhost)
-PostgreSQL (control-plane durability)
+```bash
+cargo run -q --release -p weights-smoke -- \
+  --gateway https://chain.joinbase.ai --burn
 ```
 
-- Master embeds challenges; no separate required `challenge-*` Compose app
-  containers.
-- Continuous **in-process weight sealer** keeps `GET /v1/weights/latest` at 200.
-  CLI weights paths are emergency/debug only.
-- Validators: independent Compose projects → `chain.joinbase.ai`. They do not host
-  master Postgres or challenge writer DBs.
-- **Swarm is not** the supported shipping path. Compose embed is.
+A seal older than ~256 blocks can never be verified by the validator (public RPC prunes state) — if `GET /v1/weights/latest` shows `metagraph_block` lagging tip by thousands of blocks, check `systemctl status base-burn-seal.timer` and `/var/log/base-burn-seal.log` on the master.
 
-## Hard invariants (never violate)
+**Real-epoch sealer (post burn-seal retirement):** `base-real-seal.timer` (every 10 min) drives [`scripts/prod-real-seal.sh`](scripts/prod-real-seal.sh), which seals the **current chain epoch** with `block_b = LastEpochBlock` (the epoch's start block — exactly the metagraph both challenges pin their leaf sets against, so D24 participant matching holds by construction). The attempt 409s until both challenges have emitted for that epoch; that is the expected steady state. The gateway prefers chain-scale bundles over the reserved smoke range (`>= 8_000_000`), so once a real seal lands it outranks every interim burn bundle — retire the burn timer (`systemctl disable --now base-burn-seal.timer`) after the first real seal verifies end-to-end. Install:
 
-1. **No** master `set_weights`. **No** product path through `burn_weights_24h.py`
-   (leave that script untracked if present).
-2. **No** LLM Base gateway for Agent Challenge scoring.
-3. **Secrets hygiene:** names / digests / shas only in logs, docs, and evidence.
-   Never paste private keys, wallet mnemonics, API tokens, or full secret values.
-4. **AC miner env:** API keys / tokens only. Reject URL, proxy, and host-shaped
-   env keys.
-5. **AC review callback** hard-pinned to
-   `https://chain.joinbase.ai/challenges/agent-challenge`.
-6. **AGATE eval gate:** package LLM rules **residual** + `package_tree_sha` proof
-   **before** TEE auth; otherwise no eval / attestation.
-7. **Agent models:** no closed model catalog; **ban personal finetunes**.
-8. **Tbench 2.1 tasks:** baked image content + digest; no miner-supplied task URL.
-9. Do not wipe production Postgres / `KEY_FILE` / wallets unless a feature
-   explicitly requires it.
-10. Do not force-live Swarm mutate. Prefer Compose master-embed.
-11. GHCR names and public challenge slugs stay stable (mineable digests matter).
+```bash
+install -m 0755 deploy/scripts/prod-real-seal.sh /opt/base/deploy/scripts/prod-real-seal.sh
+install -m 0644 deploy/systemd/base-real-seal.{service,timer} /etc/systemd/system/
+systemctl daemon-reload && systemctl enable --now base-real-seal.timer
+```
 
-## Network surfaces (must stay green)
+## Chain endpoint failover (`BASE_CHAIN_ENDPOINTS`)
 
-| Path | Role |
-|------|------|
-| `GET /health` | master ready |
-| `GET /v1/registry` | challenges + emission |
-| `GET /v1/weights/latest` | sealed weight vector |
-| `GET /v1/validators/public` | validator directory |
-| `GET /challenges/{slug}/openapi.json` | challenge API schema |
-| `GET /challenges/{slug}/leaderboard` | challenge stats |
-| `POST /v1/challenges/{slug}/submissions` | signed submit bridge |
+Public Finney RPCs rate-limit per source IP (entrypoint-finney: HTTP 429 `http_60s` policy, or HTTP 200 with `"Too many requests from this source."`). Every Rust consumer (gateway, validator, both challenges, `weights-smoke`) goes through `chain-live`, which accepts an **ordered comma-separated endpoint list** and cools a faulted endpoint (429 / `-32005` / transport error) for 60s before retrying it; request-level JSON-RPC errors never fail over.
 
-## Docs policy
+| Knob | Where | Notes |
+|------|-------|-------|
+| `BASE_CHAIN_ENDPOINTS` | compose `env-*.yml` / host `deploy/env/*.env` | Ordered list, primary first. **Wins over** `BASE_CHAIN_ENDPOINT`; the singular var is the fallback. |
+| `BASE_CHAIN_ENDPOINT` | same | Single endpoint; also accepts a comma list (legacy path). |
+| Cooldown | — | Fixed 60s in `chain-live` (matches the Finney `retry_after_seconds: 60`). |
 
-Keep shipping docs **minimal**:
+Prod (`env-prod.yml` + `base-burn-seal.service`): onfinality `public-ws` primary, entrypoint-finney fallback — entrypoint hard-429'd the prod master IP for ~3h on 2026-08-06 while onfinality only burst-429'd boot/submit spikes (free tier), which failover absorbed with zero seal/submit impact. Keep onfinality primary while entrypoint's per-IP standing is suspect — a 2026-08-07 flip-back attempt reverted within ~15 min: solo probes from the host were clean (15/15 HTTP 200 over ~2 min incl. a rapid burst) but full service load re-tripped entrypoint's http_60s budget (boot/submit storm ~385 faults over 4 min, then sustained ~1-2/min cooled-retry 429s), all absorbed by failover with zero tick/seal/submit impact. If onfinality's burst limits start failing whole ticks, flip the order (both directions are exercised in prod logs). Probe from the host: `curl -X POST -H 'content-type: application/json' -d '{"jsonrpc":"2.0","id":1,"method":"chain_getHeader","params":[]}' https://entrypoint-finney.opentensor.ai:443`. Failover events surface as `chain endpoint fault; failing over` WARN lines in service logs. Staging (`env-staging.yml`): each service keeps its current primary and gains the other testnet host as fallback (validator: test.finney→test.chain; gateway/challenges: reverse).
 
-- short root `README.md`
-- miner getting-started
-- short validator / compose note
-- OpenAPI + code for everything else
+**On-chain WeightsSetRateLimit vs smoke:** validators fail fast with `RateLimited` *before* pool-submitting when the hotkey is inside its 100-block window (no doomed extrinsic, no ~45s confirm block of the async runtime). Previously a restart inside the window re-stormed every tick and wedged `/healthz` past the healthcheck's retry budget — the staging validator smoke failure mode. A validator that logs `weights rate limited; retry after N blocks` immediately after a Match is inside the window, not broken; it submits when the window opens.
 
-Do not reintroduce monorepo essays, SDK wheel SHA tables, or giant doc indexes in
-README. Mission diaries and validation logs belong in local untracked evidence,
-not in product docs.
+Validator logs should show `Match epoch=` then `Match → submit_intent` / `submit_timelocked ok`. Keep legacy Python weight submit **stopped** to avoid double-commit.
 
-## Commits and hygiene
+**Sole on-chain submitter (mainnet hotkey `5Gzi…`):** Rust `base-validator-1` on **`base-prod-validator` (`192.81.218.11`) only**. `role-master.yml` profiles the validator under `never`; `remote-deploy.sh --role master` force-removes any leftover container. Do **not** run a second validator (or Python weight submitter) with the same wallet — dual submitters fight `WeightsSetRateLimit` and can leave CRV4 commits stuck while incentive still shows a prior monopoly UID.
 
-- Author/committer identity: **echobt**
-  (`154886644+echobt@users.noreply.github.com`)
-- No force-push to protected tips
-- Leave `scripts/burn_weights_24h.py` untracked if present
-- Prefer targeted pytest + ruff on touched paths before commit
-- Frontend is out of this monorepo
+**Legacy Python agents (mainnet):** `validator-5gzi` (`95.133.252.120`) may point `master_url` / `weights_url` / `registry_url` at `https://chain.joinbase.ai` with **`submit_on_chain_enabled: false`**. Coordination shims live in `gateway-compat` (`/v1/validators/*`, `/v1/registry`, empty assignments). `GET /v1/weights/latest` refreshes `computed_at` / `expires_at` at serve time so Python pydantic clients accept sealed vectors older than 720s. Do **not** start `base-weight-submitter-5gzi` on `validator-root` unless CR ownership is moved off Rust.
 
-## When unsure
+**Challenge verification:** on **master** only (validator has **no challenge exec**). Simulate submissions end-to-end — submit **baseline** + submit **cheat**, poll `/v1/runs/{id}` + `/events` + `/logs`, probe edges (bad harness, sanitize, quota, routes), then **admin winners** (`GET/POST /v1/admin/rounds/{id}/…` with bearer from `deploy/secrets/design/annotator_tokens`) and confirm leaf → seal → `GET /v1/weights/latest` **`sealed: true`**. **Never host Sim in staging/prod** (`BASE_ALLOW_HOST_SIM` / host `SimSandbox` are CI/local only). Healthz alone is insufficient.
 
-1. Code + OpenAPI beat markdown essays.
-2. Compose master-embed + weight-only validators is the product topology.
-3. Continuous sealer owns healthy `/v1/weights/latest`; do not add master
-   on-chain weight submission.
-4. AC anti-cheat locks (env keys-only, review URL pin, residual + tree_sha) are
-   intentional fail-closed gates — do not "helpfully" loosen them.
+Tunnel writes gitignored `deploy/env/local-tunnel.env` (`BASE_GATEWAY_PUBLIC_URL`). Co-located validator stays on `http://gateway:8080`; external clients use the tunnel URL. Host probe ports default to `2808x` (avoid staging SSH on `1808x`).
+
+## CI: staging vs prod
+
+| Lane | Trigger | Build stance |
+|------|---------|--------------|
+| Staging | CI green on `main` (`deploy-staging.yml`) | `--build-from source` on droplet OK for iteration |
+| Images | Push to `main` (`images.yml`) | Build/push GHCR digests; promote + **commit** `deploy/pins/staging.json` + `deploy/digests/<sha>.json` |
+| Prod | Tag `v*.*.*` (`deploy-prod.yml`) | **`--build-from registry` only** — promote staging→prod pins, pull GHCR digests; no Rust source build on prod hosts |
+
+Ladder: CI → GHCR digests → `deploy/pins/staging.json` (committed by `images.yml`) → tag → preflight (CI + staging pins match tag SHA) → `promote.sh` → `remote-deploy.sh --build-from registry`. Details: [`README.md`](README.md) § Auto CI deploy and § Promotion pipeline.
+
+## Secrets / age
+
+- Identity OOB on host: `/etc/base/age-identity.txt` (or `AGE_IDENTITY`) — never in Terraform/cloud-init.
+- Materialize: `./deploy/scripts/materialize-env.sh` → `deploy/env/*.env` mode **0600**.
+- Runtime secret files (wallets, keys): mode **0400**, owner **uid 65532**.
+- Helpers: `age-encrypt-env.sh`, `age-push-env.sh`. Checklist: [`docs/OPERATOR_SECURITY.md`](../docs/OPERATOR_SECURITY.md).
+
+## First prod tag checklist
+
+1. Staging healthy on the exact commit you will tag; `deploy/pins/staging.json` `commit_sha` matches that SHA.
+2. Digests recorded / promoted for services you will ship (`promote.sh`, `verify-task-43.sh` locally if needed).
+3. Age identity + env ages present on both prod hosts; wallets hotkeys under `deploy/secrets/wallets/` (0400 / 65532).
+4. Mainnet owner wallet placed; set `BASE_GATEWAY_REQUIRE_OWNER=1` when ready (ops gap until then — see [`docs/COMPLETENESS.md`](../docs/COMPLETENESS.md)).
+5. Cut `vX.Y.Z` on `main`, push tag; pass `deploy-prod` preflight + `environment: production` reviewers.
+6. Smoke `/healthz` on both prod hosts; confirm `evil-gateway` absent.
+
+## Out of scope for agents (ops)
+
+- DO Spaces backup credentials — set in GitHub (repo + `production` env): `BASE_BACKUP_ENDPOINT`, `SPACES_ACCESS_KEY_ID`, `SPACES_SECRET_ACCESS_KEY`, `BASE_BACKUP_BUCKET` (bucket `base-intelligence-backups` in nyc3; name `base-backups` was globally taken). Prod promote dumps Postgres over SSH then uploads from the runner (`deploy-prod.yml`).
+- GitHub `production` environment required reviewers / `main` branch protection
+- Gateway in-process TLS ACME (task 42 / `rustls-acme`) — **interim:** prod `chain.joinbase.ai` HTTPS via host Caddy on `:443` (TLS-ALPN-01) → `127.0.0.1:8080`; cleartext `:80` still docker→gateway
+- Terraform remote state backend (recommended, not blocking app deploy)
+- Bootstrap of age/secrets on brand-new droplets (OOB)
 
 ---
 > Source: [PlatformNetwork/platform](https://github.com/PlatformNetwork/platform) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-25 -->
+<!-- tomevault:4.0:claude_md:2026-08-09 -->
