@@ -1,0 +1,31 @@
+# mirrorview
+
+> Issues are tracked in GitHub Issues, and external PRs are treated as a triage request surface. See `docs/agents/issue-tracker.md`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/mirrorview/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues, and external PRs are treated as a triage request surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Triage uses the default canonical label vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, and `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Domain docs use a single-context layout with `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+---
+> Source: [Me106y/MirrorView](https://github.com/Me106y/MirrorView) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-11 -->
