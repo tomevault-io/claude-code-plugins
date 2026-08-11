@@ -1,0 +1,28 @@
+# app-route-layout-patterns
+
+> Follow established app page and layout patterns
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/app-route-layout-patterns/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# App Route Layout Patterns
+
+When editing route files under `apps/shadcnpreset/app`, follow the existing `layout.tsx` patterns before introducing custom wrappers or manual headings.
+
+- For section-style routes, prefer `DefaultLayout` in `layout.tsx` and put the shared section heading in that layout using `PageHeader`, `PageHeaderHeading`, and `PageHeaderDescription`.
+- For nested routes, prefer the closest matching `layout.tsx` for shared route-specific headings instead of putting all headings in the leaf `page.tsx` or overloading the parent section layout.
+- In those sections, keep `page.tsx` focused on the page body (`<main className="grid gap-4">` or similar) instead of repeating top-level container and heading markup.
+- Use `WideLayout` or `WideLayoutNoFooter` only when matching an established full-width/detail pattern such as `preset` or `assistant`.
+- Reuse existing container and header primitives from `components/default-layout.tsx`, `components/wide-layout.tsx`, and `components/page-header.tsx` instead of inventing one-off spacing or heading structures.
+
+---
+> Source: [morganfeeney/shadcn-ui-fork](https://github.com/morganfeeney/shadcn-ui-fork) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-11 -->
