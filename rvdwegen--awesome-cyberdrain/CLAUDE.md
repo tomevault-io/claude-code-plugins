@@ -1,27 +1,26 @@
-# awesome-list
+# awesome-cyberdrain
 
-> Awesome CyberDrain list editing rules
+> This repo is an Awesome list. When adding entries, follow only:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/awesome-list/SKILL.md
+Read and follow the instructions in .claude/skills/awesome-cyberdrain/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Copilot / ChatGPT instructions
 
-# Awesome list edits
+This repo is an Awesome list. When adding entries, follow only:
 
-Follow `AGENTS.md`. Workflow is only:
+1. **Required details** — Edit `readme.md`. Use an existing section; append at the bottom. Format: `- [Name](url) - Description.` Description starts uppercase, ends with `.`, objective, and must not start by repeating the item name. Update Contents if adding/renaming a section.
+2. **Duplicates** — Search `readme.md` first. No duplicate URLs anywhere (header badges count).
+3. **Lint** — Run `npx --yes awesome-lint` and fix issues.
 
-1. **Required details** — `- [Name](url) - Description.` at the bottom of an existing `readme.md` section; description uppercase start, period end, no marketing, do not repeat the item name at the start.
-2. **Duplicates** — No duplicate URLs anywhere in `readme.md` (badges count).
-3. **Lint** — Run `npx --yes awesome-lint` and fix failures.
-
-Stop and ask the human if details are missing, the URL is already listed, or lint fails.
+Full rules: `AGENTS.md`. A human reviews and submits the PR.
 
 ---
 > Source: [rvdwegen/awesome-cyberdrain](https://github.com/rvdwegen/awesome-cyberdrain) — distributed by [TomeVault](https://tomevault.io).
