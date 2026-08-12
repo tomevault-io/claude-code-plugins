@@ -7,13 +7,13 @@ A minimal, opinionated template for turning any AI agent CLI into a persistent o
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [aporb/agentic-os](https://github.com/aporb/agentic-os).
+Original source: `AGENTS.md` in [aporb/agentic-os](https://github.com/aporb/agentic-os).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
