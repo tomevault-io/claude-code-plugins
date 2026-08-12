@@ -1,0 +1,31 @@
+# bridge
+
+> When using the `slog` logger, you should be saving it to a variable called `logger` and attach any relevant context
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/bridge/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Logging
+
+When using the `slog` logger, you should be saving it to a variable called `logger` and attach any relevant context
+using the `With` func.
+
+# Rebuilding
+
+When told to "rebuild" you should rebuild both the native binary to the root of the repo and the linux binary in
+`dist/bridge-linux`
+
+# Protobuf
+
+Always use `make` to generate protobuf outputs (Go, TypeScript, JSON Schema). Never run `buf generate` directly.
+
+---
+> Source: [vercel/bridge](https://github.com/vercel/bridge) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-12 -->
