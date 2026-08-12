@@ -190594,6 +190594,11 @@
       "description": "A well-commented, ready-to-use OpenCode configuration starter that helps you actually understand what's happening."
     },
     {
+      "name": "jamie-cui--magent",
+      "source": "./jamie-cui--magent",
+      "description": "An Emacs Lisp AI coding agent with multi-agent architecture, permission-based tool access, and LLM integration via gptel."
+    },
+    {
       "name": "eliornl--applypilot",
       "source": "./eliornl--applypilot",
       "description": "Self-hosted, AI-powered job search companion. Paste a job posting and five AI agents run an orchestrated pipeline \u2014 analyze the role, score your fit, research the company, rewrite your resume, and wri"
@@ -194297,6 +194302,11 @@
       "name": "zayg21-pixel--pdf-pixel",
       "source": "./zayg21-pixel--pdf-pixel",
       "description": "pdf-pixel"
+    },
+    {
+      "name": "oore-ci--oore-build",
+      "source": "./oore-ci--oore-build",
+      "description": "Self-hosted, Flutter-first mobile CI and internal app distribution platform."
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -200547,6 +200557,16 @@
       "name": "peterbamuhigire--chwezi-dev-engine",
       "source": "./peterbamuhigire--chwezi-dev-engine",
       "description": "Software Dev't Engine for coding. Production-grade  skills system for web apps & mobile architecture, APIs, databases, web, mobile, AI, security, UX, SaaS, and ERP engineering. Encodes reusable engine"
+    },
+    {
+      "name": "decode-orc--decode-orc",
+      "source": "./decode-orc--decode-orc",
+      "description": "The -decode orchestration and processing engine"
+    },
+    {
+      "name": "mcp-box--mcpscore",
+      "source": "./mcp-box--mcpscore",
+      "description": "Lighthouse for MCP \u2014 score any MCP server 0\u2013100."
     },
     {
       "name": "lucianaib0318--geomind",
@@ -208849,6 +208869,11 @@
       "description": "Agent operating framework for Agor - inspired by OpenClaw"
     },
     {
+      "name": "elixir-ai-tools--pyex",
+      "source": "./elixir-ai-tools--pyex",
+      "description": "A Python interpreter written in Elixir designed as an execution substrate for agents"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -211402,6 +211427,11 @@
       "name": "fukuahg13--waterrpa-fukuarpa",
       "source": "./fukuahg13--waterrpa-fukuarpa",
       "description": "\u4ee5b\u7ad9up\u4e0d\u9ad8\u5174\u5c31\u559d\u6c34\u7684\u5f00\u6e90\u8f6f\u4ef6waterRPA\u4e3a\u6838\u5fc3\uff0c\u5236\u4f5c\u7684\u5c0f\u767d\u4e5f\u80fd\u7528\u7684\u51e0\u4e4e\u5168\u573a\u666f\u8986\u76d6\u7684\u56fe\u5f62\u5316\u81ea\u52a8\u5316\u64cd\u4f5c\u8f6f\u4ef6"
+    },
+    {
+      "name": "axiosoph--axios",
+      "source": "./axiosoph--axios",
+      "description": "A decentralized system compositor: composition-addressed, verifiable from published source to running system."
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -225514,6 +225544,11 @@
       "description": "A notification inbox solution for tmux, because things happen while you're not looking now. Put in the intray and check at your own pace. \ud83e\udd16 \ud83d\udce8 \ud83d\udc68\u200d\ud83d\udcbb"
     },
     {
+      "name": "joshka--jk",
+      "source": "./joshka--jk",
+      "description": "Log-first TUI for Jujutsu (jj)"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -230407,6 +230442,16 @@
       "name": "elegoo-repo--elegoo-link",
       "source": "./elegoo-repo--elegoo-link",
       "description": "elegoo-link"
+    },
+    {
+      "name": "pmenglund--codex-sdk-go",
+      "source": "./pmenglund--codex-sdk-go",
+      "description": "Go SDK for Codex app-server: spawn codex app-server, run threads/turns with streaming, approvals, structured output, and typed JSON-RPC access."
+    },
+    {
+      "name": "batterworks--hatchdoor",
+      "source": "./batterworks--hatchdoor",
+      "description": "Self-hosted, agent-native web app and MCP server for your Obsidian-style Markdown vault. Browse, search, and edit notes from a fast UI or from AI agents."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -242544,6 +242589,21 @@
       "description": "Bilibili MCP\u5de5\u5177(\u83b7\u53d6\u89c6\u9891\u5b57\u5e55\u548c\u8bc4\u8bba)                  A Bilibili MCP server for retrieving video subtitles and comments."
     },
     {
+      "name": "ligerthetextrovert--nexus",
+      "source": "./ligerthetextrovert--nexus",
+      "description": "An API gateway written in Golang"
+    },
+    {
+      "name": "andrewvaughan--agent-council",
+      "source": "./andrewvaughan--agent-council",
+      "description": "Multi-perspective AI development workflows using councils of specialized agents. Plan, build, review, and ship \u2014 with 13 agent personas across 6 councils."
+    },
+    {
+      "name": "zythdr--wuddle",
+      "source": "./zythdr--wuddle",
+      "description": "Wuddle started as a DLL Mods Updater and have now transitioned into being a full-fledged launcher app, primarily for Vanilla WoW. It's entirely vibe-coded but I've tried to make it not suck. Expect a "
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -250367,6 +250427,21 @@
       "name": "thewh1teagle--sona",
       "source": "./thewh1teagle--sona",
       "description": "Sona is a local transcription runner built on top of whisper.cpp."
+    },
+    {
+      "name": "mdmatk--tormentnexus",
+      "source": "./mdmatk--tormentnexus",
+      "description": "At long last"
+    },
+    {
+      "name": "gavynbryan--sencha",
+      "source": "./gavynbryan--sencha",
+      "description": "Repository for the Sencha Game Engine. "
+    },
+    {
+      "name": "apimeister--gguf-runner",
+      "source": "./apimeister--gguf-runner",
+      "description": "a gguf model runner"
     },
     {
       "name": "makenowjust--naraku",
@@ -261632,6 +261707,161 @@
       "name": "doughknee--myscrollr",
       "source": "./doughknee--myscrollr",
       "description": "Pin live sports scores, crypto prices, and custom feeds over any tab. Never alt-tab again."
+    },
+    {
+      "name": "anthealaffy--scau-learn",
+      "source": "./anthealaffy--scau-learn",
+      "description": "\u534e\u5357\u519c\u4e1a\u5927\u5b66\u671f\u4e2d\u8bd5\u5377 / \u671f\u672b\u8bd5\u5377\u6536\u5f55 ~ \u4e13\u4e1a\u4e0d\u9650"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "arjun1194--insta-mcp",
+      "source": "./arjun1194--insta-mcp",
+      "description": "Instagram MCP Server - Provides AI assistants with tools for Instagram analytics, insights, and account management"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "shinshin86--comfy-agent",
+      "source": "./shinshin86--comfy-agent",
+      "description": "Comfy Agent is a tool to use ComfyUI from the CLI. It is suitable for both direct CLI usage and AI-agent-driven automation."
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -292049,6 +292279,111 @@
       "description": "Charness - Corca Harness"
     },
     {
+      "name": "lvyizhuo--myproject-sdagent",
+      "source": "./lvyizhuo--myproject-sdagent",
+      "description": "2026\u5e74AI\u5f00\u53d1\u5b9e\u6218\u9879\u76ee\uff0c\u57fa\u4e8eSpring Boot 3 + Java 21 + Spring AI \u6784\u5efa\u7684 AI\u653f\u7b56\u901a \u5e94\u7528\u548c ReAct \u6a21\u5f0f\u81ea\u4e3b\u89c4\u5212\u667a\u80fd\u4f53LvManus\uff0c\u8986\u76d6\u4e3b\u6d41\u5382\u5546AI\u5927\u6a21\u578b\u63a5\u5165\u3001Spring AI\u589e\u5f3a\u7279\u6027\u3001Prompt\u5de5\u7a0b\u548c\u4f18\u5316\u3001RAG\u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570\u636e\u5e93\u3001Tool Calling\u5de5\u5177\u8c03\u7528\u3001MCP \u6a21\u578b\u4e0a\u4e0b\u6587\u534f\u8bae\u63a5\u5165\u3001AI Agent\u601d\u7ef4\u94fe\u3001Redis \u4f1a\u8bdd/\u4e8b\u5b9e\u7f13\u5b58\u3001"
+    },
+    {
+      "name": "hutchic---cursor",
+      "source": "./hutchic---cursor",
+      "description": ".cursor"
+    },
+    {
+      "name": "lza6--cloudflare-navihive-optimization",
+      "source": "./lza6--cloudflare-navihive-optimization",
+      "description": "NaviHive \u662f\u4e00\u4e2a\u7cbe\u7f8e\u7684\u4e2a\u4eba\u7f51\u7ad9\u5bfc\u822a\u7ba1\u7406\u7cfb\u7edf\uff0c\u5e2e\u52a9\u4f60\u6574\u7406\u548c\u7ba1\u7406\u4f60\u6536\u85cf\u7684\u7f51\u7ad9\u94fe\u63a5\u3002\u652f\u6301\u5206\u7ec4\u7ba1\u7406\u3001\u62d6\u62fd\u6392\u5e8f\u3001\u6697\u8272\u6a21\u5f0f\u7b49\u529f\u80fd\uff0c\u8ba9\u4f60\u7684\u7f51\u7ad9\u6536\u85cf\u66f4\u6709\u6761\u7406\u3001\u66f4\u6613\u8bbf\u95ee\u3002\u3002Cloudflare Workers \u90e8\u7f72\u3001PWA \u652f\u6301\u3001React \u524d\u7aef\u3001TypeScript\u3001TailwindCSS\u3001Material-UI\u3001ECharts \u6570\u636e\u53ef\u89c6\u5316\u3001\u667a\u80fd\u641c\u7d22\u3001\u62d6\u62fd\u6392\u5e8f\u3001\u79bb\u7ebf\u7f13\u5b58\u3001\u6027\u80fd\u76d1\u63a7\u3001\u9519\u8bef\u5904\u7406\u3001\u6570\u636e\u5bfc\u5165\u5bfc\u51fa\u3001"
+    },
+    {
+      "name": "sirluky--copilot-fun",
+      "source": "./sirluky--copilot-fun",
+      "description": "A TUI wrapper around GitHub Copilot CLI, that lets you play terminal games while your AI codes."
+    },
+    {
+      "name": "agentworkforce--relaycast",
+      "source": "./agentworkforce--relaycast",
+      "description": "Headless Slack for AI agents. A hosted messaging store + router with fast retrieval"
+    },
+    {
+      "name": "nastechresearch--nastech-agent",
+      "source": "./nastechresearch--nastech-agent",
+      "description": "The agent that grows with you, Nastech - Agent Powered By NOUS RESEARCH."
+    },
+    {
+      "name": "hutchic---cursor",
+      "source": "./hutchic---cursor",
+      "description": ".cursor"
+    },
+    {
+      "name": "hutchic---cursor",
+      "source": "./hutchic---cursor",
+      "description": ".cursor"
+    },
+    {
+      "name": "themuffinator--fnq3",
+      "source": "./themuffinator--fnq3",
+      "description": "FnQ3 \u2022 Fappin' Quake 3 \u2022 Modernized sourceport for QUAKE III: ARENA"
+    },
+    {
+      "name": "mimecast--sbom-graph",
+      "source": "./mimecast--sbom-graph",
+      "description": "A tool to analyse your SBOM data at the organization level, graphing your entire ecosystem, not just by project"
+    },
+    {
+      "name": "akashicmarga--mlx-audio-train",
+      "source": "./akashicmarga--mlx-audio-train",
+      "description": "mlx-audio-train"
+    },
+    {
+      "name": "pereljon--claude-mux",
+      "source": "./pereljon--claude-mux",
+      "description": "Claude Code Multiplexer - Persistent Claude Code sessions for all your projects."
+    },
+    {
+      "name": "chen2003-chip--pp-echo",
+      "source": "./chen2003-chip--pp-echo",
+      "description": "\ud83e\udd16Agent: 5 \u5206\u949f\u8dd1\u901a\uff0c7 \u5929\u8bfb\u61c2\uff0c\u4ece 0 \u5b9e\u73b0\u4e00\u4e2a\u80fd\u89c4\u5212\u3001\u80fd\u8c03\u7528\u5de5\u5177\u3001\u80fd\u5ba1\u6279\u3001\u80fd\u56de\u9000\u3001\u80fd\u8bb0\u5fc6\u7684 Claude Code / Cursor \u5f0f\u672c\u5730 Agent\u3002"
+    },
+    {
+      "name": "xuweiwu--openpi-thor",
+      "source": "./xuweiwu--openpi-thor",
+      "description": "Jetson AGX Thor deployment companion for OpenPI pi05 models: JAX-to-PyTorch conversion, ONNX export, TensorRT engine build, validation, and websocket serving."
+    },
+    {
+      "name": "mnemosyne-os--mnemosyne-neural-os",
+      "source": "./mnemosyne-os--mnemosyne-neural-os",
+      "description": "The next-generation sovereign AI ecosystem. Mnemosyne OS empowers users with multi-model agents, local-first data privacy, and an encrypted knowledge vault. Experience the future of private, autonomou"
+    },
+    {
+      "name": "anomalyco--opentunnel",
+      "source": "./anomalyco--opentunnel",
+      "description": "opentunnel"
+    },
+    {
+      "name": "pushery--wirekit",
+      "source": "./pushery--wirekit",
+      "description": "Open-Source TALL stack UI components for Laravel Livewire, built with Tailwind CSS v4 and Alpine.js"
+    },
+    {
+      "name": "jaein4722--nvbeacon",
+      "source": "./jaein4722--nvbeacon",
+      "description": "Native macOS menu bar app for monitoring remote NVIDIA GPU servers over SSH with nvidia-smi"
+    },
+    {
+      "name": "stevenwang-cy--township",
+      "source": "./stevenwang-cy--township",
+      "description": "AI residents deliberate civic questions in a living pixel town \u2014 a replayable, scenario-first simulation engine."
+    },
+    {
+      "name": "source-inc--gents",
+      "source": "./source-inc--gents",
+      "description": "DefraDB-backed agent runtime with Lean proofs and DB-visible lifecycle semantics"
+    },
+    {
+      "name": "sky121666--theme-sky-blog-3",
+      "source": "./sky121666--theme-sky-blog-3",
+      "description": "macOS \u684c\u9762\u98ce\u683c Halo \u535a\u5ba2\u4e3b\u9898\u3002"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -310742,6 +311077,11 @@
       "name": "vien-meng--vien-skills",
       "source": "./vien-meng--vien-skills",
       "description": "AI\u5168\u81ea\u52a8\u4e00\u952e\u5f00\u53d1\u5b8c\u6574\u9879\u76ee\u5e76\u4ea4\u4ed8\u7684skills\uff0c\u76ee\u524d\u6d4b\u8bd5\u8fc76\u4e2a\u9879\u76ee\u4ea4\u4ed8\uff0c\u4e0d\u4fdd\u8bc1\u8986\u76d6\u5168\u884c\u4e1a\uff0c\u8bf7\u914c\u60c5\u4f7f\u7528"
+    },
+    {
+      "name": "vercel-labs--herdr-vercel-sandbox-plugin",
+      "source": "./vercel-labs--herdr-vercel-sandbox-plugin",
+      "description": "Run terminal-based coding agents in isolated Vercel Sandboxes from Herdr."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -419857,6 +420197,81 @@
       "name": "nexgen-developer--brand-corner",
       "source": "./nexgen-developer--brand-corner",
       "description": "Brand Corner Shopify Theme"
+    },
+    {
+      "name": "gabrielmattia--me",
+      "source": "./gabrielmattia--me",
+      "description": "me"
+    },
+    {
+      "name": "shaggitza--test-ast-fastapi",
+      "source": "./shaggitza--test-ast-fastapi",
+      "description": "This repo explores the posibility of having a automation pipeline that identified changes in python code and how they relate to the endpoints that we have in a fastapi project"
+    },
+    {
+      "name": "de-icon1--php-bursarystore",
+      "source": "./de-icon1--php-bursarystore",
+      "description": "php_bursarystore-"
+    },
+    {
+      "name": "timmd-9216--timmd-9216-github-io",
+      "source": "./timmd-9216--timmd-9216-github-io",
+      "description": "timmd - fiuba"
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "lightsparkdev--origin",
+      "source": "./lightsparkdev--origin",
+      "description": "Origin - The Lightspark Design System."
+    },
+    {
+      "name": "plenix-ai--ecommerce-recommendator",
+      "source": "./plenix-ai--ecommerce-recommendator",
+      "description": "AI-powered product recommendation system using MercadoLibre and eBay APIs"
     }
   ]
 }
