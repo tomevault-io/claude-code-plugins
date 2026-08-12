@@ -1,4 +1,4 @@
-# agent
+# velorouge
 
 > > Finance features: **Enabled**
 
@@ -7,11 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent/SKILL.md
+Read and follow the instructions in .claude/skills/velorouge/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # Jetro Agent Context
 
