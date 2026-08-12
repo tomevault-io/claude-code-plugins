@@ -1,0 +1,29 @@
+# nous-core
+
+> Routing file for AI coding agents working in this repo.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nous-core/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS
+
+Routing file for AI coding agents working in this repo.
+
+## If `.skills/` is present
+
+This is an internal/private clone. **Read `.skills/AGENTS.md` — it is authoritative and supersedes this file.** It covers mode selection, skill source policy, state detection, and role inference.
+
+## If `.skills/` is not present
+
+This is the public repo. There are no private recipes here — work from the code, `README.md`, and `CONTRIBUTING.md`. Treat the user's instructions as authoritative and ask when unsure.
+
+---
+> Source: [orthogonalhq/nous-core](https://github.com/orthogonalhq/nous-core) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-12 -->
