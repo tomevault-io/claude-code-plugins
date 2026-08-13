@@ -1,17 +1,16 @@
-# arena-agent
+# arena
 
-> Arena — agent instructions (generated from AGENTS.md; do not edit by hand)
+> - Arena is a monpo repo. Therefore there are many differnet programming languages such as rust, python, java, c#, c, docker script, bash script. Unless stated otherwise always use idiomatic langauge features.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/arena-agent/SKILL.md
+Read and follow the instructions in .claude/skills/arena/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # Arena — agent instructions
 
