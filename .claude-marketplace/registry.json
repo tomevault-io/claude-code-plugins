@@ -55034,6 +55034,11 @@
       "description": "Mother of all VPNs"
     },
     {
+      "name": "lovstudio--ataru",
+      "source": "./lovstudio--ataru",
+      "description": "A desktop companion app for AI coding tools. Browse Claude Code chat history, manage configurations, commands, skills, and more."
+    },
+    {
       "name": "ai-boost--awesome-harness-engineering",
       "source": "./ai-boost--awesome-harness-engineering",
       "description": "awesome-harness-engineering"
@@ -196629,6 +196634,11 @@
       "description": "Spotter is an AI playlist generator for Navidrome"
     },
     {
+      "name": "malusamayo--migration-analysis",
+      "source": "./malusamayo--migration-analysis",
+      "description": "migration-analysis"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -200747,6 +200757,11 @@
       "name": "ant-design--x-markdown-mini",
       "source": "./ant-design--x-markdown-mini",
       "description": "\u9762\u5411\u5c0f\u7a0b\u5e8f\u7684\u6d41\u5f0f\u53cb\u597d\u3001\u8f7b\u91cf\u3001\u8de8\u7aef Markdown \u6e32\u67d3\u5668"
+    },
+    {
+      "name": "decode-orc--decode-orc",
+      "source": "./decode-orc--decode-orc",
+      "description": "The -decode orchestration and processing engine"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -206284,6 +206299,11 @@
       "description": "libvue-rs"
     },
     {
+      "name": "rawvoid--jaxb-plugins",
+      "source": "./rawvoid--jaxb-plugins",
+      "description": "\ud83d\ude80 Modern JAXB plugins collection for Java XML binding - XJC plugins with JSR-310 date/time support, annotation processing, and code generation tools"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -211637,6 +211657,11 @@
       "name": "pomerium--mcp-app-typescript-template",
       "source": "./pomerium--mcp-app-typescript-template",
       "description": "ChatGPT app template using Pomerium, OpenAI Apps SDK and Model Context Protocol (MCP), with a Node.js server and React widgets."
+    },
+    {
+      "name": "samosa-ai-com--server-services-manager",
+      "source": "./samosa-ai-com--server-services-manager",
+      "description": "A robust, web-based dashboard for managing server services and accessing terminals in real-time. Features a modern dark-themed UI, multi-tab terminal support, and live log monitoring via WebSockets."
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -221829,6 +221854,11 @@
       "description": "Interactive OOXML (ECMA-376) reference explained by people who actually implemented it"
     },
     {
+      "name": "noahisarider--mankiwecolab",
+      "source": "./noahisarider--mankiwecolab",
+      "description": "This project takes the classic models in Mankiw's Principles of Economics textbook \u2014 from the \"production possibilities frontier\" to the \"Phillips curve\" \u2014 and turns each one into runnable, experiment"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -230749,6 +230779,11 @@
       "description": "tla-rs"
     },
     {
+      "name": "homericintelligence--mnemosyne",
+      "source": "./homericintelligence--mnemosyne",
+      "description": "ProjectMnemosyne is a skills marketplace for the HomericIntelligence agentic ecosystem. Named after Mnemosyne, the Greek goddess of memory, this repository serves as the collective memory where team l"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -236467,6 +236502,11 @@
       "name": "astrohackerlabs--termsurf",
       "source": "./astrohackerlabs--termsurf",
       "description": "Terminal + Browser"
+    },
+    {
+      "name": "piwitests--platform",
+      "source": "./piwitests--platform",
+      "description": "Your Playwright results, kept and explained \u2014 self-hosted run history, failure clustering, flaky scoring, locator healing."
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -242942,6 +242982,16 @@
       "name": "0pilatos0--bitbucket-cli",
       "source": "./0pilatos0--bitbucket-cli",
       "description": "A command-line interface for Bitbucket Cloud"
+    },
+    {
+      "name": "alexandergg-0520--minecartainer",
+      "source": "./alexandergg-0520--minecartainer",
+      "description": "Predictable Minecraft Java server container image for Kubernetes, GitOps, persistent volumes, and S3-compatible assets."
+    },
+    {
+      "name": "zlxlabs--youtube-download-api",
+      "source": "./zlxlabs--youtube-download-api",
+      "description": "\u57fa\u4e8e ytdlp \u548c tikhub\uff0c\u5bf9\u5916\u66b4\u9732 api \uff0c\u8f93\u5165 url \uff0c\u670d\u52a1\u5668\u5b8c\u6210\u97f3\u9891\u4e0b\u8f7d+transcript \u4e0b\u8f7d\u3002\u914d\u7f6e\u4e86 tls \u6307\u7eb9+ potoken \u8ba4\u8bc1+cookie \u6587\u4ef6\u3002\u652f\u6301\u4f01\u5fae\u901a\u77e5+\u4efb\u52a1\u7ed3\u675f\u7684\u56de\u8c03\u3002"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -250812,6 +250862,16 @@
       "name": "runanywhereai--runanywhere-ios",
       "source": "./runanywhereai--runanywhere-ios",
       "description": "Swift (iOS, macOS.. more) starter example app to get started with RunAnywhere SDK!"
+    },
+    {
+      "name": "homericintelligence--scylla",
+      "source": "./homericintelligence--scylla",
+      "description": "ProjectScylla is a testing and optimization framework inspired by Odysseus\u2019 trials, built to measure and improve agentic workflows under constrained decision-making. It evaluates resilience, adaptabil"
+    },
+    {
+      "name": "mdmatk--tormentnexus",
+      "source": "./mdmatk--tormentnexus",
+      "description": "At long last"
     },
     {
       "name": "makenowjust--naraku",
@@ -262352,6 +262412,16 @@
       "name": "newptcai--repy",
       "source": "./newptcai--repy",
       "description": "repy is a terminal epub format ebook reader inspired by epy"
+    },
+    {
+      "name": "d-oit--rust-2026-template",
+      "source": "./d-oit--rust-2026-template",
+      "description": "Best practice 2026 Rust GitHub repository template with AGENTS.md, .agents/skills/, CI/CD, quality gates, and all modern Rust tooling"
+    },
+    {
+      "name": "ils15--pantheon-legacy",
+      "source": "./ils15--pantheon-legacy",
+      "description": "14 specialized AI agents for TDD-driven developmen"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -293662,6 +293732,41 @@
       "name": "projectopensea--opensea-cli",
       "source": "./projectopensea--opensea-cli",
       "description": "Query the OpenSea API from the command line or programmatically"
+    },
+    {
+      "name": "ai-shipping-labs--website",
+      "source": "./ai-shipping-labs--website",
+      "description": "AI Shipping Labs website"
+    },
+    {
+      "name": "rubyroidlabs--rails-api-keys",
+      "source": "./rubyroidlabs--rails-api-keys",
+      "description": "Issue, hash, revoke, and authenticate personal API keys in Rails"
+    },
+    {
+      "name": "paperclipinc--openclaw-config",
+      "source": "./paperclipinc--openclaw-config",
+      "description": "Optimized OpenClaw workspace template. Clone, add your Fuel VK, run."
+    },
+    {
+      "name": "agent0ai--a0-connector",
+      "source": "./agent0ai--a0-connector",
+      "description": "Agent Zero Connector"
+    },
+    {
+      "name": "tvararu--tuicraft",
+      "source": "./tvararu--tuicraft",
+      "description": "Chat in WoW 3.3.5a from your terminal"
+    },
+    {
+      "name": "ptarmiganlabs--help-button-qs",
+      "source": "./ptarmiganlabs--help-button-qs",
+      "description": "Context aware, in-app help button for both Qlik Sense Cloud and client-managed Qlik Sense"
+    },
+    {
+      "name": "sowiedu--edict",
+      "source": "./sowiedu--edict",
+      "description": "A programming language designed for AI agents. No parser, no syntax \u2014 agents produce AST directly as JSON. Statically typed, effect-tracked, contract-verified, compiled to WASM via MCP."
     },
     {
       "name": "loiane--specs-driven-development",
@@ -422622,6 +422727,221 @@
       "name": "mikeyvk--ypsia",
       "source": "./mikeyvk--ypsia",
       "description": "AI-powered training, nutrition and weekly planning \u2014 powered by Garmin data and Gemini"
+    },
+    {
+      "name": "moutaz-homsi--vantico-tmp",
+      "source": "./moutaz-homsi--vantico-tmp",
+      "description": "vantico-tmp"
+    },
+    {
+      "name": "muza-bug---vitali-health-copilot",
+      "source": "./muza-bug---vitali-health-copilot",
+      "description": "AI-powered health copilot app with subscription plans and Stripe integration."
+    },
+    {
+      "name": "thebootstrapparadox--balancecloud",
+      "source": "./thebootstrapparadox--balancecloud",
+      "description": "The BalanceCloud main site and API"
+    },
+    {
+      "name": "jesus270--krain-mvp-v1",
+      "source": "./jesus270--krain-mvp-v1",
+      "description": "Krain-MVP-v1"
+    },
+    {
+      "name": "khoanguyen0109--hiko-pos",
+      "source": "./khoanguyen0109--hiko-pos",
+      "description": "Hiko-POS"
+    },
+    {
+      "name": "deng-h--foxglove-retail",
+      "source": "./deng-h--foxglove-retail",
+      "description": "foxglove extension"
+    },
+    {
+      "name": "khoanguyen0109--hiko-pos",
+      "source": "./khoanguyen0109--hiko-pos",
+      "description": "Hiko-POS"
+    },
+    {
+      "name": "asatechin--digiboard",
+      "source": "./asatechin--digiboard",
+      "description": "digiboard"
+    },
+    {
+      "name": "khoanguyen0109--hiko-pos",
+      "source": "./khoanguyen0109--hiko-pos",
+      "description": "Hiko-POS"
+    },
+    {
+      "name": "guru6163--colour-dreamz",
+      "source": "./guru6163--colour-dreamz",
+      "description": "colour-dreamz"
+    },
+    {
+      "name": "openapiv1--suna1",
+      "source": "./openapiv1--suna1",
+      "description": "suna1"
+    },
+    {
+      "name": "mserranolm--clinical",
+      "source": "./mserranolm--clinical",
+      "description": "clinical"
+    },
+    {
+      "name": "openapiv1--suna1",
+      "source": "./openapiv1--suna1",
+      "description": "suna1"
+    },
+    {
+      "name": "olympusdao--olympus-frontend-v2",
+      "source": "./olympusdao--olympus-frontend-v2",
+      "description": "olympus-frontend-v2"
+    },
+    {
+      "name": "openapiv1--suna1",
+      "source": "./openapiv1--suna1",
+      "description": "suna1"
+    },
+    {
+      "name": "dsisnero--bubbletea-cr",
+      "source": "./dsisnero--bubbletea-cr",
+      "description": "Terminal library - port of golang bubbletea"
+    },
+    {
+      "name": "openapiv1--suna1",
+      "source": "./openapiv1--suna1",
+      "description": "suna1"
+    },
+    {
+      "name": "tigregotico--tugamorph",
+      "source": "./tigregotico--tugamorph",
+      "description": "A rule-based morphological analyzer for Portuguese. Segments words into prefixes, roots, suffixes, verbal inflections, and clitics, and produces structured analyses suitable for NLP pipelines, linguis"
+    },
+    {
+      "name": "mazhanbaig--rsmsbackend",
+      "source": "./mazhanbaig--rsmsbackend",
+      "description": "RSMSBackend"
+    },
+    {
+      "name": "euijkim--eel",
+      "source": "./euijkim--eel",
+      "description": "EEL"
+    },
+    {
+      "name": "chozzz--vargos",
+      "source": "./chozzz--vargos",
+      "description": "Self-hosted agent OS. Persistent memory, multi-channel presence, tools, scheduling, and sub-agent orchestration \u2014 any LLM, your hardware."
+    },
+    {
+      "name": "mdsoftware-de---github",
+      "source": "./mdsoftware-de---github",
+      "description": "Default community health files and issue templates for MDSoftware-DE repositories"
+    },
+    {
+      "name": "gerardomanz--pos-jesha",
+      "source": "./gerardomanz--pos-jesha",
+      "description": "POS de Ferreteria JESHA con mod\u00falos de situaci\u00f3n fiscal y automatizaci\u00f3nes."
+    },
+    {
+      "name": "oakoss--finance-tracker",
+      "source": "./oakoss--finance-tracker",
+      "description": "finance-tracker"
+    },
+    {
+      "name": "skinnnyjay--errors-utils",
+      "source": "./skinnnyjay--errors-utils",
+      "description": "Typed error classes, error codes, and serializeError for logging and RPC (Node and Edge)."
+    },
+    {
+      "name": "yrodiere--activity-report",
+      "source": "./yrodiere--activity-report",
+      "description": "Activity Report CLI Tool"
+    },
+    {
+      "name": "jamesbrysmart--pilot-fundraising-twenty",
+      "source": "./jamesbrysmart--pilot-fundraising-twenty",
+      "description": "pilot-fundraising-twenty"
+    },
+    {
+      "name": "modernc-tree-sitter--ccgo-tree-sitter",
+      "source": "./modernc-tree-sitter--ccgo-tree-sitter",
+      "description": "Tree sitter in Go using a patched modernc.org ccgo"
+    },
+    {
+      "name": "zooarium--squirrel-ui",
+      "source": "./zooarium--squirrel-ui",
+      "description": "squirrel-ui"
+    },
+    {
+      "name": "arulrhikm--spotquantum",
+      "source": "./arulrhikm--spotquantum",
+      "description": "SpotQuantum"
+    },
+    {
+      "name": "fsalobir--rp-website",
+      "source": "./fsalobir--rp-website",
+      "description": "RP-Website"
+    },
+    {
+      "name": "pictastudio--contento",
+      "source": "./pictastudio--contento",
+      "description": "contento"
+    },
+    {
+      "name": "0xr00tkit--sagardahal-com",
+      "source": "./0xr00tkit--sagardahal-com",
+      "description": "Personal Portfolio webpage"
+    },
+    {
+      "name": "aimee-1118--lkj-aapp",
+      "source": "./aimee-1118--lkj-aapp",
+      "description": "lkj-aapp"
+    },
+    {
+      "name": "notarangelo-technical-advisory--nta-time-tracker",
+      "source": "./notarangelo-technical-advisory--nta-time-tracker",
+      "description": "FTA Time Tracker & Invoicing App"
+    },
+    {
+      "name": "reuben89raj--reuben89raj-github-io",
+      "source": "./reuben89raj--reuben89raj-github-io",
+      "description": "reuben89raj.github.io"
+    },
+    {
+      "name": "caestrada1103--ai-cluster",
+      "source": "./caestrada1103--ai-cluster",
+      "description": "ai-cluster"
+    },
+    {
+      "name": "malekfouda2--aiqda",
+      "source": "./malekfouda2--aiqda",
+      "description": "Aiqda"
+    },
+    {
+      "name": "glenzli--dev-skeleton",
+      "source": "./glenzli--dev-skeleton",
+      "description": "Source-first skills and templates for AI-native software development: navigate, structure, and review codebases \uff5c \u9762\u5411 AI \u539f\u751f\u8f6f\u4ef6\u5f00\u53d1\u7684\u6e90\u7801\u4f18\u5148\u6280\u80fd\u4e0e\u6a21\u677f\uff1a\u5bfc\u822a\u3001\u7ec4\u7ec7\u4e0e\u5ba1\u67e5\u4ee3\u7801\u5e93"
+    },
+    {
+      "name": "artyaz--exigo",
+      "source": "./artyaz--exigo",
+      "description": "exigo"
+    },
+    {
+      "name": "garrett-hamers--powerbi-gantt-chart",
+      "source": "./garrett-hamers--powerbi-gantt-chart",
+      "description": "powerbi-gantt-chart"
+    },
+    {
+      "name": "blonestar--wp-lonestar",
+      "source": "./blonestar--wp-lonestar",
+      "description": "Base Wordpress modern block theme, a mini framework with Vite runner"
+    },
+    {
+      "name": "swagatar-llc--vorno",
+      "source": "./swagatar-llc--vorno",
+      "description": "Vorno \u2014 work with AI agents across your real data. Independent fork of Craft Agents, by Swagatar LLC."
     }
   ]
 }
