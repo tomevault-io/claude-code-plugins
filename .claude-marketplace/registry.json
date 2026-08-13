@@ -120914,6 +120914,11 @@
       "description": "Open-source, offline voice-to-text for macOS. Hold a hotkey, speak, text appears. 100% private, powered by WhisperKit"
     },
     {
+      "name": "starc007--markd",
+      "source": "./starc007--markd",
+      "description": "Local-first notes for people who write."
+    },
+    {
       "name": "moneat-io--moneat",
       "source": "./moneat-io--moneat",
       "description": "moneat"
@@ -129672,6 +129677,11 @@
       "name": "neurons-me---me",
       "source": "./neurons-me---me",
       "description": ".me"
+    },
+    {
+      "name": "superdoc--docx-corpus",
+      "source": "./superdoc--docx-corpus",
+      "description": "The largest open corpus of classified docx documents"
     },
     {
       "name": "claude-world--claude-skill-antivirus",
@@ -142854,6 +142864,11 @@
       "description": "Open Swiss legal corpus + MCP server: 1M+ court decisions (1875\u2013today), 21k laws, 10M-edge citation graph, 42 MCP tools. CC0 data, MIT code. Live at mcp.opencaselaw.ch"
     },
     {
+      "name": "phenixblue--k8shark",
+      "source": "./phenixblue--k8shark",
+      "description": "Capture Kubernetes cluster state to a portable archive and replay it through a mock API server \u2014 use kubectl against a customer's environment without live cluster access."
+    },
+    {
       "name": "anhtester--antigravity-testing-kit",
       "source": "./anhtester--antigravity-testing-kit",
       "description": "\u0110\u00e2y l\u00e0 b\u1ed9 SKILL, WORKFLOW, RULE do Anh Tester x\u00e2y d\u1ef1ng d\u00e0nh ri\u00eang cho c\u1ed9ng \u0111\u1ed3ng Tester \u0111\u1ec3 thi\u1ebft l\u1eadp AI Agent tr\u00ean Antigravity h\u1ed7 tr\u1ee3 ki\u1ec3m th\u1eed ph\u1ea7n m\u1ec1m."
@@ -154134,6 +154149,11 @@
       "description": "A powerful tool for AI artist to manage their images."
     },
     {
+      "name": "rinne414--sd-image-sorter",
+      "source": "./rinne414--sd-image-sorter",
+      "description": "A powerful tool for AI artist to manage their images."
+    },
+    {
       "name": "lynx-family--lynx-ui",
       "source": "./lynx-family--lynx-ui",
       "description": "Out-of-the-box Lynx Component Library"
@@ -156132,6 +156152,11 @@
       "name": "go-majordomo--majordomo-llm",
       "source": "./go-majordomo--majordomo-llm",
       "description": "majordomo-llm"
+    },
+    {
+      "name": "imoonkey--openweb",
+      "source": "./imoonkey--openweb",
+      "description": "Agent-native way to access any website. Bridging agent CLI and web GUI through API."
     },
     {
       "name": "izittmarvin--memcoach",
@@ -159832,6 +159857,11 @@
       "name": "baseinfinity--claude-sdlc-harness",
       "source": "./baseinfinity--claude-sdlc-harness",
       "description": "Self-evolving SDLC enforcement for AI coding agents \u2014 hooks, skills, and one-command setup for Claude Code. Plan before coding, test before shipping, escalate when uncertain. Measures itself getting b"
+    },
+    {
+      "name": "max-doo--multichat-desk",
+      "source": "./max-doo--multichat-desk",
+      "description": "\u4e00\u7ad9\u5f0f\u591a AI \u805a\u5408\u684c\u9762\u5de5\u4f5c\u53f0"
     },
     {
       "name": "s-zx--crest",
@@ -174194,6 +174224,11 @@
       "description": "sre-agent"
     },
     {
+      "name": "ismantic--sime",
+      "source": "./ismantic--sime",
+      "description": "Shiyu Chinese Pinyin Input Method"
+    },
+    {
       "name": "aregowe--magento2-module-polyshell-protection",
       "source": "./aregowe--magento2-module-polyshell-protection",
       "description": "Comprehensive defense-in-depth Magento 2 module that closes the PolyShell unrestricted file upload vulnerability (APSB25-94) \u2014 blocking polyglot webshell uploads across eight interception layers inclu"
@@ -181077,6 +181112,11 @@
       "name": "devadathanmb--opencode-easy-vision",
       "source": "./devadathanmb--opencode-easy-vision",
       "description": "Restore the \u201cpaste and ask\u201d vision workflow for text-only models in OpenCode \u26a1"
+    },
+    {
+      "name": "starmoe-org--moesekai",
+      "source": "./starmoe-org--moesekai",
+      "description": "Moesekai"
     },
     {
       "name": "skywind3000--gamesample",
@@ -196554,6 +196594,11 @@
       "description": "The framework for agent-driven websites"
     },
     {
+      "name": "joestump--spotter",
+      "source": "./joestump--spotter",
+      "description": "Spotter is an AI playlist generator for Navidrome"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -203704,6 +203749,11 @@
       "description": "Task management system for coding AI agents. Pure convention \u2014 markdown specs + skills, zero runtime dependencies."
     },
     {
+      "name": "changroro--llmux",
+      "source": "./changroro--llmux",
+      "description": "Run and manage both vLLM and llama.cpp model servers from one terminal UI + CLI \u2014 shared Docker Compose profiles, live tok/s, and cross-backend port/GPU conflict checks. NVIDIA + Linux."
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -206192,6 +206242,16 @@
       "name": "mbosschaart--ultimate64mcp",
       "source": "./mbosschaart--ultimate64mcp",
       "description": "MCP server for the Ultimate 64 series mainboards and cartridges"
+    },
+    {
+      "name": "kevinslin--agstack",
+      "source": "./kevinslin--agstack",
+      "description": "LLM Skills"
+    },
+    {
+      "name": "hyfdev--libvue-rs",
+      "source": "./hyfdev--libvue-rs",
+      "description": "libvue-rs"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -214524,6 +214584,16 @@
       "description": "analyst-kit"
     },
     {
+      "name": "igeekfan--yt-go",
+      "source": "./igeekfan--yt-go",
+      "description": "A cross-platform YouTube downloader desktop app powered by yt-dlp. Download videos, playlists, and channels with ease \u2014 no command line needed. Features concurrent downloads, format selection, subtitl"
+    },
+    {
+      "name": "sansolovyov--zeegrep",
+      "source": "./sansolovyov--zeegrep",
+      "description": "zeegrep \u2014 search and replace without zee bullshit."
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -217812,6 +217882,11 @@
       "name": "keeperhub--keeperhub",
       "source": "./keeperhub--keeperhub",
       "description": "Automate on-chain events and actions reliably and securely. Build Workflows in minutes without the need for infrastructure, code or wallet management. Get instant alerts and never miss what matters."
+    },
+    {
+      "name": "tuniren--fin-box",
+      "source": "./tuniren--fin-box",
+      "description": "A\u80a1 \u6e2f\u80a1 \u60ac\u6d6e\u7b80\u6613\u76ef\u76d8 \u7b56\u7565\u7b14\u8bb0"
     },
     {
       "name": "onevcat--xin",
@@ -221692,6 +221767,16 @@
       "name": "rstackjs--rstack-cli",
       "source": "./rstackjs--rstack-cli",
       "description": "One CLI for JavaScript development, powered by Rstack"
+    },
+    {
+      "name": "onpe5679--everyric2",
+      "source": "./onpe5679--everyric2",
+      "description": "Everyric2"
+    },
+    {
+      "name": "superdoc--ooxml-dev",
+      "source": "./superdoc--ooxml-dev",
+      "description": "Interactive OOXML (ECMA-376) reference explained by people who actually implemented it"
     },
     {
       "name": "vm--nila-code",
@@ -230604,6 +230689,16 @@
       "description": "Protocol for agent-to-agent communication with stateful orchestration, MCP-compatible and a public marketplace to discover and register agents."
     },
     {
+      "name": "xlonglink--longlink",
+      "source": "./xlonglink--longlink",
+      "description": "Build the process, not the workaround"
+    },
+    {
+      "name": "stonysystems--tla-rs",
+      "source": "./stonysystems--tla-rs",
+      "description": "tla-rs"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -236317,6 +236412,11 @@
       "name": "clickagent--hermes-whatsapp-mixed",
       "source": "./clickagent--hermes-whatsapp-mixed",
       "description": "Hermes Agent - Modo Misto H\u00edbrido (Dual-Mode) para WhatsApp e Portainer"
+    },
+    {
+      "name": "astrohackerlabs--termsurf",
+      "source": "./astrohackerlabs--termsurf",
+      "description": "Terminal + Browser"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -242782,6 +242882,11 @@
       "name": "yeongseon--azure-functions-validation-python",
       "source": "./yeongseon--azure-functions-validation-python",
       "description": "Validation and serialization layer for the Azure Functions Python v2 programming model"
+    },
+    {
+      "name": "aravindhsampath--hobbyboardv3",
+      "source": "./aravindhsampath--hobbyboardv3",
+      "description": "hobbyboard is a self hosted image search and organization tool for hobbyists, makers, and collectors."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -250637,6 +250742,21 @@
       "name": "everettjf--reporead",
       "source": "./everettjf--reporead",
       "description": "A lightweight desktop app to browse GitHub repositories without cloning. Features syntax highlighting, file tree navigation, trending repos, favorites, and AI-powered code interpretation. Built with T"
+    },
+    {
+      "name": "mrfyda--ha-eredes",
+      "source": "./mrfyda--ha-eredes",
+      "description": "Home Assistant custom integration for E-Redes energy consumption data."
+    },
+    {
+      "name": "rbergman--dark-matter-marketplace",
+      "source": "./rbergman--dark-matter-marketplace",
+      "description": "dark-matter-marketplace"
+    },
+    {
+      "name": "runanywhereai--runanywhere-ios",
+      "source": "./runanywhereai--runanywhere-ios",
+      "description": "Swift (iOS, macOS.. more) starter example app to get started with RunAnywhere SDK!"
     },
     {
       "name": "makenowjust--naraku",
@@ -262107,6 +262227,31 @@
       "name": "swiss-ai--www-apertus",
       "source": "./swiss-ai--www-apertus",
       "description": "The website & public documentation area of the Apertus LLM"
+    },
+    {
+      "name": "wyuhuai--pagenest",
+      "source": "./wyuhuai--pagenest",
+      "description": "Save self-contained offline webpages and reopen them in Obsidian with a dedicated web-style Viewer."
+    },
+    {
+      "name": "troykelly--codex-skills",
+      "source": "./troykelly--codex-skills",
+      "description": "codex-skills"
+    },
+    {
+      "name": "godaddy--cli",
+      "source": "./godaddy--cli",
+      "description": "Build apps and integrate with GoDaddy."
+    },
+    {
+      "name": "koubaa--goldy",
+      "source": "./koubaa--goldy",
+      "description": "Runtime for GPU accelerated compute"
+    },
+    {
+      "name": "productofamerica--deere-sdk",
+      "source": "./productofamerica--deere-sdk",
+      "description": "Unofficial TypeScript SDK for John Deere Operations Center API"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -293134,6 +293279,46 @@
       "description": "Azure Resource Graph queries for ALZ checklist items missing automated validation"
     },
     {
+      "name": "jkorf--aster-net",
+      "source": "./jkorf--aster-net",
+      "description": "A C# .netstandard client library for the Aster DEX REST and Websocket Spot and Futures API focusing on clear usage and models"
+    },
+    {
+      "name": "dutchdronesquad--trackdraw",
+      "source": "./dutchdronesquad--trackdraw",
+      "description": "A  browser-based track designer tool for FPV race directors"
+    },
+    {
+      "name": "jkorf--aster-net",
+      "source": "./jkorf--aster-net",
+      "description": "A C# .netstandard client library for the Aster DEX REST and Websocket Spot and Futures API focusing on clear usage and models"
+    },
+    {
+      "name": "iannuttall--caffeine",
+      "source": "./iannuttall--caffeine",
+      "description": "Keep your Mac awake while you work, then let it sleep when your coding agent waits for you."
+    },
+    {
+      "name": "alchemy-run--cloudflare-tools",
+      "source": "./alchemy-run--cloudflare-tools",
+      "description": "Developer tooling for Cloudflare Workers, powered by Effect and Rolldown."
+    },
+    {
+      "name": "maxhu08--nav",
+      "source": "./maxhu08--nav",
+      "description": "\ud83e\ude9d vim style keyboard navigation for the web"
+    },
+    {
+      "name": "eyjafjallaaa--handwritecraft",
+      "source": "./eyjafjallaaa--handwritecraft",
+      "description": "\u8ff9\u58a8 HandwriteCraft\uff0c\u4e00\u4e2a\u57fa\u4e8e Web \u7684\u667a\u80fd\u624b\u5199\u751f\u6210\u5de5\u5177\uff0c\u5982\u58a8\u8ff9\u822c\u81ea\u7136\u6d41\u7545\uff0c\u5c06\u666e\u901a\u6587\u672c\u8f6c\u6362\u4e3a\u903c\u771f\u7684\u624b\u5199\u4f53\u6548\u679c\u3002"
+    },
+    {
+      "name": "django1982--ankerctl-go-remake",
+      "source": "./django1982--ankerctl-go-remake",
+      "description": "This is a remake of the ankermake m5 protocol in Go - because of security"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -311847,6 +312032,21 @@
       "name": "appllama--top-paywall-screens",
       "source": "./appllama--top-paywall-screens",
       "description": "How top iOS apps ask you to pay | 10 interactive paywalls inspired by leading apps. Rebuilt in React Native + Expo."
+    },
+    {
+      "name": "hackclub--attend",
+      "source": "./hackclub--attend",
+      "description": "Onboarding, travel, and safeguarding for under-18 participants at in-person Hack Club events"
+    },
+    {
+      "name": "nagi-studio--yesplaymusic",
+      "source": "./nagi-studio--yesplaymusic",
+      "description": "YesPlayMusic \u7684 Tauri 2 \u91cd\u6784\u7248\uff1aTypeScript \u4e25\u683c\u6a21\u5f0f + Pinia\uff0c\u8ff7\u4f60\u64ad\u653e\u5668\u3001\u83dc\u5355\u680f\u6b4c\u8bcd\u3002Apple Silicon macOS \u6b63\u5f0f\u652f\u6301\uff0cWindows / Ubuntu \u5b9e\u9a8c\u6784\u5efa\u3002\u57fa\u4e8e qier222/YesPlayMusic\u3002"
+    },
+    {
+      "name": "igorkasyanchuk--rails-named-cache",
+      "source": "./igorkasyanchuk--rails-named-cache",
+      "description": "Multiple named cache stores for Rails, through Rails.cache(:name)"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -421682,6 +421882,121 @@
       "name": "kevinday--piano-lightz-site",
       "source": "./kevinday--piano-lightz-site",
       "description": "piano lightz"
+    },
+    {
+      "name": "ksk0109--gifting-lp",
+      "source": "./ksk0109--gifting-lp",
+      "description": "gifting-lp"
+    },
+    {
+      "name": "tok2coder--careerwiki",
+      "source": "./tok2coder--careerwiki",
+      "description": "\uc9c4\ub85c \uc704\ud0a4 \ud50c\ub7ab\ud3fc"
+    },
+    {
+      "name": "turahe--blog-next",
+      "source": "./turahe--blog-next",
+      "description": "blog-next"
+    },
+    {
+      "name": "g-love53--roofing-pdf-backend",
+      "source": "./g-love53--roofing-pdf-backend",
+      "description": "Roofing Contractor Direct"
+    },
+    {
+      "name": "phejet--dubai-missile-command",
+      "source": "./phejet--dubai-missile-command",
+      "description": "dubai-missile-command"
+    },
+    {
+      "name": "kitchernov--voting-dapp",
+      "source": "./kitchernov--voting-dapp",
+      "description": "dapp for voting"
+    },
+    {
+      "name": "instrumaniak--slate",
+      "source": "./instrumaniak--slate",
+      "description": "an editor"
+    },
+    {
+      "name": "mgaldino--metodos-cp-brasil",
+      "source": "./mgaldino--metodos-cp-brasil",
+      "description": "metodos-cp-brasil"
+    },
+    {
+      "name": "toomas633--adlist-parser",
+      "source": "./toomas633--adlist-parser",
+      "description": "A high-performance Python utility that fetches and merges multiple adlists into domain-only output for DNS blockers like Pi-hole, AdGuard, and similar DNS filtering solutions."
+    },
+    {
+      "name": "lmoesle--process-automation-example",
+      "source": "./lmoesle--process-automation-example",
+      "description": "process-automation-example"
+    },
+    {
+      "name": "ralphschuler--topolens",
+      "source": "./ralphschuler--topolens",
+      "description": "TopoLens"
+    },
+    {
+      "name": "zakaseb--icd-c-code-refactorer",
+      "source": "./zakaseb--icd-c-code-refactorer",
+      "description": "Transform C source code between Interface Control Document (ICD) versions using AI-powered local LLM inference"
+    },
+    {
+      "name": "defra--eutd-mmo-fes-function-app",
+      "source": "./defra--eutd-mmo-fes-function-app",
+      "description": "eutd-mmo-fes-function-app"
+    },
+    {
+      "name": "tcunion--taiwan-cycling-wall",
+      "source": "./tcunion--taiwan-cycling-wall",
+      "description": "\u53f0\u7063\u7d04\u9a0e\u4e8b\u4ef6\u7c3f \u2014 \u53f0\u7063\u55ae\u8eca\u7d04\u9a0e\u793e\u7fa4\u5e73\u53f0 PWA"
+    },
+    {
+      "name": "v0lver--s",
+      "source": "./v0lver--s",
+      "description": "144K "
+    },
+    {
+      "name": "pablozaiden--devbox",
+      "source": "./pablozaiden--devbox",
+      "description": "Create an SSH-accessible devcontainer-based devbox from the CLI"
+    },
+    {
+      "name": "binyoun--cultural-visions",
+      "source": "./binyoun--cultural-visions",
+      "description": "cultural-visions"
+    },
+    {
+      "name": "josephkiragu--stone-river-dashboard",
+      "source": "./josephkiragu--stone-river-dashboard",
+      "description": "beeflot farm operations dashboard"
+    },
+    {
+      "name": "karned-rekipe---sample",
+      "source": "./karned-rekipe---sample",
+      "description": "Functional Arclith sample implementation for validating framework features"
+    },
+    {
+      "name": "yuichisugio--ai",
+      "source": "./yuichisugio--ai",
+      "description": "ai"
+    },
+    {
+      "name": "ford442--contabo-storage-manager",
+      "source": "./ford442--contabo-storage-manager",
+      "description": "Central storage & webhook bridge for Contabo VPS. Handles audio, shaders, notes, and media for multiple web apps with Google Cloud sync."
+    },
+    {
+      "name": "harness17--devnext",
+      "source": "./harness17--devnext",
+      "description": "ASP.NET Core 10 \u88fd\u306e Web \u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3002\u65e7 .NET Framework \u7248\uff08DevNet\uff09\u304b\u3089\u306e\u79fb\u884c\u30fb\u30ea\u30cb\u30e5\u30fc\u30a2\u30eb\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3002"
+    },
+    {
+      "name": "hongxiaoy--hongxiaoy-github-io",
+      "source": "./hongxiaoy--hongxiaoy-github-io",
+      "description": "My new academic page."
     }
   ]
 }
