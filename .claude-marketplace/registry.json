@@ -294399,6 +294399,216 @@
       "description": "skills"
     },
     {
+      "name": "statecrafting--spec-spine",
+      "source": "./statecrafting--spec-spine",
+      "description": "A typed, hash-verifiable ledger of who-owns-what, sitting underneath a codebase so that many agents (or people) can work in parallel without trampling each other."
+    },
+    {
+      "name": "doggy8088--dict-idioms-2020",
+      "source": "./doggy8088--dict-idioms-2020",
+      "description": "\u6210\u8a9e\u661f\u7403"
+    },
+    {
+      "name": "firefly-sylestia--fieldminds",
+      "source": "./firefly-sylestia--fieldminds",
+      "description": "FieldMinds"
+    },
+    {
+      "name": "powabase-ai--agent-skills",
+      "source": "./powabase-ai--agent-skills",
+      "description": "Agent Skills that help AI coding assistants build on Powabase \u2014 the AI Backend-as-a-Service (RAG, agents, orchestration, workflows) plus a Supabase-style BaaS layer."
+    },
+    {
+      "name": "lilremark--twentycrmclientportal",
+      "source": "./lilremark--twentycrmclientportal",
+      "description": "A self-hosted client portal powered by Twenty CRM"
+    },
+    {
+      "name": "friendlyfiree--open-solana-intelligence",
+      "source": "./friendlyfiree--open-solana-intelligence",
+      "description": "Open, wallet-signed, community-reviewed intelligence desk for Solana. Cases, evidence, and governance anchored to mainnet."
+    },
+    {
+      "name": "kittycord-production--kittycord",
+      "source": "./kittycord-production--kittycord",
+      "description": "\ud83d\udc3e The cutest Discord client mod \u2014 plugins, themes and a whole lot of pink."
+    },
+    {
+      "name": "aakashbhat1--exif-geotag-toolbox",
+      "source": "./aakashbhat1--exif-geotag-toolbox",
+      "description": "exif-geotag-toolbox"
+    },
+    {
+      "name": "emersonbusson--ramshared",
+      "source": "./emersonbusson--ramshared",
+      "description": "Use idle GPU VRAM as high-speed swap space on Linux/WSL2. Implements a cascading tier (zram > VRAM > NVMe) with reliability and crash-safety methods."
+    },
+    {
+      "name": "jscott3201--aionforge-memory",
+      "source": "./jscott3201--aionforge-memory",
+      "description": "A Rust-native agentic memory substrate built on the selene-db graph engine: a bi-temporal knowledge graph, hybrid retrieval, and an optional MCP server."
+    },
+    {
+      "name": "sdcb--pao-de-kuai",
+      "source": "./sdcb--pao-de-kuai",
+      "description": "pao-de-kuai"
+    },
+    {
+      "name": "tutanka01--promptloom",
+      "source": "./tutanka01--promptloom",
+      "description": "Turn prompts into educational videos."
+    },
+    {
+      "name": "pxx0101--ai-course-maker",
+      "source": "./pxx0101--ai-course-maker",
+      "description": "AI Course Creation Assistant: Workflow-Based Corporate Training Course Generation System"
+    },
+    {
+      "name": "modoterra--echo",
+      "source": "./modoterra--echo",
+      "description": "Echo is a compiled language implemented in Rust. It uses a single LLVM backend and a Rust-owned runtime for both AOT native binaries and in-process JIT execution."
+    },
+    {
+      "name": "alexeyperov--unity-open-mcp",
+      "source": "./alexeyperov--unity-open-mcp",
+      "description": "Unity-Open-MCP is a complete set of tools to use AI with Unity. It acts as a bridge between AI agents (like Claude Code, Cursor, ZCode) and Unity providing various tools and senses to control gameObje"
+    },
+    {
+      "name": "zixing131--files-macos",
+      "source": "./zixing131--files-macos",
+      "description": "A modern file manager that helps users organize their files and folders."
+    },
+    {
+      "name": "jaykumar2001--librenms-dash",
+      "source": "./jaykumar2001--librenms-dash",
+      "description": "LibreNMS-Dash is a LibreNMS-backed network dashboard. It aggregates devices, sites, overlays, alerts, and graphs into a single topology view with live hover details and SVG-based layout controls."
+    },
+    {
+      "name": "nemori-ai--cc-master",
+      "source": "./nemori-ai--cc-master",
+      "description": "Turn any Code Harness session into a long-horizon master orchestrator \u2014 pick the right dynamic-workflow paradigm and keep the main thread productively advancing across compaction and sessions."
+    },
+    {
+      "name": "aiosbrain--aios-team-brain",
+      "source": "./aiosbrain--aios-team-brain",
+      "description": "The shared Team Brain: receives tier-tagged sync from AIOS workspaces and surfaces tasks, decisions, deliverables, and a grounded natural-language query over the team's shared memory. Next.js + Postgr"
+    },
+    {
+      "name": "strelov1--spec-driven-tdd",
+      "source": "./strelov1--spec-driven-tdd",
+      "description": "Multi-harness skill-pack fusing OpenSpec planning with Superpowers TDD/simplify/review into one delivery loop."
+    },
+    {
+      "name": "dai-vgm--megavgmdrive",
+      "source": "./dai-vgm--megavgmdrive",
+      "description": "Standalone VGM player core for MiSTer FPGA using JT12/YM2612, SN76489 PSG, JT51/YM2151, JT12-based YM2203 with JT49 SSG, and SegaPCM."
+    },
+    {
+      "name": "19akshansh--zachurl",
+      "source": "./19akshansh--zachurl",
+      "description": "URL shortener made with NextJS"
+    },
+    {
+      "name": "swawai--swaw-kit",
+      "source": "./swawai--swaw-kit",
+      "description": "swaw-kit"
+    },
+    {
+      "name": "valentindutra--pr-map",
+      "source": "./valentindutra--pr-map",
+      "description": "Turn a GitHub pull request into an interactive map and review it from your browser. A Claude Code plugin."
+    },
+    {
+      "name": "ravinperera--ai-token-efficiency-playbook",
+      "source": "./ravinperera--ai-token-efficiency-playbook",
+      "description": "Drop-in instructions, prompts, and workflows to reduce token usage across Codex, Claude Code, GitHub Copilot, Cursor, and other AI coding agents"
+    },
+    {
+      "name": "ezer-mackenzie--chile-public-market-sdk",
+      "source": "./ezer-mackenzie--chile-public-market-sdk",
+      "description": "chile-public-market-sdk"
+    },
+    {
+      "name": "coeusinstitute--polos",
+      "source": "./coeusinstitute--polos",
+      "description": "Polos is a Self Improving, Safe Looping, Prompt-Injection Proof, Agentic Harness."
+    },
+    {
+      "name": "orangeboychen--ha-jd-smart",
+      "source": "./orangeboychen--ha-jd-smart",
+      "description": "Home Assistant custom integration for JD Smart air conditioners"
+    },
+    {
+      "name": "ncode--facts",
+      "source": "./ncode--facts",
+      "description": "Collect, consume and/or display system facts"
+    },
+    {
+      "name": "prestomation--ha-home-keeper",
+      "source": "./prestomation--ha-home-keeper",
+      "description": "Home Keeper is a Home Assistant plugin for tracking home maintenance and chores with deep HA integration "
+    },
+    {
+      "name": "jellman86--optimisarr",
+      "source": "./jellman86--optimisarr",
+      "description": "Safety-first self-hosted FFmpeg media-library optimiser for Plex, Jellyfin, and Emby, with verified CPU/GPU transcoding and rollback."
+    },
+    {
+      "name": "suntay44--plannable",
+      "source": "./suntay44--plannable",
+      "description": "Plannable is a Spec-Driven Development planning CLI for AI coding agents. It creates a MASTER_PLAN.md plus compressed Sub-Plans phase files, so Codex, Claude Code, Cursor, and terminal agents can buil"
+    },
+    {
+      "name": "eneryleen--ai-web-design-codex",
+      "source": "./eneryleen--ai-web-design-codex",
+      "description": "Senior-level knowledge base: 60 cross-linked guides for designing beautiful, usable, accessible, high-converting websites \u2014 built for humans and AI agents."
+    },
+    {
+      "name": "mathruffian-dot--taigi-teaching-agent",
+      "source": "./mathruffian-dot--taigi-teaching-agent",
+      "description": "\u81fa\u8a9e\u6559\u6750 AI Agent\uff1a\u4f9d 108 \u8ab2\u7db1\u81ea\u52d5\u751f\u6210\u53f0\u8a9e\u8b1b\u7fa9\u3001\u6e2c\u9a57\u3001\u4e92\u52d5\u7db2\u7ad9\u3001\u6559\u5b78\u5f71\u7247\u8207\u8a9e\u97f3\u6559\u6750\uff08\u610f\u50b3\u5aa0\u8072 TTS\uff0b\u6559\u80b2\u90e8\u5b98\u65b9\u97f3\u6a94\uff0b\u81fa\u7f85\u6a19\u97f3\u6aa2\u6838\uff09"
+    },
+    {
+      "name": "dinesh-swami--nextjs-practice",
+      "source": "./dinesh-swami--nextjs-practice",
+      "description": "nextjs-practice"
+    },
+    {
+      "name": "beeblock--orkestrai",
+      "source": "./beeblock--orkestrai",
+      "description": "Visual orchestration for teams of AI coding agents."
+    },
+    {
+      "name": "fernandez-hjm--agent-general-staff",
+      "source": "./fernandez-hjm--agent-general-staff",
+      "description": "A portable multi-agent engineering kit for Codex, Cursor, and Claude Code development workflows."
+    },
+    {
+      "name": "shajon-404--iptv-web",
+      "source": "./shajon-404--iptv-web",
+      "description": "\ud83c\udf0d IPTV Playlists Hub"
+    },
+    {
+      "name": "mage0535--knowledge-and-memory-management",
+      "source": "./mage0535--knowledge-and-memory-management",
+      "description": "\ud83e\udde0 AI\u77e5\u8bc6\u91c7\u96c6\u4e0e\u8bb0\u5fc6\u4f53\u7ba1\u7406\u63d2\u4ef6 \u2014 40+\u91c7\u96c6\u5de5\u5177, SenseNova\u6587\u6863\u5f15\u64ce, 12+\u4e91\u76d8\u540c\u6b65, \u4e09\u5c42\u77e5\u8bc6\u53ec\u56de | Knowledge Collection & Memory Mgmt Plugin for AI Agents"
+    },
+    {
+      "name": "jvacek--transmissionswift",
+      "source": "./jvacek--transmissionswift",
+      "description": "Transmission remote client written in SwiftUI"
+    },
+    {
+      "name": "aidankmcalister--betterbox",
+      "source": "./aidankmcalister--betterbox",
+      "description": "Gmail inboxes, GitHub PRs, and issues as draggable panels on one screen, so the stuff that needs you isn't buried across a dozen tabs. Built on the Gmail API; your mail stays in Google. Open source, s"
+    },
+    {
+      "name": "codegraphtheory--chainforge",
+      "source": "./codegraphtheory--chainforge",
+      "description": "Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -313152,6 +313362,31 @@
       "name": "amadad--reterminal-e1001",
       "source": "./amadad--reterminal-e1001",
       "description": "HTTP API firmware for Seeed reTerminal E1001 ePaper display"
+    },
+    {
+      "name": "tarekmo0--hunterstick",
+      "source": "./tarekmo0--hunterstick",
+      "description": "A persistent context and fieldcraft system for AI-assisted bug bounty hunting."
+    },
+    {
+      "name": "ujjwalredd--dopamine",
+      "source": "./ujjwalredd--dopamine",
+      "description": "A human-dopamine-inspired AI agent skill that adapts effort, learns from feedback, and delivers the smallest verified solution."
+    },
+    {
+      "name": "ujjwalredd--dopamine",
+      "source": "./ujjwalredd--dopamine",
+      "description": "A human-dopamine-inspired AI agent skill that adapts effort, learns from feedback, and delivers the smallest verified solution."
+    },
+    {
+      "name": "ujjwalredd--dopamine",
+      "source": "./ujjwalredd--dopamine",
+      "description": "A human-dopamine-inspired AI agent skill that adapts effort, learns from feedback, and delivers the smallest verified solution."
+    },
+    {
+      "name": "joshspicer--apple-developer-docs-mcp",
+      "source": "./joshspicer--apple-developer-docs-mcp",
+      "description": "I know how to find the right answer from https://developer.apple.com"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -424157,6 +424392,121 @@
       "name": "motercode--micasa",
       "source": "./motercode--micasa",
       "description": "micasa"
+    },
+    {
+      "name": "nasrustia-fm--pms",
+      "source": "./nasrustia-fm--pms",
+      "description": "pms"
+    },
+    {
+      "name": "ronnypdev--notes-web",
+      "source": "./ronnypdev--notes-web",
+      "description": "A full stack App build end to end using Next.js 15+, TypeScript, Drizzle ORM, PostgreSQL, Shadcn UI, TailwindCSS V4+"
+    },
+    {
+      "name": "theuniquepaulsmith--pt-budget",
+      "source": "./theuniquepaulsmith--pt-budget",
+      "description": "PT Budget App"
+    },
+    {
+      "name": "ronnypdev--notes-web",
+      "source": "./ronnypdev--notes-web",
+      "description": "A full stack App build end to end using Next.js 15+, TypeScript, Drizzle ORM, PostgreSQL, Shadcn UI, TailwindCSS V4+"
+    },
+    {
+      "name": "alexandrelucatelli--consolenfegdr7-servico-v4-0",
+      "source": "./alexandrelucatelli--consolenfegdr7-servico-v4-0",
+      "description": "ConsoleNfeGDR7-servico_v4.0"
+    },
+    {
+      "name": "ronnypdev--notes-web",
+      "source": "./ronnypdev--notes-web",
+      "description": "A full stack App build end to end using Next.js 15+, TypeScript, Drizzle ORM, PostgreSQL, Shadcn UI, TailwindCSS V4+"
+    },
+    {
+      "name": "adi-ua--adi-ua-github-io",
+      "source": "./adi-ua--adi-ua-github-io",
+      "description": "AdiOS"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "dionco--house-scraper",
+      "source": "./dionco--house-scraper",
+      "description": "house_scraper"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
+    },
+    {
+      "name": "kneedie--lobe-chat",
+      "source": "./kneedie--lobe-chat",
+      "description": "lobe-chat"
     }
   ]
 }
