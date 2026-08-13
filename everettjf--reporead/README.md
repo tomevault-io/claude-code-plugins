@@ -1,13 +1,13 @@
-# RepoRead
+# reporead
 
-> Source: [everettjf/RepoRead](https://github.com/everettjf/RepoRead) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [everettjf](https://github.com/everettjf/reporead), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 A lightweight desktop app to browse GitHub repositories without cloning. Features syntax highlighting, file tree navigation, trending repos, favorites, and AI-powered code interpretation. Built with Tauri + React.
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [everettjf/RepoRead](https://github.com/everettjf/RepoRead).
+Original source: `AGENTS.md` in [everettjf/reporead](https://github.com/everettjf/reporead).
 
 ## Also available for
 
@@ -17,14 +17,14 @@ Original source: `AGENTS.md` in [everettjf/RepoRead](https://github.com/everettj
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/everettjf/RepoRead](https://github.com/everettjf/RepoRead)
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/everettjf/reporead](https://github.com/everettjf/reporead)
 
 ---
 
 Install this config instantly:
 ```
-npx tomevault install everettjf/RepoRead
+npx tomevault install everettjf/reporead
 ```
-Source: [github.com/everettjf/RepoRead](https://github.com/everettjf/RepoRead).
+Source: [github.com/everettjf/reporead](https://github.com/everettjf/reporead).
 
-<!-- genome:d-i-p -->
+<!-- genome:t-i-p -->
