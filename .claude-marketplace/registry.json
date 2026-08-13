@@ -217964,6 +217964,11 @@
       "description": "LMStudio ComfyUI integration with easy model selection and many optimizations!"
     },
     {
+      "name": "coinlobster--coinlobster-gemini-extension",
+      "source": "./coinlobster--coinlobster-gemini-extension",
+      "description": "Gemini CLI extension for live crypto whale trades, Smart Money Radar and liquidations. One-line install, no API key required."
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -221857,6 +221862,11 @@
       "name": "noahisarider--mankiwecolab",
       "source": "./noahisarider--mankiwecolab",
       "description": "This project takes the classic models in Mankiw's Principles of Economics textbook \u2014 from the \"production possibilities frontier\" to the \"Phillips curve\" \u2014 and turns each one into runnable, experiment"
+    },
+    {
+      "name": "vercel-labs--eve-software-factory-template",
+      "source": "./vercel-labs--eve-software-factory-template",
+      "description": "Meet Foreman, an eve Software Factory."
     },
     {
       "name": "vm--nila-code",
@@ -225857,6 +225867,11 @@
       "name": "cobble-project--cobble",
       "source": "./cobble-project--cobble",
       "description": "A flexible embedded key-value store designed for use in distributed systems and standalone applications"
+    },
+    {
+      "name": "maxeonyx--tmux-bridge",
+      "source": "./maxeonyx--tmux-bridge",
+      "description": "CLI for agents to run commands in interactive terminal sessions"
     },
     {
       "name": "hyaway--hyaway",
@@ -236507,6 +236522,11 @@
       "name": "piwitests--platform",
       "source": "./piwitests--platform",
       "description": "Your Playwright results, kept and explained \u2014 self-hosted run history, failure clustering, flaky scoring, locator healing."
+    },
+    {
+      "name": "openlabs-so--openanalytics",
+      "source": "./openlabs-so--openanalytics",
+      "description": "Open-source, privacy-first web analytics with revenue attribution and an MCP server. No cookies, no cross-site profiles, aggregate-only reads. Self-hostable under AGPL-3.0."
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -250874,6 +250894,11 @@
       "description": "At long last"
     },
     {
+      "name": "matreshka15--mmwave-insight",
+      "source": "./matreshka15--mmwave-insight",
+      "description": "\ud83d\ude80 \u6beb\u7c73\u6ce2\u96f7\u8fbe(mmWave Radar)\u5b66\u4e60\u8d44\u6e90 | \u6db5\u76d6\u57fa\u7840\u7406\u8bba\u3001\u4fe1\u53f7\u5904\u7406\u3001\u76ee\u6807\u68c0\u6d4b\u3001\u4ee3\u7801\u5b9e\u73b0 | \u9002\u5408\u521d\u5b66\u8005\u548c\u5de5\u7a0b\u5e08"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -262422,6 +262447,16 @@
       "name": "ils15--pantheon-legacy",
       "source": "./ils15--pantheon-legacy",
       "description": "14 specialized AI agents for TDD-driven developmen"
+    },
+    {
+      "name": "agentis-tools--ctx",
+      "source": "./agentis-tools--ctx",
+      "description": "\ud83e\udde0 ctx is a queryable world model of a codebase, built to ground and govern the language models that modify it"
+    },
+    {
+      "name": "evgeniiklepilin--open-coupon",
+      "source": "./evgeniiklepilin--open-coupon",
+      "description": "OpenCoupon - Open-Source Framework for Building Coupon Browser Extensions"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -293769,6 +293804,76 @@
       "description": "A programming language designed for AI agents. No parser, no syntax \u2014 agents produce AST directly as JSON. Statically typed, effect-tracked, contract-verified, compiled to WASM via MCP."
     },
     {
+      "name": "hutchic---cursor",
+      "source": "./hutchic---cursor",
+      "description": ".cursor"
+    },
+    {
+      "name": "lvyizhuo--myproject-sdagent",
+      "source": "./lvyizhuo--myproject-sdagent",
+      "description": "2026\u5e74AI\u5f00\u53d1\u5b9e\u6218\u9879\u76ee\uff0c\u57fa\u4e8eSpring Boot 3 + Java 21 + Spring AI \u6784\u5efa\u7684 AI\u653f\u7b56\u901a \u5e94\u7528\u548c ReAct \u6a21\u5f0f\u81ea\u4e3b\u89c4\u5212\u667a\u80fd\u4f53LvManus\uff0c\u8986\u76d6\u4e3b\u6d41\u5382\u5546AI\u5927\u6a21\u578b\u63a5\u5165\u3001Spring AI\u589e\u5f3a\u7279\u6027\u3001Prompt\u5de5\u7a0b\u548c\u4f18\u5316\u3001RAG\u68c0\u7d22\u589e\u5f3a\u3001\u5411\u91cf\u6570\u636e\u5e93\u3001Tool Calling\u5de5\u5177\u8c03\u7528\u3001MCP \u6a21\u578b\u4e0a\u4e0b\u6587\u534f\u8bae\u63a5\u5165\u3001AI Agent\u601d\u7ef4\u94fe\u3001Redis \u4f1a\u8bdd/\u4e8b\u5b9e\u7f13\u5b58\u3001"
+    },
+    {
+      "name": "qntx--bux",
+      "source": "./qntx--bux",
+      "description": "Embedded micro-VM sandbox for running AI agents"
+    },
+    {
+      "name": "mimecast--sbom-graph",
+      "source": "./mimecast--sbom-graph",
+      "description": "A tool to analyse your SBOM data at the organization level, graphing your entire ecosystem, not just by project"
+    },
+    {
+      "name": "chryzxc--vscode-opencode",
+      "source": "./chryzxc--vscode-opencode",
+      "description": "OpenCode VS Code extension with AI chat, interactive implementation plans and questions, coding agents, subagent tracking, session history, and quota monitoring."
+    },
+    {
+      "name": "wrzonance--wrzdj",
+      "source": "./wrzonance--wrzdj",
+      "description": "A song requester app with web dashboard, guest-facing kiosk, and automatic track detection (Linux/Mac/Windows) from DJ controllers/software "
+    },
+    {
+      "name": "devtx-labs-kr--aidlc-workshop-template",
+      "source": "./devtx-labs-kr--aidlc-workshop-template",
+      "description": "Template for AI-DLC Workshop"
+    },
+    {
+      "name": "tamcore--stelloauth",
+      "source": "./tamcore--stelloauth",
+      "description": "Web-based OAuth helper for Stellantis vehicles (MyPeugeot, MyCitro\u00ebn, MyDS, MyOpel, MyVauxhall)"
+    },
+    {
+      "name": "nunley-media-group--agentchrome",
+      "source": "./nunley-media-group--agentchrome",
+      "description": "A CLI alternative for Chrome Devtools MCP"
+    },
+    {
+      "name": "razzamatazm--mustarrd",
+      "source": "./razzamatazm--mustarrd",
+      "description": "IPTV Catchup Direct Download Tool"
+    },
+    {
+      "name": "anandpant--opencode-palantir",
+      "source": "./anandpant--opencode-palantir",
+      "description": "compile docs and github reference code, custom validators, maybe convex to osdk "
+    },
+    {
+      "name": "agentworkforce--relaycast",
+      "source": "./agentworkforce--relaycast",
+      "description": "Headless Slack for AI agents. A hosted messaging store + router with fast retrieval"
+    },
+    {
+      "name": "ivorisnoob--openstream",
+      "source": "./ivorisnoob--openstream",
+      "description": "OpenStream"
+    },
+    {
+      "name": "sunbox--radpro-home-assistant-plugin",
+      "source": "./sunbox--radpro-home-assistant-plugin",
+      "description": "Home Assistant integration for reading Rad Pro devices over USB serial"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -312497,6 +312602,11 @@
       "name": "igorkasyanchuk--rails-named-cache",
       "source": "./igorkasyanchuk--rails-named-cache",
       "description": "Multiple named cache stores for Rails, through Rails.cache(:name)"
+    },
+    {
+      "name": "nduc99911--repo-context-mcp",
+      "source": "./nduc99911--repo-context-mcp",
+      "description": "MCP server: repo map, code search, and token-aware context packs for AI coding agents"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -422942,6 +423052,196 @@
       "name": "swagatar-llc--vorno",
       "source": "./swagatar-llc--vorno",
       "description": "Vorno \u2014 work with AI agents across your real data. Independent fork of Craft Agents, by Swagatar LLC."
+    },
+    {
+      "name": "rajeshdhanda--portfolio",
+      "source": "./rajeshdhanda--portfolio",
+      "description": "Portfolio: Architect and Deploying enterprise-ready ML platforms. "
+    },
+    {
+      "name": "nikebmern--agentic-smc-fx-predicter",
+      "source": "./nikebmern--agentic-smc-fx-predicter",
+      "description": "Agentic-SMC-FX-Predicter"
+    },
+    {
+      "name": "yuvalrozner111--my-plugin-try",
+      "source": "./yuvalrozner111--my-plugin-try",
+      "description": "my-plugin-try"
+    },
+    {
+      "name": "0xjieren--nexus",
+      "source": "./0xjieren--nexus",
+      "description": "nexus"
+    },
+    {
+      "name": "fbsqual--lt-pdcs-nats-poc",
+      "source": "./fbsqual--lt-pdcs-nats-poc",
+      "description": "Langtian NATS EDA Platform - Event-driven architecture with NATS JetStream, sql-flow, DuckDB Duck Lake, and React frontend"
+    },
+    {
+      "name": "0xjieren--nexus",
+      "source": "./0xjieren--nexus",
+      "description": "nexus"
+    },
+    {
+      "name": "qiujing-git--luntan0826",
+      "source": "./qiujing-git--luntan0826",
+      "description": "for luntan to test the"
+    },
+    {
+      "name": "zarguell--safe-install",
+      "source": "./zarguell--safe-install",
+      "description": "A unified, cross-platform CLI wrapper that enforces security policies (like internal registries and lockfiles) across multiple package managers (pip, npm, etc.)."
+    },
+    {
+      "name": "leafar2001--dellekeshub-nuxt-nest",
+      "source": "./leafar2001--dellekeshub-nuxt-nest",
+      "description": "dellekeshub-nuxt-nest"
+    },
+    {
+      "name": "signalreason--mbus",
+      "source": "./signalreason--mbus",
+      "description": "Rust browser + LLM agent for deterministic, single-step web automation."
+    },
+    {
+      "name": "oleyna80--hardwarelab",
+      "source": "./oleyna80--hardwarelab",
+      "description": "hardwarelab"
+    },
+    {
+      "name": "anupamvi--tradedesk",
+      "source": "./anupamvi--tradedesk",
+      "description": "tradedesk"
+    },
+    {
+      "name": "devagents-os--devagents",
+      "source": "./devagents-os--devagents",
+      "description": "devagents"
+    },
+    {
+      "name": "gofastercloud--terraform-secure-upload",
+      "source": "./gofastercloud--terraform-secure-upload",
+      "description": "Terraform module for secure file uploads with S3, SFTP, GuardDuty malware scanning, and automated clean/quarantine routing"
+    },
+    {
+      "name": "nlkomaru--chocolat",
+      "source": "./nlkomaru--chocolat",
+      "description": "Web application for managing chocolate and confectionery recipes, deployed on Cloudflare Workers."
+    },
+    {
+      "name": "cdickensongmaker--broken-provinces",
+      "source": "./cdickensongmaker--broken-provinces",
+      "description": "Broken_Provinces-"
+    },
+    {
+      "name": "maiwending--knightaurachess",
+      "source": "./maiwending--knightaurachess",
+      "description": "KnightAuraChess"
+    },
+    {
+      "name": "j-gierend--gamepocgen",
+      "source": "./j-gierend--gamepocgen",
+      "description": "Agentic game prototype generator - overnight generation of browser-playable incremental games"
+    },
+    {
+      "name": "howie-zeng--howard-toolbox",
+      "source": "./howie-zeng--howard-toolbox",
+      "description": "howard-toolbox"
+    },
+    {
+      "name": "sjinkim--hanmaum-dn-mobile-app",
+      "source": "./sjinkim--hanmaum-dn-mobile-app",
+      "description": "dn mobile app "
+    },
+    {
+      "name": "marklee9625--gfqb",
+      "source": "./marklee9625--gfqb",
+      "description": "GFQB"
+    },
+    {
+      "name": "sevenclockseven--openclaw-docker",
+      "source": "./sevenclockseven--openclaw-docker",
+      "description": "openclaw-docker"
+    },
+    {
+      "name": "zhoie--the-feynman-lectures-on-physics",
+      "source": "./zhoie--the-feynman-lectures-on-physics",
+      "description": "the-feynman-lectures-on-physics"
+    },
+    {
+      "name": "amakaflow--amakaflow-automation",
+      "source": "./amakaflow--amakaflow-automation",
+      "description": "amakaflow-automation"
+    },
+    {
+      "name": "sio2000--xenodoxioo",
+      "source": "./sio2000--xenodoxioo",
+      "description": "xenodoxioo"
+    },
+    {
+      "name": "mahmudul-softvence--model-boss",
+      "source": "./mahmudul-softvence--model-boss",
+      "description": "model_boss"
+    },
+    {
+      "name": "quantizor--art",
+      "source": "./quantizor--art",
+      "description": "scratching my creative itch"
+    },
+    {
+      "name": "hanboylee--communication-mqtt",
+      "source": "./hanboylee--communication-mqtt",
+      "description": "communication-mqtt"
+    },
+    {
+      "name": "ankitson--toolbox",
+      "source": "./ankitson--toolbox",
+      "description": "portable toolbox of scripts, skills and misc"
+    },
+    {
+      "name": "ytspar--hetzner-cli",
+      "source": "./ytspar--hetzner-cli",
+      "description": "Feature-complete CLI and Node.js library for the Hetzner Robot API (dedicated servers)"
+    },
+    {
+      "name": "kvvat--testbedui-plugins",
+      "source": "./kvvat--testbedui-plugins",
+      "description": "Plugin repo for testbedui"
+    },
+    {
+      "name": "ferituaku--my-portfolio-2026",
+      "source": "./ferituaku--my-portfolio-2026",
+      "description": "Introducing My Self"
+    },
+    {
+      "name": "jurgendn--jurgendn-github-io",
+      "source": "./jurgendn--jurgendn-github-io",
+      "description": "Personal Page"
+    },
+    {
+      "name": "owibo4ka--smallsecretalbum",
+      "source": "./owibo4ka--smallsecretalbum",
+      "description": "public website"
+    },
+    {
+      "name": "centauriagent--foxhole",
+      "source": "./centauriagent--foxhole",
+      "description": "\ud83e\udd8a Foxhole \u2014 A community forum on Nostr. Join Dens, discuss what matters, own your content."
+    },
+    {
+      "name": "totalschema--totalschema",
+      "source": "./totalschema--totalschema",
+      "description": "totalschema"
+    },
+    {
+      "name": "liszlisowni2--e-commerce",
+      "source": "./liszlisowni2--e-commerce",
+      "description": "The e-commerance web app built in Laravel and Vue.js"
+    },
+    {
+      "name": "james-12345678--admin-skillgo-5",
+      "source": "./james-12345678--admin-skillgo-5",
+      "description": "admin-skillgo-5"
     }
   ]
 }
