@@ -117299,6 +117299,11 @@
       "description": "\u57fa\u4e8e Spring AI 2.0 \u7684\u751f\u4ea7\u7ea7 ERP \u667a\u80fd\u52a9\u624b\uff5cProduction-ready ERP AI assistant with RAG, Tool Calling, chat memory, dynamic SQL tools, multi-tenancy and ECharts."
     },
     {
+      "name": "artexis10--endstate-gui",
+      "source": "./artexis10--endstate-gui",
+      "description": "Endstate desktop app: reinstall your apps and restore your settings on a fresh Windows PC, from one portable file. Free, open source. Built with Tauri (React + Rust)."
+    },
+    {
       "name": "alibaba--opc-starter",
       "source": "./alibaba--opc-starter",
       "description": "opc-starter"
@@ -119389,6 +119394,11 @@
       "description": "Open-source agent sandbox infrastructure for parallel coding agents: isolated workspaces, MCP/CLI control, observability, and atomic publication."
     },
     {
+      "name": "artexis10--endstate",
+      "source": "./artexis10--endstate",
+      "description": "Open-source engine behind Endstate: reinstall your apps and restore your settings on a fresh machine from one file. Windows via winget (Linux/macOS in progress). Go, Apache 2.0."
+    },
+    {
       "name": "aspenkit--aspens",
       "source": "./aspenkit--aspens",
       "description": "Your CLAUDE.md stopped working at 200 lines. Generate scoped skill files from your import graph, auto-sync on every commit. Claude Code, Codex, Cursor."
@@ -120917,6 +120927,11 @@
       "name": "starc007--markd",
       "source": "./starc007--markd",
       "description": "Local-first notes for people who write."
+    },
+    {
+      "name": "dmmulroy--anti-slop",
+      "source": "./dmmulroy--anti-slop",
+      "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns"
     },
     {
       "name": "moneat-io--moneat",
@@ -169739,6 +169754,11 @@
       "description": "Task-Manager"
     },
     {
+      "name": "orcacd--orca-cd",
+      "source": "./orcacd--orca-cd",
+      "description": "GitOps for Docker"
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -174227,6 +174247,11 @@
       "name": "ismantic--sime",
       "source": "./ismantic--sime",
       "description": "Shiyu Chinese Pinyin Input Method"
+    },
+    {
+      "name": "tile-ai--tilelang-lsp",
+      "source": "./tile-ai--tilelang-lsp",
+      "description": "tilelang-lsp"
     },
     {
       "name": "aregowe--magento2-module-polyshell-protection",
@@ -188982,6 +189007,11 @@
       "name": "pngtrid--anvilwiki",
       "source": "./pngtrid--anvilwiki",
       "description": "\u2692\ufe0f Open-source game wiki template. Astro + Cloudflare Pages. Free, fast, beginner-friendly. Static-first, zero-JS, unlimited bandwidth."
+    },
+    {
+      "name": "carlassmann--alkalye",
+      "source": "./carlassmann--alkalye",
+      "description": "A beautiful, local-first Markdown editor PWA that works great on desktop and mobile. E2E encrypted, collaborative, presentation mode."
     },
     {
       "name": "mulhamna--jira-commands",
@@ -211604,6 +211634,11 @@
       "description": "Open source Elixir game server with authentication, users, lobbies, groups, parties, friends, chat, notifications, achievements, leaderboards, tournaments, payments, server scripting and an admin port"
     },
     {
+      "name": "pomerium--mcp-app-typescript-template",
+      "source": "./pomerium--mcp-app-typescript-template",
+      "description": "ChatGPT app template using Pomerium, OpenAI Apps SDK and Model Context Protocol (MCP), with a Node.js server and React widgets."
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -214592,6 +214627,16 @@
       "name": "sansolovyov--zeegrep",
       "source": "./sansolovyov--zeegrep",
       "description": "zeegrep \u2014 search and replace without zee bullshit."
+    },
+    {
+      "name": "srdjan--zttp",
+      "source": "./srdjan--zttp",
+      "description": "Native Zig TypeScript runtime that started as port of mquickjs to Zig... and... grew up to something bigger"
+    },
+    {
+      "name": "satyampandey-07--worksphere",
+      "source": "./satyampandey-07--worksphere",
+      "description": "WorkSphere"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -217887,6 +217932,11 @@
       "name": "tuniren--fin-box",
       "source": "./tuniren--fin-box",
       "description": "A\u80a1 \u6e2f\u80a1 \u60ac\u6d6e\u7b80\u6613\u76ef\u76d8 \u7b56\u7565\u7b14\u8bb0"
+    },
+    {
+      "name": "enragedantelope--ea-lmstudio",
+      "source": "./enragedantelope--ea-lmstudio",
+      "description": "LMStudio ComfyUI integration with easy model selection and many optimizations!"
     },
     {
       "name": "onevcat--xin",
@@ -242889,6 +242939,11 @@
       "description": "hobbyboard is a self hosted image search and organization tool for hobbyists, makers, and collectors."
     },
     {
+      "name": "0pilatos0--bitbucket-cli",
+      "source": "./0pilatos0--bitbucket-cli",
+      "description": "A command-line interface for Bitbucket Cloud"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -262262,6 +262317,41 @@
       "name": "pablocaeg--sloptotal",
       "source": "./pablocaeg--sloptotal",
       "description": "Open-source AI text detector \u2014 VirusTotal for AI slop. 23 engines, self-hosted, runs on CPU. Scan text or URLs locally."
+    },
+    {
+      "name": "nasa--hds-core",
+      "source": "./nasa--hds-core",
+      "description": "Documentation for NASA's Horizon Design System (HDS), with a Sass/CSS theme layer for the U.S. Web Design System (USWDS)."
+    },
+    {
+      "name": "nasa--hds-core",
+      "source": "./nasa--hds-core",
+      "description": "Documentation for NASA's Horizon Design System (HDS), with a Sass/CSS theme layer for the U.S. Web Design System (USWDS)."
+    },
+    {
+      "name": "jredrupp--bison",
+      "source": "./jredrupp--bison",
+      "description": "A Mojo DataFrame library with a pandas-compatible API"
+    },
+    {
+      "name": "lupi-org-br--lupinho",
+      "source": "./lupi-org-br--lupinho",
+      "description": "The simulator for LUPI Console"
+    },
+    {
+      "name": "braedonsaunders--openstudio",
+      "source": "./braedonsaunders--openstudio",
+      "description": "Real-time collaborative music studio with sub-30ms latency. Jam with anyone, anywhere in your browser. 35+ DSP effects, AI stem separation, MIDI loops, and optional Rust native bridge for ASIO/CoreAud"
+    },
+    {
+      "name": "vandamd--zero",
+      "source": "./vandamd--zero",
+      "description": "A camera app for the Light Phone III."
+    },
+    {
+      "name": "newptcai--repy",
+      "source": "./newptcai--repy",
+      "description": "repy is a terminal epub format ebook reader inspired by epy"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -293467,6 +293557,111 @@
       "name": "tyloryang--ai-logging-analyse",
       "source": "./tyloryang--ai-logging-analyse",
       "description": "AI-logging-analyse"
+    },
+    {
+      "name": "faroshq--faros",
+      "source": "./faroshq--faros",
+      "description": "Faros: Your operating system for platforms"
+    },
+    {
+      "name": "roberto-mello--pynfse-nacional",
+      "source": "./roberto-mello--pynfse-nacional",
+      "description": "Python library for Brazilian NFSe Nacional (Padrao Nacional) API integration"
+    },
+    {
+      "name": "oyi77--1ai-skills",
+      "source": "./oyi77--1ai-skills",
+      "description": "1282 production-ready AI agent skills with self-evolving meta-skills \u2014 783 cybersecurity, SEO, trading, marketing, automation, devops, content, financial. Auto-evolve, auto-learn, auto-improve. Instal"
+    },
+    {
+      "name": "blwfish--kicad-mcp",
+      "source": "./blwfish--kicad-mcp",
+      "description": "MCP server for KiCad \u2014 71 tools for AI-assisted electronics design"
+    },
+    {
+      "name": "byadsco--meta-ads-mcp",
+      "source": "./byadsco--meta-ads-mcp",
+      "description": "MCP server for Meta Ads (Facebook/Instagram) - agency multi-account, cloud-ready"
+    },
+    {
+      "name": "runanywhereai--runanywhere-web",
+      "source": "./runanywhereai--runanywhere-web",
+      "description": "Starter App created using web-sdk"
+    },
+    {
+      "name": "skyliulu--llm-infra-explorer",
+      "source": "./skyliulu--llm-infra-explorer",
+      "description": "Interactive visualization and exploration of large language model (LLM) systems, infrastructure, and inference workflows"
+    },
+    {
+      "name": "chantico-project--chantico",
+      "source": "./chantico-project--chantico",
+      "description": "Energy\u2011aware cloud\u2011native controller"
+    },
+    {
+      "name": "barysiuk--duckrow",
+      "source": "./barysiuk--duckrow",
+      "description": "Get your ducks in a row \u2014 a TUI for managing AI agent skills/mcps across projects"
+    },
+    {
+      "name": "davep--blogmore",
+      "source": "./davep--blogmore",
+      "description": "A blog-oriented Markdown-based static site generation tool"
+    },
+    {
+      "name": "nerveband--ai-happy-design",
+      "source": "./nerveband--ai-happy-design",
+      "description": "Figma CLI/MCP but fast \u2014 design with AI agents"
+    },
+    {
+      "name": "octahive--nezumo",
+      "source": "./octahive--nezumo",
+      "description": "Nezumo is an open-source collaborative infinite canvas for real-time planning, workshops, visual collaboration, and presentations\u2014available on the web and desktop."
+    },
+    {
+      "name": "agentjido--jido-chat",
+      "source": "./agentjido--jido-chat",
+      "description": "SDK-first chat core for Jido (models, content blocks, capabilities, adapter contracts)."
+    },
+    {
+      "name": "superdecrypt-dev--autoscript",
+      "source": "./superdecrypt-dev--autoscript",
+      "description": "Autoscript Installer Xray-core & SSH VPN Tunneling + BOT Panel"
+    },
+    {
+      "name": "joshuaboys--gx",
+      "source": "./joshuaboys--gx",
+      "description": "A fast git projects manager. Clone, jump, and organise repos from the terminal."
+    },
+    {
+      "name": "soadzoor--highly-efficient-pdf-renderer",
+      "source": "./soadzoor--highly-efficient-pdf-renderer",
+      "description": "Efficiently render PDFs on the GPU"
+    },
+    {
+      "name": "ashex--atproto-mcp",
+      "source": "./ashex--atproto-mcp",
+      "description": "atproto-mcp"
+    },
+    {
+      "name": "studio-design--gesso",
+      "source": "./studio-design--gesso",
+      "description": "Gesso \u2014 OpenAPI 3.0/3.1/3.2 contract testing for PHP. Framework-independent core with Laravel, Symfony, Pest, and PSR-7 adapters. PHPUnit coverage, request/response validation, fuzzing, and drift dete"
+    },
+    {
+      "name": "white0dew--majiang",
+      "source": "./white0dew--majiang",
+      "description": "majiang"
+    },
+    {
+      "name": "joeljosephchalakudy--open-timeline-engine",
+      "source": "./joeljosephchalakudy--open-timeline-engine",
+      "description": "Local-first context engine that gives AI agents persistent, shared memory. Captures your real workflow, mines repeatable patterns, and serves past decisions back to agents like Claude, Codex, and Curs"
+    },
+    {
+      "name": "projectopensea--opensea-cli",
+      "source": "./projectopensea--opensea-cli",
+      "description": "Query the OpenSea API from the command line or programmatically"
     },
     {
       "name": "loiane--specs-driven-development",
@@ -422302,6 +422497,131 @@
       "name": "nextcommerceco--docs",
       "source": "./nextcommerceco--docs",
       "description": "Next Commerce user documentation and guides "
+    },
+    {
+      "name": "ahmalnoman--agentic-accounting",
+      "source": "./ahmalnoman--agentic-accounting",
+      "description": "agentic-accounting"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "buckybanaz--mandi",
+      "source": "./buckybanaz--mandi",
+      "description": "mandi"
+    },
+    {
+      "name": "tiago0051--zapmonitor-front",
+      "source": "./tiago0051--zapmonitor-front",
+      "description": "ZapMonitor-Front"
+    },
+    {
+      "name": "martins6--simple-beads",
+      "source": "./martins6--simple-beads",
+      "description": "A lightweight, local-only task management CLI with SQLite storage"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "aqmalsalleh--arabista-site",
+      "source": "./aqmalsalleh--arabista-site",
+      "description": "arabista-site"
+    },
+    {
+      "name": "servatusprime--ai-ops",
+      "source": "./servatusprime--ai-ops",
+      "description": "AI Governance Layer for Human-AI Collaboration. Artifact-first execution, authority gates, cross-platform agent support."
+    },
+    {
+      "name": "heiwa4126--h4-hello",
+      "source": "./heiwa4126--h4-hello",
+      "description": "A practice project for publishing Python projects created with uv to PyPI with PEP740 signatures."
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "mikez98--ml-prediction-pipeline",
+      "source": "./mikez98--ml-prediction-pipeline",
+      "description": "End-to-end ML time-series regression: CNN + GRU training, artifacts, and inference (GUI + notebooks)."
+    },
+    {
+      "name": "griffith-0-0--chat-app-devops",
+      "source": "./griffith-0-0--chat-app-devops",
+      "description": "chat-app-devops"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "kakha012--crypto-trading-bot-ai",
+      "source": "./kakha012--crypto-trading-bot-ai",
+      "description": "AI-powered crypto trading bot with Groq reasoning engine, multi-exchange support, and advanced analytics"
+    },
+    {
+      "name": "igabhix001--remix-of-wonder-forge",
+      "source": "./igabhix001--remix-of-wonder-forge",
+      "description": "remix-of-wonder-forge"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "ai-frendly-datahub--paperradar",
+      "source": "./ai-frendly-datahub--paperradar",
+      "description": "PaperRadar"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "webwash--ww-daisyui-starter",
+      "source": "./webwash--ww-daisyui-starter",
+      "description": "ww_daisyui_starter"
+    },
+    {
+      "name": "spoonfloor--favorite-eats",
+      "source": "./spoonfloor--favorite-eats",
+      "description": "favorite-eats"
+    },
+    {
+      "name": "sdkwork-cloud--sdkwork-sdk-commons",
+      "source": "./sdkwork-cloud--sdkwork-sdk-commons",
+      "description": "sdkwork-sdk-commons"
+    },
+    {
+      "name": "excerpttechnologies--book-app",
+      "source": "./excerpttechnologies--book-app",
+      "description": "book_app"
+    },
+    {
+      "name": "robjohncolson--agent",
+      "source": "./robjohncolson--agent",
+      "description": "Agent"
+    },
+    {
+      "name": "austpic--aust-central",
+      "source": "./austpic--aust-central",
+      "description": "aust-central"
+    },
+    {
+      "name": "mikeyvk--ypsia",
+      "source": "./mikeyvk--ypsia",
+      "description": "AI-powered training, nutrition and weekly planning \u2014 powered by Garmin data and Gemini"
     }
   ]
 }
