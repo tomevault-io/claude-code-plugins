@@ -51669,6 +51669,11 @@
       "description": "langchain-google"
     },
     {
+      "name": "anywhere-labs--deepseek-harness-desktop",
+      "source": "./anywhere-labs--deepseek-harness-desktop",
+      "description": "\u57fa\u4e8e\u5b98\u65b9 DeepSeek Harness \u6253\u9020\u7684 Electron \u684c\u9762\u7aef\uff0c\u6df1\u5ea6\u9002\u914d macOS \u548c Windows\uff0c\u63d0\u4f9b\u6700\u4f73\u7684\uff0c\u5f00\u7bb1\u5373\u7528\u7684\u4f53\u9a8c\u3002"
+    },
+    {
       "name": "frontman-ai--frontman",
       "source": "./frontman-ai--frontman",
       "description": "The AI agent that lives in your framework/browser"
@@ -139579,6 +139584,11 @@
       "description": "Windows Codex Desktop multi-account via AuthSwap. Shared workspace, separate ChatGPT logins."
     },
     {
+      "name": "awaker-ote--wakegpt",
+      "source": "./awaker-ote--wakegpt",
+      "description": "A local-first desktop app for quick capture, managed Markdown notebooks, and reusable ChatGPT/Codex context. Currently verified on macOS."
+    },
+    {
       "name": "eduardo-sl--go-agent-skills",
       "source": "./eduardo-sl--go-agent-skills",
       "description": "Curated AI agent skills for Go projects."
@@ -174719,6 +174729,11 @@
       "description": "cairn"
     },
     {
+      "name": "oracle--vecdb-python-sdk",
+      "source": "./oracle--vecdb-python-sdk",
+      "description": "Python SDK for vector search, RAG, and AI agents on Oracle AI Database, including Autonomous AI Vector Database deployments."
+    },
+    {
       "name": "aregowe--magento2-module-polyshell-protection",
       "source": "./aregowe--magento2-module-polyshell-protection",
       "description": "Comprehensive defense-in-depth Magento 2 module that closes the PolyShell unrestricted file upload vulnerability (APSB25-94) \u2014 blocking polyglot webshell uploads across eight interception layers inclu"
@@ -188034,6 +188049,11 @@
       "description": "A gh CLI extension that generates and verifies the GitHub Actions dependency lockfile, pinning every action your workflows use to an exact commit."
     },
     {
+      "name": "astrbot-elementary-school--astrbot-plugin-rsshub",
+      "source": "./astrbot-elementary-school--astrbot-plugin-rsshub",
+      "description": "\u591a\u5e73\u53f0RSS\u8ba2\u9605\u63a8\u9001\u63d2\u4ef6\uff0c\u652f\u6301\u5931\u8d25\u961f\u5217\u91cd\u8bd5\u3001\u591aBOT\u53bb\u91cd\u3001\u5e73\u53f0\u6570\u636e\u5171\u4eab\u3001\u667a\u80fd\u53d1\u9001\u7b56\u7565\uff0cLLM\u5de5\u5177\u8c03\u7528\uff0c\u8ba9\u4f60\u7684BOT\u6210\u4e3a\u4fe1\u606f\u805a\u5408\u4e2d\u5fc3\u3002"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -195067,6 +195087,11 @@
       "name": "jjdsnt--bellatrix",
       "source": "./jjdsnt--bellatrix",
       "description": "A bare metal generic Amiga machine emulation for raspberry pi 3B"
+    },
+    {
+      "name": "lunarako--shopalign",
+      "source": "./lunarako--shopalign",
+      "description": "Shopping agent research project"
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -209799,6 +209824,11 @@
       "description": "Think first, then code. Where Claude Code and Codex jump straight to writing, this stays review-first: a code reviewer, security scanner, root-cause debugger, and code generator, all in one shell-nati"
     },
     {
+      "name": "getopenpost--openpost",
+      "source": "./getopenpost--openpost",
+      "description": "Create, adapt, schedule, and publish content across platforms."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -218794,6 +218824,11 @@
       "description": "Harness Evals"
     },
     {
+      "name": "hikariming--dshfind",
+      "source": "./hikariming--dshfind",
+      "description": "DSH (DeepSeek Harness) \u539f\u7406\u5b66\u4e60\u3001\u63d2\u4ef6\u5e02\u573a\u4e0e\u6700\u4f73\u5b9e\u8df5 \u00b7 Learn DSH principles, plugin marketplace & best practices"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -226812,6 +226847,11 @@
       "name": "fenjo26--opengsc",
       "source": "./fenjo26--opengsc",
       "description": "Self-hosted Google Search Console dashboard \u2014 rank tracking, keyword research, AI-visibility audits and an AI SEO content suite. Includes a 40-tool MCP server, so Claude Code or Cursor works with your"
+    },
+    {
+      "name": "christophercruz98112--webhackersweapons",
+      "source": "./christophercruz98112--webhackersweapons",
+      "description": "WebHackersWeapons"
     },
     {
       "name": "hyaway--hyaway",
@@ -244329,6 +244369,11 @@
       "description": "  YAML hook automation for the PI coding agent: tool guards, session hooks, prompts, notifications, and bash actions."
     },
     {
+      "name": "kyzhxl--deepseek-harness-snowsalt",
+      "source": "./kyzhxl--deepseek-harness-snowsalt",
+      "description": "deepseek-harness-snowsalt"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -252387,6 +252432,11 @@
       "name": "taovc--pr-cockpit",
       "source": "./taovc--pr-cockpit",
       "description": "Local AI PR workbench \u2014 Claude/Codex review in isolated git worktrees, human-gated GitHub comments"
+    },
+    {
+      "name": "zasenjc--dsh-plugins-store",
+      "source": "./zasenjc--dsh-plugins-store",
+      "description": "\u81ea\u52a8\u6536\u5f55\u548c\u5206\u7c7b GitHub dsh-plugin Topic \u9879\u76ee\u7684\u9759\u6001\u76ee\u5f55\u7f51\u7ad9"
     },
     {
       "name": "makenowjust--naraku",
@@ -264202,6 +264252,51 @@
       "name": "dcc-mcp--dcc-mcp-houdini",
       "source": "./dcc-mcp--dcc-mcp-houdini",
       "description": "SideFX Houdini adapter for the DCC Model Context Protocol"
+    },
+    {
+      "name": "ningbainb--deepseek-harness-desktop",
+      "source": "./ningbainb--deepseek-harness-desktop",
+      "description": "Lossless Windows desktop app for DeepSeek Harness with the complete DSH Web UI, plugins, skins, and skill dock"
+    },
+    {
+      "name": "agenticlab-team--web",
+      "source": "./agenticlab-team--web",
+      "description": "\u4e00\u4e2a\u5fae\u4fe1\u7fa4\u793e\u533a\u7684\u7ad9\u5185\u95e8\u6237\uff1a\u7fa4\u804a\u5b58\u6863\u4e0e\u5168\u6587\u68c0\u7d22\uff0c\u52a0\u4e0a\u8bba\u575b\u3001\u79ef\u5206\u3001\u79f0\u53f7\u3001\u5f00\u653e API \u4e0e GitHub \u751f\u6001\u3002\u53ea\u6709\u7fa4\u6210\u5458\u80fd\u767b\u5f55\u3002"
+    },
+    {
+      "name": "omdsh-dev--dsh-lark",
+      "source": "./omdsh-dev--dsh-lark",
+      "description": "Lark/Feishu IM bot channel for DeepSeek Harness: chats drive agents, replies and approvals return as messages and cards | \u98de\u4e66 DeepSeek Harness \u63d2\u4ef6"
+    },
+    {
+      "name": "vgmakeev--katana",
+      "source": "./vgmakeev--katana",
+      "description": "Source-free architecture maps and deterministic polyglot refactoring for AI coding agents"
+    },
+    {
+      "name": "an2tha--onerep",
+      "source": "./an2tha--onerep",
+      "description": "A simple, yet effective working tracking solution"
+    },
+    {
+      "name": "cyber-dash-tech--revela",
+      "source": "./cyber-dash-tech--revela",
+      "description": "a smart plugin for generating slide deck"
+    },
+    {
+      "name": "kolarorz--virt-table",
+      "source": "./kolarorz--virt-table",
+      "description": "virt-table"
+    },
+    {
+      "name": "pamelafox--mcp-for-postgres-db-demo",
+      "source": "./pamelafox--mcp-for-postgres-db-demo",
+      "description": "Demonstration MCP server for Posette talk: \"An MCP for your Postgres DB\""
+    },
+    {
+      "name": "2kdarki--codex-mem",
+      "source": "./2kdarki--codex-mem",
+      "description": "A Codex plugin that automatically captures everything Codex does during your coding sessions, compresses it with AI (using Codex's agent-sdk), and injects relevant context back into future sessions."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -296184,6 +296279,101 @@
       "description": "harvard-portfolio"
     },
     {
+      "name": "jangtrinh--design-os",
+      "source": "./jangtrinh--design-os",
+      "description": "DESIGN:OS \u2014 describe what you want in plain words, get production-grade, on-system UI back. Multi-runtime design CLI: deterministic ui kernel, design-os conductor, Figma hand, machine taste gates."
+    },
+    {
+      "name": "shanvision-star--a-share-quant-selector-stock",
+      "source": "./shanvision-star--a-share-quant-selector-stock",
+      "description": "Optimization and Improvement of the Strategy Based on the GitHub Repository: \u201chttps://github.com/Dzy-HW-XD/a-share-quant-selector\u201c"
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "pekochan069--pi-vimmode",
+      "source": "./pekochan069--pi-vimmode",
+      "description": "Vim mode for pi agent"
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "medarc-ai--amfv",
+      "source": "./medarc-ai--amfv",
+      "description": "Agentic Medical Fact Verifier"
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "geekdojo--rasputin-control-plane",
+      "source": "./geekdojo--rasputin-control-plane",
+      "description": "The brain of Rasputin, the open-source homelab cluster system: single-binary Go API + web UI + node agent. Passkey auth, atomic A/B updates, Compose apps"
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "zeke--nice-ass-captions",
+      "source": "./zeke--nice-ass-captions",
+      "description": "Burn stylish captions into videos using whisper and ffmpeg. Runs locally. Powered by ASS\u2122"
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "fariello--ocman",
+      "source": "./fariello--ocman",
+      "description": "Administer, maintain, and repair your OpenCode agentic environment: sessions, database, and config."
+    },
+    {
+      "name": "ces-ltd--titanclip",
+      "source": "./ces-ltd--titanclip",
+      "description": "AI Company Orchestration Platform \u2014 Deploy governed teams of autonomous AI agents with Runtime Agentic IAM, credential vaults, heartbeat orchestration, and enterprise security. Built on Paperclip."
+    },
+    {
+      "name": "openbkn-ai--bkn-sdk",
+      "source": "./openbkn-ai--bkn-sdk",
+      "description": "bkn-sdk"
+    },
+    {
+      "name": "xiaoy233--cc-switch-remote",
+      "source": "./xiaoy233--cc-switch-remote",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+    },
+    {
+      "name": "asago-ai--asago-policy-mapper",
+      "source": "./asago-ai--asago-policy-mapper",
+      "description": "asago-policy-mapper"
+    },
+    {
+      "name": "rerodrigues--nx-remote-cache-server",
+      "source": "./rerodrigues--nx-remote-cache-server",
+      "description": "Free NX Self-hosted Remote Cache solution"
+    },
+    {
+      "name": "sinanata--unreal-umg-design-system",
+      "source": "./sinanata--unreal-umg-design-system",
+      "description": "A drop-in design system for Unreal Engine UMG: design tokens, themed C++ widgets, 120 vector icons, and live dark/light theming \u2014 with zero content assets required."
+    },
+    {
+      "name": "leeyudok--claude-scaffold",
+      "source": "./leeyudok--claude-scaffold",
+      "description": "Fork-and-fill \ubbf8\ub2c8\uba40 \ubd80\ud2b8\uc2a4\ud2b8\ub7a9 \u2014 Claude Code\uc6a9 .claude/ \uad6c\uc131 + \uac15\uc81c \uaddc\uce59 \ud2f0\uc5b4(P0/P1/P2) + \uc2a4\ud0dd \ud504\ub9ac\uc14b pre-commit \uac8c\uc774\ud2b8"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -315287,6 +315477,56 @@
       "name": "midagedev--gadak",
       "source": "./midagedev--gadak",
       "description": "Your Jira and Confluence, mirrored into one local SQLite file \u2014 web UI, TUI, desktop app, and agent SQL. Instant search, offline, one binary."
+    },
+    {
+      "name": "pandanocturne--obsidian-deck-to-anki",
+      "source": "./pandanocturne--obsidian-deck-to-anki",
+      "description": "Deck To Anki \u662f Obsidian \u4e2d\u7528\u6765\u5feb\u901f\u5236\u4f5c\u6210Anki\u724c\u7ec4\u7684\u63d2\u4ef6\uff0c\u901a\u8fc7 AnkiConnect \u5c06\u7b14\u8bb0\u63a8\u9001\u5230 Anki\u3002\u53ef\u4ee5\u5355\u5411\u540c\u6b65\u3001\u66f4\u65b0\u3001\u4fee\u6539\u5361\u7247\uff0c\u4ee5\u53ca\u53cd\u5411\u5b9a\u4f4d\u5230 Obsidian \u5361\u7247\u6240\u5728\u7684\u7b14\u8bb0\u3001\u6807\u9898\u3001\u5757\u3002"
+    },
+    {
+      "name": "aling-lingxi--jianghun-shuyin",
+      "source": "./aling-lingxi--jianghun-shuyin",
+      "description": "jianghun-shuyin"
+    },
+    {
+      "name": "neon-solutions--neon-herdr",
+      "source": "./neon-solutions--neon-herdr",
+      "description": "The official Neon Herdr Plugin"
+    },
+    {
+      "name": "everettjf--vellune",
+      "source": "./everettjf--vellune",
+      "description": "A native, read-only iOS and iPadOS container explorer powered by bad_query."
+    },
+    {
+      "name": "lumosframework--lumos-for-astro",
+      "source": "./lumosframework--lumos-for-astro",
+      "description": "A component and styling framework for building Astro sites, designed around efficiency, scalability and accessibility."
+    },
+    {
+      "name": "qi-mouren--vibecoding-orchestration",
+      "source": "./qi-mouren--vibecoding-orchestration",
+      "description": "Vibecoding workflow to ship real software: gates G0-G5, contract freeze, multi-agent orchestration. Codex skill + opencode adapter."
+    },
+    {
+      "name": "h2o2-io--autors",
+      "source": "./h2o2-io--autors",
+      "description": "The Ultimate Automobile Library"
+    },
+    {
+      "name": "zp-home--dsh-recommend",
+      "source": "./zp-home--dsh-recommend",
+      "description": "DSH \u63d2\u4ef6\u751f\u6001\u900f\u660e\u6392\u884c\u4e0e\u63a8\u8350\uff1a\u6bcf\u65e5\u81ea\u52a8\u6293\u53d6 dsh-plugin \u8bdd\u9898 + \u516c\u5f00\u8bc4\u5206\u6a21\u578b + \u6392\u884c/\u63a8\u8350\u63d2\u4ef6\u4e0e\u9759\u6001\u7ad9"
+    },
+    {
+      "name": "varshithvhegde--sharepad",
+      "source": "./varshithvhegde--sharepad",
+      "description": "Share multi-page markdown notebooks instantly \u2014 no signup, no login"
+    },
+    {
+      "name": "tryding-t--deepseek-harness-supportvisionmodel",
+      "source": "./tryding-t--deepseek-harness-supportvisionmodel",
+      "description": "\u57fa\u4e8edeepseek-harness \u4e8c\u6b21\u5f00\u53d1  \u652f\u6301\u5355\u72ec\u914d\u7f6e\u89c6\u89c9\u6a21\u578b\u7528\u6765\u8bfb\u56fe"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -427832,6 +428072,66 @@
       "name": "ios7jbpro--lyrictified-server",
       "source": "./ios7jbpro--lyrictified-server",
       "description": "A local hostable server for Lyrictified"
+    },
+    {
+      "name": "p6m7g8--p6-stratosphere",
+      "source": "./p6m7g8--p6-stratosphere",
+      "description": "P6M7G8: AWS Opinionated Convince Functions tied to p6-lz"
+    },
+    {
+      "name": "takak2166--kashiwaas",
+      "source": "./takak2166--kashiwaas",
+      "description": "KashiwaaS"
+    },
+    {
+      "name": "shisyamo4131--air-guard-v2",
+      "source": "./shisyamo4131--air-guard-v2",
+      "description": "air-guard-v2"
+    },
+    {
+      "name": "jojo-jie--jsonhandle",
+      "source": "./jojo-jie--jsonhandle",
+      "description": "safari jsonHandle"
+    },
+    {
+      "name": "whiskytoad--aviemore-pet-services",
+      "source": "./whiskytoad--aviemore-pet-services",
+      "description": "A business page for a local company"
+    },
+    {
+      "name": "yolkarian--sapien",
+      "source": "./yolkarian--sapien",
+      "description": "Customized Fork of SAPIEN Simulator"
+    },
+    {
+      "name": "ewanc26--bluesky-gradient",
+      "source": "./ewanc26--bluesky-gradient",
+      "description": "bluesky-gradient"
+    },
+    {
+      "name": "php-fast-forward--dev-tools",
+      "source": "./php-fast-forward--dev-tools",
+      "description": "Fast Forward Development Tools for PHP projects"
+    },
+    {
+      "name": "pcampos119104--website",
+      "source": "./pcampos119104--website",
+      "description": "My personal website"
+    },
+    {
+      "name": "suzumiyaaoba--emacs-config",
+      "source": "./suzumiyaaoba--emacs-config",
+      "description": "emacs-config"
+    },
+    {
+      "name": "kpedro--lume",
+      "source": "./kpedro--lume",
+      "description": "Blog Crescer Empreender - Inspira\u00e7\u00e3o para crescer e realizar."
+    },
+    {
+      "name": "lambda-feedback--chat-function-boilerplate",
+      "source": "./lambda-feedback--chat-function-boilerplate",
+      "description": "Boilerplate repository for chat functions written in Python"
     }
   ]
 }
