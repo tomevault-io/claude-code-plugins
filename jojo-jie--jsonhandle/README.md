@@ -7,13 +7,13 @@ safari jsonHandle
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [jojo-jie/jsonHandle](https://github.com/jojo-jie/jsonHandle).
+Original source: `AGENTS.md` in [jojo-jie/jsonHandle](https://github.com/jojo-jie/jsonHandle).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
