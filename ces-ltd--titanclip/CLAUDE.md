@@ -1,23 +1,30 @@
-# titanclip-ui
+# titanclip
 
-> TitanClip UI — React 19, Vite, Tailwind, theming
+> This file is **Cursor/project guidance for this repo**. It is **not** the same as onboarding copies shipped to users under `server/src/onboarding-assets/**/AGENTS.md`.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/titanclip-ui/SKILL.md
+Read and follow the instructions in .claude/skills/titanclip/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# TitanClip — agent context (repository)
 
-# UI (`@titanclip/ui`)
+This file is **Cursor/project guidance for this repo**. It is **not** the same as onboarding copies shipped to users under `server/src/onboarding-assets/**/AGENTS.md`.
 
-- Stack: **React 19**, **Vite**, **Tailwind** (see `ui/package.json`). Match existing components, layout, and **OKLCH** theme usage.
-- Prefer colocated patterns already used under `ui/src/`. Do not introduce duplicate design systems.
-- After substantive changes: `pnpm --filter @titanclip/ui typecheck`. Use the UI Vitest project when adding or fixing UI tests.
+## Quick facts
+
+- **Monorepo**: pnpm workspace — `server/`, `ui/`, `packages/*` (`@titanclip/*`).
+- **Tooling**: `pnpm run typecheck` before finishing TypeScript-affecting work; `pnpm run build:all` for full build from root.
+- **Rules**: Prefer scoped edits in the owning package; follow `.cursor/rules/*.mdc` for monorepo, security, server, UI, packages, and cursor-adapter specifics.
+
+## Do not conflate
+
+When improving **developer onboarding rules** for **end users**, edit the templates under `server/src/onboarding-assets/`. When improving **how the AI works in this codebase**, edit `.cursor/rules/` and this root `AGENTS.md`.
 
 ---
 > Source: [CES-Ltd/TitanClip](https://github.com/CES-Ltd/TitanClip) — distributed by [TomeVault](https://tomevault.io).
