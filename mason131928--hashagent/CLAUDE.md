@@ -1,0 +1,27 @@
+# hashagent
+
+> - Treat every tracked file as public. Never add personal, customer, employer, or debugging-session identifiers; local absolute paths; screenshots; credentials; or ephemeral deployment IDs.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/hashagent/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Open-source hygiene
+
+- Treat every tracked file as public. Never add personal, customer, employer, or debugging-session identifiers; local absolute paths; screenshots; credentials; or ephemeral deployment IDs.
+- Use neutral fixtures and reserved domains such as `example.com`. Multilingual fixtures are welcome when they test encoding or i18n behavior, but they must not refer to a real private entity.
+- Keep tests behavior-focused, deterministic, and portable. Do not depend on a contributor's machine, account, location, cached data, or a live third-party response.
+- Keep documentation and UI copy useful to forks. Hard-code HashAgent's canonical URLs only where the official deployed product or source repository genuinely requires them; otherwise prefer configuration or neutral examples.
+- Before handing off changes, run `npm run check`, `npm run build`, and `git diff --check`.
+
+---
+> Source: [mason131928/hashagent](https://github.com/mason131928/hashagent) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-15 -->
