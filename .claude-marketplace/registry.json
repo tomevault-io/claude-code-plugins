@@ -297014,6 +297014,21 @@
       "description": "Home Assistant Quickshell plugin for Omarchy 4"
     },
     {
+      "name": "multix0--localdrive",
+      "source": "./multix0--localdrive",
+      "description": "Open source, self-hosted Google Drive alternative. One Go binary runs the server, with Flutter apps for Android, iOS, Windows, macOS, Linux and the browser. Files, folders, versions, trash, link shari"
+    },
+    {
+      "name": "13kparkin--pivot",
+      "source": "./13kparkin--pivot",
+      "description": "Pivot (T3.14): T3 Code fork pivoted to omp \u2014 remote-ready agent control surface."
+    },
+    {
+      "name": "pablopunk--dot",
+      "source": "./pablopunk--dot",
+      "description": "Manage your apps, dotfiles, preferences, and their dependencies automagically"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -316447,6 +316462,16 @@
       "name": "s3ggie--miyoofin",
       "source": "./s3ggie--miyoofin",
       "description": "Native Jellyfin client for the Miyoo Mini Plus running OnionOS"
+    },
+    {
+      "name": "moasq--agentic-ship",
+      "source": "./moasq--agentic-ship",
+      "description": "Open-source toolkit for shipping real products with coding agents: durable product contracts, cross-host skills, resumable service connections, and deterministic verification gates."
+    },
+    {
+      "name": "eust-w--agentic-embedded-lab",
+      "source": "./eust-w--agentic-embedded-lab",
+      "description": "Agent-native embedded systems lab for pluggable simulation, evidence-driven validation, and controlled evolution."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -429207,6 +429232,11 @@
       "name": "atchim--dotfiles",
       "source": "./atchim--dotfiles",
       "description": "Personal dotfiles managed with chezmoi"
+    },
+    {
+      "name": "marcus-hooper--setup-crmsdk",
+      "source": "./marcus-hooper--setup-crmsdk",
+      "description": "GitHub Action that installs Microsoft.CrmSdk.CoreTools and sets the CRM_SDK_PATH environment variable"
     }
   ]
 }
