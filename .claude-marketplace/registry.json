@@ -316439,6 +316439,11 @@
       "description": "Safety-gated self-learning agent for Touhou 8 practice and route play"
     },
     {
+      "name": "s3ggie--miyoofin",
+      "source": "./s3ggie--miyoofin",
+      "description": "Native Jellyfin client for the Miyoo Mini Plus running OnionOS"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -429192,6 +429197,11 @@
       "name": "fischerdr--pyplayground",
       "source": "./fischerdr--pyplayground",
       "description": "pyplayground"
+    },
+    {
+      "name": "atchim--dotfiles",
+      "source": "./atchim--dotfiles",
+      "description": "Personal dotfiles managed with chezmoi"
     }
   ]
 }
