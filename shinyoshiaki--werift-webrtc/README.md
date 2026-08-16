@@ -1,6 +1,6 @@
 # werift-webrtc
 
-> Source: [shinyoshiaki/werift-webrtc](https://github.com/shinyoshiaki/werift-webrtc). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [shinyoshiaki/werift-webrtc](https://github.com/shinyoshiaki/werift-webrtc). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
