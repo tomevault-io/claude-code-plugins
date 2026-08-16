@@ -1,8 +1,6 @@
 # pydantic-ai
 
-> Source: [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) — distributed by [TomeVault](https://tomevault.io)
-
-AI Agent Framework, the Pydantic way
+> Source: [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,10 +15,10 @@ Original source: `AGENTS.md` in [pydantic/pydantic-ai](https://github.com/pydant
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-q -->
