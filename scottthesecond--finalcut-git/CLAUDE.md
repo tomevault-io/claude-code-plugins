@@ -1,18 +1,19 @@
-# platypus
+# project-purpose
 
-> When compiled, the script is built into two platypus apps – one that displays a progress bar style interface, and another that runs in the status bar.  The progress bar style one is bundled with the status bar one.
+> Finalcut-git (also known as UNFLab by the team at Unnamed Films) is a collection of bash scripts that are compiled into an appication by Platypus.  The application uses GIT to sync Final Cut libraries between different editors all working remotely.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/platypus/SKILL.md
+Read and follow the instructions in .claude/skills/project-purpose/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-When compiled, the script is built into two platypus apps – one that displays a progress bar style interface, and another that runs in the status bar.  The progress bar style one is bundled with the status bar one.
+Finalcut-git (also known as UNFLab by the team at Unnamed Films) is a collection of bash scripts that are compiled into an appication by Platypus.  The application uses GIT to sync Final Cut libraries between different editors all working remotely.  
+The bash scripts are stored inside /user/functions, and they are all compiled into one bash script with /user/compile.sh. 
 
 ---
 > Source: [scottthesecond/finalcut-git](https://github.com/scottthesecond/finalcut-git) — distributed by [TomeVault](https://tomevault.io).
