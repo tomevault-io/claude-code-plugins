@@ -1,6 +1,6 @@
 # workmux
 
-> Source: [raine/workmux](https://github.com/raine/workmux). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [raine/workmux](https://github.com/raine/workmux). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
