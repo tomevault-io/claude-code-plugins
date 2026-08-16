@@ -15,11 +15,6 @@ Original source: `AGENTS.md` in [cypress-io/cypress](https://github.com/cypress-
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (2)
-
-- [cypress](https://github.com/cypress-io/cypress/tree/main/.cursor/skills/building-cypress-binary/SKILL.md)
-- [cypress](https://github.com/cypress-io/cypress/tree/main/.cursor/skills/debugging-cypress-artifacts/SKILL.md)
-
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
 
 ---
