@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [hijohnnylin/neuronpedia](https://github.com/hij
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [hijohnnylin/neuronpedia](https://github.com/hijohnnylin/neuronpedia) — a repo with 1075+ stars on GitHub.
+From [hijohnnylin/neuronpedia](https://github.com/hijohnnylin/neuronpedia) — a repo with 1103+ stars on GitHub.
 
 ---
 
