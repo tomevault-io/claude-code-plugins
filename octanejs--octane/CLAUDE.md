@@ -1,16 +1,17 @@
-# octane
+# project
 
-> Octane is Dominic Gannaway's successor to Inferno: a React-shaped UI framework
+> Octane project overview and development guidelines
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/octane/SKILL.md
+Read and follow the instructions in .claude/skills/project/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 # Octane
 
