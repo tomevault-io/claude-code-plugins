@@ -203984,6 +203984,11 @@
       "description": "Oh My Tianshu \u662f\u4e00\u6b3e\u5b8c\u5168\u4f53\u5f00\u6e90 coding agent:\u5728 dsh harness \u57fa\u7840\u4e4b\u4e0a\u5e26\u89c6\u89c9\u3001\u8de8\u4f1a\u8bdd\u8bb0\u5fc6\u3001\u9a8c\u8bc1\u95e8\u3001agent \u8def\u7531\u3001\u8bed\u4e49 + \u56fe\u8c31\u4ee3\u7801\u68c0\u7d22\u3001\u6587\u4ef6\u56de\u6eda\u548c\u5168\u5c4f\u7ec8\u7aef UI\u2014\u2014\u5168\u90e8\u4ee5\u63d2\u4ef6\u7ec4\u5408\u3002\u5b83\u662f DeepSeek Harness(dsh)\u7684\u53cb\u597d MIT fork,\u4fdd\u7559\u4e0a\u6e38\u4e00\u5207\u7686\u63d2\u4ef6\u7684\u67b6\u6784,\u754c\u9762\u4ea4\u4e92\u5bf9\u6807 oh-my-pi\u3002"
     },
     {
+      "name": "kinora-dev--kinora",
+      "source": "./kinora-dev--kinora",
+      "description": "A dashboard for your Playwright reports, across projects and over time"
+    },
+    {
       "name": "lucianaib0318--geomind",
       "source": "./lucianaib0318--geomind",
       "description": "\ud83c\udf0d GeoMind\uff1a\u57fa\u4e8e\u98de\u4e66 CLI + \u817e\u8baf\u4f4d\u7f6e\u7684\u79d1\u7814\u4e0e\u4ea7\u4e1a\u5730\u7406\u60c5\u62a5\u53ef\u89c6\u5316 Skill"
@@ -299754,6 +299759,36 @@
       "description": "Comprehensive embedded motor control toolkit demonstrating Field-Oriented Control (FOC) and PID implementations for DC, BLDC, and PMSM motors"
     },
     {
+      "name": "chavaliadi--knowledge-hub",
+      "source": "./chavaliadi--knowledge-hub",
+      "description": "knowledge-hub"
+    },
+    {
+      "name": "huanlinoto--dsh-plugin-sleep",
+      "source": "./huanlinoto--dsh-plugin-sleep",
+      "description": "\u5411\u6a21\u578b\u66b4\u9732 sleep \u5de5\u5177\uff0c\u6309\u6307\u5b9a\u6beb\u79d2\u6682\u505c\u6267\u884c\u540e\u8fd4\u56de\uff0c\u652f\u6301\u53d6\u6d88/clamp | Exposes a sleep tool that pauses for specified ms then returns, with cancellation/clamping"
+    },
+    {
+      "name": "huanlinoto--dsh-plugin-auto-blame",
+      "source": "./huanlinoto--dsh-plugin-auto-blame",
+      "description": "\u6a21\u578b\u56de\u5408\u7ed3\u675f\u540e\u7528 LLM \u751f\u6210 3 \u6761\u6279\u5224\u6027\u8ddf\u8fdb\u5efa\u8bae\uff0c\u70b9\u51fb\u5373\u53d1\u9001 | After a model turn, an LLM generates 3 critical follow-up suggestions shown as click-to-send chips"
+    },
+    {
+      "name": "mirror4869--material-workbench",
+      "source": "./mirror4869--material-workbench",
+      "description": "Open-source, local-first creative asset workbench for Windows\u2014organize, find, review, and safely reuse media across creative projects."
+    },
+    {
+      "name": "zm-bad--headroom",
+      "source": "./zm-bad--headroom",
+      "description": "Know when your AI is about to forget \u2014 browser extension that monitors context window usage"
+    },
+    {
+      "name": "nutlope--ai-browser-games",
+      "source": "./nutlope--ai-browser-games",
+      "description": "Browser games by closed and open source models"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -319372,6 +319407,51 @@
       "name": "asakirilingo--asakiri-studio",
       "source": "./asakirilingo--asakiri-studio",
       "description": "Asakiri is a home for language learning. Teach deep, structured courses with rich media and exercises, then study them in a free learner app. Everything you make stays yours."
+    },
+    {
+      "name": "wryyyds7--dsh-web-ui",
+      "source": "./wryyyds7--dsh-web-ui",
+      "description": "DeepSeek Harness Web GUI \u76ae\u80a4\u96c6\u5408 \u2014 \u9cb8\u9c7c\u5a18\u4f20\u8bf4\u5b9a\u5236\u7248\uff08\u590d\u5236\u81ea zhu1090093659/dsh-web-ui\uff09"
+    },
+    {
+      "name": "cg1995--groundcat-format",
+      "source": "./cg1995--groundcat-format",
+      "description": "\u8d70\u5730\u732b\uff1a\u57fa\u4e8e LaoFeng-mouse/FlyingMouse Format \u7684\u6781\u7b80\u79bb\u7ebf\u683c\u5f0f\u8f6c\u6362\u5668\uff08MIT\uff09"
+    },
+    {
+      "name": "lilwhich--my-better-dsh",
+      "source": "./lilwhich--my-better-dsh",
+      "description": "for better dsh"
+    },
+    {
+      "name": "tao-zhi-1992--prompt-prism",
+      "source": "./tao-zhi-1992--prompt-prism",
+      "description": "See exactly what your agent sends to the model."
+    },
+    {
+      "name": "sgskills--sgxueai",
+      "source": "./sgskills--sgxueai",
+      "description": "\u300aAI \u7535\u5546\u57fa\u7840\u4ece\u5165\u95e8\u5230\u638c\u63e1\u300b\u516c\u76ca\u8bfe\u7a0b\u7f51\u7ad9 \u00b7 \u8bd7\u5149\u804aAI\u7535\u5546 \u51fa\u54c1 \u00b7 64 \u4e2a\u4ea4\u4e92\u77e5\u8bc6\u70b9\uff0c\u4ece Prompt \u5230\u4e1a\u52a1\u6d41\u667a\u80fd\u4f53"
+    },
+    {
+      "name": "huanlinoto--dsh-plugin-d399",
+      "source": "./huanlinoto--dsh-plugin-d399",
+      "description": "\u6a21\u578b\u751f\u6210\u65f6\u53f3\u4e0b\u89d2\u5f39\u51fa\u5c0f\u6e38\u620f\u83dc\u5355\uff08Wordle/\u6d88\u6d88\u4e50/192 \u6b3e\u53c2\u6570\u5316\u5c0f\u6e38\u620f\uff0c\u53ef\u62d3\u5c55\u6ce8\u518c\u8868\uff09 | Pops up a mini-game menu while the model generates (Wordle/Match-3/192 parametric mini-games, extensible registry)"
+    },
+    {
+      "name": "vikonix--mimora",
+      "source": "./vikonix--mimora",
+      "description": "Free, fully local pronunciation trainer for English and Spanish. TTS, speech recognition, phrase generation and scoring all run on your machine."
+    },
+    {
+      "name": "kevin-burns--claude-skills",
+      "source": "./kevin-burns--claude-skills",
+      "description": "A small collection of MIT-licensed Claude Code skills that I build"
+    },
+    {
+      "name": "dmatut7--codex-flow",
+      "source": "./dmatut7--codex-flow",
+      "description": "Dynamic workflow orchestration for Codex: parallel, resumable, journaled sub-agents for complex tasks."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -432322,6 +432402,16 @@
       "name": "tishanbansal26--aoc",
       "source": "./tishanbansal26--aoc",
       "description": "HPE BID"
+    },
+    {
+      "name": "cenweien--papertrade",
+      "source": "./cenweien--papertrade",
+      "description": "PaperTrade - multi-portfolio paper trading (private)"
+    },
+    {
+      "name": "delight0628--product-manual-agent",
+      "source": "./delight0628--product-manual-agent",
+      "description": "\ud83d\udccb AI Agent \u4ea7\u54c1\u8bf4\u660e\u4e66\u751f\u6210\u5668\uff1a\u81ea\u52a8\u5206\u6790\u4ea7\u54c1\u6587\u6863\u5e76\u751f\u6210\u6807\u51c6\u5316\u8bf4\u660e\u4e66"
     }
   ]
 }
