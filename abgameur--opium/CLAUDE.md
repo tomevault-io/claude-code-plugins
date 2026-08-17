@@ -1,13 +1,13 @@
-# opium
+# ultracite
 
-> Ultracite enforces strict type safety, accessibility standards, and consistent code quality for JavaScript/TypeScript projects using Biome's lightning-fast formatter and linter.
+> Ultracite Rules - AI-Ready Formatter and Linter
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/opium/SKILL.md
+Read and follow the instructions in .claude/skills/ultracite/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
