@@ -299734,6 +299734,16 @@
       "description": "Scraper OLX + extrator de specs de hardware (Dell OptiPlex / Lenovo ThinkCentre) com UI e API REST"
     },
     {
+      "name": "dragonbaba--dsh-routing-suite",
+      "source": "./dragonbaba--dsh-routing-suite",
+      "description": "Lightweight, localized task routing for DeepSeek Harness"
+    },
+    {
+      "name": "embedded-pro--e-foc",
+      "source": "./embedded-pro--e-foc",
+      "description": "Comprehensive embedded motor control toolkit demonstrating Field-Oriented Control (FOC) and PID implementations for DC, BLDC, and PMSM motors"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -319312,6 +319322,46 @@
       "name": "elizaos--asi",
       "source": "./elizaos--asi",
       "description": "ASI \u2014 continual reinforcement learning framework (The Alberta Plan) in JAX; trains elizaOS robot policies"
+    },
+    {
+      "name": "bailang1218--deepseek-harness-desktop",
+      "source": "./bailang1218--deepseek-harness-desktop",
+      "description": "Community-maintained self-contained Tauri desktop distribution for DeepSeek Harness"
+    },
+    {
+      "name": "mooling0602--dsh-web-file-uploader",
+      "source": "./mooling0602--dsh-web-file-uploader",
+      "description": "A file-upload plugin for the DeepSeek Harness web UI."
+    },
+    {
+      "name": "nichokas--grokbot-linux-port",
+      "source": "./nichokas--grokbot-linux-port",
+      "description": "grokbot-linux-port"
+    },
+    {
+      "name": "omrihaviv--devbox-fleet",
+      "source": "./omrihaviv--devbox-fleet",
+      "description": "Terraform + convergence scripts for a small fleet of per-developer cloud devboxes on GCP, reachable over Tailscale."
+    },
+    {
+      "name": "shriramkv--goose-recipe-graph",
+      "source": "./shriramkv--goose-recipe-graph",
+      "description": "goose-recipe-graph maps and validates sub_recipe dependencies across a whole recipe library, catching broken references, cycles, and mismatched parameter values. It renders the graph as Mermaid and gr"
+    },
+    {
+      "name": "ostapondo--plonk",
+      "source": "./ostapondo--plonk",
+      "description": "A macOS window manager with snap zones you draw yourself and workspaces that reopen your apps on the right monitor \u2014 plus on-device OCR, keep-awake, screenshot annotation, pointer tools, a shortcut gu"
+    },
+    {
+      "name": "ukr8b3g-cmyk--comfyui-h3-continuum",
+      "source": "./ukr8b3g-cmyk--comfyui-h3-continuum",
+      "description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility."
+    },
+    {
+      "name": "asakirilingo--asakiri-studio",
+      "source": "./asakirilingo--asakiri-studio",
+      "description": "Asakiri is a home for language learning. Teach deep, structured courses with rich media and exercises, then study them in a free learner app. Everything you make stays yours."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -432192,6 +432242,76 @@
       "name": "reyeschristiandave582-debug--pandora",
       "source": "./reyeschristiandave582-debug--pandora",
       "description": "Pandora"
+    },
+    {
+      "name": "akifah165--pln-mobile",
+      "source": "./akifah165--pln-mobile",
+      "description": "pln-mobile"
+    },
+    {
+      "name": "gmtaozi--careplus",
+      "source": "./gmtaozi--careplus",
+      "description": "\u4e00\u6b3e\u8bb0\u5f55\u8f66\u8f86\u80fd\u8017\u7684\u591a\u7528\u9014APP"
+    },
+    {
+      "name": "meeeeeeelijah--remindrappfinalized",
+      "source": "./meeeeeeelijah--remindrappfinalized",
+      "description": "A study planner, organizer and viewer application that helps with productivity, engagement of studies and convenience and organizing goals."
+    },
+    {
+      "name": "guasmo--gastrofront",
+      "source": "./guasmo--gastrofront",
+      "description": "gastrofront"
+    },
+    {
+      "name": "huove--peserta-magan-aktif",
+      "source": "./huove--peserta-magan-aktif",
+      "description": "peserta_magan_aktif"
+    },
+    {
+      "name": "nono-l--olive-rose-palm-aurora",
+      "source": "./nono-l--olive-rose-palm-aurora",
+      "description": "olive-rose-palm-aurora"
+    },
+    {
+      "name": "saikrishna1903--zuzhi",
+      "source": "./saikrishna1903--zuzhi",
+      "description": "ZUZHI"
+    },
+    {
+      "name": "vuicetea--pulsetech-admin",
+      "source": "./vuicetea--pulsetech-admin",
+      "description": "PulseTech-Admin"
+    },
+    {
+      "name": "sydneyhimmelbaum--concertcostsv4",
+      "source": "./sydneyhimmelbaum--concertcostsv4",
+      "description": "ConcertCostsv4"
+    },
+    {
+      "name": "reiganbeltz--concertcosts",
+      "source": "./reiganbeltz--concertcosts",
+      "description": "ConcertCosts"
+    },
+    {
+      "name": "caterpillhub--preppilot",
+      "source": "./caterpillhub--preppilot",
+      "description": "preppilot"
+    },
+    {
+      "name": "kwofieedward--edward-s-digital-canvas",
+      "source": "./kwofieedward--edward-s-digital-canvas",
+      "description": "edward-s-digital-canvas"
+    },
+    {
+      "name": "davidferj--agentic-platform-baseline",
+      "source": "./davidferj--agentic-platform-baseline",
+      "description": "Secure, spec-driven baseline for agentic platforms with Next.js, Python, GCP, Firebase, MLOps, and compliance foundations."
+    },
+    {
+      "name": "tishanbansal26--aoc",
+      "source": "./tishanbansal26--aoc",
+      "description": "HPE BID"
     }
   ]
 }
