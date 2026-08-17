@@ -299824,6 +299824,11 @@
       "description": "Browser games by closed and open source models"
     },
     {
+      "name": "liguobao--deepseek-harness-remote",
+      "source": "./liguobao--deepseek-harness-remote",
+      "description": "\u57fa\u4e8e DeepSeek Harness \u63d2\u4ef6\u673a\u5236\u7684\u591a\u7aef\u8fdc\u7a0b\u8bbf\u95ee\u65b9\u6848\uff0c\u8ba9\u684c\u9762\u7aef\u4e0e Android \u7aef\u5b89\u5168\u8fde\u63a5\u5e76\u64cd\u4f5c\u8fdc\u7a0b Harness\u3002\uff08A multi-device remote access solution built on the DeepSeek Harness plugin system, enabling desktop and Android clients to securely "
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -319512,6 +319517,21 @@
       "name": "ruashots--open-h3-ir",
       "source": "./ruashots--open-h3-ir",
       "description": "Open-source local implementation of MiniMax H3 Context-IR. Turn simple prompts into structured, validated H3 video briefs."
+    },
+    {
+      "name": "perrylink--dsh-mcp-panel",
+      "source": "./perrylink--dsh-mcp-panel",
+      "description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automati"
+    },
+    {
+      "name": "humblebanana--dsh-record-replay",
+      "source": "./humblebanana--dsh-record-replay",
+      "description": "DeepSeek Harness record macOS desktop workflows by demonstration and turn them into agent skills (open-record-replay skill + orr_* tools)"
+    },
+    {
+      "name": "madebywelch--guaca",
+      "source": "./madebywelch--guaca",
+      "description": "Open source Grok Bot alternative"
     },
     {
       "name": "cheerhuan--save-your-token",
