@@ -218119,6 +218119,11 @@
       "description": "\u8272\u56fe\u63d2\u4ef6\uff0c\u652f\u6301\u63a5\u5165\u4e0d\u540c\u7684API\u4e2d (lolicon, sexyan\u7b49\uff09\uff0c\u4e5f\u53ef\u4ee5\u6307\u5b9a\u81ea\u5df1\u7684\u81ea\u5b9a\u4e49API"
     },
     {
+      "name": "yeseverk--dnf90cn",
+      "source": "./yeseverk--dnf90cn",
+      "description": "DNF90CN"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -267262,6 +267267,26 @@
       "name": "averyyy--pi-dsh-minimal",
       "source": "./averyyy--pi-dsh-minimal",
       "description": "Pi adapter for official DeepSeek Harness minimal mode. V4 Pro thinks We need\u2026 / I need\u2026, not Let me\u2026"
+    },
+    {
+      "name": "ourongxing--omash",
+      "source": "./ourongxing--omash",
+      "description": "Clash TUI for Omarchy Quattro. Forked from clash-verge-rev, but TUI only."
+    },
+    {
+      "name": "shriramkv--goose-recipe-lint",
+      "source": "./shriramkv--goose-recipe-lint",
+      "description": "Validates Goose recipe files for schema errors, missing parameters/defaults, invalid requirements, extension configuration issues, and template mismatches. Understands YAML block scalars and Jinja-sty"
+    },
+    {
+      "name": "shriramkv--agentgateway-lint",
+      "source": "./shriramkv--agentgateway-lint",
+      "description": "Static linter for agentgateway configurations that detects security, reliability, and operational risks such as unsafe CORS, missing authentication/rate limits, hardcoded secrets, and exposed admin in"
+    },
+    {
+      "name": "shriramkv--agentsmd-coverage",
+      "source": "./shriramkv--agentsmd-coverage",
+      "description": "Report AGENTS.md coverage across a repo or monorepo, with an A-F grade you can gate on in CI."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
