@@ -7,12 +7,12 @@ React’s programming model, compiled. The successor to Inferno.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [octanejs/octane](https://github.com/octanejs/octane).
+Original source: `copilot-instructions.md` in [octanejs/octane](https://github.com/octanejs/octane).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
