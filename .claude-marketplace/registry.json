@@ -300649,6 +300649,16 @@
       "description": "silkpulse \u662f\u4e00\u4e2a AI \u539f\u751f\u7684\u8fdc\u7a0b\u8bbe\u5907\u8c03\u8bd5\u5668\uff1a\u8ba9 AI agent \u76f4\u63a5\u67e5\u770b\u3001\u8bca\u65ad\u3001\u64cd\u4f5c \u8fd0\u884c\u5728\u8fdc\u7a0b\u8bbe\u5907\u4e0a\u7684\u7f51\u9875\u2014\u2014\u7ebf\u4e0a H5\u3001\u79fb\u52a8\u7aef\u6d4f\u89c8\u5668\u3001webview\uff0c\u6240\u6709\u672c\u5730 DevTools \u591f\u4e0d\u7740\u7684\u5730\u65b9\u3002"
     },
     {
+      "name": "omdsh-dev--dsh-llm-fallbacks",
+      "source": "./omdsh-dev--dsh-llm-fallbacks",
+      "description": "An dsh plugin for role-based LLM retry&fallback strategy. \u57fa\u4e8e\u89d2\u8272\u7684\u6a21\u578b\u91cd\u8bd5\u5907\u7528\u7b56\u7565\u63d2\u4ef6"
+    },
+    {
+      "name": "lukeet332--immich-shared-albums",
+      "source": "./lukeet332--immich-shared-albums",
+      "description": "Share albums across Immich servers \u2014 Google-Photos-easy sharing where every family keeps their own server. Native in the stock apps: photos in seconds, full quality on demand, private per-person joins"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -320572,6 +320582,31 @@
       "name": "wangxin6x--autovideo-agent",
       "source": "./wangxin6x--autovideo-agent",
       "description": "Agent-friendly Markdown-to-video automation pipeline with reproducible rendering and pluggable media providers."
+    },
+    {
+      "name": "langrenlibai--notebooklm-skill-zh-cn",
+      "source": "./langrenlibai--notebooklm-skill-zh-cn",
+      "description": "NotebookLM research automation with a Simplified Chinese guide, implementation notes, and security boundaries."
+    },
+    {
+      "name": "hyqlovezxh--trailrag",
+      "source": "./hyqlovezxh--trailrag",
+      "description": "**Trace every clue \u2014 RAG with evidentiary, multi-hop, time-aware retrieval.**- *\u8bed\u6eafRAG \u00b7 \u5faa\u8ff9\u6bcf\u4e00\u5904\u7ebf\u7d22\uff1a\u5e26\u8bc1\u636e\u94fe\u3001\u591a\u8df3\u3001\u65f6\u5e8f\u611f\u77e5\u7684\u68c0\u7d22\u589e\u5f3a\u751f\u6210\u6846\u67b6*"
+    },
+    {
+      "name": "yanght27--gpu-perf-playground",
+      "source": "./yanght27--gpu-perf-playground",
+      "description": "GPU \u6027\u80fd\u4e0e AI Infra \u5b66\u4e60\u9879\u76ee\uff1aCUDA/Triton \u7b97\u5b50\u3001NCU/NSYS\u3001vLLM/SGLang/TRT-LLM/ms-swift\u3001PyTorch/DeepSpeed/ms-swift \u8bad\u7ec3\u3001\u5e76\u884c\u67b6\u6784"
+    },
+    {
+      "name": "langrenlibai--notebooklm-skill-zh-cn",
+      "source": "./langrenlibai--notebooklm-skill-zh-cn",
+      "description": "NotebookLM research automation with a Simplified Chinese guide, implementation notes, and security boundaries."
+    },
+    {
+      "name": "leobai03--tiance-tweet-card-generator",
+      "source": "./leobai03--tiance-tweet-card-generator",
+      "description": "\u5f00\u6e90\u7684\u63a8\u6587\u5361\u7247\u4e0e\u6296\u97f3\u56fe\u6587\u751f\u6210\u5668\uff0c\u652f\u6301AI\u7d20\u6750\u3001\u81ea\u7531\u6539\u5199\u3001\u80cc\u666f\u6d77\u62a5\u4e0ePNG\u5bfc\u51fa"
     },
     {
       "name": "cheerhuan--save-your-token",
