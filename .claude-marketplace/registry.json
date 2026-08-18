@@ -209824,6 +209824,11 @@
       "description": "\u57fa\u4e8e\u82b1\u751f\u5341\u4e09\u884c\u6d4b\u65b9\u6cd5\u8bba\u7684 MCP \u89e3\u9898\u8f85\u52a9\u5de5\u5177\uff0c\u4e3a Claude Code \u63d0\u4f9b\u7ed3\u6784\u5316\u9898\u578b\u8def\u7531\u548c\u7b54\u9898\u5f15\u5bfc"
     },
     {
+      "name": "op7418--pilot-harness",
+      "source": "./op7418--pilot-harness",
+      "description": "Pilot Harness \u2014 a CodePilot-inspired desktop client and plugin suite for DeepSeek Harness on macOS, Windows, and Linux."
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -255699,6 +255704,11 @@
       "description": "The UI your coding agent should have implemented. Runs on localhost, designed for massively parallel work."
     },
     {
+      "name": "daniel-p-green--nbj-write-clearly",
+      "source": "./daniel-p-green--nbj-write-clearly",
+      "description": "A clear-writing agent skill grounded in the Google Developer Documentation Style Guide."
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -267802,6 +267812,11 @@
       "name": "howmp--dsh-pentest",
       "source": "./howmp--dsh-pentest",
       "description": "\u9762\u5411 DeepSeek Harness\uff08dsh\uff09\u7684\u6e17\u900f\u6d4b\u8bd5\u6a21\u5f0f  @CloverSecLabs"
+    },
+    {
+      "name": "everettjf--veilpath",
+      "source": "./everettjf--veilpath",
+      "description": "A native container explorer and guarded file workspace for iPhone and iPad, powered by bad_query."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -300494,6 +300509,11 @@
       "description": "MaaKEDR \u96ea\u677e\u5c0f\u52a9\u624b\uff1a\u57fa\u4e8e\u89c6\u89c9 AI \u7684\u300c\u96ea\u677e\u300d\u81ea\u52a8\u5316\u5de5\u5177\uff0c\u7531 MaaFramework \u5f3a\u529b\u9a71\u52a8\uff01"
     },
     {
+      "name": "lilwhich--dsh-plugin-gather",
+      "source": "./lilwhich--dsh-plugin-gather",
+      "description": "for better dsh"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -320362,6 +320382,26 @@
       "name": "laizhixingxingdeli--coagenthub",
       "source": "./laizhixingxingdeli--coagenthub",
       "description": "CoAgentHub"
+    },
+    {
+      "name": "tommulkins--hermes-plugin-session-analyzer",
+      "source": "./tommulkins--hermes-plugin-session-analyzer",
+      "description": "Per-session analytics for Hermes Desktop: tokens, cache, cost, failures, files \u2014 plus Ask AI analysis"
+    },
+    {
+      "name": "cabbagefans--complex-platform",
+      "source": "./cabbagefans--complex-platform",
+      "description": "Open-source agentic SDLC harness for structured requirements and application design with Codex, AI-DLC, independent review, Product Design, and human approval gates."
+    },
+    {
+      "name": "hyqhyq3--dsh-mcp-manager",
+      "source": "./hyqhyq3--dsh-mcp-manager",
+      "description": "MCP server manager plugin for DeepSeek Harness: Settings \u2192 MCP page, OAuth (PKCE + dynamic client registration) or static-token auth, tools registered as mcp__<name>__*"
+    },
+    {
+      "name": "tycoding--beautiful-ui-vue",
+      "source": "./tycoding--beautiful-ui-vue",
+      "description": "A Vue 3 + TypeScript component library recreating Beautiful UI's AI interface components. Every component is self-contained and distributed as copy-paste source \u2014 no npm install, no build step for con"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -433587,6 +433627,101 @@
       "name": "abhishekgirdhar89--the-outlayer",
       "source": "./abhishekgirdhar89--the-outlayer",
       "description": "My personal website"
+    },
+    {
+      "name": "liliansprojects-hub--deletedretrolist",
+      "source": "./liliansprojects-hub--deletedretrolist",
+      "description": "organization & productivity app"
+    },
+    {
+      "name": "milesadkins--switchyard-stage-router-fireworks-eval",
+      "source": "./milesadkins--switchyard-stage-router-fireworks-eval",
+      "description": "Evaluating NVIDIA Switchyard's stage-router on Terminal-Bench 2.1 with Fireworks-served Kimi K3 + DeepSeek V4 Flash: codec bug, cache-collapse finding, cost/accuracy tradeoff"
+    },
+    {
+      "name": "cloudstill--novel-agent-obsidian",
+      "source": "./cloudstill--novel-agent-obsidian",
+      "description": "Controlled-context novel writing workflow with an Obsidian plugin and DeepSeek Responses API support."
+    },
+    {
+      "name": "kittisakkp--donuts-test",
+      "source": "./kittisakkp--donuts-test",
+      "description": "donuts-test"
+    },
+    {
+      "name": "sua918--living-hub",
+      "source": "./sua918--living-hub",
+      "description": "Personal life management hub built with Spring Boot"
+    },
+    {
+      "name": "atultanwar198--hunarhub",
+      "source": "./atultanwar198--hunarhub",
+      "description": "design mockup "
+    },
+    {
+      "name": "satyanarayana36--g-res",
+      "source": "./satyanarayana36--g-res",
+      "description": "g_res"
+    },
+    {
+      "name": "rishabhfit20261--pulse",
+      "source": "./rishabhfit20261--pulse",
+      "description": "Pulse"
+    },
+    {
+      "name": "flyzy2005--mintlify-docs",
+      "source": "./flyzy2005--mintlify-docs",
+      "description": "mintlify-docs"
+    },
+    {
+      "name": "missingno15--please-eject",
+      "source": "./missingno15--please-eject",
+      "description": "Fix \"one or more programs may be using it\" when ejecting external drives on macOS \u2014 interactive TUI, graceful quit, then eject"
+    },
+    {
+      "name": "itsjust-mei--kayle-bible",
+      "source": "./itsjust-mei--kayle-bible",
+      "description": "the ultimate kayle bible"
+    },
+    {
+      "name": "theartivator--caption-generator",
+      "source": "./theartivator--caption-generator",
+      "description": "caption-generator"
+    },
+    {
+      "name": "jewwywan--gpflux",
+      "source": "./jewwywan--gpflux",
+      "description": "gpflux"
+    },
+    {
+      "name": "ayles1--second-brain-agent",
+      "source": "./ayles1--second-brain-agent",
+      "description": "Private-by-default Telegram agent for Markdown and Obsidian notes"
+    },
+    {
+      "name": "shyelena611-maker--midnight-canvas",
+      "source": "./shyelena611-maker--midnight-canvas",
+      "description": "midnight-canvas"
+    },
+    {
+      "name": "chengjialu8888--taste-journal",
+      "source": "./chengjialu8888--taste-journal",
+      "description": "Local-first visual memory that distills images and video into evidence-backed design.md, tokens, HTML, and Figma specimens."
+    },
+    {
+      "name": "anaskhan1222223-coder--bright-public-school",
+      "source": "./anaskhan1222223-coder--bright-public-school",
+      "description": "Bright-Public-School"
+    },
+    {
+      "name": "andreaskueck--lensstudioprognozodemuf",
+      "source": "./andreaskueck--lensstudioprognozodemuf",
+      "description": "Tio chi estas la Lens-Studio-pakajho por Snapchat-lenso \"Prognozo de MUF\". Ghi eligas la maksimuman uzeblan frekvencon (MUF) inter la sendoloko de Europa24 kaj loko de la uzanto. Bazo estas la \"MINIMU"
+    },
+    {
+      "name": "sruja07--mess-wastage-ledger",
+      "source": "./sruja07--mess-wastage-ledger",
+      "description": "mess_wastage_ledger"
     }
   ]
 }
