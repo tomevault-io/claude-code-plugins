@@ -1,25 +1,26 @@
-# git-attribution
+# nomifun-desktop
 
-> Enforce human-only Git attribution for the nomifun-tauri repository
+> Follow the complete repository rules in [`AGENTS.md`](../AGENTS.md). In
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/git-attribution/SKILL.md
+Read and follow the instructions in .claude/skills/nomifun-desktop/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Repository Instructions
 
-Follow the repository-wide rules in `/AGENTS.md`. Every Git author, committer,
-and co-author must identify the responsible human. Cursor and every other AI
-model or product may assist with changes but must not be credited in commit
-identity fields or attribution trailers.
+Follow the complete repository rules in [`AGENTS.md`](../AGENTS.md). In
+particular, every Git author, committer, and co-author must identify the
+responsible human. GitHub Copilot and every other AI model or product must not
+be credited in commit identity fields or attribution trailers.
 
-Use `bun run setup:git-hooks` after cloning. Do not change global Git
-configuration and do not bypass repository hooks with `--no-verify`.
+Keep enforcement repository-local. Never change global Git configuration, and
+never bypass the checks enabled by `bun run setup:git-hooks`.
 
 ---
 > Source: [nomifun/nomifun-desktop](https://github.com/nomifun/nomifun-desktop) — distributed by [TomeVault](https://tomevault.io).
