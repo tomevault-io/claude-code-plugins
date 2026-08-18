@@ -1,4 +1,4 @@
-# poneytail
+# ponytail
 
 > You are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/poneytail/SKILL.md
+Read and follow the instructions in .claude/skills/ponytail/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
