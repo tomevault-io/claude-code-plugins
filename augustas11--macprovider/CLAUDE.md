@@ -1,0 +1,35 @@
+# codex-audit-lanes
+
+> Three-lane audits run via omc ask codex (Codex subscription CLI), never Cursor Task subagents
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/codex-audit-lanes/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Codex audit lanes — `omc ask codex` only
+
+The house audit loop is three Codex lanes: **code**, **security**, **architect**.
+Invoke them with the Codex subscription CLI through OMC. Do not treat Cursor
+`Task` subagents (`code-reviewer`, `security-reviewer`, `architect`) as those
+lanes. Do not call `codex` / `codex exec` directly.
+
+```bash
+omc ask codex --agent-prompt code-reviewer --prompt "<lane prompt>"
+omc ask codex --agent-prompt security-reviewer --prompt "<lane prompt>"
+omc ask codex --agent-prompt architect --prompt "<lane prompt>"
+```
+
+Run from the session/worktree root. Artifacts: `.omc/artifacts/ask/`.
+Gate: **0 CRITICAL, 0 HIGH, 0 MEDIUM** (LOW/INFO may carry explicitly).
+Review the **full fix diff** as it will land, not an incremental slice.
+
+---
+> Source: [Augustas11/macprovider](https://github.com/Augustas11/macprovider) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-18 -->
