@@ -1,0 +1,20 @@
+# agents
+
+> All agent instructions for this repo live in **`AGENTS.md`** at the repo root. Read that file (and the section relevant to your task) before making changes.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/agents/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+All agent instructions for this repo live in **`AGENTS.md`** at the repo root. Read that file (and the section relevant to your task) before making changes.
+
+---
+> Source: [devennn/senqo](https://github.com/devennn/senqo) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-17 -->
