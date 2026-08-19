@@ -1,4 +1,4 @@
-# laravel-boost
+# laravel12-jetstream-template
 
 > <laravel-boost-guidelines>
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/laravel-boost/SKILL.md
+Read and follow the instructions in .claude/skills/laravel12-jetstream-template/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -22,7 +22,7 @@ The Laravel Boost guidelines are specifically curated by Laravel maintainers for
 ## Foundational Context
 This application is a Laravel application and its main Laravel ecosystems package & versions are below. You are an expert with them all. Ensure you abide by these specific packages & versions.
 
-- php - 8.3.25
+- php - 8.4
 - laravel/fortify (FORTIFY) - v1
 - laravel/framework (LARAVEL) - v12
 - laravel/prompts (PROMPTS) - v0
