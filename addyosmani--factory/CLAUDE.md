@@ -1,0 +1,29 @@
+# factory
+
+> Read `CLAUDE.md` before changing this repository. It contains the project map, validation
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/factory/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Contributor guidance for Codex
+
+Read `CLAUDE.md` before changing this repository. It contains the project map, validation
+commands, and rules for keeping the Claude and Codex paths aligned.
+
+This root `AGENTS.md` is for developing the reference project. The file installed into user
+repositories is `template/AGENTS.md`; do not merge their responsibilities.
+
+Run `bash tests/run.sh` before committing. For documentation changes, follow the desktop
+paths in `GETTING_STARTED.md` as a new user would and keep product-specific claims linked to
+official documentation.
+
+---
+> Source: [addyosmani/factory](https://github.com/addyosmani/factory) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-20 -->
