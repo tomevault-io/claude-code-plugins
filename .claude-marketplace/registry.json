@@ -235669,6 +235669,11 @@
       "description": "Shell tools for building AIs, including a recursive LLM CLI. Of bash, by bash, for bash; it's shells all the way down."
     },
     {
+      "name": "logi-cmd--agent-guardrails",
+      "source": "./logi-cmd--agent-guardrails",
+      "description": "Checks AI-generated code changes before merge: scope, validation, risk, review evidence, and optional Verity receipts."
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -269307,6 +269312,11 @@
       "name": "ongunm--llama-moe-cache",
       "source": "./ongunm--llama-moe-cache",
       "description": "Expert cache + predictive prefetch for MoE inference in llama.cpp. A 12GB GPU can run a 120GB model at native speed. At 3% sparsity, a single workstation could theoretically run a 1T parameter model. "
+    },
+    {
+      "name": "midudev--tuweb-dev",
+      "source": "./midudev--tuweb-dev",
+      "description": "Tu decides c\u00f3mo es esta web"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
