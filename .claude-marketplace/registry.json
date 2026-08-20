@@ -200404,6 +200404,16 @@
       "description": "Agent skill for operating Multica through the local CLI"
     },
     {
+      "name": "toolmandata--llm-council",
+      "source": "./toolmandata--llm-council",
+      "description": "A full family of LLMs interacting and living their own lives"
+    },
+    {
+      "name": "toolmandata--llm-council",
+      "source": "./toolmandata--llm-council",
+      "description": "A full family of LLMs interacting and living their own lives"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -235649,6 +235659,16 @@
       "description": "Espressif \u5168\u751f\u6001\u7edf\u4e00 AI \u6280\u80fd\u3002Unified AI Skill for the entire Espressif ecosystem."
     },
     {
+      "name": "ayuanwong--dsh-ux",
+      "source": "./ayuanwong--dsh-ux",
+      "description": "\u957f\u4efb\u52a1\uff0c\u4e0d\u5237\u5c4f\uff1a\u5173\u952e\u8fdb\u5ea6\u6e05\u6670\u53ef\u89c1\uff0c\u5b8c\u6210\u540e\u81ea\u52a8\u6298\u53e0\uff0c\u8be6\u60c5\u968f\u65f6\u5c55\u5f00\u3002 Long agent tasks, without transcript clutter: focused progress, auto-folded history, details on demand."
+    },
+    {
+      "name": "laude-institute--shelly",
+      "source": "./laude-institute--shelly",
+      "description": "Shell tools for building AIs, including a recursive LLM CLI. Of bash, by bash, for bash; it's shells all the way down."
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -248504,6 +248524,21 @@
       "description": "a personal banking automation project. downloads or parses account, card, loan, fund, and trading records into local files."
     },
     {
+      "name": "fonsecabc--tars",
+      "source": "./fonsecabc--tars",
+      "description": "Self hosted second brain. "
+    },
+    {
+      "name": "wmn1525--ms-mail-manger",
+      "source": "./wmn1525--ms-mail-manger",
+      "description": "ms-mail-manger"
+    },
+    {
+      "name": "themuffinator--fnql",
+      "source": "./themuffinator--fnql",
+      "description": "FnQL \u2022 Fappin' QUAKE LIVE \u2022 Modernized sourceport for QUAKE LIVE"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -256767,6 +256802,51 @@
       "name": "god-s-perfect-idiot--metro-os",
       "source": "./god-s-perfect-idiot--metro-os",
       "description": "metro-os"
+    },
+    {
+      "name": "diegopeixoto--posterpilot",
+      "source": "./diegopeixoto--posterpilot",
+      "description": "PosterPilot is a self-hosted artwork manager for Plex, Jellyfin, and Emby. It scans your library, finds posters/backgrounds from multiple providers, and lets you apply them directly to your media serv"
+    },
+    {
+      "name": "gl20percentclub--japan-food-facilities",
+      "source": "./gl20percentclub--japan-food-facilities",
+      "description": "\u65e5\u672c\u306e\u98f2\u98df\u65bd\u8a2d\u306e\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf"
+    },
+    {
+      "name": "nithish-bharathwaj-n--queue-cure---ai",
+      "source": "./nithish-bharathwaj-n--queue-cure---ai",
+      "description": "QUEUE-CURE---AI"
+    },
+    {
+      "name": "pome-sh--digital-twins",
+      "source": "./pome-sh--digital-twins",
+      "description": "Self-hostable Digital Twins of Different APIs For E2E & Agent Simulation Testing"
+    },
+    {
+      "name": "notnull92--hera-agent-godot",
+      "source": "./notnull92--hera-agent-godot",
+      "description": "Let's go Hera, now is godot"
+    },
+    {
+      "name": "god-s-perfect-idiot--metro-os",
+      "source": "./god-s-perfect-idiot--metro-os",
+      "description": "metro-os"
+    },
+    {
+      "name": "mohamed-benoughidene--openreview-cli",
+      "source": "./mohamed-benoughidene--openreview-cli",
+      "description": "Privacy-first open-source contract review CLI. Multi-agent AI pipeline strips PII locally (fail-closed) before any cloud call. 21 contract types, 17 AI providers, local-first by default with Ollama. R"
+    },
+    {
+      "name": "quangthai--vision-bridge-mcp",
+      "source": "./quangthai--vision-bridge-mcp",
+      "description": "vision-bridge-mcp"
+    },
+    {
+      "name": "jasmine-liu-min--job-radar",
+      "source": "./jasmine-liu-min--job-radar",
+      "description": "27\u5c4a\u62db\u8058\u4fe1\u606f\u53f0\uff1a\u81ea\u52a8\u540c\u6b65\u5b98\u7f51/\u56fd\u8058/\u592e\u56fd\u4f01/\u9ad8\u6821/\u725b\u5ba2\u7ebf\u7d22\uff0c\u805a\u7126\u4ea7\u54c1\u3001AI\u4ea7\u54c1\u3001\u7b56\u7565\u3001\u6570\u636e\u4e0e\u7b97\u6cd5\u5c97\u4f4d\uff0c\u5e76\u901a\u8fc7 GitHub Actions \u63a8\u9001\u6bcf\u65e5\u65b0\u589e\u673a\u4f1a\u3002"
     },
     {
       "name": "makenowjust--naraku",
@@ -269172,6 +269252,61 @@
       "name": "madebyaris--rankmyseo",
       "source": "./madebyaris--rankmyseo",
       "description": "rankmyseo"
+    },
+    {
+      "name": "enkinex--enkinex-odcs",
+      "source": "./enkinex--enkinex-odcs",
+      "description": "Enkinex KCL Library for ODCS"
+    },
+    {
+      "name": "semantic-reasoning--verinote",
+      "source": "./semantic-reasoning--verinote",
+      "description": "Honest knowledge base: an LLM extracts source-backed facts, the wirelog logic engine verifies them. Local web app."
+    },
+    {
+      "name": "b4ryon--git-remote-cloak",
+      "source": "./b4ryon--git-remote-cloak",
+      "description": "Encrypted git remote helper: end-to-end encrypted mirror of a git repository on any ordinary git host (git-remote-gcrypt replacement)"
+    },
+    {
+      "name": "whitetowerai--cut-as-code",
+      "source": "./whitetowerai--cut-as-code",
+      "description": "Open-source agentic video editing skills \u2014 an AI-powered alternative to Opus Clip and CapCut"
+    },
+    {
+      "name": "pigeon-pub--pigeondeck",
+      "source": "./pigeon-pub--pigeondeck",
+      "description": "PigeonDeck"
+    },
+    {
+      "name": "akasecurity--claude-tools",
+      "source": "./akasecurity--claude-tools",
+      "description": "The clean slate a fresh Claude Code should start from \u2014 clean context, locked credentials, guarded egress. Isolated profile, pick-and-choose."
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "sign-protocol--sign-tools",
+      "source": "./sign-protocol--sign-tools",
+      "description": "Reference implementations and utilities for SIGN (Sigil Intelligence Graph Notation) \u2014 sign-ingest and sign-draft."
+    },
+    {
+      "name": "jamesiv4--sim-copter-remake",
+      "source": "./jamesiv4--sim-copter-remake",
+      "description": "A ground-up remake of Maxis\u2019s 1996 classic SimCopter, rebuilt in Unreal Engine 5 for modern PCs. Fly original and custom SimCity 2000 cities with restored missions, helicopters, radio, and gameplay, p"
+    },
+    {
+      "name": "brian-dai694--qianlima",
+      "source": "./brian-dai694--qianlima",
+      "description": "\u66f4\u805a\u7126\u666e\u901a\u4e1a\u52a1\u573a\u666f\u7684harnass"
+    },
+    {
+      "name": "ongunm--llama-moe-cache",
+      "source": "./ongunm--llama-moe-cache",
+      "description": "Expert cache + predictive prefetch for MoE inference in llama.cpp. A 12GB GPU can run a 120GB model at native speed. At 3% sparsity, a single workstation could theoretically run a 1T parameter model. "
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -302159,6 +302294,21 @@
       "description": "A community-run live map of Algeria's tree planting, tree care, and wildfire reports \u2014 every tree on one map, so the next person plants one too."
     },
     {
+      "name": "timoncool--minimax-music3-studio",
+      "source": "./timoncool--minimax-music3-studio",
+      "description": "Native local/cloud AI music studio powered by MiniMax Music 3"
+    },
+    {
+      "name": "ultralytics--skills",
+      "source": "./ultralytics--skills",
+      "description": "Agent skills for Ultralytics YOLO, covering models, datasets, training, tuning, inference, tracking, and export."
+    },
+    {
+      "name": "ibuildthecloud--winterm-ghostty",
+      "source": "./ibuildthecloud--winterm-ghostty",
+      "description": "Windows Terminal's shell with ghostty's engine behind the pane, selectable per profile"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -322342,6 +322492,11 @@
       "name": "mikker--wt",
       "source": "./mikker--wt",
       "description": "Ephemeral Git worktree manager"
+    },
+    {
+      "name": "otheru-ai--ember",
+      "source": "./otheru-ai--ember",
+      "description": "DeepSeek-V4-Flash inference for AMD Strix Halo"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -435812,6 +435967,86 @@
       "name": "ristyanugrah--risty-portfolio",
       "source": "./ristyanugrah--risty-portfolio",
       "description": "A modern personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS. Showcasing my projects, certifications, technical skills, and experience in Data Analytics, Business Intell"
+    },
+    {
+      "name": "tusharguptattn--assignmentse",
+      "source": "./tusharguptattn--assignmentse",
+      "description": "AssignmentSE"
+    },
+    {
+      "name": "zuozuo--zuozuo-github-io",
+      "source": "./zuozuo--zuozuo-github-io",
+      "description": "zuozuo's blog"
+    },
+    {
+      "name": "zuozuo--zuozuo-github-io",
+      "source": "./zuozuo--zuozuo-github-io",
+      "description": "zuozuo's blog"
+    },
+    {
+      "name": "zuozuo--zuozuo-github-io",
+      "source": "./zuozuo--zuozuo-github-io",
+      "description": "zuozuo's blog"
+    },
+    {
+      "name": "zuozuo--zuozuo-github-io",
+      "source": "./zuozuo--zuozuo-github-io",
+      "description": "zuozuo's blog"
+    },
+    {
+      "name": "zuozuo--zuozuo-github-io",
+      "source": "./zuozuo--zuozuo-github-io",
+      "description": "zuozuo's blog"
+    },
+    {
+      "name": "77rishit--neon-grid",
+      "source": "./77rishit--neon-grid",
+      "description": "neon-grid"
+    },
+    {
+      "name": "arielomesias--mdv8classics",
+      "source": "./arielomesias--mdv8classics",
+      "description": "mdv8classics"
+    },
+    {
+      "name": "mitsudolab--wacrm-workspace",
+      "source": "./mitsudolab--wacrm-workspace",
+      "description": "Self-hostable CRM template for WhatsApp \u2014 shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it."
+    },
+    {
+      "name": "crespo1301--kitchen-inventory-site",
+      "source": "./crespo1301--kitchen-inventory-site",
+      "description": "Marketing site for Kitchen Inventory \u2014 restaurant stock & ordering app"
+    },
+    {
+      "name": "lexyspro--rd-catering-food-safety",
+      "source": "./lexyspro--rd-catering-food-safety",
+      "description": "rd-catering-food-safety"
+    },
+    {
+      "name": "abhay2204--realestate2",
+      "source": "./abhay2204--realestate2",
+      "description": "realestate2"
+    },
+    {
+      "name": "geojero--bday-app",
+      "source": "./geojero--bday-app",
+      "description": "bday-app"
+    },
+    {
+      "name": "rebanadev--rebana-skills",
+      "source": "./rebanadev--rebana-skills",
+      "description": "Rebana-Skills"
+    },
+    {
+      "name": "erick-arch-bit--front-lms",
+      "source": "./erick-arch-bit--front-lms",
+      "description": "front-lms"
+    },
+    {
+      "name": "zihadzafarzisan--zisan-portfolio",
+      "source": "./zihadzafarzisan--zisan-portfolio",
+      "description": "zisan-portfolio"
     }
   ]
 }
