@@ -1,4 +1,4 @@
-# project
+# korea-public-data-mcp
 
 > K Public Data MCP 프로젝트 규칙 - 한국 공공데이터 MCP 서버 (해외 판례 보조 포함)
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/project/SKILL.md
+Read and follow the instructions in .claude/skills/korea-public-data-mcp/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
