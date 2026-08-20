@@ -1,18 +1,18 @@
-# auto-seo
+# autocommit
 
-> 每次生成新的blog或者更新blog的时候，自动帮我进行相应的seo优化
+> 每次code change之后自动帮我commit代码
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/auto-seo/SKILL.md
+Read and follow the instructions in .claude/skills/autocommit/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-每次生成新的blog或者更新blog的时候，自动帮我进行相应的seo优化
+每次code change之后自动帮我commit代码
 
 ---
 > Source: [zuozuo/zuozuo.github.io](https://github.com/zuozuo/zuozuo.github.io) — distributed by [TomeVault](https://tomevault.io).
