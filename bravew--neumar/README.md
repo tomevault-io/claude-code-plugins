@@ -7,13 +7,13 @@ Desktop AI agent workspace — source-available, free for personal/non-commercia
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [bravew/Neumar](https://github.com/bravew/Neumar).
+Original source: `AGENTS.md` in [bravew/Neumar](https://github.com/bravew/Neumar).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
