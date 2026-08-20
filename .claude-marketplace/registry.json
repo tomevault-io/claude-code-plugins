@@ -159164,6 +159164,11 @@
       "description": "iiif-manifest-editor"
     },
     {
+      "name": "rustedbytes--unlimited-ocr-server",
+      "source": "./rustedbytes--unlimited-ocr-server",
+      "description": "An inference server for the Unlimited-OCR model"
+    },
+    {
       "name": "izittmarvin--memcoach",
       "source": "./izittmarvin--memcoach",
       "description": "\u4e00\u4e2aAI \u9762\u8bd5\u6559\u7ec3\u5e73\u53f0\uff1a\u7ad9\u5728\u5de8\u4eba\u80a9\u8180\u4e0a\uff0c\u878d\u5408\u7b80\u5386\u9762\u8bd5\u3001GitHub \u9879\u76ee\u5206\u6790\u4e0e\u6301\u4e45\u5316\u753b\u50cf\u8bb0\u5fc6\u4e09\u5927\u667a\u80fd\u95ed\u73af\uff0c\u63d0\u4f9b\u52a8\u6001\u8ffd\u95ee\u3001\u6e90\u7801\u8bc1\u636e\u9a71\u52a8\u7684\u95ee\u9898\u751f\u6210\u4e0e\u6301\u7eed   \u8fdb\u5316\u7684\u4e2a\u6027\u5316\u8bad\u7ec3\u8def\u5f84\u3002"
@@ -173004,6 +173009,11 @@
       "description": "Minimal RLM harness"
     },
     {
+      "name": "locez--kotonoha",
+      "source": "./locez--kotonoha",
+      "description": "Linux desktop lyrics overlay which reads the current track and playback position from any MPRIS player, then shows synchronized lyrics in a translucent Wayland overlay."
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -177557,6 +177567,11 @@
       "name": "prasannajaga--inference-book",
       "source": "./prasannajaga--inference-book",
       "description": "everything you need to know about inference engineering"
+    },
+    {
+      "name": "coffee-man666--mommy-chaogu",
+      "source": "./coffee-man666--mommy-chaogu",
+      "description": "mommy-chaogu"
     },
     {
       "name": "aregowe--magento2-module-polyshell-protection",
@@ -184502,6 +184517,16 @@
       "name": "tao12345666333--ankaloop",
       "source": "./tao12345666333--ankaloop",
       "description": "Out-of-the-box coding-agent runtime for terminal, IDE, server, and Telegram: built-in tools, subagents, skills, memory, MCP/ACP, hooks, and automation."
+    },
+    {
+      "name": "activitylauncher--activitylaunchershizukuplugin",
+      "source": "./activitylauncher--activitylaunchershizukuplugin",
+      "description": "Plugin for ActivityLauncher that uses Shizuku for launching private Activities"
+    },
+    {
+      "name": "devswha--oh-my-gajae-code",
+      "source": "./devswha--oh-my-gajae-code",
+      "description": "Community plugin marketplace for Gajae Code (gjc). Workflow skills + slash commands, Claude Code / Codex compatible."
     },
     {
       "name": "skywind3000--gamesample",
@@ -192574,6 +192599,11 @@
       "description": "naruto-rpg"
     },
     {
+      "name": "charles7li--mochi-scout",
+      "source": "./charles7li--mochi-scout",
+      "description": "mochi-scout"
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -198139,6 +198169,11 @@
       "description": "A silly speech model - Pink Trombone automated"
     },
     {
+      "name": "yaowu-ai--snack-desktop",
+      "source": "./yaowu-ai--snack-desktop",
+      "description": "snack-desktop"
+    },
+    {
       "name": "jojobeans1981--ember-campfire-edition",
       "source": "./jojobeans1981--ember-campfire-edition",
       "description": "The introductory app for what will be  the next generation of dyslexia intervention using AI."
@@ -200364,6 +200399,11 @@
       "description": "TestPortal-client"
     },
     {
+      "name": "multica-ai--multica-cli",
+      "source": "./multica-ai--multica-cli",
+      "description": "Agent skill for operating Multica through the local CLI"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -202382,6 +202422,16 @@
       "name": "sarasithagalagama--hueflow-accessible-brand-color-studio",
       "source": "./sarasithagalagama--hueflow-accessible-brand-color-studio",
       "description": "A full-stack platform that helps designers and developers create complete, accessible color systems instead of only generating gradients."
+    },
+    {
+      "name": "blackleets--aegis",
+      "source": "./blackleets--aegis",
+      "description": "AI-enhanced OSINT and situational awareness platform with live map layers, browser recon tools, and fusion dossiers."
+    },
+    {
+      "name": "remocn--remocn-studio",
+      "source": "./remocn--remocn-studio",
+      "description": "A standalone, hosted in-browser video editor that assembles videos from first-party remocn components: drag components onto a typed timeline, configure them, preview in the browser, and render an MP4 "
     },
     {
       "name": "iamtouchskyer--logex",
@@ -204537,6 +204587,26 @@
       "name": "ventioninc--testportal-backend",
       "source": "./ventioninc--testportal-backend",
       "description": "TestPortal-backend"
+    },
+    {
+      "name": "exmergo--dex",
+      "source": "./exmergo--dex",
+      "description": "Dex is the agent-native analytics engineering toolkit. Point it at your warehouse and your dbt project. It learns the landscape, authors your transformations, and tells you exactly what to fix when th"
+    },
+    {
+      "name": "exmergo--dex",
+      "source": "./exmergo--dex",
+      "description": "Dex is the agent-native analytics engineering toolkit. Point it at your warehouse and your dbt project. It learns the landscape, authors your transformations, and tells you exactly what to fix when th"
+    },
+    {
+      "name": "exmergo--dex",
+      "source": "./exmergo--dex",
+      "description": "Dex is the agent-native analytics engineering toolkit. Point it at your warehouse and your dbt project. It learns the landscape, authors your transformations, and tells you exactly what to fix when th"
+    },
+    {
+      "name": "npcxl--bls-kox",
+      "source": "./npcxl--bls-kox",
+      "description": "React 19 + Ant Design Pro + Koa/Spring Boot \u53cc\u540e\u7aef\u7684\u4f01\u4e1a\u7ea7\u591a\u79df\u6237\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u6a21\u677f"
     },
     {
       "name": "lucianaib0318--geomind",
@@ -207609,6 +207679,36 @@
       "description": "Apple HIG Design Intelligence \u2014 generates Apple-quality UI across all platforms. 13 stacks, 11 AI platforms, 7 export formats, redesign scanner."
     },
     {
+      "name": "jrb00013--rudycanshoot",
+      "source": "./jrb00013--rudycanshoot",
+      "description": "MCP server + CLI that lets AI assistants take and view screenshots. Auto-installs into Claude Code, Cursor, Windsurf, Codex, Gemini CLI, OpenCode, Continue, Cline, and more."
+    },
+    {
+      "name": "jrb00013--rudycanshoot",
+      "source": "./jrb00013--rudycanshoot",
+      "description": "MCP server + CLI that lets AI assistants take and view screenshots. Auto-installs into Claude Code, Cursor, Windsurf, Codex, Gemini CLI, OpenCode, Continue, Cline, and more."
+    },
+    {
+      "name": "knaisoma--data-olympus",
+      "source": "./knaisoma--data-olympus",
+      "description": "Governance-grade, OKF-compatible knowledge-base format with a single-writer MCP server and CLI. Pre-release."
+    },
+    {
+      "name": "tsuru0805--idea-to-merge",
+      "source": "./tsuru0805--idea-to-merge",
+      "description": "\u4ece\u60f3\u6cd5\u5230\u843d\u5730\u5f00\u53d1\u6d41\u7a0b + codex \u5ba1\u67e5\u81ea\u52a8\u5316\u5f00\u53d1\u6a21\u677f"
+    },
+    {
+      "name": "jrb00013--rudycanshoot",
+      "source": "./jrb00013--rudycanshoot",
+      "description": "MCP server + CLI that lets AI assistants take and view screenshots. Auto-installs into Claude Code, Cursor, Windsurf, Codex, Gemini CLI, OpenCode, Continue, Cline, and more."
+    },
+    {
+      "name": "xiaxia1997--mini-claude-code-python",
+      "source": "./xiaxia1997--mini-claude-code-python",
+      "description": "Python implementation of coding agent core mechanisms, with architecture comparison across Claude Code / Kimi Code / Codex"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -210207,6 +210307,16 @@
       "name": "ventioninc--testportal-cli",
       "source": "./ventioninc--testportal-cli",
       "description": "TestPortal-cli"
+    },
+    {
+      "name": "dyse-sofqi--mdrazor",
+      "source": "./dyse-sofqi--mdrazor",
+      "description": "MDRazor"
+    },
+    {
+      "name": "dat999zx--knowl",
+      "source": "./dat999zx--knowl",
+      "description": "Knowledge Operating System for AI agents"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -213084,6 +213194,11 @@
       "description": "\ud83c\udf19 Android Manga Reader with 1200+ sources, auto parser detection, Android 6+"
     },
     {
+      "name": "z060049--meetingnotes",
+      "source": "./z060049--meetingnotes",
+      "description": "A universal meeting note-taker that records microphone and system audio, giving you notes from any meeting\u2014whether it\u2019s on Zoom, Google Meet, Teams, or anything else."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -215717,6 +215832,21 @@
       "name": "f-u-s-e-e--fusedevelopmentgroup",
       "source": "./f-u-s-e-e--fusedevelopmentgroup",
       "description": "FuseDevelopmentGroup"
+    },
+    {
+      "name": "riseup-oss--mcp",
+      "source": "./riseup-oss--mcp",
+      "description": "Official MCP server for RiseUp \u2014 programmatic read-only access to your cashflow data"
+    },
+    {
+      "name": "rxdt--loopgate-harness",
+      "source": "./rxdt--loopgate-harness",
+      "description": "A repo-native coding-agent loop harness for Claude, Codex, Copilot, and other CLI agents. Agents can edit. Gates decide what lands. You set the plan in motion. The agents take a prompt, and each itera"
+    },
+    {
+      "name": "lucian-02--antigravity2-win-linux-cn",
+      "source": "./lucian-02--antigravity2-win-linux-cn",
+      "description": "Antigravity 2.0 \u7b80\u4f53\u4e2d\u6587\u6c49\u5316\u5f15\u64ce\uff0c\u652f\u6301 Windows / Linux \u4e00\u952e\u5b89\u88c5\u3001\u52a8\u6001\u754c\u9762\u7ffb\u8bd1\u4e0e\u65e0\u635f\u8fd8\u539f\u3002"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -222179,6 +222309,31 @@
       "description": "custom pi setup, focused on collaborative workflow between human and agent"
     },
     {
+      "name": "shilo--pixellab-pip",
+      "source": "./shilo--pixellab-pip",
+      "description": "Meet PixelLab Pip: a tiny pup who fetches the right PixelLab workflow. He follows human commands to create, edit, and animate pixel assets, then sniffs out a bigger prompt, scouts for a useful tool, a"
+    },
+    {
+      "name": "dmmulroy--pi-mcp",
+      "source": "./dmmulroy--pi-mcp",
+      "description": "Pi extension for OpenCode-style MCP client support"
+    },
+    {
+      "name": "ivorycanvas--qamap",
+      "source": "./ivorycanvas--qamap",
+      "description": "Local zero-LLM PR QA designer: turns commits and diffs into behavior lifecycles, QA scenarios, and deterministic automation drafts."
+    },
+    {
+      "name": "shilo--pixellab-pip",
+      "source": "./shilo--pixellab-pip",
+      "description": "Meet PixelLab Pip: a tiny pup who fetches the right PixelLab workflow. He follows human commands to create, edit, and animate pixel assets, then sniffs out a bigger prompt, scouts for a useful tool, a"
+    },
+    {
+      "name": "leanprover--hex",
+      "source": "./leanprover--hex",
+      "description": "Verified computational algebra in Lean 4: aggregator for the released hex libraries"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -226192,6 +226347,21 @@
       "name": "aliasocracy--enoch-agentic-research-system",
       "source": "./aliasocracy--enoch-agentic-research-system",
       "description": "Agentic research control plane: queue state, worker preflight, wake-gated execution, evidence sync, dashboard, alerts, and AI-generated paper packaging."
+    },
+    {
+      "name": "motherduckdb--motherduck-blueprints",
+      "source": "./motherduckdb--motherduck-blueprints",
+      "description": "CLI, GitHub Action, and repository template for deploying MotherDuck Flights, Dives, and shares from Git"
+    },
+    {
+      "name": "primerhq--primer",
+      "source": "./primerhq--primer",
+      "description": "Self-hosted control plane for fleets of small, context-optimized agents: graphs, workspaces, channels, triggers, MCP."
+    },
+    {
+      "name": "halidecx--fmetrics",
+      "source": "./halidecx--fmetrics",
+      "description": "Fast image & video fidelity metrics in C, Zig"
     },
     {
       "name": "vm--nila-code",
@@ -230317,6 +230487,16 @@
       "name": "cyberash-dev--agent-sdd",
       "source": "./cyberash-dev--agent-sdd",
       "description": "CLI for Spec-Driven Development: freshness tokens, spec-lint, human-gated approvals, and one-command SDD methodology install for AI coding agents (Claude Code, Codex)."
+    },
+    {
+      "name": "malakoffhumanis--baldr-accessibility-scan",
+      "source": "./malakoffhumanis--baldr-accessibility-scan",
+      "description": "BALDR-accessibility-scan est un outil d'audit d'accessibilit\u00e9 num\u00e9rique con\u00e7u pour \u00e9valuer la conformit\u00e9 des sites web aux r\u00e9f\u00e9rentiels RGAA et WCAG"
+    },
+    {
+      "name": "stefanchen2026--chinese-legal-citation-skill",
+      "source": "./stefanchen2026--chinese-legal-citation-skill",
+      "description": "\u6309\u7167\u300a\u6cd5\u5b66\u5f15\u6ce8\u624b\u518c\u300b\u89c4\u5219\uff0c\u81ea\u52a8\u4ee5\u4fee\u8ba2\u6a21\u5f0f\u4fee\u6539\u6cd5\u5b66\u8bba\u6587\u811a\u6ce8\uff08\u6682\u65f6\u4e0d\u652f\u6301\u5c3e\u6ce8\u3001\u6682\u65f6\u4e0d\u652f\u6301\u5c0f\u8bed\u79cd\uff09"
     },
     {
       "name": "hyaway--hyaway",
@@ -235452,6 +235632,21 @@
       "name": "dlongx--ctf-agent",
       "source": "./dlongx--ctf-agent",
       "description": "CTF_Agent"
+    },
+    {
+      "name": "jeremy0dell--station",
+      "source": "./jeremy0dell--station",
+      "description": "A terminal-native control plane for AI-agent worktree sessions."
+    },
+    {
+      "name": "oliviaviaviavia--english-trainer",
+      "source": "./oliviaviaviavia--english-trainer",
+      "description": "\u5f00\u6e90\u672c\u5730\u7248 Language Reactor + ELSA\uff1a\u628a\u4efb\u610f\u89c6\u9891\u53d8\u6210\u542c\u529b / \u8ddf\u8bfb / \u53d1\u97f3\u8bad\u7ec3 \u00b7 Open-source local alternative \u2014 turn any video into listening, shadowing & pronunciation practice"
+    },
+    {
+      "name": "jasonyang170--esp-dev-skill",
+      "source": "./jasonyang170--esp-dev-skill",
+      "description": "Espressif \u5168\u751f\u6001\u7edf\u4e00 AI \u6280\u80fd\u3002Unified AI Skill for the entire Espressif ecosystem."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -241337,6 +241532,81 @@
       "name": "n8n-io--n8n-sandbox-service",
       "source": "./n8n-io--n8n-sandbox-service",
       "description": "n8n-sandbox-service"
+    },
+    {
+      "name": "daniloc--coherence",
+      "source": "./daniloc--coherence",
+      "description": "The missing spine for agent-driven coding. Create the structure you need to reduce the cost of changes, verification and fixes."
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
+    },
+    {
+      "name": "vinicius91carvalho--harness-engineering",
+      "source": "./vinicius91carvalho--harness-engineering",
+      "description": "Harness Engineering for Claude Code, Codex, Opencode, Pi and integration with Herdr"
+    },
+    {
+      "name": "vin-spiegel--htmldrop",
+      "source": "./vin-spiegel--htmldrop",
+      "description": "Publish HTML for agents \u2014 one API call, MCP server included"
+    },
+    {
+      "name": "openclaw--clawscan",
+      "source": "./openclaw--clawscan",
+      "description": "Composable security scanning harness for agent skills"
+    },
+    {
+      "name": "wang-youxin--ludamo-skills",
+      "source": "./wang-youxin--ludamo-skills",
+      "description": "ludamo-skills"
+    },
+    {
+      "name": "siuying--tswift",
+      "source": "./siuying--tswift",
+      "description": "Lightweight Swift in the browser."
+    },
+    {
+      "name": "giang6283623--minimal-vibe-coding-kit",
+      "source": "./giang6283623--minimal-vibe-coding-kit",
+      "description": "A lightweight, reusable kit of shared rules, skills, and agent/command prompts for AI-assisted coding across projects.  B\u1ed9 c\u00f4ng c\u1ee5 t\u1ed1i gi\u1ea3n, d\u00f9ng l\u1ea1i \u0111\u01b0\u1ee3c, t\u1ed5ng h\u1ee3p rules, skills v\u00e0 agent/command chun"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -248212,6 +248482,26 @@
       "name": "chendaqian--magiccenterhub",
       "source": "./chendaqian--magiccenterhub",
       "description": "Lenovo Magi Center HUD"
+    },
+    {
+      "name": "ddc-111--agentgame",
+      "source": "./ddc-111--agentgame",
+      "description": "AI\u9a71\u52a8\u7684\u53e4\u98ceRPG Agent\u6e38\u620f - \u5ba2\u6237\u7aef/\u670d\u52a1\u7aef/GM\u7ba1\u7406\u7aef"
+    },
+    {
+      "name": "runloom--pier",
+      "source": "./runloom--pier",
+      "description": "pier"
+    },
+    {
+      "name": "agentic-hil--agentic-hil",
+      "source": "./agentic-hil--agentic-hil",
+      "description": "Your AI agent develops firmware on its own: build, flash, stimulate real hardware, observe, fix - policy-gated MCP tools + pytest plugin."
+    },
+    {
+      "name": "wangwilly--octopusbeak",
+      "source": "./wangwilly--octopusbeak",
+      "description": "a personal banking automation project. downloads or parses account, card, loan, fund, and trading records into local files."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -256462,6 +256752,21 @@
       "name": "dtcxzyw--llvm-hackme",
       "source": "./dtcxzyw--llvm-hackme",
       "description": "llvm-hackme"
+    },
+    {
+      "name": "god-s-perfect-idiot--metro-os",
+      "source": "./god-s-perfect-idiot--metro-os",
+      "description": "metro-os"
+    },
+    {
+      "name": "god-s-perfect-idiot--metro-os",
+      "source": "./god-s-perfect-idiot--metro-os",
+      "description": "metro-os"
+    },
+    {
+      "name": "god-s-perfect-idiot--metro-os",
+      "source": "./god-s-perfect-idiot--metro-os",
+      "description": "metro-os"
     },
     {
       "name": "makenowjust--naraku",
@@ -268807,6 +269112,66 @@
       "name": "qiaohaojie--uniform-order",
       "source": "./qiaohaojie--uniform-order",
       "description": "Open-source online uniform shop for Australian schools and P&C committees"
+    },
+    {
+      "name": "sign-protocol--sign-tools",
+      "source": "./sign-protocol--sign-tools",
+      "description": "Reference implementations and utilities for SIGN (Sigil Intelligence Graph Notation) \u2014 sign-ingest and sign-draft."
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
+    },
+    {
+      "name": "madebyaris--rankmyseo",
+      "source": "./madebyaris--rankmyseo",
+      "description": "rankmyseo"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
