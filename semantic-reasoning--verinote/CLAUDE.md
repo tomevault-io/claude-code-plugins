@@ -1,0 +1,26 @@
+# verinote
+
+> - Do not commit real customer, company, person, document, or source data to this repository.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/verinote/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Repository Guidance
+
+## Data Privacy
+
+- Do not commit real customer, company, person, document, or source data to this repository.
+- Use synthetic fixtures and examples in code, tests, documentation, prompts, snapshots, and issue/PR text.
+- If a bug report requires demonstrating behavior from real input, reduce it to a synthetic minimal reproduction before adding it to the repository.
+- Before committing, search staged changes for real names, identifiers, document text, and copied source excerpts.
+
+---
+> Source: [semantic-reasoning/verinote](https://github.com/semantic-reasoning/verinote) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-19 -->
