@@ -1,4 +1,4 @@
-# memoria
+# memory-branching-patterns
 
 > USE WHEN evaluating technologies, isolating risky memory changes, or comparing alternative approaches using memory branches
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/memoria/SKILL.md
+Read and follow the instructions in .claude/skills/memory-branching-patterns/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -143,5 +143,5 @@ Always delete branches after merge or abandonment. Check with `memory_branches()
 Use `replace` when the branch contains validated corrections. Use `append` when the branch only adds new information and you want to preserve main's existing state. If you only want part of a branch, use `memory_apply` instead of either merge strategy.
 
 ---
-> Source: [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+> Source: [matrixorigin/memoria](https://github.com/matrixorigin/memoria) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-21 -->
