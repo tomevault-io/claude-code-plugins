@@ -1,0 +1,47 @@
+# klag
+
+> | Variable | Default | Notes |
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/klag/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Configuration
+
+## Common env vars
+
+| Variable | Default | Notes |
+|----------|---------|-------|
+| `KAFKA_BOOTSTRAP_SERVERS` | `localhost:9092` | |
+| `HTTP_PORT` | `8888` | |
+| `METRICS_REPORTER` | `none` | `prometheus`, `datadog`, `otlp` |
+| `METRICS_INTERVAL_MS` | `60000` | |
+| `METRICS_GROUP_FILTER` | `*` | glob include |
+| `METRICS_GROUP_EXCLUDE` | _(empty)_ | glob exclude |
+| `KLAG_CONFIG_FILE` | — | external `application.properties` |
+
+Any `KAFKA_X_Y_Z` env maps to `kafka.x.y.z` for AdminClient. Precedence: classpath props < external file < env.
+
+Feature toggles: `HOT_PARTITION_*`, `TIME_LAG_*`, `COMMIT_FRESHNESS_*`, `ISR_ENABLED`, `CONSUMER_MEMBER_LABELS_ENABLED`.
+
+## MCP (opt-in)
+
+- `MCP_ENABLED=false` by default; requires `METRICS_REPORTER` set (snapshot from metrics cycle)
+- Read-only; serves in-memory snapshot — never queries Kafka directly
+- Tools: `list_consumer_groups`, `get_consumer_group_lag`, `find_lagging_groups`, `diagnose`
+- Auth: `MCP_AUTH_TOKEN` → `Authorization: Bearer <token>`
+
+## OTLP
+
+HTTP only (port 4318). `OTEL_*` vars or Klag overrides (`OTLP_ENDPOINT`, `OTLP_HEADERS`, etc.). See `CLAUDE.md` for full list.
+
+---
+> Source: [themoah/klag](https://github.com/themoah/klag) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-23 -->
