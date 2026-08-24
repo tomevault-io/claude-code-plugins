@@ -1,17 +1,16 @@
 # hk
 
-> Tome by [jdx](https://github.com/jdx/hk) — distributed by [TomeVault](https://tomevault.io)
-
-git hooks and project lints
+> Tome by [jdx](https://github.com/jdx/hk), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [jdx/hk](https://github.com/jdx/hk).
+Original source: `` in [jdx/hk](https://github.com/jdx/hk).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
