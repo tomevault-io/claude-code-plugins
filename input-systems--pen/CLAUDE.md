@@ -1,31 +1,28 @@
-# pen-import-path-conventions
+# pen-security-quality-gates
 
-> Import path conventions for Pen source files
+> Security defaults and quality gates for Pen contributions
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pen-import-path-conventions/SKILL.md
+Read and follow the instructions in .claude/skills/pen-security-quality-gates/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Import Path Conventions
+# Security and Quality Gates
 
-- In Pen source files, use clean extensionless imports for local and workspace paths.
-- Do not add `.js`, `.ts`, `.tsx`, `.mjs`, or `.cjs` suffixes to relative TypeScript source imports.
-- Prefer:
-  - `./types`
-  - `../utils/normalize`
-  - `@pen/core`
-- Avoid:
-  - `./types.js`
-  - `../utils/normalize.ts`
-- Treat this as a source-authoring rule, not a blanket package rule.
-- If an external package's documented API requires an explicit extension on a package subpath import, keep the package-required form instead of rewriting it.
+- Default to safe boundaries: sanitize untrusted HTML, validate tool inputs, and enforce transport/payload checks.
+- Never assume trust for external, network, or process input; validate early and fail safely.
+- Keep changes aligned with acceptance criteria in `spec/` wave docs for the touched area.
+- For substantive changes, run the monorepo quality checks before completion:
+  - `pnpm build`
+  - `pnpm typecheck`
+  - `pnpm test`
+- For perf-sensitive paths, avoid regressions and respect benchmark expectations in `@pen/bench`.
 
 ---
 > Source: [input-systems/pen](https://github.com/input-systems/pen) — distributed by [TomeVault](https://tomevault.io).
