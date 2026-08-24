@@ -1,26 +1,25 @@
 # mcp-gateway
 
-> Source: [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway) — distributed by [TomeVault](https://tomevault.io)
-
-An envoy-based MCP Gateway that integrates with Istio and policy attachment mechanisms for authN, authZ, rate limiting and more.
+> Source: [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway).
+Original source: `` in [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway) — a repo with 66+ stars on GitHub.
+From [Kuadrant/mcp-gateway](https://github.com/Kuadrant/mcp-gateway) — a repo with 97+ stars on GitHub.
 
 ---
 
-Explore more instruction files on [TomeVault](https://tomevault.io) — the open index of AI config files for every platform.
+Explore more instruction files on [TomeVault](https://tomevault.io), the platform that grades AI instruction files and catches silent drift across every major tool.
 
 <!-- genome:d-e-s -->
