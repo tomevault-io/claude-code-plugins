@@ -1,33 +1,32 @@
-# architecture
+# data-model
 
-> Keep docs/ARCHITECTURE.md updated when app structure or data flow changes
+> Keep docs/DATA_MODEL.md updated when schema or RLS changes
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/architecture/SKILL.md
+Read and follow the instructions in .claude/skills/data-model/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Architecture documentation
+# Data model documentation
 
-Canonical reference: [`docs/ARCHITECTURE.md`](../../docs/ARCHITECTURE.md)
+Canonical reference: [`docs/DATA_MODEL.md`](../../docs/DATA_MODEL.md)
 
 Update when changing:
 
-- App bootstrap gates or provider tree (`App.tsx`)
-- Auth, bootstrap, or premium gate flow
-- React Query keys, persistence, or bundle fetch patterns
-- Service boundaries (client vs Edge Functions)
-- Realtime, import, or sync behavior
+- SQL migrations (`supabase/migrations/`)
+- RLS policies or household scope
+- TypeScript models in `src/types/models.ts`
+- Table/column usage in services that reflects schema changes
 
-Add a row to the **Changelog** section with the date and a one-line summary.
+Add a migration summary row and a **Changelog** entry with the date.
 
-Cross-update [`docs/DATA_MODEL.md`](../../docs/DATA_MODEL.md) if entity relationships or RLS scope change.
+Keep `src/types/models.ts` aligned with the latest migration.
 
 ---
 > Source: [cameronconspm/Listio](https://github.com/cameronconspm/Listio) — distributed by [TomeVault](https://tomevault.io).
