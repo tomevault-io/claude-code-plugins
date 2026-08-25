@@ -1,21 +1,20 @@
-# agent-readme
+# codebrix-platform-unicode
 
-> Project documentation and API reference for AI coding agents
+> This project's complete documentation for AI coding agents — including API reference, usage examples, installation instructions, common pitfalls, and architectural guidance — is maintained in a single file:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-readme/SKILL.md
+Read and follow the instructions in .claude/skills/codebrix-platform-unicode/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 This project's complete documentation for AI coding agents — including API reference, usage examples, installation instructions, common pitfalls, and architectural guidance — is maintained in a single file:
 
-→ **[../../AGENT-README.txt](../../AGENT-README.txt)**
+→ **[../AGENT-README.txt](../AGENT-README.txt)**
 
 Read that file in full before making changes to, or consuming, this library.
 
