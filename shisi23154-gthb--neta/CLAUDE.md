@@ -1,0 +1,23 @@
+# neta
+
+> - When changing this site, update `updates/index.html` with a dated history entry before publishing.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/neta/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project Notes
+
+- When changing this site, update `updates/index.html` with a dated history entry before publishing.
+- Password and access-control changes should be recorded as history, but the plain password must never be written into repository files, commit messages, or site content.
+- Keep the main portal, archive, quiz, chatbot, and updates navigation in sync when adding or renaming top-level sections.
+
+---
+> Source: [shisi23154-gthb/neta](https://github.com/shisi23154-gthb/neta) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-22 -->
