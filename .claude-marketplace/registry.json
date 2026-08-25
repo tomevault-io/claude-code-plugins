@@ -11239,6 +11239,11 @@
       "description": "\u7edd\u533a\u96f6 \u4e00\u6761\u9f99 | \u5168\u81ea\u52a8 | \u81ea\u52a8\u95ea\u907f | \u81ea\u52a8\u6bcf\u65e5 | \u81ea\u52a8\u7a7a\u6d1e | \u652f\u6301\u624b\u67c4"
     },
     {
+      "name": "lervag--vimtex",
+      "source": "./lervag--vimtex",
+      "description": "vimtex"
+    },
+    {
       "name": "ibelick--ui-skills",
       "source": "./ibelick--ui-skills",
       "description": "ui-skills"
@@ -34844,6 +34849,11 @@
       "description": "addon-designs"
     },
     {
+      "name": "dsh-tauri-desk--deepseek-harness-desktop",
+      "source": "./dsh-tauri-desk--deepseek-harness-desktop",
+      "description": "DeepSeek Harness Tauri \u684c\u9762\u7248 | Only 5mb installer, zero environment setup, preset plugins, Windows / macOS / Linux."
+    },
+    {
       "name": "activeagents--activeagent",
       "source": "./activeagents--activeagent",
       "description": "ActiveAgent Rails framework for Agent Apps"
@@ -41912,6 +41922,11 @@
       "name": "soaring-xiongkulu--easyaiot",
       "source": "./soaring-xiongkulu--easyaiot",
       "description": "easyaiot"
+    },
+    {
+      "name": "microsoft--winget-create",
+      "source": "./microsoft--winget-create",
+      "description": "winget-create"
     },
     {
       "name": "microsoft--winget-create",
@@ -60279,6 +60294,11 @@
       "description": "karpenter-provider-gcp"
     },
     {
+      "name": "simondanisch--bonito-jl",
+      "source": "./simondanisch--bonito-jl",
+      "description": "Bonito.jl"
+    },
+    {
       "name": "toss--react-simplikit",
       "source": "./toss--react-simplikit",
       "description": "A lightweight yet powerful library that provides various useful tools in React environments."
@@ -69602,6 +69622,11 @@
       "name": "lirantal--cypress-social-logins",
       "source": "./lirantal--cypress-social-logins",
       "description": "cypress-social-logins"
+    },
+    {
+      "name": "timschmidt--csgrs",
+      "source": "./timschmidt--csgrs",
+      "description": "csgrs"
     },
     {
       "name": "wordflowlab--article-writer",
@@ -102699,6 +102724,11 @@
       "description": "gptauthor"
     },
     {
+      "name": "droidconke--droidconkekotlin",
+      "source": "./droidconke--droidconkekotlin",
+      "description": "droidconKeKotlin"
+    },
+    {
       "name": "librae8226--nexus4cc",
       "source": "./librae8226--nexus4cc",
       "description": "Your Claude Code, Everywhere."
@@ -110457,6 +110487,11 @@
       "name": "neo4j-contrib--gds-agent",
       "source": "./neo4j-contrib--gds-agent",
       "description": "gds-agent"
+    },
+    {
+      "name": "zhzluke96--douyin-dl-user-js",
+      "source": "./zhzluke96--douyin-dl-user-js",
+      "description": "douyin-dl-user-js"
     },
     {
       "name": "xiashao--kaiyantool",
@@ -153579,6 +153614,11 @@
       "description": "buildkit-syft-scanner"
     },
     {
+      "name": "haoruilee--oh-my-mcode",
+      "source": "./haoruilee--oh-my-mcode",
+      "description": "oh-my-mcode"
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -187867,6 +187907,11 @@
       "name": "milzamsz--astro-cloudflare-starter",
       "source": "./milzamsz--astro-cloudflare-starter",
       "description": "Static Astro marketing + blog + docs starter for Cloudflare Pages. Markdown content, Starlight docs with full-text search, i18n-ready, SEO, light/dark \u2014 no CMS, no database."
+    },
+    {
+      "name": "chia1104--chia1104-dev",
+      "source": "./chia1104--chia1104-dev",
+      "description": "chia1104.dev"
     },
     {
       "name": "inureyes--gyeol",
@@ -306864,6 +306909,36 @@
       "description": "agent-nexus"
     },
     {
+      "name": "rainmanjam--poka-yoke",
+      "source": "./rainmanjam--poka-yoke",
+      "description": "Mistake-proofing for software. Shigeo Shingo's poka-yoke method as a Claude Code plugin: audit code for footguns, design APIs that resist misuse, install guardrails, turn incidents into devices."
+    },
+    {
+      "name": "rainmanjam--poka-yoke",
+      "source": "./rainmanjam--poka-yoke",
+      "description": "Mistake-proofing for software. Shigeo Shingo's poka-yoke method as a Claude Code plugin: audit code for footguns, design APIs that resist misuse, install guardrails, turn incidents into devices."
+    },
+    {
+      "name": "element-hq--element-x-android-neutrino",
+      "source": "./element-hq--element-x-android-neutrino",
+      "description": "Fork of element-x-android with an embedded Neutrino homeserver."
+    },
+    {
+      "name": "dabaicai001--star-deepseek-harness-desktop",
+      "source": "./dabaicai001--star-deepseek-harness-desktop",
+      "description": "StarHub \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u684c\u9762\u5e94\u7528\uff08Tauri 2 + Rust \u4e3b\u8fdb\u7a0b + DeepSeek Harness React \u5de5\u4f5c\u53f0 + Go Sidecar\uff09\uff0c\u628a\u5f00\u53d1\u8fd0\u7ef4\u65e5\u5e38\u9ad8\u9891\u5de5\u5177\u6574\u5408\u5230\u540c\u4e00\u4e2a\u7a97\u53e3 \u2014\u2014 \u6570\u636e\u5e93\u3001SSH/SFTP\u3001Docker \u9762\u677f\u4e0e AI \u52a9\u624b\u3002\u76ee\u6807\u662f\u51cf\u5c11\u5728 Navicat\u3001Xshell\u3001Portainer\u3001\u6587\u4ef6\u7ba1\u7406\u5668\u548c AI \u5bf9\u8bdd\u7a97\u53e3\u4e4b\u95f4\u6765\u56de\u5207\u6362\u7684\u6210\u672c\u3002  \u524d\u7aef\u67b6\u6784\uff1a\u57fa\u4e8e "
+    },
+    {
+      "name": "rsasaki0109--robosim",
+      "source": "./rsasaki0109--robosim",
+      "description": "Robot Native Engine \u2014 robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters."
+    },
+    {
+      "name": "nextcaicai--obsidian-to-publish",
+      "source": "./nextcaicai--obsidian-to-publish",
+      "description": "\u6253\u901a\u4ece Obsidian \u672c\u5730\u521b\u4f5c\u5230\u591a\u5e73\u53f0\u53d1\u5e03\u7684\u6700\u540e\u4e00\u6b65"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -327692,6 +327767,11 @@
       "name": "xinghang-ee-cs--dev-runtime-skill",
       "source": "./xinghang-ee-cs--dev-runtime-skill",
       "description": "AI coding assistant skills that structure the full development lifecycle into planning \u2192 implementation \u2192 testing \u2192 release \u2014 each phase managed by a dedicated skill. Works with Claude Code and any ag"
+    },
+    {
+      "name": "perrylink--dsh-claude-move",
+      "source": "./perrylink--dsh-claude-move",
+      "description": "Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions,"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -442887,6 +442967,211 @@
       "name": "nikadataeng--my-website",
       "source": "./nikadataeng--my-website",
       "description": "hosting my website's code here <3 "
+    },
+    {
+      "name": "rovaned--inception-creative",
+      "source": "./rovaned--inception-creative",
+      "description": "inception-creative"
+    },
+    {
+      "name": "osac-project--host-management-openstack",
+      "source": "./osac-project--host-management-openstack",
+      "description": "[Archived] OSAC Host Management Operator for OpenStack"
+    },
+    {
+      "name": "starlightzing01--home-order-management",
+      "source": "./starlightzing01--home-order-management",
+      "description": "home-order-management"
+    },
+    {
+      "name": "kobby1919--sms",
+      "source": "./kobby1919--sms",
+      "description": "SMS"
+    },
+    {
+      "name": "jcdammert--dfx",
+      "source": "./jcdammert--dfx",
+      "description": "dfx"
+    },
+    {
+      "name": "komaksym--alfredotheclerk",
+      "source": "./komaksym--alfredotheclerk",
+      "description": "Agentic invoice repair for Polish invoicing KSeF FA(3) format"
+    },
+    {
+      "name": "areaincrivel--front-assistente-tarefas",
+      "source": "./areaincrivel--front-assistente-tarefas",
+      "description": "front-assistente-tarefas"
+    },
+    {
+      "name": "berlcamp--procurements-assets",
+      "source": "./berlcamp--procurements-assets",
+      "description": "procurements-assets"
+    },
+    {
+      "name": "godanaemiru--luminaos",
+      "source": "./godanaemiru--luminaos",
+      "description": "luminaos"
+    },
+    {
+      "name": "dwarakadhishadasa--tattvam-ai-frontend",
+      "source": "./dwarakadhishadasa--tattvam-ai-frontend",
+      "description": "tattvam-ai-frontend"
+    },
+    {
+      "name": "gyani123--gyani123-github-io",
+      "source": "./gyani123--gyani123-github-io",
+      "description": "About Myself"
+    },
+    {
+      "name": "devmustansar--internal-broker-login",
+      "source": "./devmustansar--internal-broker-login",
+      "description": "internal-broker-login"
+    },
+    {
+      "name": "shisi23154-gthb--neta",
+      "source": "./shisi23154-gthb--neta",
+      "description": "personal HTML archive\u300d"
+    },
+    {
+      "name": "tehnplk--ttm",
+      "source": "./tehnplk--ttm",
+      "description": "ttm"
+    },
+    {
+      "name": "hagicode-org--trait",
+      "source": "./hagicode-org--trait",
+      "description": "Frontend workspace for Trait Builder, where HagiCode traits are searched and self-built drafts are composed."
+    },
+    {
+      "name": "edgarosolis--high5give5",
+      "source": "./edgarosolis--high5give5",
+      "description": "High5Give5 - Give $5 to a Higher Cause. Nonprofit website redesign built with Next.js + Tailwind CSS."
+    },
+    {
+      "name": "abdnurlan--bakuroses",
+      "source": "./abdnurlan--bakuroses",
+      "description": "bakuroses"
+    },
+    {
+      "name": "bergedsource--jp-database",
+      "source": "./bergedsource--jp-database",
+      "description": "JP-Database"
+    },
+    {
+      "name": "maaakiaaa--jyogiorder",
+      "source": "./maaakiaaa--jyogiorder",
+      "description": "jyogiorder"
+    },
+    {
+      "name": "prostakm--spine",
+      "source": "./prostakm--spine",
+      "description": "spine"
+    },
+    {
+      "name": "webfixdev--petsaver-frontend",
+      "source": "./webfixdev--petsaver-frontend",
+      "description": "petsaver-frontend"
+    },
+    {
+      "name": "leo-so--mctl-lab-github-io",
+      "source": "./leo-so--mctl-lab-github-io",
+      "description": "The Music and Culture Technology Lab was founded in 2017.  We devote ourselves to the development of cutting-edge signal processing and deep learning techniques for music and AI applications, such as "
+    },
+    {
+      "name": "684244141-cmyk--next-141",
+      "source": "./684244141-cmyk--next-141",
+      "description": "next-141"
+    },
+    {
+      "name": "ranaasad01--atomic-design-a-saas-dashboard-with-analytics-c-ee7a4ac9",
+      "source": "./ranaasad01--atomic-design-a-saas-dashboard-with-analytics-c-ee7a4ac9",
+      "description": "Auto-generated by Atomic Builder"
+    },
+    {
+      "name": "bium7030-jpg--retry",
+      "source": "./bium7030-jpg--retry",
+      "description": "retry"
+    },
+    {
+      "name": "amorcego--neonfinancas",
+      "source": "./amorcego--neonfinancas",
+      "description": "neonfinancas"
+    },
+    {
+      "name": "shinichi-yoshida-16--insect-search-ai",
+      "source": "./shinichi-yoshida-16--insect-search-ai",
+      "description": "\u6606\u866b\u306eAI\u5224\u5b9aWeb\u30b7\u30b9\u30c6\u30e0"
+    },
+    {
+      "name": "agocharbhatia--homegpu",
+      "source": "./agocharbhatia--homegpu",
+      "description": "homegpu"
+    },
+    {
+      "name": "makrandkatkar-sketch--finance-forum-of-india",
+      "source": "./makrandkatkar-sketch--finance-forum-of-india",
+      "description": "Finance-Forum-of-India"
+    },
+    {
+      "name": "chensirui2008--schwab-readonly-mcp",
+      "source": "./chensirui2008--schwab-readonly-mcp",
+      "description": "schwab-readonly-mcp"
+    },
+    {
+      "name": "wdq-cn--folio",
+      "source": "./wdq-cn--folio",
+      "description": "Folio\uff08\u5bf9\u5f00\u672c\uff09\u2014\u2014\u9762\u5411\u4e13\u4e1a\u7f51\u7edc\u5c0f\u8bf4\u4f5c\u8005\u7684\u514d\u8d39\u5f00\u6e90 Windows \u684c\u9762\u521b\u4f5c\u5e73\u53f0\uff08\u672c\u5730\u4f18\u5148 \u00b7 \u6570\u636e\u5f00\u653e\uff09"
+    },
+    {
+      "name": "punith-018--algoviz",
+      "source": "./punith-018--algoviz",
+      "description": "AlgoViz"
+    },
+    {
+      "name": "namanagrawal57--google-eds",
+      "source": "./namanagrawal57--google-eds",
+      "description": "google-eds"
+    },
+    {
+      "name": "hammadazizkhan04-a11y--hk-portfolio",
+      "source": "./hammadazizkhan04-a11y--hk-portfolio",
+      "description": "Hammad Aziz - AI & Creative Developer Portfolio"
+    },
+    {
+      "name": "dm-1324--agent-app-factory",
+      "source": "./dm-1324--agent-app-factory",
+      "description": "agent-app-factory"
+    },
+    {
+      "name": "pansh76--avenuek-placement",
+      "source": "./pansh76--avenuek-placement",
+      "description": "Avenuek-Placement"
+    },
+    {
+      "name": "voidique--xira-word",
+      "source": "./voidique--xira-word",
+      "description": "xira-word"
+    },
+    {
+      "name": "maitezinha17--app-rec",
+      "source": "./maitezinha17--app-rec",
+      "description": "APP-REC"
+    },
+    {
+      "name": "aflyafay--rustdesk20260810sos",
+      "source": "./aflyafay--rustdesk20260810sos",
+      "description": "rustdesk20260810sos"
+    },
+    {
+      "name": "nabeelnizam--coba-guidlines",
+      "source": "./nabeelnizam--coba-guidlines",
+      "description": "coba_guidlines"
+    },
+    {
+      "name": "sophonwit19--campus-guide",
+      "source": "./sophonwit19--campus-guide",
+      "description": "campus-guide"
     }
   ]
 }
