@@ -33069,14 +33069,14 @@
       "description": "gate"
     },
     {
-      "name": "remorses--gpuix",
-      "source": "./remorses--gpuix",
-      "description": "Node.js & React bindings for Zed GPUI. Very experimental and broken"
-    },
-    {
       "name": "minekube--gate",
       "source": "./minekube--gate",
       "description": "gate"
+    },
+    {
+      "name": "remorses--gpuix",
+      "source": "./remorses--gpuix",
+      "description": "Node.js & React bindings for Zed GPUI. Very experimental and broken"
     },
     {
       "name": "textlint-ja--textlint-rule-preset-ai-writing",
@@ -306459,6 +306459,116 @@
       "description": "masumi-agent-messenger"
     },
     {
+      "name": "espressif--esp-flasher-stub",
+      "source": "./espressif--esp-flasher-stub",
+      "description": "esp-flasher-stub"
+    },
+    {
+      "name": "fracturedring--renpy-mcp",
+      "source": "./fracturedring--renpy-mcp",
+      "description": "AI-friendly visual novel toolkit: a browser-based Ren'Py editor plus a 74-tool MCP server. Build VNs by clicking, by code, or by talking to Claude Code / Cursor / hermes-agent."
+    },
+    {
+      "name": "abhay-byte--nativecode",
+      "source": "./abhay-byte--nativecode",
+      "description": "NativeCode: Local AI Dev"
+    },
+    {
+      "name": "code-yeongyu--pi-rules",
+      "source": "./code-yeongyu--pi-rules",
+      "description": "Rule context loader extension for the pi coding agent"
+    },
+    {
+      "name": "5throck--co-abap",
+      "source": "./5throck--co-abap",
+      "description": "ABAP development context, tooling and session memory"
+    },
+    {
+      "name": "creatornader--atrib",
+      "source": "./creatornader--atrib",
+      "description": "Verifiable agent actions. Every action becomes signed context for the next. Ed25519 signatures, Merkle log proofs, independently verifiable by anyone."
+    },
+    {
+      "name": "zaribadr--mos",
+      "source": "./zaribadr--mos",
+      "description": "Moroccan open source platforme"
+    },
+    {
+      "name": "roboverseorg--metasim",
+      "source": "./roboverseorg--metasim",
+      "description": "MetaSim is a simulation layer that supports multiple simulation backends."
+    },
+    {
+      "name": "rezaparsian--rpcli",
+      "source": "./rezaparsian--rpcli",
+      "description": "A command-line interface tool that leverages AI to help with Git commit message generation."
+    },
+    {
+      "name": "val4oss--ai-agents-sandbox",
+      "source": "./val4oss--ai-agents-sandbox",
+      "description": "A secure, isolated container environment for running AI coding agents."
+    },
+    {
+      "name": "emitsignal--emitsignal",
+      "source": "./emitsignal--emitsignal",
+      "description": "dev-native push notifications"
+    },
+    {
+      "name": "skittleson--mqtt-broker-esp",
+      "source": "./skittleson--mqtt-broker-esp",
+      "description": "A standalone MQTT 3.1.1 broker that runs entirely on a $10 microcontroller."
+    },
+    {
+      "name": "lmn451--pi-subagentura",
+      "source": "./lmn451--pi-subagentura",
+      "description": "Orchestrator, reusable multi-agent workflows and observable, attachable sub-agents for the Pi coding agent."
+    },
+    {
+      "name": "kimlawtech--korean-certified-mail",
+      "source": "./kimlawtech--korean-certified-mail",
+      "description": "\ud55c\uad6d \ub0b4\uc6a9\uc99d\uba85 \uc790\ub3d9 \uc791\uc131 Claude Code \uc2a4\ud0ac \u2014 14\uac1c \uc720\ud615 \uc9c0\uc6d0, \ubc95\uc6d0 \uc81c\ucd9c \uae30\uc900 DOCX \ucd9c\ub825, \ubc95\ub839 \ud658\uac01 \ubc29\uc9c0, MCP \uac1c\uc778\uc815\ubcf4 \ubcf4\ud638"
+    },
+    {
+      "name": "glechic--anki-connect-server",
+      "source": "./glechic--anki-connect-server",
+      "description": "Headless AnkiConnect-compatible REST API server with AnkiWeb sync support and MCP server integration."
+    },
+    {
+      "name": "codingjoe--threadmill",
+      "source": "./codingjoe--threadmill",
+      "description": "Durable high-performance backend for Django's task framework."
+    },
+    {
+      "name": "mortennordbye--headroom",
+      "source": "./mortennordbye--headroom",
+      "description": "A self-hosted personal finance tracker for budgets, assets, investments, and loan modeling. Dockerized with local SQLite storage."
+    },
+    {
+      "name": "otonielpv--libretracks",
+      "source": "./otonielpv--libretracks",
+      "description": "LibreTracks"
+    },
+    {
+      "name": "fgladisch--pi-extensions",
+      "source": "./fgladisch--pi-extensions",
+      "description": "Personal extensions for the pi coding agent."
+    },
+    {
+      "name": "iamwrm--pi-unified-exec",
+      "source": "./iamwrm--pi-unified-exec",
+      "description": "Codex-style unified_exec for pi: long-lived shell sessions the LLM polls and drives with write_stdin (Ctrl-C, arrow keys, PTY, REPLs, ssh, dev servers). Full output logged to disk."
+    },
+    {
+      "name": "sintaxasn--fluence-wpf",
+      "source": "./sintaxasn--fluence-wpf",
+      "description": "Fluence.Wpf is a modern theming and control library based on WinUI 3, but for WPF on .NET 4.7.2 / .NET 10"
+    },
+    {
+      "name": "seevee--cap-alerts",
+      "source": "./seevee--cap-alerts",
+      "description": "HA multi-region weather alerts integration: one entity per active weather alert, modeled on CAP fields. Solves the 16KB attribute limit."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -442042,6 +442152,176 @@
       "name": "rabbanictgbd--my-next-project",
       "source": "./rabbanictgbd--my-next-project",
       "description": "my-next-project"
+    },
+    {
+      "name": "don-k-quixote--gati",
+      "source": "./don-k-quixote--gati",
+      "description": "GATI: Green-time Allocation for Traffic Intersections \u2014 RL for adaptive traffic signal control"
+    },
+    {
+      "name": "stellaraether--amazon-sp-cli",
+      "source": "./stellaraether--amazon-sp-cli",
+      "description": "amazon-sp-cli"
+    },
+    {
+      "name": "nguyenanhquan2811--demo-sonbarber-website",
+      "source": "./nguyenanhquan2811--demo-sonbarber-website",
+      "description": "demo sonbarber website"
+    },
+    {
+      "name": "dwightlai--saveany",
+      "source": "./dwightlai--saveany",
+      "description": "saveany"
+    },
+    {
+      "name": "everleonpy--xpertpos",
+      "source": "./everleonpy--xpertpos",
+      "description": "Punto de venta con soporte para hospitality "
+    },
+    {
+      "name": "khemia0101-del--crr-ai-os",
+      "source": "./khemia0101-del--crr-ai-os",
+      "description": "crr-ai-os"
+    },
+    {
+      "name": "rylzx000--selfcam",
+      "source": "./rylzx000--selfcam",
+      "description": "selfCam"
+    },
+    {
+      "name": "difargo--workout-app",
+      "source": "./difargo--workout-app",
+      "description": "workout-app"
+    },
+    {
+      "name": "isaricresearch--core-outcome-sets",
+      "source": "./isaricresearch--core-outcome-sets",
+      "description": "Core-Outcome-Sets"
+    },
+    {
+      "name": "xinismry-arch--versanasium",
+      "source": "./xinismry-arch--versanasium",
+      "description": "Versanasium"
+    },
+    {
+      "name": "squizzberry2001-star--visitreport",
+      "source": "./squizzberry2001-star--visitreport",
+      "description": "VISITREPORT"
+    },
+    {
+      "name": "webteractive--mailulator",
+      "source": "./webteractive--mailulator",
+      "description": "Self-hosted, Laravel-native Mailtrap alternative."
+    },
+    {
+      "name": "lomkiced--alumni-information-career-tracking-sysem",
+      "source": "./lomkiced--alumni-information-career-tracking-sysem",
+      "description": "Alumni-Information-Career-Tracking-Sysem"
+    },
+    {
+      "name": "dongbeto--ondecolle",
+      "source": "./dongbeto--ondecolle",
+      "description": "ondecolle"
+    },
+    {
+      "name": "anndavid-one--postgenerator",
+      "source": "./anndavid-one--postgenerator",
+      "description": "postGenerator"
+    },
+    {
+      "name": "k1monfared--license-explorer",
+      "source": "./k1monfared--license-explorer",
+      "description": "license_explorer"
+    },
+    {
+      "name": "hnrywltn--functionalhealthtool",
+      "source": "./hnrywltn--functionalhealthtool",
+      "description": "functionalHealthTool"
+    },
+    {
+      "name": "ronaldomds10-bot--site-agencia-rm-partiu-viagens",
+      "source": "./ronaldomds10-bot--site-agencia-rm-partiu-viagens",
+      "description": "Sua experiencia nunca mais sera a mesma"
+    },
+    {
+      "name": "foo223fr--ansible-proxmox-openshift",
+      "source": "./foo223fr--ansible-proxmox-openshift",
+      "description": "Ansible automation for deploying OpenShift on Proxmox VE \u2014 bare-metal IPI on a homelab"
+    },
+    {
+      "name": "evandersondasilva--espetinho-delivery-frontend",
+      "source": "./evandersondasilva--espetinho-delivery-frontend",
+      "description": "Sistema full stack de delivery desenvolvido com Node.js, Next.js e PostgreSQL."
+    },
+    {
+      "name": "kcvs2002--bosch-plasma-etching",
+      "source": "./kcvs2002--bosch-plasma-etching",
+      "description": "BOSCH-Plasma-Etching"
+    },
+    {
+      "name": "pursharthzutshi--blog-studio",
+      "source": "./pursharthzutshi--blog-studio",
+      "description": "blog-studio"
+    },
+    {
+      "name": "liangyile527--fuwei-blog",
+      "source": "./liangyile527--fuwei-blog",
+      "description": "\u65b0\u624b\u6d4b\u8bd5"
+    },
+    {
+      "name": "jackharrhy--fz10m",
+      "source": "./jackharrhy--fz10m",
+      "description": "vst"
+    },
+    {
+      "name": "sangam-gaddi--mantis-os",
+      "source": "./sangam-gaddi--mantis-os",
+      "description": "MANTIS-OS"
+    },
+    {
+      "name": "kaiwiehe--ssh-manager",
+      "source": "./kaiwiehe--ssh-manager",
+      "description": "SSH Manager is a lightweight Windows desktop app for organizing and launching SSH sessions from one place. It combines WinSCP sessions, ~/.ssh/config hosts, and custom app-defined entries into a singl"
+    },
+    {
+      "name": "lifei6671--quantsage",
+      "source": "./lifei6671--quantsage",
+      "description": "QuantSage \u4e00\u4e2a\u57fa\u4e8eAI\u7684\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf"
+    },
+    {
+      "name": "never2average--fpna-thinwedge",
+      "source": "./never2average--fpna-thinwedge",
+      "description": "Local-first CLI for token-spend and technical finance workflows"
+    },
+    {
+      "name": "dushkaaaa--sweep-ledger",
+      "source": "./dushkaaaa--sweep-ledger",
+      "description": "sweep-ledger"
+    },
+    {
+      "name": "jin9--skillify-foundation",
+      "source": "./jin9--skillify-foundation",
+      "description": "skillify-foundation"
+    },
+    {
+      "name": "theg33ka--rental-manager",
+      "source": "./theg33ka--rental-manager",
+      "description": "Rental-Manager"
+    },
+    {
+      "name": "tanguyovernight--overnight-design-system",
+      "source": "./tanguyovernight--overnight-design-system",
+      "description": "overnight-design-system"
+    },
+    {
+      "name": "zismaildev--nextjs-heroui-template",
+      "source": "./zismaildev--nextjs-heroui-template",
+      "description": "nextjs-heroui-template"
+    },
+    {
+      "name": "danishbansal-cmd--stayease",
+      "source": "./danishbansal-cmd--stayease",
+      "description": "stayease"
     }
   ]
 }
