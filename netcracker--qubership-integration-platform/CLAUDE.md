@@ -1,20 +1,20 @@
-# ui-core-development
+# ui-theme-and-vscode-webview
 
-> Core development guidance for the QIP UI workspace.
+> Theme and VS Code webview guidance for QIP UI.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ui-core-development/SKILL.md
+Read and follow the instructions in .claude/skills/ui-theme-and-vscode-webview/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When editing files in `ui/` for feature work, refactoring, bug fixes, or tests,
-apply the `ui-core-development` skill.
+When implementing or changing UI styling, color logic, icon rendering, or
+theme-dependent behavior in `ui/`, apply the `ui-theme-and-vscode-webview` skill.
 
 ---
 > Source: [Netcracker/qubership-integration-platform](https://github.com/Netcracker/qubership-integration-platform) — distributed by [TomeVault](https://tomevault.io).
