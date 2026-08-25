@@ -2144,6 +2144,11 @@
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods"
     },
     {
+      "name": "babel--babel",
+      "source": "./babel--babel",
+      "description": "babel"
+    },
+    {
       "name": "apache--spark",
       "source": "./apache--spark",
       "description": "spark"
@@ -2387,6 +2392,11 @@
       "name": "hkuds--lightrag",
       "source": "./hkuds--lightrag",
       "description": "LightRAG"
+    },
+    {
+      "name": "github--awesome-copilot",
+      "source": "./github--awesome-copilot",
+      "description": "awesome-copilot"
     },
     {
       "name": "chromedevtools--chrome-devtools-mcp",
@@ -3059,6 +3069,16 @@
       "description": "podman"
     },
     {
+      "name": "conductor-oss--conductor",
+      "source": "./conductor-oss--conductor",
+      "description": "conductor"
+    },
+    {
+      "name": "conductor-oss--conductor",
+      "source": "./conductor-oss--conductor",
+      "description": "conductor"
+    },
+    {
       "name": "github--awesome-copilot",
       "source": "./github--awesome-copilot",
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot."
@@ -3247,6 +3267,11 @@
       "name": "statelyai--xstate",
       "source": "./statelyai--xstate",
       "description": "xstate"
+    },
+    {
+      "name": "scrapegraphai--scrapegraph-ai",
+      "source": "./scrapegraphai--scrapegraph-ai",
+      "description": "Scrapegraph-ai"
     },
     {
       "name": "apolloconfig--apollo",
@@ -4137,6 +4162,11 @@
       "name": "prefecthq--fastmcp",
       "source": "./prefecthq--fastmcp",
       "description": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients."
+    },
+    {
+      "name": "neoclide--coc-nvim",
+      "source": "./neoclide--coc-nvim",
+      "description": "coc.nvim"
     },
     {
       "name": "devolutions--unigetui",
@@ -5539,6 +5569,16 @@
       "description": "kops"
     },
     {
+      "name": "kubernetes--kops",
+      "source": "./kubernetes--kops",
+      "description": "kops"
+    },
+    {
+      "name": "kubernetes--kops",
+      "source": "./kubernetes--kops",
+      "description": "kops"
+    },
+    {
       "name": "umijs--qiankun",
       "source": "./umijs--qiankun",
       "description": "qiankun"
@@ -6752,6 +6792,11 @@
       "name": "debezium--debezium",
       "source": "./debezium--debezium",
       "description": "debezium"
+    },
+    {
+      "name": "canop--broot",
+      "source": "./canop--broot",
+      "description": "broot"
     },
     {
       "name": "rubocop--rubocop",
@@ -10684,6 +10729,11 @@
       "description": "warp"
     },
     {
+      "name": "evidence-dev--evidence",
+      "source": "./evidence-dev--evidence",
+      "description": "evidence"
+    },
+    {
       "name": "joe-bell--cva",
       "source": "./joe-bell--cva",
       "description": "cva"
@@ -12784,6 +12834,11 @@
       "description": "Kernel-based Android Root Solution & KPM"
     },
     {
+      "name": "elastic--elasticsearch-php",
+      "source": "./elastic--elasticsearch-php",
+      "description": "elasticsearch-php"
+    },
+    {
       "name": "builderz-labs--mission-control",
       "source": "./builderz-labs--mission-control",
       "description": "mission-control"
@@ -12827,6 +12882,31 @@
       "name": "kubernetes--website",
       "source": "./kubernetes--website",
       "description": "website"
+    },
+    {
+      "name": "0xeb--thebigpromptlibrary",
+      "source": "./0xeb--thebigpromptlibrary",
+      "description": "TheBigPromptLibrary"
+    },
+    {
+      "name": "0xeb--thebigpromptlibrary",
+      "source": "./0xeb--thebigpromptlibrary",
+      "description": "TheBigPromptLibrary"
+    },
+    {
+      "name": "0xeb--thebigpromptlibrary",
+      "source": "./0xeb--thebigpromptlibrary",
+      "description": "TheBigPromptLibrary"
+    },
+    {
+      "name": "0xeb--thebigpromptlibrary",
+      "source": "./0xeb--thebigpromptlibrary",
+      "description": "TheBigPromptLibrary"
+    },
+    {
+      "name": "0xeb--thebigpromptlibrary",
+      "source": "./0xeb--thebigpromptlibrary",
+      "description": "TheBigPromptLibrary"
     },
     {
       "name": "tidedra--zotero-arxiv-daily",
@@ -14614,6 +14694,11 @@
       "description": "workers-sdk"
     },
     {
+      "name": "mljar--mercury",
+      "source": "./mljar--mercury",
+      "description": "mercury"
+    },
+    {
       "name": "pgdogdev--pgdog",
       "source": "./pgdogdev--pgdog",
       "description": "PostgreSQL connection pooler, load balancer and database sharder."
@@ -15232,6 +15317,11 @@
       "name": "zgsm-ai--costrict",
       "source": "./zgsm-ai--costrict",
       "description": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion. "
+    },
+    {
+      "name": "dagger--container-use",
+      "source": "./dagger--container-use",
+      "description": "container-use"
     },
     {
       "name": "slackapi--python-slack-sdk",
@@ -25324,6 +25414,11 @@
       "description": "DevUtils"
     },
     {
+      "name": "nerevu--riko",
+      "source": "./nerevu--riko",
+      "description": "riko"
+    },
+    {
       "name": "microsoftdocs--mcp",
       "source": "./microsoftdocs--mcp",
       "description": "Official Microsoft Learn MCP Server and CLI tool \u2013 powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples."
@@ -27102,6 +27197,11 @@
       "name": "growilabs--growi",
       "source": "./growilabs--growi",
       "description": "growi"
+    },
+    {
+      "name": "handlebars-net--handlebars-net",
+      "source": "./handlebars-net--handlebars-net",
+      "description": "Handlebars.Net"
     },
     {
       "name": "lightly-ai--lightly-train",
@@ -34404,6 +34504,11 @@
       "description": "cuopt"
     },
     {
+      "name": "hannah-sten--texify-idea",
+      "source": "./hannah-sten--texify-idea",
+      "description": "TeXiFy-IDEA"
+    },
+    {
       "name": "norish-recipes--norish",
       "source": "./norish-recipes--norish",
       "description": "Norish - A realtime, self-hosted recipe app for families & friends "
@@ -40849,6 +40954,11 @@
       "description": "Dommel"
     },
     {
+      "name": "nacos-group--nacos-k8s",
+      "source": "./nacos-group--nacos-k8s",
+      "description": "nacos-k8s"
+    },
+    {
       "name": "yvgude--lean-ctx",
       "source": "./yvgude--lean-ctx",
       "description": "Reduce AI coding costs by 99% \u2014 MCP Server + Shell Hook for Cursor, Claude Code, Copilot, Windsurf, Gemini CLI & 24 tools. Single Rust binary, zero telemetry."
@@ -42587,6 +42697,11 @@
       "name": "ekailabs--contexto",
       "source": "./ekailabs--contexto",
       "description": "contexto"
+    },
+    {
+      "name": "rbuchberger--jekyll-picture-tag",
+      "source": "./rbuchberger--jekyll-picture-tag",
+      "description": "jekyll_picture_tag"
     },
     {
       "name": "mizchi--actrun",
@@ -44609,6 +44724,16 @@
       "description": "hub-docs"
     },
     {
+      "name": "au1rxx--free-vpn-subscriptions",
+      "source": "./au1rxx--free-vpn-subscriptions",
+      "description": "free-vpn-subscriptions"
+    },
+    {
+      "name": "l1xnan--duckling",
+      "source": "./l1xnan--duckling",
+      "description": "duckling"
+    },
+    {
       "name": "docker--model-runner",
       "source": "./docker--model-runner",
       "description": "Docker Model Runner"
@@ -45477,6 +45602,11 @@
       "name": "azure--karpenter-provider-azure",
       "source": "./azure--karpenter-provider-azure",
       "description": "karpenter-provider-azure"
+    },
+    {
+      "name": "unifapi-agent--agents",
+      "source": "./unifapi-agent--agents",
+      "description": "agents"
     },
     {
       "name": "ww-ai-lab--openclaw-office",
@@ -46847,6 +46977,11 @@
       "name": "edgeapp--edge-react-gui",
       "source": "./edgeapp--edge-react-gui",
       "description": "edge-react-gui"
+    },
+    {
+      "name": "peerigon--parse-domain",
+      "source": "./peerigon--parse-domain",
+      "description": "parse-domain"
     },
     {
       "name": "peerigon--parse-domain",
@@ -50187,6 +50322,11 @@
       "name": "slimplanet--slimfaas",
       "source": "./slimplanet--slimfaas",
       "description": "SlimFaas"
+    },
+    {
+      "name": "violetgiraffe--file-commander",
+      "source": "./violetgiraffe--file-commander",
+      "description": "file-commander"
     },
     {
       "name": "syi0808--screenize",
@@ -77914,6 +78054,11 @@
       "description": "PRD-driven-context-engineering"
     },
     {
+      "name": "thecodingsheikh--kubecodex",
+      "source": "./thecodingsheikh--kubecodex",
+      "description": "kubecodex"
+    },
+    {
       "name": "opengeos--anymap-ts",
       "source": "./opengeos--anymap-ts",
       "description": "A Python package for creating interactive maps with anywidget and mapping libraries using TypeScript"
@@ -89292,6 +89437,11 @@
       "name": "xiao-villamor--printstash",
       "source": "./xiao-villamor--printstash",
       "description": "Self-hosted asset management for 3D printing files, slicer metadata, and printer workflows."
+    },
+    {
+      "name": "qntx--x402-openai-typescript",
+      "source": "./qntx--x402-openai-typescript",
+      "description": "x402-openai-typescript"
     },
     {
       "name": "mitkox--ai-coding-factory",
@@ -102304,6 +102454,11 @@
       "description": "A Tailwind plugin to create beautiful shadows and elevated surfaces."
     },
     {
+      "name": "demchaav--graphcompose",
+      "source": "./demchaav--graphcompose",
+      "description": "GraphCompose"
+    },
+    {
       "name": "sk-wang--slio-git",
       "source": "./sk-wang--slio-git",
       "description": "A fast, native Git GUI inspired by Intellij Idea and Meld. Built with Rust + Iced."
@@ -106929,6 +107084,11 @@
       "description": "mytradingview"
     },
     {
+      "name": "voidzero-dev--setup-vp",
+      "source": "./voidzero-dev--setup-vp",
+      "description": "setup-vp"
+    },
+    {
       "name": "khanhnam-nathan--pyneat",
       "source": "./khanhnam-nathan--pyneat",
       "description": "Pyneat"
@@ -109037,6 +109197,11 @@
       "name": "deepagentlabs--agenticlens",
       "source": "./deepagentlabs--agenticlens",
       "description": "An open-source profiler for AI agents that analyzes token usage, cost, latency, and optimization opportunities across LLM workflows."
+    },
+    {
+      "name": "prabirshrestha--dotfiles",
+      "source": "./prabirshrestha--dotfiles",
+      "description": "dotfiles"
     },
     {
       "name": "jordanhubbard--loom",
@@ -116264,6 +116429,11 @@
       "description": "tailsocks"
     },
     {
+      "name": "qmcsoftware--qmcsoftware",
+      "source": "./qmcsoftware--qmcsoftware",
+      "description": "QMCSoftware"
+    },
+    {
       "name": "gaopengbin--cesium-mcp",
       "source": "./gaopengbin--cesium-mcp",
       "description": "AI-powered CesiumJS 3D globe control  49 tools for camera, entities, layers, animation & spatial analysis via Model Context Protocol (MCP). Natural language to 3D GIS."
@@ -116957,6 +117127,11 @@
       "name": "attilaszasz--sdd-pilot",
       "source": "./attilaszasz--sdd-pilot",
       "description": "sdd-pilot"
+    },
+    {
+      "name": "openshift--router",
+      "source": "./openshift--router",
+      "description": "router"
     },
     {
       "name": "sandermuller--laravel-fluent-validation",
@@ -119052,6 +119227,11 @@
       "name": "ctar0403--captora-app-website",
       "source": "./ctar0403--captora-app-website",
       "description": "Captora - A screen-capture OCR utility for Windows"
+    },
+    {
+      "name": "jkroepke--lens-extension-certificate-info",
+      "source": "./jkroepke--lens-extension-certificate-info",
+      "description": "lens-extension-certificate-info"
     },
     {
       "name": "pureween--polypilot",
@@ -122179,6 +122359,16 @@
       "description": "whos-there"
     },
     {
+      "name": "tastyware--tastytrade-cli",
+      "source": "./tastyware--tastytrade-cli",
+      "description": "tastytrade-cli"
+    },
+    {
+      "name": "zostera--django-icons",
+      "source": "./zostera--django-icons",
+      "description": "django-icons"
+    },
+    {
       "name": "edisonwong520--wanny",
       "source": "./edisonwong520--wanny",
       "description": "A real Jarvis, connecting your appliances, AI controls everything in realworld. Wanny = nanny in Wechat"
@@ -123012,6 +123202,11 @@
       "name": "os-factory--har",
       "source": "./os-factory--har",
       "description": "HAR: open agent harness (CLI + MCP) for coding agents. Isolated worktrees, deterministic verify, software factory workflows for Claude Code, Cursor, and Codex."
+    },
+    {
+      "name": "hyperledger-labs--fabric-smart-client",
+      "source": "./hyperledger-labs--fabric-smart-client",
+      "description": "fabric-smart-client"
     },
     {
       "name": "aspenkit--aspens",
@@ -129094,6 +129289,16 @@
       "description": "hotcakes-commerce-core"
     },
     {
+      "name": "deucebucket--library-manager",
+      "source": "./deucebucket--library-manager",
+      "description": "library-manager"
+    },
+    {
+      "name": "hotcakescommerce--hotcakes-commerce-core",
+      "source": "./hotcakescommerce--hotcakes-commerce-core",
+      "description": "hotcakes-commerce-core"
+    },
+    {
       "name": "xiaoyiweio--deepsafe-scan",
       "source": "./xiaoyiweio--deepsafe-scan",
       "description": "Universal preflight security scanner for AI coding agents \u2014 Detects hooks injection, credential exfiltration & backdoors in .cursorrules, CLAUDE.md, AGENTS.md and more."
@@ -132654,6 +132859,16 @@
       "description": "winget-studio"
     },
     {
+      "name": "progovoy--vmn",
+      "source": "./progovoy--vmn",
+      "description": "vmn"
+    },
+    {
+      "name": "blakemcbride--kiss",
+      "source": "./blakemcbride--kiss",
+      "description": "Kiss"
+    },
+    {
       "name": "v-iole-t--tab-harbor",
       "source": "./v-iole-t--tab-harbor",
       "description": "\u4e00\u4e2a\u66f4\u5b89\u9759\u7684\u65b0\u6807\u7b7e\u9875\u5de5\u4f5c\u53f0\uff0c\u628a\u6253\u5f00\u4e2d\u7684\u6807\u7b7e\u3001\u5feb\u6377\u94fe\u63a5\u3001\u5f85\u8bfb\u548c\u8f7b\u91cf\u5f85\u529e\u6536\u8fdb\u540c\u4e00\u4e2a\u987a\u624b\u7684\u7a7a\u95f4\u91cc\u3002"
@@ -134852,6 +135067,11 @@
       "name": "mt-youya--vite-mastery",
       "source": "./mt-youya--vite-mastery",
       "description": "vite-mastery"
+    },
+    {
+      "name": "ota-meshi--eslint-plugin-markdown-preferences",
+      "source": "./ota-meshi--eslint-plugin-markdown-preferences",
+      "description": "eslint-plugin-markdown-preferences"
     },
     {
       "name": "attilaszasz--sdd-pilot",
@@ -143374,6 +143594,11 @@
       "description": "zenwave-sdk"
     },
     {
+      "name": "damienmortini--lib",
+      "source": "./damienmortini--lib",
+      "description": "lib"
+    },
+    {
       "name": "eduardo-sl--go-agent-skills",
       "source": "./eduardo-sl--go-agent-skills",
       "description": "Curated AI agent skills for Go projects."
@@ -146984,6 +147209,11 @@
       "description": "Run Windows games and Windows applications natively on MacOS M-Series with MetalSharp. https://www.metalsharpmac.com/"
     },
     {
+      "name": "daviseford--aos-reminders",
+      "source": "./daviseford--aos-reminders",
+      "description": "aos-reminders"
+    },
+    {
       "name": "anhtester--antigravity-testing-kit",
       "source": "./anhtester--antigravity-testing-kit",
       "description": "\u0110\u00e2y l\u00e0 b\u1ed9 SKILL, WORKFLOW, RULE do Anh Tester x\u00e2y d\u1ef1ng d\u00e0nh ri\u00eang cho c\u1ed9ng \u0111\u1ed3ng Tester \u0111\u1ec3 thi\u1ebft l\u1eadp AI Agent tr\u00ean Antigravity h\u1ed7 tr\u1ee3 ki\u1ec3m th\u1eed ph\u1ea7n m\u1ec1m."
@@ -148337,6 +148567,31 @@
       "name": "rundeck-plugins--kubernetes",
       "source": "./rundeck-plugins--kubernetes",
       "description": "kubernetes"
+    },
+    {
+      "name": "skyuoi--ourchat",
+      "source": "./skyuoi--ourchat",
+      "description": "OurChat"
+    },
+    {
+      "name": "skyuoi--ourchat",
+      "source": "./skyuoi--ourchat",
+      "description": "OurChat"
+    },
+    {
+      "name": "skyuoi--ourchat",
+      "source": "./skyuoi--ourchat",
+      "description": "OurChat"
+    },
+    {
+      "name": "skyuoi--ourchat",
+      "source": "./skyuoi--ourchat",
+      "description": "OurChat"
+    },
+    {
+      "name": "skyuoi--ourchat",
+      "source": "./skyuoi--ourchat",
+      "description": "OurChat"
     },
     {
       "name": "isaaccorley--geospatial-skills",
@@ -155194,6 +155449,16 @@
       "description": "CADFontAutoReplace"
     },
     {
+      "name": "marcieltorres--safe-chat-slack-bot",
+      "source": "./marcieltorres--safe-chat-slack-bot",
+      "description": "safe-chat-slack-bot"
+    },
+    {
+      "name": "nicholaswilde--recipes",
+      "source": "./nicholaswilde--recipes",
+      "description": "recipes"
+    },
+    {
       "name": "rudrankriyam--foundation-models-framework-cli",
       "source": "./rudrankriyam--foundation-models-framework-cli",
       "description": "A powerful command-line interface for Foundation Models on Apple platforms."
@@ -156472,6 +156737,11 @@
       "name": "miratcan--kaydet",
       "source": "./miratcan--kaydet",
       "description": "kaydet"
+    },
+    {
+      "name": "spacecowmedia--commander-spellbook-site",
+      "source": "./spacecowmedia--commander-spellbook-site",
+      "description": "commander-spellbook-site"
     },
     {
       "name": "mylxsw--llm-gateway",
@@ -158467,6 +158737,11 @@
       "name": "duckframework--duck",
       "source": "./duckframework--duck",
       "description": "duck"
+    },
+    {
+      "name": "chromaui--addon-visual-tests",
+      "source": "./chromaui--addon-visual-tests",
+      "description": "addon-visual-tests"
     },
     {
       "name": "lynx-family--lynx-ui",
@@ -168917,6 +169192,11 @@
       "name": "omarchy-mac--omarchy-mac-fedora",
       "source": "./omarchy-mac--omarchy-mac-fedora",
       "description": "Opinionated Fedora/Hyprland Setup for Apple Silicon Macs M1/M2"
+    },
+    {
+      "name": "benpate--hannibal",
+      "source": "./benpate--hannibal",
+      "description": "hannibal"
     },
     {
       "name": "bug-ops--mcp-execution",
