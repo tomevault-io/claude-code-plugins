@@ -1,17 +1,16 @@
-# relay
+# relaybrain
 
-> Relay coordination — room context, locks, /relay ask
+> <!-- BEGIN:relay-os -->
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/relay/SKILL.md
+Read and follow the instructions in .claude/skills/relaybrain/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 <!-- BEGIN:relay-os -->
 # Relay (auto-installed)
