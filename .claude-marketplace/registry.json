@@ -23404,6 +23404,11 @@
       "description": "Fetch source code for npm packages to give AI coding agents deeper context"
     },
     {
+      "name": "vercel-labs--lat-md",
+      "source": "./vercel-labs--lat-md",
+      "description": "Agent Lattice: a knowledge graph for your codebase, written in markdown."
+    },
+    {
       "name": "bugsink--bugsink",
       "source": "./bugsink--bugsink",
       "description": "Self-hosted Error Tracking "
@@ -192364,6 +192369,21 @@
       "description": "micronaut-liquibase"
     },
     {
+      "name": "prakrititz--relaybrain",
+      "source": "./prakrititz--relaybrain",
+      "description": "Coordination and context layer for AI coding agents. Shared file locks, live patch sync, and portable project memory across Claude Code, Cursor, Copilot, Codex and Antigravity with rooms for team-wide"
+    },
+    {
+      "name": "prakrititz--relaybrain",
+      "source": "./prakrititz--relaybrain",
+      "description": "Coordination and context layer for AI coding agents. Shared file locks, live patch sync, and portable project memory across Claude Code, Cursor, Copilot, Codex and Antigravity with rooms for team-wide"
+    },
+    {
+      "name": "prakrititz--relaybrain",
+      "source": "./prakrititz--relaybrain",
+      "description": "Coordination and context layer for AI coding agents. Shared file locks, live patch sync, and portable project memory across Claude Code, Cursor, Copilot, Codex and Antigravity with rooms for team-wide"
+    },
+    {
       "name": "laskewitz--inventory-report",
       "source": "./laskewitz--inventory-report",
       "description": "Inventory API Skills"
@@ -220457,6 +220477,16 @@
       "name": "wy1272086709--nest-chat-admin",
       "source": "./wy1272086709--nest-chat-admin",
       "description": "\u804a\u5929\u5ba4\u540e\u53f0"
+    },
+    {
+      "name": "leeyudok--agents-scaffold",
+      "source": "./leeyudok--agents-scaffold",
+      "description": "Fork-and-fill bootstrap for AI coding agents (Claude Code first, Codex/Gemini via AGENTS.md) \u2014 agents, skills, hooks, tiered rules (P0/P1/P2) and stack presets composed into one enforced pre-commit ga"
+    },
+    {
+      "name": "acupof-ai--arle",
+      "source": "./acupof-ai--arle",
+      "description": "Pure-Rust LLM runtime: one binary serves (OpenAI-compatible), runs local agents, and distills models on their own rollouts \u2014 on Apple Silicon and NVIDIA. No Python on the hot path."
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -250274,6 +250304,11 @@
       "description": "An Obsidian plugin that adds a new Base view type with a Kanban board for managing & planning actions (goals, projects, plans and tasks) "
     },
     {
+      "name": "monkey1wizard--golem-agents-legion",
+      "source": "./monkey1wizard--golem-agents-legion",
+      "description": " A cross-provider AI orchestration system built in Rust, running natively across Claude Code, Codex CLI, GitHub Copilot, Antigravity CLI, and OpenCode."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -271462,6 +271497,16 @@
       "name": "microsoft--copilot-brag-sheet",
       "source": "./microsoft--copilot-brag-sheet",
       "description": "Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform."
+    },
+    {
+      "name": "hendrixx-re--packichu",
+      "source": "./hendrixx-re--packichu",
+      "description": "Demystifying Linux packages ( my system got too cluttered with junk ive installed)"
+    },
+    {
+      "name": "walker152--navi-minco-bit",
+      "source": "./walker152--navi-minco-bit",
+      "description": "2026 latest developed navigation stack based on minco and super"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -306164,6 +306209,36 @@
       "description": "Benchmarking tool for Rust functions on mobile devices using BrowserStack."
     },
     {
+      "name": "tmchow--hermes-kids-profile-blueprint",
+      "source": "./tmchow--hermes-kids-profile-blueprint",
+      "description": "Parent-operated starter kit for designing a private, child-facing Hermes Agent profile"
+    },
+    {
+      "name": "outreachmagic--outreachmagic",
+      "source": "./outreachmagic--outreachmagic",
+      "description": "Open source GTM intelligence for AI agents"
+    },
+    {
+      "name": "sunderee--carbide",
+      "source": "./sunderee--carbide",
+      "description": "Port of the IBM Carbon Design System to Flutter"
+    },
+    {
+      "name": "abyss-c0re--gvrmod",
+      "source": "./abyss-c0re--gvrmod",
+      "description": "gVRMod"
+    },
+    {
+      "name": "tuna-os--corral",
+      "source": "./tuna-os--corral",
+      "description": "\ud83e\udd20 Herd your VMs into your tailnet \u2014 QEMU + KubeVirt VM manager with a Proxmox-style web UI"
+    },
+    {
+      "name": "pobruno--mcp-blender-agent",
+      "source": "./pobruno--mcp-blender-agent",
+      "description": "MCP server giving AI agents complete control of Blender, modeling, rigging, animation, materials, render, export. Mirror architecture of mcp-unreal-agent."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -326877,6 +326952,61 @@
       "name": "ishivamgaur--noicess",
       "source": "./ishivamgaur--noicess",
       "description": "Make your screenshots look absolutely stunning."
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "source": "./alirezarezvani--icd-11-nextjs-nestjs-boilerplate",
+      "description": "ICD-11 NextJS NestJS Boilerplate project"
+    },
+    {
+      "name": "tarikurrahman--team-demon71-beta",
+      "source": "./tarikurrahman--team-demon71-beta",
+      "description": "Official platform of Team DEMON71: Autonomous Mars Rover & defense systems. Featuring ROS 2 navigation, custom 6-DOF robotic arm, and space-grade payloads."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -441427,6 +441557,196 @@
       "name": "andrewkernel--aerolens",
       "source": "./andrewkernel--aerolens",
       "description": "End-to-end differentiable inverse aerodynamic design from schlieren images using Tesseract."
+    },
+    {
+      "name": "patrickfanella--redstring",
+      "source": "./patrickfanella--redstring",
+      "description": "Evidence-first legal case workspace for source-cited discovery, timelines, contradictions, and binder exports."
+    },
+    {
+      "name": "raghubetina--fd-test-2",
+      "source": "./raghubetina--fd-test-2",
+      "description": "fd-test-2"
+    },
+    {
+      "name": "ravikumarve--interviewiq",
+      "source": "./ravikumarve--interviewiq",
+      "description": "AI Mock Interview Coach \u2014 practice real interview questions for any role, get instant skill-based feedback. Built for Hack Devengers 1.0."
+    },
+    {
+      "name": "sanerafsanjani--offering-letter",
+      "source": "./sanerafsanjani--offering-letter",
+      "description": "offering-letter"
+    },
+    {
+      "name": "sardormurodullayev--mypc",
+      "source": "./sardormurodullayev--mypc",
+      "description": "mypc"
+    },
+    {
+      "name": "logic-joy--base-for-start",
+      "source": "./logic-joy--base-for-start",
+      "description": "\uccab Next.js \ud398\uc774\uc9c0\ub97c \uc218\uc815\ud558\uace0 Vercel\uc5d0 \ubc30\ud3ec\ud574 URL\ub85c \uacf5\uc720\ud558\ub294 \ucd08\ubcf4\uc790\uc6a9 \uc2a4\ud0c0\ud130"
+    },
+    {
+      "name": "jure135--ecommercesite-1",
+      "source": "./jure135--ecommercesite-1",
+      "description": "EcommerceSite - 1 | NOVA Store \u2014 fullstack e-commerce (ASP.NET Core 8 + HTML/JS)"
+    },
+    {
+      "name": "sardormurodullayev--my-pc-uzb",
+      "source": "./sardormurodullayev--my-pc-uzb",
+      "description": "my-pc-uzb"
+    },
+    {
+      "name": "flashtm123--eduhub-mobile",
+      "source": "./flashtm123--eduhub-mobile",
+      "description": "eduhub-mobile"
+    },
+    {
+      "name": "danishmustafa86--python-basics-quiz",
+      "source": "./danishmustafa86--python-basics-quiz",
+      "description": "Python_basics_quiz"
+    },
+    {
+      "name": "singhharshitt--nexledgerr",
+      "source": "./singhharshitt--nexledgerr",
+      "description": "Nexledgerr"
+    },
+    {
+      "name": "azizprivacy--azizprivacy",
+      "source": "./azizprivacy--azizprivacy",
+      "description": "azizprivacy"
+    },
+    {
+      "name": "mszal449--heetlog",
+      "source": "./mszal449--heetlog",
+      "description": "Heetlog is a heating management app for people who heat their own house."
+    },
+    {
+      "name": "redjoel--x402-proxy-template",
+      "source": "./redjoel--x402-proxy-template",
+      "description": "x402-proxy-template"
+    },
+    {
+      "name": "phamdanghung--autonomous-ai-investment-lab",
+      "source": "./phamdanghung--autonomous-ai-investment-lab",
+      "description": "autonomous-ai-investment-lab"
+    },
+    {
+      "name": "rudrakshvaishnav--shreeji-mp-online-point",
+      "source": "./rudrakshvaishnav--shreeji-mp-online-point",
+      "description": "shreeji-mp-online-point"
+    },
+    {
+      "name": "tushar-upadhya--crud-native-convex",
+      "source": "./tushar-upadhya--crud-native-convex",
+      "description": "crud-native-convex"
+    },
+    {
+      "name": "rimalazar2--qr-code-etudiants",
+      "source": "./rimalazar2--qr-code-etudiants",
+      "description": "Plateforme de gestion academique avec verification par QR code (etudiants, releves, diplomes, filieres)"
+    },
+    {
+      "name": "bhuvaneshmp15-glitch--ayursutra",
+      "source": "./bhuvaneshmp15-glitch--ayursutra",
+      "description": "ayursutra"
+    },
+    {
+      "name": "eai-scrmdemo--crm",
+      "source": "./eai-scrmdemo--crm",
+      "description": "Mirror of frappe/crm (eai-scrmdemo sandbox)"
+    },
+    {
+      "name": "whh-32--birthday",
+      "source": "./whh-32--birthday",
+      "description": "birthday"
+    },
+    {
+      "name": "akajdid-mostafa--playbase",
+      "source": "./akajdid-mostafa--playbase",
+      "description": "PlayBase - Sport Center & Court Booking platform. Book courts, join clubs & leagues, and train with private coaches."
+    },
+    {
+      "name": "pratham1st--my-chat-replay",
+      "source": "./pratham1st--my-chat-replay",
+      "description": "my-chat-replay"
+    },
+    {
+      "name": "sdj3261--openai-game-2026",
+      "source": "./sdj3261--openai-game-2026",
+      "description": "game 2026 hackerton"
+    },
+    {
+      "name": "ashrafedes--infraflow",
+      "source": "./ashrafedes--infraflow",
+      "description": "infraflow"
+    },
+    {
+      "name": "marthings--infinity",
+      "source": "./marthings--infinity",
+      "description": "Inspiration collection and moodboard"
+    },
+    {
+      "name": "ndzin77--p10-salas",
+      "source": "./ndzin77--p10-salas",
+      "description": "P10-salas"
+    },
+    {
+      "name": "hetnic-digital--hetnic",
+      "source": "./hetnic-digital--hetnic",
+      "description": "Professional website built with Next.js, React, and Tailwind CSS"
+    },
+    {
+      "name": "kamrendowner1234-rgb--grumpy420",
+      "source": "./kamrendowner1234-rgb--grumpy420",
+      "description": "Grumpy420"
+    },
+    {
+      "name": "gqurishi--orderweb-website2026",
+      "source": "./gqurishi--orderweb-website2026",
+      "description": "orderweb-website2026"
+    },
+    {
+      "name": "scissor2026--scissorsucks1",
+      "source": "./scissor2026--scissorsucks1",
+      "description": "scissorsucks1"
+    },
+    {
+      "name": "botfor24666--harmonizer-hub-90",
+      "source": "./botfor24666--harmonizer-hub-90",
+      "description": "harmonizer-hub-90"
+    },
+    {
+      "name": "dev-nomi--jnd-plumbing",
+      "source": "./dev-nomi--jnd-plumbing",
+      "description": "jnd-plumbing"
+    },
+    {
+      "name": "kriscasas--bramante",
+      "source": "./kriscasas--bramante",
+      "description": "Bramante"
+    },
+    {
+      "name": "wileranpalerhe--mirror-shine-clone",
+      "source": "./wileranpalerhe--mirror-shine-clone",
+      "description": "mirror-shine-clone"
+    },
+    {
+      "name": "siddheshchaudhari2k24--portfolio-sid",
+      "source": "./siddheshchaudhari2k24--portfolio-sid",
+      "description": "Personal Portfolio Revamped"
+    },
+    {
+      "name": "ybhatia10088--commanddeck",
+      "source": "./ybhatia10088--commanddeck",
+      "description": "Voice-native mission control for robot fleets. Coordinate many autonomous units by speaking, via MCP + Convex. Built at the VoiceOS hackathon."
+    },
+    {
+      "name": "avarowse-cpu--whimsical-wedding-whirl",
+      "source": "./avarowse-cpu--whimsical-wedding-whirl",
+      "description": "whimsical-wedding-whirl"
     }
   ]
 }
