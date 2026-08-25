@@ -1,50 +1,56 @@
-# 150-i18n-and-content
+# 200-architecture-limits
 
-> Enforce i18n key parity and content guard when editing locales or copy
+> Keep files small and reuse logic via services,hooks,and feature slices
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/150-i18n-and-content/SKILL.md
+Read and follow the instructions in .claude/skills/200-architecture-limits/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# i18n & Content
+# Architektur: KISS, DRY, Grenzen
 
-## Schlüssel & Bundles
+## Prinzipien
 
-- Quelle: **`locales/<lang>/*.json`** (de, en, fr, es, it) — **alle fünf** Locales bei neuen Keys.
-- Runtime: **`public/locales/<lang>/bundle.json`** via `node scripts/build-i18n.mjs` (läuft in `predev` / `i18n:check`).
-- CI: **`pnpm run i18n:check`** (Key-Parität + Bundle + `content:guard`).
-- UI-Text nur als **Übersetzungsschlüssel** (Dot-Notation), nie hardcodiert in TSX — außer Dev-Debug.
+- **KISS:** Einfachste Lösung mit `strict` Types und testbaren Seams.
+- **DRY:** Logik in `services/`, `hooks/`, `features/*/thunks` — nicht in Views duplizieren.
 
-## Ton & Glossar
+## View-Muster (StoryCraft)
 
-- KI als **Co-Pilot**, nicht Ghostwriter; Fehler: Was passiert → Was tun → optional `tryActionId`/Command.
-- Begriffe konsistent (siehe [`docs/BEST-PRACTICES.md`](../../docs/BEST-PRACTICES.md)): Manuscript, Outline, Template, Snapshot vs. Scene Revision, Writing Session, Subplot, Connection.
+- **Component + Hook + Context:** Rendering in `components/*View.tsx`, Logik in `hooks/use*View.ts`, Kontext für Kindbaum.
+- **Redux** für persistierten App-State; **Zustand** nur transient (`app/transientUiStore.ts`).
+- **Undo:** `redux-undo` am Projekt-Slice; Plot-Board-**Viewport** lokal — Verbindungen/Subplots im `projectSlice` wenn undo-relevant.
+- Schwere Views: `React.lazy` in `App.tsx`; Plot-Board-Subchunks, ForceGraph, Collaboration lazy; `listenerMiddleware` + `aiApi` dynamic import für DuckDB/RAG/Provider.
+- **ProForge Pipeline** (`services/proForge/`, `features/proForge/`, `components/proForge/`): 8-stage Agentic-Pipeline hinter `enableProForge`-Flag. Orchestrator nie direkt in Komponenten instantiieren — über `hooks/useProForgeOrchestrator.ts`.
+- **Voice** (`services/voice/`): Abstract-Engine-Pattern; `VoiceCommandService` als Singleton hinter `enableVoiceSupport`-Flag.
 
-## Community & Help
+## Dateigrößen
 
-- Templates: kanonisches **Englisch** in `community-templates/index.json` + Spiegel unter `public/community-templates/`; Zod in `fetchCommunityTemplates`.
-- Help-Struktur: **`services/help/helpCatalog.ts`** (nicht `help.categories` in JSON); Texte in `locales/<lang>/help.json`. Neue Artikel: Katalog + alle 5 Locales (siehe `scripts/help-extra-keys.json`, `scripts/help-locales-es-fr-it.json`).
-- Help-Artikel: **`tryActionId`** für Palette/Navigation; Suche über `helpSearch.ts`; Demo-Feedback über Toasts, nicht `alert`.
+- **Ziel:** 200–700 Zeilen. **> 700:** splitten (Hook, Subkomponente, Selektoren, Tests).
+- Reducer schlank; Thunks in `features/project/thunks/` (inkl. `aiThunkUtils` für deduplizierte KI-Requests).
 
-## PR-Checkliste
+## Workspace & Typen
 
-1. Keys in allen Locales
-2. `pnpm run i18n:check` lokal (Quick-Tier)
-3. Keine Secrets/PII in JSON-Beispielen
+- Shared Code in **`packages/ai-core`**, **`packages/ui`** — nicht ungefragt in Root duplizieren.
+- Schnittstellen an `types.ts` / Feature-Typen; kein `any`-Workaround.
+
+## Feature Flags
+
+- Experimentelles über `features/featureFlags/featureFlagsSlice.ts` (19 Flags) — nicht verstreute `if (true)`-Hacks.
+- Standard **ein**: `enableCodexAutoTracking`, `enableCrossProjectSearch`, `enablePlotBoardV2`. Alle anderen: aus.
+- Major-Features (Voice, ProForge, DuckDB, LoRA, CloudSync, PluginSystem) müssen per Flag ein-/ausgeschaltet werden.
 
 <example>
-Neuer Settings-String: Key in `locales/en/settings.json` + de/fr/es/it; `i18n:check` grün; Help-Link mit `tryActionId: 'nav-settings'`.
+Manuskript >700 Zeilen: `ManuscriptInspector.tsx` + `hooks/useManuscript.ts`; Plot-Board-Canvas eigene Datei unter `components/plotBoard/`.
 </example>
 
 <example type="invalid">
-Nur `en` befüllt; UI zeigt rohe Keys weil `bundle.json` nicht gebaut; deutscher Fließtext direkt in `components/Dashboard.tsx`.
+700+ Zeilen nur mit Kommentar-Abschnitten; Plot-Subplot-State nur in localStorage ohne Undo-Strategie; drittes State-Framework neben Redux/Zustand.
 </example>
 
 ---
