@@ -120609,6 +120609,11 @@
       "description": "\ud83d\udce8 An open-source email client built around your privacy, cross-platform with zero telemetry, fully yours."
     },
     {
+      "name": "buckit-io--buckit",
+      "source": "./buckit-io--buckit",
+      "description": "Buckit Object Storage application"
+    },
+    {
       "name": "alibaba--opc-starter",
       "source": "./alibaba--opc-starter",
       "description": "opc-starter"
@@ -140692,6 +140697,11 @@
       "name": "sergeinikolenko--burette",
       "source": "./sergeinikolenko--burette",
       "description": "macOS desktop app and Quick Look extension for molecular previews: Mol* 3D, xyzrender SVG, and RDKit grids."
+    },
+    {
+      "name": "automoto--gg-scale",
+      "source": "./automoto--gg-scale",
+      "description": "Open-source backend for multiplayer games"
     },
     {
       "name": "asakin--llm-context-base",
@@ -187809,6 +187819,11 @@
       "description": "Static Astro marketing + blog + docs starter for Cloudflare Pages. Markdown content, Starlight docs with full-text search, i18n-ready, SEO, light/dark \u2014 no CMS, no database."
     },
     {
+      "name": "vincenzo-afk--hackerrank-agent",
+      "source": "./vincenzo-afk--hackerrank-agent",
+      "description": "a powerful support agent"
+    },
+    {
       "name": "inureyes--gyeol",
       "source": "./inureyes--gyeol",
       "description": "gyeol"
@@ -190274,6 +190289,16 @@
       "description": "Rich text editor for AI and human collaboration. Headless. Extendable."
     },
     {
+      "name": "gibaragibara--lyricislandmac",
+      "source": "./gibaragibara--lyricislandmac",
+      "description": "LyricIslandMac"
+    },
+    {
+      "name": "plainconceptsplatform--agent-harness",
+      "source": "./plainconceptsplatform--agent-harness",
+      "description": "Prepare any codebase for AI. Wires OpenCode, OpenSpec, codegraph, and agentmemory into a multi-agent development workflow powered by native parallel subagents."
+    },
+    {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
       "source": "./sharf-shawon--awesome-bangladeshi-foss",
       "description": "Curated list of awesome Bangladeshi FOSS \u2014 open source apps, libraries, tools, and platforms built by developers from Bangladesh"
@@ -192402,6 +192427,11 @@
       "name": "prakrititz--relaybrain",
       "source": "./prakrititz--relaybrain",
       "description": "Coordination and context layer for AI coding agents. Shared file locks, live patch sync, and portable project memory across Claude Code, Cursor, Copilot, Codex and Antigravity with rooms for team-wide"
+    },
+    {
+      "name": "hakari-bench--hakari-bench",
+      "source": "./hakari-bench--hakari-bench",
+      "description": "\u2696\ufe0f HAKARI-Bench is a lightweight IR benchmark that rebuilds retrieval tasks as small Nano-sets, making model selection, regression checks, quantization, truncation, and reranking comparisons practical"
     },
     {
       "name": "laskewitz--inventory-report",
@@ -232149,6 +232179,11 @@
       "description": "astrbot_plugin_monixiuxian2"
     },
     {
+      "name": "chnnic--ssh-hardening",
+      "source": "./chnnic--ssh-hardening",
+      "description": "IMPART OPS\uff1a\u4e00\u7ad9\u5f0f Linux VPS \u8fd0\u7ef4\u4e0e\u5b89\u5168\u52a0\u56fa\u811a\u672c\uff0c\u96c6\u6210 SSH\u9632\u62a4\u3001BBR/tc\u9650\u901f\u3001DDNS\u3001\u9632\u706b\u5899\u3001Caddy\u3001Docker\u3001\u7f51\u7edc\u8bca\u65ad\u3001\u76d1\u63a7\u544a\u8b66\u53ca\u79bb\u7ebf\u5b89\u88c5\u3002"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -237372,6 +237407,16 @@
       "name": "stefanko-ch--nexus-stack",
       "source": "./stefanko-ch--nexus-stack",
       "description": "One-command deployment: Hetzner + Cloudflare Zero Trust + Docker"
+    },
+    {
+      "name": "porcupine-md--anoa-browser",
+      "source": "./porcupine-md--anoa-browser",
+      "description": "Headless browser with full Chrome DevTools Protocol (CDP) support. Distributed as a single self-contained binary \u2014 no Node.js or npm required."
+    },
+    {
+      "name": "mindmapvault--mindmapvault-foss",
+      "source": "./mindmapvault--mindmapvault-foss",
+      "description": "Offline\u2011first encrypted mind\u2011map editor (FOSS, local\u2011only, zero telemetry)"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -243382,6 +243427,11 @@
       "name": "cy-chenyue--easy-input-maker",
       "source": "./cy-chenyue--easy-input-maker",
       "description": "EasyInput V2.0 \u5b8c\u6574\u56fa\u4ef6\u57fa\u7ebf\uff0c\u9762\u5411 AI \u4fee\u6539\u4e0e\u53ef\u9a8c\u8bc1\u5171\u521b"
+    },
+    {
+      "name": "software-mansion--voyager",
+      "source": "./software-mansion--voyager",
+      "description": "Observe, debug, and understand running BEAM systems"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -258774,6 +258824,11 @@
       "description": "Template for creating sites like outbid.lol"
     },
     {
+      "name": "lexlapax--allbert-assist",
+      "source": "./lexlapax--allbert-assist",
+      "description": "Allbert Assist is a local-first assistant runtime for long-running personal work built in elixir/otp, jido agents etc"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -271602,6 +271657,26 @@
       "name": "tqbf--swiftui-app",
       "source": "./tqbf--swiftui-app",
       "description": "A clean, modern SwiftUI macOS app template you fork by copying \u2014 no Xcode project, SwiftPM only."
+    },
+    {
+      "name": "opendatahub-io--agentic-ci",
+      "source": "./opendatahub-io--agentic-ci",
+      "description": "Run AI coding agents in sandboxed CI environments"
+    },
+    {
+      "name": "readysettech--rdst",
+      "source": "./readysettech--rdst",
+      "description": "rdst"
+    },
+    {
+      "name": "fantasyit-projects--ether-craft-neo",
+      "source": "./fantasyit-projects--ether-craft-neo",
+      "description": "EC for 26.1.2"
+    },
+    {
+      "name": "danieljsears-lab--precodeos",
+      "source": "./danieljsears-lab--precodeos",
+      "description": "Repo-native anti-drift control layer for solos building software using AI-coding agents"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -306569,6 +306644,51 @@
       "description": "HA multi-region weather alerts integration: one entity per active weather alert, modeled on CAP fields. Solves the 16KB attribute limit."
     },
     {
+      "name": "nonogv--live-agent",
+      "source": "./nonogv--live-agent",
+      "description": "AI agent for Ableton Live \u2014 chat with GPT, Claude, or Gemini to control your session"
+    },
+    {
+      "name": "nonogv--live-agent",
+      "source": "./nonogv--live-agent",
+      "description": "AI agent for Ableton Live \u2014 chat with GPT, Claude, or Gemini to control your session"
+    },
+    {
+      "name": "linuz90--obsidian-verso",
+      "source": "./linuz90--obsidian-verso",
+      "description": "Verso is a quiet, native-feeling standalone theme for Obsidian."
+    },
+    {
+      "name": "zeeplabs--zeep-orbit",
+      "source": "./zeeplabs--zeep-orbit",
+      "description": "Zeep Orbit is an open-source, self-hosted platform that gives your team everything to build and ship apps"
+    },
+    {
+      "name": "tjindarr--unifi-insights-hub",
+      "source": "./tjindarr--unifi-insights-hub",
+      "description": "unifi-insights-hub"
+    },
+    {
+      "name": "ckomma--charge-app-connector-vw",
+      "source": "./ckomma--charge-app-connector-vw",
+      "description": "Read and control Volkswagen vehicle data through the Android app using ADB UI automation"
+    },
+    {
+      "name": "andriansandi--inbix",
+      "source": "./andriansandi--inbix",
+      "description": "Open Source Disposable Email Platform powered by Cloudflare Workers"
+    },
+    {
+      "name": "jadearkadian--ffxiv-spanish-patcher",
+      "source": "./jadearkadian--ffxiv-spanish-patcher",
+      "description": "Patcher para generar la traducci\u00f3n del juego."
+    },
+    {
+      "name": "evotai--localrl",
+      "source": "./evotai--localrl",
+      "description": "Local domain RL on Apple Silicon \u2014 train in the browser with GRPO."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -327387,6 +327507,11 @@
       "name": "charlie12345--vllm-for-amd",
       "source": "./charlie12345--vllm-for-amd",
       "description": "vLLM optimized for AMD"
+    },
+    {
+      "name": "smfworks--hermes-ai-team",
+      "source": "./smfworks--hermes-ai-team",
+      "description": "Build an AI team of Hermes agents: SOUL, memory, vault, skills, nightly research, kanban, chief of staff, rituals, and Desktop Bots group chats. Agent-consumable, phase-by-phase guide by Aiona Edge."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -442322,6 +442447,166 @@
       "name": "danishbansal-cmd--stayease",
       "source": "./danishbansal-cmd--stayease",
       "description": "stayease"
+    },
+    {
+      "name": "cookiezisg--anselm",
+      "source": "./cookiezisg--anselm",
+      "description": "Anselm"
+    },
+    {
+      "name": "jclee941--terraform",
+      "source": "./jclee941--terraform",
+      "description": "Homelab infrastructure-as-code for Proxmox, networking, monitoring, and services"
+    },
+    {
+      "name": "pavindulivera--crashbar",
+      "source": "./pavindulivera--crashbar",
+      "description": "CrashBAR"
+    },
+    {
+      "name": "yasmin7580--booknest-a8",
+      "source": "./yasmin7580--booknest-a8",
+      "description": "BookNest is an online library management platform that makes discovering, borrowing, and managing books simple. It provides an organized and user-friendly experience for readers to explore a wide coll"
+    },
+    {
+      "name": "ahmadghl--mysrz-website",
+      "source": "./ahmadghl--mysrz-website",
+      "description": "mySRZ Travel & Tourism \u2014 Pakistan travel blog (Next.js 15 / App Router on Vercel)"
+    },
+    {
+      "name": "saptarshi-sen1--smart-resource-allocation",
+      "source": "./saptarshi-sen1--smart-resource-allocation",
+      "description": "smart-resource-allocation"
+    },
+    {
+      "name": "negzaoui24--fromagerie-smine",
+      "source": "./negzaoui24--fromagerie-smine",
+      "description": "Fromagerie-Smine"
+    },
+    {
+      "name": "habib7442--dreamdesign-silchar",
+      "source": "./habib7442--dreamdesign-silchar",
+      "description": "dreamdesign-silchar"
+    },
+    {
+      "name": "markolsen619--supernova-travel",
+      "source": "./markolsen619--supernova-travel",
+      "description": "supernova-travel"
+    },
+    {
+      "name": "gauravttiwari--devarea",
+      "source": "./gauravttiwari--devarea",
+      "description": "DevArea"
+    },
+    {
+      "name": "said792--bait-algory",
+      "source": "./said792--bait-algory",
+      "description": "\u0628\u064a\u062a \u0627\u0644\u062c\u0648\u0631\u0649 \u0644\u0644\u0646\u062c\u0641 \u0648 \u0627\u0644\u0645\u0633\u062a\u0644\u0632\u0645\u0627\u062a \u0627\u0644\u0645\u0646\u0632\u0644\u064a\u0629"
+    },
+    {
+      "name": "chronic-illness-channel--uk-aq-ops",
+      "source": "./chronic-illness-channel--uk-aq-ops",
+      "description": "UK-AQ Operations Repo"
+    },
+    {
+      "name": "doxa-photizo--proactif",
+      "source": "./doxa-photizo--proactif",
+      "description": "NGO website "
+    },
+    {
+      "name": "minhlong49th--affiliateos",
+      "source": "./minhlong49th--affiliateos",
+      "description": "AffiliateOS"
+    },
+    {
+      "name": "koboshchan--opencai",
+      "source": "./koboshchan--opencai",
+      "description": "opencai"
+    },
+    {
+      "name": "romdesigns0-dotcom--bordado-cordoba-astro",
+      "source": "./romdesigns0-dotcom--bordado-cordoba-astro",
+      "description": "bordado-cordoba-astro"
+    },
+    {
+      "name": "charlesmish--nocturne",
+      "source": "./charlesmish--nocturne",
+      "description": "Nocturne is a small local sleep app. It gives you a few simple ways to settle in: ambient sound beds, a soft sky view, and a local radio space for your own bedtime audio that runs on your machine. The"
+    },
+    {
+      "name": "butykadavid--lmu-setuphub",
+      "source": "./butykadavid--lmu-setuphub",
+      "description": "Web application erving as a steup sharing platform for Le Mans Ultimate simulator racers."
+    },
+    {
+      "name": "bakadja--asd-challenges-challenges-recap-project-1",
+      "source": "./bakadja--asd-challenges-challenges-recap-project-1",
+      "description": "\ud83c\udf93 Recap project for the Neue Fische bootcamp. A lightweight IT-Book Library application demonstrating TypeScript, Bun, and DOM manipulation."
+    },
+    {
+      "name": "tiendung14b--reading-test-online",
+      "source": "./tiendung14b--reading-test-online",
+      "description": "reading-test-online"
+    },
+    {
+      "name": "edm1922--smarttracking",
+      "source": "./edm1922--smarttracking",
+      "description": "Smarttracking"
+    },
+    {
+      "name": "nirregen--stockagent",
+      "source": "./nirregen--stockagent",
+      "description": "stockagent"
+    },
+    {
+      "name": "yanpaingkyaw--finance-tracker-app",
+      "source": "./yanpaingkyaw--finance-tracker-app",
+      "description": "Mini Finance Tracker App which can Track transactions, compare spending against category budgets, and auto-carry unused budget into a global pool."
+    },
+    {
+      "name": "sylviaegoavil--sylviashouse",
+      "source": "./sylviaegoavil--sylviashouse",
+      "description": "sylviashouse"
+    },
+    {
+      "name": "makibao0--cek-race",
+      "source": "./makibao0--cek-race",
+      "description": "cek-race"
+    },
+    {
+      "name": "mrchevyceleb--samwise-2",
+      "source": "./mrchevyceleb--samwise-2",
+      "description": "Personal web chat for Claude Code, served from a Mac Mini over Tailscale. The Reading Room."
+    },
+    {
+      "name": "mcj0nes--planiprof",
+      "source": "./mcj0nes--planiprof",
+      "description": "Planiprof simplifie la vie des enseignants du primaire au Qu\u00e9bec : planification claire, outils d\u2019\u00e9valuation complets, collaboration facile et acc\u00e8s sur tous les appareils. Tout pour organiser l\u2019ann\u00e9e"
+    },
+    {
+      "name": "chpock--openusage-cli",
+      "source": "./chpock--openusage-cli",
+      "description": "Local daemon and CLI that collects AI provider usage/quota via OpenUsage plugins and exposes normalized data through a local REST API"
+    },
+    {
+      "name": "secsamdev--moxidize",
+      "source": "./secsamdev--moxidize",
+      "description": "moxidize"
+    },
+    {
+      "name": "ellisnet--codebrix-platform-unicode",
+      "source": "./ellisnet--codebrix-platform-unicode",
+      "description": "CodeBrix.Platform.Unicode"
+    },
+    {
+      "name": "nelson-lamounier--tucaken-app",
+      "source": "./nelson-lamounier--tucaken-app",
+      "description": "tucaken-app"
+    },
+    {
+      "name": "rommellnelson-ux--ruggylab-os",
+      "source": "./rommellnelson-ux--ruggylab-os",
+      "description": "Secure FastAPI laboratory backend for patient intake, sample tracking, result validation, reagent monitoring, audit trails, and reporting."
     }
   ]
 }
