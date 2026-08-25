@@ -1,21 +1,20 @@
-# ui-component-patterns
+# ui-core-development
 
-> Component-level patterns for tables, modals, forms, notifications, and icons.
+> Core development guidance for the QIP UI workspace.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/ui-component-patterns/SKILL.md
+Read and follow the instructions in .claude/skills/ui-core-development/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-When editing React components under `ui/src/components/`, especially tables,
-modals, forms, notifications, labels, permissions, or icons,
-apply the `ui-component-patterns` skill.
+When editing files in `ui/` for feature work, refactoring, bug fixes, or tests,
+apply the `ui-core-development` skill.
 
 ---
 > Source: [Netcracker/qubership-integration-platform](https://github.com/Netcracker/qubership-integration-platform) — distributed by [TomeVault](https://tomevault.io).
