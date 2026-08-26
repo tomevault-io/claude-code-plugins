@@ -1,40 +1,60 @@
-# vx
+# vx-mcp
 
-> > All project instructions are in [AGENTS.md](AGENTS.md) — follow it exactly.
+> Rules for configuring MCP servers with vx — replace npx/uvx with vx for zero-config tool management
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/vx/SKILL.md
+Read and follow the instructions in .claude/skills/vx-mcp/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Cline Rules for vx
 
-> All project instructions are in [AGENTS.md](AGENTS.md) — follow it exactly.
-> This file only adds Cline-specific notes.
+# VX MCP Integration Rules
 
-## Cline Specifics
+When configuring MCP (Model Context Protocol) servers, **always** use `vx` instead of `npx` or `uvx`:
 
-- Use Conventional Commits: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`
-- Run `vx just quick` before submitting PR
-- PRs target `main` branch
-- Provider count is 137 (update docs when adding new providers)
+## Pattern
 
-## Quick Reference
+```json
+{
+  "mcpServers": {
+    "server-name": {
+      "command": "vx",
+      "args": ["npx", "-y", "@scope/package@latest"]
+    }
+  }
+}
+```
 
-| Task | Command |
-|------|---------|
-| Full check | `vx just quick` |
-| Format | `vx just fmt` |
-| Lint | `vx just lint` |
-| Test | `vx just test` |
-| Build | `vx just build` |
-| Single crate | `vx cargo test -p <crate-name>` |
+## Benefits
+
+- Users don't need Node.js/Python pre-installed
+- Same config works across Windows, macOS, Linux
+- Tool versions managed by vx.toml if present
+
+## Migration
+
+| Replace | With |
+|---------|------|
+| `"command": "npx"` | `"command": "vx", "args": ["npx", ...]` |
+| `"command": "uvx"` | `"command": "vx", "args": ["uvx", ...]` |
+| `"command": "node"` | `"command": "vx", "args": ["node", ...]` |
+| `"command": "python"` | `"command": "vx", "args": ["python", ...]` |
+
+## Common MCP Servers with vx
+
+```json
+{
+  "filesystem": { "command": "vx", "args": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "/path"] },
+  "github": { "command": "vx", "args": ["npx", "-y", "@modelcontextprotocol/server-github"] },
+  "sqlite": { "command": "vx", "args": ["uvx", "mcp-server-sqlite", "--db-path", "db.sqlite"] }
+}
+```
 
 ---
 > Source: [loonghao/vx](https://github.com/loonghao/vx) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-27 -->
+<!-- tomevault:4.0:claude_md:2026-05-06 -->
