@@ -1,24 +1,24 @@
-# do-check-before-deleting
+# do-check-previous-commits
 
-> Never mindlessly delete functions, variables, classes etc. Follow these steps:
+> When you encounter missing imports, parts of the files missing, or files missing - always check:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/do-check-before-deleting/SKILL.md
+Read and follow the instructions in .claude/skills/do-check-previous-commits/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Rule: Check Before Deleting Code
+# Rule: Check Previous Commits
 
-Never mindlessly delete functions, variables, classes etc. Follow these steps:
-- First ask yourself: "Why do I need to delete it? What will happen if it's not there?"
-- Check if there are instantiations of the class or calls to a function.
-- Even when you see that there is not a single instantiation of the class or call to a function - ask the user with the proposal to delete it, explain your analysis and tell why you think it's safe to delete it.
-- Even if the user agrees - add a tag "deleted def func_x" on the commit.
+When you encounter missing imports, parts of the files missing, or files missing - always check:
+1. Previous commit.
+2. Commit from which branch originates.
+
+Likely you will find it there and can restore from there.
 
 ---
 > Source: [FeatureFactory-io/mimir](https://github.com/FeatureFactory-io/mimir) — distributed by [TomeVault](https://tomevault.io).
