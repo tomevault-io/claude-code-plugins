@@ -1,17 +1,16 @@
-# project
+# tsrx
 
-> TSRX monorepo overview and development guidelines
+> TSRX (TypeScript Render Extensions) is a framework-neutral language for authoring
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/project/SKILL.md
+Read and follow the instructions in .claude/skills/tsrx/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # TSRX Project Guide for AI Agents
 
