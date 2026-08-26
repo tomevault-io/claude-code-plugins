@@ -182754,6 +182754,11 @@
       "description": "V12\u2192V13 LoopKit: turns completion records into governed next-loop decisions using GO / HOLD / CAP / BLOCK."
     },
     {
+      "name": "radcrew--cryptopets",
+      "source": "./radcrew--cryptopets",
+      "description": "NFT pet game on Ethereum & Solana - mint, breed, train, and battle pets with Chainlink VRF-powered combat and on-chain progression."
+    },
+    {
       "name": "r44vc0rp--itui",
       "source": "./r44vc0rp--itui",
       "description": "itui"
@@ -274299,6 +274304,11 @@
       "description": "Backend for Heat Expansion game"
     },
     {
+      "name": "niemeyer--muslnet",
+      "source": "./niemeyer--muslnet",
+      "description": "TinyGo support for networking on Linux"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -309839,6 +309849,61 @@
       "description": "Swift SDK for the YouVersion Platform"
     },
     {
+      "name": "raen-dt--pynetlibrary",
+      "source": "./raen-dt--pynetlibrary",
+      "description": "API context and reference scripts for Autodesk applications (Navisworks, Revit, Civil 3D), designed for the PyNet Platform. This repo provides Python-style stubs of the Autodesk"
+    },
+    {
+      "name": "sididev--docsbase",
+      "source": "./sididev--docsbase",
+      "description": "docsbase"
+    },
+    {
+      "name": "xjthy001--context-engineering-cn",
+      "source": "./xjthy001--context-engineering-cn",
+      "description": "Context Engineering\u5b8c\u6574\u4e2d\u6587\u6559\u7a0b\uff1aRAG\u7cfb\u7edf\u3001\u8bb0\u5fc6\u67b6\u6784\u3001\u591a\u667a\u80fd\u4f53\u3001\u8ba4\u77e5\u5de5\u5177\u3001\u795e\u7ecf\u573a\u8bba |   750K+\u5b57 | \u5373\u7528\u6a21\u677f"
+    },
+    {
+      "name": "ngocdevv--onboarding-animation",
+      "source": "./ngocdevv--onboarding-animation",
+      "description": "onboarding-animation"
+    },
+    {
+      "name": "mr-september--ninfer-2080ti-22g",
+      "source": "./mr-september--ninfer-2080ti-22g",
+      "description": "ninfer-2080ti-22g"
+    },
+    {
+      "name": "gmalbert--horse-racing-predictions",
+      "source": "./gmalbert--horse-racing-predictions",
+      "description": "Horse racing predictions"
+    },
+    {
+      "name": "raen-dt--pynetlibrary",
+      "source": "./raen-dt--pynetlibrary",
+      "description": "API context and reference scripts for Autodesk applications (Navisworks, Revit, Civil 3D), designed for the PyNet Platform. This repo provides Python-style stubs of the Autodesk"
+    },
+    {
+      "name": "mail-os--mail",
+      "source": "./mail-os--mail",
+      "description": "A performant & secure SMTP server implementation, designed for self-hosting email infrastructure."
+    },
+    {
+      "name": "presence-calculus--samplepath-flow",
+      "source": "./presence-calculus--samplepath-flow",
+      "description": "Applying sample path techniques and Little's Law to measure flow in real-world operational processes."
+    },
+    {
+      "name": "noahisarider--matchaflow",
+      "source": "./noahisarider--matchaflow",
+      "description": "MatchaFlow is a large language model (LLM) based multi-agent system that simulates a complete software project management workflow."
+    },
+    {
+      "name": "noahbutcher97--katanacombat-demo",
+      "source": "./noahbutcher97--katanacombat-demo",
+      "description": "The Katana Combat System is a production-ready, C++-based melee combat framework for Unreal Engine 5.6 that implements sophisticated samurai-style gameplay mechanics inspired by Ghost of Tsushima."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -331107,6 +331172,36 @@
       "name": "wfjsw--shitspeak-rs",
       "source": "./wfjsw--shitspeak-rs",
       "description": "Geo-distributed Mumble Server in Rust"
+    },
+    {
+      "name": "tevslin--smarttranscripts",
+      "source": "./tevslin--smarttranscripts",
+      "description": "This repository contains the open-source components of `sfgovernmentconnection.com` and provides a set of shareware building blocks for anyone who wants to create \"SmartTranscripts\" from YouTube or ot"
+    },
+    {
+      "name": "crossoverjie--botler-agent",
+      "source": "./crossoverjie--botler-agent",
+      "description": "Lightweight personal agent framework: receives messages from Telegram / Feishu / WeChat (iLink) and autonomously completes short,   well-scoped tasks (meal logging, vocab lookups, reminders) inside yo"
+    },
+    {
+      "name": "organvm-iii-ergon--public-record-data-scrapper",
+      "source": "./organvm-iii-ergon--public-record-data-scrapper",
+      "description": "50-state UCC public-records intelligence \u2014 fresh, enriched, scored MCA / financing leads via dashboard, REST API, and CLI."
+    },
+    {
+      "name": "diffohq--diffo",
+      "source": "./diffohq--diffo",
+      "description": "Local, live code review for the AI age - read what the agent wrote and send feedback straight back"
+    },
+    {
+      "name": "mishamsk--wtg",
+      "source": "./mishamsk--wtg",
+      "description": "A snarky but helpful CLI tool to identify git commits, issues, PRs and file changes, and tell you which release they shipped in."
+    },
+    {
+      "name": "organvm-iii-ergon--public-record-data-scrapper",
+      "source": "./organvm-iii-ergon--public-record-data-scrapper",
+      "description": "50-state UCC public-records intelligence \u2014 fresh, enriched, scored MCA / financing leads via dashboard, REST API, and CLI."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -447127,6 +447222,51 @@
       "name": "glazinski--szt-backend",
       "source": "./glazinski--szt-backend",
       "description": "Recipe Management Platform - Spring REST API"
+    },
+    {
+      "name": "kaivalyagandhi--ai-or-not-game",
+      "source": "./kaivalyagandhi--ai-or-not-game",
+      "description": "ai-or-not-game"
+    },
+    {
+      "name": "kaivalyagandhi--ai-or-not-game",
+      "source": "./kaivalyagandhi--ai-or-not-game",
+      "description": "ai-or-not-game"
+    },
+    {
+      "name": "kaivalyagandhi--ai-or-not-game",
+      "source": "./kaivalyagandhi--ai-or-not-game",
+      "description": "ai-or-not-game"
+    },
+    {
+      "name": "noefontana--mask2former",
+      "source": "./noefontana--mask2former",
+      "description": "A (in-progress) reimplementation of Mask2Former (https://arxiv.org/pdf/2112.01527)"
+    },
+    {
+      "name": "iceytaggers-lang--icey",
+      "source": "./iceytaggers-lang--icey",
+      "description": "Talk to ai"
+    },
+    {
+      "name": "applelamps--cli-ai-coder",
+      "source": "./applelamps--cli-ai-coder",
+      "description": "cli_ai_coder"
+    },
+    {
+      "name": "noefontana--mask2former",
+      "source": "./noefontana--mask2former",
+      "description": "A (in-progress) reimplementation of Mask2Former (https://arxiv.org/pdf/2112.01527)"
+    },
+    {
+      "name": "noefontana--mask2former",
+      "source": "./noefontana--mask2former",
+      "description": "A (in-progress) reimplementation of Mask2Former (https://arxiv.org/pdf/2112.01527)"
+    },
+    {
+      "name": "jijae92--cloudthreatopsplatform",
+      "source": "./jijae92--cloudthreatopsplatform",
+      "description": "Cloud ThreatOps Platform \u2014 \u201c\uc9c0\ub2a5\ud615 \ud074\ub77c\uc6b0\ub4dc \uc704\ud611 \uac00\uc2dc\ud654\u00b7\ub300\uc751 \ud50c\ub7ab\ud3fc\u201d"
     }
   ]
 }
