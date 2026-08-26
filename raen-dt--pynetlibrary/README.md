@@ -7,12 +7,12 @@ API context and reference scripts for Autodesk applications (Navisworks, Revit, 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [RAEN-DT/PyNetLibrary](https://github.com/RAEN-DT/PyNetLibrary).
+Original source: `AGENTS.md` in [RAEN-DT/PyNetLibrary](https://github.com/RAEN-DT/PyNetLibrary).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
