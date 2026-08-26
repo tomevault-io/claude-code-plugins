@@ -1,47 +1,26 @@
-# agent-config-test-confirmation
+# dockernoharm
 
-> Require explicit user approval before running or creating tests that mutate active agent configs
+> Never docker-compose down -v (preserve volumes); never git commit/push without user confirmation
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent-config-test-confirmation/SKILL.md
+Read and follow the instructions in .claude/skills/dockernoharm/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Agent Config — Test Mutation Confirmation
+# Docker and Git — Never Do
 
-## Rule
+## Docker
+- **NEVER** use `docker-compose down -v`. It removes all Docker volumes, including database data.
+- **Always** use `docker-compose down` (without `-v`) to preserve data volumes.
 
-You **MUST** double-check and get **explicit confirmation** from the user before:
-
-1. **Creating new tests** that mutate active agent configs (e.g., workflow config, agent prompts, LLM provider settings).
-2. **Running existing tests** that mutate active agent configs.
-
-## What Counts as Mutating Agent Configs
-
-- Writing to or modifying workflow configuration files
-- Changing agent prompts, presets, or prompt versions
-- Altering LLM provider/model settings used by the running system
-- Tests that call APIs or services that persist config changes to the active environment
-
-## Required Behavior
-
-- **Before** proposing or implementing such tests: state that they will mutate agent configs and ask for explicit approval.
-- **Before** running such tests: confirm with the user that they approve the run.
-- Do **not** assume approval from "go", "implement", or "run tests" unless the user has explicitly confirmed they approve config-mutating tests.
-
-## Example
-
-```
-⚠️ These tests will modify active workflow/agent config. Do you approve running them?
-```
-
-Wait for explicit "yes" or equivalent before proceeding.
+## Git
+- **NEVER** run `git commit .` or `git push origin main` without getting positive confirmation from the user.
 
 ---
 > Source: [dfirtnt/Huntable-CTI-Studio](https://github.com/dfirtnt/Huntable-CTI-Studio) — distributed by [TomeVault](https://tomevault.io).
