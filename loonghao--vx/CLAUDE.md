@@ -1,6 +1,6 @@
 # vx
 
-> Rules for creating and modifying vx providers defined via Starlark DSL (provider.star)
+> > All project instructions are in [AGENTS.md](AGENTS.md) — follow it exactly.
 
 ## Usage
 
@@ -12,64 +12,29 @@ Read and follow the instructions in .claude/skills/vx/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Cline Rules for vx
 
-# VX Provider Development Rules
+> All project instructions are in [AGENTS.md](AGENTS.md) — follow it exactly.
+> This file only adds Cline-specific notes.
 
-## New Provider Template
+## Cline Specifics
 
-```starlark
-# crates/vx-providers/<name>/provider.star
-load("@vx//stdlib:provider.star", "runtime_def", "github_permissions")
-load("@vx//stdlib:provider_templates.star", "github_rust_provider")
+- Use Conventional Commits: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`
+- Run `vx just quick` before submitting PR
+- PRs target `main` branch
+- Provider count is 137 (update docs when adding new providers)
 
-name        = "<name>"
-description = "<description>"
-ecosystem   = "custom"  # nodejs, python, rust, go, system, custom
-runtimes    = [runtime_def("<runtime>", aliases = ["<alias>"])]
-permissions = github_permissions()
+## Quick Reference
 
-_p = github_rust_provider("owner", "repo",
-    asset = "tool-{vversion}-{triple}.{ext}")
-fetch_versions   = _p["fetch_versions"]
-download_url     = _p["download_url"]
-install_layout   = _p["install_layout"]
-store_root       = _p["store_root"]
-get_execute_path = _p["get_execute_path"]
-environment      = _p["environment"]
-```
-
-## Available Templates
-
-| Template | Use Case | Placeholders |
-|----------|----------|-------------|
-| `github_rust_provider` | Rust target triple naming | `{version}`, `{vversion}`, `{triple}`, `{ext}`, `{exe}` |
-| `github_go_provider` | Go/goreleaser naming | `{version}`, `{os}`, `{arch}`, `{ext}` |
-| `github_binary_provider` | Single binary download | `{exe}` |
-| `system_provider` | System package manager only | N/A |
-
-## Platform Constraints
-
-Return `None` from `download_url` for unsupported platforms:
-
-```starlark
-def download_url(ctx, version):
-    platform = platform_map(ctx, _PLATFORMS)
-    if not platform:
-        return None  # Unsupported platform
-    return "https://example.com/v{}/tool-{}.tar.gz".format(version, platform)
-```
-
-## Testing
-
-```bash
-vx <runtime> --version   # Verify the provider works
-```
-
-## Reference
-
-See `docs/guide/provider-star-reference.md` for the complete DSL reference.
+| Task | Command |
+|------|---------|
+| Full check | `vx just quick` |
+| Format | `vx just fmt` |
+| Lint | `vx just lint` |
+| Test | `vx just test` |
+| Build | `vx just build` |
+| Single crate | `vx cargo test -p <crate-name>` |
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/loonghao)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/loonghao)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Source: [loonghao/vx](https://github.com/loonghao/vx) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
