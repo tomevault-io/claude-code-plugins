@@ -1,0 +1,31 @@
+# individuality-community
+
+> - @agents/style.md — spelling and Rust code style
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/individuality-community/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Conventions
+
+- @agents/style.md — spelling and Rust code style
+- @.github/PULL_REQUEST_TEMPLATE.md — PR description format/template
+- @agents/extrinsics.md — authorized calls, fee refunds, error reporting, OCW patterns, integrity tests
+- @agents/benchmarking.md — weight functions, benchmarks, worst-case block-budget checks
+- @agents/testing.md — mock helpers, assertions, imports
+- @agents/git.md — branch naming and commit rules
+- @agents/definition-of-done.md — gates a change must pass to be mergeable
+
+# Tasks
+
+- [Audit](agents/tasks/audit.md) — transaction validity, provides tags, authorize/dispatch invariants, transaction extensions
+
+---
+> Source: [paritytech/individuality-community](https://github.com/paritytech/individuality-community) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-24 -->
