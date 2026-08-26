@@ -219294,6 +219294,11 @@
       "description": "Peppy: The simplified robotics framework"
     },
     {
+      "name": "01mvp--photodelete",
+      "source": "./01mvp--photodelete",
+      "description": "OnePhoto / \u5220\u56fe: local-first iPhone photo cleaner. Swipe, confirm, then delete. AGPL-3.0."
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -229972,6 +229977,11 @@
       "name": "acryldev--acryl",
       "source": "./acryldev--acryl",
       "description": "ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context, any coding agent."
+    },
+    {
+      "name": "tobimori--effect-attio",
+      "source": "./tobimori--effect-attio",
+      "description": "yield* AttioApi; A strongly-typed, schema-driven SDK for the Attio REST API based on Effect's HttpClient"
     },
     {
       "name": "vm--nila-code",
@@ -245929,6 +245939,16 @@
       "description": "A comprehensive Tailscale Prometheus exporter that combines API metadata with live device metrics for complete network observability."
     },
     {
+      "name": "sberbusiness--triplex-next",
+      "source": "./sberbusiness--triplex-next",
+      "description": "triplex-next"
+    },
+    {
+      "name": "hiroshi-os--bagrry",
+      "source": "./hiroshi-os--bagrry",
+      "description": "Bagrry"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -252997,6 +253017,11 @@
       "name": "aniflax--brijstays",
       "source": "./aniflax--brijstays",
       "description": "BrijStays"
+    },
+    {
+      "name": "alex-oleshkevich--glimpse",
+      "source": "./alex-oleshkevich--glimpse",
+      "description": "Wayland desktop toolkit for Niri: panel, wallpaper, lock screen, night light, and other."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -310394,6 +310419,21 @@
       "description": "CB-Essay is a platform for publishing long-form, multi-modal essays and monographs. Built on CollectionBuilder, the framework features longform content (connected essays, books, etc.) in front, with C"
     },
     {
+      "name": "areevai--areev",
+      "source": "./areevai--areev",
+      "description": "Self-improving agents, governed. Areev is the substrate for adaptive agents \u2014 agents that get better from their own history, under human authority, in steps you can inspect, undo, and re-measure."
+    },
+    {
+      "name": "intel--gpu-ai-skills",
+      "source": "./intel--gpu-ai-skills",
+      "description": "Agent Skills for running, benchmarking, and profiling Hugging Face models on Intel GPUs \u2014 PyTorch, vLLM-XPU, and SGLang-XPU"
+    },
+    {
+      "name": "melbinjp--jules-prompts",
+      "source": "./melbinjp--jules-prompts",
+      "description": "A curated library of machine-readable task prompts for Jules and other coding agents, including prompts for the failures agents actually have: broken setup scripts, vague issues, tests that need servi"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -331742,6 +331782,21 @@
       "name": "headpiece747--ninfer-5090-windows",
       "source": "./headpiece747--ninfer-5090-windows",
       "description": "Native Windows MSVC port of NInfer optimized for NVIDIA RTX 5090. Features NVFP4 inference, MTP3 speculative decoding, and massive 262k context support."
+    },
+    {
+      "name": "jayleaton--ai-patterns-monorepo",
+      "source": "./jayleaton--ai-patterns-monorepo",
+      "description": "ai-patterns-monorepo"
+    },
+    {
+      "name": "jayleaton--ai-patterns-monorepo",
+      "source": "./jayleaton--ai-patterns-monorepo",
+      "description": "ai-patterns-monorepo"
+    },
+    {
+      "name": "jayleaton--ai-patterns-monorepo",
+      "source": "./jayleaton--ai-patterns-monorepo",
+      "description": "ai-patterns-monorepo"
     },
     {
       "name": "cheerhuan--save-your-token",
