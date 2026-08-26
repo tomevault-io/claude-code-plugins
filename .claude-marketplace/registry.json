@@ -197414,6 +197414,11 @@
       "description": "Unofficial Safari port of asciimoo/hister"
     },
     {
+      "name": "qunqin24--aurora-mbti",
+      "source": "./qunqin24--aurora-mbti",
+      "description": "Aurora MBTI \u662f\u4e00\u4e2a\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7684\u73b0\u4ee3\u5316 MBTI \u4eba\u683c\u6d4b\u8bd5\u5e73\u53f0\uff0c\u901a\u8fc7\u6df1\u5ea6\u4e2a\u6027\u5316\u548c\u667a\u80fd\u7b97\u6cd5\u4f18\u5316\uff0c\u4e3a\u7528\u6237\u63d0\u4f9b\u66f4\u7cbe\u51c6\u3001\u66f4\u8d34\u5408\u4e2a\u4eba\u751f\u6d3b\u7684\u6027\u683c\u5206\u6790\u4f53\u9a8c\u3002"
+    },
+    {
       "name": "eliornl--applypilot",
       "source": "./eliornl--applypilot",
       "description": "Self-hosted, AI-powered job search companion. Paste a job posting and five AI agents run an orchestrated pipeline \u2014 analyze the role, score your fit, research the company, rewrite your resume, and wri"
@@ -210954,6 +210959,11 @@
       "description": "Self-host Supabase in production, AI-ready: read-only MCP for your coding agent with zero secret exposure, SSO, PITR backups, monitoring, disk encryption, and one-command migration off Supabase Cloud."
     },
     {
+      "name": "kaotoio--forage",
+      "source": "./kaotoio--forage",
+      "description": "Opinionated bean factories for Apache Camel"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -213602,6 +213612,11 @@
       "name": "emerzon--mtdata-mcp",
       "source": "./emerzon--mtdata-mcp",
       "description": "A MetaTrader 5 research toolkit with 90+ AI tools for forecasting, regime detection, pattern recognition, and live trading."
+    },
+    {
+      "name": "sparpreis-guru--sparpreis-guru",
+      "source": "./sparpreis-guru--sparpreis-guru",
+      "description": "G\u00fcnstige Bahnreisen einfach finden: flexible Bestpreissuche mit Hin- und R\u00fcckfahrt, Urlaubsfinder und Karte aller von deinem Bahnhof m\u00f6glichen Direktverbindungen \u2013 inspiriert von bahn.guru."
     },
     {
       "name": "develite98--angular-best-practices",
@@ -229884,6 +229899,11 @@
       "description": "pstack for Claude Code and Codex, tracking Cursor pstack upstream"
     },
     {
+      "name": "vulcan-forge--lerobot-vulcan",
+      "source": "./vulcan-forge--lerobot-vulcan",
+      "description": "lerobot-vulcan"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -239372,6 +239392,11 @@
       "name": "coolbirdzik--cb-file-hub",
       "source": "./coolbirdzik--cb-file-hub",
       "description": "CB File Hub is a fast, privacy-first, cross-platform file manager focused on powerful file tagging and instant search, with customizable thumbnails, smart media browsing, and seamless network streamin"
+    },
+    {
+      "name": "algeriantechmakers--badir-core-web",
+      "source": "./algeriantechmakers--badir-core-web",
+      "description": "A youth volunteer platform that organizes efforts and builds bridges between those who have the ability to give and those who are looking for someone to help them. Solution for Bunian Hackathon"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -310209,6 +310234,31 @@
       "description": "Reverse engineering of the AK3918EV200 ISP: tools, logs, and decompiled analysis to document ioctl mappings, payloads, and initialization sequences for IP camera SoCs."
     },
     {
+      "name": "nekuda-ai--webmcp-kit",
+      "source": "./nekuda-ai--webmcp-kit",
+      "description": "Make your website agent-ready: a coding-agent plugin for Claude Code and Codex that adds WebMCP tools to your web app"
+    },
+    {
+      "name": "s1n6h--pentest-harness",
+      "source": "./s1n6h--pentest-harness",
+      "description": "Pentest Harness \u2014 Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API; sessions stay local."
+    },
+    {
+      "name": "frontman-ai--reworker",
+      "source": "./frontman-ai--reworker",
+      "description": "Type-safe, chunked message passing for Chrome extensions/WebWorkers/ServiceWorkers with zero runtime dependencies. Built with ReScript GADTs for compile-time safety."
+    },
+    {
+      "name": "youming-ai--ocr",
+      "source": "./youming-ai--ocr",
+      "description": "ocr"
+    },
+    {
+      "name": "cloud-shuttle--flow-rs",
+      "source": "./cloud-shuttle--flow-rs",
+      "description": "flow-rs"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -331537,6 +331587,21 @@
       "name": "devbauerflorian--qwen3-8-27b-rtx5090",
       "source": "./devbauerflorian--qwen3-8-27b-rtx5090",
       "description": "Docker deployment of Qwen3.8-27B (NVFP4) on a single RTX 5090: Full native 256K-token context (FP8 KV) + MTP working at 120-170 tokens/s, OpenAI-compatible API via vLLM, caddy Basic-auth gateway, and "
+    },
+    {
+      "name": "madrobotnet--proactive-mcp",
+      "source": "./madrobotnet--proactive-mcp",
+      "description": "Proactive layer for every AI agent \u2014 an MCP server that watches Gmail/Calendar and remembers conversations, so your agent reaches out first when you need it."
+    },
+    {
+      "name": "jiang357357357--edenagent",
+      "source": "./jiang357357357--edenagent",
+      "description": "Eden Agent \u2014 local-first Rust agent runtime with React, Vite, and Electron clients"
+    },
+    {
+      "name": "404wolf--mdvalidate",
+      "source": "./404wolf--mdvalidate",
+      "description": "Markdown schema validation engine"
     },
     {
       "name": "cheerhuan--save-your-token",
