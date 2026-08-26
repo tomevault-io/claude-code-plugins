@@ -225654,6 +225654,11 @@
       "description": "Open-source gateway for reliable image, video and LLM jobs. | \u9762\u5411\u53ef\u9760\u56fe\u7247\u3001\u89c6\u9891\u548c LLM \u4efb\u52a1\u7684\u5f00\u6e90\u7f51\u5173\u3002"
     },
     {
+      "name": "metasekailab--privatesekai",
+      "source": "./metasekailab--privatesekai",
+      "description": "Server for Hatsune Miku: Project DIVA"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -245619,6 +245624,26 @@
       "description": "Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration."
     },
     {
+      "name": "decentespresso--streamline-js",
+      "source": "./decentespresso--streamline-js",
+      "description": "streamline-js"
+    },
+    {
+      "name": "decentespresso--streamline-js",
+      "source": "./decentespresso--streamline-js",
+      "description": "streamline-js"
+    },
+    {
+      "name": "bnjam--stac-mcp",
+      "source": "./bnjam--stac-mcp",
+      "description": "An MCP Server for STAC requests"
+    },
+    {
+      "name": "bnjam--stac-mcp",
+      "source": "./bnjam--stac-mcp",
+      "description": "An MCP Server for STAC requests"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -252647,6 +252672,11 @@
       "name": "tirforge--aruvi",
       "source": "./tirforge--aruvi",
       "description": "Self-hosted media platform \u2014 stream your Telegram files to Web, Android, Android-TV & Desktop. Multi-bot parallel streaming, two-tier caching, FastAPI + React + Kotlin."
+    },
+    {
+      "name": "zaber-dev--zeython",
+      "source": "./zaber-dev--zeython",
+      "description": "Async-first, batteries-included MVC framework for Python \u2014 DI container, async ORM, auth, queues, WebSockets, and a Laravel-style CLI, built on Starlette and SQLAlchemy 2.0."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -261212,6 +261242,11 @@
       "name": "ml-stat-sustech--searcherkit",
       "source": "./ml-stat-sustech--searcherkit",
       "description": "SearcherKit"
+    },
+    {
+      "name": "huzun1--kke",
+      "source": "./huzun1--kke",
+      "description": "Windows 2D rendering engine built on Direct2D, DirectWrite, and WIC."
     },
     {
       "name": "makenowjust--naraku",
@@ -274247,6 +274282,21 @@
       "name": "gaogushenling--ai-project-os",
       "source": "./gaogushenling--ai-project-os",
       "description": "A lightweight, portable project-level AI collaboration layer\u2014the foundation for personal AI development workbenches, with context routing, memory, capability management, risk boundaries, and verifiabl"
+    },
+    {
+      "name": "nao1215--prompt",
+      "source": "./nao1215--prompt",
+      "description": "prompt - interactive terminal prompts library in Go"
+    },
+    {
+      "name": "nao1215--prompt",
+      "source": "./nao1215--prompt",
+      "description": "prompt - interactive terminal prompts library in Go"
+    },
+    {
+      "name": "artcodefun--heat-expansion-server",
+      "source": "./artcodefun--heat-expansion-server",
+      "description": "Backend for Heat Expansion game"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -309749,6 +309799,46 @@
       "description": "Enjoy Roleplay powered by Codex/ClaudeCode CLI!"
     },
     {
+      "name": "teorth--ieantn",
+      "source": "./teorth--ieantn",
+      "description": "IEANTN"
+    },
+    {
+      "name": "ohdsi--atlas3",
+      "source": "./ohdsi--atlas3",
+      "description": "A complete reimplementation of OHDSI ATLAS for cohort definition and analysis, built with Vue 3 and TypeScript."
+    },
+    {
+      "name": "aiperceivable--apflow",
+      "source": "./aiperceivable--apflow",
+      "description": "**AI-Perceivable Distributed Orchestration**  apflow is a distributed task orchestration engine where every capability is AI-perceivable \u2014 discoverable, understandable, and invocable by AI agents thro"
+    },
+    {
+      "name": "seven282--oss-prompt-optimizer",
+      "source": "./seven282--oss-prompt-optimizer",
+      "description": "\u7528\u4e8e\u4f18\u5316 DeepSeek harness\u63d0\u793a\u8bcd\u4f18\u5316\u5668\uff0c\u63d0\u5347 AI \u8f93\u51fa\u8d28\u91cf"
+    },
+    {
+      "name": "aiperceivable--apflow",
+      "source": "./aiperceivable--apflow",
+      "description": "**AI-Perceivable Distributed Orchestration**  apflow is a distributed task orchestration engine where every capability is AI-perceivable \u2014 discoverable, understandable, and invocable by AI agents thro"
+    },
+    {
+      "name": "aiperceivable--apflow",
+      "source": "./aiperceivable--apflow",
+      "description": "**AI-Perceivable Distributed Orchestration**  apflow is a distributed task orchestration engine where every capability is AI-perceivable \u2014 discoverable, understandable, and invocable by AI agents thro"
+    },
+    {
+      "name": "q10elabs--mls-chat",
+      "source": "./q10elabs--mls-chat",
+      "description": "Example client/server for the MLS protocol based on the OpenMLS library"
+    },
+    {
+      "name": "youversion--platform-sdk-swift",
+      "source": "./youversion--platform-sdk-swift",
+      "description": "Swift SDK for the YouVersion Platform"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -330992,6 +331082,31 @@
       "name": "validitybase--vbase-api-py",
       "source": "./validitybase--vbase-api-py",
       "description": "Python Client for the vBase REST API"
+    },
+    {
+      "name": "0xnyn--userplane",
+      "source": "./0xnyn--userplane",
+      "description": "Open Source alternative to Loom, Jam.dev, Birdie, Screendesk and more | Capture screen recordings with console logs, network requests and session activity"
+    },
+    {
+      "name": "wieslawsoltes--promarkdown",
+      "source": "./wieslawsoltes--promarkdown",
+      "description": "Reusable Avalonia Markdown rendering, editing, and plugin libraries built on Markdig."
+    },
+    {
+      "name": "viktor-platform--aps-automation-sdk",
+      "source": "./viktor-platform--aps-automation-sdk",
+      "description": "A Python SDK that wraps the Autodesk Platform Services (APS) Automation API"
+    },
+    {
+      "name": "arustydev--agents",
+      "source": "./arustydev--agents",
+      "description": "AI Contexts, Commands, Plugins, Docs, Examples, Specs, Etc"
+    },
+    {
+      "name": "wfjsw--shitspeak-rs",
+      "source": "./wfjsw--shitspeak-rs",
+      "description": "Geo-distributed Mumble Server in Rust"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -446932,6 +447047,86 @@
       "name": "iwillig--llm-planner",
       "source": "./iwillig--llm-planner",
       "description": "llm-planner"
+    },
+    {
+      "name": "michael-freling--claude-code-plugins",
+      "source": "./michael-freling--claude-code-plugins",
+      "description": "claude-code-plugins"
+    },
+    {
+      "name": "klymenko-oleksandr--daily-budget-app",
+      "source": "./klymenko-oleksandr--daily-budget-app",
+      "description": "daily-budget-app"
+    },
+    {
+      "name": "gourabporey--recallist",
+      "source": "./gourabporey--recallist",
+      "description": "recallist"
+    },
+    {
+      "name": "chapadevs--chapadevs",
+      "source": "./chapadevs--chapadevs",
+      "description": "Chapadevs it's an interactive platform that let people generate their own ideas and assists the experience of building entire projects."
+    },
+    {
+      "name": "subhashbohra--copilot-poc-inventory-api-full",
+      "source": "./subhashbohra--copilot-poc-inventory-api-full",
+      "description": "copilot-poc-inventory-api-full"
+    },
+    {
+      "name": "chapadevs--chapadevs",
+      "source": "./chapadevs--chapadevs",
+      "description": "Chapadevs it's an interactive platform that let people generate their own ideas and assists the experience of building entire projects."
+    },
+    {
+      "name": "miserix13--orchestratr",
+      "source": "./miserix13--orchestratr",
+      "description": "Job orchestration, which provides vertical and horizontal scalability."
+    },
+    {
+      "name": "chapadevs--chapadevs",
+      "source": "./chapadevs--chapadevs",
+      "description": "Chapadevs it's an interactive platform that let people generate their own ideas and assists the experience of building entire projects."
+    },
+    {
+      "name": "kiranbondili--monkeyapp",
+      "source": "./kiranbondili--monkeyapp",
+      "description": "MonkeyApp"
+    },
+    {
+      "name": "chapadevs--chapadevs",
+      "source": "./chapadevs--chapadevs",
+      "description": "Chapadevs it's an interactive platform that let people generate their own ideas and assists the experience of building entire projects."
+    },
+    {
+      "name": "escutaceppat-dot--projetoescuta",
+      "source": "./escutaceppat-dot--projetoescuta",
+      "description": "projetoescuta"
+    },
+    {
+      "name": "xbcsmith--xzatoma",
+      "source": "./xbcsmith--xzatoma",
+      "description": "XZAtoma Rust Agent"
+    },
+    {
+      "name": "b-gutierrez1--requi",
+      "source": "./b-gutierrez1--requi",
+      "description": "requi"
+    },
+    {
+      "name": "lukelast--ktp-login-react",
+      "source": "./lukelast--ktp-login-react",
+      "description": "ktp-login-react"
+    },
+    {
+      "name": "gourabporey--recallist",
+      "source": "./gourabporey--recallist",
+      "description": "recallist"
+    },
+    {
+      "name": "glazinski--szt-backend",
+      "source": "./glazinski--szt-backend",
+      "description": "Recipe Management Platform - Spring REST API"
     }
   ]
 }
