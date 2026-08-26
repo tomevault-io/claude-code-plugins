@@ -146609,6 +146609,11 @@
       "description": "Local desktop relay pool manager for AI API providers."
     },
     {
+      "name": "lacs-official--admt",
+      "source": "./lacs-official--admt",
+      "description": "\u73a9\u673a\u7ba1\u5bb6 (ADMT) \u662f\u4e00\u6b3e\u73b0\u4ee3\u5316\u7684\u684c\u9762\u7aef Android \u8bbe\u5907\u5237\u673a\u73a9\u673a\u4e00\u7ad9\u5f0f\u7684\u89e3\u51b3\u65b9\u6848\u3002\u501f\u52a9 Rust + Tauri v2 \u67b6\u6784\u5e26\u6765\u7684\u6781\u81f4\u8f7b\u91cf\u4e0e\u9ad8\u6027\u80fd\uff0c\u542f\u52a8\u901f\u5ea6\u98de\u5feb\u3002\u65e0\u8bba\u4f60\u662f Android \u73a9\u673a\u6781\u5ba2\u3001\u5e94\u7528\u5f00\u53d1\u8005\u3001\u5237\u673a\u7231\u597d\u8005\uff0c\u8fd8\u662f\u666e\u901a\u673a\u4e3b\uff0c\u90fd\u80fd\u901a\u8fc7\u73a9\u673a\u7ba1\u5bb6\u8f7b\u677e\u5b8c\u6210\u5404\u7c7b\u8bbe\u5907\u7ba1\u7406\u64cd\u4f5c\u3002"
+    },
+    {
       "name": "cxlinux-ai--cx-core",
       "source": "./cxlinux-ai--cx-core",
       "description": "CX Linux \u2014 AI-powered Linux OS. Natural language system administration for Ubuntu & Debian. The AI layer for Linux infrastructure."
@@ -197384,6 +197389,11 @@
       "description": "Universal Development Tool Manager"
     },
     {
+      "name": "nburns--hister-safari",
+      "source": "./nburns--hister-safari",
+      "description": "Unofficial Safari port of asciimoo/hister"
+    },
+    {
       "name": "eliornl--applypilot",
       "source": "./eliornl--applypilot",
       "description": "Self-hosted, AI-powered job search companion. Paste a job posting and five AI agents run an orchestrated pipeline \u2014 analyze the role, score your fit, research the company, rewrite your resume, and wri"
@@ -201252,6 +201262,11 @@
       "name": "linyimin0812--folyn",
       "source": "./linyimin0812--folyn",
       "description": "  Local-first, vault-isolated, AI-native knowledge workspace. Markdown, whiteboards, ER diagrams & mind maps in one editor, with Claude Code / Codex / Gemini CLI agents wired in. Built with Tauri 2 + "
+    },
+    {
+      "name": "creepebucket--arcanism",
+      "source": "./creepebucket--arcanism",
+      "description": "Arcanism \u662f\u4e00\u4e2a\u878d\u5408\u4e86\u79d1\u6280\u8981\u7d20\u548c\u7f16\u7a0b\u8981\u7d20\u7684\u9b54\u6cd5 Mod\u3002\u8fd9\u4e2a Mod \u4ee5\u9b54\u529b\u7684\u751f\u4ea7\u4e0e\u6d88\u8017\u4f5c\u4e3a\u6838\u5fc3\u73a9\u6cd5\uff0c\u6784\u5efa\u4e86\u4e00\u5957\u9b54\u529b\u4f53\u7cfb\u3002"
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -216487,6 +216502,11 @@
       "name": "fayazara--headlesstools",
       "source": "./fayazara--headlesstools",
       "description": "headlesstools"
+    },
+    {
+      "name": "nokkies--modbusforge",
+      "source": "./nokkies--modbusforge",
+      "description": "ModbusForge \u2014 .NET 8 Avalonia Modbus TCP/RTU/ASCII client/server with simulation, trending, and headless runtime (Windows & Linux)."
     },
     {
       "name": "googlecloudplatform--cxas-scrapi",
@@ -252802,6 +252822,11 @@
       "name": "travellersmeet--travellers",
       "source": "./travellersmeet--travellers",
       "description": "A website where solo-travellers can meet other travellers , travelling to same destination "
+    },
+    {
+      "name": "nekroai--nekro-nxt",
+      "source": "./nekroai--nekro-nxt",
+      "description": "NekroNXT\uff1a\u57fa\u4e8e DeepSeek Harness\uff08DSH\uff09\u7684\u591a\u5e73\u53f0\u7fa4\u804a\u667a\u80fd\u4f53\u7cfb\u7edf\uff5cA DSH-powered multi-platform group-chat agent system"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
