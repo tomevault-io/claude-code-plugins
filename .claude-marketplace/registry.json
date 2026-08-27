@@ -163394,6 +163394,11 @@
       "description": "OpalaTex: your local academic production studio Create papers, classes, tutorials, and presentations with AI when you need it, paying for real usage while keeping control of your data."
     },
     {
+      "name": "jorge-menjivar--super-agents",
+      "source": "./jorge-menjivar--super-agents",
+      "description": "Create and improve AI agents that get better over time with automatic optimization and continuous learning"
+    },
+    {
       "name": "treadiehq--private-connect",
       "source": "./treadiehq--private-connect",
       "description": "Secure access to private services for developers and AI agents."
@@ -222552,6 +222557,11 @@
       "name": "pdjjq--profs",
       "source": "./pdjjq--profs",
       "description": "chat with experts ! \u548c\u4e13\u5bb6\u4eec\u804a\u4e00\u804a\u5427!"
+    },
+    {
+      "name": "drowzeys--keys-vllm-0-27-1-glm-5-3-flash-nvfp4-nvfp4kv-1m-context-abliterated",
+      "source": "./drowzeys--keys-vllm-0-27-1-glm-5-3-flash-nvfp4-nvfp4kv-1m-context-abliterated",
+      "description": "GLM-5.3-Flash (Z.ai) NVFP4 (LibertAI) + NVFP4 KV, 1M context on 2x DGX Spark GB10 \u2014 vLLM TP2 recipe, walls ledger, benchmarks, needle to 1.04M; abliteration with blackforest_AI next"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -446239,11 +446249,6 @@
       "description": "qctidy"
     },
     {
-      "name": "rhinos0608--pi-northstar",
-      "source": "./rhinos0608--pi-northstar",
-      "description": "Pi-Northstar"
-    },
-    {
       "name": "rhinos0608--pi-smartread",
       "source": "./rhinos0608--pi-smartread",
       "description": "Pi-SmartRead"
@@ -448507,6 +448512,11 @@
       "name": "mirostw--pkm-ui",
       "source": "./mirostw--pkm-ui",
       "description": "pkm-ui"
+    },
+    {
+      "name": "rhinos0608--pi-northstar",
+      "source": "./rhinos0608--pi-northstar",
+      "description": "Pi-Northstar"
     }
   ]
 }
