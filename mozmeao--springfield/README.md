@@ -7,12 +7,12 @@ The codebase for www.firefox.com
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [mozmeao/springfield](https://github.com/mozmeao/springfield).
+Original source: `AGENTS.md` in [mozmeao/springfield](https://github.com/mozmeao/springfield).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
