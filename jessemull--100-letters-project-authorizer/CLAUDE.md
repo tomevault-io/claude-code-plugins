@@ -1,26 +1,26 @@
-# 040-testing
+# 060-security
 
-> Jest coverage and authorizer test expectations.
+> Secrets, Cognito env, and fail-closed auth.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/040-testing/SKILL.md
+Read and follow the instructions in .claude/skills/060-security/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Testing
+# Security
 
-Read `docs/TESTING.md`.
+Read `docs/SECURITY.md`.
 
-- Keep ≥80% coverage on branches, functions, lines, statements.
-- Mock `jose`; do not call live Cognito in unit tests.
-- Do not delete tests to greenwash coverage.
-- Cover Bearer parsing, verify failures, token_use, scope, success policy.
+- No hardcoded secrets or JWTs in source.
+- Cognito IDs via env / CI / DefinePlugin only.
+- Do not log full tokens.
+- Auth failures must deny (throw `Unauthorized`).
 
 ---
 > Source: [jessemull/100-letters-project-authorizer](https://github.com/jessemull/100-letters-project-authorizer) — distributed by [TomeVault](https://tomevault.io).
