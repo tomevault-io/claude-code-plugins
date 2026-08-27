@@ -1,13 +1,13 @@
-# fix-type-errors
+# use-bun
 
-> - after writing new code please always call `bun check` to identify remaining type errors and lints.
+> - use `bun add` instead of `npm install`
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/fix-type-errors/SKILL.md
+Read and follow the instructions in .claude/skills/use-bun/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
@@ -15,9 +15,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 # Your rule content
 
-- after writing new code please always call `bun check` to identify remaining type errors and lints.
-- then go on to fix them and call `bun check` again until they are resolved
-- avoid type-casting, using type any and ignore-comments if there isn't a very good reason for it.
+- use `bun add` instead of `npm install`
 
 ---
 > Source: [MiroStW/pkm-ui](https://github.com/MiroStW/pkm-ui) — distributed by [TomeVault](https://tomevault.io).
