@@ -1,26 +1,35 @@
-# 060-security
+# 100-letters-project-authorizer
 
-> Secrets, Cognito env, and fail-closed auth.
+> Before making any changes to this repository:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/060-security/SKILL.md
+Read and follow the instructions in .claude/skills/100-letters-project-authorizer/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Gemini Agent Instructions — 100 Letters Project Authorizer
 
-# Security
+Before making any changes to this repository:
 
-Read `docs/SECURITY.md`.
+1. Read `CONTEXT.md` — mandatory loading order, precedence chain, quality gates
+2. Read `AGENTS.md` — complete development rules and constraints
+3. Read all mandatory `docs/` listed in CONTEXT.md (items 3–10)
 
-- No hardcoded secrets or JWTs in source.
-- Cognito IDs via env / CI / DefinePlugin only.
-- Do not log full tokens.
-- Auth failures must deny (throw `Unauthorized`).
+Do NOT duplicate governance from AGENTS.md or docs/ here. This file exists only as an entry point redirect.
+
+## Quick Reference
+
+- Install: `npm install`
+- Preflight: `make preflight`
+- Lint (auto-fix): `make lint`
+- Test: `make test`
+- Build: `make build`
+- Package: `make package`
 
 ---
 > Source: [jessemull/100-letters-project-authorizer](https://github.com/jessemull/100-letters-project-authorizer) — distributed by [TomeVault](https://tomevault.io).
