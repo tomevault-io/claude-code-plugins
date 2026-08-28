@@ -117099,6 +117099,11 @@
       "description": "Research capability for coding agents: multi-source corroboration, active discovery, logical-space thinking, structured output. Browser-first evidence."
     },
     {
+      "name": "rhevorn--confetti",
+      "source": "./rhevorn--confetti",
+      "description": "Confetti \u2014 one VS Code extension for toml, yaml, ini, nginx, dotenv, gitignore, hosts, and 16+ config files. Local, fast, no telemetry."
+    },
+    {
       "name": "gaopengbin--cesium-mcp",
       "source": "./gaopengbin--cesium-mcp",
       "description": "AI-powered CesiumJS 3D globe control  49 tools for camera, entities, layers, animation & spatial analysis via Model Context Protocol (MCP). Natural language to 3D GIS."
@@ -205839,6 +205844,11 @@
       "description": "[Mirror] Better Posters is an unofficial Jellyfin plugin that lets you replace standard movie and show posters with customizable posters from btttr.cc."
     },
     {
+      "name": "sathinduga--obsidian-s3-sync-and-backup",
+      "source": "./sathinduga--obsidian-s3-sync-and-backup",
+      "description": "Vault synchronization and scheduled backups across devices using S3-compatible storage (AWS S3, Cloudflare R2, RustFS, etc.) with optional end-to-end encryption."
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -211207,6 +211217,11 @@
       "name": "jtche--houdinimd",
       "source": "./jtche--houdinimd",
       "description": "A blazing fast, clutter-free & LLM-optimized alternative to SideFX's official documentation for Houdini, mirroring all pages into clean markdown content, following the llms.txt standard."
+    },
+    {
+      "name": "s2thend--claude-code-history",
+      "source": "./s2thend--claude-code-history",
+      "description": "A CLI tool and TypeScript library for browsing, searching, exporting, and managing your Claude Code conversation history."
     },
     {
       "name": "seven7763--windsurf-tools",
@@ -261959,6 +261974,11 @@
       "description": "Functional JAX middleware using a compute Node abstraction"
     },
     {
+      "name": "xcjy8bao--pi-plugin-signal-grep",
+      "source": "./xcjy8bao--pi-plugin-signal-grep",
+      "description": "Context-efficient, correctness-first ripgrep search for the Pi coding agent"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -275222,6 +275242,26 @@
       "name": "laravel--websockets-grid-demo",
       "source": "./laravel--websockets-grid-demo",
       "description": "websockets-grid-demo"
+    },
+    {
+      "name": "zhou2030109-glitch--remit",
+      "source": "./zhou2030109-glitch--remit",
+      "description": "Local-first multi-agent workbench for mathematical modeling | \u672c\u5730\u4f18\u5148\u7684\u591a\u667a\u80fd\u4f53\u6570\u5b66\u5efa\u6a21\u5de5\u4f5c\u53f0"
+    },
+    {
+      "name": "zhou2030109-glitch--remit",
+      "source": "./zhou2030109-glitch--remit",
+      "description": "Local-first multi-agent workbench for mathematical modeling | \u672c\u5730\u4f18\u5148\u7684\u591a\u667a\u80fd\u4f53\u6570\u5b66\u5efa\u6a21\u5de5\u4f5c\u53f0"
+    },
+    {
+      "name": "zhou2030109-glitch--remit",
+      "source": "./zhou2030109-glitch--remit",
+      "description": "Local-first multi-agent workbench for mathematical modeling | \u672c\u5730\u4f18\u5148\u7684\u591a\u667a\u80fd\u4f53\u6570\u5b66\u5efa\u6a21\u5de5\u4f5c\u53f0"
+    },
+    {
+      "name": "zhou2030109-glitch--remit",
+      "source": "./zhou2030109-glitch--remit",
+      "description": "Local-first multi-agent workbench for mathematical modeling | \u672c\u5730\u4f18\u5148\u7684\u591a\u667a\u80fd\u4f53\u6570\u5b66\u5efa\u6a21\u5de5\u4f5c\u53f0"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -311264,6 +311304,26 @@
       "description": "13 legendary investors analyzing stocks for you \u2014 Buffett to Taleb. Real-time data via web search. Responds in your language. Works with Claude Code, Codex CLI & Gemini CLI."
     },
     {
+      "name": "misonl--ling",
+      "source": "./misonl--ling",
+      "description": "\u9762\u5411 Gemini CLI\u3001Antigravity \u4e0e Codex \u7684\u4e2d\u6587 AI Agent \u6a21\u677f\u5de5\u5177\u5305\uff0c\u63d0\u4f9b Skills\u3001Agents\u3001Workflows \u4e0e CLI \u7684\u4e00\u952e\u5b89\u88c5\u3001\u66f4\u65b0\u548c\u6cbb\u7406\u3002"
+    },
+    {
+      "name": "qxbao--insta-snap",
+      "source": "./qxbao--insta-snap",
+      "description": "Track Instagram followers, detect unfollowers, and analyze growth trends with secure, local-only snapshots."
+    },
+    {
+      "name": "kiwiflydream--yunji-tab",
+      "source": "./kiwiflydream--yunji-tab",
+      "description": "\u514d\u8d39\u5f00\u6e90\u7684\u65b0\u6807\u7b7e\u9875\u4e66\u7b7e\u5de5\u4f5c\u53f0\uff1a\u539f\u751f\u53cc\u5411\u540c\u6b65\u3001\u5206\u7c7b\u770b\u677f\u3001\u62fc\u97f3\u641c\u7d22\u3001\u6807\u7b7e\u7f6e\u9876\u3001\u6279\u91cf\u7ba1\u7406\u4e0e\u5065\u5eb7\u68c0\u67e5\u3002"
+    },
+    {
+      "name": "ivelot--hal-9001",
+      "source": "./ivelot--hal-9001",
+      "description": "hal-9001"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -337859,6 +337919,51 @@
       "description": "NPU-accelerated speech transcription & speaker diarization on AMD Strix Halo: Whisper-v3-turbo on XDNA 2 + pyannote, OpenAI-compatible API and browser studio"
     },
     {
+      "name": "yinkalario--knowledge-wiki",
+      "source": "./yinkalario--knowledge-wiki",
+      "description": "A long-lived personal research knowledge base inspired by Andrej Karpathy's LLM Wiki idea."
+    },
+    {
+      "name": "suntianc--dsh-antigravity-auth",
+      "source": "./suntianc--dsh-antigravity-auth",
+      "description": "DeepSeek Harness plugin for Antigravity OAuth login and native Antigravity Auth capability bundle"
+    },
+    {
+      "name": "nono-neko--dsh-browser",
+      "source": "./nono-neko--dsh-browser",
+      "description": "Cordis bundle plugin for DeepSeek Harness(DSH). Built\u2011in multi\u2011tab browser powered by Puppeteer, provides browser_open/browser_read agent tools & workspace file preview inside DSH Web GUI."
+    },
+    {
+      "name": "prgrms-be-devcourse--nbe10-12-final-baedang",
+      "source": "./prgrms-be-devcourse--nbe10-12-final-baedang",
+      "description": "\ud504\ub85c\uadf8\ub798\uba38\uc2a4 \ubc31\uc5d4\ub4dc 10\uae30 12\ud68c\ucc28 \"\ubc30\ub2f9\uc758\ubbfc\uc871\"\ud300\uc758 \ucd5c\uc885 \ud504\ub85c\uc81d\ud2b8"
+    },
+    {
+      "name": "yuna-r--miruri",
+      "source": "./yuna-r--miruri",
+      "description": "Miruri is an AI-assisted portability framework for transforming existing software projects into buildable artifacts across architectures and operating systems."
+    },
+    {
+      "name": "agenticlab-ai--humansh",
+      "source": "./agenticlab-ai--humansh",
+      "description": "Your shell, but it also speaks English. No prefix, no mode switch."
+    },
+    {
+      "name": "kevin-aoun--localfi",
+      "source": "./kevin-aoun--localfi",
+      "description": "A local-first personal finance app for accounts, liabilities, transactions, budgets, assets, investments, travel, and net-worth history. Your data lives in one SQLite file that stays on your machine."
+    },
+    {
+      "name": "mcxiaochenn--aiusage",
+      "source": "./mcxiaochenn--aiusage",
+      "description": "Mobile-first, local-first usage monitor for OpenAI Codex, DeepSeek, and Xiaomi MiMo. Android supported; iOS experimental."
+    },
+    {
+      "name": "jerryliu369--agent-web-search",
+      "source": "./jerryliu369--agent-web-search",
+      "description": "One web-search tool for AI agents with free keyless defaults, local/remote MCP, CLI, Python, and Hermes."
+    },
+    {
       "name": "ncaq---zsh-d",
       "source": "./ncaq---zsh-d",
       "description": ".zsh.d"
@@ -338892,6 +338997,136 @@
       "name": "spyfighting--my-academic-skills",
       "source": "./spyfighting--my-academic-skills",
       "description": "Agent skills for research work. Gated, human-in-the-loop protocols where every expert judgement is a checkpoint and every mechanical rule is a script. First skill: binder-design-campaign."
+    },
+    {
+      "name": "jedmamosto--open-agent-engine",
+      "source": "./jedmamosto--open-agent-engine",
+      "description": "The open-source compiler & multi-agent runtime for coding agents"
+    },
+    {
+      "name": "chaichiang--gtm-expert",
+      "source": "./chaichiang--gtm-expert",
+      "description": "Source-traceable GTM diagnosis, expert perspectives, and actionable experiments."
+    },
+    {
+      "name": "sanye587-cr7--ejemplo-desplegar",
+      "source": "./sanye587-cr7--ejemplo-desplegar",
+      "description": "ejemplo-desplegar"
+    },
+    {
+      "name": "shriramkv--mcp-fuzz",
+      "source": "./shriramkv--mcp-fuzz",
+      "description": "mcp-fuzz is a stdlib-only Python robustness harness for AAIF that throws 17 malformed and adversarial JSON-RPC cases at an MCP server over stdio and grades it A to F on crash resistance, responsivenes"
+    },
+    {
+      "name": "eduardo-salvador--agent-harness-kit",
+      "source": "./eduardo-salvador--agent-harness-kit",
+      "description": "Agent-Harness-Kit"
+    },
+    {
+      "name": "linux-engineering-tools--community",
+      "source": "./linux-engineering-tools--community",
+      "description": "Requirements board, specs, and agent skills for Linux Engineering Tools"
+    },
+    {
+      "name": "jaime-gu--findtoilet",
+      "source": "./jaime-gu--findtoilet",
+      "description": "Free & paid public toilets across Europe \u2014 with community-shared door codes. Open source, open data (OSM ODbL + Toilet Map CC BY 4.0)."
+    },
+    {
+      "name": "ugurgumushan--qbsearch",
+      "source": "./ugurgumushan--qbsearch",
+      "description": "qBittorrent nova2 search-engine plugin collection with an installability test harness"
+    },
+    {
+      "name": "ginkoye--ginko-twins",
+      "source": "./ginkoye--ginko-twins",
+      "description": "\u6211\u7684\u865a\u62df\u94f6\u674f\u53f6\uff1a\u77e5\u6027\u8ff7\u4eba\u7684\u5916\u8868\uff0c\u5446\u840c\u8df3\u8dc3\u7684\u5185\u5728\uff0c\u966a\u5927\u5bb6\u5b66\u4e60\u3001\u521b\u4f5c\u548c\u76f4\u64ad\u3002"
+    },
+    {
+      "name": "planetis-m--brian",
+      "source": "./planetis-m--brian",
+      "description": "brian"
+    },
+    {
+      "name": "agricidaniel--deepseek-harness-brain",
+      "source": "./agricidaniel--deepseek-harness-brain",
+      "description": "Independent evidence-gated second brain for understanding and porting DeepSeek Harness architecture."
+    },
+    {
+      "name": "cxh0920--mjs-agent-project",
+      "source": "./cxh0920--mjs-agent-project",
+      "description": "\u540d\u5c06\u6740\u6e38\u620f\u52a9\u624b\uff08\u5f00\u53d1\u4e2d\uff09"
+    },
+    {
+      "name": "aeidle--sealed",
+      "source": "./aeidle--sealed",
+      "description": "One-time secret sharing. Encrypt a secret in your browser, get a link that self-destructs after a single read. The key never leaves the URL fragment, the server only ever stores ciphertext."
+    },
+    {
+      "name": "hilbert-beinghappy--dsh-plugin-clarify",
+      "source": "./hilbert-beinghappy--dsh-plugin-clarify",
+      "description": "Off-transcript clarification Host plugin for DeepSeek Harness"
+    },
+    {
+      "name": "jasonlandbridge--pi-omniroute-sync",
+      "source": "./jasonlandbridge--pi-omniroute-sync",
+      "description": "OmniRoute models sync extension for Pi Coding Agent (pi) and Oh My Pi (omp)!"
+    },
+    {
+      "name": "peterwangze--dsh-novel-writing",
+      "source": "./peterwangze--dsh-novel-writing",
+      "description": "DSH (DeepSeek Harness) \u81ea\u52a8\u5316\u5c0f\u8bf4\u5199\u4f5c\u53d1\u5e03\u6d41\u6c34\u7ebf\u63d2\u4ef6\uff1aclaude-writing-workflow \u8fc1\u79fb\u7248 agent \u9884\u8bbe + \u5c0f\u8bf4\u5de5\u4f5c\u53f0\uff08\u53ef\u89c6\u5316/\u5b9e\u65f6\u6e32\u67d3/\u7ae0\u8282\u7f16\u8f91\uff09+ \u591a\u5e73\u53f0\u53d1\u5e03\u914d\u7f6e\u4e0e\u6570\u636e\u9a71\u52a8\u4f18\u5316\u95ed\u73af"
+    },
+    {
+      "name": "lain-ego0--robolab",
+      "source": "./lain-ego0--robolab",
+      "description": "One-Stop Motion Control Platform Based on Heavily Customized MJlab Tools with Deployment Adaptation and Skill Integration"
+    },
+    {
+      "name": "kehuydietlatoi--harness-orchestrator",
+      "source": "./kehuydietlatoi--harness-orchestrator",
+      "description": "harness_orchestrator"
+    },
+    {
+      "name": "mooler-z--muninn",
+      "source": "./mooler-z--muninn",
+      "description": "muninn"
+    },
+    {
+      "name": "shriramkv--agentsmd-resolve",
+      "source": "./shriramkv--agentsmd-resolve",
+      "description": "agentsmd-resolve is a stdlib-only Python tool that computes the effective AGENTS.md an agent sees at any path by walking the nested chain root-first and merging section by section with nearest-wins."
+    },
+    {
+      "name": "barnuri--herdr-web",
+      "source": "./barnuri--herdr-web",
+      "description": "Mobile-first web UI plugin for herdr \u2014 drive your coding agents from a phone, with notifications"
+    },
+    {
+      "name": "anxyis--anxy-patches",
+      "source": "./anxyis--anxy-patches",
+      "description": "Morphe Patches for Android apps by anxyis"
+    },
+    {
+      "name": "bcharleson--grokbot-for-gtm",
+      "source": "./bcharleson--grokbot-for-gtm",
+      "description": "Open-source Grok Bot playbook for a complete outbound GTM motion (Instantly, HeyReach, and list/enrichment CLIs)"
+    },
+    {
+      "name": "whshang--herdr-mcp",
+      "source": "./whshang--herdr-mcp",
+      "description": "Stable MCP/OAuth edge for remote web planners to control local Herdr with gated fs/git/exec, browser wake, and A/B self-upgrading runtimes."
+    },
+    {
+      "name": "luiscleto--shepherdr",
+      "source": "./luiscleto--shepherdr",
+      "description": "A phone-friendly web interface for Herdr: monitor agents, receive notifications, open real terminals, and send files."
+    },
+    {
+      "name": "mithrilman--aind-drawn",
+      "source": "./mithrilman--aind-drawn",
+      "description": "Experimental TypeScript library for deterministic, modular procedural assets across hand-drawn 2D, Doodle 3D, and semantic Three.js solids."
     },
     {
       "name": "mkatogui--universal-design-system",
@@ -340357,6 +340592,91 @@
       "name": "axelfreeman--gymcamanalytics",
       "source": "./axelfreeman--gymcamanalytics",
       "description": "MCP server: gym attendance & trainer analytics from existing cameras"
+    },
+    {
+      "name": "mosonlab--anneal",
+      "source": "./mosonlab--anneal",
+      "description": "A local control plane for coding agents. You write the spec; a twelve-step chain plans, reviews, implements, verifies and merges it. Orchestrates Codex CLI, Claude Code and Pi on your own Mac."
+    },
+    {
+      "name": "mastepanoski--ce-ai",
+      "source": "./mastepanoski--ce-ai",
+      "description": "ce-ai orchestrates distributions of the open-source Compound Engineering Plugin \u2014 a suite of specialized skills, roles, and workflow guidelines for AI coding assistants."
+    },
+    {
+      "name": "wuliaoonly--topoptpilot",
+      "source": "./wuliaoonly--topoptpilot",
+      "description": "AI Scientist for verifiable hypothesis generation and automated experiments in 3D topology optimization"
+    },
+    {
+      "name": "overjt--knidl",
+      "source": "./overjt--knidl",
+      "description": "knidl"
+    },
+    {
+      "name": "axadrn--goilerplate",
+      "source": "./axadrn--goilerplate",
+      "description": "Generate a production-ready Go SaaS. Own every line. Update with Git."
+    },
+    {
+      "name": "kurutodenzeru--fontora",
+      "source": "./kurutodenzeru--fontora",
+      "description": "\u2712\ufe0f Curated catalog of open-source type. Live specimens, variable playgrounds, and embed snippets for every family."
+    },
+    {
+      "name": "ciltress--sap-abap-mcp",
+      "source": "./ciltress--sap-abap-mcp",
+      "description": "SAP ABAP MCP with ADT and JSON RPC - Multiple Authentication Methods"
+    },
+    {
+      "name": "ankit-yadav1234--nivren",
+      "source": "./ankit-yadav1234--nivren",
+      "description": "NIVREN"
+    },
+    {
+      "name": "karthikrshet--aiskills",
+      "source": "./karthikrshet--aiskills",
+      "description": "Reusable, tool-agnostic AI engineering skills, workflows, templates, and evaluation playbooks for AI coding agents."
+    },
+    {
+      "name": "stiavelli21--edudrive",
+      "source": "./stiavelli21--edudrive",
+      "description": "Un Drive adibito allo studio."
+    },
+    {
+      "name": "nuhz-hub--illah-ecommerce",
+      "source": "./nuhz-hub--illah-ecommerce",
+      "description": "Illah-Ecommerce - a modern marketable built with Next.js, TypeScript, Tailwind CSS and Supabase."
+    },
+    {
+      "name": "xiaojuch--envcompass",
+      "source": "./xiaojuch--envcompass",
+      "description": "Find why your project won't run \u2014 a Windows-first dev environment doctor with privacy-safe reports."
+    },
+    {
+      "name": "ivklgn--punctuate",
+      "source": "./ivklgn--punctuate",
+      "description": "Skills select behavior. Punctuate types the user\u2019s speech."
+    },
+    {
+      "name": "antonprokopyev--ytsaurus-rust-sdk",
+      "source": "./antonprokopyev--ytsaurus-rust-sdk",
+      "description": "ytsaurus-rust-sdk"
+    },
+    {
+      "name": "xiaohui5206--dsh-context-length-window-fix",
+      "source": "./xiaohui5206--dsh-context-length-window-fix",
+      "description": "\u9488\u5bf9DSH\uff1a\u6dfb\u52a0\u7b2c\u4e09\u65b9\u4e2d\u8f6c\u7ad9\u6a21\u578b\u65f6\u4e0a\u4e0b\u6587\u957f\u5ea6\u88ab\u9ed8\u8ba4256K\u95ee\u9898\uff08DeepSeek Harness\u5c0f\u5b8c\u5584\u8ba1\u5212\u5176\u4e00\uff09\u00b7 Agent Skill \u7ef4\u4fee\u624b\u518c"
+    },
+    {
+      "name": "toren-run--toren",
+      "source": "./toren-run--toren",
+      "description": "Open-source runtime for durable, long-running AI agents \u2014 in your own cloud. A resumed run never re-pays for a completed model call."
+    },
+    {
+      "name": "hanshanyike--dsh-yolo",
+      "source": "./hanshanyike--dsh-yolo",
+      "description": "\u628a\u5bf9\u8bdd\u91cc\u8bf4\u8fc7\u7684\u91cd\u8981\u4e8b\u60c5\uff0c\u53d8\u6210\u6301\u7eed\u53ef\u8ddf\u8fdb\u7684\u8ba1\u5212\u3002  \u4e3a deepseek-harness \u6253\u9020\u7684\u4e2a\u4eba\u52a9\u624b\uff1a\u4ece\u5bf9\u8bdd\u4e2d\u6574\u7406\u4e8b\u9879\u3001\u8ddf\u8e2a\u53d8\u5316\uff0c\u5e76\u5728\u9700\u8981\u65f6\u63d0\u9192\u4f60\u3002"
     },
     {
       "name": "redrock453--vika-ok",
