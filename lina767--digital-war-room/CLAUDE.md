@@ -1,31 +1,34 @@
-# frontend-react
+# project-overview
 
-> Frontend React/TypeScript – API, Hooks, Daten
+> Digital War Room – Projekt-Überblick und Konventionen
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontend-react/SKILL.md
+Read and follow the instructions in .claude/skills/project-overview/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Frontend (React / TypeScript)
+# Digital War Room – Projekt-Überblick
 
-## API & Env
-- Backend-URL über `import.meta.env.VITE_API_URL` mit Fallback (z. B. Production-URL); keine hart codierten `localhost` in Commit.
-- Fetch zu `/api/analyze`, `/api/export/pdf` etc. mit dieser Basis-URL; Fehlerbehandlung (z. B. Toast) bei Netzwerkfehlern.
+## Stack
+- **Backend:** Python 3, FastAPI, Agents (FININT, SIGINT, NEWS, GEOINT, SOCMINT, TECHINT)
+- **Frontend:** React, TypeScript, Vite, Tailwind
+- **API:** REST unter `/api/*`, optional WebSocket
 
-## Daten & Typen
-- Analyse-Daten: Typ `ConflictData` in `useConflictWebSocket.ts` (oder gleichwertig); neue Felder (z. B. `sigint.conflict_reports`) dort ergänzen, wenn das Backend sie liefert.
-- `key_findings` ist `string[]`; Anzeige als Liste/Karten je nach Komponente.
+## Struktur
+- `backend/` – FastAPI-App, `main.py`, `agents/`, `api/`
+- `src/` – React-App, `pages/`, `components/`, `hooks/`
+- API-Keys und Secrets in `backend/.env` (nicht committen); Frontend-Env in Projektroot `.env` (z. B. `VITE_API_URL`)
 
-## Komponenten
-- Funktionale Komponenten; wiederverwendbare Logik in Hooks (z. B. `useConflictWebSocket`, `useToast`).
-- Keine unnötigen direkten Aufrufe von Backend-URLs in vielen Stellen; eine zentrale API-Basis nutzen.
+## Konventionen
+- Backend-Agents liefern einheitlich ein Dict mit Score, Summary und fachlichen Listen (z. B. `aircraft`, `ships`, `key_findings`).
+- Bei fehlgeschlagener LLM-Antwort: Fallback mit direkten Tool-Aufrufen und berechnetem Score, damit nie leere Daten zurückgegeben werden.
+- Kommentare und Nutzer-Texte dürfen Deutsch oder Englisch sein.
 
 ---
 > Source: [lina767/digital-war-room](https://github.com/lina767/digital-war-room) — distributed by [TomeVault](https://tomevault.io).
