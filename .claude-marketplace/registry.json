@@ -211179,6 +211179,11 @@
       "description": "Opinionated bean factories for Apache Camel"
     },
     {
+      "name": "wildpigking--codex-project-skill-manager",
+      "source": "./wildpigking--codex-project-skill-manager",
+      "description": "Consent-first workspace governance for Codex: standardize future project locations and layouts, organize Skills, generate a routing menu, and improve workflows over time."
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -219487,6 +219492,11 @@
       "name": "riscv--riscv-isa-explorer",
       "source": "./riscv--riscv-isa-explorer",
       "description": "A simple and intuitive approach to visualize RISC-V Extensions and Profiles."
+    },
+    {
+      "name": "lukeed--lane",
+      "source": "./lukeed--lane",
+      "description": "Copy-on-write worktrees with memory that survives them"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -239722,6 +239732,11 @@
       "name": "seekua--arifce",
       "source": "./seekua--arifce",
       "description": "ArifCE"
+    },
+    {
+      "name": "kingbootoshi--facetime-bridge",
+      "source": "./kingbootoshi--facetime-bridge",
+      "description": "facetime-bridge"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -275127,6 +275142,16 @@
       "name": "srcrip--ecto-n-plus-one",
       "source": "./srcrip--ecto-n-plus-one",
       "description": "Detect possible N+1 problems in your Ecto queries."
+    },
+    {
+      "name": "dongdaoguang--cpsmart",
+      "source": "./dongdaoguang--cpsmart",
+      "description": "Native macOS clipboard history manager."
+    },
+    {
+      "name": "mohamadoday--iris-gallery",
+      "source": "./mohamadoday--iris-gallery",
+      "description": "Modern, fluid, 100% offline gallery app for Android built with Material You 3 and Jetpack Compose"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -336794,6 +336819,76 @@
       "description": "A web-based double-entry accounting application for personal finance management, built with modern technologies and accounting best practices."
     },
     {
+      "name": "x20surya--meshsync",
+      "source": "./x20surya--meshsync",
+      "description": "Local-first universal clipboard for your own devices. Copy on one, paste on another - over Bluetooth, with no network at all. No cloud, no server, no account."
+    },
+    {
+      "name": "cameronapak--kodys-pouch",
+      "source": "./cameronapak--kodys-pouch",
+      "description": "Search Kody (kody.codes) Tools and Skills and paste a Mention into the Active Input."
+    },
+    {
+      "name": "promovaweb--mvpfy",
+      "source": "./promovaweb--mvpfy",
+      "description": "O MVPFy \u00e9 um conjunto de skills para transformar uma ideia em um plano execut\u00e1vel do primeiro produto SaaS. "
+    },
+    {
+      "name": "hiqs-labs--xyz-forge",
+      "source": "./hiqs-labs--xyz-forge",
+      "description": "XYZ (Forge) lets several AI coding agents \u2014 Claude Code, Codex, and agy (Google's Antigravity CLI) \u2014 work on the same repo at the same time without overwriting each other's work."
+    },
+    {
+      "name": "adarshaacharya--sajilo",
+      "source": "./adarshaacharya--sajilo",
+      "description": "Nepali daily essentials in your menu bar on macOS, Windows, and Linux."
+    },
+    {
+      "name": "helays--dsh-web-terminal",
+      "source": "./helays--dsh-web-terminal",
+      "description": "DSH \u63d2\u4ef6\uff1a\u5728 DeepSeek Harness Web \u754c\u9762\uff08\u5bf9\u8bdd/\u8f68\u8ff9\uff09\u9876\u90e8\u65b0\u589e\u300c\u7ec8\u7aef\u300dTab\uff0c\u5185\u7f6e xterm.js + node-pty \u4ea4\u4e92\u5f0f\u7ec8\u7aef\uff0c\u8ba9\u4f60\u5728\u7f16\u7801\u5b8c\u6210\u540e\u5373\u65f6\u5728\u7ec8\u7aef\u6267\u884c\u6307\u4ee4\u8c03\u8bd5\u3002"
+    },
+    {
+      "name": "qibuliaoming--codex-zh-cn-agent",
+      "source": "./qibuliaoming--codex-zh-cn-agent",
+      "description": "codex-zh-cn-agent"
+    },
+    {
+      "name": "nick-friedrich--hyprland-dock",
+      "source": "./nick-friedrich--hyprland-dock",
+      "description": "A lightweight macOS-inspired application dock for Hyprland, built with Quickshell and Qt/QML."
+    },
+    {
+      "name": "waynesutton--friendsofconvex-yapper-leaderboard",
+      "source": "./waynesutton--friendsofconvex-yapper-leaderboard",
+      "description": "Friends of Convex  twitter/x  YapperLeader Board"
+    },
+    {
+      "name": "sdinzsh--powerhou53",
+      "source": "./sdinzsh--powerhou53",
+      "description": "A self-improving, memory-bounded multi-agent AI architecture for OpenCode. Turn static prompts into an autonomous, context-efficient learning loop."
+    },
+    {
+      "name": "april-jk--dsh-mobile-suite",
+      "source": "./april-jk--dsh-mobile-suite",
+      "description": "Remote DeepSeek Harness from a paired mobile device through an outbound-only Relay"
+    },
+    {
+      "name": "longbridge--omarchy-longbridge",
+      "source": "./longbridge--omarchy-longbridge",
+      "description": "Longbridge plugin for Omarchy"
+    },
+    {
+      "name": "emomg--deepseek-harness-desktop",
+      "source": "./emomg--deepseek-harness-desktop",
+      "description": "DeepSeek Harness \u539f\u751f Windows \u684c\u9762\u5ba2\u6237\u7aef\uff08\u57fa\u4e8e Tauri 2 + Rust\uff0cMIT\uff09"
+    },
+    {
+      "name": "wuchubuzai2018--dsh-ai-prompt-optimizer",
+      "source": "./wuchubuzai2018--dsh-ai-prompt-optimizer",
+      "description": "DeepSeek Harness\uff08DSH\uff09Web \u804a\u5929\u9875\u9762\u7684\u63d0\u793a\u8bcd\u4f18\u5316\u63d2\u4ef6,\u5e2e\u52a9\u4f60\u628a\u7c97\u7565\u60f3\u6cd5\u6574\u7406\u6210\u66f4\u6e05\u6670\u3001\u5b8c\u6574\u3001\u53ef\u76f4\u63a5\u53d1\u9001\u7ed9 AI \u7684\u63d0\u793a\u8bcd"
+    },
+    {
       "name": "ncaq---zsh-d",
       "source": "./ncaq---zsh-d",
       "description": ".zsh.d"
@@ -337232,6 +337327,196 @@
       "name": "zhangzheng25--dsh-timeline",
       "source": "./zhangzheng25--dsh-timeline",
       "description": "DSH \u63d2\u4ef6\uff1a\u6781\u7b80\u63d0\u95ee\u65f6\u95f4\u7ebf\u2014\u2014\u6bcf\u6761\u63d0\u95ee\u4e00\u4e2a\u5706\u70b9\uff0c\u70b9\u51fb\u8df3\u8f6c\uff0c\u60ac\u505c\u9884\u89c8\u3002Minimal question timeline for DeepSeek Harness."
+    },
+    {
+      "name": "devmatheusmota--arco",
+      "source": "./devmatheusmota--arco",
+      "description": "Multiplexer de agentes de codigo \u2014 fork do Alethe com ditado por voz local"
+    },
+    {
+      "name": "wongzexu--dsh-git-status",
+      "source": "./wongzexu--dsh-git-status",
+      "description": "Git status (Git Graph) plugin for DSH: commit DAG lane graph + uncommitted changes/stash + inline diffs + branch operations. DSH \u63d2\u4ef6\uff1aGit \u72b6\u6001\u6d6e\u7a97\uff08\u6cf3\u9053\u56fe/\u672a\u63d0\u4ea4/stash/diff/\u5206\u652f\u64cd\u4f5c\uff09\u3002"
+    },
+    {
+      "name": "mexiaosqwq--want-a-init",
+      "source": "./mexiaosqwq--want-a-init",
+      "description": "DSH \u63d2\u4ef6\uff1a\u6a21\u578b\u9a71\u52a8\u7684 /init \u547d\u4ee4\uff0c\u81ea\u52a8\u751f\u6210\u5e76\u6301\u7eed\u7ef4\u62a4 AGENTS.md\u3002"
+    },
+    {
+      "name": "cneuralnetwork--diagrams",
+      "source": "./cneuralnetwork--diagrams",
+      "description": "Agent skill for clear hand-drawn whiteboard diagrams"
+    },
+    {
+      "name": "artsvuni--rp2350-doom",
+      "source": "./artsvuni--rp2350-doom",
+      "description": "Handheld DOOM adaptation for the Waveshare RP2350-Touch-AMOLED-1.8, with touchscreen controls, full-panel graphics, and onboard audio."
+    },
+    {
+      "name": "intellectronica--opencode-acpx",
+      "source": "./intellectronica--opencode-acpx",
+      "description": "Use Cursor, Claude, Codex, Grok, Hermes and other ACP agents as OpenCode providers"
+    },
+    {
+      "name": "azakhary--nixie-fx",
+      "source": "./azakhary--nixie-fx",
+      "description": "Open-source particle and VFX runtimes for PixiJS and Three.js"
+    },
+    {
+      "name": "boonkgim--mcp-gmail-multi-account",
+      "source": "./boonkgim--mcp-gmail-multi-account",
+      "description": "Remote MCP server for Gmail with support for multiple connected accounts, deployed on Cloudflare Workers, for use as a claude.ai custom connector"
+    },
+    {
+      "name": "aminemanai2003--personal-agent-skills",
+      "source": "./aminemanai2003--personal-agent-skills",
+      "description": "Personal, portable AI-agent skills and operating workflows"
+    },
+    {
+      "name": "trivaxy--minecraft-infinite-mp",
+      "source": "./trivaxy--minecraft-infinite-mp",
+      "description": "Unofficial multiplayer version of Minecraft Infinite"
+    },
+    {
+      "name": "bkmoon1024--dsh-ci-cd-bot",
+      "source": "./bkmoon1024--dsh-ci-cd-bot",
+      "description": "dsh-ci-cd-bot"
+    },
+    {
+      "name": "microspotlight--openharness",
+      "source": "./microspotlight--openharness",
+      "description": "A desktop app for DeepSeek Harness, bundling its runtime and Web UI in a Tauri window with no Node.js or CLI setup required."
+    },
+    {
+      "name": "yapishu--matpro",
+      "source": "./yapishu--matpro",
+      "description": "matrix protocol client & server with federation on urbit"
+    },
+    {
+      "name": "ngxson--quant-studio",
+      "source": "./ngxson--quant-studio",
+      "description": "llama-quantize but running on GPU"
+    },
+    {
+      "name": "mdsohaib--screenshot-time-machine",
+      "source": "./mdsohaib--screenshot-time-machine",
+      "description": "Screenshot Time Machine is like a Wayback Machine for your own website, a visual archive of every page over time. One command screenshots every page into dated folders on your machine, and shows which"
+    },
+    {
+      "name": "kalwalkden--evidence-based-ai-engineering",
+      "source": "./kalwalkden--evidence-based-ai-engineering",
+      "description": "evidence-based-ai-engineering"
+    },
+    {
+      "name": "morshoto--framekit",
+      "source": "./morshoto--framekit",
+      "description": "MCP for agentic video editing"
+    },
+    {
+      "name": "sawfwair--mere-film-studio",
+      "source": "./sawfwair--mere-film-studio",
+      "description": "Native macOS control room for Pi-powered local short-film production"
+    },
+    {
+      "name": "kamanager2012--dsh-community",
+      "source": "./kamanager2012--dsh-community",
+      "description": "\u57fa\u4e8e\u5b98\u65b9 DeepSeek Harness \u5185\u6838\u7684\u793e\u533a\u53d1\u884c\uff1a\u4e94\u4e2a\u5165\u53e3\uff08WSL/Linux \u7ec8\u7aef\u3001Windows \u684c\u9762\u3001macOS \u684c\u9762\u3001Linux AppImage\u3001Android Labs\uff09\uff0c\u4e0e\u5b98\u65b9 Web \u5171\u7528 ~/.dsh\u3002\u4e0d\u662f\u5b98\u65b9\u5ba2\u6237\u7aef\u3002"
+    },
+    {
+      "name": "nixentric--stash",
+      "source": "./nixentric--stash",
+      "description": "A lightweight, offline-first creative asset manager for editors and designers \u2014 asset organization, usage tracking, fast search, and interactive brand guidelines in one portable workspace."
+    },
+    {
+      "name": "hibays--dshl",
+      "source": "./hibays--dshl",
+      "description": "\u6781\u7b80 DeepSeek Harness \u684c\u9762\u7248\uff1a\u5355EXE\uff0c~4M\uff0c\u5373\u5f00\u5373\u7528\uff1b\u81ea\u52a8\u590d\u7528\u672c\u5730 dsh \u5b89\u88c5\u3001\u81ea\u5b89\u88c5/\u66f4\u65b0 dsh\uff0c\u542f\u52a8\u5b8c\u5168\u53ef\u914d\u7f6e\uff1b\u6258\u76d8\u6536\u7eb3\u65f6\u81ea\u52a8\u9500\u6bc1UI\u5c42\uff0c\u5185\u5b58\u5360\u7528\u6781\u4f4e\uff0cdsh \u540e\u53f0\u6301\u7eed\u670d\u52a1\u3001\u968f\u65f6\u5524\u56de\u3002"
+    },
+    {
+      "name": "angelo-lesniak--latent-crate",
+      "source": "./angelo-lesniak--latent-crate",
+      "description": "latent-crate"
+    },
+    {
+      "name": "alfredchaos--dsh-usage-panel",
+      "source": "./alfredchaos--dsh-usage-panel",
+      "description": "DeepSeek Harness \u6d88\u8017\u7edf\u8ba1\u63d2\u4ef6\uff1a\u8bbe\u7f6e\u9875 Token \u7528\u91cf KPI\u3001\u534a\u5e74\u6d3b\u8dc3\u70ed\u529b\u56fe\u3001\u6309\u6a21\u578b\u5806\u53e0\u67f1\u72b6\u56fe\u4e0e\u6a21\u578b\u73af\u5f62\u56fe\uff08dsh-plugin\uff09"
+    },
+    {
+      "name": "whitefirer--dsh-browser-fs",
+      "source": "./whitefirer--dsh-browser-fs",
+      "description": "dsh\uff08DeepSeek Harness\uff09\u63d2\u4ef6\uff1a\u8ba9 agent \u8bfb\u5199\u6d4f\u89c8\u5668\u6240\u5728\u673a\u5668\u7684\u672c\u5730\u6587\u4ef6\u2014\u2014File System Access \u6388\u6743 + WS \u4e2d\u7ee7\uff0c\u542b\u975e\u5b89\u5168\u4e0a\u4e0b\u6587\u517c\u5bb9\u6a21\u5f0f"
+    },
+    {
+      "name": "kashifkhan117401-bit--zonex-app",
+      "source": "./kashifkhan117401-bit--zonex-app",
+      "description": "\u2728 ZoneX AI Product Photography & Model Studio"
+    },
+    {
+      "name": "beancookie--dsh-plugin-registry",
+      "source": "./beancookie--dsh-plugin-registry",
+      "description": "dsh-plugin-registry"
+    },
+    {
+      "name": "gonchen--real-engineering-prompt",
+      "source": "./gonchen--real-engineering-prompt",
+      "description": "Bridge the minimal behavioral gap between the latest coding agents and real engineering execution."
+    },
+    {
+      "name": "perrylink--dsh-library",
+      "source": "./perrylink--dsh-library",
+      "description": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, cit"
+    },
+    {
+      "name": "czottmann--pi-whoami",
+      "source": "./czottmann--pi-whoami",
+      "description": "A `whoami` tool for pi, reporting the active provider, model, thinking level, and project dir of the current pi session."
+    },
+    {
+      "name": "ztcno0ne--dsh-loom",
+      "source": "./ztcno0ne--dsh-loom",
+      "description": "Loom (\u7ec7\u673a) \u2014 external coach / second verifier for DeepSeek Harness: silently evolves your agent's tools, skills, config and model, with deterministic verification and cold-apply."
+    },
+    {
+      "name": "seedeai--valo",
+      "source": "./seedeai--valo",
+      "description": "WebGPU-native 2D render engine written in Rust. Works on Windows, macOS, Linux, Android, iOS and Web."
+    },
+    {
+      "name": "sh7vansh--chrome-bridge",
+      "source": "./sh7vansh--chrome-bridge",
+      "description": "Persistent Python runtime and Native Messaging bridge for agentic Chrome automation."
+    },
+    {
+      "name": "subodhkc--ai-appsec",
+      "source": "./subodhkc--ai-appsec",
+      "description": "Evidence-backed AppSec for AI applications and agents. Powered by HAIEC."
+    },
+    {
+      "name": "cyanseek--low-hanging-fruit",
+      "source": "./cyanseek--low-hanging-fruit",
+      "description": "Discover, explain, rank, replay, and verify low-hanging research opportunities in mathematics and LLM research\u2014from one sentence."
+    },
+    {
+      "name": "santoshyadavdev--mergeconflicted",
+      "source": "./santoshyadavdev--mergeconflicted",
+      "description": "Discover your code reviewer personality. Enter a GitHub username, and the app analyses that user's public review activity and asks Gemini to classify them into a reviewer archetype \u2014 The Nitpicker, Th"
+    },
+    {
+      "name": "perrylink--dsh-talk",
+      "source": "./perrylink--dsh-talk",
+      "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-"
+    },
+    {
+      "name": "gru110110110--dsh-launcher",
+      "source": "./gru110110110--dsh-launcher",
+      "description": "\u8ba9 DeepSeek Harness \u4eba\u4eba\u53ef\u7528\u7684\u684c\u9762\u5165\u53e3\u2014\u2014\u4e0d\u7528 Node\u3001\u4e0d\u7528\u547d\u4ee4\u884c\uff0c\u53cc\u51fb\u5373\u7528\uff0c\u8fd8\u65e0\u635f\u8ddf\u968f\u6bcf\u6b21\u5b98\u65b9\u66f4\u65b0\u3002\u652f\u6301MacOs\u548cWindows\u3002DeepSeek Harness, for everyone. No Node.js. No command line. Just double-click and go. Always in step with every official u"
+    },
+    {
+      "name": "cerobreath--gnome-kube-monitor",
+      "source": "./cerobreath--gnome-kube-monitor",
+      "description": "Kubernetes node health in the GNOME top bar. Read-only, uses your existing kubectl and kubeconfig."
     },
     {
       "name": "mkatogui--universal-design-system",
@@ -337702,6 +337987,111 @@
       "name": "zorca-org--zorca",
       "source": "./zorca-org--zorca",
       "description": "A native Agent Development Environment built on Zed"
+    },
+    {
+      "name": "saru-id--niwa",
+      "source": "./saru-id--niwa",
+      "description": "Your whole Mac, configured by one Luau script you can actually read."
+    },
+    {
+      "name": "axadrn--atlas",
+      "source": "./axadrn--atlas",
+      "description": "The open source home for digital nomads. Think nomads.com, but open. Work in progress."
+    },
+    {
+      "name": "roozbeh-sdtz--jarvis-home-commander",
+      "source": "./roozbeh-sdtz--jarvis-home-commander",
+      "description": "Turn an always-on Mac into a voice-first home commander. \"Hey Siri, Call Jarvis\" opens a conversational AI agent that controls your whole smart home \u2014 HomeKit, Philips Hue, Aqara/Matter, Bosch applian"
+    },
+    {
+      "name": "new-bee-666--deepseek-harness-client",
+      "source": "./new-bee-666--deepseek-harness-client",
+      "description": "\u4e00\u6b3edeepseek-harness\u684c\u9762\u5ba2\u6237\u7aef\u7248\u9879\u76ee\uff0c\u66f4\u65b0\u80cc\u666f\u81ea\u5b9a\u4e49\u548capi\u4f59\u989d\u663e\u793a\u529f\u80fd"
+    },
+    {
+      "name": "miyazawai--dsh-whale",
+      "source": "./miyazawai--dsh-whale",
+      "description": "\ud83d\udc33 DSH \u50bb\u74dc\u6574\u5408\u5305\uff1a\u4ee5 Oh-DSH \u4e3a\u57fa\u5ea7\u7684 DeepSeek Harness \u53d1\u884c\u7248\u5916\u58f3\u2014\u2014\u6838\u5fc3 17 \u7ec4\u4ef6\u5f00\u7bb1\u5373\u7528\u3001\u4e09\u754c\u9762\uff08webui/gui/tui\uff09\u4e00\u5305\u5207\u6362\u3001\u6a21\u578b\u2194\u9884\u8bbe\u8054\u52a8\u3001\u4e00\u5207\u7686\u63d2\u4ef6"
+    },
+    {
+      "name": "medlzd--store-ready",
+      "source": "./medlzd--store-ready",
+      "description": "Catch App Store and Google Play rejections before you submit. A portable agent skill for Claude, Cursor, Codex and ChatGPT."
+    },
+    {
+      "name": "cnctem--dsh-acp",
+      "source": "./cnctem--dsh-acp",
+      "description": "ACP server for DeepSeek Harness \u2014 bridges Zed and other IDEs to dsh agents"
+    },
+    {
+      "name": "itissika--litecode",
+      "source": "./itissika--litecode",
+      "description": "A coding agent framework obsessively optimized for runtime lightness"
+    },
+    {
+      "name": "deepseek-harness-evoforge--dsh-evoforge",
+      "source": "./deepseek-harness-evoforge--dsh-evoforge",
+      "description": "Evidence-driven, cache-stable extensions for DeepSeek Harness"
+    },
+    {
+      "name": "clinteastman--smart-grind-home-assistant",
+      "source": "./clinteastman--smart-grind-home-assistant",
+      "description": "Home Assistant integration for Smart Grind by Weight"
+    },
+    {
+      "name": "vkgeorgia--mediaflow",
+      "source": "./vkgeorgia--mediaflow",
+      "description": "Desktop app for organizing photos and videos \u2014 copy, sort, deduplicate, and edit EXIF and file dates. Windows portable build; MIT licensed."
+    },
+    {
+      "name": "borisvl--sudokuplus-koplugin",
+      "source": "./borisvl--sudokuplus-koplugin",
+      "description": "A full-featured, logical Sudoku puzzle game and interactive tutor crafted specifically for e-ink readers running [KOReader](https://github.com/koreader/koreader) (Kobo, Kindle, PocketBook, Android)."
+    },
+    {
+      "name": "madwind0526--meetingnote",
+      "source": "./madwind0526--meetingnote",
+      "description": "MeetingNote"
+    },
+    {
+      "name": "caleb-mitchell-hub--miniprogram",
+      "source": "./caleb-mitchell-hub--miniprogram",
+      "description": "\u57fa\u4e8e\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u539f\u751f\u80fd\u529b\u4e0e TypeScript \u6784\u5efa\u7684\u8fdb\u9500\u5b58 / WMS \u4e1a\u52a1\u7ba1\u7406\u524d\u7aef\uff0c\u8986\u76d6\u5e93\u5b58\u3001\u9500\u552e\u3001\u91c7\u8d2d\u3001\u8d22\u52a1\u3001\u57fa\u7840\u8d44\u6599\u3001\u5ba1\u6279\u4e0e AI \u8f85\u52a9\u7b49\u6838\u5fc3\u4e1a\u52a1\u573a\u666f\u3002"
+    },
+    {
+      "name": "zorca-org--zorca",
+      "source": "./zorca-org--zorca",
+      "description": "A native Agent Development Environment built on Zed"
+    },
+    {
+      "name": "ak-a-ra--keynest",
+      "source": "./ak-a-ra--keynest",
+      "description": "KeyNest"
+    },
+    {
+      "name": "omico--ocdd",
+      "source": "./omico--ocdd",
+      "description": "Omico Contract-Driven Development (OCDD) Specification"
+    },
+    {
+      "name": "nopager--nopager",
+      "source": "./nopager--nopager",
+      "description": "nopager"
+    },
+    {
+      "name": "professionalwiki--memberaccess",
+      "source": "./professionalwiki--memberaccess",
+      "description": "MemberAccess"
+    },
+    {
+      "name": "rizardsks--little-orange-desktop-pet",
+      "source": "./rizardsks--little-orange-desktop-pet",
+      "description": "??? Windows ??????(Electron + React + TypeScript)"
+    },
+    {
+      "name": "noirbright--dsh-llm-ollama",
+      "source": "./noirbright--dsh-llm-ollama",
+      "description": "Native Ollama Cloud provider and Web configuration plugin for DeepSeek Harness"
     },
     {
       "name": "redrock453--vika-ok",
