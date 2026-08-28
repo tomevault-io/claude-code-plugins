@@ -1,19 +1,19 @@
-# financial-domain
+# frontend
 
-> Money, dates, Server Actions, ledger, and investment invariants
+> Dashboard, component, accessibility, and privacy UI rules
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/financial-domain/SKILL.md
+Read and follow the instructions in .claude/skills/frontend/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Follow the canonical rule in @.claude/rules/financial-domain.md.
+Follow the canonical rule in @.claude/rules/frontend.md.
 
 ---
 > Source: [kevin-aoun/LocalFi](https://github.com/kevin-aoun/LocalFi) — distributed by [TomeVault](https://tomevault.io).
