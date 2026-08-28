@@ -1,0 +1,52 @@
+# claude-code-history
+
+> Auto-generated from all feature plans. Last updated: 2026-04-01
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/claude-code-history/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# claude-code-history Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-04-01
+
+## Active Technologies
+- TypeScript 5.x with strict mode enabled, running on Node.js 20+ + Commander.js (CLI framework), Node.js built-ins (`fs`, `path`, `readline`) (008-agent-session-linking)
+- Local Claude Code JSONL session files under `~/.claude/projects/`, including both flat `agent-*.jsonl` files and nested `<main-session>/subagents/agent-*.jsonl` files (008-agent-session-linking)
+- Local Claude Code JSONL session files under `~/.claude/projects/`, including flat `agent-*.jsonl` files and nested `<main-session>/subagents/agent-*.jsonl` files (010-stream-session-parsing)
+
+- TypeScript 5.x with strict mode enabled + Commander.js (CLI framework), Node.js built-ins (`fs`, `path`, `readline`) (007-support-progress-messages)
+
+## Project Structure
+
+```text
+src/
+tests/
+```
+
+## Commands
+
+npm test && npm run lint
+
+## Code Style
+
+TypeScript 5.x with strict mode enabled: Follow standard conventions
+
+## Recent Changes
+- 010-stream-session-parsing: Added TypeScript 5.x with strict mode enabled, running on Node.js 20+ + Commander.js (CLI framework), Node.js built-ins (`fs`, `path`, `readline`)
+- 009-full-content-lib: Added TypeScript 5.x with strict mode enabled, running on Node.js 20+ + Commander.js (CLI framework), Node.js built-ins (`fs`, `path`, `readline`)
+- 008-agent-session-linking: Added TypeScript 5.x with strict mode enabled, running on Node.js 20+ + Commander.js (CLI framework), Node.js built-ins (`fs`, `path`, `readline`)
+
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
+
+---
+> Source: [S2thend/claude-code-history](https://github.com/S2thend/claude-code-history) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-28 -->
