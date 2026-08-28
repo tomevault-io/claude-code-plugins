@@ -1,0 +1,25 @@
+# dsh-evoforge
+
+> Before researching DSH, comparing agent frameworks, designing EvoForge capabilities, or implementing plugins, read [the Chinese requirements baseline](docs/requirements.zh.md). It is the authoritative product scope and delivery order.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/dsh-evoforge/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project guidance
+
+Before researching DSH, comparing agent frameworks, designing EvoForge capabilities, or implementing plugins, read [the Chinese requirements baseline](docs/requirements.zh.md). It is the authoritative product scope and delivery order.
+
+Before introducing domain terms or recording architecture decisions, read [CONTEXT.md](CONTEXT.md). Keep DSH Core Defects upstream, preserve the suite-wide Cache Contract, and update the requirements baseline in the same change whenever the owner changes an accepted requirement.
+
+Before designing, implementing, reviewing, or packaging an out-of-tree DSH plugin, follow [build-dsh-plugin](skills/build-dsh-plugin/SKILL.md). It owns the feature test, DSH shape selection, lifecycle, cache, permission, persistence, and assembled-verification workflow.
+
+---
+> Source: [deepseek-harness-evoforge/dsh-evoforge](https://github.com/deepseek-harness-evoforge/dsh-evoforge) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-27 -->
