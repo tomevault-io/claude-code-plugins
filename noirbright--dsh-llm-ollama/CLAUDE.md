@@ -1,0 +1,23 @@
+# dsh-llm-ollama
+
+> 3080 / `~/.dsh` 是 production，只读发布面。不要为了预览去改、刷新、重启 3080。
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/dsh-llm-ollama/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# DSH 两套平面
+
+3080 / `~/.dsh` 是 production，只读发布面。不要为了预览去改、刷新、重启 3080。
+3082 / `~/.dsh-lab` 是唯一试验面。改插件只动 Workstation checkout，验收只看 3082。
+完整约定：`/home/noirbright/Workstation/AGENTS.md`
+
+---
+> Source: [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-08-27 -->
