@@ -336199,6 +336199,81 @@
       "description": "Restrained chat typography and layout for DeepSeek Harness Web"
     },
     {
+      "name": "sfyyy--dsh-vision-bridge",
+      "source": "./sfyyy--dsh-vision-bridge",
+      "description": "On-demand vision for text-only DeepSeek Harness (DSH) sessions: images become markers, and a vision_describe tool sends only image + question to an OpenAI-compatible vision model"
+    },
+    {
+      "name": "gewis--sudosos",
+      "source": "./gewis--sudosos",
+      "description": "SudoSOS is a Node.js-based Bar and POS system made for study association GEWIS."
+    },
+    {
+      "name": "altairpaca--dshelm",
+      "source": "./altairpaca--dshelm",
+      "description": "DSHelm \u2014 DeepSeek Harness \u7684\u53ef\u89e3\u91ca\u591a\u6a21\u578b\u8c03\u5ea6\u5c42\u3002Chinese-first, DSH-native, evidence-backed."
+    },
+    {
+      "name": "xinbo-tech--thincoder",
+      "source": "./xinbo-tech--thincoder",
+      "description": "thincoder"
+    },
+    {
+      "name": "zixiangyang0-rgb--harness-kk-god5-0",
+      "source": "./zixiangyang0-rgb--harness-kk-god5-0",
+      "description": "Harness-kk-god5.0"
+    },
+    {
+      "name": "tailscale--aperture-plus",
+      "source": "./tailscale--aperture-plus",
+      "description": "Experimental: pure userspace Tailscale web browser for iOS/macOS with Aperture Chat and Thundersnap VM"
+    },
+    {
+      "name": "vaga8ond--personal-portfolio",
+      "source": "./vaga8ond--personal-portfolio",
+      "description": "Infinite WebGL photo wall "
+    },
+    {
+      "name": "anestis271--dsh-desktop",
+      "source": "./anestis271--dsh-desktop",
+      "description": "Turn the official DeepSeek Harness WebUI into a natural desktop experience."
+    },
+    {
+      "name": "yswlww--metapi-evolution",
+      "source": "./yswlww--metapi-evolution",
+      "description": "Independent evolution of metapi: all-in-one AI API gateway & management platform"
+    },
+    {
+      "name": "willy92wins--dayz-modding-knowledge-pack",
+      "source": "./willy92wins--dayz-modding-knowledge-pack",
+      "description": "Battle-tested DayZ (Enfusion) modding knowledge for AI coding assistants: 16 domain playbooks, the py3d-dayz MLOD toolchain, strict RTM/SEAnim/ODOL inspectors,, visor tools to help you work with 3d mo"
+    },
+    {
+      "name": "warmshao--vsurf",
+      "source": "./warmshao--vsurf",
+      "description": "vsurf is an open-source coding and research RLM agent for general and long-running work, with first-class browser automation."
+    },
+    {
+      "name": "nledez--tun-manager",
+      "source": "./nledez--tun-manager",
+      "description": "tun-manager"
+    },
+    {
+      "name": "yangfch3--dsh-mcp-mgr",
+      "source": "./yangfch3--dsh-mcp-mgr",
+      "description": "MCP server manager for DeepSeek Harness \u2014 workspace mcp.json discovery, hot sync, and a web settings UI."
+    },
+    {
+      "name": "tauruswood--dsh-plugin-appshot",
+      "source": "./tauruswood--dsh-plugin-appshot",
+      "description": "dsh-plugin-appshot \u2014 a DeepSeek Harness plugin (tool template)."
+    },
+    {
+      "name": "mr-remon219--pi-search-boost",
+      "source": "./mr-remon219--pi-search-boost",
+      "description": "The plunge for pi to boost his search ability"
+    },
+    {
       "name": "adityak74--embenx",
       "source": "./adityak74--embenx",
       "description": "embenx"
@@ -336462,6 +336537,261 @@
       "name": "lastwhisper00--springcat",
       "source": "./lastwhisper00--springcat",
       "description": "SpringCat is a lightweight desktop companion that tracks AI coding tasks and displays their progress in a transparent, always-on-top panel. It supports tools such as Codex CLI, Cursor, Gemini CLI, Gro"
+    },
+    {
+      "name": "devjasha--raunen",
+      "source": "./devjasha--raunen",
+      "description": "A small terminal agent for local LLMs. One Go binary, no runtime, no server. Point it at Ollama, LM Studio, llama.cpp, vLLM, OpenRouter \u2014 anything that speaks the OpenAI /v1/chat/completions format. I"
+    },
+    {
+      "name": "maoruibin--sparrow",
+      "source": "./maoruibin--sparrow",
+      "description": "\u9ebb\u96c0 Sparrow \u00b7 \u5199\u4e2a Markdown\uff0c\u4e0d\u7528\u8bf7\u5c0a\u4f5b\u3002A tiny but complete Markdown editor. ~10MB, macOS + Windows."
+    },
+    {
+      "name": "cakeni--harness-pet",
+      "source": "./cakeni--harness-pet",
+      "description": "Harness Pet \u2014 an unofficial community pet for DeepSeek Harness. Not affiliated with, endorsed by, or maintained by DeepSeek."
+    },
+    {
+      "name": "energy-models--math-spec",
+      "source": "./energy-models--math-spec",
+      "description": "YAML math specification and AST parsing for multi-dimensional linear programming problems"
+    },
+    {
+      "name": "spyqwer1--dsh-codex-tools",
+      "source": "./spyqwer1--dsh-codex-tools",
+      "description": "dsh-codex-tools"
+    },
+    {
+      "name": "levi-qiao--dsh-plugin-longgraph",
+      "source": "./levi-qiao--dsh-plugin-longgraph",
+      "description": "DeepSeek Harness community plugin: longgraph / loop-graph / loop-converge authoring skills on ctx.skills"
+    },
+    {
+      "name": "kevph2026--deepseek-harness-desktop",
+      "source": "./kevph2026--deepseek-harness-desktop",
+      "description": "DeepSeek Harness Desktop \u662f @KevPH2026 \u7ef4\u62a4\u7684\u975e\u5b98\u65b9\u793e\u533a macOS \u684c\u9762\u5c01\u88c5:\u57fa\u4e8e\u5f00\u6e90 DeepSeek Harness,\u5185\u7f6e\u4e00\u952e\u5b89\u88c5\u7684\u7cbe\u9009\u793e\u533a\u76ae\u80a4\u4e2d\u5fc3\u3001Telegram \u624b\u673a\u8fdc\u7a0b\u63a7\u5236\u3001\u53ef\u914d\u7f6e\u7684\u56fe\u7247/\u89c6\u9891\u591a\u6a21\u6001\u751f\u6210\u3001\u7528\u91cf\u9762\u677f\u548c\u6309\u573a\u666f\u5206\u7c7b\u7684 dsh \u63d2\u4ef6\u5e02\u573a\u3002\u540c\u6b65\u793e\u533a\u96f7\u8fbe,\u672a\u7b7e\u540d CI \u53d1\u7248\u3002"
+    },
+    {
+      "name": "springbrand-lab--dsh-skin-universe",
+      "source": "./springbrand-lab--dsh-skin-universe",
+      "description": "Themes and web GUI plugins for DeepSeek Harness: task board, Git graph, file panel, SSH, mobile remote, companion, live stats, and five installable themes."
+    },
+    {
+      "name": "davidix07tv--nest-music",
+      "source": "./davidix07tv--nest-music",
+      "description": "Nest-Music"
+    },
+    {
+      "name": "bernardxu123--dsh-mobile-gate",
+      "source": "./bernardxu123--dsh-mobile-gate",
+      "description": "LAN mobile gateway for DeepSeek Harness (DSH): first-visit approval, per-device tokens, rate limiting, mobile layout injection. \u5c40\u57df\u7f51\u624b\u673a\u5b89\u5168\u8bbf\u95ee DSH \u7684\u5373\u63d2\u5373\u7528\u7f51\u5173\uff1a\u672c\u673a\u5ba1\u6279\u3001\u8bbe\u5907\u4ee4\u724c\u3001\u9650\u6d41\u3001\u624b\u673a\u7aef\u9002\u914d\u3002"
+    },
+    {
+      "name": "alielshenawy1--ali-gtm-brain-skill",
+      "source": "./alielshenawy1--ali-gtm-brain-skill",
+      "description": "Ali-GTM-Brain-Skill"
+    },
+    {
+      "name": "ly6170--dsh-messager",
+      "source": "./ly6170--dsh-messager",
+      "description": "\u9002\u7528\u4e8eDeepseek Harness\u7684\u6d88\u606f\u63d0\u9192\u4fe1\u4f7f\uff0c\u53ef\u4f7f\u7528\u98de\u4e66\u3001\u4f01\u4e1a\u5fae\u4fe1\u3001\u9489\u9489\u3001Telegram\u3001Discord\u8fdb\u884c\u901a\u77e5\u63a8\u9001"
+    },
+    {
+      "name": "steelbrain--experiment-macos-arm64-on-linux-x86",
+      "source": "./steelbrain--experiment-macos-arm64-on-linux-x86",
+      "description": "Experiment: Patched QEMU that can run macOS 13 arm64 on linux x86 hosts"
+    },
+    {
+      "name": "drowzeys--keys-mac-omlx-0-6-3-2rc-deepseekv4f-0731-mxfp4-abliterated-dual-ane-cpu",
+      "source": "./drowzeys--keys-mac-omlx-0-6-3-2rc-deepseekv4f-0731-mxfp4-abliterated-dual-ane-cpu",
+      "description": "1.0 Beta \u00b7 oMLX 0.6.3rc2 Dual-ANE+CPU prefill \u00b7 DSV4F 0731 MXFP4 ablit \u00b7 1M ctx \u00b7 Mac Studio M3 Ultra"
+    },
+    {
+      "name": "yeswearebot--athena-harness",
+      "source": "./yeswearebot--athena-harness",
+      "description": "An experimental digital life runtime kernel built on Cordis v4 and AI SDK v7."
+    },
+    {
+      "name": "apptoai--deskto",
+      "source": "./apptoai--deskto",
+      "description": "deskto"
+    },
+    {
+      "name": "reaslab--mathmodelingagent-codexbundle",
+      "source": "./reaslab--mathmodelingagent-codexbundle",
+      "description": "MathModelingAgent-CodexBundle"
+    },
+    {
+      "name": "helgesverre--fsdb",
+      "source": "./helgesverre--fsdb",
+      "description": "A MySQL-compatible database server in idiomatic F# \u2014 wire protocol, FParsec SQL grammar, DU-based relational algebra, SQLite-style function registration"
+    },
+    {
+      "name": "yjh051108--dsh-engram-relay",
+      "source": "./yjh051108--dsh-engram-relay",
+      "description": "dsh-engram-relay \u516c\u5f00\u955c\u50cf\uff08\u4e0a\u6e38\uff1adsh-external/dsh-engram-relay\uff09\uff1a\u8de8\u4f1a\u8bdd\u5206\u5c42\u8bb0\u5fc6 + \u54c8\u5e0c\u00d7\u8bed\u4e49\u00d7\u56e0\u679c\u8d85\u7a00\u758f\u5524\u9192\uff0c13 \u4e2a engram_* \u5de5\u5177\uff0cBSD-3-Clause"
+    },
+    {
+      "name": "zibo2025--dsh-orchestrator",
+      "source": "./zibo2025--dsh-orchestrator",
+      "description": "\u3010\u7f16\u6392\u6a21\u5f0f\u3011\u4e3a DeepSeek Harness \u63d0\u4f9b\u591a\u667a\u80fd\u4f53\u7f16\u6392\u6a21\u5f0f\uff1a\u4e3b\u667a\u80fd\u4f53\u5206\u89e3\u5206\u6d3e\u3001worker \u5168\u7f51\u683c\u4e92\u901a\uff0c\u652f\u6301\u9010 worker \u6307\u5b9a\u6a21\u578b\u4e0e\u601d\u8003\u5f3a\u5ea6"
+    },
+    {
+      "name": "er1c0v0--dsh-whale-pet",
+      "source": "./er1c0v0--dsh-whale-pet",
+      "description": "Cute whale-girl pet plugin for the DeepSeek Harness Web UI"
+    },
+    {
+      "name": "lvzaixian--baoyan-mentor-skills",
+      "source": "./lvzaixian--baoyan-mentor-skills",
+      "description": "Public no-send Codex Skills for mentor outreach workflows"
+    },
+    {
+      "name": "kairoz9--dsh-mcp-admin",
+      "source": "./kairoz9--dsh-mcp-admin",
+      "description": "dsh plugin for MCP status inspection and server management | dsh \u7684 MCP\u72b6\u6001\u67e5\u770b\u4e0e\u670d\u52a1\u7ba1\u7406\u63d2\u4ef6"
+    },
+    {
+      "name": "lemcae--dsh-balance",
+      "source": "./lemcae--dsh-balance",
+      "description": "\u4e00\u4e2a\u9002\u7528\u4e8edeepseek-harness\u7684\u63d2\u4ef6\uff0c\u529f\u80fd\u662f\u663e\u793a\u5f53\u524d\u8d26\u6237\u4f59\u989d\u4ee5\u53ca\u5f53\u524d\u4f1a\u8bdd\u9884\u4f30\u7684\u8d39\u7528\u6d88\u8017 | A plugin for deepseek-harness that displays the current account balance and the estimated cost consumption of the current session."
+    },
+    {
+      "name": "agentthink--vis-center",
+      "source": "./agentthink--vis-center",
+      "description": "\u4ea7\u7ebf\u591a\u76f8\u673a\u89c6\u89c9 + PLC \u8054\u52a8\u4e0a\u4f4d\u673a\uff08.NET WinForms\uff09\uff0c\u5b9e\u73b0\u626b\u7801 - SN \u91c7\u96c6\u3001\u57fa\u6069\u58eb\u76f8\u673a\u5e76\u884c\u62cd\u7167\u3001\u56fe\u50cf\u5f52\u6863\u3001OK/NG \u7ed3\u679c\u4e0e\u6c47\u5ddd PLC Modbus \u4e09\u62cd\u63e1\u624b\u4ea4\u4e92\u4e00\u4f53\u5316\u3002\u652f\u6301\u591a\u4ea7\u54c1\u578b\u53f7\u67d4\u6027\u6362\u4ea7\u3001\u53ef\u89c6\u5316\u70b9\u4f4d\u5e03\u5c40\u3001\u5206\u7ea7\u8d26\u53f7\u6743\u9650\u3001\u5168\u94fe\u8def\u751f\u4ea7\u65e5\u5fd7\u4e0e\u56fe\u50cf\u8ffd\u6eaf\uff0c\u9762\u5411\u81ea\u52a8\u5316\u4ea7\u7ebf\u8d28\u68c0\u5de5\u4f4d\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "name": "festoney8--deepseek-harness-gui",
+      "source": "./festoney8--deepseek-harness-gui",
+      "description": "DeepSeek Harness \u8d85\u7ea7\u8f7b\u91cf\u684c\u9762\u7248 APP\uff0c\u57fa\u4e8e Tauri \u5c01\u88c5\uff0c\u652f\u6301\u5347\u7ea7 DSH \u5185\u6838\u3001\u63d0\u4f9b\u514d\u5b89\u88c5\u4fbf\u643a\u7248"
+    },
+    {
+      "name": "lee259--dsh-workbench",
+      "source": "./lee259--dsh-workbench",
+      "description": "Right-side file workspace for DeepSeek Harness Web."
+    },
+    {
+      "name": "ixijxjgxidj-cmd--gpu-server-management-mcp-skill",
+      "source": "./ixijxjgxidj-cmd--gpu-server-management-mcp-skill",
+      "description": "GPU-Server-Management-MCP-Skill-"
+    },
+    {
+      "name": "trycompai--evie",
+      "source": "./trycompai--evie",
+      "description": "evie"
+    },
+    {
+      "name": "sparrived--dsh-deeptop",
+      "source": "./sparrived--dsh-deeptop",
+      "description": "Deeptop, a lightweight native desktop client for DeepSeek Harness."
+    },
+    {
+      "name": "vinnytherobot--macosdock",
+      "source": "./vinnytherobot--macosdock",
+      "description": "A MacOS-style dock for GNOME Shell with magnification and animations"
+    },
+    {
+      "name": "songoao25--dsh-virtual-product-team",
+      "source": "./songoao25--dsh-virtual-product-team",
+      "description": "Product Team Mode - a DeepSeek Harness agent preset: user-led conversation with a virtual product team (PM to Engineer to QA to Release) walking you from idea to shipped product"
+    },
+    {
+      "name": "milpster--gfx906-llama-cpp",
+      "source": "./milpster--gfx906-llama-cpp",
+      "description": "gfx906-llama-cpp"
+    },
+    {
+      "name": "daishengyong--chengyin-companion",
+      "source": "./daishengyong--chengyin-companion",
+      "description": "A local-first macOS companion for Codex with desktop-pet interactions, care rhythms, mini-games, and auditable Content Packs."
+    },
+    {
+      "name": "chiro2001--dsh-oc",
+      "source": "./chiro2001--dsh-oc",
+      "description": "DeepSeek Harness \u00d7 OpenCode TUI \u524d\u7aef\uff1a\u628a dsh \u7684 Agent\u3001\u4f1a\u8bdd\u3001\u5de5\u5177\u63a5\u5165\u5b98\u65b9 opencode \u7ec8\u7aef\u3002OpenCode TUI frontend for the DeepSeek Harness (dsh): agents, sessions and tools in the official opencode terminal."
+    },
+    {
+      "name": "mhyrzt--ftsiout",
+      "source": "./mhyrzt--ftsiout",
+      "description": "A vibe-coded bilingual research workflow for surviving UT and finally getting the f*** out."
+    },
+    {
+      "name": "camilleroux--genartclub",
+      "source": "./camilleroux--genartclub",
+      "description": "Website of the Generative Artists Club \u2014 a community of generative artists founded in 2019 as a Parisian salon. Built with Astro, one Markdown file per member."
+    },
+    {
+      "name": "pzc2004--dsh-frostfin",
+      "source": "./pzc2004--dsh-frostfin",
+      "description": "\u6708\u8292\u971c\u9ccd\u9cb8\u2014\u2014\u8ba9 Kimi Code \u672c\u4eba\u76f4\u63a5\u9a71\u52a8 DeepSeek Harness \u4f1a\u8bdd\u7684 loop \u63d2\u4ef6\u3002DSH \u7684\u58f3\uff0cKimi \u7684\u8111\uff0cACP \u76f4\u8fde\uff0c\u65e0\u4e2d\u95f4\u5c42\u3002 Moonglow Frostfin \u2014 Kimi Code itself as the agent loop of DeepSeek Harness. ACP-bridged, no middleman: DSH's shell, K"
+    },
+    {
+      "name": "podbay-cloud--podbay",
+      "source": "./podbay-cloud--podbay",
+      "description": "Give an agent a computer, on your own metal \u2014 self-hostable persistent workspaces for coding agents (Claude Code, Codex). BSL 1.1."
+    },
+    {
+      "name": "eachsheep--dsh-mario-pixel-skin",
+      "source": "./eachsheep--dsh-mario-pixel-skin",
+      "description": "Unofficial Mario-inspired pixel-adventure skin for DeepSeek Harness."
+    },
+    {
+      "name": "jame100101--dsh-terminal-ui",
+      "source": "./jame100101--dsh-terminal-ui",
+      "description": "A local-first terminal UI for DeepSeek Harness, built with TypeScript, React 19, and Ink 7."
+    },
+    {
+      "name": "victorzakharov--beautiful-water",
+      "source": "./victorzakharov--beautiful-water",
+      "description": "Procedural Three.js shallow ocean with reflections, foam, underwater life, and visual regression testing"
+    },
+    {
+      "name": "firawenkaimono--firawenkaimono",
+      "source": "./firawenkaimono--firawenkaimono",
+      "description": "\u5c06 Fira Code \u7684\u897f\u6587\u3001\u7f16\u7a0b\u8fde\u5b57\u4e0e\u971e\u9e5c\u6587\u6977\u7b49\u5bbd\u7684\u4e2d\u6587\u5408\u5e76\u4e3a\u4e00\u5957\u4e2d\u897f\u6587\u7f16\u7a0b\u5b57\u4f53\u3002"
+    },
+    {
+      "name": "legioncodeinc--littlebird-skills",
+      "source": "./legioncodeinc--littlebird-skills",
+      "description": "A set of skills for Littlebird.ai!"
+    },
+    {
+      "name": "erosteam--nextn",
+      "source": "./erosteam--nextn",
+      "description": "NextN"
+    },
+    {
+      "name": "wingsky-1--dsh-plugin-hub",
+      "source": "./wingsky-1--dsh-plugin-hub",
+      "description": "DSH (DeepSeek Harness) web GUI plugin collection \u2014 notifications, provider usage, LAN proxy, MCP manager, idle archive, file preview. Install: dsh plugin --profile web add @wingsky-1/dsh-plugins-all"
+    },
+    {
+      "name": "winoooops--herdr-agent-watcher",
+      "source": "./winoooops--herdr-agent-watcher",
+      "description": "Coding-agent observability for Herdr: live sidebar cards, lifecycle notifications, and a zero-config Claude Code metrics bridge."
+    },
+    {
+      "name": "haoku123--dsh-voice",
+      "source": "./haoku123--dsh-voice",
+      "description": "Full-duplex voice plugin for DeepSeek Harness: mic \u2192 SenseVoice ASR (sherpa-onnx) \u2192 LLM \u2192 Edge TTS with true barge-in. \u5168\u53cc\u5de5\u8bed\u97f3\u63d2\u4ef6\uff1a\u9ea6\u514b\u98ce\u8bed\u97f3\u8f93\u5165\uff0cSenseVoice \u672c\u5730\u8bc6\u522b\uff08\u7b80\u4f53\u4e2d\u6587+\u6807\u70b9+ITN\uff09\uff0c\u6d41\u5f0f TTS \u6717\u8bfb\uff0c\u652f\u6301\u8bed\u97f3\u6253\u65ad\u3002Zero API key."
+    },
+    {
+      "name": "sfourdrinier--unified-ble-manager",
+      "source": "./sfourdrinier--unified-ble-manager",
+      "description": "Unified Bluetooth Low Energy manager for React Native, Electron, Web, and desktop."
+    },
+    {
+      "name": "shutongcao1-design--dsh-win-minimal-cot",
+      "source": "./shutongcao1-design--dsh-win-minimal-cot",
+      "description": "Experimental Windows-first fork of DeepSeek Harness: minimal preset with pwsh + str_replace_editor, trimmed prompts, anchored bootstrap presets, and We Let's Think chain-of-thought triggers. DeepSeek "
+    },
+    {
+      "name": "jeffjjohnston--counterpoise-ledger",
+      "source": "./jeffjjohnston--counterpoise-ledger",
+      "description": "A web-based double-entry accounting application for personal finance management, built with modern technologies and accounting best practices."
     },
     {
       "name": "ncaq---zsh-d",
@@ -336762,6 +337092,146 @@
       "name": "modelcontextprotocol--experimental-ext-server-card",
       "source": "./modelcontextprotocol--experimental-ext-server-card",
       "description": "experimental-ext-server-card"
+    },
+    {
+      "name": "chaggle--dsh-powershell-check",
+      "source": "./chaggle--dsh-powershell-check",
+      "description": "Native DeepSeek Harness plugin: gates pwsh tool calls against PowerShell pitfalls via the official tools/pre-execute interception point, bundles the powershell-check skill"
+    },
+    {
+      "name": "gustavobelo--opencouch",
+      "source": "./gustavobelo--opencouch",
+      "description": "Open Couch is a lightweight KDE utility designed for gamers who share a single PC between a traditional desk setup and a living room TV."
+    },
+    {
+      "name": "melon-xf--microdata-lab",
+      "source": "./melon-xf--microdata-lab",
+      "description": "Reproducible public-microdata analyses from official, locally validated source releases"
+    },
+    {
+      "name": "gutnikelina--document-ocr-service",
+      "source": "./gutnikelina--document-ocr-service",
+      "description": "document-ocr-service"
+    },
+    {
+      "name": "noone89a--dsh-gauge",
+      "source": "./noone89a--dsh-gauge",
+      "description": "\u4e3a DeepSeek Harness Web UI \u63d0\u4f9b\u7cbe\u786e\u7f13\u5b58\u547d\u4e2d\u7387\u3001token \u7528\u91cf\u4e0e\u8d39\u7528\u4f30\u7b97"
+    },
+    {
+      "name": "innocent-children--dev-flow",
+      "source": "./innocent-children--dev-flow",
+      "description": "Local process control and recovery for Codex and DeepSeek Harness: explicit scope, verification budgets, and durable task state."
+    },
+    {
+      "name": "kgudipati--openprefs",
+      "source": "./kgudipati--openprefs",
+      "description": "OpenPrefs is an open-source, headless TypeScript library that lets users control an application's existing preferences using natural language\u2014without requiring the developer to migrate or redesign the"
+    },
+    {
+      "name": "axinjjj--codex-manager",
+      "source": "./axinjjj--codex-manager",
+      "description": "Codex \u7ba1\u7406\u5668\uff1a\u53ef\u89c6\u5316\u7ba1\u7406\u548c\u6e05\u7406 Codex \u672c\u5730\u914d\u7f6e\u7684\u5c0f\u5de5\u5177\uff08\u5206\u7ec4\u6d4f\u89c8/\u7f16\u8f91\u5220\u9664/\u56de\u6536\u7ad9/\u4e00\u952e\u6e05\u7406/md\u67e5\u91cd/\u7ffb\u8bd1/\u5e93\u5b58\u4eea\u8868\u76d8\uff09"
+    },
+    {
+      "name": "wangshuaifbj-collab--awesome-antigravity-pet",
+      "source": "./wangshuaifbj-collab--awesome-antigravity-pet",
+      "description": "Animated desktop companion for Google Antigravity 2.x with 193+ characters & real-time reasoning lifecycle sync. \u9996\u4e2a\u4e13\u4e3a Antigravity 2.x \u6253\u9020\u7684\u684c\u9762\u667a\u80fd\u4f34\u4fa3\uff0c\u5f00\u7bb1\u5373\u7528 193+ \u6b3e\u89d2\u8272\uff0c\u5168\u81ea\u52a8\u601d\u8003\u7f16\u7801\u52a8\u4f5c\u8054\u52a8\u3002\u684c\u5ba0 / \u684c\u9762\u5ba0\u7269 / \u4e8c\u6b21\u5143"
+    },
+    {
+      "name": "soolaugust--deepseek-harness-cli",
+      "source": "./soolaugust--deepseek-harness-cli",
+      "description": "Interactive terminal agent (fork of DeepSeek Harness): Claude Code-style REPL \u2014 full-screen UI, markdown rendering, session stats, permission cycling, custom OpenAI-compatible providers."
+    },
+    {
+      "name": "ed-donner--rolodex",
+      "source": "./ed-donner--rolodex",
+      "description": "rolodex"
+    },
+    {
+      "name": "aaravarr--dsh-subagent-max",
+      "source": "./aaravarr--dsh-subagent-max",
+      "description": "DeepSeek Harness (DSH) plugin \u2014 a subagent_with_model tool plus a live multi-panel subagent viewer."
+    },
+    {
+      "name": "mickaelrebeau--hugeicons-animated-vue",
+      "source": "./mickaelrebeau--hugeicons-animated-vue",
+      "description": "Hand-animated Hugeicons for Vue 3. Copy-paste or install from npm \u2014 hover playback, motion-v, and reduced-motion built in."
+    },
+    {
+      "name": "yuanliou--ytmusicqueuecarousel",
+      "source": "./yuanliou--ytmusicqueuecarousel",
+      "description": "an extension to show Carousel of your now playing queue"
+    },
+    {
+      "name": "rgcdata--git-and-github-guide-for-filemaker",
+      "source": "./rgcdata--git-and-github-guide-for-filemaker",
+      "description": "Reference materials for our easy to follow Git/GitHub guide (hosted on https://rgcdata.com/blog).  One MD file and an offline HTML file as of initial commit."
+    },
+    {
+      "name": "fishman--notmutt",
+      "source": "./fishman--notmutt",
+      "description": "Async terminal mail client for notmuch: staged undoable tag ops, diff-and-insert refresh, HTML mail rendered in-terminal, easyjump link mode, dry-run filtering by default, optional MCP server (read-on"
+    },
+    {
+      "name": "evandrocabf--desktop-driver",
+      "source": "./evandrocabf--desktop-driver",
+      "description": "See, inspect and control desktop applications from the shell \u2014 an accessibility-tree CLI for AI agents, on Linux and macOS."
+    },
+    {
+      "name": "m1nuzz--flux-launcher",
+      "source": "./m1nuzz--flux-launcher",
+      "description": "A lightweight native Rust alternative to Flow Launcher for Windows 11"
+    },
+    {
+      "name": "silencieuxzero--better-deepseek-harness",
+      "source": "./silencieuxzero--better-deepseek-harness",
+      "description": "Better Deepseek Harness, with some functional extensions to webui and Deepseek Harness\u00b7\u66f4\u597d\u7684deepseek harness\uff0c\u5bf9webui\u548cdeepseek harness\u8fdb\u884c\u4e86\u4e00\u4e9b\u529f\u80fd\u6269\u5c55"
+    },
+    {
+      "name": "kernlai--agents-vs-wall-street-starter",
+      "source": "./kernlai--agents-vs-wall-street-starter",
+      "description": "Partner-review draft for the Agents vs Wall Street hackathon participant pack"
+    },
+    {
+      "name": "senhao-xu--download-manager",
+      "source": "./senhao-xu--download-manager",
+      "description": "download-manager"
+    },
+    {
+      "name": "suxeca--dsh-plugin",
+      "source": "./suxeca--dsh-plugin",
+      "description": "DSH \u4f1a\u8bdd\u5207\u6362\u9762\u677f\u63d2\u4ef6\uff08Ctrl+K / Ctrl+[ ]\uff0cnpm \u53ef\u88c5\uff09+ \u63d2\u4ef6\u5f00\u53d1\u6a21\u677f"
+    },
+    {
+      "name": "tanlee102--erdgo",
+      "source": "./tanlee102--erdgo",
+      "description": "Free local-first SQL-to-ERD converter and database schema visualizer for PostgreSQL, MySQL, SQLite, and SQL Server. No account or backend."
+    },
+    {
+      "name": "opendex-ws--ombra",
+      "source": "./opendex-ws--ombra",
+      "description": "Fully featured trading terminal built on the opendex API"
+    },
+    {
+      "name": "sb1733831438-maker--dsh-closerai",
+      "source": "./sb1733831438-maker--dsh-closerai",
+      "description": "CloserAI - a local-first, model-agnostic, permission-transparent desktop AI workbench built on DeepSeek Harness."
+    },
+    {
+      "name": "xaviermarquis93--dsh-plugin-conversation-outline",
+      "source": "./xaviermarquis93--dsh-plugin-conversation-outline",
+      "description": "DeepSeek Harness conversation outline plugin (\u5bf9\u8bdd\u76ee\u5f55)"
+    },
+    {
+      "name": "siyuvision--sam-workbench-api",
+      "source": "./siyuvision--sam-workbench-api",
+      "description": "Single-user SAM Workbench API for QuPath. Fork of ksugar/samapi. Weights and portable runtimes are not in this repo."
+    },
+    {
+      "name": "zhangzheng25--dsh-timeline",
+      "source": "./zhangzheng25--dsh-timeline",
+      "description": "DSH \u63d2\u4ef6\uff1a\u6781\u7b80\u63d0\u95ee\u65f6\u95f4\u7ebf\u2014\u2014\u6bcf\u6761\u63d0\u95ee\u4e00\u4e2a\u5706\u70b9\uff0c\u70b9\u51fb\u8df3\u8f6c\uff0c\u60ac\u505c\u9884\u89c8\u3002Minimal question timeline for DeepSeek Harness."
     },
     {
       "name": "mkatogui--universal-design-system",
