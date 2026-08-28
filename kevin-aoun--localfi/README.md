@@ -7,13 +7,13 @@ A local-first personal finance app for accounts, liabilities, transactions, budg
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [kevin-aoun/LocalFi](https://github.com/kevin-aoun/LocalFi).
+Original source: `AGENTS.md` in [kevin-aoun/LocalFi](https://github.com/kevin-aoun/LocalFi).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
