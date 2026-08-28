@@ -1,19 +1,19 @@
-# frontend
+# persistence
 
-> Dashboard, component, accessibility, and privacy UI rules
+> Persistence, database safety, and migration rules
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/frontend/SKILL.md
+Read and follow the instructions in .claude/skills/persistence/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-Follow the canonical rule in @.claude/rules/frontend.md.
+Follow the canonical rule in @.claude/rules/persistence.md.
 
 ---
 > Source: [kevin-aoun/LocalFi](https://github.com/kevin-aoun/LocalFi) — distributed by [TomeVault](https://tomevault.io).
