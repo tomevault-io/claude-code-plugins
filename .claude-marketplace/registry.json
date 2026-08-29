@@ -198149,6 +198149,11 @@
       "description": "A market-driven Product Manager copilot (Agent Skills + Claude Code plugin) based on the Pragmatic Framework \u2014 guides PMs from idea to launch and produces a client-ready artifact (Markdown or .docx) a"
     },
     {
+      "name": "jetbrains--compose-swing-ui",
+      "source": "./jetbrains--compose-swing-ui",
+      "description": "A Compose wrapper around Swing components"
+    },
+    {
       "name": "eliornl--applypilot",
       "source": "./eliornl--applypilot",
       "description": "Self-hosted, AI-powered job search companion. Paste a job posting and five AI agents run an orchestrated pipeline \u2014 analyze the role, score your fit, research the company, rewrite your resume, and wri"
@@ -214549,6 +214554,11 @@
       "description": "AI\u52a8\u753b\u5236\u4f5c"
     },
     {
+      "name": "wyre-ai--connectwise-manage-mcp",
+      "source": "./wyre-ai--connectwise-manage-mcp",
+      "description": "MCP server for ConnectWise Manage (PSA) \u2014 tickets, companies, contacts, projects, and time entry tools for AI assistants"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -223442,6 +223452,11 @@
       "name": "natlibfi--bibra",
       "source": "./natlibfi--bibra",
       "description": "Tool for bibliographic metadata extraction"
+    },
+    {
+      "name": "opendatahub-io--odh-cli",
+      "source": "./opendatahub-io--odh-cli",
+      "description": "odh-cli"
     },
     {
       "name": "skenetechnologies--plg-skills",
@@ -247344,6 +247359,11 @@
       "description": "AI-Research-Assistant"
     },
     {
+      "name": "dsx-ai-factory--nv-rms",
+      "source": "./dsx-ai-factory--nv-rms",
+      "description": "NVIDIA Rack Management Service"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -263289,6 +263309,11 @@
       "description": "CX-O"
     },
     {
+      "name": "liuyi0808--android-review",
+      "source": "./liuyi0808--android-review",
+      "description": "Android development review skills for Claude Code \u2014 covering OWASP MASVS security audit, Clean Architecture, performance optimization, Jetpack Compose best practices, and Google Play Store compliance"
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -276892,6 +276917,21 @@
       "name": "falkordb--falkorsemantic",
       "source": "./falkordb--falkorsemantic",
       "description": "FalkorSemantic "
+    },
+    {
+      "name": "pulseengine--meld",
+      "source": "./pulseengine--meld",
+      "description": "Meld \u2014 Static WebAssembly component fusion. Part of the PulseEngine toolchain."
+    },
+    {
+      "name": "cuteyuchen--project-manager",
+      "source": "./cuteyuchen--project-manager",
+      "description": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684\u8de8\u5e73\u53f0\u9879\u76ee\u7ba1\u7406\u5de5\u5177\uff0c\u805a\u5408\u4e86\u9879\u76ee\u8fd0\u884c\u3001Git \u7ba1\u7406\u3001Node \u7248\u672c\u7ba1\u7406\u3001\u9879\u76ee\u6587\u4ef6\u6574\u7406\u4e0e\u7cfb\u7edf\u96c6\u6210\u529f\u80fd\u3002 \u684c\u9762\u7aef\u57fa\u4e8e Tauri v2 + Vue 3 + TypeScript \u6784\u5efa\uff0c\u540c\u65f6\u63d0\u4f9b uTools / ZTools \u63d2\u4ef6\u7248\u672c\u3002"
+    },
+    {
+      "name": "bastidood--skills",
+      "source": "./bastidood--skills",
+      "description": "My compendium of skills and best practices attained over a decade of programming."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -313669,6 +313709,21 @@
       "description": "A file-based ticket management system for software work, optimized for coding agents first and humans second."
     },
     {
+      "name": "xiaopu-ai--to-do-panel",
+      "source": "./xiaopu-ai--to-do-panel",
+      "description": "\u628a Mac \u5218\u6d77\u53d8\u6210\u968f\u624b\u53ef\u7528\u7684\u672c\u5730\u5de5\u4f5c\u53f0\uff1a\u5f85\u529e\u3001\u968f\u7b14\u8bb0\u3001\u94fe\u63a5\u3001\u5f55\u97f3\u4e0e AI \u5b8c\u6210\u63d0\u9192\u3002"
+    },
+    {
+      "name": "bestwishes--sectvoice",
+      "source": "./bestwishes--sectvoice",
+      "description": "Windows-first local voice-cloning text reader with continuous playback and instant seek"
+    },
+    {
+      "name": "m-hoseyny--teek",
+      "source": "./m-hoseyny--teek",
+      "description": "OpenSource Alternative for OpusClips, free, self-hosted. Create your own viral clips with caption"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -335302,6 +335357,11 @@
       "name": "honojs--hono-kun",
       "source": "./honojs--hono-kun",
       "description": "An AI maintainer for Hono"
+    },
+    {
+      "name": "verified-zkevm--riscv-zkvm",
+      "source": "./verified-zkevm--riscv-zkvm",
+      "description": "Lean extraction of the Sail RISC-V specification for verified zkVM projects"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -456672,6 +456732,16 @@
       "name": "divyanshutiwari102--portfolio",
       "source": "./divyanshutiwari102--portfolio",
       "description": "Portfolio"
+    },
+    {
+      "name": "rohitrrnad-maker--enterprise-website-template",
+      "source": "./rohitrrnad-maker--enterprise-website-template",
+      "description": "A modern enterprise website template built with Next.js and Tailwind CSS, supporting static site generation (SSG)."
+    },
+    {
+      "name": "exodus2512--cctvanalysis",
+      "source": "./exodus2512--cctvanalysis",
+      "description": "CCTvAnalysis"
     }
   ]
 }
