@@ -1,18 +1,19 @@
-# opents
+# project
 
-> Follow the repository-wide `AGENTS.md` and any more specific `AGENTS.md` that
+> OpenTS repository instructions
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/opents/SKILL.md
+Read and follow the instructions in .claude/skills/project/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GitHub Copilot instructions
+
+# Project instructions
 
 Follow the repository-wide `AGENTS.md` and any more specific `AGENTS.md` that
 applies to the files being suggested or changed.
