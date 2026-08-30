@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [aurelia/aurelia](https://github.com/aurelia/aur
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [aurelia/aurelia](https://github.com/aurelia/aurelia) — a repo with 1535+ stars on GitHub.
+From [aurelia/aurelia](https://github.com/aurelia/aurelia) — a repo with 1538+ stars on GitHub.
 
 ---
 
