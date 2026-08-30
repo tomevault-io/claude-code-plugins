@@ -314879,6 +314879,61 @@
       "description": "flowpay"
     },
     {
+      "name": "nsctechart--are-you-sure",
+      "source": "./nsctechart--are-you-sure",
+      "description": "are-you-sure"
+    },
+    {
+      "name": "tan-ex--apex-agent-blueprint",
+      "source": "./tan-ex--apex-agent-blueprint",
+      "description": "APEX starter foundation featuring custom Copilot agents, an Azure Pricing MCP server, and an orchestrated multi-step workflow. Automatically synchronized with the main repository."
+    },
+    {
+      "name": "philliphoff--encdotnet-s100",
+      "source": "./philliphoff--encdotnet-s100",
+      "description": "Libraries for manipulating S-100 based nautical charts."
+    },
+    {
+      "name": "tan-ex--apex-agent-blueprint",
+      "source": "./tan-ex--apex-agent-blueprint",
+      "description": "APEX starter foundation featuring custom Copilot agents, an Azure Pricing MCP server, and an orchestrated multi-step workflow. Automatically synchronized with the main repository."
+    },
+    {
+      "name": "tmoonlight--acecode",
+      "source": "./tmoonlight--acecode",
+      "description": "An AI agent for your desktop and terminal."
+    },
+    {
+      "name": "defuj--opencode-agent-kit",
+      "source": "./defuj--opencode-agent-kit",
+      "description": "Agent for Software Developer Team (opencode)"
+    },
+    {
+      "name": "sjarmak--codeprobe",
+      "source": "./sjarmak--codeprobe",
+      "description": "Turn a repository's merged pull requests into coding-agent evaluations, then measure the whole agent setup (model, tools, retrieval, cost, harness) against them. Python CLI, on PyPI."
+    },
+    {
+      "name": "edison1105--vite-plugin-vue-type-resolver",
+      "source": "./edison1105--vite-plugin-vue-type-resolver",
+      "description": "Resolve complex Vue defineProps<T>() and defineEmits<T>() types with tsgo."
+    },
+    {
+      "name": "thegauravmahto--recast",
+      "source": "./thegauravmahto--recast",
+      "description": "AI-powered video-to-ad content generator. Paste any Instagram Reel, YouTube Short, or Facebook Ad \u2014 get adapted scripts, hooks, and captions for your brand. Built with Next.js, Gemini AI, and shadcn/u"
+    },
+    {
+      "name": "svgop--ix-rust",
+      "source": "./svgop--ix-rust",
+      "description": "iEx (`intelligent expressions`) is a Rust-first search framework designed to evolve beyond linear regex workflows."
+    },
+    {
+      "name": "wiebekaai--browser-annotations",
+      "source": "./wiebekaai--browser-annotations",
+      "description": "A Chrome DevTools extension to send feedback to your coding agent"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -336557,6 +336612,16 @@
       "name": "atgreen--takesy",
       "source": "./atgreen--takesy",
       "description": "A screen recorder for modern Linux desktops (Wayland & X11), via xdg-desktop-portal + PipeWire."
+    },
+    {
+      "name": "vritser--dsh-emacs",
+      "source": "./vritser--dsh-emacs",
+      "description": "An Emacs client for DeepSeek Harness"
+    },
+    {
+      "name": "theolundqvist--pr-cockpit",
+      "source": "./theolundqvist--pr-cockpit",
+      "description": "GitHub pull request review at local speed \u2014 a keyboard-first macOS cockpit that keeps PRs, diffs, threads, and checks in a local webhook-refreshed cache for humans and coding agents"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -458112,6 +458177,11 @@
       "name": "jsguzmanb--tareas-guzman",
       "source": "./jsguzmanb--tareas-guzman",
       "description": "tareas-guzman"
+    },
+    {
+      "name": "robertbirek--describo",
+      "source": "./robertbirek--describo",
+      "description": "describo"
     }
   ]
 }
