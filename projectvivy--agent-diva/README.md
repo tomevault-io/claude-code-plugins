@@ -1,8 +1,6 @@
 # AI instruction files for agent-diva
 
-> Sourced from [ProjectViVy/agent-diva](https://github.com/ProjectViVy/agent-diva) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Next Generation AI Agent(AKA:nanobot-rs-pro)
+> Sourced from [ProjectViVy/agent-diva](https://github.com/ProjectViVy/agent-diva), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [ProjectViVy/agent-diva](https://github.com/Proj
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/ProjectViVy/agent-diva](https://github.com/ProjectViVy/agent-diva)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/ProjectViVy/agent-diva](https://github.com/ProjectViVy/agent-diva)
 
 ---
 
