@@ -1,8 +1,6 @@
 # AI instruction files for aio-hub
 
-> Sourced from [miaotouy/aio-hub](https://github.com/miaotouy/aio-hub) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-终极个人AI平台应用，提供超强高可控性的LLM交互，和多种实用的开发和日常工具，VCP分布式联动。
+> Sourced from [miaotouy/aio-hub](https://github.com/miaotouy/aio-hub), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [miaotouy/aio-hub](https://github.com/miaotouy/a
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [miaotouy/aio-hub](https://github.com/miaotouy/aio-hub) — a repo with 118+ stars on GitHub.
+From [miaotouy/aio-hub](https://github.com/miaotouy/aio-hub) — a repo with 143+ stars on GitHub.
 
 ---
 
