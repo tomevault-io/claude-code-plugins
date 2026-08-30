@@ -1,6 +1,6 @@
 # keppel
 
-> Quick reference guide for AI coding agents working in the Gophercloud repository.
+> Guidance for AI coding agents (and humans) working in this repository. This is
 
 ## Usage
 
@@ -14,220 +14,233 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 # AGENTS.md
 
-Quick reference guide for AI coding agents working in the Gophercloud repository.
+Guidance for AI coding agents (and humans) working in this repository. This is
+the shared, tool-agnostic source of truth: Claude Code loads it through
+`CLAUDE.md` (which imports this file), and other agents (Codex, Cursor, Aider,
+Zed, …) read `AGENTS.md` directly. Edit repository guidance here, not in
+`CLAUDE.md`.
 
-**Project:** Gophercloud - Go SDK for OpenStack services
-**Module:** `github.com/gophercloud/gophercloud/v2`
-**Language:** Go (see version in [go.mod](go.mod))
-**Stable Branch:** v2 (main development on `main`)
+## Repository
 
-## Build, Test & Lint Commands
+go-redis is the official Redis client for Go. Module path:
+`github.com/redis/go-redis/v9` (Go 1.24+). The repo is a multi-module workspace
+— every directory containing a `go.mod` is built and tested independently:
 
-### Running Tests
+- root (`github.com/redis/go-redis/v9`) — the client library.
+- `extra/redisotel`, `extra/redisotel-native`, `extra/redisprometheus`,
+  `extra/rediscensus`, `extra/rediscmd` — instrumentation adapters with their
+  own module paths (so they can pin large telemetry deps without forcing them on
+  root consumers).
+- `internal/customvet` — custom `go vet` analyzers (also its own module).
+- `maintnotifications/e2e`, `doctests`, `fuzz`, examples under `example/` —
+  separate modules.
 
-**Unit tests (default):**
-```bash
-make unit
+The Makefile iterates over every `go.mod` (`GO_MOD_DIRS`) when running
+`test.ci`, `go_mod_tidy`, etc. When you add a dependency in one module, you
+almost never need to update the others.
+
+## Common commands
+
+Tests run against a Redis stack started via Docker Compose. Profiles in
+`docker-compose.yml` control which services come up (`standalone`, `cluster`,
+`sentinel`, `all`, `e2e`).
+
+```sh
+make docker.start                # bring up the full test stack (profile: all)
+make docker.stop
+make test                        # docker.start -> test.ci -> docker.stop
+make test.ci                     # run tests assuming containers are already up
+make test.ci.skip-vectorsets     # when REDIS_VERSION < 8
+make bench                       # go test -bench=. (root module only)
+make fmt                         # gofumpt + goimports -local github.com/redis/go-redis
+make build
+make go_mod_tidy                 # go mod tidy across every module
 ```
 
-**Unit tests with verbose output:**
-```bash
-go test -v ./...
+E2E (maintenance notifications) needs the extra `cae-resp-proxy` service:
+
+```sh
+make test.e2e                    # starts e2e profile, runs ./maintnotifications/e2e/, tears down
+make test.e2e.docker             # subset that runs inside docker
+make test.e2e.logic              # logic-only tests, no proxy required
 ```
 
-**Run single test by name:**
-```bash
-cd openstack/compute/v2/servers
-go test -run TestCreateServer ./...
+Run a single test. The root suite is Ginkgo-based (`bsm/ginkgo` + `bsm/gomega`
+forks), so `go test -run` matches the Go-level wrapper and you focus a spec with
+the Ginkgo flag:
+
+```sh
+go test -run TestGinkgoSuite . -ginkgo.focus="ZAdd"
+go test -run TestGinkgoSuite . -ginkgo.focus="cluster"
 ```
 
-**Coverage:**
-```bash
-make coverage
+Plain `go test` tests (most files outside the Ginkgo suite, e.g. `internal/...`,
+`maintnotifications/...`) work the usual way:
+
+```sh
+go test -run TestConnStateMachine ./internal/pool/...
+go test -race -run TestCircuitBreaker ./maintnotifications/...
 ```
 
-**Acceptance tests (requires live OpenStack - may incur charges):**
-```bash
-make acceptance              # All services
-make acceptance-compute      # Specific service
-```
+Env knobs (passed through the Makefile):
 
-**Run single acceptance test:**
-```bash
-cd internal/acceptance/openstack/compute/v2
-go test -timeout 60m -tags "acceptance" -run TestServersList
-```
+- `REDIS_VERSION` — e.g. `8.8`. Drives both the test image tag and
+  `main_test.go` version-gating (`SkipBeforeRedisVersion` /
+  `SkipAfterRedisVersion`).
+- `CLIENT_LIBS_TEST_IMAGE` — full image ref, e.g.
+  `redislabs/client-libs-test:8.8-m03`.
+- `RE_CLUSTER=true` — run against a Redis Enterprise cluster instead of the
+  docker-compose stack (the suite then skips ring/sentinel/TLS-cluster setup).
+- `RCE_DOCKER=true` — Redis CE in docker (default for `make test`).
+- `REDIS_PORT` — override the default standalone port (`6380`).
 
-### Linting & Formatting
+CI also runs the custom vet tool:
+`go vet -vettool ./internal/customvet/customvet ./...`. The `setval` analyzer
+requires every `Cmder` with a `Result()` to also have a `SetVal()`.
 
-```bash
-make lint     # Run golangci-lint in container (Docker/Podman)
-make format   # Run gofmt with simplify flag
-```
+## Architecture
 
-**Note:** If lint fails with SELinux errors, run:
-```bash
-chcon -Rt svirt_sandbox_file_t .
-chcon -Rt svirt_sandbox_file_t ~/.cache/golangci-lint
-```
+### Client types (root package)
 
-## Code Style Guidelines
+All clients are in the root package and share most plumbing:
 
-### Import Organization
+- `Client` (`redis.go`) — single-node client.
+- `ClusterClient` (`osscluster.go`) — Redis Cluster aware. `osscluster_router.go`
+  routes commands to the right shard; `internal/routing/` handles cluster-wide
+  aggregation policies (e.g. fan-out for `KEYS`, `DBSIZE`).
+- `Ring` (`ring.go`) — client-side sharding across independent Redis nodes
+  (consistent hashing, no cluster protocol).
+- Failover client (`sentinel.go`) — Sentinel-managed failover.
+- `UniversalClient` (`universal.go`) — wrapper that picks one of the above based
+  on options.
 
-Group imports in this order (separated by blank lines):
-1. Standard library (alphabetically)
-2. External dependencies (alphabetically)
-3. Gophercloud internal packages (alphabetically)
+Command surface lives in topical files: `string_commands.go`, `hash_commands.go`,
+`stream_commands.go`, `search_commands.go`, `vectorset_commands.go`, etc. Each
+file defines methods on the shared `Cmdable` interface so every client type gets
+the same API.
 
-Example:
-```go
-import (
-    "context"
-    "encoding/json"
-    "fmt"
+### Hooks (`redis.go` `hooksMixin`)
 
-    "github.com/gophercloud/gophercloud/v2"
-    "github.com/gophercloud/gophercloud/v2/pagination"
-)
-```
+Three hook chains run around every operation: `DialHook`, `ProcessHook`,
+`ProcessPipelineHook`. Hooks are registered via `client.AddHook(...)` and chain
+in FIFO order; each hook must call `next` to continue. When a hook wraps an
+error, it must call `cmd.SetErr(wrappedErr)` so the typed-error helpers
+(`redis.IsLoadingError`, `IsMovedError`, etc. in `error.go`) keep working through
+`errors.As`. The README has a longer pipeline-hook example.
 
-### File Structure
+### Connection pool (`internal/pool`)
 
-Standard package structure under `openstack/<service>/<service_version>/<resource>/`:
-- **`requests.go`** - HTTP request functions and OptsBuilder types
-- **`results.go`** - Response structs and extraction methods
-- **`urls.go`** - Endpoint URL construction helpers
-- **`microversions.go`** - Microversion-specific types (when needed)
-- **`testing/`** - Unit tests with HTTP mocking
+Owns dialing, idle/active connection bookkeeping, conn state (`conn_state.go`),
+pubsub-conn lifecycle (`pubsub.go`), and the dial-retry/backoff logic that powers
+`DialerRetries` / `DialerRetryBackoff` (also exposed at `dial_retry_backoff.go`
+in the root). `OnConnect`, `MinIdleConns`, and the buffer-size options
+(`ReadBufferSize`/`WriteBufferSize`, default 32 KiB since v9.12) flow through
+here.
 
-### Naming Conventions
+### Protocol (`internal/proto`)
 
-**Result receivers and variables:**
-- Result method receiver: `r`
-- Unmarshalled variable: `s`
-- Request function return value: `r`
+RESP2/RESP3 reader and writer. Push notifications (RESP3 `>`-prefixed frames) are
+peeked here and dispatched via the `push/` package. The `push.Registry` lets
+callers register handlers for specific notification names;
+`maintnotifications/push_notification_handler.go` is how `maintnotifications`
+plugs in.
 
-**OptsBuilder pattern:**
-- Interface name: `<Action>OptsBuilder` (e.g., `CreateOptsBuilder`, `ListOptsBuilder`)
-- Method for request body: `To<Resource><Action>Map` (e.g., `ToServerCreateMap`)
-- Method for query string: `To<Resource><Action>Query` (e.g., `ToServerListQuery`)
+### Maintenance notifications (`maintnotifications/`)
 
-Example:
-```go
-type CreateOptsBuilder interface {
-    ToServerCreateMap() (map[string]interface{}, error)
-}
+This is a non-trivial subsystem worth understanding before touching
+cluster/handoff code. It listens for RESP3 push notifications about cluster
+maintenance (`MOVING`, `MIGRATING`, `MIGRATED`, `FAILING_OVER`, `FAILED_OVER`
+for standalone; `SMIGRATING`, `SMIGRATED` for cluster) and performs seamless
+connection handoff to new endpoints. Key pieces:
 
-type CreateOpts struct {
-    Name string `json:"name"`
-}
+- `manager.go` — coordinates state transitions.
+- `handoff_worker.go` — moves in-flight ops to new connections.
+- `pool_hook.go` — integrates with `internal/pool` to mark/replace connections.
+- `circuit_breaker.go` — backs off when the upstream is unhealthy.
+- `state.go` — per-connection state machine.
+- E2E coverage lives in `maintnotifications/e2e/` and drives a fault-injector /
+  RESP proxy (`cae-resp-proxy`).
 
-func (opts CreateOpts) ToServerCreateMap() (map[string]interface{}, error) {
-    return gophercloud.BuildRequestBody(opts, "server")
-}
-```
+Configuration is via `redis.Options.MaintNotificationsConfig`; modes are
+`ModeAuto` (default), `ModeEnabled` (require server support), `ModeDisabled`.
+RESP3 (`Protocol: 3`) is required.
 
-### Types & Pointers
+### Authentication (`auth/`, `internal/auth/streaming`)
 
-- **New response fields (microversions):** Use pointer types to allow nil-checking
-- **Optional request fields:** Always use `omitempty` JSON tag
-- **Required fields:** No `omitempty` tag
+Four credential sources, in priority order: streaming provider (e.g. Entra ID
+via `go-redis-entraid`), context-based provider, function provider, static
+`Username`/`Password`. The streaming provider is what enables token rotation
+without reconnecting — the listener in `auth/reauth_credentials_listener.go`
+issues `AUTH` on each refresh.
 
-### Error Handling
+### Internal helpers
 
-- Use `gophercloud.Result` and `gophercloud.ErrResult` types
-- Extract errors with `.ExtractErr()` method
-- Return errors directly, don't wrap unless adding context
+- `internal/hscan` — struct scanning for `HGETALL` results (`Scan` interface
+  re-exported as `redis.Scanner`).
+- `internal/hashtag` — extracts `{tag}` segments for cluster slot routing.
+- `internal/routing` — aggregator policies and shard pickers used by
+  `ClusterClient` for multi-shard commands.
+- `internal/otel` — small OpenTelemetry shim used to keep root free of telemetry
+  deps; full instrumentation lives in `extra/redisotel-native`.
 
-### Documentation
+## Architectural specs
 
-- **All struct fields** must have GoDoc comments
-- **Microversion-dependent fields** must document required version in GoDoc
-- **Package documentation** goes in `doc.go`
-- Follow existing comment style in similar packages
+Read the relevant design doc **before** changing code in that subsystem. They
+cover invariants and decisions that aren't obvious from the code, and are plain
+markdown any tool or editor can open:
 
-Example:
-```go
-// This requires the client to be set to microversion 2.52 or later.
-// Tags is the list of server tags.
-Tags []string `json:"tags,omitempty"`
-```
+- `.claude/specs/pool.md` — connection pool: `wantConn` queue and FIFO
+  discipline, `ConnState` machine, dial retry/backoff, hook integration, the
+  re-auth/handoff coexistence contract.
+- `.claude/specs/cluster-routing.md` — slot computation, MOVED/ASK redirection,
+  request/response policies, aggregators, replica routing, topology reload,
+  cross-slot rules.
+- `.claude/specs/maintnotifications.md` — RESP3 push notification protocol, mode
+  handshake, per-conn state, handoff worker pool, circuit breaker, endpoint-type
+  resolution, cluster vs. standalone differences.
 
-### Testing Requirements
+## Conventions
 
-**Unit tests (in `testing/` subdirectory):**
-- Use `testhelper` package to mock HTTP
-- `fakeServer := th.SetupHTTP()` / `defer fakeServer.Teardown()` for setup/teardown
-- `fakeServer.Mux.HandleFunc()` to register mock endpoints
-- Test ALL options (every field in request/response structs)
-- Use assertion helpers from `testhelper/convenience.go` (value assertions) and `testhelper/http_responses.go` (HTTP request assertions)
-- `Assert*` variants are fatal (`t.Fatalf`), `Check*` variants are non-fatal (`t.Errorf`)
-- Assertion argument order is **expected first, actual second**: `th.AssertEquals(t, "expected_value", actual.Field)`
+- New `Cmder` type → also implement `SetVal` (the custom vet `setval` check
+  enforces this; `SetErr` is on the embedded `baseCmd`).
+- Wrap errors with custom error types that implement `Unwrap`, or use
+  `fmt.Errorf("...: %w", err)`. Always call `cmd.SetErr(...)` after wrapping so
+  typed-error checks still pass.
+- `gofumpt` + `goimports -local github.com/redis/go-redis` is the formatter
+  (`make fmt`); CI runs both.
+- Don't log directly — use `internal.Logger` (set via `redis.SetLogger`);
+  `logging.Disable()` is called in tests.
+- Version-gate Redis-version-specific tests with `SkipBeforeRedisVersion` /
+  `SkipAfterRedisVersion` rather than skipping at the suite level.
 
-**Acceptance tests:**
-- Located in `internal/acceptance/openstack/<service>/`
-- Test against real OpenStack APIs
-- Cover all operation variants
+### Commits and PRs
 
-## Microversions
+Conventional Commits, short and exact — `<type>(<scope>): <imperative summary>`.
+Subject ≤50 chars (hard cap 72), imperative ("add", not "added"), no trailing
+period. Body only when the *why* isn't obvious from the diff; wrap at 72.
 
-Set microversion on ServiceClient:
-```go
-client.Microversion = "2.52"
-```
+- Types: `feat`, `fix`, `refactor`, `perf`, `docs`, `test`, `chore` (also
+  `build`, `ci`, `style`, `revert`).
+- Scope = the subsystem touched, lowercase: `pool`, `conn`, `pubsub`,
+  `sentinel`, `retry`, `command`/`cmd`, `vectorset`, `otel`, `streams`, `push`,
+  `deps`, `ci`, `tests`, `docs`. Omit only for genuinely cross-cutting changes.
+- Breaking change: `feat(scope)!: ...` plus a `BREAKING CHANGE:` body line.
+  Reference issues/PRs at the end — `Closes #42`, `Refs #17`.
+- **No AI-attribution trailer.** Do not add `Co-Authored-By: …`, "Generated with
+  …", or any AI-attribution line to commits or PR bodies in this repo.
 
-**Implementation rules:**
-- **New request fields:** Must use `omitempty` + document microversion
-- **New response fields:** Add as pointer types
-- **Changed response types:** Create new structs in `microversions.go`
+## Repo-specific tooling
 
-See `docs/MICROVERSIONS.md` for details.
+`.claude/` holds shared AI config:
 
-## Pull Request Requirements
+- `commands/` — slash commands (e.g. `check-ci`, which summarizes a PR's CI).
+- `skills/` — task playbooks: `testing`, `add-command`, `commit-style`,
+  `update-ci-image`, `prepare-release`.
+- `specs/` — the architecture docs listed above.
 
-**Before opening PR:**
-1. **GitHub issue must exist** with core contributor approval
-2. **PR description must include:**
-   - `For #<ISSUE_NUMBER>` reference
-   - Link(s) to OpenStack source code (non-master branch) proving validity
-3. **Keep PRs focused:** Group related operations together; avoid mixing unrelated changes
-4. **Tests required:** Unit tests AND acceptance tests covering all options
-5. **Work-in-progress:** Prefix title with `[wip]` until ready
-6. **Dependencies:** Prefix with `[Pending #PRNUM]` if depends on another PR
-
-**During review:**
-- Do NOT squash commits (only append)
-- Follow existing patterns in codebase
-- Address all reviewer feedback
-
-## Common Patterns
-
-**Context usage:**
-Always pass `context.Context` to API operations:
-```go
-servers.List(client, opts).EachPage(ctx, func(ctx context.Context, page pagination.Page) (bool, error) {
-    // ...
-})
-```
-
-**Pagination:**
-```go
-pager := servers.List(client, servers.ListOpts{})
-err := pager.EachPage(ctx, func(ctx context.Context, page pagination.Page) (bool, error) {
-    servers, err := servers.ExtractServers(page)
-    // process...
-    return true, nil
-})
-```
-
-## Key Reminders
-
-- Module path: `github.com/gophercloud/gophercloud/v2` (note the `/v2`)
-- Gophercloud does NOT validate microversion compatibility
-- PRs target `main` branch, not `v2`
-- Documentation auto-generated from GoDoc comments
+For Claude Code, the skills auto-trigger from their descriptions. For other
+tools, each `SKILL.md` is plain markdown you can open and follow directly.
 
 ---
 > Source: [sapcc/keppel](https://github.com/sapcc/keppel) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-25 -->
+<!-- tomevault:4.0:claude_md:2026-08-30 -->
