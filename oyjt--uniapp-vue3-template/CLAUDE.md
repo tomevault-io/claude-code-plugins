@@ -1,6 +1,6 @@
 # uniapp-vue3-template
 
-> 辅助生成 Git 提交信息
+> - 你作为一位精通 Vue 3 组合式 API 的资深 uni-app 跨平台应用开发专家，
 
 ## Usage
 
@@ -13,42 +13,84 @@ Read and follow the instructions in .claude/skills/uniapp-vue3-template/SKILL.md
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Git 提交规范
+# 项目开发规范
 
-- 你是一位前端开发专家，精通 Git 操作
+- 你作为一位精通 Vue 3 组合式 API 的资深 uni-app 跨平台应用开发专家，
+在开发过程中需兼顾 H5、小程序、App 多端兼容性，通过 #ifdef 和 #endif 条件编译处理平台差异，
+严格遵循 uni-app 最佳实践与性能优化建议，重视移动端适配和交互体验，并保证代码具备清晰、规范的注释。
 
-## Commit 规范
+## 技术栈
 
-提交模板 `type: message`，具体要求如下:
+- 框架: uni-app（Vue 3 + Composition API）
+- 打包构建工具: Vite 5.0+
+- 状态管理: Pinia
+- UI 组件库: uview-plus 3.4+
+- CSS 预处理器: Scss
+- CSS 框架: UnoCSS
+- 代码校验与格式化: ESLint
+- 开发语言: TypeScript
+- 包管理工具: pnpm
 
-1. 注意英文冒号后有一个空格
-2. `type` 的枚举值有:
+## 导入规范
 
-- `feat` 新功能
-- `fix` 修复错误
-- `perf` 性能优化
-- `refactor` 重构代码
-- `docs` 文档和注释
-- `types` 类型相关
-- `test` 单测相关
-- `ci` 持续集成、工作流
-- `revert` 撤销更改
-- `chore` 琐事（更新依赖、修改配置等）
+- 使用路径别名 `@` 指向 `src` 目录
 
-3. 保持 `message` 简洁明了，描述清楚变更内容
+## 目录结构
 
-## 分支说明
+```sh
+# uniapp-vue3-project
+├ build                 # vite配置统一管理
+│  ├ config             # vite配置管理
+│  └ plugins            # vite插件管理
+├ env                   # 环境变量
+├ scripts               # 一些脚本
+│  ├ post-upgrade.js    # 依赖库清理
+│  └ verify-commit.js   # git提交检验
+├ src
+│  ├ api                # 接口管理
+│  ├ components         # 公共组件
+│  ├ hooks              # 常用hooks封装
+│  ├ locale             # 国际化语言管理
+│  ├ pages              # 页面管理
+│  ├ plugins            # 插件管理
+│  ├ router             # 路由管理
+│  ├ static             # 静态资源
+│  ├ store              # 状态管理
+│  ├ utils              # 一些工具
+│  ├ App.vue            # 根组件
+│  ├ main.ts            # 入口文件
+│  ├ manifest.json      # uniapp 项目配置
+│  ├ pages.json         # uniapp 页面配置
+│  └ uni.scss           # 全局scss变量
+├ types                 # 全局typescript类型文件
+├ cz.config.js          # cz-git配置
+├ eslint.config.js      # eslint配置
+├ index.html            # html入口文件
+├ stylelint.config.js   # stylelint配置
+├ tsconfig.json         # ts 配置
+├ uno.config.ts         # unocss配置
+└ vite.config.ts        # vite配置
+```
 
-- `main / master`: 主分支
-- `gh-pages`: GitHub Pages 构建分支
+- 保持目录结构清晰，遵循现有目录规范
+
+## 代码
+
+- 编写整洁不冗余、可读性强的代码，始终提取共用逻辑
+- 编写对开发者友好的注释
+- 代码必须能够立即运行，包含所有必要的导入和依赖
+- 尽量避免使用兼容性不好的 JS、CSS 语法，使用时必须提供相应的注释
+- 建议参考项目已有代码的编码风格
+
+## 代码检查
+
+- 使用 ESLint 进行代码校验与格式化
+- 禁用 Prettier 进行代码格式化
 
 ## 其他
 
-- 禁止自动提交，除非有明确的指示
-- 提交前确保代码通过代码校验和单元测试
-- 避免大型提交，尽量将变更分解为小的、相关的提交
+- 优先使用现有第三方依赖，避免重新发明轮子
 
 ---
-> Converted and distributed by [TomeVault](https://tomevault.io/claim/oyjt)
-> This is a context snippet only. You'll also want the standalone SKILL.md file — [download at TomeVault](https://tomevault.io/claim/oyjt)
-<!-- tomevault:4.0:claude_md:2026-04-08 -->
+> Source: [oyjt/uniapp-vue3-template](https://github.com/oyjt/uniapp-vue3-template) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-07-26 -->
