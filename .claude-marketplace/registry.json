@@ -207429,6 +207429,11 @@
       "description": "Waybeam \u2014 standalone H.265 encoder, RTP streamer and camera-side daemon for FPV camera SoCs"
     },
     {
+      "name": "orbi-build--orbi",
+      "source": "./orbi-build--orbi",
+      "description": "Orbi \u2014 the factory that builds and operates AI software factories. GitHub Issues in, reviewed PRs out."
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -255649,6 +255654,11 @@
       "description": "video"
     },
     {
+      "name": "jal-co--stampstudio",
+      "source": "./jal-co--stampstudio",
+      "description": "An online, open source stamp creator."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -278122,6 +278132,11 @@
       "name": "vcruz305--glm-5-3-flash-exl3-k2-dgx-spark-recipe",
       "source": "./vcruz305--glm-5-3-flash-exl3-k2-dgx-spark-recipe",
       "description": "vLLM recipe: GLM-5.3-Flash EXL3 K2 on one DGX Spark GB10. Native MTP k=2. Measured tok/s."
+    },
+    {
+      "name": "big0lives--codex-task-pointer",
+      "source": "./big0lives--codex-task-pointer",
+      "description": "Pre-compaction hooks + a CAS-guarded task pointer that keep Codex agents on-goal across context auto-compaction \u2014 no mainline drift, no duplicate work, no conflicting progress in long runs."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
