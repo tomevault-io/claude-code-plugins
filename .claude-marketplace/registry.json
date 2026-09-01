@@ -316909,6 +316909,26 @@
       "description": "Self-hosted Zulip plugin that makes an AI agent a full teammate in threaded team chat (streams + DMs) - the Hermes (Nous Research) adapter. Sovereign and self-hosted, no chat-vendor lock-in. Sibling o"
     },
     {
+      "name": "ugbot--ai-grind",
+      "source": "./ugbot--ai-grind",
+      "description": "An AI toolkit for developers building high-performance code with an LLM in the loop."
+    },
+    {
+      "name": "raccoon-office--box-agent",
+      "source": "./raccoon-office--box-agent",
+      "description": "AI agent framework with Jupyter sandbox, data analysis, MCP tools, ACP protocol, multi-provider LLM, and standalone runtime packaging"
+    },
+    {
+      "name": "rocm--hipobject",
+      "source": "./rocm--hipobject",
+      "description": "A ROCm library for rdma-based object storage with direct-to-vram DMA support"
+    },
+    {
+      "name": "oceanbase--oceanbase-skills",
+      "source": "./oceanbase--oceanbase-skills",
+      "description": "oceanbase-skills \u662f\u4e00\u4e2a\u9762\u5411 AI \u7f16\u7a0b\u52a9\u624b\uff08\u5982 Cursor\u3001Claude Code \u7b49\uff09\u7684 Agent Skills \u96c6\u5408\u4ed3\u5e93\uff0c\u4e13\u4e3a OceanBase \u5f00\u53d1\u8005\u548c\u7528\u6237\u8bbe\u8ba1\u3002\u4ed3\u5e93\u4ee5\u5b50\u76ee\u5f55\u5f62\u5f0f\u7ec4\u7ec7\u591a\u4e2a\u72ec\u7acb\u7684 Skill\uff0c\u6bcf\u4e2a Skill \u63d0\u4f9b\u5f00\u7bb1\u5373\u7528\u7684 SKILL.md \u6587\u4ef6\uff0c\u53ef\u76f4\u63a5\u96c6\u6210\u81f3 AI \u7f16\u7a0b\u5de5\u5177\u4e2d\u4f7f\u7528\u3002"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -457574,11 +457594,6 @@
       "description": "Cerebro \u2014 AI-powered automated trading system"
     },
     {
-      "name": "rhinos0608--pi-workspace-protocol",
-      "source": "./rhinos0608--pi-workspace-protocol",
-      "description": "Pi-Workspace-Protocol"
-    },
-    {
       "name": "ameduza--playwright-ts",
       "source": "./ameduza--playwright-ts",
       "description": "playwright-ts"
@@ -460782,6 +460797,11 @@
       "name": "ibay46---erasmus-plus-portal",
       "source": "./ibay46---erasmus-plus-portal",
       "description": "-erasmus-plus-portal"
+    },
+    {
+      "name": "rhinos0608--pi-workspace-protocol",
+      "source": "./rhinos0608--pi-workspace-protocol",
+      "description": "Pi-Workspace-Protocol"
     }
   ]
 }
