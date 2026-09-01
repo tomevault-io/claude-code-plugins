@@ -156509,6 +156509,11 @@
       "description": "factory-factory"
     },
     {
+      "name": "carloslfu--slotstream",
+      "source": "./carloslfu--slotstream",
+      "description": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API."
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -221827,6 +221832,11 @@
       "name": "buildinternet--uploads",
       "source": "./buildinternet--uploads",
       "description": "Lightweight upload tool for coding agents to add screenshots to pull requests. Cloud and self-host options."
+    },
+    {
+      "name": "mrzoic--ai-ux-upsilon",
+      "source": "./mrzoic--ai-ux-upsilon",
+      "description": "Open-source, full-stack AI chatbot with streaming chat, long-term memory, authentication, persistent history, attachments, and configurable AI backends."
     },
     {
       "name": "nirholas--auto-kill-terminal",
