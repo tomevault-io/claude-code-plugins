@@ -1,6 +1,6 @@
 # everything-claude-code-mobile
 
-> Use `/feature-build` to orchestrate all agents through a 7-phase pipeline:
+> Use this repository's mobile guidance for Android, iOS, and Kotlin Multiplatform work.
 
 ## Usage
 
@@ -12,82 +12,36 @@ Read and follow the instructions in .claude/skills/everything-claude-code-mobile
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Agent Delegation
+# Everything Claude Code Mobile
 
-## Build a Complete Feature
+Use this repository's mobile guidance for Android, iOS, and Kotlin Multiplatform work.
 
-Use `/feature-build` to orchestrate all agents through a 7-phase pipeline:
+Before implementation:
 
-```
-/feature-build Add user authentication with biometrics
-```
+1. Detect the project type from Gradle, Xcode, Swift Package, and KMP files.
+2. Prefer native platform APIs and already-installed dependencies.
+3. Load the relevant skill when the host supports Agent Skills.
+4. State architecture assumptions before making broad changes.
 
-**Phases**: Plan → Implement → Test → Build Fix → Quality Gate → Verify → Learn
+Implementation rules:
 
-## When to Delegate
+- Keep changes scoped to the requested feature.
+- Follow TDD for non-trivial behavior and run the platform's real build or test command.
+- Use structured concurrency: Kotlin coroutines and Swift async/await.
+- Preserve null safety and avoid force unwraps unless an invariant is explicit.
+- Keep secrets out of source control and logs.
+- Respect accessibility, lifecycle, and offline behavior where applicable.
 
-### Code Review
-| Situation | Agent |
-|-----------|-------|
-| Android/Kotlin review | `android-reviewer` |
-| iOS/Swift review | `ios-reviewer` |
-| Security audit | `mobile-security-reviewer` |
-| Performance review | `mobile-performance-reviewer` |
+Useful workflows:
 
-### Build & Fix
-| Situation | Agent |
-|-----------|-------|
-| Gradle/AGP/R8 errors | `android-build-resolver` |
-| Xcode/SPM/CocoaPods errors | `xcode-build-resolver` |
-| Gradle optimization | `gradle-expert` |
+- Feature delivery: `feature-builder` skill or `/feature-build` in Claude Code.
+- Android review: `android-patterns`, `jetpack-compose`, and `mobile-testing`.
+- iOS review: `swift-patterns`, `swiftui-patterns`, and `ios-testing`.
+- KMP review: `expect-actual`, `shared-coroutines`, and `kmp-repositories`.
+- Persistent context: use the `mobile-memory`, `ios-memory`, and `kmp-context` MCP tools when available.
 
-### Architecture & Planning
-| Situation | Agent |
-|-----------|-------|
-| Architecture decisions | `mobile-architect` |
-| KMP shared module design | `kmp-architect` |
-| Feature planning | `feature-planner` |
-| Cross-platform models | `shared-model-designer` |
-
-### UI & Design
-| Situation | Agent |
-|-----------|-------|
-| Compose patterns | `compose-guide` |
-| SwiftUI patterns | `swiftui-guide` |
-| Material 3 Expressive | `m3-expressive-guide` |
-| Apple Liquid Glass (iOS 26+) | `liquid-glass-guide` |
-
-### Implementation (Layer Agents)
-| Situation | Agent |
-|-----------|-------|
-| Domain models, use cases, DI | `architecture-impl` |
-| API clients, DTOs, mappers | `network-impl` |
-| Repositories, local DB, caching | `data-impl` |
-| Screens, ViewModels, components | `ui-impl` |
-| Navigation, DI wiring, integration | `wiring-impl` |
-
-### Testing
-| Situation | Agent |
-|-----------|-------|
-| TDD workflow (mandatory) | `mobile-tdd-guide` |
-| E2E / instrumentation tests | `mobile-e2e-runner` |
-| Unit tests (ViewModel, UseCase) | `unit-test-writer` |
-| UI tests (Compose, SwiftUI) | `ui-test-writer` |
-| Verification with pass@k | `mobile-verifier` |
-
-### Learning & Quality
-| Situation | Agent |
-|-----------|-------|
-| Extract codebase patterns | `mobile-pattern-extractor` |
-| Context compaction | `mobile-compactor` |
-
-## Guidelines
-- Delegate complex, specialized tasks
-- Provide context and constraints
-- Review agent output
-- Use `/feature-build` for end-to-end feature construction
-- Layer agents run in dependency order: architecture → network + UI → data → wiring
+Hosts without skills or subagents should treat this file as the compact fallback and read the relevant file under `skills/` for detailed guidance.
 
 ---
 > Source: [ahmed3elshaer/everything-claude-code-mobile](https://github.com/ahmed3elshaer/everything-claude-code-mobile) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-22 -->
+<!-- tomevault:4.0:claude_md:2026-07-27 -->
