@@ -7,14 +7,14 @@ CAPI E2E testing framework — currently transitioning from CAPZ E2E to multi-pr
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [stolostron/capi-tests](https://github.com/stolostron/capi-tests).
+Original source: `AGENTS.md` in [stolostron/capi-tests](https://github.com/stolostron/capi-tests).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/stolostron/capi-tests](https://github.com/stolostron/capi-tests)
