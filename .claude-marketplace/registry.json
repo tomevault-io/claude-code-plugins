@@ -242759,6 +242759,11 @@
       "description": "Train RL policies for the Pollen Microduck \ud83e\udd86 on an ordinary Mac, no CUDA GPU,  and watch them learn live in the browser."
     },
     {
+      "name": "oplisty--roboprep",
+      "source": "./oplisty--roboprep",
+      "description": "Embodied AI interview preparation platform: interviews, knowledge, ML coding judge, company intelligence"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -265579,6 +265584,11 @@
       "description": "A World of Warcraft raid frame addon."
     },
     {
+      "name": "zordhalo--runs-on-dev",
+      "source": "./zordhalo--runs-on-dev",
+      "description": "Grab your own cool'runs-on.dev' subdomain to use for free forever."
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -279477,6 +279487,16 @@
       "name": "rocm--hip-ep",
       "source": "./rocm--hip-ep",
       "description": "ROCm Execution Provider for ONNX Runtime on AMD GPUs. Compiles ONNX models through MLIR to LLVM bitcode, JIT-loads them at session creation, and dispatches to hipDNN, MIOpen, hipBLASLt, and custom HIP"
+    },
+    {
+      "name": "arunsoman--nirdosha",
+      "source": "./arunsoman--nirdosha",
+      "description": "A systems language designed so an AI agent can safely write and run backend code: proven no GC/races/overflow, GBNF-constrained generation, structured diagnostics, OS-process sandboxing."
+    },
+    {
+      "name": "akeit0--gpui-dotnet",
+      "source": "./akeit0--gpui-dotnet",
+      "description": "An experimental C# UI framework with binding Rust GPUI"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
