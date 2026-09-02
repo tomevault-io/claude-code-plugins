@@ -1,8 +1,6 @@
 # AI instruction files for remnic
 
-> Sourced from [joshuaswarren/remnic](https://github.com/joshuaswarren/remnic) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-Local-first memory plugin for OpenClaw AI agents. LLM-powered extraction, plain markdown storage, hybrid search via QMD. Gives agents persistent long-term memory across conversations.
+> Sourced from [joshuaswarren/remnic](https://github.com/joshuaswarren/remnic), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,28 @@ Original source: `AGENTS.md` in [joshuaswarren/remnic](https://github.com/joshua
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [joshuaswarren/remnic](https://github.com/joshuaswarren/remnic) — a repo with 63+ stars on GitHub.
+## Bundled Skills (18)
+
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-status/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-recall/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-search/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-status/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-recall/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-search/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-entities/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-remember/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-entities/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-remember/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-search/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-recall/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-status/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-entities/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-remember/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/remnic-core/skills/remnic-memory-workflow/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-codex/skills/remnic-memory-workflow/SKILL.md)
+- [remnic](https://github.com/joshuaswarren/remnic/tree/main/packages/plugin-claude-code/skills/remnic-memory-workflow/SKILL.md)
+
+From [joshuaswarren/remnic](https://github.com/joshuaswarren/remnic) — a repo with 0+ stars on GitHub.
 
 ---
 
