@@ -156709,6 +156709,11 @@
       "description": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API."
     },
     {
+      "name": "apache--opendal-yinyang",
+      "source": "./apache--opendal-yinyang",
+      "description": "Apache OpenDAL\u2122 YinYang: a cross-platform filesystem foundation."
+    },
+    {
       "name": "tim-smart--effect-genserver",
       "source": "./tim-smart--effect-genserver",
       "description": "effect-genserver"
@@ -265587,6 +265592,11 @@
       "name": "zordhalo--runs-on-dev",
       "source": "./zordhalo--runs-on-dev",
       "description": "Grab your own cool'runs-on.dev' subdomain to use for free forever."
+    },
+    {
+      "name": "farshed--wu",
+      "source": "./farshed--wu",
+      "description": "Fast, native code editor in Rust that feels like VS Code."
     },
     {
       "name": "makenowjust--naraku",
