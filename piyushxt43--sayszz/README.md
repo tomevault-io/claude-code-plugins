@@ -7,13 +7,13 @@ Your voice, at your cursor, in milliseconds. Free, open-source, 100% on-device d
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [piyushxt43/sayszz](https://github.com/piyushxt43/sayszz).
+Original source: `.cursor/rules/*.mdc` in [piyushxt43/sayszz](https://github.com/piyushxt43/sayszz).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **Cursor** — `project-config.mdc`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
