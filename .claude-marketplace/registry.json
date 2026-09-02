@@ -317659,6 +317659,11 @@
       "description": "A personal AI workforce that runs on one Resident. It handles what it can, delegates the rest to Workers, and a System Governor makes the whole thing smarter over time \u2014 without trusting self-report."
     },
     {
+      "name": "tiangong-ai--skills",
+      "source": "./tiangong-ai--skills",
+      "description": "skills"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -339582,6 +339587,11 @@
       "name": "aethctl--ryoku-on-nixos",
       "source": "./aethctl--ryoku-on-nixos",
       "description": "Ryoku-on-NixOS"
+    },
+    {
+      "name": "0xbakeer--inference-atlas",
+      "source": "./0xbakeer--inference-atlas",
+      "description": "A community-owned map of LLM inference engine configurations \u2014 benchmarks, evals and coverage gaps, hosted on GitHub Pages. The repo is the database."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -461722,6 +461732,11 @@
       "name": "ismxil--mekunus",
       "source": "./ismxil--mekunus",
       "description": "A project of love, for people who want to ship stuff"
+    },
+    {
+      "name": "shalomobongo--job-easy",
+      "source": "./shalomobongo--job-easy",
+      "description": "AI-powered job application automation that extracts, scores, tailors, and applies \u2014 with you in control of every submission."
     }
   ]
 }
