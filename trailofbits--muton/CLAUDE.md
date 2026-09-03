@@ -1,4 +1,4 @@
-# agent
+# muton
 
 > - `just check` - Fast syntax/type checking (prefer over full build)
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/agent/SKILL.md
+Read and follow the instructions in .claude/skills/muton/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
