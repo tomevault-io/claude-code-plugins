@@ -15234,6 +15234,11 @@
       "description": "pipelines"
     },
     {
+      "name": "open-legal-products--mike",
+      "source": "./open-legal-products--mike",
+      "description": "OSS Legal AI Platform"
+    },
+    {
       "name": "swe-agent--mini-swe-agent",
       "source": "./swe-agent--mini-swe-agent",
       "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
@@ -23232,6 +23237,16 @@
       "name": "steipete--oracle",
       "source": "./steipete--oracle",
       "description": "Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files."
+    },
+    {
+      "name": "aubepkg--aube",
+      "source": "./aubepkg--aube",
+      "description": "A fast Node.js package manager"
+    },
+    {
+      "name": "aubepkg--aube",
+      "source": "./aubepkg--aube",
+      "description": "A fast Node.js package manager"
     },
     {
       "name": "toss--frontend-fundamentals",
@@ -48522,6 +48537,11 @@
       "name": "apache--helix",
       "source": "./apache--helix",
       "description": "helix"
+    },
+    {
+      "name": "rust-glancer--rust-glancer",
+      "source": "./rust-glancer--rust-glancer",
+      "description": "Lightweight Rust LSP optimized for low memory usage"
     },
     {
       "name": "gusztavvargadr--packer",
@@ -117454,6 +117474,11 @@
       "description": "Kriptofolio"
     },
     {
+      "name": "liu-zhengdong--ma",
+      "source": "./liu-zhengdong--ma",
+      "description": "MA"
+    },
+    {
       "name": "pikapikaspeedup--antigravity-mobility-cli",
       "source": "./pikapikaspeedup--antigravity-mobility-cli",
       "description": "\u4e00\u4e2a\u5b9e\u73b0 antigravity \u81ea\u7531\u7684\u9879\u76ee\uff0c\u4f60\u7684 OpenClaw \u4f55\u5fc5\u662f OpenClaw"
@@ -118527,6 +118552,11 @@
       "name": "rhevorn--confetti",
       "source": "./rhevorn--confetti",
       "description": "Confetti \u2014 one VS Code extension for toml, yaml, ini, nginx, dotenv, gitignore, hosts, and 16+ config files. Local, fast, no telemetry."
+    },
+    {
+      "name": "ebarti--jobctrl",
+      "source": "./ebarti--jobctrl",
+      "description": "Open-source, local-first job search app for private discovery, evidence-backed fit scoring, truthful resume tailoring, durable workflows, and approval-gated applications."
     },
     {
       "name": "gaopengbin--cesium-mcp",
