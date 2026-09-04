@@ -7,15 +7,15 @@ ROCm-optimized NVIDIA NeMo Parakeet ASR implementation with CLI, formatting, and
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.windsurf/rules/*.md` in [beecave-homelab/parakeet_rocm](https://github.com/beecave-homelab/parakeet_rocm).
+Original source: `AGENTS.md` in [beecave-homelab/parakeet_rocm](https://github.com/beecave-homelab/parakeet_rocm).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
 
 From [beecave-homelab/parakeet_rocm](https://github.com/beecave-homelab/parakeet_rocm) — a repo with 9+ stars on GitHub.
 
