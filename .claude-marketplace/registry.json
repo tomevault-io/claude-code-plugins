@@ -280034,6 +280034,11 @@
       "description": "\u9762\u5411 VC/PE \u6295\u8d44\u4eba\u7684 AI \u8c03\u7814\u5de5\u4f5c\u4f53\u7cfb\uff1a7 \u6b65\u6d41\u6c34\u7ebf \u00d7 \u4e09\u65b9\u6848\uff08A \u4f01\u4e1a / B \u884c\u4e1a\u6280\u672f / C \u6df7\u5408\uff09+ 9 \u9879\u6267\u884c\u89c4\u8303 + 8 \u5957\u6a21\u677f + \u5de5\u5177\u811a\u672c + 5 \u4e2a\u771f\u5b9e\u6848\u4f8b\u4e0e\u957f\u671f\u8bb0\u5fc6\u5e93\uff0c\u8ba9\u300c\u770b\u516c\u53f8\u3001\u770b\u884c\u4e1a\u3001\u770b\u8d5b\u9053\u300d\u4ece\u51ed\u7ecf\u9a8c\u53d8\u6210\u6309\u6d41\u7a0b"
     },
     {
+      "name": "loryanstrant--imdf-builder-for-places",
+      "source": "./loryanstrant--imdf-builder-for-places",
+      "description": "A solution to build IMDF files for use with Microsoft Places"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -318714,6 +318719,16 @@
       "description": "skillet"
     },
     {
+      "name": "vaelkeep--hermes-paper-agent",
+      "source": "./vaelkeep--hermes-paper-agent",
+      "description": "A nightly newspaper that writes itself: an agent runs the desks, the figures come from code, and it refuses to publish an edition with marks in it."
+    },
+    {
+      "name": "ingnijm--ai-bagu",
+      "source": "./ingnijm--ai-bagu",
+      "description": "AI\u516b\u80a1\u62bd\u80cc\u7cfb\u7edf\uff0c\u89e3\u51b3\u516b\u80a1\u80cc\u8bf5\u56f0\u96be"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -340752,6 +340767,11 @@
       "name": "webc-site--wedb-embed",
       "source": "./webc-site--wedb-embed",
       "description": "Embedded database engine providing Redis-like APIs, built on fjall / \u5d4c\u5165\u5f0f\u6570\u636e\u5e93\u5f15\u64ce\uff0c\u63d0\u4f9b\u7c7b\u4f3c Redis \u7684\u63a5\u53e3\uff0c\u5e95\u5c42\u57fa\u4e8e fjall \u5f00\u53d1"
+    },
+    {
+      "name": "flop-labs--tclk",
+      "source": "./flop-labs--tclk",
+      "description": "HTLC/PTLC deal-making for agents that meet in a chat room \u2014 offer, accept, lock, reveal, refund, as signed room messages. The room coordinates; a settlement rail holds the money. Alpha: no rail holds "
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -463302,6 +463322,11 @@
       "name": "masato-masa--snake-puzzle",
       "source": "./masato-masa--snake-puzzle",
       "description": "Snake-fills-the-grid sliding puzzle game (Expo/React Native)"
+    },
+    {
+      "name": "timpanaroluca93-pixel--perlage-pizza-gourmet",
+      "source": "./timpanaroluca93-pixel--perlage-pizza-gourmet",
+      "description": " Website Perlage Pizza Gourmet"
     }
   ]
 }
