@@ -96,10 +96,21 @@ uv run pytest --cov=lifx --cov-report=html
 # Verbose output
 uv run --frozen pytest -v
 
-# Run with emulator integration tests (requires lifx-emulator on PATH)
-# Tests marked with @pytest.mark.emulator will be skipped if emulator is not available
+# Run with emulator integration tests (lifx-emulator-core is a required dev dependency)
+# Use --disable-emulator to skip the normal embedded-emulator suite explicitly
 uv run pytest
 ```
+
+Pytest retries each test once, with no delay, only when it raises the exact
+`LifxTimeoutError`, `LifxConnectionError`, or `LifxNetworkError` type. Assertion
+failures and all other exceptions fail immediately. The suite-wide 60-second
+timeout covers two complete default 16-second request attempts; emulator tests
+receive a 120-second timeout. The targeted IPv6 emulator lookup retains two
+retries with a one-second delay on Windows because its socket and scheduler
+window can outlast one immediate retry. That targeted override also admits the
+assertion-shaped no-response result. It is applied during collection only on
+Windows; elsewhere the test keeps the global one immediate network retry and
+ordinary assertion failures still fail immediately.
 
 ### Code Quality
 
@@ -110,9 +121,27 @@ uv run ruff format .
 # Lint with auto-fix
 uv run ruff check . --fix
 
-# Type check (strict Pyright validation)
+# Type check (Pyright, standard mode)
 uv run pyright
 ```
+
+### Running the measurement scripts
+
+`scripts/measurement_support.py` owns the shared discovery, request-observation, capture
+and restore primitives. The three scripts that import it must be run as modules, not as
+files:
+
+```bash
+uv run --frozen python -m scripts.thread_revalidation <subcommand>
+uv run --frozen python -m scripts.ipv6_thread_probe
+uv run --frozen python -m scripts.measure_merged_discovery
+```
+
+`from scripts.measurement_support import ...` resolves only when the repository root is on
+`sys.path`. `python -m` puts it there; running the file directly puts `scripts/` there
+instead and fails with `ModuleNotFoundError: No module named 'scripts'`. Adding
+`scripts/__init__.py` does not change this. Every other script in `scripts/` has no such
+import and still runs as `uv run <script-name>.py`.
 
 ### Protocol Update
 
@@ -165,23 +194,27 @@ gh workflow run docs.yml
 2. **Network Layer** (`src/lifx/network/`)
 
    - `transport.py`: UDP transport using asyncio
-   - `discovery.py`: Device discovery via broadcast with `DiscoveredDevice` dataclass
+   - `discovery/`: Canonical discovery implementation package
+     - `__init__.py`: Compatibility umbrella for documented low-level UDP imports
+     - `udp.py`: UDP discovery with `DiscoveredDevice` and `DiscoveryResponse`
+     - `coordinator.py`: Process-wide active UDP sweep coordination
+     - `mdns/`: mDNS/DNS-SD implementation (zero-dependency, stdlib only)
+       - `discovery.py`: Per-call service-record assembly and supported device construction.
+         Each sweep sends an initial DNS-SD PTR service query, may retransmit that PTR query
+         once at one second and once at three seconds within the caller's deadline, and
+         assembles valid legacy-unicast replies during the quiet window. When a valid SRV
+         target still lacks a usable address, it conditionally sends bounded A/AAAA follow-ups:
+         one successful send, or no more than two failed attempts, for each of at most 64
+         targets
+       - `dns.py`: DNS wire format parser for PTR, SRV, A, TXT records
+       - `transport.py`: `MdnsTransport` sends IPv4 multicast queries from an ephemeral port and
+         receives only direct legacy-unicast replies; it does not join the multicast group or
+         receive unsolicited announcements
+       - `types.py`: Internal service-record model; record cache state belongs to one discovery
+         call and is never reused
    - `connection.py`: Device connection with retry logic and lazy opening
    - `message.py`: Message building and parsing with `MessageBuilder`
-   - `mdns/`: mDNS/DNS-SD discovery module (zero-dependency, stdlib only)
-     - `discovery.py`: Per-call service-record assembly and supported device construction.
-       Each sweep sends an initial DNS-SD PTR service query, may retransmit that PTR query
-       once at one second and once at three seconds within the caller's deadline, and
-       assembles valid legacy-unicast replies during the quiet window. When a valid SRV
-       target still lacks a usable address, it conditionally sends bounded A/AAAA follow-ups:
-       one successful send, or no more than two failed attempts, for each of at most 64
-       targets
-     - `dns.py`: DNS wire format parser for PTR, SRV, A, TXT records
-     - `transport.py`: `MdnsTransport` sends IPv4 multicast queries from an ephemeral port and
-       receives only direct legacy-unicast replies; it does not join the multicast group or
-       receive unsolicited announcements
-     - `types.py`: Internal service-record model; record cache state belongs to one discovery
-       call and is never reused
+   - `mdns/`: Thin compatibility re-exports for the former mDNS import paths
    - Lazy connection opening (auto-opens on first request)
 
 3. **Device Layer** (`src/lifx/devices/`)
@@ -205,7 +238,7 @@ gh workflow run docs.yml
      fall back to `discover()`
    - `find_by_serial()`: Find specific device by serial number
    - `find_by_label()`: Async generator yielding devices matching label (exact or substring)
-   - `find_by_ip()`: Find device by IP address using targeted broadcast
+   - `find_by_ip()`: Find a device by IPv4 or IPv6 literal using a targeted UDP discovery request; link-local IPv6 requires a zone ID
    - `DeviceGroup`: Batch operations (set_power, set_color, etc.)
    - `LocationGrouping` / `GroupGrouping`: Organizational structures for location/group-based grouping
 
@@ -222,7 +255,7 @@ gh workflow run docs.yml
 
 6. **Effects Layer** (`src/lifx/effects/`)
 
-   - 30+ built-in effects (aurora, flame, plasma, rainbow, twinkle, etc.)
+   - 26 built-in effects (aurora, flame, plasma, rainbow, twinkle, etc.)
    - `base.py`: Base effect class with frame generation interface
    - `registry.py`: Effect registry for discovering available effects by name
    - `state_manager.py`: Effect state management for running effects on devices
@@ -270,7 +303,7 @@ All exceptions inherit from `LifxError` (`src/lifx/exceptions.py`): `LifxDeviceN
 ### Key Design Patterns
 
 - **Async Context Managers**: All devices and connections use `async with` for automatic cleanup
-- **Type Safety**: Full type hints with strict Pyright validation
+- **Type Safety**: Full type hints, validated with Pyright (standard mode)
 - **Auto-Generation**: Protocol structures generated from YAML specification
 - **State Caching**: Device properties cache values to reduce network requests
 - **Lazy Connections**: Connections open automatically on first request
@@ -302,7 +335,7 @@ All exceptions inherit from `LifxError` (`src/lifx/exceptions.py`): `LifxDeviceN
 ### Concurrency Considerations
 
 - Concurrent requests on a single connection are supported: a background receiver task routes each response to its request via per-request queues keyed by (source, sequence, serial), so responses never mix
-- Different devices have different connections, so operations on multiple devices execute in parallel via `asyncio.TaskGroup`
+- Different devices have different connections, so operations on multiple devices execute in parallel via `asyncio.gather()` (see `DeviceGroup` in `src/lifx/api.py`) or `asyncio.create_task()` for fire-and-forget fan-out. The project supports Python 3.10, where `asyncio.TaskGroup` (added in 3.11) is unavailable, so it is never used for this or any other internal concurrency
 - Request/response uses async generators: single-response requests break after first response, multi-response requests stream until timeout or early exit
 - Sequence numbers (0-255, uint8) are atomically allocated per request for response correlation
 - **No rate limiting** built in — devices handle ~20 msg/sec; application developers should implement their own if needed
@@ -322,7 +355,7 @@ The `discover_devices()` function implements DoS protection through:
 - **Network Layer**: 183 tests (transport, discovery, connection, message, mDNS, async generator requests)
 - **Device Layer**: 375 tests (base, light, ceiling, hev, infrared, multizone, matrix, state management, MAC address)
 - **API Layer**: 63 tests (discovery, batch operations, organization, themes, error handling)
-- **Effects Layer**: 1249 tests (30+ built-in effects, registry, state manager, integration, capability filtering)
+- **Effects Layer**: 1249 tests (26 built-in effects, registry, state manager, integration, capability filtering)
 - **Theme Layer**: 146 tests (themes, canvas, generators, library, apply_theme)
 - **Animation Layer**: 123 tests (animator, framebuffer, packets, orientation)
 - **Utilities**: 127 tests (color conversion, product registry, RGB roundtrip)
@@ -342,7 +375,8 @@ uv sync  # Installs lifx-emulator-core automatically
 
 **Running Integration Tests**:
 - Tests marked with `@pytest.mark.emulator` use the embedded emulator
-- If emulator is not available, these tests are automatically skipped
+- The emulator is a required development dependency; pytest collection fails
+  if it is unavailable
 - **Works on all supported Python versions (3.10+)**
 
 **External Emulator Management**:
@@ -447,4 +481,4 @@ Run `uv run python -m lifx.protocol.generator` to regenerate Python code.
 
 ---
 > Source: [Djelibeybi/lifx-async](https://github.com/Djelibeybi/lifx-async) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-08-29 -->
+<!-- tomevault:4.0:claude_md:2026-09-04 -->
