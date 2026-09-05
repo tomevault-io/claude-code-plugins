@@ -72039,6 +72039,11 @@
       "description": "clarity-agent"
     },
     {
+      "name": "sebbbi--nographicsapi",
+      "source": "./sebbbi--nographicsapi",
+      "description": "Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my \"No Graphics API\" blog post and the SIGGRAPH talk."
+    },
+    {
       "name": "gainsec--autoprober",
       "source": "./gainsec--autoprober",
       "description": "Hardware hacker\u2019s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing."
