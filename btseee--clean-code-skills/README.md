@@ -7,12 +7,12 @@ Clean Coding and Clean Archictecture skills for Agents
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `copilot-instructions.md` in [btseee/clean-code-skills](https://github.com/btseee/clean-code-skills).
+Original source: `AGENTS.md` in [btseee/clean-code-skills](https://github.com/btseee/clean-code-skills).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
