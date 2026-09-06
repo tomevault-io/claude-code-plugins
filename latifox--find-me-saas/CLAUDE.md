@@ -1,19 +1,19 @@
-# decision-memo
+# desire-evaluator
 
-> Skill — decision-memo. Writes a human-readable decision brief: verdict, score, top 3 strengths, top 3 risks, next step.
+> Skill — desire-evaluator. Scores core human desire motivations (survival, status, belonging, control, curiosity) for an idea.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/decision-memo/SKILL.md
+Read and follow the instructions in .claude/skills/desire-evaluator/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-See [skills/decision-memo/SKILL.md](../../skills/decision-memo/SKILL.md) for full instructions and output schema.
+See [skills/desire-evaluator/SKILL.md](../../skills/desire-evaluator/SKILL.md) for full instructions and output schema.
 
 ---
 > Source: [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas) — distributed by [TomeVault](https://tomevault.io).
