@@ -1,19 +1,19 @@
-# pricing-and-wtp
+# retention-predictor
 
-> Skill — pricing-and-wtp. Models willingness to pay, viable pricing models, and freemium conversion assumptions.
+> Skill — retention-predictor. Predicts retention potential via usage frequency, habit formation mechanics, and churn risk factors.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/pricing-and-wtp/SKILL.md
+Read and follow the instructions in .claude/skills/retention-predictor/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-See [skills/pricing-and-wtp/SKILL.md](../../skills/pricing-and-wtp/SKILL.md) for full instructions and output schema.
+See [skills/retention-predictor/SKILL.md](../../skills/retention-predictor/SKILL.md) for full instructions and output schema.
 
 ---
 > Source: [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas) — distributed by [TomeVault](https://tomevault.io).
