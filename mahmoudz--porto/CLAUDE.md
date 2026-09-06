@@ -1,6 +1,6 @@
 # porto
 
-> Read [AGENTS.md](AGENTS.md) - the single source of truth for working in this repo.
+> Read [AGENTS.md](../AGENTS.md) - the single source of truth for working in this repo.
 
 ## Usage
 
@@ -12,7 +12,7 @@ Read and follow the instructions in .claude/skills/porto/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-Read [AGENTS.md](AGENTS.md) - the single source of truth for working in this repo.
+Read [AGENTS.md](../AGENTS.md) - the single source of truth for working in this repo.
 
 ---
 > Source: [Mahmoudz/Porto](https://github.com/Mahmoudz/Porto) — distributed by [TomeVault](https://tomevault.io).
