@@ -1,19 +1,19 @@
-# idea-scoring
+# pivot-engine
 
-> Skill — idea-scoring. Aggregates all dimension scores into a final 0-100 score with verdict (pursue/test/pivot/drop).
+> Skill — pivot-engine. Generates structured pivot options and writes pivot_options.json (structured data) + pivot_report.md (human-readable brief with evidence, score projections, trade-offs, and recommendation).
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/idea-scoring/SKILL.md
+Read and follow the instructions in .claude/skills/pivot-engine/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-See [skills/idea-scoring/SKILL.md](../../skills/idea-scoring/SKILL.md) for full instructions and output schema.
+See [skills/pivot-engine/SKILL.md](../../skills/pivot-engine/SKILL.md) for full instructions and output schema.
 
 ---
 > Source: [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas) — distributed by [TomeVault](https://tomevault.io).
