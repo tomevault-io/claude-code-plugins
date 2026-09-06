@@ -1,26 +1,27 @@
-# bioaf
+# ai-guides
 
-> This repository's working model for humans and AI agents lives in [ai_guides/](ai_guides/).
+> Points to the repository's AI guides, the single source of truth for process, domain language, testing, and git conventions.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/bioaf/SKILL.md
+Read and follow the instructions in .claude/skills/ai-guides/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GEMINI.md
 
-This repository's working model for humans and AI agents lives in [ai_guides/](ai_guides/).
+# AI Guides
 
-**Before doing any work in this repository, read [ai_guides/README.md](ai_guides/README.md)
-and follow it.** It is the single source of truth for process, domain language, testing,
-and git conventions. The other guides in `ai_guides/` are linked from there.
+This repository's working model for humans and AI agents lives in `ai_guides/`.
 
-This file is a thin pointer. Do not duplicate guidance here; change it in `ai_guides/`.
+**Before doing any work in this repository, read `ai_guides/README.md` and follow it.**
+It is the single source of truth for process, domain language, testing, and git
+conventions. The other guides in `ai_guides/` are linked from there.
+
+This rule is a thin pointer. Do not duplicate guidance here; change it in `ai_guides/`.
 
 ---
 > Source: [bioAF/bioAF](https://github.com/bioAF/bioAF) — distributed by [TomeVault](https://tomevault.io).
