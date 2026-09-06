@@ -1,19 +1,19 @@
-# cac-modeler
+# competitor-mapper
 
-> Skill — cac-modeler. Models customer acquisition cost by channel and assesses viability at indie developer budget.
+> Skill — competitor-mapper. Maps direct, indirect, and substitute competitors with positioning gaps.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/cac-modeler/SKILL.md
+Read and follow the instructions in .claude/skills/competitor-mapper/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-See [skills/cac-modeler/SKILL.md](../../skills/cac-modeler/SKILL.md) for full instructions and output schema.
+See [skills/competitor-mapper/SKILL.md](../../skills/competitor-mapper/SKILL.md) for full instructions and output schema.
 
 ---
 > Source: [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas) — distributed by [TomeVault](https://tomevault.io).
