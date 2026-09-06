@@ -5,11 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [lzm0x219/vscode-github-markdown](https://github.com/lzm0x219/vscode-github-markdown).
+Original source: `` in [lzm0x219/vscode-github-markdown](https://github.com/lzm0x219/vscode-github-markdown).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
