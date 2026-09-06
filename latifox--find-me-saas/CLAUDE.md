@@ -1,19 +1,19 @@
-# trend-analysis
+# trend-to-product-mapper
 
-> Skill — trend-analysis. Analyzes market trends across TikTok, Reddit, App Store, and Google Trends for a topic or category. Writes a new file to memory/market_insights/.
+> Skill — trend-to-product-mapper. Maps viral content and trending topics to concrete app opportunities via problem extraction.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/trend-analysis/SKILL.md
+Read and follow the instructions in .claude/skills/trend-to-product-mapper/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-See [skills/trend-analysis/SKILL.md](../../skills/trend-analysis/SKILL.md) for full instructions and output schema.
+See [skills/trend-to-product-mapper/SKILL.md](../../skills/trend-to-product-mapper/SKILL.md) for full instructions and output schema.
 
 ---
 > Source: [Latifox/find-me-saas](https://github.com/Latifox/find-me-saas) — distributed by [TomeVault](https://tomevault.io).
