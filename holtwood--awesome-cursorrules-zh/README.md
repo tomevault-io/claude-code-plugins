@@ -7,12 +7,12 @@ Cursor AI 编程规则精选集 | 132+ 规则，覆盖前端/后端/AI/DevOps �
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [holtwood/awesome-cursorrules-zh](https://github.com/holtwood/awesome-cursorrules-zh).
+Original source: `copilot-instructions.md` in [holtwood/awesome-cursorrules-zh](https://github.com/holtwood/awesome-cursorrules-zh).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
