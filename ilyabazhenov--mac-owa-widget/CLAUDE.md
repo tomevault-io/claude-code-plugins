@@ -1,63 +1,51 @@
-# plan-first
+# project-context
 
-> Require detailed implementation plans with concrete code references before editing.
+> Core OWAWidget project context and source-of-truth files.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/plan-first/SKILL.md
+Read and follow the instructions in .claude/skills/project-context/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Plan-first workflow
+# Project context
 
-`AGENTS.md` is the source of truth for repository instructions. If this rule conflicts with `AGENTS.md`, follow `AGENTS.md`.
+`AGENTS.md` is the source of truth for repository-specific agent instructions. If any Cursor rule conflicts with `AGENTS.md`, follow `AGENTS.md`.
 
-This workflow applies to implementation changes. It does not block pure review or read-only analysis requests.
+OWAWidget is a Swift 6 / SwiftUI macOS menu bar app for showing upcoming Microsoft Exchange / OWA meetings and quickly joining online calls.
 
-When the user asks to implement, fix, refactor, debug, or change behavior:
+Primary code lives in `OWAWidget/`.
 
-1. Inspect the relevant code before proposing a plan.
-2. Do not write implementation code until you have produced a plan.
-3. The plan must reference concrete files, symbols, and line numbers when available.
-4. Do not invent file paths, functions, or line numbers. If something has not been inspected, say so.
-5. Every meaningful implementation step must mention the files or symbols it affects.
-6. Include verification steps: tests, build commands, or manual checks.
-7. If the request is ambiguous, ask a concise clarifying question before planning.
-8. If the user says "plan only", stop after the plan and wait.
-9. If the user asks to proceed, implement according to the plan.
+Important files and responsibilities:
 
-Use this plan format:
+- `OWAWidget/OWAWidgetApp.swift` - app entry point, `MenuBarExtra`, settings window, notification handling.
+- `OWAWidget/Services/CalendarService.swift` - main `@MainActor` observable state owner for accounts, events, sync status, reminders, and engagement stats.
+- `OWAWidget/Providers/CalendarProvider.swift` - actor-based provider abstraction.
+- `OWAWidget/Providers/OWA/**` - OWA authentication, CANARY token handling, calendar requests, response mapping.
+- `OWAWidget/Providers/GoogleCalendar/GoogleCalendarProvider.swift` - placeholder provider for future Google Calendar support.
+- `OWAWidget/Services/MeetingURLDetector.swift` - meeting URL detection for Teams, Zoom, Webex, Google Meet, and related platforms.
+- `OWAWidget/Services/NotificationService.swift` - local notification scheduling.
+- `OWAWidget/Services/KeychainService.swift` - password storage in Keychain.
+- `OWAWidget/Services/LaunchAtLoginService.swift` - login item integration via `SMAppService.mainApp`.
+- `OWAWidget/Services/UpdateCheckService.swift` - Sparkle updater wrapper.
+- `OWAWidget/Views/MeetingListView.swift` - timeline list in the popover, including time grid and overlay cards.
+- `OWAWidget/Views/TimelineMeetingLayout.swift` - timeline slotting, overlap clusters, lanes, and frame math.
+- `OWAWidget/Views/TimelineMeetingBlockView.swift` - visual meeting card for normal and compact timeline layouts.
 
-## Goal
+Build and run commands come from `Makefile`:
 
-One short paragraph describing the intended outcome.
+- `swift build` - fast compile verification.
+- `make build` - compile via Makefile.
+- `make run` - build bundle and launch the app.
+- `make watch` - rebuild on Swift file changes; requires `fswatch`.
+- `make clean` - remove build artifacts.
 
-## Code Facts
-
-- `path/to/File.swift:line` - observed behavior or relevant symbol.
-- `path/to/OtherFile.swift:line` - related dependency or constraint.
-
-## Plan
-
-1. Change `path/to/File.swift` in `SymbolName` to ...
-2. Update `path/to/OtherFile.swift` because ...
-3. Add or update tests in `path/to/TestFile.swift` for ...
-
-## Verification
-
-- Run `swift build`
-- Run relevant tests
-- Manually verify ...
-
-# Language
-
-Respond to the user in Russian.
-Write code and code comments in English.
+Do not manually edit generated `OWAWidget.xcodeproj`. Update `project.yml` for XcodeGen project settings and `Package.swift` for SwiftPM settings.
 
 ---
 > Source: [ilyabazhenov/mac-owa-widget](https://github.com/ilyabazhenov/mac-owa-widget) — distributed by [TomeVault](https://tomevault.io).
