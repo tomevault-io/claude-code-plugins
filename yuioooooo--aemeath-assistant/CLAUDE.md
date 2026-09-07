@@ -1,4 +1,4 @@
-# olv-core-rules
+# aemeath-assistant
 
 > `version: 2025.08.05-1`
 
@@ -7,12 +7,10 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/olv-core-rules/SKILL.md
+Read and follow the instructions in .claude/skills/aemeath-assistant/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
-
 
 # Open-LLM-VTuber AI Coding Assistant: Context & Guidelines
 
