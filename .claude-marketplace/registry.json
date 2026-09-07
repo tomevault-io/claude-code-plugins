@@ -154099,6 +154099,11 @@
       "description": "pytest-notebook"
     },
     {
+      "name": "zechuan-start--adb-gui",
+      "source": "./zechuan-start--adb-gui",
+      "description": "\u8de8\u5e73\u53f0 Android ADB \u684c\u9762 GUI\uff08Tauri + React\uff09\uff1a\u8bbe\u5907\u7ba1\u7406/\u65e0\u7ebf\u8fde\u63a5\u3001\u622a\u56fe\u3001\u5f55\u5c4f\u3001APK \u5b89\u88c5\u3001\u5e94\u7528\u7ba1\u7406\u3001DeepLink\u3001\u7aef\u53e3\u8f6c\u53d1\u3001Bug \u62a5\u544a\u3001Logcat \u67e5\u770b\u7b49 | Cross-platform Tauri desktop GUI for Android ADB: device management, Wi-Fi connect, screenshots, scr"
+    },
+    {
       "name": "lktiep--cortex-hub",
       "source": "./lktiep--cortex-hub",
       "description": "Self-hosted AI Agent Memory + Code Intelligence Platform \u2014 one MCP endpoint for persistent memory, AST-aware code search, shared knowledge, and quality enforcement across all your AI coding agents."
@@ -220974,6 +220979,11 @@
       "description": "\ud83e\udd84 Scientific journal and sci-fi themed color palettes for Rust"
     },
     {
+      "name": "wyh201816--taichu",
+      "source": "./wyh201816--taichu",
+      "description": "An observable, recoverable, and human-interruptible Agent workspace for long-form fiction."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -226959,6 +226969,11 @@
       "description": "MamboStudio \u662f\u4e00\u4e2a\u57fa\u4e8e **Spring Boot 3 + LangChain4j + Vue 3** \u6784\u5efa\u7684\u4f01\u4e1a\u7ea7 AI \u4ee3\u7801\u751f\u6210\u5e73\u53f0\u3002\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u63cf\u8ff0\uff0cAI \u53ef\u4ee5\u81ea\u52a8\u751f\u6210\u5b8c\u6574\u7684 Web \u5e94\u7528\uff0c\u540c\u65f6\u5b9e\u73b0\"\u70b9\u54ea\u513f\u6539\u54ea\u513f\"\u7684\u589e\u91cf\u5f0f\u4fee\u6539\u529f\u80fd\u3002"
     },
     {
+      "name": "chadhurley25075-png--pd-bridge",
+      "source": "./chadhurley25075-png--pd-bridge",
+      "description": "Heterogeneous prefill/decode for DeepSeek-V4-Flash: CUDA prefill (DGX Spark, vLLM) -> Metal decode (Mac Studio, oMLX) over plain 10GbE"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -230502,6 +230517,11 @@
       "name": "jangtrinh--design-os-3d-blender",
       "source": "./jangtrinh--design-os-3d-blender",
       "description": "AI-agent operating system for Blender 5.2: skills, verified bpy knowledge base, AGENT_OK/AGENT_FAIL execution contract, production gate for 3D-printable parts, robot-arm demo"
+    },
+    {
+      "name": "basecamp--basecamp-local-agent-connector",
+      "source": "./basecamp--basecamp-local-agent-connector",
+      "description": "basecamp-local-agent-connector"
     },
     {
       "name": "onevcat--xin",
@@ -251284,6 +251304,26 @@
       "description": "Mark is Optimism, Super..."
     },
     {
+      "name": "quartermaster-labs--quartermaster",
+      "source": "./quartermaster-labs--quartermaster",
+      "description": "Run any model without tuning a single flag. Text, image and audio on one machine: Quartermaster works out what fits in your VRAM, launches each model with computed flags, and hot-swaps them on demand "
+    },
+    {
+      "name": "sajjadhossainshohag--laravel-artican",
+      "source": "./sajjadhossainshohag--laravel-artican",
+      "description": "Static analysis for Laravel that catches AI-introduced coding mistakes before they hit runtime \u2014 broken routes, missing views, schema drift, invalid middleware, and more. Ships with a Laravel Boost sk"
+    },
+    {
+      "name": "betayao--seahelm",
+      "source": "./betayao--seahelm",
+      "description": "A native macOS workspace for coding agents \u2014 every git worktree a row on one roster, one agent to a split pane. Built on Ghostty, sessions persist through zmx."
+    },
+    {
+      "name": "whyzoo-lab--openpad",
+      "source": "./whyzoo-lab--openpad",
+      "description": "openPad"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -267544,6 +267584,21 @@
       "description": "A standalone, bring-your-own-key AI chat workspace. No account, no server, no build step."
     },
     {
+      "name": "sxpanel--sxpanel",
+      "source": "./sxpanel--sxpanel",
+      "description": "A web panel & in-game menu for your FiveM/RedM server. | A fork of fxPanel that was forked from txAdmin"
+    },
+    {
+      "name": "sporez--actualist",
+      "source": "./sporez--actualist",
+      "description": "A native, local-first iPhone client for Actual Budget."
+    },
+    {
+      "name": "pxa-labs--project-ripra",
+      "source": "./pxa-labs--project-ripra",
+      "description": "Algorithms for Wavefront Reconstruction, Turbulence Characterization, and Deformable Mirror Actuator Mapping using Shack-Hartmann WFS time-series data."
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -281672,6 +281727,21 @@
       "name": "jayantolhyan--fees-hisab",
       "source": "./jayantolhyan--fees-hisab",
       "description": "Fees-Hisab"
+    },
+    {
+      "name": "lucalullo--customer-support-agent",
+      "source": "./lucalullo--customer-support-agent",
+      "description": "About Kaggle Hackathon Capstone Project - Customer Support Agent"
+    },
+    {
+      "name": "advaitpaliwal--introspect",
+      "source": "./advaitpaliwal--introspect",
+      "description": "Agent self-improvement runtime for Codex, Claude, and OpenCode"
+    },
+    {
+      "name": "lolly-tools--lolly",
+      "source": "./lolly-tools--lolly",
+      "description": "Lolly generates production-ready assets - QR codes, charts, graphics, PDFs and more - from simple inputs. Constraint-first, template-driven, works offline."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -321889,6 +321959,31 @@
       "description": "[WIP] A soft MIDI synthesizer compatible with Yamaha XG."
     },
     {
+      "name": "a9lim--drowse",
+      "source": "./a9lim--drowse",
+      "description": "Activation steering and trait monitoring for HuggingFace transformers"
+    },
+    {
+      "name": "orionsheep--vibeedit",
+      "source": "./orionsheep--vibeedit",
+      "description": "\u4e00\u4e2a\u57fa\u4e8e\u5b57\u5e55\u81ea\u52a8\u526a\u8f91\u89c6\u9891\u7684agent"
+    },
+    {
+      "name": "pixartseu--synapse",
+      "source": "./pixartseu--synapse",
+      "description": "Self-improving AI brain for Claude Code & Desktop \u2014 28 MCP tools, 253 skills, collective memory, project tracking, work logs. One server, all your sessions share the same knowledge. Deploy on Coolify "
+    },
+    {
+      "name": "andyubird--lumapalettecsp",
+      "source": "./andyubird--lumapalettecsp",
+      "description": "A Clip Studio Paint color picker that uses the OKLCH color space, this allows the artist to easily pick colors to blend that has the same perceived lightness. This color picker can obtain/set the prec"
+    },
+    {
+      "name": "sungmin-cho--deep-suite",
+      "source": "./sungmin-cho--deep-suite",
+      "description": "Harness layer for Claude Code & Codex: plan-first development, independent review, durable long-running orchestration, and knowledge capture \u2014 ten composable plugins."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -344167,6 +344262,11 @@
       "name": "mihaelmiklosic--openridemirror",
       "source": "./mihaelmiklosic--openridemirror",
       "description": "A Garmin-powered cycling companion display for ESP32-S3 and reflective LCD."
+    },
+    {
+      "name": "dualface--kander",
+      "source": "./dualface--kander",
+      "description": "\u7528\u770b\u677f\u8c03\u5ea6\u591a\u4e2a AI Agent \u7684\u4efb\u52a1\u7f16\u6392\u5de5\u5177"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -467522,6 +467622,151 @@
       "name": "block-sig-hash--damdam",
       "source": "./block-sig-hash--damdam",
       "description": "DamDam - Nigerian traveler connectivity platform"
+    },
+    {
+      "name": "iwanttobeahokage--bootcamp2026-drug",
+      "source": "./iwanttobeahokage--bootcamp2026-drug",
+      "description": "bootcamp2026-drug"
+    },
+    {
+      "name": "samantuxj1-bit--agents-in-sdlc",
+      "source": "./samantuxj1-bit--agents-in-sdlc",
+      "description": "agents-in-sdlc"
+    },
+    {
+      "name": "twentityhourscanwin--roi-distill",
+      "source": "./twentityhourscanwin--roi-distill",
+      "description": "\u7b80\u5355\u7684\u5de5\u4f5c"
+    },
+    {
+      "name": "tibyverghisgit--aks-learn",
+      "source": "./tibyverghisgit--aks-learn",
+      "description": "aks-learn"
+    },
+    {
+      "name": "mikewild-wcl--aspire-htmx-feature-flagged",
+      "source": "./mikewild-wcl--aspire-htmx-feature-flagged",
+      "description": "An Aspire application with a simple ASP.NET htmx front end feature flags stored in App Configuration. Demonstrates local App Config, Aspire deployment, and azd pipeline setup."
+    },
+    {
+      "name": "iwanttobeahokage--bootcamp2026-drug",
+      "source": "./iwanttobeahokage--bootcamp2026-drug",
+      "description": "bootcamp2026-drug"
+    },
+    {
+      "name": "noliass--crm-admin",
+      "source": "./noliass--crm-admin",
+      "description": "crm-admin"
+    },
+    {
+      "name": "gabbie1801--kiddo-kitchen-creations",
+      "source": "./gabbie1801--kiddo-kitchen-creations",
+      "description": "kiddo-kitchen-creations"
+    },
+    {
+      "name": "ayushgajjar7--ayushgajjar7",
+      "source": "./ayushgajjar7--ayushgajjar7",
+      "description": "ayushgajjar7"
+    },
+    {
+      "name": "sanjaibablu--casa-dial-hub",
+      "source": "./sanjaibablu--casa-dial-hub",
+      "description": "casa-dial-hub"
+    },
+    {
+      "name": "xiandanfangzhang--city-defender",
+      "source": "./xiandanfangzhang--city-defender",
+      "description": "city-defender"
+    },
+    {
+      "name": "vtarchvn--findebt-pro",
+      "source": "./vtarchvn--findebt-pro",
+      "description": "findebt-pro"
+    },
+    {
+      "name": "marcelart--oauth2-impl",
+      "source": "./marcelart--oauth2-impl",
+      "description": "oauth2-impl"
+    },
+    {
+      "name": "primarizki21--ftmm-compass-web",
+      "source": "./primarizki21--ftmm-compass-web",
+      "description": "ftmm-compass-web"
+    },
+    {
+      "name": "bom1187--next-second-app",
+      "source": "./bom1187--next-second-app",
+      "description": "next-second-app"
+    },
+    {
+      "name": "hs98012--stock-brief-ai",
+      "source": "./hs98012--stock-brief-ai",
+      "description": "\uc99d\uad8c \ub9ac\ud3ec\ud2b8\uc758 PDF \uc6d0\ubb38\uacfc \ud398\uc774\uc9c0 \uc778\uc6a9\uc744 \uae30\ubc18\uc73c\ub85c \uc8fc\uc2dd \ucd08\ubcf4\uc790\uac00 \uae30\uc5c5\uc758 \ud638\uc7ac\uc640 \uc545\uc7ac\ub97c \ud655\uc778\ud560 \uc218 \uc788\ub294 RAG \ubd84\uc11d \uc11c\ube44\uc2a4"
+    },
+    {
+      "name": "wizkax--alpaca-mcp-server-rfjq",
+      "source": "./wizkax--alpaca-mcp-server-rfjq",
+      "description": "alpaca-mcp-server-RFJq"
+    },
+    {
+      "name": "baljeetkaur-prog--certificates-test",
+      "source": "./baljeetkaur-prog--certificates-test",
+      "description": "certificates-test"
+    },
+    {
+      "name": "omkhade75--fieldproject",
+      "source": "./omkhade75--fieldproject",
+      "description": "fieldproject"
+    },
+    {
+      "name": "aghafirmansyahwork-dotcom--portofolio",
+      "source": "./aghafirmansyahwork-dotcom--portofolio",
+      "description": "portofolio"
+    },
+    {
+      "name": "businesssosyncaitech-ux--yogi-crm-suite",
+      "source": "./businesssosyncaitech-ux--yogi-crm-suite",
+      "description": "yogi-crm-suite"
+    },
+    {
+      "name": "aryanstc287--checkout-ui-extension",
+      "source": "./aryanstc287--checkout-ui-extension",
+      "description": "Checkout-UI-Extension"
+    },
+    {
+      "name": "rafiq-1212--aathlar",
+      "source": "./rafiq-1212--aathlar",
+      "description": "Aathlar"
+    },
+    {
+      "name": "aishusupriya--ai-automation-cybersecurity",
+      "source": "./aishusupriya--ai-automation-cybersecurity",
+      "description": "AI Automation CyberSecurity using RAG"
+    },
+    {
+      "name": "moriyama1930-max--ai-brand-visibility-template",
+      "source": "./moriyama1930-max--ai-brand-visibility-template",
+      "description": "ai-brand-visibility-template"
+    },
+    {
+      "name": "cti1650--bakuraku-skills",
+      "source": "./cti1650--bakuraku-skills",
+      "description": "\u30d0\u30af\u30e9\u30af(workflow.layerx.jp)\u306e\u7533\u8acb\u4f5c\u696d\u3092\u652f\u63f4\u3059\u308b\u793e\u5185\u5411\u3051\u30b9\u30ad\u30eb\u96c6"
+    },
+    {
+      "name": "mohammadmuneeb569--portfolio",
+      "source": "./mohammadmuneeb569--portfolio",
+      "description": "Portfolio"
+    },
+    {
+      "name": "raosam23--docucrew-frontend",
+      "source": "./raosam23--docucrew-frontend",
+      "description": "WORK IN PROGRESS"
+    },
+    {
+      "name": "graceemily1912-ctrl--thegracenetworkai-project",
+      "source": "./graceemily1912-ctrl--thegracenetworkai-project",
+      "description": "thegracenetworkai-project"
     }
   ]
 }
