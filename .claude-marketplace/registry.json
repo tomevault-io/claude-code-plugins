@@ -83729,6 +83729,11 @@
       "description": "advpl-specialist"
     },
     {
+      "name": "minipuft--claude-prompts-mcp",
+      "source": "./minipuft--claude-prompts-mcp",
+      "description": "MCP server for reusable prompt templates, multi-step workflow chains, and quality gates. Compose agentic workflows with an operator syntax; export as native skills to Claude Code, Cursor, OpenCode, an"
+    },
+    {
       "name": "cksac--turboquant-model",
       "source": "./cksac--turboquant-model",
       "description": "turboquant-model"
@@ -101537,6 +101542,11 @@
       "name": "joshuaswarren--remnic",
       "source": "./joshuaswarren--remnic",
       "description": "remnic"
+    },
+    {
+      "name": "w0fv1--vertree",
+      "source": "./w0fv1--vertree",
+      "description": "\u5355\u6587\u4ef6\u7248\u672c\u7ba1\u7406\u7cfb\u7edf"
     },
     {
       "name": "anthaathi--pico",
@@ -281992,6 +282002,11 @@
       "name": "giantswarm--agentlab",
       "source": "./giantswarm--agentlab",
       "description": "Run the Giant Swarm agent platform locally: muster + Kubernetes MCP (optionally Backstage) on a throwaway kind cluster, with a bundled Dex as IdP"
+    },
+    {
+      "name": "iaaorgmx--paynani",
+      "source": "./iaaorgmx--paynani",
+      "description": "Todo lo que t\u00fa Agente AI necesita para usar su cuenta de correo electr\u00f3nico eficientemente.... Everything your AI Agent needs to use its own Email Account effectively."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
