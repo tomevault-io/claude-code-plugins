@@ -1,191 +1,523 @@
-# vibe-tools
+# alchemy
 
-> Global Rule. This rule should ALWAYS be loaded.
+> This document describes the process for going from zero to full Alchemy coverage for a single AWS service:
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/vibe-tools/SKILL.md
+Read and follow the instructions in .claude/skills/alchemy/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-vibe-tools is a CLI tool that allows you to interact with AI models and other tools.
-vibe-tools is installed on this machine and it is available to you to execute. You're encouraged to use it.
+# AWS Service Bring-Up Process
 
-<vibe-tools Integration>
-# Instructions
-Use the following commands to get AI assistance:
+This document describes the process for going from zero to full Alchemy coverage for a single AWS service:
 
-**Direct Model Queries:**
-`vibe-tools ask "<your question>" --provider <provider> --model <model>` - Ask any model from any provider a direct question (e.g., `vibe-tools ask "What is the capital of France?" --provider openai --model o3-mini`). Note that this command is generally less useful than other commands like `repo` or `plan` because it does not include any context from your codebase or repository. In general you should not use the ask command because it does not include any context. The other commands like `web`, `doc`, `repo`, or `plan` are usually better. If you are using it, make sure to include in your question all the information and context that the model might need to answer usefully.
+- all canonical resources
+- all bindings
+- all event sources
+- all ergonomic helpers
+- deterministic audit and test coverage checks
 
-**Ask Command Options:**
---provider=<provider>: AI provider to use (openai, anthropic, perplexity, gemini, modelbox, openrouter, or xai)
---model=<model>: Model to use (required for the ask command)
---reasoning-effort=<low|medium|high>: Control the depth of reasoning for supported models (OpenAI o1/o3-mini models and Claude 3.7 Sonnet). Higher values produce more thorough responses for complex questions.
+Use this process whenever adding a brand new AWS service or finishing an incomplete one.
 
-**Implementation Planning:**
-`vibe-tools plan "<query>"` - Generate a focused implementation plan using AI (e.g., `vibe-tools plan "Add user authentication to the login page"`)
-The plan command uses multiple AI models to:
-1. Identify relevant files in your codebase (using Gemini by default)
-2. Extract content from those files
-3. Generate a detailed implementation plan (using OpenAI o3-mini by default)
+## Goal
 
-**Plan Command Options:**
---fileProvider=<provider>: Provider for file identification (gemini, openai, anthropic, perplexity, modelbox, openrouter, or xai)
---thinkingProvider=<provider>: Provider for plan generation (gemini, openai, anthropic, perplexity, modelbox, openrouter, or xai)
---fileModel=<model>: Model to use for file identification
---thinkingModel=<model>: Model to use for plan generation
---with-doc=<doc_url>: Fetch content from a document URL and include it as context for both file identification and planning (e.g., `vibe-tools plan "implement feature X following the spec" --with-doc=https://example.com/feature-spec`)
+For a given AWS service, the end state should include:
 
-**Web Search:**
-`vibe-tools web "<your question>"` - Get answers from the web using a provider that supports web search (e.g., Perplexity models and Gemini Models either directly or from OpenRouter or ModelBox) (e.g., `vibe-tools web "latest shadcn/ui installation instructions"`)
-Note: web is a smart autonomous agent with access to the internet and an extensive up to date knowledge base. Web is NOT a web search engine. Always ask the agent for what you want using a proper sentence, do not just send it a list of keywords. In your question to web include the context and the goal that you're trying to acheive so that it can help you most effectively.
-when using web for complex queries suggest writing the output to a file somewhere like local-research/<query summary>.md.
+1. Every canonical Alchemy resource for that service.
+2. Every important AWS API operation represented either as:
+   - a binding,
+   - a resource lifecycle provider,
+   - an event source surface,
+   - or an intentional helper abstraction.
+3. Runtime-specific event-source implementations where applicable.
+4. End-to-end tests covering the implemented binding and event-source surface.
+5. Deterministic audit checks that report what is still missing.
 
-**Web Command Options:**
---provider=<provider>: AI provider to use (perplexity, gemini, modelbox, or openrouter)
+## Source Of Truth
 
-**Repository Context:**
-`vibe-tools repo "<your question>" [--subdir=<path>] [--from-github=<username/repo>] [--with-doc=<doc_url>]` - Get context-aware answers about this repository using Google Gemini (e.g., `vibe-tools repo "explain authentication flow"`). Use the optional `--subdir` parameter to analyze a specific subdirectory instead of the entire repository (e.g., `vibe-tools repo "explain the code structure" --subdir=src/components`). Use the optional `--from-github` parameter to analyze a remote GitHub repository without cloning it locally (e.g., `vibe-tools repo "explain the authentication system" --from-github=username/repo-name`). Use the optional `--with-doc` parameter to include content from a URL as additional context (e.g., `vibe-tools repo "implement feature X following the design spec" --with-doc=https://example.com/design-spec`).
+Start from the distilled spec in:
 
-**Documentation Generation:**
-`vibe-tools doc [options] [--with-doc=<doc_url>]` - Generate comprehensive documentation for this repository (e.g., `vibe-tools doc --output docs.md`). Can incorporate document context from a URL (e.g., `vibe-tools doc --with-doc=https://example.com/existing-docs`).
+- `submodules/distilled/packages/aws/src/services/<service>.ts`
 
-**YouTube Video Analysis:**
-`vibe-tools youtube "<youtube-url>" [question] [--type=<summary|transcript|plan|review|custom>]` - Analyze YouTube videos and generate detailed reports (e.g., `vibe-tools youtube "https://youtu.be/43c-Sm5GMbc" --type=summary`)
-Note: The YouTube command requires a `GEMINI_API_KEY` to be set in your environment or .vibe-tools.env file as the GEMINI API is the only interface that supports YouTube analysis.
+Never start from ad-hoc memory of the AWS service. The distilled spec is the source of truth for operations.
 
-**GitHub Information:**
-`vibe-tools github pr [number]` - Get the last 10 PRs, or a specific PR by number (e.g., `vibe-tools github pr 123`)
-`vibe-tools github issue [number]` - Get the last 10 issues, or a specific issue by number (e.g., `vibe-tools github issue 456`)
+## Core Concepts
 
-**ClickUp Information:**
-`vibe-tools clickup task <task_id>` - Get detailed information about a ClickUp task including description, comments, status, assignees, and metadata (e.g., `vibe-tools clickup task "task_id"`)
+Every distilled operation must be classified into one of these buckets:
 
-**Model Context Protocol (MCP) Commands:**
-Use the following commands to interact with MCP servers and their specialized tools:
-`vibe-tools mcp search "<query>"` - Search the MCP Marketplace for available servers that match your needs (e.g., `vibe-tools mcp search "git repository management"`)
-`vibe-tools mcp run "<query>"` - Execute MCP server tools using natural language queries (e.g., `vibe-tools mcp run "list files in the current directory" --provider=openrouter`). The query must include sufficient information for vibe-tools to determine which server to use, provide plenty of context.
+### 1. Binding
 
-The `search` command helps you discover servers in the MCP Marketplace based on their capabilities and your requirements. The `run` command automatically selects and executes appropriate tools from these servers based on your natural language queries. If you want to use a specific server include the server name in your query. E.g. `vibe-tools mcp run "using the mcp-server-sqlite list files in directory --provider=openrouter"`
+Use a binding when the operation is a runtime capability.
 
-**Notes on MCP Commands:**
-- MCP commands require `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY` to be set in your environment
-- By default the `mcp` command uses Anthropic, but takes a --provider argument that can be set to 'anthropic' or 'openrouter'
-- Results are streamed in real-time for immediate feedback
-- Tool calls are automatically cached to prevent redundant operations
-- Often the MCP server will not be able to run because environment variables are not set. If this happens ask the user to add the missing environment variables to the cursor tools env file at ~/.vibe-tools/.env
+Examples:
 
-**Stagehand Browser Automation:**
-`vibe-tools browser open <url> [options]` - Open a URL and capture page content, console logs, and network activity (e.g., `vibe-tools browser open "https://example.com" --html`)
-`vibe-tools browser act "<instruction>" --url=<url | 'current'> [options]` - Execute actions on a webpage using natural language instructions (e.g., `vibe-tools browser act "Click Login" --url=https://example.com`)
-`vibe-tools browser observe "<instruction>" --url=<url> [options]` - Observe interactive elements on a webpage and suggest possible actions (e.g., `vibe-tools browser observe "interactive elements" --url=https://example.com`)
-`vibe-tools browser extract "<instruction>" --url=<url> [options]` - Extract data from a webpage based on natural language instructions (e.g., `vibe-tools browser extract "product names" --url=https://example.com/products`)
+- `GetItem(table)`
+- `PutItem(table)`
+- `ListTables()`
+- `DescribeTable(table)`
 
-**Notes on Browser Commands:**
-- All browser commands are stateless unless --connect-to is used to connect to a long-lived interactive session. In disconnected mode each command starts with a fresh browser instance and closes it when done.
-- When using `--connect-to`, special URL values are supported:
-  - `current`: Use the existing page without reloading
-  - `reload-current`: Use the existing page and refresh it (useful in development)
-  - If working interactively with a user you should always use --url=current unless you specifically want to navigate to a different page. Setting the url to anything else will cause a page refresh loosing current state.
-- Multi step workflows involving state or combining multiple actions are supported in the `act` command using the pipe (|) separator (e.g., `vibe-tools browser act "Click Login | Type 'user@example.com' into email | Click Submit" --url=https://example.com`)
-- Video recording is available for all browser commands using the `--video=<directory>` option. This will save a video of the entire browser interaction at 1280x720 resolution. The video file will be saved in the specified directory with a timestamp.
-- DO NOT ask browser act to "wait" for anything, the wait command is currently disabled in Stagehand.
+Bindings are:
 
-**Tool Recommendations:**
-- `vibe-tools web` is best for general web information not specific to the repository. Generally call this without additional arguments.
-- `vibe-tools repo` is ideal for repository-specific questions, planning, code review and debugging. E.g. `vibe-tools repo "Review recent changes to command error handling looking for mistakes, omissions and improvements"`. Generally call this without additional arguments.
-- `vibe-tools plan` is ideal for planning tasks. E.g. `vibe-tools plan "Adding authentication with social login using Google and Github"`. Generally call this without additional arguments.
-- `vibe-tools doc` generates documentation for local or remote repositories.
-- `vibe-tools youtube` analyzes YouTube videos to generate summaries, transcripts, implementation plans, or custom analyses
-- `vibe-tools browser` is useful for testing and debugging web apps and uses Stagehand
-- `vibe-tools mcp` enables interaction with specialized tools through MCP servers (e.g., for Git operations, file system tasks, or custom tools)
+- one file per operation
+- the combined `Binding.Service` form (`interface X extends Binding.Service<X, "id", Shape>` + `const X = Binding.Service<X>("id")`); the deploy-time IAM registration is inlined into the impl layer under `if (!globalThis.__ALCHEMY_RUNTIME__)`, resolving the host via `yield* Binding.host`
+- usually named `alchemy/src/AWS/<Service>/<Operation>.ts` (callable + types) with the impl layer in `<Operation>Http.ts` (AWS runtime impls call the distilled HTTP API authenticated by the Lambda's IAM role; `Http`, not `Binding` — `Binding` is a Cloudflare native-worker concept)
 
-**Running Commands:**
-1. Use `vibe-tools <command>` to execute commands (make sure vibe-tools is installed globally using npm install -g vibe-tools so that it is in your PATH)
+### 2. Resource
 
-**General Command Options (Supported by all commands):**
---provider=<provider>: AI provider to use (openai, anthropic, perplexity, gemini, openrouter, modelbox, or xai). If provider is not specified, the default provider for that task will be used.
---model=<model name>: Specify an alternative AI model to use. If model is not specified, the provider's default model for that task will be used.
---max-tokens=<number>: Control response length
---save-to=<file path>: Save command output to a file (in *addition* to displaying it)
---help: View all available options (help is not fully implemented yet)
---debug: Show detailed logs and error information
+Use a resource when the operation set implies lifecycle ownership of infrastructure.
 
-**Repository Command Options:**
---provider=<provider>: AI provider to use (gemini, openai, openrouter, perplexity, modelbox, anthropic, or xai)
---model=<model>: Model to use for repository analysis
---max-tokens=<number>: Maximum tokens for response
---from-github=<GitHub username>/<repository name>[@<branch>]: Analyze a remote GitHub repository without cloning it locally
---subdir=<path>: Analyze a specific subdirectory instead of the entire repository
---with-doc=<doc_url>: Fetch content from a document URL and include it as context
+Examples:
 
-**Documentation Command Options:**
---from-github=<GitHub username>/<repository name>[@<branch>]: Generate documentation for a remote GitHub repository
---provider=<provider>: AI provider to use (gemini, openai, openrouter, perplexity, modelbox, anthropic, or xai)
---model=<model>: Model to use for documentation generation
---max-tokens=<number>: Maximum tokens for response
---with-doc=<doc_url>: Fetch content from a document URL and include it as context
+- `createTable` / `updateTable` / `deleteTable` -> `Table`
+- `createBucket` / `deleteBucket` -> `Bucket`
 
-**YouTube Command Options:**
---type=<summary|transcript|plan|review|custom>: Type of analysis to perform (default: summary)
+Resources are:
 
-**GitHub Command Options:**
---from-github=<GitHub username>/<repository name>[@<branch>]: Access PRs/issues from a specific GitHub repository
+- canonical Alchemy infrastructure entities
+- implemented as `Resource` contract + provider in a single file
 
-**Browser Command Options (for 'open', 'act', 'observe', 'extract'):**
---console: Capture browser console logs (enabled by default, use --no-console to disable)
---html: Capture page HTML content (disabled by default)
---network: Capture network activity (enabled by default, use --no-network to disable)
---screenshot=<file path>: Save a screenshot of the page
---timeout=<milliseconds>: Set navigation timeout (default: 120000ms for Stagehand operations, 30000ms for navigation)
---viewport=<width>x<height>: Set viewport size (e.g., 1280x720). When using --connect-to, viewport is only changed if this option is explicitly provided
---headless: Run browser in headless mode (default: true)
---no-headless: Show browser UI (non-headless mode) for debugging
---connect-to=<port>: Connect to existing Chrome instance. Special values: 'current' (use existing page), 'reload-current' (refresh existing page)
---wait=<time:duration or selector:css-selector>: Wait after page load (e.g., 'time:5s', 'selector:#element-id')
---video=<directory>: Save a video recording (1280x720 resolution, timestamped subdirectory). Not available when using --connect-to
---url=<url>: Required for `act`, `observe`, and `extract` commands. Url to navigate to before the main command or one of the special values 'current' (to stay on the current page without navigating or reloading) or 'reload-current' (to reload the current page)
---evaluate=<string>: JavaScript code to execute in the browser before the main command
+### 3. Event Source
 
-**Nicknames**
-Users can ask for these tools using nicknames
-Gemini is a nickname for vibe-tools repo
-Perplexity is a nickname for vibe-tools web
-Stagehand is a nickname for vibe-tools browser
-If people say "ask Gemini" or "ask Perplexity" or "ask Stagehand" they mean to use the `vibe-tools` command with the `repo`, `web`, or `browser` commands respectively.
+Use an event source when the service can push records/events into a runtime.
 
-**Xcode Commands:**
-`vibe-tools xcode build [buildPath=<path>] [destination=<destination>]` - Build Xcode project and report errors.
-**Build Command Options:**
---buildPath=<path>: (Optional) Specifies a custom directory for derived build data. Defaults to ./.build/DerivedData.
---destination=<destination>: (Optional) Specifies the destination for building the app (e.g., 'platform=iOS Simulator,name=iPhone 16 Pro'). Defaults to 'platform=iOS Simulator,name=iPhone 16 Pro'.
+This always has two layers:
 
-`vibe-tools xcode run [destination=<destination>]` - Build and run the Xcode project on a simulator.
-**Run Command Options:**
---destination=<destination>: (Optional) Specifies the destination simulator (e.g., 'platform=iOS Simulator,name=iPhone 16 Pro'). Defaults to 'platform=iOS Simulator,name=iPhone 16 Pro'.
+1. Service-level abstraction in `alchemy/src/AWS/<Service>/...`
+2. Runtime-specific implementation in places like:
+   - `alchemy/src/AWS/Lambda/...`
+   - `alchemy/src/Process/...`
 
-`vibe-tools xcode lint` - Run static analysis on the Xcode project to find and fix issues.
+Examples:
 
-**Additional Notes:**
-- For detailed information, see `node_modules/vibe-tools/README.md` (if installed locally).
-- Configuration is in `vibe-tools.config.json` (or `~/.vibe-tools/config.json`).
-- API keys are loaded from `.vibe-tools.env` (or `~/.vibe-tools/.env`).
-- ClickUp commands require a `CLICKUP_API_TOKEN` to be set in your `.vibe-tools.env` file.
-- Available models depend on your configured provider (OpenAI, Anthropic, xAI, etc.) in `vibe-tools.config.json`.
-- repo has a limit of 2M tokens of context. The context can be reduced by filtering out files in a .repomixignore file.
-- problems running browser commands may be because playwright is not installed. Recommend installing playwright globally.
-- MCP commands require `ANTHROPIC_API_KEY` or `OPENROUTER_API_KEY`
-- **Remember:** You're part of a team of superhuman expert AIs. Work together to solve complex problems.
-- **Repomix Configuration:** You can customize which files are included/excluded during repository analysis by creating a `repomix.config.json` file in your project root. This file will be automatically detected by `repo`, `plan`, and `doc` commands.
+- `consumeBucketEvents(bucket, handler)`
+- `consumeQueueMessages(queue, handler)`
+- `consumeTableChanges(table, handler)` for DynamoDB-style change streams
 
-<!-- vibe-tools-version: 0.60.6 -->
-</vibe-tools Integration>
+### 4. Helper
+
+Use a helper when multiple raw operations should collapse into a more ergonomic surface.
+
+Examples:
+
+- `consumeBucketEvents(bucket, handler)`
+- `consumeQueueMessages(queue, handler)`
+- batch or transaction wrappers
+
+Helpers should not hide missing low-level primitives. Implement the primitives first.
+
+## Resource Arity
+
+Classify each binding by resource arity:
+
+- `0`: service/account scoped
+  - example: `ListTables`
+- `1`: one resource
+  - example: `GetItem(table)`
+- `2+`: multiple resources
+  - example: `RestoreTableToPointInTime(fromTable, toTable)`
+  - example: copy, batch, or transaction style operations
+
+This classification helps decide:
+
+- binding shape
+- helper shape
+- policy shape
+- whether the operation belongs on a resource or service surface
+
+Arity should be modeled in terms of canonical resources whenever possible.
+
+- good: a `2`-arity binding accepts `<From extends Table, To extends Table>`
+- bad: a `2`-resource operation accepts one `Table` plus a raw `string` target name
+- only fall back to raw identifiers when there is no real canonical resource to bind against
+- when there's a missing canonical resource, that might suggest we need to add one
+
+### Case Study: `ExecuteTransaction`
+
+Use `ExecuteTransaction` as the reference pattern for bindings that touch `1..*` canonical resources.
+
+The ambiguity we want to avoid is:
+
+- bad: `ExecuteTransaction()` with IAM `Resource: ["*"]`
+- bad: `ExecuteTransaction(tableNames: string[])`
+- bad: a SID like `AWS.DynamoDB.ExecuteTransaction(2 table(s))` that hides which resources were bound
+
+The required pattern is:
+
+- good: `ExecuteTransaction(tableA, tableB, ...)`
+- good: the binding type requires at least one table
+- good: the policy enumerates exactly those table ARNs
+- good: the SID is deterministic and names the participating resources
+
+Runbook for any `1..*` resource-bound binding:
+
+1. Model the binding arguments as a non-empty tuple of canonical resources.
+2. Call `.bind(resourceA, resourceB, ...)`, never `.bind()` with hidden resource discovery.
+3. Before constructing the SID, sort the resources by `LogicalId` so equivalent calls produce the same binding identity.
+4. Pass the sorted resource array into the `host.bind` template so the SID renders each resource name explicitly, for example `AWS.DynamoDB.ExecuteTransaction(TableA, TableB)`.
+5. Build IAM `Resource` from those same sorted resources, for example `sortedTables.map((table) => table.tableArn)`.
+6. Only use `Resource: ["*"]` if the operation is truly service-scoped or AWS IAM does not support resource-level scoping for that API.
+
+Reference shape:
+
+```ts
+type ExecuteTransactionTables = [Table, ...Table[]];
+
+const sortedTables = [...tables].sort((a, b) =>
+  a.LogicalId.localeCompare(b.LogicalId),
+);
+
+yield *
+  host.bind`Allow(${host}, AWS.DynamoDB.ExecuteTransaction(${sortedTables}))`({
+    policyStatements: [
+      {
+        Effect: "Allow",
+        Action: [
+          "dynamodb:PartiQLSelect",
+          "dynamodb:PartiQLInsert",
+          "dynamodb:PartiQLUpdate",
+          "dynamodb:PartiQLDelete",
+        ],
+        Resource: sortedTables.map((table) => table.tableArn),
+      },
+    ],
+  });
+```
+
+## Full Bring-Up Loop
+
+Follow this loop until audit is clean or only intentionally deferred items remain.
+
+### Step 1: Run Audit
+
+Run:
+
+```bash
+pnpm audit:service dynamodb
+```
+
+The audit should report:
+
+- implemented bindings
+- missing bindings
+- resource lifecycle ops
+- event source ops
+- helper candidates
+- registration gaps
+- missing binding tests
+
+### Step 2: Build The Service Model
+
+Before coding, explicitly answer:
+
+1. What are the canonical resources?
+2. What bindings belong to each resource?
+3. What service-scoped bindings exist?
+4. What event-source surfaces exist?
+5. What helpers should exist?
+6. Which items are intentionally deferred?
+
+For DynamoDB, for example:
+
+- canonical resource: `Table`
+- folded table-owned surface: local/global secondary indexes live on `Table`, not a standalone `SecondaryIndex` resource
+- bindings: item/table/admin operations
+- event source: Kinesis streaming destination / change stream surface
+- helper: `consumeTableChanges(table, props?, handler)`
+
+### Step 3: Implement Missing Bindings
+
+Implement the smallest coherent slice first.
+
+Good order:
+
+1. read/admin bindings
+2. write/update bindings
+3. transaction/batch bindings
+4. restore or special-case bindings
+
+Binding conventions:
+
+- one file per operation
+- no auto-marshalling
+- user passes raw AWS SDK/distilled types
+- the binding should mostly inject resource identifiers like `TableName`
+- policies should be explicit and minimal
+- if an operation is `2+`-arity, the binding should capture all participating resources so the policy can stay least-privilege
+- never use `Resource: ["*"]` for a resource-bound binding if it can be avoided by passing canonical resources to `.bind(...)`
+- if an operation touches `1..*` canonical resources, model the binding to accept those resources explicitly so the policy can enumerate only those ARNs
+- `Resource: ["*"]` is only acceptable when the operation is truly service-scoped or AWS does not support narrower resource-level IAM for that API
+- do not add IAM `Sid` fields in binding policy statements unless there is a demonstrated AWS requirement for one
+
+Example:
+
+- good: `GetItemRequest extends Omit<GetItemInput, "TableName">`
+- bad: replacing AWS input types with custom marshalled `Record<string, any>`
+
+### Step 4: Register Everything
+
+After each binding/resource implementation, update:
+
+1. `alchemy/src/AWS/<Service>/index.ts`
+2. `alchemy/src/AWS/Providers.ts`
+
+If registration is missing, audit should flag it.
+
+### Step 5: Add Binding Tests Immediately
+
+Every implemented binding should have a corresponding `describe("<BindingName>")` block in:
+
+- `alchemy/test/AWS/<Service>/Bindings.test.ts`
+
+Examples:
+
+```ts
+describe("GetItem", () => {
+  test("gets an existing item", ...);
+  test("returns undefined for missing item", ...);
+});
+```
+
+```ts
+describe("PutItem", () => {
+  test("puts an item into the table", ...);
+});
+```
+
+Deterministic rule:
+
+- if a binding exists, audit should warn if the matching `describe("<BindingName>")` block is missing
+
+### Step 6: Use A Real Lambda Fixture
+
+Use a real Lambda fixture in:
+
+- `alchemy/test/AWS/<Service>/handler.ts`
+
+Pattern:
+
+1. create resource(s)
+2. bind operations
+3. expose HTTP endpoints for each tested operation
+4. use those endpoints from the E2E test
+
+This keeps tests end-to-end while still giving fine-grained per-binding coverage.
+
+Layer provisioning rule:
+
+- when a Lambda fixture provides both composite layers and foundational binding layers, do not put them all in one flat `Layer.mergeAll(...)`
+- composite layers include event sources, sinks, and higher-level helpers that themselves depend on lower-level bindings
+- foundational layers include the binding/capability implementations such as `GetItemLive`, `PutObjectLive`, `PublishLive`, `PublishBatchLive`, and similar
+- use `Effect.provide(Layer.provideMerge(...))` so the foundational layer group is provided to the composite layer group
+- otherwise `Layer.mergeAll(...)` only unions outputs and requirements, and sibling layers do not satisfy each other's requirements
+
+Required shape:
+
+```ts
+Effect.provide(
+  Layer.provideMerge(
+    Layer
+      .mergeAll
+      // composite services: event sources, sinks, helpers
+      (),
+    Layer
+      .mergeAll
+      // foundational bindings/capabilities they depend on
+      (),
+  ),
+);
+```
+
+Example failure mode:
+
+- `TopicSinkLive` depends on `PublishBatch`
+- if `TopicSinkLive` and `PublishBatchLive` are only siblings in the same `Layer.mergeAll(...)`, the final Lambda effect still requires `PublishBatch`
+- grouping them with `Layer.provideMerge(...)` removes that leaked requirement
+
+### Step 7: Make Setup Observable
+
+Fixture setup must log clearly:
+
+- destroying previous resources
+- deploying fixture
+- function URL
+- readiness probe URL
+- readiness retries
+- readiness success
+
+If setup is confusing, add logs before adding retries.
+
+### Step 8: Keep Readiness Failure Fast
+
+Do not wait minutes for a function to become ready.
+
+Current convention:
+
+- if the function is not ready in about 20 seconds, fail the setup
+
+Use a short retry budget and log each failed readiness attempt.
+
+### Step 9: Implement Missing Resource Surface
+
+Once bindings are in good shape, fill missing resource-level gaps:
+
+- missing resource providers
+- placeholder resources
+- resource update/delete gaps
+- missing nested infrastructure surfaces such as indexes or replicas
+
+Important:
+
+- audit may only recognize canonical resources implied directly by lifecycle operations
+- you must still inspect the service for real resource-shaped gaps not fully inferred by the script
+
+Example:
+
+- a placeholder like `SecondaryIndex.ts` still counts as incomplete coverage until it is either removed or folded into the canonical resource model
+
+### Step 10: Implement Event Sources
+
+For stream/notification services:
+
+1. define a service-level abstraction
+2. add runtime-specific implementation(s)
+3. add helper surface
+4. add tests
+
+When the event source needs an intermediate canonical resource, the binding should
+create that resource automatically instead of forcing user code to instantiate it.
+SNS is the reference case:
+
+- the public binding is `notifications(topic, handler)`
+- the Lambda runtime policy creates the `Subscription` resource automatically
+- any service-to-Lambda invoke permission stays in the runtime policy layer that
+  wires the event source, not in user code
+- the canonical resource still exists and can be used directly when needed; the
+  helper just creates it on behalf of the user
+
+For DynamoDB-style changes this likely means:
+
+1. table-side stream/destination surface
+2. Lambda runtime integration
+3. `consumeTableChanges(table, props?, handler)` helper
+4. E2E coverage
+
+### Step 11: Implement Helpers
+
+After low-level primitives exist, add ergonomic helpers for:
+
+- stream subscriptions
+- batch operations
+- transactions
+
+Helpers should feel native to Alchemy and match established service patterns.
+
+### Case Study: DynamoDB Streams
+
+DynamoDB Streams is the reference pattern for mutable event-source configuration that belongs to a canonical resource but still needs binding-based composition.
+
+Required shape:
+
+- the canonical resource remains `Table`
+- `Table` keeps stream state in its attributes, but does not accept `streamSpecification` as a plain input prop
+- stream enablement is requested through the table binding contract
+- the public helper is `consumeTableChanges(table, props?, handler)`
+- the service-level abstraction lives in `alchemy/src/AWS/DynamoDB/Stream.ts`
+- the Lambda runtime implementation lives in `alchemy/src/AWS/Lambda/TableEventSource.ts`
+
+Why this pattern exists:
+
+- stream enablement mutates the table itself
+- the consumer is another resource, usually a Lambda Function
+- prop-driven stream configuration makes circular composition awkward
+- bindings let the consumer request the mutation while `Table` stays the canonical owner of stream state
+
+Implementation rules:
+
+1. The helper attaches stream requirements to `Table` through bindings.
+2. The `Table` provider derives the effective stream configuration from bindings during `create` and `update`.
+3. Zero stream bindings means the table stream should be disabled.
+4. Multiple bindings may coexist only when they request the same `StreamViewType`.
+5. Conflicting `StreamViewType` requests must fail deterministically before AWS calls are made.
+6. Runtime-specific layers handle IAM, host wiring, and event-source mapping resources; they do not move stream ownership out of `Table`.
+
+Lambda-first slice:
+
+- implement `consumeTableChanges(table, props?, handler)` first for Lambda
+- the Lambda layer binds the table stream requirement, grants stream-read IAM, and creates `AWS.Lambda.EventSourceMapping`
+- Process or other runtimes can be added later without changing `Table` back to a prop-driven stream model
+
+### Step 12: Re-Run Tests And Audit
+
+After every meaningful slice:
+
+1. run the service-specific E2E tests
+2. rerun `pnpm audit:service <service>`
+3. use the updated output to choose the next slice
+
+Repeat until:
+
+- no important missing bindings remain
+- resource surface is complete
+- event-source surface is complete
+- tests are in place
+
+## Deterministic Checks We Want
+
+The audit should help enforce:
+
+1. Missing bindings from distilled operations.
+2. Missing registration in `index.ts`.
+3. Missing registration in `Providers.ts`.
+4. Missing `describe("<BindingName>")` blocks in `Bindings.test.ts`.
+5. Avoidable `Resource: ["*"]` usage in non-zero-arity bindings.
+
+Over time it should also grow to flag:
+
+6. placeholder resources with no provider
+7. missing event-source surface for detected stream operations
+8. missing helper surface for known event-source patterns
+
+## AWS-Specific Conventions Learned
+
+### No Auto-Marshalling
+
+Bindings do not auto-marshall request/response payloads for DynamoDB-style operations.
+
+User responsibility:
+
+- pass raw AWS/distilled input types
+- marshal/unmarshal attribute values themselves
+
+### `Output.interpolate`
+
+Only use `Output.interpolate` when actually composing a string.
+
+Examples:
+
+- good: `table.tableArn`
+- good: `Output.interpolate\`${table.tableArn}/index/\*\``
+- bad: `Output.interpolate\`${table.tableArn}\``
+
+### `Effect.orDie`
+
+For Lambda test fixtures, apply `Effect.orDie` once at the outer request handler layer, not repeatedly per route.
+
+### Binding Test Structure
+
+Use one `describe("<BindingName>")` block per binding.
+
+Inside that block:
+
+- happy path
+- relevant unhappy paths
+
+Do not lump all bindings into one large undifferentiated test block.
 
 ---
 > Source: [alchemy-run/alchemy](https://github.com/alchemy-run/alchemy) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-18 -->
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
