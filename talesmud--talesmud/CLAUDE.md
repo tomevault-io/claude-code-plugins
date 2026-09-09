@@ -12,7 +12,7 @@ Read and follow the instructions in .claude/skills/talesmud/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Claude Code Instructions
+# Codex Instructions
 
 ## Documentation Update Requirements
 
@@ -80,4 +80,4 @@ import { roomColumns } from "./tableColumns.js"; // or npcColumns, scriptColumns
 
 ---
 > Source: [TalesMUD/talesmud](https://github.com/TalesMUD/talesmud) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-23 -->
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
