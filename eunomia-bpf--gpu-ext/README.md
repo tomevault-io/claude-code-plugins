@@ -1,0 +1,28 @@
+# gpu_ext
+
+> Tome by [eunomia-bpf](https://github.com/eunomia-bpf/gpu_ext), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [eunomia-bpf/gpu_ext](https://github.com/eunomia-bpf/gpu_ext).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/eunomia-bpf/gpu_ext](https://github.com/eunomia-bpf/gpu_ext)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install eunomia-bpf/gpu_ext
+```
+Source: [github.com/eunomia-bpf/gpu_ext](https://github.com/eunomia-bpf/gpu_ext).
+
+<!-- genome:t-i-p -->
