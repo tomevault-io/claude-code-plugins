@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [zentinelproxy/zentinel](https://github.com/zent
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [zentinelproxy/zentinel](https://github.com/zentinelproxy/zentinel) — a repo with 95+ stars on GitHub.
+From [zentinelproxy/zentinel](https://github.com/zentinelproxy/zentinel) — a repo with 108+ stars on GitHub.
 
 ---
 
