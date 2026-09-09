@@ -1,0 +1,28 @@
+# tresdoce-nestjs-toolkit
+
+> Source: [tresdoce/tresdoce-nestjs-toolkit](https://github.com/tresdoce/tresdoce-nestjs-toolkit). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [tresdoce/tresdoce-nestjs-toolkit](https://github.com/tresdoce/tresdoce-nestjs-toolkit).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/tresdoce/tresdoce-nestjs-toolkit](https://github.com/tresdoce/tresdoce-nestjs-toolkit)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install tresdoce/tresdoce-nestjs-toolkit
+```
+Source: [github.com/tresdoce/tresdoce-nestjs-toolkit](https://github.com/tresdoce/tresdoce-nestjs-toolkit).
+
+<!-- genome:d-i-p -->
