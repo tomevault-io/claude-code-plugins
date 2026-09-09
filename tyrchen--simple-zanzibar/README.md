@@ -1,6 +1,8 @@
 # simple-zanzibar
 
-> Tome by [tyrchen](https://github.com/tyrchen/simple-zanzibar) — distributed by [TomeVault](https://tomevault.io)
+> Tome by [tyrchen](https://github.com/tyrchen/simple-zanzibar), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+A simplified zanzibar implementation, built with AI
 
 ## Claude Code Config
 
