@@ -1,0 +1,24 @@
+# type4me
+
+> Source: [joewongjc/type4me](https://github.com/joewongjc/type4me). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [joewongjc/type4me](https://github.com/joewongjc/type4me).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [joewongjc/type4me](https://github.com/joewongjc/type4me) — a repo with 1430+ stars on GitHub.
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-s -->
