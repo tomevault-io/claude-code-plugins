@@ -1,0 +1,38 @@
+# poxy
+
+> See @README.md for a description of this project.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/poxy/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+See @README.md for a description of this project.
+
+See @CONTRIBUTING.md for contribution guidelines.
+
+Comments in code should be terse and to-the-point, documenting _why_, not _what_:
+
+- Primarily lowercase (language snippets excepted)
+- At most 1-2 lines, no paragraphs unless absolutely necessary
+- If a comment adds no value, DO NOT LEAVE ONE.
+- No LLM voice slop
+- No over-embellishing
+- No re-explaining things that are plainly obvious from the code itself
+- No using things like backticks - code isn't markdown
+- No using unicode (no em dashes, en dashes, arrows, or anything else non-ASCII)
+- No excessive punctuation (language snippets excepted)
+- Comments in unit-tests can often be folded into TEST_CASE or SECTION names
+- NO LLM VOICE SLOP
+
+ANY COMMENTS THAT DO NOT MEET THE ABOVE CRITERIA SHOULD BE CONSIDERED A BUG AND AGGRESSIVELY FLAGGED DURING REVIEW.
+Obviously-human comments like in-jokes, banners/headers and slang are fine.
+
+---
+> Source: [marzer/poxy](https://github.com/marzer/poxy) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
