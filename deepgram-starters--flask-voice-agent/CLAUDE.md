@@ -1,38 +1,23 @@
-# deepgram-toml
+# env-requirements
 
-> deepgram.toml Requirements
+> Environment File Requirements
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/deepgram-toml/SKILL.md
+Read and follow the instructions in .claude/skills/env-requirements/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# deepgram.toml Requirements
 
-## File Format
-```toml
-[meta]
-title = "Flask Agent Starter" # title of the app
-description = "Get started using Deepgram's Voice Agent with this Flask demo app" # description of the app
-author = "Deepgram DX Team <devrel@deepgram.com> (https://developers.deepgram.com)" # contact details of the DX team
-useCase = "Agent" # or TTS, Agent, TextIntel,
-language = "Python" # the language used in the main file
-framework = "Flask" # short key for the framework, or remove if null
-sdk = "4.0.0" # version of the SDK, or remove if no SDK used
+# Environment File Requirements
 
-[build]
-command = "pipenv install -r requirements.txt" # the command to set up the app to run it
-
-[config]
-DEEPGRAM_API_KEY="YOUR_DEEPGRAM_API_KEY" python app.py
-
-[post-build]
-command = "python app.py" # the command the user will run to start the app
+## sample.env Content
+```bash
+DEEPGRAM_API_KEY=%deepgram_api_key%
 ```
 
 ---
