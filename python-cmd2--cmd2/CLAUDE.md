@@ -1,6 +1,6 @@
 # cmd2
 
-> This `GEMINI.md` file provides context and instructions for the Gemini CLI when working with this
+> This file provides context and instructions for the agentic AI tools when working with this Python
 
 ## Usage
 
@@ -12,10 +12,10 @@ Read and follow the instructions in .claude/skills/cmd2/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Instructions for Gemini CLI in a `uv` Python project
+# Instructions for AI Agents
 
-This `GEMINI.md` file provides context and instructions for the Gemini CLI when working with this
-Python project, which utilizes `uv` for environment and package management.
+This file provides context and instructions for the agentic AI tools when working with this Python
+project, which utilizes `uv` for environment and package management.
 
 ## General Instructions
 
@@ -55,4 +55,4 @@ All 3 of the above commands should be run prior to committing code.
 
 ---
 > Source: [python-cmd2/cmd2](https://github.com/python-cmd2/cmd2) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
