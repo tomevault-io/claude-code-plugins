@@ -1,0 +1,45 @@
+# twitter-php
+
+> It is my fervent wish that this file guide every AI coding agent working with code in this repository.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/twitter-php/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# To My Agents!
+
+It is my fervent wish that this file guide every AI coding agent working with code in this repository.
+
+## Overview
+
+X for PHP (`dg/twitter-php`) — a PHP library for the X (formerly Twitter) API v2 using OAuth 1.0a authentication. Requires PHP 8.2+ and Guzzle HTTP client.
+
+## Architecture
+
+Two source files in `src/`:
+
+- **`Client.php`** — Main API client (`DG\X\Client`). All X operations: `sendTweet()`, `deleteTweet()`, `getTweet()`, `getMyTweets()`, `getTimeline()`, `getMentions()`, `search()`, `getUser()`, `getUserById()`, `getFollowers()`, `follow()`, `sendDirectMessage()`, plus generic `request()` for any v2 endpoint. Uses Guzzle for HTTP, inline OAuth 1.0a signing, optional file-based caching. Backward compatibility aliases for `DG\Twitter\Twitter` and `Twitter` at file bottom.
+- **`Exception.php`** — `DG\X\Exception` with aliases for `DG\Twitter\Exception` and `TwitterException`.
+
+Autoloading uses classmap. Media upload still uses Twitter API v1.1 endpoint (`upload.twitter.com`).
+
+## Commands
+
+```bash
+composer tester        # run tests (Nette Tester)
+composer phpstan       # run PHPStan level 8
+```
+
+## Testing
+
+Tests in `tests/Client/` using Nette Tester (`.phpt` files). Unit tests run always; integration tests require env vars `X_CONSUMER_KEY`, `X_CONSUMER_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET` and are skipped otherwise.
+
+---
+> Source: [dg/twitter-php](https://github.com/dg/twitter-php) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-08 -->
