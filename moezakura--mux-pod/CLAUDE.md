@@ -1,0 +1,33 @@
+# mux-pod
+
+> make analyze   # flutter analyze
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/mux-pod/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Notes
+
+## Verification Commands
+
+```bash
+make analyze   # flutter analyze
+make test      # flutter test
+make build-apk # flutter build apk --release --dart-define=GIT_REF=...
+```
+
+## Notes
+
+- `make build-apk` in this checkout fails at the packaging step because `android/app/upload-keystore.jks` is not present. Compilation itself succeeds; this is a signing/keystore environment issue, not a code issue.
+- `analysis_options.yaml` should not globally ignore `deprecated_member_use_from_same_package`. Deprecated alias tests use `// ignore_for_file: deprecated_member_use_from_same_package` instead.
+- Connection settings are stored in `multiplexer` (backend + executablePath) form. Legacy `tmuxPath` is migrated on startup via `ConnectionMigration`.
+
+---
+> Source: [moezakura/mux-pod](https://github.com/moezakura/mux-pod) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
