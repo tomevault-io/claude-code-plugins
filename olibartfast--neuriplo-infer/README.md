@@ -5,17 +5,17 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [olibartfast/neuriplo-infer](https://github.com/olibartfast/neuriplo-infer).
+Original source: `copilot-instructions.md` in [olibartfast/neuriplo-infer](https://github.com/olibartfast/neuriplo-infer).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [olibartfast/neuriplo-infer](https://github.com/olibartfast/neuriplo-infer) — a repo with 104+ stars on GitHub.
+From [olibartfast/neuriplo-infer](https://github.com/olibartfast/neuriplo-infer) — a repo with 105+ stars on GitHub.
 
 ---
 
