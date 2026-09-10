@@ -1,0 +1,35 @@
+# python-substack
+
+> `GEMINI.md` is the authoritative project memory for every agent working in
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/python-substack/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Shared agent instructions
+
+`GEMINI.md` is the authoritative project memory for every agent working in
+this repository. Read it completely before inspecting, changing, or running
+the project, and follow it for the entire task.
+
+Repository workflows and policies under `.gemini/` are shared agent settings,
+not Gemini-only guidance. Read the relevant files before performing the
+corresponding operation. If an agent does not support the Gemini slash-command
+syntax, follow the command prompt manually:
+
+- `.gemini/commands/release/prepare.toml` defines release preparation.
+- `.gemini/commands/release/verify.toml` defines release verification.
+- `.gemini/policies/git-override.toml` records repository Git tool policy.
+
+Tool policies never override the user's request, the host's permissions, or
+higher-priority safety instructions.
+
+---
+> Source: [ma2za/python-substack](https://github.com/ma2za/python-substack) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
