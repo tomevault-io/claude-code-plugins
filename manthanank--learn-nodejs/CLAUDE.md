@@ -1,6 +1,6 @@
 # learn-nodejs
 
-> - Use TypeScript 5.7+ with strict typing and ESM imports.
+> - Modern TypeScript 5.7+ with NodeNext ESM.
 
 ## Usage
 
@@ -12,12 +12,11 @@ Read and follow the instructions in .claude/skills/learn-nodejs/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# GitHub Copilot Instructions - learn-nodejs
+# Junie Coding Guidelines - learn-nodejs
 
-- Use TypeScript 5.7+ with strict typing and ESM imports.
-- Express 5 controllers should use standard Request and Response signatures.
-- Prefer `node:` prefix for built-in modules (`node:stream`, `node:worker_threads`, `node:util`, `node:path`, `node:url`).
-- Ensure all asynchronous calls are properly awaited or chained with catch handlers.
+- Modern TypeScript 5.7+ with NodeNext ESM.
+- Maintain test-driven safety via `npm test`.
+- Use `node:` namespace for Node standard library imports.
 
 ---
 > Source: [manthanank/learn-nodejs](https://github.com/manthanank/learn-nodejs) — distributed by [TomeVault](https://tomevault.io).
