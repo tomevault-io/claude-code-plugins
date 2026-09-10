@@ -131,4 +131,4 @@ Run `/publish-mcp` before any `npm publish` — mandatory pipeline that handles 
 
 ---
 > Source: [aplaceforallmystuff/mcp-arr](https://github.com/aplaceforallmystuff/mcp-arr) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-08 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
