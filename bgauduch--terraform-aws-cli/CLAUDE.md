@@ -1,6 +1,6 @@
 # terraform-aws-cli
 
-> Entry point for any agent working `terraform-aws-cli`. Claude Code adapter:
+> Binding conventions for every contributor, human or agent. Each section below
 
 ## Usage
 
@@ -12,53 +12,95 @@ Read and follow the instructions in .claude/skills/terraform-aws-cli/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# AGENTS.md — instructions for agents working this repository
+# Working conventions
 
-Entry point for any agent working `terraform-aws-cli`. Claude Code adapter:
-`CLAUDE.md` (ADR-0009); another tool adds its own thin adapter.
+Binding conventions for every contributor, human or agent. Each section below
+has a stable anchor — other docs **link to a section, never restate it**.
+Agent-session rules (authorization boundaries, roles) live in
+[`AGENTS.md`](../AGENTS.md).
 
-## Sources of truth (read in order)
+## How rules are written
 
-1. **Tracking issue [#106](https://github.com/bgauduch/terraform-aws-cli/issues/106)** — live status (open PRs/issues, next actions). Its **body is the status SSOT**, edited in place. Keep it current when state changes.
-2. **[`docs/conventions.md`](docs/conventions.md)** — the working conventions binding every contributor (branching, commits, delivery, ADRs, docs/language).
-3. **[`docs/roadmap.md`](docs/roadmap.md)** — the plan (phases + Decisions table).
-4. **[`docs/adr/`](docs/adr/)** — the decisions and their rationale.
+- One bold imperative sentence, plus at most two supporting sentences.
+- Binary: a reviewer can answer yes/no "was this followed?" on a given change.
+  Advisory guidance lives in `docs/` or an ADR, not here.
+- No judgement words; `NEVER` / `ALWAYS` / `MAY` mark the binding verbs.
+- Evolutions: append to the relevant section — per-section numbers (B1, C2, …)
+  never shift; git history is the change record; new rules arrive via the
+  learning pipeline (L4). Durable records (ADRs) reference rules **by
+  concept**, not by number.
+- If this file outgrows quick scanning (~150 lines), split it into
+  `docs/conventions/` (one file per section) — as an explicit, separate change.
 
-One home per fact: reference these, never copy them.
+## Branching
 
-## Session rules (binding for agents)
+- **B1 — Branches are named `type/<topic>`**: a Conventional-Commits type + a
+  short kebab-case slug, off `master`. `NEVER` tool or agent names (tools
+  default to them). See ADR-0008.
+- **B2 — Every change flows through a branch and a pull request.** `NEVER` push
+  `master` directly.
+- **B3 — `NEVER` force-push, amend pushed commits, or rewrite shared history.**
+  Add commits on top; integrate `master` by merging it into the branch (the
+  squash-merge flattens it at the end).
 
-- **`NEVER` merge a pull request** — the human owns the merge, always.
-- **Open PRs and drive their CI to green autonomously** (ADR-0012). Report and
-  wait when a fix is ambiguous, architecturally significant, or beyond the PR's
-  declared scope.
-- **`NEVER` delete a branch, tag, or remote ref** without explicit approval.
-- **`ALWAYS` put a decision that is the maintainer's through the session's
-  question tool** — a question trailing a message is not a pending decision, it
-  is lost scrollback. Batch the open ones rather than asking one per message.
-- **Net-new work enters through the intake pipeline** (ADR-0014,
-  [`docs/work-intake-and-triage.md`](docs/work-intake-and-triage.md)): dedupe
-  and get a human `go` before creating an issue or starting delivery. Trivial
-  hygiene skips to realisation.
-- **Roles (ADR-0006):** `orchestrator` (planning, diff review before push, ADR
-  drafting), `executor` (scoped implementation), `reviewer` (diff/lint/security
-  passes). Executor output is diff-reviewed by the orchestrator before push.
-  The role→model mapping lives only in `.claude/settings.json`. Phase briefs are
-  ephemeral (conversation only) — reconstructable from the roadmap + ADRs.
-- **Session commits end with the session trailer** — the git trailers appended
-  to the commit body identifying the agent and linking the session (e.g.
-  `Co-Authored-By: …` + the session URL). Traceability: commit → session.
-- The [working conventions](docs/conventions.md) bind agents too.
+## Commits
 
-## Verifying before you push
+- **C1 — Conventional Commits for commit messages AND PR titles**
+  (`type(scope): subject`, enforced by commitlint). The PR title becomes the
+  squash-merge subject and feeds the release-please changelog.
+- **C2 — One commit per logical change.**
+- **C3 — `NEVER` bypass hooks** (no `--no-verify`, no `--no-gpg-sign`) — a
+  failing hook is a signal; fix the cause.
+- **C4 — A `!` subject ships with a `BREAKING CHANGE:` footer** stating what a
+  consumer must change, at the end of the PR description. `NEVER` restate the
+  subject: release-please copies the footer into the release notes and the
+  changelog, and falls back to the subject when it is absent.
 
-The repo ships a Docker image — verify with the tools, don't guess.
-`scripts/validate.sh` is the single oracle (ADR-0016): `--fast` for the
-structural checks (seconds, no Docker), `--full` to also lint, build and run
-the `container-structure-test` assertions; pin/version data for base bumps
-comes from [`docs/dependencies-upgrades.md`](docs/dependencies-upgrades.md).
-CI is the authoritative (multi-arch) gate.
+## Delivery
+
+- **D1 — Squash-merge only**: one PR becomes one commit on `master`.
+- **D2 — One focused PR per unit of work.** A roadmap phase ships as one PR,
+  split only when a single PR would be too large to review.
+- **D3 — A PR touches only its declared scope.** Drift discovered mid-work is
+  captured as a follow-up (PR description, issue, or ADR), `NEVER` silently
+  included; out-of-scope items return only with a decision update.
+- **D4 — A PR's title and description track its current content.** When new
+  commits change what the PR delivers, update both in the same pass (the
+  title's downstream role: C1).
+- **D5 — A state change ships with its status update.** Opening, merging or
+  closing a PR — or completing a tracked task — edits the tracking issue (#106)
+  body in the same gesture; epic/phase checklists are ticked when the
+  delivering PR merges.
+- **D6 — Close an issue or epic `completed` only when its declared scope is
+  delivered.** Undelivered scope is re-homed to a tracked issue with the
+  pointer in place before closing, or the item stays open. See ADR-0014
+  (closing integrity).
+
+## ADRs
+
+- **A1 — A structural change ships with an ADR** (`adr-check` CI gate; the
+  `adr-not-needed` label only when implementing an existing ADR). The **ADR
+  requirement** — what is structural, and when a dated note suffices instead —
+  is defined in [`docs/adr/README.md`](adr/README.md).
+
+## Documentation & language
+
+- **L1 — English only** for all repo-facing content: code, docs, commits,
+  PR/issue text, review comments.
+- **L2 — One home per fact; docs point, `NEVER` restate.** ADRs may repeat
+  content as frozen records. Prose earns its space: intros and sections must
+  add information.
+- **L3 — `NEVER` mirror mutable infra/UI settings in prose.** Reference the
+  GitHub config; decisions about them live in ADRs, live values in GitHub.
+- **L4 — Learnings graduate to a durable home.** Captured transiently in the
+  tracking issue (#106), then promoted: a rule here for a
+  do/don't, an ADR for a decision meeting the ADR requirement. #106 keeps only
+  live status and not-yet-graduated learnings.
+- **L5 — Code comments state only what the code cannot show.** A comment
+  records a constraint or non-obvious behaviour, tersely; incident context,
+  versions and narration belong in commits, PRs and docs. `NEVER` em or en
+  dashes in code comments.
 
 ---
 > Source: [bgauduch/terraform-aws-cli](https://github.com/bgauduch/terraform-aws-cli) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-08 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
