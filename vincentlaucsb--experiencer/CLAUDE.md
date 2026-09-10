@@ -1,6 +1,6 @@
 # experiencer
 
-> - Keep raw palette values in this directory and consume canonical semantic tokens from `semantic.scss`.
+> - Use the existing `app-` spacing scale for application shell and editor UI; do not apply these utilities inside exported résumé content.
 
 ## Usage
 
@@ -12,12 +12,12 @@ Read and follow the instructions in .claude/skills/experiencer/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Color system instructions
+# Spacing system instructions
 
-- Keep raw palette values in this directory and consume canonical semantic tokens from `semantic.scss`.
-- Use shared semantic button variants and palette-driven states instead of feature-local action colors.
-- Use the `app-text-*`, `app-bg-*`, and `app-border-*` utilities for application chrome only. Do not apply app utilities inside exported résumé content.
-- When adding a reusable visual role such as a badge, centralize contrast handling in the shared system rather than creating feature-specific foreground/background pairs.
+- Use the existing `app-` spacing scale for application shell and editor UI; do not apply these utilities inside exported résumé content.
+- Prefer semantic component styles when spacing expresses a component-specific relationship.
+- Reuse the established whole and half steps before adding another spacing value or utility family.
+- Keep responsive variants aligned with the existing small and medium breakpoints.
 
 ---
 > Source: [vincentlaucsb/experiencer](https://github.com/vincentlaucsb/experiencer) — distributed by [TomeVault](https://tomevault.io).
