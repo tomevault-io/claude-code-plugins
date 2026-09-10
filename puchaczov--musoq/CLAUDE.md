@@ -1,6 +1,6 @@
 # musoq
 
-> Musoq is a .NET SQL query engine. The solution is `src/dotnet/Musoq.sln`; production and test projects are siblings under `src/dotnet/`. Core boundaries include `Musoq.Parser` (SQL syntax), `Musoq.Schema` (data-source contracts), `Musoq.Evaluator` (planning and execution), `Musoq.Converter` (compilation), `Musoq.Plugins` (built-in functions), and `Musoq.Targets.*` (execution targets and renderers). Shared test helpers are in `Musoq.Tests.Common`; benchmarks are in `Musoq.Benchmarks`. Documentation, specifications, scripts, release notes, and image assets are in `docs/`, `specs/`, `scripts/`, `release-notes/`, and `images/`.
+> Interactive console application for testing and experimenting with Musoq SQL queries. Not a production project — used by developers to quickly validate queries, test new features, and explore the query engine behavior.
 
 ## Usage
 
@@ -12,40 +12,60 @@ Read and follow the instructions in .claude/skills/musoq/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repository Guidelines
+# Musoq.Playground
 
-## Project Structure & Module Organization
+Interactive console application for testing and experimenting with Musoq SQL queries. Not a production project — used by developers to quickly validate queries, test new features, and explore the query engine behavior.
 
-Musoq is a .NET SQL query engine. The solution is `src/dotnet/Musoq.sln`; production and test projects are siblings under `src/dotnet/`. Core boundaries include `Musoq.Parser` (SQL syntax), `Musoq.Schema` (data-source contracts), `Musoq.Evaluator` (planning and execution), `Musoq.Converter` (compilation), `Musoq.Plugins` (built-in functions), and `Musoq.Targets.*` (execution targets and renderers). Shared test helpers are in `Musoq.Tests.Common`; benchmarks are in `Musoq.Benchmarks`. Documentation, specifications, scripts, release notes, and image assets are in `docs/`, `specs/`, `scripts/`, `release-notes/`, and `images/`.
+## Internal Structure
 
-## Instruction Guides
-
-Start with the repo-wide [Copilot guide](.github/copilot-instructions.md). Before editing a covered module, read its dedicated guide: [Parser](src/dotnet/Musoq.Parser/copilot-instructions.md), [Evaluator](src/dotnet/Musoq.Evaluator/copilot-instructions.md), [Converter](src/dotnet/Musoq.Converter/copilot-instructions.md), [Schema](src/dotnet/Musoq.Schema/copilot-instructions.md), [Plugins](src/dotnet/Musoq.Plugins/copilot-instructions.md), [Playground](src/dotnet/Musoq.Playground/copilot-instructions.md), or [Benchmarks](src/dotnet/Musoq.Benchmarks/copilot-instructions.md). `Musoq.Targets.*`, `Musoq.Tests.Common`, and examples currently follow the repo-wide guide. For planner, Execution IR, or renderer work, also read the [architecture rules](.claude/rules/architecture.md).
-
-## Build, Test, and Development Commands
-
-Use the .NET SDK pinned by `global.json` (10.0.300 or a compatible 10.0 feature band):
-
-```powershell
-dotnet restore src/dotnet/Musoq.sln --nologo --verbosity quiet
-dotnet build src/dotnet/Musoq.sln -c Release --no-restore --nologo --verbosity quiet
-dotnet test src/dotnet/Musoq.sln -c Release --no-build --nologo --verbosity quiet --logger "console;verbosity=minimal"
+```
+Musoq.Playground/
+├── Program.cs                  # Entry point — modify to run your test queries
+├── Library.cs                  # Custom function library for playground queries
+├── NonEquiEntity.cs            # Entity for non-equijoin testing
+├── NonEquiSchema.cs            # Schema for non-equijoin testing
+├── NonEquiSchemaProvider.cs    # Schema provider for non-equijoin testing
+├── NonEquiTable.cs             # Table definition for non-equijoin testing
+├── ExpensiveCteCounter.cs      # Counter for expensive CTE performance tests
+├── ExpensiveRowSource.cs       # Slow row source for performance testing
+├── MyLoggerResolver.cs         # Logger resolver implementation
+└── NoOpLogger.cs               # No-op logger implementation
 ```
 
-For focused feedback, test a project such as `src/dotnet/Musoq.Parser.Tests` or use `--filter "FullyQualifiedName~TestName"`. Run benchmarks with `dotnet run --project src/dotnet/Musoq.Benchmarks -c Release --no-build --` and a narrow BenchmarkDotNet filter.
+## How to Use
 
-## Coding Style & Naming Conventions
+1. Open `Program.cs`
+2. Write your SQL query and set up the schema provider
+3. Run with `dotnet run --project src/dotnet/Musoq.Playground`
 
-Follow `.editorconfig`: UTF-8, CRLF, spaces, four-space indentation, and no trailing whitespace. Use nullable-enabled, warning-clean C#; public types and members use PascalCase, locals and parameters camelCase, and tests use descriptive scenario names. Preserve existing partial-file and namespace organization. Compiler analyzers and warnings-as-errors are the quality gate.
+```csharp
+// Example: test a query in Program.cs
+var query = "SELECT Name, Age FROM #test.data() WHERE Age > 25";
+var compiled = InstanceCreator.CompileForExecution(
+    query,
+    Guid.NewGuid().ToString(),
+    schemaProvider,
+    new MyLoggerResolver());
+var results = compiled.Run();
+```
 
-## Testing Guidelines
+## Key Details
 
-Tests use MSTest in `*.Tests` projects. Add regression coverage beside the changed module, use descriptive behavior-based names, and avoid timing- or machine-dependent assertions. Run focused tests first, then the full Release solution test command before submitting.
+- **Target framework**: net10.0, matching the production projects
+- **No automated tests**: this is a manual testing tool
+- **Not NuGet-packaged**: not distributed as a library
+- **NonEqui* files**: complete schema implementation for testing non-equijoin scenarios — can serve as a reference for implementing new schemas
 
-## Commit & Pull Request Guidelines
+## Dependencies
 
-Use imperative Conventional-Commit-style subjects, optionally scoped: `feat(evaluator): ...`, `fix(parser): ...`, `test: ...`, or `chore(release): ...`. Keep commits focused. Pull requests should explain the behavior and affected modules, link the relevant issue when one exists, and report the exact build/test commands run; include screenshots only for user-facing visual changes. Keep release and package changes aligned with `RELEASING.md`.
+```
+Musoq.Playground
+├── Musoq.Converter   (InstanceCreator API)
+├── Musoq.Evaluator   (CompiledQuery runtime)
+├── Musoq.Schema      (ISchema, ISchemaProvider)
+└── Musoq.Plugins     (built-in functions)
+```
 
 ---
 > Source: [Puchaczov/Musoq](https://github.com/Puchaczov/Musoq) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-08 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
