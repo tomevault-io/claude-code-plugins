@@ -2,8 +2,6 @@
 
 > Source: [colasama/MahoShojo-Generator](https://github.com/colasama/MahoShojo-Generator). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-基于 AI 结构化生成的个性化魔法少女角色生成器。
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
