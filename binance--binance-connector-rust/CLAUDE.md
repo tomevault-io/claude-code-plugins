@@ -18,7 +18,7 @@ Or copy the instructions below directly into your CLAUDE.md:
 use tokio_tungstenite::Connector;
 use native_tls::{TlsConnector, Protocol};
 
-use binance_sdk::alpha;
+use binance_sdk::stocks;
 use binance_sdk::config;
 
 let native_tls = TlsConnector::builder()
@@ -32,12 +32,12 @@ let configuration = config::ConfigurationWebsocketStreams::builder()
     .agent(config::AgentConnector(ws_connector))
     .build()?;
 
-let client = alpha::AlphaWsStreams::production(configuration);
+let client = stocks::StocksWsStreams::production(configuration);
 let connection = client.connect().await?;
-let params = alpha::websocket_streams::AllBookTickerStreamParams::default();
-let stream = connection.all_book_ticker_stream(params).await?;
+let params = stocks::websocket_streams::CalendarStreamParams::default();
+let stream = connection.calendar_stream(params).await?;
 ```
 
 ---
 > Source: [binance/binance-connector-rust](https://github.com/binance/binance-connector-rust) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-08-09 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
