@@ -95,4 +95,4 @@ See [`Dispatcher.upgrade(options[, callback])`](Dispatcher.md#dispatcherupgradeo
 
 ---
 > Source: [anton-yurchenko/git-release](https://github.com/anton-yurchenko/git-release) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
