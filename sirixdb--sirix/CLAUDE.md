@@ -1,6 +1,6 @@
 # sirix
 
-> - Use imports (no star imports), whenever possible.
+> Preserve projection root and descendant-column path semantics
 
 ## Usage
 
@@ -12,11 +12,24 @@ Read and follow the instructions in .claude/skills/sirix/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- Use imports (no star imports), whenever possible.
-- Produce production-ready code, use best practices, create tests where appropriate, check input parameters to functions/methods,
-  use common software engineering patterns where appropriate
-- Make sure the resulting code is correct and as we're a DBS we need extreme performant code.
+
+# Projection path semantics
+
+- Treat the projection root as the record-set boundary. Declared columns may be descendants at arbitrary, differing depths and on different branches below that root.
+- Root-shape validation must compare matches of the declared root expression only. Never reject a column merely because its PCR is below the root PCR or deeper than another column.
+- Reject only overlapping root matches where one matched record-set root is an ancestor of another matched root, such as a descendant pattern that selects self-nested record arrays.
+- Keep diagnostics explicit: self-nested matches of the root pattern are unsupported; nested descendant columns remain supported.
+
+Valid example:
+
+```text
+root:    /root/bla/blubb
+column:  /root/bla/blubb/b/a/c
+column:  /root/bla/blubb/c/d
+```
+
+When changing root validation or extraction, add a real load-time integration test for this shape. Assert one projected row, both presence bits, and the exact values from both differently nested columns.
 
 ---
 > Source: [sirixdb/sirix](https://github.com/sirixdb/sirix) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-20 -->
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
