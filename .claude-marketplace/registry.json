@@ -8204,6 +8204,11 @@
       "description": "es-toolkit"
     },
     {
+      "name": "podman-container-tools--skopeo",
+      "source": "./podman-container-tools--skopeo",
+      "description": "skopeo"
+    },
+    {
       "name": "tui-cs--terminal-gui",
       "source": "./tui-cs--terminal-gui",
       "description": "Terminal.Gui"
@@ -15919,6 +15924,11 @@
       "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but scores >74% on SWE-bench verified!"
     },
     {
+      "name": "skyzh--mini-lsm",
+      "source": "./skyzh--mini-lsm",
+      "description": "mini-lsm"
+    },
+    {
       "name": "zeromq--pyzmq",
       "source": "./zeromq--pyzmq",
       "description": "pyzmq"
@@ -19922,6 +19932,11 @@
       "name": "teaql--teaql-agent-kit",
       "source": "./teaql--teaql-agent-kit",
       "description": "teaql-agent-kit"
+    },
+    {
+      "name": "gem5--gem5",
+      "source": "./gem5--gem5",
+      "description": "gem5"
     },
     {
       "name": "gem5--gem5",
@@ -26039,6 +26054,11 @@
       "description": "LangAlpha"
     },
     {
+      "name": "ginlix-ai--langalpha",
+      "source": "./ginlix-ai--langalpha",
+      "description": "LangAlpha"
+    },
+    {
       "name": "flutter--devtools",
       "source": "./flutter--devtools",
       "description": "devtools"
@@ -26202,6 +26222,11 @@
       "name": "imageio--imageio",
       "source": "./imageio--imageio",
       "description": "imageio"
+    },
+    {
+      "name": "dineug--erd-editor",
+      "source": "./dineug--erd-editor",
+      "description": "erd-editor"
     },
     {
       "name": "dineug--erd-editor",
@@ -27119,6 +27144,11 @@
       "description": "Scweet"
     },
     {
+      "name": "altimis--scweet",
+      "source": "./altimis--scweet",
+      "description": "Scweet"
+    },
+    {
       "name": "d3plus--d3plus",
       "source": "./d3plus--d3plus",
       "description": "d3plus"
@@ -27732,6 +27762,11 @@
       "name": "modem-works--dream-recorder",
       "source": "./modem-works--dream-recorder",
       "description": "Dream Recorder is an open-source venture by Modem. Developed in close collaboration with Mark Hinch (software & hardware), Ben Levinas and Joe Tsao (industrial design), and Alexis Jamet (illustrations"
+    },
+    {
+      "name": "ceph--ceph-csi",
+      "source": "./ceph--ceph-csi",
+      "description": "ceph-csi"
     },
     {
       "name": "trymirai--uzu",
@@ -36494,6 +36529,11 @@
       "description": "ibc"
     },
     {
+      "name": "cosmos--ibc",
+      "source": "./cosmos--ibc",
+      "description": "ibc"
+    },
+    {
       "name": "venipa--ytmdesktop2",
       "source": "./venipa--ytmdesktop2",
       "description": "ytmdesktop2"
@@ -36502,6 +36542,16 @@
       "name": "venipa--ytmdesktop2",
       "source": "./venipa--ytmdesktop2",
       "description": "ytmdesktop2"
+    },
+    {
+      "name": "cosmos--ibc",
+      "source": "./cosmos--ibc",
+      "description": "ibc"
+    },
+    {
+      "name": "cosmos--ibc",
+      "source": "./cosmos--ibc",
+      "description": "ibc"
     },
     {
       "name": "daangn--stackflow",
@@ -39967,6 +40017,11 @@
       "name": "alineacms--alinea",
       "source": "./alineacms--alinea",
       "description": "alinea"
+    },
+    {
+      "name": "microsoft--power-platform-skills",
+      "source": "./microsoft--power-platform-skills",
+      "description": "power-platform-skills"
     },
     {
       "name": "gulbanana--gg",
@@ -43484,6 +43539,41 @@
       "description": "wayscriber"
     },
     {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
       "name": "konbakuyomu--smartsearch",
       "source": "./konbakuyomu--smartsearch",
       "description": "smartsearch"
@@ -45312,6 +45402,11 @@
       "name": "cloudinary--cloudinary-npm",
       "source": "./cloudinary--cloudinary-npm",
       "description": "cloudinary_npm"
+    },
+    {
+      "name": "kubernetes-csi--csi-driver-smb",
+      "source": "./kubernetes-csi--csi-driver-smb",
+      "description": "csi-driver-smb"
     },
     {
       "name": "stardustai--dataset-viewer",
@@ -50004,6 +50099,11 @@
       "description": "eve"
     },
     {
+      "name": "lf-edge--eve",
+      "source": "./lf-edge--eve",
+      "description": "eve"
+    },
+    {
       "name": "stepfun-ai--steptronoss",
       "source": "./stepfun-ai--steptronoss",
       "description": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows."
@@ -53094,6 +53194,11 @@
       "description": "graalvm-reachability-metadata"
     },
     {
+      "name": "manuelschipper--nah",
+      "source": "./manuelschipper--nah",
+      "description": "nah"
+    },
+    {
       "name": "bingzi-233--check-cx",
       "source": "./bingzi-233--check-cx",
       "description": "\u5b9e\u65f6\u8ddf\u8e2a OpenAI\u3001Gemini\u3001Anthropic \u7b49 AI \u6a21\u578b API \u7684\u53ef\u7528\u6027\u3001\u5ef6\u8fdf\u4e0e\u9519\u8bef\u4fe1\u606f"
@@ -55387,6 +55492,11 @@
       "name": "bcomnes--npm-run-all2",
       "source": "./bcomnes--npm-run-all2",
       "description": "npm-run-all2"
+    },
+    {
+      "name": "linode--linode-cli",
+      "source": "./linode--linode-cli",
+      "description": "linode-cli"
     },
     {
       "name": "quests-org--quests",
@@ -61139,6 +61249,21 @@
       "description": "AgentKit"
     },
     {
+      "name": "lamatic--agentkit",
+      "source": "./lamatic--agentkit",
+      "description": "AgentKit"
+    },
+    {
+      "name": "lamatic--agentkit",
+      "source": "./lamatic--agentkit",
+      "description": "AgentKit"
+    },
+    {
+      "name": "lamatic--agentkit",
+      "source": "./lamatic--agentkit",
+      "description": "AgentKit"
+    },
+    {
       "name": "mystralengine--mystralnative",
       "source": "./mystralengine--mystralnative",
       "description": "Native WebGPU JS runtime with SDL3"
@@ -64914,6 +65039,11 @@
       "description": "KumbiaPHP"
     },
     {
+      "name": "percona--percona-backup-mongodb",
+      "source": "./percona--percona-backup-mongodb",
+      "description": "percona-backup-mongodb"
+    },
+    {
       "name": "ethanlipnik--loom",
       "source": "./ethanlipnik--loom",
       "description": "Easy peer to peer networking for Apple devices"
@@ -66207,6 +66337,11 @@
       "name": "cqframework--clinical-quality-language",
       "source": "./cqframework--clinical-quality-language",
       "description": "clinical_quality_language"
+    },
+    {
+      "name": "tiramisulabs--seyfert",
+      "source": "./tiramisulabs--seyfert",
+      "description": "seyfert"
     },
     {
       "name": "tiramisulabs--seyfert",
@@ -67817,6 +67952,11 @@
       "name": "pivoshenko--catppuccin-startpage",
       "source": "./pivoshenko--catppuccin-startpage",
       "description": "catppuccin-startpage"
+    },
+    {
+      "name": "state-adapt--state-adapt",
+      "source": "./state-adapt--state-adapt",
+      "description": "state-adapt"
     },
     {
       "name": "go-drift--drift",
@@ -69442,6 +69582,11 @@
       "name": "adidas--lakehouse-engine",
       "source": "./adidas--lakehouse-engine",
       "description": "lakehouse-engine"
+    },
+    {
+      "name": "cristianoliveira--funzzy",
+      "source": "./cristianoliveira--funzzy",
+      "description": "funzzy"
     },
     {
       "name": "cristianoliveira--funzzy",
@@ -78949,6 +79094,11 @@
       "description": "adm-controller"
     },
     {
+      "name": "kubewarden--adm-controller",
+      "source": "./kubewarden--adm-controller",
+      "description": "adm-controller"
+    },
+    {
       "name": "tang-vu--contribai",
       "source": "./tang-vu--contribai",
       "description": "Autonomous AI agent that contributes to open source \u2014 discovers repos, analyzes code, generates fixes, and submits PRs"
@@ -83707,6 +83857,11 @@
       "name": "lylemi--ja3proxy",
       "source": "./lylemi--ja3proxy",
       "description": "ja3proxy"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
     },
     {
       "name": "lfnovo--esperanto",
@@ -102637,6 +102792,11 @@
       "name": "looker-open-source--looker-cli",
       "source": "./looker-open-source--looker-cli",
       "description": "looker-cli"
+    },
+    {
+      "name": "needle-di--needle-di",
+      "source": "./needle-di--needle-di",
+      "description": "needle-di"
     },
     {
       "name": "chekdata--chek-ego-miner",
@@ -123439,6 +123599,11 @@
       "description": "SELF"
     },
     {
+      "name": "kubevirt--cluster-network-addons-operator",
+      "source": "./kubevirt--cluster-network-addons-operator",
+      "description": "cluster-network-addons-operator"
+    },
+    {
       "name": "insajin--autopus-adk",
       "source": "./insajin--autopus-adk",
       "description": "Autopus-ADK is of the agents, by the agents. for the agents. Multi-model orchestration (consensus/pipeline/debate/fastest). Architecture-as-Code, Lore decision tracking, SPEC/EARS engine."
@@ -124777,6 +124942,16 @@
       "name": "lirantal--express-version-route",
       "source": "./lirantal--express-version-route",
       "description": "express-version-route"
+    },
+    {
+      "name": "vincentlaucsb--experiencer",
+      "source": "./vincentlaucsb--experiencer",
+      "description": "experiencer"
+    },
+    {
+      "name": "vincentlaucsb--experiencer",
+      "source": "./vincentlaucsb--experiencer",
+      "description": "experiencer"
     },
     {
       "name": "vincentlaucsb--experiencer",
@@ -126592,6 +126767,11 @@
       "name": "kmodules--client-go",
       "source": "./kmodules--client-go",
       "description": "client-go"
+    },
+    {
+      "name": "adguardteam--vscodeadblocksyntax",
+      "source": "./adguardteam--vscodeadblocksyntax",
+      "description": "VscodeAdblockSyntax"
     },
     {
       "name": "ajroetker--go-highway",
@@ -136089,6 +136269,11 @@
       "description": "claude-code-hermit"
     },
     {
+      "name": "clickhouse--clickhousectl",
+      "source": "./clickhouse--clickhousectl",
+      "description": "clickhousectl"
+    },
+    {
       "name": "moneat-io--moneat",
       "source": "./moneat-io--moneat",
       "description": "moneat"
@@ -139119,6 +139304,11 @@
       "description": "heimdall"
     },
     {
+      "name": "kubedb--apimachinery",
+      "source": "./kubedb--apimachinery",
+      "description": "apimachinery"
+    },
+    {
       "name": "mcbodge--mudmcp",
       "source": "./mcbodge--mudmcp",
       "description": "MCP server that provides AI assistants with comprehensive access to MudBlazor component documentation, code examples, and API reference. Not affiliated with MudBlazor team."
@@ -139932,6 +140122,11 @@
       "name": "dotnet--symreader-converter",
       "source": "./dotnet--symreader-converter",
       "description": "symreader-converter"
+    },
+    {
+      "name": "oliver-zehentleitner--unicorn-binance-rest-api",
+      "source": "./oliver-zehentleitner--unicorn-binance-rest-api",
+      "description": "unicorn-binance-rest-api"
     },
     {
       "name": "aelf-hzz780--ai-bounty-skill",
@@ -146042,6 +146237,56 @@
       "name": "f2calv--cascap-api-googlephotos",
       "source": "./f2calv--cascap-api-googlephotos",
       "description": "CasCap.Api.GooglePhotos"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
     },
     {
       "name": "marmot-protocol--mdk",
@@ -155164,6 +155409,16 @@
       "description": "idunno.PasswordGenerator"
     },
     {
+      "name": "oliver-zehentleitner--unicorn-fy",
+      "source": "./oliver-zehentleitner--unicorn-fy",
+      "description": "unicorn-fy"
+    },
+    {
+      "name": "oliver-zehentleitner--unicorn-binance-suite",
+      "source": "./oliver-zehentleitner--unicorn-binance-suite",
+      "description": "unicorn-binance-suite"
+    },
+    {
       "name": "copilot-community-sdk--copilot-sdk-java",
       "source": "./copilot-community-sdk--copilot-sdk-java",
       "description": "Java SDK for GitHub Copilot CLI"
@@ -159104,6 +159359,11 @@
       "description": "pulumi-self-hosted-installers"
     },
     {
+      "name": "pulumi--pulumi-self-hosted-installers",
+      "source": "./pulumi--pulumi-self-hosted-installers",
+      "description": "pulumi-self-hosted-installers"
+    },
+    {
       "name": "cxlinux-ai--cx-core",
       "source": "./cxlinux-ai--cx-core",
       "description": "CX Linux \u2014 AI-powered Linux OS. Natural language system administration for Ubuntu & Debian. The AI layer for Linux infrastructure."
@@ -161959,6 +162219,11 @@
       "description": "thoth"
     },
     {
+      "name": "thoth-pub--thoth",
+      "source": "./thoth-pub--thoth",
+      "description": "thoth"
+    },
+    {
       "name": "isaaccorley--geospatial-skills",
       "source": "./isaaccorley--geospatial-skills",
       "description": "geospatial-skills"
@@ -163567,6 +163832,11 @@
       "name": "vivid-planet--dextinity",
       "source": "./vivid-planet--dextinity",
       "description": "dextinity"
+    },
+    {
+      "name": "oliver-zehentleitner--unicorn-binance-local-depth-cache",
+      "source": "./oliver-zehentleitner--unicorn-binance-local-depth-cache",
+      "description": "unicorn-binance-local-depth-cache"
     },
     {
       "name": "lktiep--cortex-hub",
@@ -183052,6 +183322,11 @@
       "name": "haoze-evolluling--diting",
       "source": "./haoze-evolluling--diting",
       "description": "DITING"
+    },
+    {
+      "name": "kahliburke--kaimon-jl",
+      "source": "./kahliburke--kaimon-jl",
+      "description": "Kaimon.jl"
     },
     {
       "name": "bug-ops--mcp-execution",
@@ -333022,6 +333297,16 @@
       "name": "alberanid--pve2otelcol",
       "source": "./alberanid--pve2otelcol",
       "description": "collect logs from a Proxmox node and its LXC containers and send them to a OpenTelemetry collector like Grafana Alloy / Loki"
+    },
+    {
+      "name": "selfagency--z-models-vscode",
+      "source": "./selfagency--z-models-vscode",
+      "description": "Access Z.ai coding models within GitHub Copilot Chat"
+    },
+    {
+      "name": "echotechfe--dimina-kit",
+      "source": "./echotechfe--dimina-kit",
+      "description": "Dimina \u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u5177\u96c6\uff1a\u684c\u9762 DevTools\u3001\u7f16\u8bd1\u3001H5 \u9884\u89c8\u4e0e\u53ef\u5d4c\u5165 Electron \u8fd0\u884c\u65f6"
     },
     {
       "name": "loiane--specs-driven-development",
