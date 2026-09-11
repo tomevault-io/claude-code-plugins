@@ -1,8 +1,6 @@
 # AI instruction files for pracht
 
-> Sourced from [JoviDeCroock/pracht](https://github.com/JoviDeCroock/pracht) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-A framework for Preact that deploys anywhere
+> Sourced from [JoviDeCroock/pracht](https://github.com/JoviDeCroock/pracht), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [JoviDeCroock/pracht](https://github.com/JoviDeC
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [JoviDeCroock/pracht](https://github.com/JoviDeCroock/pracht) — a repo with 50+ stars on GitHub.
+From [JoviDeCroock/pracht](https://github.com/JoviDeCroock/pracht) — a repo with 96+ stars on GitHub.
 
 ---
 
