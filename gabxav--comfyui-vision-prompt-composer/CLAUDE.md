@@ -1,0 +1,26 @@
+# comfyui-vision-prompt-composer
+
+> - Write all project-owned documentation, source code, comments, docstrings, new identifiers, interface labels, tooltips, errors, logs, examples, filenames and screenshot text in English.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/comfyui-vision-prompt-composer/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Repository language
+
+- Write all project-owned documentation, source code, comments, docstrings, new identifiers, interface labels, tooltips, errors, logs, examples, filenames and screenshot text in English.
+- Use English for commit messages, pull request descriptions and repository metadata.
+- Preserve existing public node IDs, API keys and serialized fields when compatibility depends on them.
+- Preserve user-authored prompts, dialogue, titles, media filenames and saved projects exactly as supplied, regardless of language. Do not translate user content automatically.
+- Keep third-party attribution and license notices intact.
+- Keep documentation examples and screenshots consistent with the current English interface.
+
+---
+> Source: [gabxav/ComfyUI-Vision-Prompt-Composer](https://github.com/gabxav/ComfyUI-Vision-Prompt-Composer) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-08 -->
