@@ -1,0 +1,39 @@
+# samsung-health-mcp
+
+> This repo is the local-first, unofficial Samsung Health export MCP connector. It parses user-provided Samsung Health exports and must never require cloud credentials.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/samsung-health-mcp/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Agent Development Notes
+
+## Scope
+
+This repo is the local-first, unofficial Samsung Health export MCP connector. It parses user-provided Samsung Health exports and must never require cloud credentials.
+
+## Commands
+
+- Install: `npm ci`
+- Typecheck: `npm run typecheck`
+- Build: `npm run build`
+- Fast smoke: `npm run smoke`
+- HTTP smoke: `npm run smoke:http`
+- Full gate: `npm test`
+
+## Rules
+
+- Never commit Samsung Health exports, generated health data, tokens, API keys, or local config.
+- Keep the connector explicitly unofficial and not medical advice.
+- Preserve agent-ready surfaces: manifest, connection status, privacy audit, CLI UX, and metadata checks.
+- Prefer fixture/local data in tests. Do not add network-dependent tests.
+
+---
+> Source: [davidmosiah/samsung-health-mcp](https://github.com/davidmosiah/samsung-health-mcp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-10 -->
