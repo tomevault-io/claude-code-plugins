@@ -1,196 +1,125 @@
-# memory-bank
+# fast-mcp-telegram
 
-> You are an expert software engineer with a unique characteristic: your memory resets completely between sessions. This isn't a limitation - it's what drives you to maintain perfect documentation. At the beginning of each dialogue, you rely ENTIRELY on your Memory Bank to understand the project and continue work effectively. You MUST read ALL memory bank files at the start of EVERY task - this is not optional.
+> Required plan-first workflow for any implementation request (steps 1–5)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/memory-bank/SKILL.md
+Read and follow the instructions in .claude/skills/fast-mcp-telegram/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-You are an expert software engineer with a unique characteristic: your memory resets completely between sessions. This isn't a limitation - it's what drives you to maintain perfect documentation. At the beginning of each dialogue, you rely ENTIRELY on your Memory Bank to understand the project and continue work effectively. You MUST read ALL memory bank files at the start of EVERY task - this is not optional.
 
-## Memory Bank Structure
+# Implementation workflow
 
-The Memory Bank lives in `.cursor/memory-bank/` at the project root. It consists of core files and optional context files, all in Markdown format. Files build upon each other in a clear hierarchy with distinct areas of responsibility:
+Any code change follows **steps 1–5**. The user approves at **step 3 only** (the plan), not implementation diffs.
 
-flowchart TD
-    PB[projectbrief.md] --> PC[productContext.md]
-    PB --> SP[systemPatterns.md]
-    PB --> TC[techContext.md]
+**Start:** Plan mode before step 1. No code until explicit step 3 approval.
 
-    PC --> AC[activeContext.md]
-    SP --> AC
-    TC --> AC
+## Steps
 
-    AC --> P[progress.md]
+| Step | Mode | Action | Gate |
+| ---- | ---- | ------ | ---- |
+| **1** | Plan | Scope, files, exit commands, clean-break checks; link checklist rows; **learning** fields (below). Plan file: `~/.cursor/plans/<task>_*.md` only (not in-repo). If scope is too big → [scope split](#scope-split-steps-12). | Hypothesis, success signal, and kill criteria recorded |
+| **2** | Plan | Pre-impl review (`code-reviewer`, readonly): trim scope; favor simplicity; DX if user-facing; **Deferred** for cuts; or **phase split** (below). Revise plan; **no code**. | Scope trimmed **or** split agreed; plan favors simplicity; exits set; **Deferred** if anything cut; plan stand-alone; incremental edits keep **previous plan** |
+| **3** | Plan → Agent | Present plan; wait for approval; roadmap ask if **Deferred** (below). | Roadmap ask if **Deferred**; explicit approval |
+| **4** | Agent | Run exit tests/commands; fix failures. No extra confirmation prompts. | Exits green |
+| **5** | Agent | **Closeout** (below): one pass — review, fixes, docs. | Closeout checklist done |
 
-    subgraph ".cursor/memory-bank/"
-        PB
-        PC
-        AC
-        SP
-        TC
-        P
-    end
+Before step 4: reread [CONTRIBUTING.md](CONTRIBUTING.md) (Design Philosophy, Code Quality, Development Workflow). Boundaries: design philosophy and tool-count guidelines in CONTRIBUTING; session/MCP patterns in [systemPatterns.md](.cursor/memory-bank/systemPatterns.md).
 
-### Core Files (Required) - Clear Areas of Responsibility
+## Step 1 — Learning fields
 
-The core files live in `.cursor/memory-bank/`:
+Record in the plan (short bullets; full sentences optional):
 
-1. `.cursor/memory-bank/projectbrief.md` - **Foundation & Scope**
-   - Foundation document that shapes all other files
-   - Created at project start if it doesn't exist
-   - Defines core requirements and goals
-   - Source of truth for project scope
-   - **AOR**: What the project is and what it should accomplish
+| Field | Purpose |
+| ----- | ------- |
+| **Hypothesis** | What we believe this change will prove or enable |
+| **Success signal** | What “worked” looks like beyond exit commands (user outcome, metric, or spike claim) |
+| **Kill / stop** | When to abandon or narrow scope before more implementation (failed exit class, wrong approach, scope creep) |
 
-2. `.cursor/memory-bank/productContext.md` - **Why & How**
-   - Why this project exists
-   - Problems it solves
-   - How it should work
-   - User experience goals
-   - **AOR**: Product vision, user needs, and experience design
+Exit commands remain the **technical** success bar; these fields tie the task to build-measure-learn.
 
-3. `.cursor/memory-bank/activeContext.md` - **Current Focus & Decisions**
-   - Current work focus (1-2 main items)
-   - Active decisions and considerations
-   - Important patterns and preferences
-   - Next immediate steps (3-5 items max)
-   - **AOR**: What we're working on right now and why
+## Step 2 — Plan review
 
-4. `.cursor/memory-bank/systemPatterns.md` - **Architecture & Design**
-   - System architecture
-   - Key technical decisions
-   - Design patterns in use
-   - Component relationships
-   - Critical implementation paths
-   - **AOR**: How the system is structured and why
+**Goals:** Smaller scope; simplicity (design, APIs, diffs); better user-facing DX — without telegram-style compression.
 
-5. `.cursor/memory-bank/techContext.md` - **Technology & Setup**
-   - Technologies used
-   - Development setup
-   - Technical constraints
-   - Dependencies
-   - Tool usage patterns
-   - **AOR**: Technical foundation and constraints
+| Lens | When relevant |
+| ---- | ------------- |
+| **Time-to-results** | Fewer commands to first green; mock/no-key path in exits |
+| **Ceremony vs value** | Extend existing tools/params; drop boilerplate that does not buy regression value |
+| **Errors & discoverability** | Failures name the fix (path, flag, field); docs/README in-plan when behavior changes |
+| **Spikes** | Comparative or API claims → [feature-development skill](.cursor/skills/feature-development/SKILL.md) research phase; split orchestration vs domain |
 
-6. `.cursor/memory-bank/progress.md` - **Status & Evolution**
-   - What works (functional status)
-   - What's left to build (remaining work)
-   - Known issues and their status
-   - Evolution of project decisions
-   - **AOR**: Project health and completion status
+DX vs minimal scope / simplicity → **record tradeoff** in plan (default: smaller scope and simpler shape unless user asked for DX).
 
-### Additional Context
-Create additional files/folders within `.cursor/memory-bank/` when they help organize:
-- Complex feature documentation
-- Integration specifications
-- API documentation
-- Testing strategies
-- Deployment procedures
+**Deferred:** One line per cut (what + why). Never silently drop user- or spike-requested work.
 
-## File Content Guidelines
+## Scope split (steps 1–2)
 
-### File Size Limits
-- **Maximum 300 lines per memory bank file** - Enforced strictly
-- **Automatic cleanup required** when files exceed limit
+When scope is still too large after trimming (or the user asked for a multi-part deliverable), **offer a consecutive phase split** instead of a single oversized plan. Do not implement until one phase is approved.
 
-### Content Boundaries
-- **projectbrief.md**: What the project is and what it should accomplish (foundation & scope)
-- **productContext.md**: Product vision, user needs, and experience design (why & how)
-- **activeContext.md**: Current work focus (1-2 main items), active decisions, important patterns, next steps (3-5 items max)
-- **systemPatterns.md**: System architecture, key technical decisions, design patterns, component relationships
-- **techContext.md**: Technologies used, development setup, technical constraints, dependencies
-- **progress.md**: What works, what's left to build, known issues, evolution of decisions
+**Offer two paths** (user picks; default **A** if the full plan is not yet written):
 
-### Anti-Patterns to Avoid
-- ❌ Duplicating information across multiple files
-- ❌ Making activeContext.md a catch-all for current work
-- ❌ Including detailed change history in progress.md
-- ❌ Mixing current work with architectural decisions
-- ❌ Over-documenting completed work in activeContext.md
-- ❌ Excessive completion markers and status tags
-- ❌ Redundant implementation details across files
+| Path | When | Next |
+| ---- | ---- | ---- |
+| **A — Fresh phase** | No stand-alone plan yet, or phases need different exits/files | Document split in roadmap (below) → **step 1** for **phase 1 only** |
+| **B — Slice plan** | A stand-alone plan already exists with clear boundaries | Document split in roadmap → **slice** plan to phase 1 (+ **Phases 2+** section with scope, files, exits per later phase) → **step 3** for phase 1 only |
 
-### Logging and Documentation Rules
-- **NO Future Plans**: Don't make future plans in any memory bank files unless directly asked by user
-- **NO Status Tags**: Don't add **NEW** or **COMPLETED** tags to logs - everything in logs has been new and completed
-- **Add Dates**: Always add dates to logs in format (YYYY-MM-DD) - use datetime tool or "date" shell command to get current date
-- **Focus on Current State**: Document what is, not what will be (unless explicitly requested)
+**Phase split contents** (in plan and roadmap):
 
-## Core Workflows
+- **Phase 1 … N** titles and one-line goal each
+- Per phase: scope, files, exit commands, checklist row links
+- **Out of scope** for phase 1 (explicitly parked in later phases)
+- **Deferred** only for cuts *within* a phase, not for whole later phases
 
-### Plan Mode
-flowchart TD
-    Start[Start] --> ReadFiles[Read Memory Bank]
-    ReadFiles --> CheckFiles{Files Complete?}
+**Roadmap (before step 3 on path A, or with the slice on path B):** Record the split where the user agrees (same targets as [Deferred → roadmap](#step-3--approval)) — typically [docs/Roadmap.md](docs/Roadmap.md), memory bank `activeContext.md`, or a short research note. Do not edit roadmap until the user confirms target; then update in-session. Later phases: after phase *k* **closeout** (step 5), **step 1** for phase *k+1* (or slice from the master plan if path B).
 
-    CheckFiles -->|No| Plan[Create Plan]
-    Plan --> Document[Document in Chat]
+**Approval:** Step 3 covers **current phase only**. Phases 2+ need their own **2 → 3** when started.
 
-    CheckFiles -->|Yes| Verify[Verify Context]
-    Verify --> Strategy[Develop Strategy]
-    Strategy --> Present[Present Approach]
+**Plan quality (step 3):** Full sentences; explicit scope, files, exits, rationale; learning fields from step 1. After feedback: revise **incrementally** in the same file; keep **previous plan**; state what changed. Current plan must **stand alone**.
 
-### Act Mode
-flowchart TD
-    Start[Start] --> Context[Check Memory Bank]
-    Context --> Update[Update Documentation]
-    Update --> Execute[Execute Task]
-    Execute --> Document[Document Changes]
+## Step 3 — Approval
 
-## Documentation Updates
+Stop and wait for the user.
 
-Memory Bank updates occur when:
-1. Discovering new project patterns
-2. After implementing significant changes
-3. When user requests with **update memory bank** (MUST review ALL files)
-4. When context needs clarification
+**Deferred → roadmap:** If **Deferred** is non-empty, ask where to park items **before** approval. Do not edit roadmap docs until the user answers; record choice in the plan (`Phase N` / roadmap item / research note / none). Update roadmap in-session only on yes.
 
-flowchart TD
-    Start[Update Process]
+| Target | Use for |
+| ------ | ------- |
+| [docs/Roadmap.md](docs/Roadmap.md) | Feature lanes, phases, follow-up work |
+| [.cursor/memory-bank/activeContext.md](.cursor/memory-bank/activeContext.md) | Current focus and next steps |
+| [.cursor/memory-bank/progress.md](.cursor/memory-bank/progress.md) | Functional status and known issues |
+| [docs/research/](docs/research/) | Spikes and design notes |
 
-    subgraph Process
-        P1[Review ALL Files]
-        P2[Document Current State]
-        P3[Clarify Next Steps]
-        P4[Document Insights & Patterns]
+| User response | Next |
+| ------------- | ---- |
+| Feedback / change request | → step 2: vs CONTRIBUTING, memory bank, codebase; accept, push back, or smaller alternative; record in plan or docs; re-run pre-impl review; preserve **previous plan**. No code. |
+| Explicit approval | Reread CONTRIBUTING.md; Agent mode; step 4. |
 
-        P1 --> P2 --> P3 --> P4
-    end
+Repeat **2 → 3** until explicit approval.
 
-    Start --> Process
+## Step 5 — Closeout
 
-### Update Guidelines
-- **activeContext.md**: Update when work focus changes or new decisions are made
-- **progress.md**: Update when functionality status changes or new issues arise
-- **systemPatterns.md**: Update when architecture or design patterns evolve
-- **techContext.md**: Update when technical setup or constraints change
-- **productContext.md**: Update when product vision or user experience goals change
+Single agent pass after step 4 is green. Use `code-reviewer` (readonly) unless the diff is trivial docs-only.
 
-## Enforcement Rules
+| # | Check |
+| - | ----- |
+| 1 | Diff matches approved plan; no unapproved scope |
+| 2 | No legacy paths or dual APIs unless the plan explicitly allowed a migration window |
+| 3 | Re-run exit commands if review or fixes changed behavior |
+| 4 | Fix **blocking** findings only; do not expand scope |
+| 5 | **Success signal** — note in plan or chat whether the step 1 hypothesis held |
+| 6 | Update [CONTRIBUTING.md](CONTRIBUTING.md) or memory bank when the approved plan required durable doc changes |
+| 7 | Memory bank `activeContext.md` / `progress.md` when the approved plan required status tracking |
 
-### File Size Enforcement
-- **Automatic Review**: Check file sizes before any memory bank updates
-- **Cleanup Required**: If any file exceeds 300 lines, immediate cleanup is required
-- **Content Focus**: Ensure each file stays within its defined area of responsibility
+## After close
 
-### VDS Operating Patterns (Preserve)
-- **VDS Testing Methodology**: SSH access, deployment process, container management, authentication testing
-- **Production Validation**: Real Telegram API calls, log analysis, session file management
-- **Traefik Integration**: Domain routing, SSL certificate management
-- **Health Monitoring**: Container health checks and endpoint monitoring
-- **Debugging Approach**: Systematic issue elimination through targeted testing
-
-Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
-
-REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is my only link to previous work. It must be maintained with precision and clarity, as my effectiveness depends entirely on its accuracy.
+Optionally remind: `/summarize` to compact context (user-initiated).
 
 ---
 > Source: [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-19 -->
+<!-- tomevault:4.0:claude_md:2026-09-11 -->
