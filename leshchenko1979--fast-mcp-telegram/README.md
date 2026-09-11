@@ -1,8 +1,6 @@
 # fast-mcp-telegram
 
-> Tome by [leshchenko1979](https://github.com/leshchenko1979/fast-mcp-telegram) — distributed by [TomeVault](https://tomevault.io)
-
-Telegram MCP server with HTTP-MTProto Bridge — direct API/curl access, multi-user Bearer auth, Docker, MTProto proxy, file attachments, voice transcription, context-optimized
+> Tome by [leshchenko1979](https://github.com/leshchenko1979/fast-mcp-telegram), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `.cursor/rules/*.mdc` in [leshchenko1979/fast-mcp-telegram](htt
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram) — a repo with 42+ stars on GitHub.
+From [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram) — a repo with 49+ stars on GitHub.
 
 ---
 
