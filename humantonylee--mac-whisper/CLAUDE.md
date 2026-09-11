@@ -1,0 +1,31 @@
+# mac-whisper
+
+> Project-specific behavior for agents working in `mac-whisper`.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/mac-whisper/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+Project-specific behavior for agents working in `mac-whisper`.
+
+## Git Commit Attribution
+
+- **Never add AI/agent attribution to commit messages.** This includes
+  `Generated with [Devin]`, `Co-Authored-By: Devin`, `Co-Authored-By:
+  Claude`, `Generated with Claude Code`, or any similar footer/trailer
+  attributing the commit to an AI tool or integration bot.
+- Commit messages should attribute only the human author/committer.
+- If a commit is found to carry AI attribution, remove it (requires history
+  rewrite — confirm with the owner first).
+
+---
+> Source: [humantonylee/mac-whisper](https://github.com/humantonylee/mac-whisper) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-09 -->
