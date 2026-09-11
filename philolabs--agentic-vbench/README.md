@@ -1,8 +1,6 @@
 # agentic-vbench
 
-> Tome by [PhiloLabs](https://github.com/PhiloLabs/agentic-vbench) — distributed by [TomeVault](https://tomevault.io)
-
-AgenticVBench: Can AI Agents Complete Real-World Post-Production Tasks?
+> Tome by [PhiloLabs](https://github.com/PhiloLabs/agentic-vbench), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [PhiloLabs/agentic-vbench](https://github.com/Ph
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/PhiloLabs/agentic-vbench](https://github.com/PhiloLabs/agentic-vbench)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/PhiloLabs/agentic-vbench](https://github.com/PhiloLabs/agentic-vbench)
 
 ---
 
