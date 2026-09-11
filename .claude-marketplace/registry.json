@@ -3134,6 +3134,11 @@
       "description": "podman"
     },
     {
+      "name": "podman-container-tools--podman",
+      "source": "./podman-container-tools--podman",
+      "description": "podman"
+    },
+    {
       "name": "containers--podman",
       "source": "./containers--podman",
       "description": "podman"
@@ -6167,6 +6172,16 @@
       "name": "dottxt-ai--outlines",
       "source": "./dottxt-ai--outlines",
       "description": "outlines"
+    },
+    {
+      "name": "yishentu--claudian",
+      "source": "./yishentu--claudian",
+      "description": "claudian"
+    },
+    {
+      "name": "yishentu--claudian",
+      "source": "./yishentu--claudian",
+      "description": "claudian"
     },
     {
       "name": "yishentu--claudian",
@@ -13392,6 +13407,11 @@
       "name": "beeware--toga",
       "source": "./beeware--toga",
       "description": "toga"
+    },
+    {
+      "name": "dotnet--skills",
+      "source": "./dotnet--skills",
+      "description": "skills"
     },
     {
       "name": "fla-org--flash-linear-attention",
@@ -26059,6 +26079,11 @@
       "description": "LangAlpha"
     },
     {
+      "name": "ginlix-ai--langalpha",
+      "source": "./ginlix-ai--langalpha",
+      "description": "LangAlpha"
+    },
+    {
       "name": "flutter--devtools",
       "source": "./flutter--devtools",
       "description": "devtools"
@@ -27137,6 +27162,11 @@
       "name": "psake--psake",
       "source": "./psake--psake",
       "description": "psake"
+    },
+    {
+      "name": "altimis--scweet",
+      "source": "./altimis--scweet",
+      "description": "Scweet"
     },
     {
       "name": "altimis--scweet",
@@ -33084,6 +33114,11 @@
       "description": "sig-storage-local-static-provisioner"
     },
     {
+      "name": "tmux-python--libtmux",
+      "source": "./tmux-python--libtmux",
+      "description": "libtmux"
+    },
+    {
       "name": "benc-uk--kubeview",
       "source": "./benc-uk--kubeview",
       "description": "kubeview"
@@ -33397,6 +33432,16 @@
       "name": "phpantom-dev--phpantom-lsp",
       "source": "./phpantom-dev--phpantom-lsp",
       "description": "phpantom_lsp"
+    },
+    {
+      "name": "oxen-ai--oxen",
+      "source": "./oxen-ai--oxen",
+      "description": "Oxen"
+    },
+    {
+      "name": "oxen-ai--oxen",
+      "source": "./oxen-ai--oxen",
+      "description": "Oxen"
     },
     {
       "name": "oxen-ai--oxen",
@@ -43574,6 +43619,71 @@
       "description": "wayscriber"
     },
     {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
+      "name": "devmobasa--wayscriber",
+      "source": "./devmobasa--wayscriber",
+      "description": "wayscriber"
+    },
+    {
       "name": "konbakuyomu--smartsearch",
       "source": "./konbakuyomu--smartsearch",
       "description": "smartsearch"
@@ -50104,6 +50214,11 @@
       "description": "eve"
     },
     {
+      "name": "lf-edge--eve",
+      "source": "./lf-edge--eve",
+      "description": "eve"
+    },
+    {
       "name": "stepfun-ai--steptronoss",
       "source": "./stepfun-ai--steptronoss",
       "description": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows."
@@ -50712,6 +50827,11 @@
       "name": "sinanata--unity-ui-document-design-system",
       "source": "./sinanata--unity-ui-document-design-system",
       "description": "unity-ui-document-design-system"
+    },
+    {
+      "name": "cilium--hubble-ui",
+      "source": "./cilium--hubble-ui",
+      "description": "hubble-ui"
     },
     {
       "name": "mpfaffenberger--code-puppy",
@@ -52737,6 +52857,36 @@
       "name": "emdgroup--baybe",
       "source": "./emdgroup--baybe",
       "description": "baybe"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
+    },
+    {
+      "name": "heygen-com--hyperframes-launches",
+      "source": "./heygen-com--hyperframes-launches",
+      "description": "hyperframes-launches"
     },
     {
       "name": "romanhauksson--academic-project-astro-template",
@@ -61264,6 +61414,16 @@
       "description": "AgentKit"
     },
     {
+      "name": "lamatic--agentkit",
+      "source": "./lamatic--agentkit",
+      "description": "AgentKit"
+    },
+    {
+      "name": "lamatic--agentkit",
+      "source": "./lamatic--agentkit",
+      "description": "AgentKit"
+    },
+    {
       "name": "mystralengine--mystralnative",
       "source": "./mystralengine--mystralnative",
       "description": "Native WebGPU JS runtime with SDL3"
@@ -66337,6 +66497,21 @@
       "name": "cqframework--clinical-quality-language",
       "source": "./cqframework--clinical-quality-language",
       "description": "clinical_quality_language"
+    },
+    {
+      "name": "tiramisulabs--seyfert",
+      "source": "./tiramisulabs--seyfert",
+      "description": "seyfert"
+    },
+    {
+      "name": "tiramisulabs--seyfert",
+      "source": "./tiramisulabs--seyfert",
+      "description": "seyfert"
+    },
+    {
+      "name": "tiramisulabs--seyfert",
+      "source": "./tiramisulabs--seyfert",
+      "description": "seyfert"
     },
     {
       "name": "tiramisulabs--seyfert",
@@ -79099,6 +79274,11 @@
       "description": "adm-controller"
     },
     {
+      "name": "kubewarden--adm-controller",
+      "source": "./kubewarden--adm-controller",
+      "description": "adm-controller"
+    },
+    {
       "name": "tang-vu--contribai",
       "source": "./tang-vu--contribai",
       "description": "Autonomous AI agent that contributes to open source \u2014 discovers repos, analyzes code, generates fixes, and submits PRs"
@@ -83857,6 +84037,31 @@
       "name": "lylemi--ja3proxy",
       "source": "./lylemi--ja3proxy",
       "description": "ja3proxy"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
+    },
+    {
+      "name": "lfnovo--esperanto",
+      "source": "./lfnovo--esperanto",
+      "description": "esperanto"
     },
     {
       "name": "lfnovo--esperanto",
@@ -92034,6 +92239,11 @@
       "description": "ton-rs"
     },
     {
+      "name": "ston-fi--ton-rs",
+      "source": "./ston-fi--ton-rs",
+      "description": "ton-rs"
+    },
+    {
       "name": "natolambert--colloquium",
       "source": "./natolambert--colloquium",
       "description": "A markdown native slides tool for academics building with agents."
@@ -99699,6 +99909,11 @@
       "description": "azure-webpubsub"
     },
     {
+      "name": "kubernetes-sigs--blob-csi-driver",
+      "source": "./kubernetes-sigs--blob-csi-driver",
+      "description": "blob-csi-driver"
+    },
+    {
       "name": "lawrenceching--smm",
       "source": "./lawrenceching--smm",
       "description": "Simple Media Manger(SMM) is a media library manager powered by AI"
@@ -100052,6 +100267,16 @@
       "name": "camel-ai--seta",
       "source": "./camel-ai--seta",
       "description": "seta"
+    },
+    {
+      "name": "chyinan--kokoro-engine",
+      "source": "./chyinan--kokoro-engine",
+      "description": "Kokoro-Engine"
+    },
+    {
+      "name": "chyinan--kokoro-engine",
+      "source": "./chyinan--kokoro-engine",
+      "description": "Kokoro-Engine"
     },
     {
       "name": "badlogic--pi-share-hf",
@@ -102797,6 +103022,11 @@
       "name": "needle-di--needle-di",
       "source": "./needle-di--needle-di",
       "description": "needle-di"
+    },
+    {
+      "name": "geigerzaehler--beets-alternatives",
+      "source": "./geigerzaehler--beets-alternatives",
+      "description": "beets-alternatives"
     },
     {
       "name": "chekdata--chek-ego-miner",
@@ -107062,6 +107292,11 @@
       "name": "uselessstudio--teleotp",
       "source": "./uselessstudio--teleotp",
       "description": "TeleOTP"
+    },
+    {
+      "name": "soegaard--webracket",
+      "source": "./soegaard--webracket",
+      "description": "webracket"
     },
     {
       "name": "clovesvg--one-click-clone",
@@ -120959,6 +121194,21 @@
       "description": "vscode-extension-splunk"
     },
     {
+      "name": "philolabs--agentic-vbench",
+      "source": "./philolabs--agentic-vbench",
+      "description": "agentic-vbench"
+    },
+    {
+      "name": "jovidecroock--pracht",
+      "source": "./jovidecroock--pracht",
+      "description": "pracht"
+    },
+    {
+      "name": "philolabs--agentic-vbench",
+      "source": "./philolabs--agentic-vbench",
+      "description": "agentic-vbench"
+    },
+    {
       "name": "xiashao--kaiyantool",
       "source": "./xiashao--kaiyantool",
       "description": "\u5f00\u6f14AI \u5c06\u5f71\u89c6\u521b\u4f5c\u5168\u6d41\u7a0b\u6574\u5408\u5230\u4e00\u4e2a\u5f3a\u5927\u7684\u5e73\u53f0\u4e2d\u3002\u4ece\u5267\u672c\u521b\u4f5c\u5230\u89c6\u9891\u5236\u4f5c\uff0c\u6211\u4eec\u7684AI\u5de5\u5177\u5e2e\u52a9\u521b\u4f5c\u8005\u66f4\u5feb\u5730\u5c06\u6545\u4e8b\u53d8\u4e3a\u73b0\u5b9e\u3002  \u6838\u5fc3\u4f18\u52bf\uff1a  \ud83c\udfaf \u4e00\u7ad9\u5f0f\u89e3\u51b3\u65b9\u6848 - \u5267\u672c\u3001\u5206\u955c\u3001\u56fe\u50cf\u3001\u89c6\u9891\u4e00\u7ad9\u5f0f\u5b8c\u6210 \ud83e\udd16 AI\u9a71\u52a8 - \u667a\u80fd\u89e3\u6790\u3001\u751f\u6210\u548c\u4f18\u5316 \u26a1 \u6781\u901f\u521b\u4f5c - \u79d2\u7ea7\u751f\u6210\u5206\u955c\uff0c\u544a\u522b\u7e41\u7410\u5de5\u4f5c \ud83c\udfa8 \u4e13\u4e1a\u54c1\u8d28 - \u7535\u5f71\u7ea7\u8f93\u51fa\u8d28\u91cf"
@@ -121652,6 +121902,11 @@
       "name": "bennettschwartz--membrane",
       "source": "./bennettschwartz--membrane",
       "description": "membrane"
+    },
+    {
+      "name": "kubevirt--kubevirtci",
+      "source": "./kubevirt--kubevirtci",
+      "description": "kubevirtci"
     },
     {
       "name": "nickcirv--engram",
@@ -123602,6 +123857,11 @@
       "name": "kubevirt--cluster-network-addons-operator",
       "source": "./kubevirt--cluster-network-addons-operator",
       "description": "cluster-network-addons-operator"
+    },
+    {
+      "name": "tektoncd--results",
+      "source": "./tektoncd--results",
+      "description": "results"
     },
     {
       "name": "insajin--autopus-adk",
@@ -142024,6 +142284,11 @@
       "description": "async"
     },
     {
+      "name": "carloscuesta--dotfiles",
+      "source": "./carloscuesta--dotfiles",
+      "description": "dotfiles"
+    },
+    {
       "name": "simonkurtz-msft--drawio-mcp-server",
       "source": "./simonkurtz-msft--drawio-mcp-server",
       "description": "A Model Context Protocol (MCP) server for programmatic diagram generation using Draw.io (Diagrams.net). This server generates Draw.io XML directly \u2014 no browser extension or Draw.io instance required."
@@ -144137,6 +144402,11 @@
       "name": "pimalaya--mirador",
       "source": "./pimalaya--mirador",
       "description": "mirador"
+    },
+    {
+      "name": "cloudfoundry--garden-runc-release",
+      "source": "./cloudfoundry--garden-runc-release",
+      "description": "garden-runc-release"
     },
     {
       "name": "cyw0ng95--sqlfuse",
@@ -146359,6 +146629,66 @@
       "description": "mdk"
     },
     {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
+      "name": "marmot-protocol--mdk",
+      "source": "./marmot-protocol--mdk",
+      "description": "mdk"
+    },
+    {
       "name": "claude-world--claude-skill-antivirus",
       "source": "./claude-world--claude-skill-antivirus",
       "description": "Security scanner for Claude Code Skills \u2014 9 engines detect malicious patterns, data exfiltration, dangerous ops across 71K+ skills"
@@ -147727,6 +148057,11 @@
       "name": "heywoodlh--nixos-configs",
       "source": "./heywoodlh--nixos-configs",
       "description": "nixos-configs"
+    },
+    {
+      "name": "chmouel--gosmee",
+      "source": "./chmouel--gosmee",
+      "description": "gosmee"
     },
     {
       "name": "attilaszasz--sdd-pilot",
@@ -157872,6 +158207,11 @@
       "name": "darkrock-studios--fasttrack",
       "source": "./darkrock-studios--fasttrack",
       "description": "FastTrack"
+    },
+    {
+      "name": "gui-cs--terminal-gui-templates",
+      "source": "./gui-cs--terminal-gui-templates",
+      "description": "Terminal.Gui.templates"
     },
     {
       "name": "gui-cs--terminal-gui-templates",
@@ -477004,11 +477344,6 @@
       "description": "pkm-ui"
     },
     {
-      "name": "rhinos0608--pi-northstar",
-      "source": "./rhinos0608--pi-northstar",
-      "description": "Pi-Northstar"
-    },
-    {
       "name": "tguntenaar--vibewindowmanager",
       "source": "./tguntenaar--vibewindowmanager",
       "description": "VibeWindowManager"
@@ -479752,6 +480087,11 @@
       "name": "pimpledmikey--be-exenty",
       "source": "./pimpledmikey--be-exenty",
       "description": "Be-exenTY"
+    },
+    {
+      "name": "rhinos0608--pi-northstar",
+      "source": "./rhinos0608--pi-northstar",
+      "description": "Pi-Northstar"
     }
   ]
 }
