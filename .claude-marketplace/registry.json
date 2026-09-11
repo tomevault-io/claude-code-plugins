@@ -85359,6 +85359,11 @@
       "description": "tds-vscode"
     },
     {
+      "name": "liquid4all--liquid-finetune",
+      "source": "./liquid4all--liquid-finetune",
+      "description": "A full model customization repo for Liquid Foundation Models"
+    },
+    {
       "name": "emanuele-web04--dpcode",
       "source": "./emanuele-web04--dpcode",
       "description": "The best place to build with your AI sub"
@@ -148952,6 +148957,11 @@
       "name": "chmouel--gosmee",
       "source": "./chmouel--gosmee",
       "description": "gosmee"
+    },
+    {
+      "name": "dsx-ai-factory--karta",
+      "source": "./dsx-ai-factory--karta",
+      "description": "Translation layer that maps any Kubernetes framework's Custom Resource Definitions (CRDs) into a standardized, generic structure."
     },
     {
       "name": "attilaszasz--sdd-pilot",
@@ -235294,6 +235304,11 @@
       "description": "Reliability layer for multi-agent setups \u2014 keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction)."
     },
     {
+      "name": "hr98w--dsh-memory",
+      "source": "./hr98w--dsh-memory",
+      "description": "\u878d\u5408 Claude Code \u7684 Auto Memory \u4e0e Codex \u7684 Session \u8bb0\u5fc6\u6574\u7406\uff0c\u4e3a DeepSeek Harness \u63d0\u4f9b\u7b80\u5355\u3001\u900f\u660e\u3001\u4e0a\u4e0b\u6587\u53cb\u597d\u7684\u957f\u671f\u8bb0\u5fc6\u3002Claude Code-inspired Auto Memory meets Codex-inspired Session consolidation, bringing simple, transparent, and"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -242132,6 +242147,11 @@
       "name": "xhzq233--ios-use",
       "source": "./xhzq233--ios-use",
       "description": "Fast iOS UI automation from the terminal, powered by a lightweight XCTest TCP driver"
+    },
+    {
+      "name": "opentidehq--sharetide",
+      "source": "./opentidehq--sharetide",
+      "description": "[ARCHIVED] Public objects moved to OpenTideHQ/library"
     },
     {
       "name": "onevcat--xin",
@@ -263179,6 +263199,11 @@
       "description": "An open-source, privacy-respecting, ad-free Hi-Fi music client. Bring your own source \u2014 powered by any Eclipse-compatible addon."
     },
     {
+      "name": "qwq77777764--catalogflow",
+      "source": "./qwq77777764--catalogflow",
+      "description": "Safety-first, human-approved product catalog pipeline for WooCommerce"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -270607,6 +270632,11 @@
       "name": "entropy-data--dataproduct-builder-dbt",
       "source": "./entropy-data--dataproduct-builder-dbt",
       "description": "Build data products with dbt and integrate them with Entropy Data \u2014 coding-agent plugin (Claude Code, Codex, Copilot CLI)"
+    },
+    {
+      "name": "xsolla-baku-gametech-hackathon--team-prometey",
+      "source": "./xsolla-baku-gametech-hackathon--team-prometey",
+      "description": "team-prometey"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -279772,6 +279802,16 @@
       "name": "haraldbregu--kucedr",
       "source": "./haraldbregu--kucedr",
       "description": "One Desktop Agent. Infinite Personal Tools."
+    },
+    {
+      "name": "cs3-web-course-2026--cs31-minesweeper-2026",
+      "source": "./cs3-web-course-2026--cs31-minesweeper-2026",
+      "description": "cs31-minesweeper-2026"
+    },
+    {
+      "name": "nuxflix--voxigo",
+      "source": "./nuxflix--voxigo",
+      "description": "Voxigo - A WebRTC-native, audio-first conversational-AI framework for Go."
     },
     {
       "name": "makenowjust--naraku",
@@ -294147,6 +294187,21 @@
       "name": "ag2ai--ag2-skills",
       "source": "./ag2ai--ag2-skills",
       "description": "Agent Skills for AG2 developers"
+    },
+    {
+      "name": "zostaff--agent-arena",
+      "source": "./zostaff--agent-arena",
+      "description": "agent-arena"
+    },
+    {
+      "name": "marcusschiesser--screencontext",
+      "source": "./marcusschiesser--screencontext",
+      "description": "A native macOS screen recorder that turns screen recordings into context for AI agents. Capture bugs, demos, and workflows\u2014saved locally."
+    },
+    {
+      "name": "diggerhq--openmuse",
+      "source": "./diggerhq--openmuse",
+      "description": "A personal assistant you deploy, built on OpenComputer Serverless Agents"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -335949,6 +336004,91 @@
       "description": "Turn art of rally into a sim: revives the game's missing DirectInput force feedback, Forza-compatible UDP telemetry, bonnet camera. UMM + Harmony."
     },
     {
+      "name": "jealous-sound--azerothcore-wotlk-coa",
+      "source": "./jealous-sound--azerothcore-wotlk-coa",
+      "description": "Conquest of AzerothCore"
+    },
+    {
+      "name": "dave2ooo--f2ltrainer",
+      "source": "./dave2ooo--f2ltrainer",
+      "description": "F2LTrainer"
+    },
+    {
+      "name": "dave2ooo--f2ltrainer",
+      "source": "./dave2ooo--f2ltrainer",
+      "description": "F2LTrainer"
+    },
+    {
+      "name": "astiskala--lunch-buddy",
+      "source": "./astiskala--lunch-buddy",
+      "description": "Lunch Buddy is a progressive web app (PWA) that visualises your Lunch Money budgets to help you keep category budgets on track as you progress through the month."
+    },
+    {
+      "name": "webxr-jp--avatar-optimizer",
+      "source": "./webxr-jp--avatar-optimizer",
+      "description": "XRift\u5411\u3051\u306bThree.js\u4e0a\u3067\u30a2\u30d0\u30bf\u30fc\u3092\u6700\u9069\u5316\u3059\u308b\u305f\u3081\u306e\u30e9\u30a4\u30d6\u30e9\u30ea\u3067\u3059"
+    },
+    {
+      "name": "3113y--tyut-course-grabber",
+      "source": "./3113y--tyut-course-grabber",
+      "description": "Tyut-Course-Grabber"
+    },
+    {
+      "name": "openverse-orca--orcamanipulation",
+      "source": "./openverse-orca--orcamanipulation",
+      "description": "OrcaManipulation"
+    },
+    {
+      "name": "astiskala--lunch-buddy",
+      "source": "./astiskala--lunch-buddy",
+      "description": "Lunch Buddy is a progressive web app (PWA) that visualises your Lunch Money budgets to help you keep category budgets on track as you progress through the month."
+    },
+    {
+      "name": "retotito--ultrastarcreatortool",
+      "source": "./retotito--ultrastarcreatortool",
+      "description": "AI-powered Ultrastar song generator \u2014 Upload any song, get a singable Ultrastar TXT. Vocal separation, WhisperX alignment, pitch detection, and a full piano roll editor with MIDI playback, loop region"
+    },
+    {
+      "name": "salaesp--claude-code-openai-wrapper",
+      "source": "./salaesp--claude-code-openai-wrapper",
+      "description": "FastAPI bridge exposing a Claude Pro/Max subscription as an OpenAI   chat-completions endpoint: passthrough tool calls, structured outputs,   SSE streaming, token usage, single-turn LLM mode, and a Ma"
+    },
+    {
+      "name": "vladimiraldushin--hermes-max-platform",
+      "source": "./vladimiraldushin--hermes-max-platform",
+      "description": "Hermes Agent platform plugin for Max messenger gateway"
+    },
+    {
+      "name": "zyt2000123--opensmith",
+      "source": "./zyt2000123--opensmith",
+      "description": "Local Priority, Native Terminal Personal Assistant Agent."
+    },
+    {
+      "name": "jealous-sound--azerothcore-wotlk-coa",
+      "source": "./jealous-sound--azerothcore-wotlk-coa",
+      "description": "Conquest of AzerothCore"
+    },
+    {
+      "name": "skhoroshavin--tandem-skills",
+      "source": "./skhoroshavin--tandem-skills",
+      "description": "Tandem work skills that push back on agent autonomy and give you control back: fewer unprompted antics, more actual collaboration."
+    },
+    {
+      "name": "ivantokar--xmap-nvim",
+      "source": "./ivantokar--xmap-nvim",
+      "description": "Fast minimap panel for Neovim: symbols + comments/markers, structural highlights, and jump navigation."
+    },
+    {
+      "name": "tatarinovms--shadowrocketsimpleconfig",
+      "source": "./tatarinovms--shadowrocketsimpleconfig",
+      "description": "\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u0438 \u0434\u043b\u044f \u043a\u043b\u0438\u0435\u043d\u0442\u0430 ShadowRocket"
+    },
+    {
+      "name": "astiskala--lunch-buddy",
+      "source": "./astiskala--lunch-buddy",
+      "description": "Lunch Buddy is a progressive web app (PWA) that visualises your Lunch Money budgets to help you keep category budgets on track as you progress through the month."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -358827,6 +358967,56 @@
       "name": "jdx--envol",
       "source": "./jdx--envol",
       "description": "Build once. Release with confidence. CLI releases and adoption dashboards."
+    },
+    {
+      "name": "llmsforall--millie-cli",
+      "source": "./llmsforall--millie-cli",
+      "description": "millie-cli"
+    },
+    {
+      "name": "tobi--bb-bots-sidebar",
+      "source": "./tobi--bb-bots-sidebar",
+      "description": "Keep specialist bots, their memory, and their conversations together across projects."
+    },
+    {
+      "name": "ftpaiyt--cities2-agent-bridge-ndc",
+      "source": "./ftpaiyt--cities2-agent-bridge-ndc",
+      "description": "An experimental local agent bridge for Cities: Skylines II."
+    },
+    {
+      "name": "gunmin-kim--gunmin-kim-prompt-generator",
+      "source": "./gunmin-kim--gunmin-kim-prompt-generator",
+      "description": "gunmin-kim \ud55c\uad6d\uc5b4 AI \ube44\ub514\uc624 \ud504\ub86c\ud504\ud2b8 \uc0dd\uc131\uae30 \u2014 scene, motion, camera and video prompt workshop"
+    },
+    {
+      "name": "hyper-accel--hyper-accel-github-io",
+      "source": "./hyper-accel--hyper-accel-github-io",
+      "description": "Technical blog for HyperAccel for sharing our technology and innovations"
+    },
+    {
+      "name": "pola-rs--polars-bigquery-client",
+      "source": "./pola-rs--polars-bigquery-client",
+      "description": "polars-bigquery-client"
+    },
+    {
+      "name": "rafailandreou--sensee",
+      "source": "./rafailandreou--sensee",
+      "description": "Control your devices using hand gestures(+an app to configure your gestures to actions)"
+    },
+    {
+      "name": "zmjjcjb--cmdc-hub",
+      "source": "./zmjjcjb--cmdc-hub",
+      "description": "Command Code \u5168\u6a21\u578b\u7f51\u5173 - \u5355\u6587\u4ef6\u53ef\u6267\u884c\u7248"
+    },
+    {
+      "name": "openshift--lightspeed-hub",
+      "source": "./openshift--lightspeed-hub",
+      "description": "Hub service for multicluster OpenShift Lightspeed."
+    },
+    {
+      "name": "xiaweizi--studyword",
+      "source": "./xiaweizi--studyword",
+      "description": "\u8bc6\u5b57\u5c0f\u5e2e\u624b \u662f\u4e00\u6b3e\u9762\u5411\u5e7c\u513f\u56ed\u5230\u5c0f\u5b66\u8854\u63a5\u9636\u6bb5\u513f\u7ae5\u7684 Android \u5e94\u7528\uff0c\u5e2e\u52a9\u5bb6\u957f\u9ad8\u6548\u8bc4\u4f30\u5b69\u5b50\u7684\u8bc6\u5b57\u80fd\u529b\u3002\u5e94\u7528\u5185\u7f6e\u7ea6 3000 \u4e2a\u5e38\u7528\u6c49\u5b57\uff0c\u6309\u7167\u4f7f\u7528\u9891\u7387\u548c\u7b14\u753b\u590d\u6742\u5ea6\u5212\u5206\u4e3a\u7b80\u5355\u3001\u4e2d\u7b49\u3001\u56f0\u96be\u4e09\u7ea7\uff0c\u652f\u6301\u9010\u5b57\u6d4b\u9a8c\u3001\u8fc7\u7a0b\u8bb0\u5f55\u4e0e\u6570\u636e\u5bfc\u51fa\u3002"
     },
     {
       "name": "cheerhuan--save-your-token",
