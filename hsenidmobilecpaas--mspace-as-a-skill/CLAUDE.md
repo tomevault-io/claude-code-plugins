@@ -1,4 +1,4 @@
-# mspace-as-a-skill
+# mspace
 
 > <!-- Generated from AGENTS.md by scripts/sync-rules.mjs. Do not edit directly. -->
 
@@ -7,7 +7,7 @@
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/mspace-as-a-skill/SKILL.md
+Read and follow the instructions in .claude/skills/mspace/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
