@@ -1,19 +1,18 @@
-# implementation-workflow
+# prism
 
-> Required workflow for implementation, commits, and review
+> - Use `/poteto-mode` for every implementation phase.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/implementation-workflow/SKILL.md
+Read and follow the instructions in .claude/skills/prism/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
-# Implementation workflow
+# Repository workflow
 
 - Use `/poteto-mode` for every implementation phase.
 - Run `/deslop` before every commit.
