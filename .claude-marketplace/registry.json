@@ -294704,6 +294704,11 @@
       "description": "Persistent GPU jobs for AI agents. MCP + CLI, hardware-aware scheduling, Kaggle adapter, and recoverable artifacts for Codex and Claude Code."
     },
     {
+      "name": "maraxen--aminx",
+      "source": "./maraxen--aminx",
+      "description": "JAX/Equinox implementation of ProteinMPNN and LigandMPNN for protein sequence design"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -336904,6 +336909,21 @@
       "description": "LinkedIn-Automate"
     },
     {
+      "name": "wassermanproductions--wasserman-spark-director-h3-speed-recipe",
+      "source": "./wassermanproductions--wasserman-spark-director-h3-speed-recipe",
+      "description": "8s of H3 video in 2m54s warm delivery on two DGX Sparks. Scene-specific LTX refinement, original-voice restoration, measured sync, clips and reproducible settings."
+    },
+    {
+      "name": "luantak--mosaik",
+      "source": "./luantak--mosaik",
+      "description": "Agentic browser automation built from small, reusable pieces."
+    },
+    {
+      "name": "cubeshipd--cubeship",
+      "source": "./cubeshipd--cubeship",
+      "description": "A PaaS you run on your own server. docker push, and it is live \u2014 with HTTPS, a database beside it, and a second machine when one stops being enough."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -359957,6 +359977,11 @@
       "name": "ctlst--shell",
       "source": "./ctlst--shell",
       "description": "shell"
+    },
+    {
+      "name": "agricidaniel--web-mcp",
+      "source": "./agricidaniel--web-mcp",
+      "description": "Decide whether your site should expose WebMCP tools to AI agents, design them safely, and refuse the claims no evidence supports. Runtime-agnostic: AGENTS.md for any agent, plus a Claude Code skill."
     },
     {
       "name": "cheerhuan--save-your-token",
