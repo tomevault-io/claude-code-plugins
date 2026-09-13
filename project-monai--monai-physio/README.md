@@ -7,13 +7,13 @@ Generate anatomic models in Omniverse with physiological motion derived from med
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [Project-MONAI/monai-physio](https://github.com/Project-MONAI/monai-physio).
+Original source: `AGENTS.md` in [Project-MONAI/monai-physio](https://github.com/Project-MONAI/monai-physio).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
