@@ -270959,6 +270959,11 @@
       "description": "Drop-in Hermes Agent profile kit. Creates four isolated profiles (coder, assistant, research, community-bot) with separate config, memory, gateway tokens, and personas. AGENTS.md-driven, LLM-friendly."
     },
     {
+      "name": "rytsh--bir",
+      "source": "./rytsh--bir",
+      "description": "web tools"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -294712,6 +294717,11 @@
       "name": "thebrightnest--hermes-advisor-skill",
       "source": "./thebrightnest--hermes-advisor-skill",
       "description": "hermes-advisor-skill"
+    },
+    {
+      "name": "oblique-bit--oblique",
+      "source": "./oblique-bit--oblique",
+      "description": "Oblique is the unified frontend ecosystem of the Swiss Confederation \u2014 encompassing all libraries, tools, guidelines and services that shape how we design, build, and maintain user interfaces.  It pro"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
