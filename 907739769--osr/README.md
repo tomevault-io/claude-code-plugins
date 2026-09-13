@@ -2,8 +2,6 @@
 
 > Source: [907739769/OSR](https://github.com/907739769/OSR). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-网盘影视订阅下载平台
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
