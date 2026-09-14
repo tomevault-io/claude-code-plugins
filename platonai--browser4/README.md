@@ -1,21 +1,22 @@
 # Browser4
 
-> Source: [platonai/Browser4](https://github.com/platonai/Browser4). Graded, signed and kept in sync across platforms by [TomeVault](https://tomevault.io)
+> Source: [platonai/Browser4](https://github.com/platonai/Browser4). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [platonai/Browser4](https://github.com/platonai/Browser4).
+Original source: `` in [platonai/Browser4](https://github.com/platonai/Browser4).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-## Bundled Skills (8)
+## Bundled Skills (25)
 
 - [Browser4](https://github.com/platonai/Browser4/tree/main/browser4-agentic/src/main/resources/skills/pdf/SKILL.md)
 - [Browser4](https://github.com/platonai/Browser4/tree/main/browser4-agentic/src/main/resources/skills/x-sql/SKILL.md)
@@ -25,6 +26,23 @@ Original source: `AGENTS.md` in [platonai/Browser4](https://github.com/platonai/
 - [Browser4](https://github.com/platonai/Browser4/tree/main/browser4-agentic/src/main/resources/skills/form-filling/SKILL.md)
 - [Browser4](https://github.com/platonai/Browser4/tree/main/browser4-agentic/src/test/resources/skills/script-runner/SKILL.md)
 - [Browser4](https://github.com/platonai/Browser4/tree/main/browser4-agentic/src/main/resources/skills/data-validation/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-cli/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/task-token-usage/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/organize-task-files/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/scent-miner/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-plugin/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/coworker/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/run-tests/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-experience/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/maintenance/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/coworker/skills/test-production/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-dev/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-seo/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-coding/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-fix-bug/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/skills/browser4-web-miner/SKILL.md)
+- [Browser4](https://github.com/platonai/Browser4/tree/main/docs-dev/copilot/examples/skill.md)
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/platonai/Browser4](https://github.com/platonai/Browser4)
 
