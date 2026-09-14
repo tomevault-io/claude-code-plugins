@@ -1,22 +1,24 @@
-# project
+# awesome-ai-x-accounts
 
-> Read and follow [AGENTS.md](../../AGENTS.md) and
+> Read [AGENTS.md](../AGENTS.md) and [docs/ai-workflow.md](../docs/ai-workflow.md).
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/project/SKILL.md
+Read and follow the instructions in .claude/skills/awesome-ai-x-accounts/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Copilot repository instructions
 
-Read and follow [AGENTS.md](../../AGENTS.md) and
-[docs/ai-workflow.md](../../docs/ai-workflow.md).
-Copy profile bios verbatim, record exact follower snapshots, and keep outputs reproducible.
-Do not add editorial account descriptions or recommendations.
+Read [AGENTS.md](../AGENTS.md) and [docs/ai-workflow.md](../docs/ai-workflow.md).
+Use `data/accounts.json` as canonical data. Do not edit generated files directly.
+Check X handles and numeric IDs; copy bios verbatim and record follower snapshots.
+Do not add recommendations, account-type/language labels, or row evidence links.
+Run build, check, unittest, and git diff checks as described in AGENTS.md.
 
 ---
 > Source: [everclear077/awesome-ai-x-accounts](https://github.com/everclear077/awesome-ai-x-accounts) — distributed by [TomeVault](https://tomevault.io).
