@@ -1,18 +1,19 @@
-# prism-legal-os
+# implementation-workflow
 
-> - Use `/poteto-mode` for every implementation phase.
+> Required workflow for implementation, commits, and review
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/prism-legal-os/SKILL.md
+Read and follow the instructions in .claude/skills/implementation-workflow/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repository workflow
+
+# Implementation workflow
 
 - Use `/poteto-mode` for every implementation phase.
 - Run `/deslop` before every commit.
