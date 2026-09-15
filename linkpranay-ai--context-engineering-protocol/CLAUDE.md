@@ -1,22 +1,22 @@
-# compiling-project-guidelines
+# demo-consume-context
 
-> Compile scattered guideline sources into one scope-aware COMPILED-GUIDELINES.md for other skills and ult-context-generate's Constraints layer. Do NOT use to enforce rules at runtime.
+> Worked example that discovers, loads, and tags a context package per CONSUMING-CONTEXT-PACKAGE.md, then writes a reverse-index addendum — proves the produce/consume/tag loop end-to-end. Do NOT use for real feature work.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/compiling-project-guidelines/SKILL.md
+Read and follow the instructions in .claude/skills/demo-consume-context/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Compiling Project Guidelines
+# Demo: Consuming a Context Package (worked example)
 
 This repository packages its capabilities as portable skills for AI
-coding agents. Read `.github/skills/compiling-project-guidelines/SKILL.md` and follow it
+coding agents. Read `.github/skills/demo-consume-context/SKILL.md` and follow it
 when this rule applies.
 
 ---
