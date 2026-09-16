@@ -273529,6 +273529,11 @@
       "description": "Automated documentation crawler that generates LLM-friendly Markdown from any docs site. Export as single or multi-file, ready for AI ingestion."
     },
     {
+      "name": "plainsightpro--powerbi-mcp-gateway",
+      "source": "./plainsightpro--powerbi-mcp-gateway",
+      "description": "powerbi-mcp-gateway"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -297612,6 +297617,11 @@
       "name": "dollarwong--ninfer-v100",
       "source": "./dollarwong--ninfer-v100",
       "description": "NInfer on Tesla V100 (sm_70): Qwen3.8-27B deployment, build/convert scripts, systemd service, and cross-engine benchmark (vs llama.cpp). Fork of Neroued/ninfer with sm70 vision-encoding speedup."
+    },
+    {
+      "name": "theoleecj--openjev",
+      "source": "./theoleecj--openjev",
+      "description": "Can we run something like Jev on a 3090 at home?"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -488374,11 +488384,6 @@
       "description": "prak-mobilelanjut-2307051005"
     },
     {
-      "name": "rhinos0608--pi-northstar",
-      "source": "./rhinos0608--pi-northstar",
-      "description": "Pi-Northstar"
-    },
-    {
       "name": "yashvinchhi--attendence-python",
       "source": "./yashvinchhi--attendence-python",
       "description": "attendence-python"
@@ -488562,6 +488567,11 @@
       "name": "deshpj--product-analytic-dashboard",
       "source": "./deshpj--product-analytic-dashboard",
       "description": "Sales Insights Dashboard Automation is an automation-first, full-stack project that transforms raw spreadsheet data into interactive sales dashboards."
+    },
+    {
+      "name": "rhinos0608--pi-northstar",
+      "source": "./rhinos0608--pi-northstar",
+      "description": "Pi-Northstar"
     }
   ]
 }
