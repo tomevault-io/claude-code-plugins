@@ -181989,6 +181989,11 @@
       "description": "runner-images-for-aws"
     },
     {
+      "name": "littlenub--bili-bill",
+      "source": "./littlenub--bili-bill",
+      "description": "\u5728\u672c\u5730\u6574\u7406 B\u7ad9\u89c2\u770b\u5386\u53f2\u4e0e\u6536\u85cf\u7684 Chrome \u548c Edge \u6269\u5c55\u3002\u5f53\u524d\u4e3a 0.13.0-alpha \u9884\u53d1\u5e03\u3002"
+    },
+    {
       "name": "s-zx--crest",
       "source": "./s-zx--crest",
       "description": "An open source, AI-native terminal."
@@ -206462,6 +206467,11 @@
       "name": "maneek21--deft",
       "source": "./maneek21--deft",
       "description": "Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context."
+    },
+    {
+      "name": "dengmengmian--muxlayer",
+      "source": "./dengmengmian--muxlayer",
+      "description": "The local model control layer for coding agents. Route, convert, fail over, and trace model requests locally."
     },
     {
       "name": "inureyes--gyeol",
@@ -234754,6 +234764,11 @@
       "description": "Custom converter: open-weight Hugging Face LLMs/VLMs -> on-device LiteRT-LM (.litertlm), with one-command reproduction"
     },
     {
+      "name": "zach-blumenfeld--knowledge-index",
+      "source": "./zach-blumenfeld--knowledge-index",
+      "description": "The Graph Search Engine for Your Knowledge Base"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -237572,6 +237587,11 @@
       "name": "dylanmerigaud--approvals-ui",
       "source": "./dylanmerigaud--approvals-ui",
       "description": "Approval workflow components for React Flow, distributed as a shadcn registry. Quorum gates, thresholds, policy lint, plain-language editing behind a human gate."
+    },
+    {
+      "name": "skimbas--baza-mining-app",
+      "source": "./skimbas--baza-mining-app",
+      "description": "baza-mining-app"
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -253234,6 +253254,11 @@
       "description": "A collection of Pi extensions by zhcsyncer"
     },
     {
+      "name": "theeastkoi--celest",
+      "source": "./theeastkoi--celest",
+      "description": "DeepSeek TUI VS Code extension"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -258837,6 +258862,16 @@
       "name": "nomadamas--healthmes-agent",
       "source": "./nomadamas--healthmes-agent",
       "description": "Local-first personal health driven decision engine for agents."
+    },
+    {
+      "name": "cth9191--blender-to-web",
+      "source": "./cth9191--blender-to-web",
+      "description": "Blender-to-browser workflow, Codex skill, and interactive Three.js hero examples with editable source assets."
+    },
+    {
+      "name": "vercel-labs--error",
+      "source": "./vercel-labs--error",
+      "description": "A lightweight toolkit for structured, actionable errors for humans and agents."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -273429,6 +273464,16 @@
       "description": "It is an MCP server that lets AI agents perform step-by-step symbolic derivations: calculate, transform, verify, and store formulas with full provenance, all through conversation."
     },
     {
+      "name": "beboite--boite-legacy",
+      "source": "./beboite--boite-legacy",
+      "description": "The 1.x line of Boite, the multi-agent terminal multiplexer, kept updated for existing installs. The next Boite arrives at beboite/boite."
+    },
+    {
+      "name": "susomejias--rembric",
+      "source": "./susomejias--rembric",
+      "description": "Persistent memory for AI coding agents \u2014 self-hosted, MCP-native, append-only. One Docker image, one SQLite file."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -282757,6 +282802,11 @@
       "name": "allure-framework--allure-report-storage",
       "source": "./allure-framework--allure-report-storage",
       "description": "allure-report-storage"
+    },
+    {
+      "name": "redhat-performance--configiq",
+      "source": "./redhat-performance--configiq",
+      "description": "Distributed inference configuration tools"
     },
     {
       "name": "makenowjust--naraku",
@@ -297467,6 +297517,26 @@
       "name": "ivanpavlak--winux",
       "source": "./ivanpavlak--winux",
       "description": "Windows 11, Linuxified - one command turns a fresh install into a fully personalized power-user environment."
+    },
+    {
+      "name": "universalsequences--eseq",
+      "source": "./universalsequences--eseq",
+      "description": "extensible D.A.W."
+    },
+    {
+      "name": "netcanon--netcanon",
+      "source": "./netcanon--netcanon",
+      "description": "Multi-vendor network config translator \u2014 Cisco / Juniper / Fortinet / Aruba / Arista / MikroTik / OPNsense. Cross-mesh audit catches silent translation errors before they ship. Live demo: demo.netcano"
+    },
+    {
+      "name": "j-256--qlomni",
+      "source": "./j-256--qlomni",
+      "description": "Preview scripts, dotfiles, configuration files, and unfamiliar text formats with macOS Quick Look."
+    },
+    {
+      "name": "universalsequences--eseq",
+      "source": "./universalsequences--eseq",
+      "description": "extensible D.A.W."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -340337,6 +340407,36 @@
       "name": "huqingyuan0707--multimodal-intelligent-e-commerce-customer-service-system",
       "source": "./huqingyuan0707--multimodal-intelligent-e-commerce-customer-service-system",
       "description": "Multimodal_Intelligent_E-commerce_Customer_Service_System"
+    },
+    {
+      "name": "xulogin--geelo",
+      "source": "./xulogin--geelo",
+      "description": "\u7528 AI \u5f00\u53d1 GEE \u7684\u514d\u5e72\u9884\u5de5\u4f5c\u6d41\uff1aAI \u5199\u5b8c GEE \u811a\u672c\u540e\u81ea\u5df1\u5728\u672c\u673a\u8fde\u771f\u670d\u52a1\u5668\u8dd1\u3001\u770b\u53cd\u9988\u3001\u81ea\u5df1\u6539\uff0c\u8c03\u901a\u4e86\u518d\u4ea4\u4ed8\u3002\u9002\u914d Claude Code / Codex / Cursor / Gemini CLI \u7b49\u4e3b\u6d41 AI \u5de5\u5177\u3002"
+    },
+    {
+      "name": "xulogin--geelo",
+      "source": "./xulogin--geelo",
+      "description": "\u7528 AI \u5f00\u53d1 GEE \u7684\u514d\u5e72\u9884\u5de5\u4f5c\u6d41\uff1aAI \u5199\u5b8c GEE \u811a\u672c\u540e\u81ea\u5df1\u5728\u672c\u673a\u8fde\u771f\u670d\u52a1\u5668\u8dd1\u3001\u770b\u53cd\u9988\u3001\u81ea\u5df1\u6539\uff0c\u8c03\u901a\u4e86\u518d\u4ea4\u4ed8\u3002\u9002\u914d Claude Code / Codex / Cursor / Gemini CLI \u7b49\u4e3b\u6d41 AI \u5de5\u5177\u3002"
+    },
+    {
+      "name": "ecnu--eduwork",
+      "source": "./ecnu--eduwork",
+      "description": "EduWork"
+    },
+    {
+      "name": "alanthinker--ninfer-4090-yarn",
+      "source": "./alanthinker--ninfer-4090-yarn",
+      "description": "NInfer-4090: NInfer inference engine ported to RTX 4090 (sm_89) with YaRN support for Qwen3.8-27B"
+    },
+    {
+      "name": "ordoviciancn--mtgapro-i",
+      "source": "./ordoviciancn--mtgapro-i",
+      "description": "MTG Simulator \u2014 \u57fa\u4e8e Forge \u7684\u4e07\u667a\u724c\u684c\u9762\u6a21\u62df\u5668\uff0c\u652f\u6301 BO3\u3001\u724c\u7ec4\u7ba1\u7406\u4e0e\u8fdc\u7a0b\u8054\u673a"
+    },
+    {
+      "name": "xulogin--geelo",
+      "source": "./xulogin--geelo",
+      "description": "\u7528 AI \u5f00\u53d1 GEE \u7684\u514d\u5e72\u9884\u5de5\u4f5c\u6d41\uff1aAI \u5199\u5b8c GEE \u811a\u672c\u540e\u81ea\u5df1\u5728\u672c\u673a\u8fde\u771f\u670d\u52a1\u5668\u8dd1\u3001\u770b\u53cd\u9988\u3001\u81ea\u5df1\u6539\uff0c\u8c03\u901a\u4e86\u518d\u4ea4\u4ed8\u3002\u9002\u914d Claude Code / Codex / Cursor / Gemini CLI \u7b49\u4e3b\u6d41 AI \u5de5\u5177\u3002"
     },
     {
       "name": "loiane--specs-driven-development",
@@ -488242,6 +488342,26 @@
       "name": "resumesync--loan",
       "source": "./resumesync--loan",
       "description": "loan"
+    },
+    {
+      "name": "talktodre-ops--django-for-property",
+      "source": "./talktodre-ops--django-for-property",
+      "description": "This is a full stack system for property platform"
+    },
+    {
+      "name": "lashapor--free-qr-generator",
+      "source": "./lashapor--free-qr-generator",
+      "description": "free-qr-generator"
+    },
+    {
+      "name": "abdulrahman-shaban--chatbot-ai",
+      "source": "./abdulrahman-shaban--chatbot-ai",
+      "description": "chatbot.ai"
+    },
+    {
+      "name": "riversdark--riversdark-github-io",
+      "source": "./riversdark--riversdark-github-io",
+      "description": "riversdark.github.io"
     }
   ]
 }
