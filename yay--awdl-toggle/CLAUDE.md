@@ -1,0 +1,29 @@
+# awdl-toggle
+
+> After committing always list the commit's name and hash in your response.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/awdl-toggle/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+## Committing
+
+After committing always list the commit's name and hash in your response.
+
+## Build and verify
+
+- `python3 Scripts/project.py` regenerates the checked-in Xcode project.
+- `Scripts/build.sh` builds the locally signed Release app and helper.
+- `Scripts/test.sh` runs tests without modifying the network interface.
+- `python3 Scripts/package.py` assembles the local installer and uninstaller packages.
+- Live network and installation tests require administrator privileges; never claim those passed from unit tests alone.
+
+---
+> Source: [yay/awdl-toggle](https://github.com/yay/awdl-toggle) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-16 -->
