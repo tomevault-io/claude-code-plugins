@@ -340564,6 +340564,16 @@
       "description": "Tiny MLX-trained schedule model with a dependency-free WebGPU runtime"
     },
     {
+      "name": "aeon-7--qwen3-8-27b-aeon-ultimate-uncensored",
+      "source": "./aeon-7--qwen3-8-27b-aeon-ultimate-uncensored",
+      "description": "Uncensored Qwen3.8-27B Ultimate - BF16 master + NVFP4-MIXED deploy. QuickStarts for DGX Spark (one Dynamic DFlash lattice seat @ util 0.80), dual-Spark TP=2, RTX 5090 / PRO 6000. Serve with aeon-vllm-"
+    },
+    {
+      "name": "maxgramser--homeassistant-espscreen",
+      "source": "./maxgramser--homeassistant-espscreen",
+      "description": "homeassistant_espscreen"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -363977,6 +363987,11 @@
       "name": "phunkaeg--preyvr",
       "source": "./phunkaeg--preyvr",
       "description": "OpenXR VR mod for Prey (2017). Research build - stereo, 6DoF, motion controls, native HUD."
+    },
+    {
+      "name": "akitaonrails--omarchy-games-menu",
+      "source": "./akitaonrails--omarchy-games-menu",
+      "description": "Personal game launcher connected to my distrobox-gaming to launch my custom PC ports and emulators"
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -488542,6 +488557,11 @@
       "name": "sviniabanditka--scheduler",
       "source": "./sviniabanditka--scheduler",
       "description": "scheduler"
+    },
+    {
+      "name": "deshpj--product-analytic-dashboard",
+      "source": "./deshpj--product-analytic-dashboard",
+      "description": "Sales Insights Dashboard Automation is an automation-first, full-stack project that transforms raw spreadsheet data into interactive sales dashboards."
     }
   ]
 }
