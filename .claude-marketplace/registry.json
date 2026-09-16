@@ -273509,6 +273509,11 @@
       "description": "Persistent memory for AI coding agents \u2014 self-hosted, MCP-native, append-only. One Docker image, one SQLite file."
     },
     {
+      "name": "pat1175--omnidocs",
+      "source": "./pat1175--omnidocs",
+      "description": "Automated documentation crawler that generates LLM-friendly Markdown from any docs site. Export as single or multi-file, ready for AI ingestion."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -297577,6 +297582,11 @@
       "name": "001123--lab-ipxe-os",
       "source": "./001123--lab-ipxe-os",
       "description": "Multi-OS iPXE & Cloud-Init Hub - A high-performance, lightweight network autoinstall server for Bare-metal and Virtual Machines powered by Bun & TypeScript."
+    },
+    {
+      "name": "htmujahid--v-stack",
+      "source": "./htmujahid--v-stack",
+      "description": "Ultimate boilerplate for your next SAAS. NextJS + Better Auth + oRpc + Drizzle "
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -340494,6 +340504,26 @@
       "description": "Scan an AWS Organization and generate Terraform for the SCPs and RCPs your accounts already comply with, placed at the highest safe level."
     },
     {
+      "name": "antoinezanardi--goat-it-web-game",
+      "source": "./antoinezanardi--goat-it-web-game",
+      "description": "Goat It Web Game is a web game built with Nuxt 4 and Vue 3, part of the Goat It app ecosystem."
+    },
+    {
+      "name": "knowledgesteps--knowledgesteps",
+      "source": "./knowledgesteps--knowledgesteps",
+      "description": "KnowledgeSteps"
+    },
+    {
+      "name": "antoinezanardi--goat-it-web-game",
+      "source": "./antoinezanardi--goat-it-web-game",
+      "description": "Goat It Web Game is a web game built with Nuxt 4 and Vue 3, part of the Goat It app ecosystem."
+    },
+    {
+      "name": "withastro--marlo",
+      "source": "./withastro--marlo",
+      "description": "Intelligent email for busy people."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -363892,6 +363922,11 @@
       "name": "toptechphoto--picsio-mcp-plugin",
       "source": "./toptechphoto--picsio-mcp-plugin",
       "description": "Pics.io MCP Plugin for AI Marketplaces (Anthropic, OpenAI, Copilot, Gemini)"
+    },
+    {
+      "name": "grd-chang--grill-engineering",
+      "source": "./grd-chang--grill-engineering",
+      "description": "From Matt Pocock Skills to working code. Automate GitHub ticket development, verification, and repair with Codex."
     },
     {
       "name": "cheerhuan--save-your-token",
@@ -488442,6 +488477,11 @@
       "name": "windsornguyen--bump",
       "source": "./windsornguyen--bump",
       "description": "NFC-first Lightning payments for contactless Bitcoin payments."
+    },
+    {
+      "name": "curiosum-dev--permit-playground",
+      "source": "./curiosum-dev--permit-playground",
+      "description": "permit_playground"
     }
   ]
 }
