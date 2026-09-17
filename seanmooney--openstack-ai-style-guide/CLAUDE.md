@@ -1,0 +1,41 @@
+# teim-review
+
+> Shared OpenStack teim-review workflow for Cursor Agent sessions.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/teim-review/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+Use this rule when the user asks for a full OpenStack code review workflow.
+
+The authoritative workflow is
+[@prompts/teim-review-core.md](../../prompts/teim-review-core.md).
+
+Shared references:
+
+- [@docs/quick-rules.md](../../docs/quick-rules.md)
+- [@docs/comprehensive-guide.md](../../docs/comprehensive-guide.md)
+- [@docs/knowledge/README.md](../../docs/knowledge/README.md)
+- [@schemas/review-report-schema.json](../../schemas/review-report-schema.json)
+- [@config/tool-profiles.json](../../config/tool-profiles.json)
+
+Cursor adapter rules:
+
+- Keep the stable `.teim-review/` artifact layout.
+- Use the `fast` and `deep` semantic profiles from
+  `config/tool-profiles.json`.
+- Prefer Cursor's configured model picker and Custom Mode model setting over
+  hardcoding model IDs in prompts.
+- Treat project rules as the native Cursor packaging surface for this
+  repository.
+
+---
+> Source: [SeanMooney/openstack-ai-style-guide](https://github.com/SeanMooney/openstack-ai-style-guide) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-17 -->
