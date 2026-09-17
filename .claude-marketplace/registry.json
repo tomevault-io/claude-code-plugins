@@ -17364,6 +17364,11 @@
       "description": "redis_exporter"
     },
     {
+      "name": "mouseww--anything-analyzer",
+      "source": "./mouseww--anything-analyzer",
+      "description": "anything-analyzer"
+    },
+    {
       "name": "hao-ai-lab--fastvideo",
       "source": "./hao-ai-lab--fastvideo",
       "description": "A unified inference and post-training framework for accelerated video generation."
@@ -78269,6 +78274,11 @@
       "description": "Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my \"No Graphics API\" blog post and the SIGGRAPH talk."
     },
     {
+      "name": "iammatthias--com",
+      "source": "./iammatthias--com",
+      "description": "com"
+    },
+    {
       "name": "gainsec--autoprober",
       "source": "./gainsec--autoprober",
       "description": "Hardware hacker\u2019s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing."
@@ -96902,6 +96912,11 @@
       "name": "fidetolabs--qanat",
       "source": "./fidetolabs--qanat",
       "description": "qanat"
+    },
+    {
+      "name": "browser-use--jev-ultrafast",
+      "source": "./browser-use--jev-ultrafast",
+      "description": "jev-ultrafast"
     },
     {
       "name": "vijayabaskar56--tanstack-start-faster",
@@ -167009,6 +167024,11 @@
       "description": "kicad-mcp-pro"
     },
     {
+      "name": "chunkhound--pi-schematic",
+      "source": "./chunkhound--pi-schematic",
+      "description": "Architect the workflow. Keep the context."
+    },
+    {
       "name": "lktiep--cortex-hub",
       "source": "./lktiep--cortex-hub",
       "description": "Self-hosted AI Agent Memory + Code Intelligence Platform \u2014 one MCP endpoint for persistent memory, AST-aware code search, shared knowledge, and quality enforcement across all your AI coding agents."
@@ -223374,6 +223394,11 @@
       "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC."
     },
     {
+      "name": "zerox-core--reverse-tutor",
+      "source": "./zerox-core--reverse-tutor",
+      "description": "\u672c\u5730\u4f18\u5148\u7684\u53cd\u5411\u6559\u5b66\u4e0e\u76ee\u6807\u63a8\u8fdb\u5e94\u7528\uff1a\u8ba9 AI \u4f5c\u4e3a\u5b66\u751f\uff0c\u901a\u8fc7\u8ffd\u95ee\u3001\u56fe\u8c31\u3001\u951a\u70b9\u548c\u5907\u5fd8\u5f55\u6574\u7406\u957f\u671f\u5bf9\u8bdd\u3002"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -240974,6 +240999,11 @@
       "description": "Provision, secure, and standardize every developer workstation through intelligent automation."
     },
     {
+      "name": "clappingmonkey--deplexity",
+      "source": "./clappingmonkey--deplexity",
+      "description": "Export your Perplexity AI conversations, spaces, and profile"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -244632,6 +244662,21 @@
       "name": "jinleiphys--fusion",
       "source": "./jinleiphys--fusion",
       "description": "AI research agent for nuclear physics: 23 expert skills that install, run, and verify open-source codes (FRESCO, TALYS, SMASH, ...) plus a 61k-paper offline nucl-th knowledge base"
+    },
+    {
+      "name": "patchloom--patchloom",
+      "source": "./patchloom--patchloom",
+      "description": "Structured file edits for AI agents (JSON/YAML/TOML, markdown, AST, dry-run, MCP). Not a generic filesystem MCP."
+    },
+    {
+      "name": "patchloom--patchloom",
+      "source": "./patchloom--patchloom",
+      "description": "Structured file edits for AI agents (JSON/YAML/TOML, markdown, AST, dry-run, MCP). Not a generic filesystem MCP."
+    },
+    {
+      "name": "patchloom--patchloom",
+      "source": "./patchloom--patchloom",
+      "description": "Structured file edits for AI agents (JSON/YAML/TOML, markdown, AST, dry-run, MCP). Not a generic filesystem MCP."
     },
     {
       "name": "onevcat--xin",
@@ -253412,6 +253457,11 @@
       "name": "newsfriend--invoice-v2",
       "source": "./newsfriend--invoice-v2",
       "description": "invoice-v2"
+    },
+    {
+      "name": "saturngod--oxygen",
+      "source": "./saturngod--oxygen",
+      "description": "Streaming transcode server with S3"
     },
     {
       "name": "hyaway--hyaway",
@@ -266094,6 +266144,16 @@
       "description": "Real interview questions from 119 top tech companies & high-paying startups (Google, Meta, Stripe, Rippling, Anduril\u2026), mapped to the exact round, role and level. 595 experiences, 6,533 questions \u2014 fr"
     },
     {
+      "name": "chrisgliddon--bevy-skills",
+      "source": "./chrisgliddon--bevy-skills",
+      "description": "Unofficial open source AI skills for Bevy, inspired by PixiJS Skills. These skills teach AI coding agents how to correctly use Bevy. "
+    },
+    {
+      "name": "chrisgliddon--bevy-skills",
+      "source": "./chrisgliddon--bevy-skills",
+      "description": "Unofficial open source AI skills for Bevy, inspired by PixiJS Skills. These skills teach AI coding agents how to correctly use Bevy. "
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -273707,6 +273767,11 @@
       "name": "revfactory--codex-harness",
       "source": "./revfactory--codex-harness",
       "description": "Codex-native harness with reusable agents, persistent multi-agent orchestration, and communication logs."
+    },
+    {
+      "name": "max-lee-dev--local-lmcanvas",
+      "source": "./max-lee-dev--local-lmcanvas",
+      "description": "local-lmcanvas"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -283062,6 +283127,16 @@
       "name": "piyush-eon--react-native-finance-platform",
       "source": "./piyush-eon--react-native-finance-platform",
       "description": "Welth - AI Finance Platform built in React Native"
+    },
+    {
+      "name": "one-harsh--calm",
+      "source": "./one-harsh--calm",
+      "description": "Shared HTTP context layer for LLM workloads."
+    },
+    {
+      "name": "sx120609--cpu-web",
+      "source": "./sx120609--cpu-web",
+      "description": "\u9762\u5411\u4e2d\u56fd\u836f\u79d1\u5927\u5b66\u5b66\u751f\u7684\u6821\u56ed\u670d\u52a1\u805a\u5408\u7ad9\u70b9\uff0c\u7531\u5728\u6821\u5b66\u751f\u81ea\u4e3b\u7814\u53d1\u3002"
     },
     {
       "name": "makenowjust--naraku",
@@ -297862,6 +297937,21 @@
       "name": "leemysw--yovoice",
       "source": "./leemysw--yovoice",
       "description": "Open-source voice creation for macOS and Windows. Local TTS, voice cloning, and emotion control \u2014 no cloud APIs or per-character fees."
+    },
+    {
+      "name": "liuyuan-1024--zcv",
+      "source": "./liuyuan-1024--zcv",
+      "description": "Zcv"
+    },
+    {
+      "name": "nvidia--digital-health-skills",
+      "source": "./nvidia--digital-health-skills",
+      "description": "NVIDIA Digital Health skills repo for agent-guided healthcare AI workflows, including evaluation, data generation, model adaptation, deployment guidance, and developer best practices."
+    },
+    {
+      "name": "stew675--streamlined-hf-model-search",
+      "source": "./stew675--streamlined-hf-model-search",
+      "description": "A more intuitive HuggingFace search implementation"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -341294,6 +341384,21 @@
       "description": "TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev_ask for typed, calibrated answers"
     },
     {
+      "name": "wdkwdkwdk--tinyfire",
+      "source": "./wdkwdkwdk--tinyfire",
+      "description": "tinyfire"
+    },
+    {
+      "name": "jindx1020-crypto--qingzhu-sword-array",
+      "source": "./jindx1020-crypto--qingzhu-sword-array",
+      "description": "\u9752\u7af9\u5251\u9635 \u00b7 \u865a\u5929\u6bbf\u7bc7\uff1a\u65e0\u9700\u5b89\u88c5\u3001\u6d4f\u89c8\u5668\u79bb\u7ebf\u6e38\u73a9\u7684\u50cf\u7d20\u5fa1\u5251\u540c\u4eba\u6e38\u620f\u3002\u539f\u521b\u4ee3\u7801 GPL-3.0-only\u3002"
+    },
+    {
+      "name": "yzune--harmattan-qemu",
+      "source": "./yzune--harmattan-qemu",
+      "description": "Experimental Nokia N9 / MeeGo Harmattan emulator for Apple Silicon Macs, powered by QEMU. Prebuilt macOS preview and English/Chinese guides."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -364797,6 +364902,16 @@
       "name": "digitalinnovationone--harness-dio",
       "source": "./digitalinnovationone--harness-dio",
       "description": "harness-dio"
+    },
+    {
+      "name": "franciscocarloserra--supertonic-voicelab",
+      "source": "./franciscocarloserra--supertonic-voicelab",
+      "description": "40 new voices for Supertonic-3 TTS + labeled, bounded sliders to make your own. No retraining, no GPU."
+    },
+    {
+      "name": "narendarcodes--hyperion-workbench",
+      "source": "./narendarcodes--hyperion-workbench",
+      "description": "Hyperion-workbench"
     },
     {
       "name": "cheerhuan--save-your-token",
