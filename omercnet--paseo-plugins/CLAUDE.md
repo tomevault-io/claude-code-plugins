@@ -1,0 +1,29 @@
+# paseo-plugins
+
+> Before working in a plugin directory, read that directory's `AGENTS.md` and follow it before running commands.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/paseo-plugins/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Repository development instructions
+
+Before working in a plugin directory, read that directory's `AGENTS.md` and follow it before running commands.
+
+## Protect live Paseo instances
+
+Treat the default Paseo daemon and `~/.paseo` as production user state.
+
+- Never run daemon or plugin lifecycle commands against the default host during development.
+- Runtime, integration, and UI verification must use an isolated daemon, an isolated home, and explicit `--home` and `--host` arguments.
+- Follow each plugin's local `AGENTS.md` for its exact test workflow.
+
+---
+> Source: [omercnet/paseo-plugins](https://github.com/omercnet/paseo-plugins) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-17 -->
