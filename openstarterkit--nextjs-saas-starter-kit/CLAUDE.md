@@ -1,0 +1,24 @@
+# nextjs-saas-starter-kit
+
+> The agent instructions for this project live in [`AGENTS.md`](../AGENTS.md) at
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nextjs-saas-starter-kit/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# GitHub Copilot instructions
+
+The agent instructions for this project live in [`AGENTS.md`](../AGENTS.md) at
+the repository root. Read it before writing code. `AGENTS.md` is the single
+source of truth, shared with Claude Code (via `CLAUDE.md`) and Cursor (via
+`.cursor/rules/`).
+
+---
+> Source: [openstarterkit/nextjs-saas-starter-kit](https://github.com/openstarterkit/nextjs-saas-starter-kit) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-17 -->
