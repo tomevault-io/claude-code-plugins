@@ -7,13 +7,13 @@ A comprehensive style guide and ruleset specifically designed for AI code genera
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [SeanMooney/openstack-ai-style-guide](https://github.com/SeanMooney/openstack-ai-style-guide).
+Original source: `AGENTS.md` in [SeanMooney/openstack-ai-style-guide](https://github.com/SeanMooney/openstack-ai-style-guide).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
