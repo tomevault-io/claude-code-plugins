@@ -7,12 +7,12 @@ NestJS integration for Temporal.io with Worker and Client support
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [hmake98/nestjs-temporal-core](https://github.com/hmake98/nestjs-temporal-core).
+Original source: `copilot-instructions.md` in [hmake98/nestjs-temporal-core](https://github.com/hmake98/nestjs-temporal-core).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
