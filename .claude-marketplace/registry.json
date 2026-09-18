@@ -167089,6 +167089,11 @@
       "description": "Architect the workflow. Keep the context."
     },
     {
+      "name": "mhackermsft--wslcontainerdesktop",
+      "source": "./mhackermsft--wslcontainerdesktop",
+      "description": "A WinUI 3 desktop app for managing WSL containers, Kubernetes (k3s), and container registries \u2014 community project, not a Microsoft product."
+    },
+    {
       "name": "lktiep--cortex-hub",
       "source": "./lktiep--cortex-hub",
       "description": "Self-hosted AI Agent Memory + Code Intelligence Platform \u2014 one MCP endpoint for persistent memory, AST-aware code search, shared knowledge, and quality enforcement across all your AI coding agents."
@@ -241077,6 +241082,11 @@
       "name": "toss--necto",
       "source": "./toss--necto",
       "description": "necto"
+    },
+    {
+      "name": "dicklesworthstone--skillranker",
+      "source": "./dicklesworthstone--skillranker",
+      "description": "Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires a T"
     },
     {
       "name": "skenetechnologies--plg-skills",
