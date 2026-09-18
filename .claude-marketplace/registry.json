@@ -190349,6 +190349,11 @@
       "description": "\uc624\ud1a0\ud55c\uae00 (auto-hwp) \u2014 \ud55c\uae00(HWP/HWPX)\uc744 \ube0c\ub77c\uc6b0\uc800\u00b7\ud130\ubbf8\ub110\uc5d0\uc11c \uc5f4\uace0, \uace0\uce58\uace0, \ub0b4\ubcf4\ub0b4\ub294 \uc5d4\uc9c4. Self-owned engine: parse\u2192typeset\u2192render\u2192edit\u2192PDF (Rust\u00b7wasm\u00b7MCP\u00b7CLI) \u00b7 autohwp.com"
     },
     {
+      "name": "tnnevol--fn-os-apps",
+      "source": "./tnnevol--fn-os-apps",
+      "description": "\u98de\u725b fnOS \u5e94\u7528 Monorepo"
+    },
+    {
       "name": "vrsen--mcp-code-exec-agent",
       "source": "./vrsen--mcp-code-exec-agent",
       "description": "mcp-code-exec-agent"
@@ -244834,6 +244839,21 @@
       "description": "Release-only downloads and installation notes for Unreal Tournament Xbox."
     },
     {
+      "name": "simpletibr--simplicio-local",
+      "source": "./simpletibr--simplicio-local",
+      "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
+      "name": "simpletibr--simplicio-local",
+      "source": "./simpletibr--simplicio-local",
+      "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
+      "name": "simpletibr--simplicio-local",
+      "source": "./simpletibr--simplicio-local",
+      "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -273979,6 +273999,11 @@
       "description": "macOS photo culling app \u2014 catalog-first, non-destructive, AI-assisted. Early development; not ready for use."
     },
     {
+      "name": "mehdieidi--modriss",
+      "source": "./mehdieidi--modriss",
+      "description": "AI-Assisted Model-Driven Methodology & Low-Code Platform for Serverless Software Development"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -283387,6 +283412,16 @@
       "name": "vagkaratzas--mgnifam",
       "source": "./vagkaratzas--mgnifam",
       "description": "Build protein families from sequence clusters by iterative HMM search over very large databases \u2014 streaming, deterministic, pyHMMER-based."
+    },
+    {
+      "name": "cat-xierluo--folia",
+      "source": "./cat-xierluo--folia",
+      "description": "\u9762\u5411\u77e5\u8bc6\u5de5\u4f5c\u8005\u7684 Markdown \u9605\u8bfb\u5668\uff0c\u652f\u6301 Word \u5bfc\u51fa\u548c HTML \u9884\u89c8"
+    },
+    {
+      "name": "thysrael--ducheck",
+      "source": "./thysrael--ducheck",
+      "description": "Check English LaTeX documents for spelling, grammar, abbreviation and terminology consistency."
     },
     {
       "name": "makenowjust--naraku",
@@ -298257,6 +298292,31 @@
       "name": "weekitmo--oh-my-dsh-plugins",
       "source": "./weekitmo--oh-my-dsh-plugins",
       "description": "A curated collection of awesome plugins for DeepSeek Harness (DSH) \u2014 task notifications, LLM trace inspection, keybindings with a built-in terminal, and local agent delegation."
+    },
+    {
+      "name": "gylove1994--superpowers-deepseek-v4",
+      "source": "./gylove1994--superpowers-deepseek-v4",
+      "description": "A forked version of Superpowers optimized for DeepSeek-V4-Pro."
+    },
+    {
+      "name": "grimoire-rs--grimoire",
+      "source": "./grimoire-rs--grimoire",
+      "description": "Package manager for AI-agent config. grim installs, updates, and publishes skills, rules, agents, MCP servers, and bundles into Claude Code, Copilot, Cursor, Codex, Gemini, Zed, Amp, Kiro, Junie, and "
+    },
+    {
+      "name": "biliboss--disky",
+      "source": "./biliboss--disky",
+      "description": "Fast macOS disk analyzer and cleanup CLI in Rust \u2014 ncdu / dust / GrandPerspective alternative. Scan, explore, reclaim space safely (Trash-restorable)."
+    },
+    {
+      "name": "gylove1994--superpowers-deepseek-v4",
+      "source": "./gylove1994--superpowers-deepseek-v4",
+      "description": "A forked version of Superpowers optimized for DeepSeek-V4-Pro."
+    },
+    {
+      "name": "nikiforovall--pi-otel",
+      "source": "./nikiforovall--pi-otel",
+      "description": "OpenTelemetry tracing for pi-coding-agent \u2014 per-turn span tree with full OTel GenAI semantic conventions"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -341914,6 +341974,56 @@
       "description": "Codex \uc0ac\uc6a9\ub7c9\uc744 \ub354 \ube60\ub974\uace0 \uac04\ud3b8\ud558\uac8c."
     },
     {
+      "name": "hannsxpeter--humanizer",
+      "source": "./hannsxpeter--humanizer",
+      "description": "Pure-prompt skill that de-slops AI-sounding prose and rewrites it in a writer's voice, with faithfulness and restraint guards. Works with Claude Code, Cursor, Codex, Antigravity, Gemini, Pi Coder, Ope"
+    },
+    {
+      "name": "hannsxpeter--humanizer",
+      "source": "./hannsxpeter--humanizer",
+      "description": "Pure-prompt skill that de-slops AI-sounding prose and rewrites it in a writer's voice, with faithfulness and restraint guards. Works with Claude Code, Cursor, Codex, Antigravity, Gemini, Pi Coder, Ope"
+    },
+    {
+      "name": "simpletibr--simplicio-loop-marketing",
+      "source": "./simpletibr--simplicio-loop-marketing",
+      "description": "Provider-agnostic AI marketing engine. CLI that drops into any host project. Pipeline: brief -> script -> creative -> caption -> compliance -> publish -> metrics -> ads. Switch LLM/image/video provide"
+    },
+    {
+      "name": "rickysarraf--debian-cosmic",
+      "source": "./rickysarraf--debian-cosmic",
+      "description": "The Debian COSMIC Desktop Brewery: Unified .deb and systemd-sysext delivery for Debian Testing/Sid."
+    },
+    {
+      "name": "hannsxpeter--humanizer",
+      "source": "./hannsxpeter--humanizer",
+      "description": "Pure-prompt skill that de-slops AI-sounding prose and rewrites it in a writer's voice, with faithfulness and restraint guards. Works with Claude Code, Cursor, Codex, Antigravity, Gemini, Pi Coder, Ope"
+    },
+    {
+      "name": "simpletibr--simplicio-loop-marketing",
+      "source": "./simpletibr--simplicio-loop-marketing",
+      "description": "Provider-agnostic AI marketing engine. CLI that drops into any host project. Pipeline: brief -> script -> creative -> caption -> compliance -> publish -> metrics -> ads. Switch LLM/image/video provide"
+    },
+    {
+      "name": "tin-computer--tin",
+      "source": "./tin-computer--tin",
+      "description": "Open-source marketing system, designed for coding agents."
+    },
+    {
+      "name": "hannsxpeter--humanizer",
+      "source": "./hannsxpeter--humanizer",
+      "description": "Pure-prompt skill that de-slops AI-sounding prose and rewrites it in a writer's voice, with faithfulness and restraint guards. Works with Claude Code, Cursor, Codex, Antigravity, Gemini, Pi Coder, Ope"
+    },
+    {
+      "name": "simpletibr--simplicio-loop-marketing",
+      "source": "./simpletibr--simplicio-loop-marketing",
+      "description": "Provider-agnostic AI marketing engine. CLI that drops into any host project. Pipeline: brief -> script -> creative -> caption -> compliance -> publish -> metrics -> ads. Switch LLM/image/video provide"
+    },
+    {
+      "name": "limeburst--eunha",
+      "source": "./limeburst--eunha",
+      "description": "Mastodon implementation in Rust"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -365552,6 +365662,26 @@
       "name": "239573049--nextcowork",
       "source": "./239573049--nextcowork",
       "description": "NextCoWork"
+    },
+    {
+      "name": "legalquants--lq-plugin-oss",
+      "source": "./legalquants--lq-plugin-oss",
+      "description": "lq-plugin-oss"
+    },
+    {
+      "name": "jexp--neo4jev",
+      "source": "./jexp--neo4jev",
+      "description": "Typesafe.ai System One Model Jev navigating a Neo4j graph by using a classifier over neighbouring relationships"
+    },
+    {
+      "name": "apple-aiml-research--ml-refusal-neurons",
+      "source": "./apple-aiml-research--ml-refusal-neurons",
+      "description": "Reproduction code for \"A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models\""
+    },
+    {
+      "name": "joy4fire--workbuddy2api",
+      "source": "./joy4fire--workbuddy2api",
+      "description": "Workbuddy2API"
     },
     {
       "name": "cheerhuan--save-your-token",
