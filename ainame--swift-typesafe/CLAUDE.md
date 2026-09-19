@@ -1,0 +1,27 @@
+# swift-typesafe
+
+> - Make a git commit for each meaningful change.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/swift-typesafe/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Contributor instructions
+
+- Make a git commit for each meaningful change.
+- Version tags must not have a `v` prefix.
+- Never use `swift-actions/setup-swift@v2` in GitHub Actions.
+- Use Swift 6.4 via swiftly (`swiftly run swift test --disable-xctest`).
+- Python v0.6.0 is the primary behavioral reference; consult `UPSTREAM.md` and `docs/parity.md` before changing semantics.
+- Keep macro and dynamic APIs backed by the same request/response implementation.
+- Run `swiftly run swift test --disable-xctest`, build `Examples`, and run `git diff --check` before committing behavior changes.
+
+---
+> Source: [ainame/swift-typesafe](https://github.com/ainame/swift-typesafe) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-19 -->
