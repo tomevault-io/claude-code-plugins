@@ -204444,6 +204444,11 @@
       "description": "Simple Long Horizon Agent - A simple yet effective AI agent for learning, experimentation, and long horizon work."
     },
     {
+      "name": "runtz-dev--runtz",
+      "source": "./runtz-dev--runtz",
+      "description": "security scans made easy for developers"
+    },
+    {
       "name": "skywind3000--gamesample",
       "source": "./skywind3000--gamesample",
       "description": "Game Samples for GameLib"
@@ -213094,6 +213099,11 @@
       "description": "Reusable VOX-style sequential Kie.ai video workflow"
     },
     {
+      "name": "mmastrac--diffgemma",
+      "source": "./mmastrac--diffgemma",
+      "description": "A pure Rust implementation of Google's DiffusionGemma model"
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -214987,6 +214997,11 @@
       "name": "ismatbabirli--pelmet",
       "source": "./ismatbabirli--pelmet",
       "description": "Reclaim the macOS menu bar icons your MacBook notch hides. Pelmet is a free, open-source, permission-free menu bar organizer: hide clutter and bring it back with a click or \u2325\u2318B, with a Shelf that surf"
+    },
+    {
+      "name": "sturlese--hippocampus",
+      "source": "./sturlese--hippocampus",
+      "description": "A deliberately lite personal brain: Obsidian to browse, Claude Code or Codex for everything else. No vector DB, no embeddings, no MCP servers, no Obsidian plugins \u2014 markdown, one stdlib Python script "
     },
     {
       "name": "eliornl--applypilot",
@@ -223564,6 +223579,11 @@
       "description": "\u672c\u5730\u4f18\u5148\u7684\u53cd\u5411\u6559\u5b66\u4e0e\u76ee\u6807\u63a8\u8fdb\u5e94\u7528\uff1a\u8ba9 AI \u4f5c\u4e3a\u5b66\u751f\uff0c\u901a\u8fc7\u8ffd\u95ee\u3001\u56fe\u8c31\u3001\u951a\u70b9\u548c\u5907\u5fd8\u5f55\u6574\u7406\u957f\u671f\u5bf9\u8bdd\u3002"
     },
     {
+      "name": "flieber-inc--devcake",
+      "source": "./flieber-inc--devcake",
+      "description": "DevCake \u2014 your Personal Software Factory"
+    },
+    {
       "name": "iamtouchskyer--logex",
       "source": "./iamtouchskyer--logex",
       "description": "Turn Claude Code session transcripts into blog-style articles \u2014 narrative, not logs"
@@ -229164,6 +229184,11 @@
       "description": "Local typed decisions, contrastive data curation, and model evaluation."
     },
     {
+      "name": "pybu--artichat",
+      "source": "./pybu--artichat",
+      "description": "ArtiChat \u4f01\u4e1a\u7ea7\u79c1\u6709\u5316\u5b9a\u5236\u7684 AI \u5bf9\u8bdd\u5e73\u53f0"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -231972,6 +231997,11 @@
       "name": "pipifv--focusnova",
       "source": "./pipifv--focusnova",
       "description": "FocusNova"
+    },
+    {
+      "name": "tmustier--codex-computer-use-mcp",
+      "source": "./tmustier--codex-computer-use-mcp",
+      "description": "Background-safe MCP server for the signed Codex Computer Use broker on macOS. Works with all coding agents, optimised for optional Pi adapter"
     },
     {
       "name": "develite98--angular-best-practices",
@@ -241229,6 +241259,21 @@
       "description": "Replit-Clone"
     },
     {
+      "name": "txemi--darnlink",
+      "source": "./txemi--darnlink",
+      "description": "Auto-healing Markdown links \u2014 anchor links to a UUID so they survive refactors: repair moved links, robustify plain ones. No database, editor-agnostic."
+    },
+    {
+      "name": "txemi--darnlink",
+      "source": "./txemi--darnlink",
+      "description": "Auto-healing Markdown links \u2014 anchor links to a UUID so they survive refactors: repair moved links, robustify plain ones. No database, editor-agnostic."
+    },
+    {
+      "name": "jakeberesford--saga",
+      "source": "./jakeberesford--saga",
+      "description": "CLI to generate a narrative walkthrough of any diff"
+    },
+    {
       "name": "skenetechnologies--plg-skills",
       "source": "./skenetechnologies--plg-skills",
       "description": "plg-skills"
@@ -244927,6 +244972,16 @@
       "name": "simpletibr--simplicio-local",
       "source": "./simpletibr--simplicio-local",
       "description": "Ultra-fast 100% on-device Universal State Runtime for LLMs on Apple Silicon (M1\u2013M5). DeepSeekV4/others on Mac M3 48gb RAM. Powered by MLX + Metal + ANE \u2014 extreme local inference, zero cloud, built for"
+    },
+    {
+      "name": "karthik6412--proofgate",
+      "source": "./karthik6412--proofgate",
+      "description": "ProofGate is a firewall for AI agents. It measures the blast radius of every action before execution and blocks catastrophic mistakes with verifiable proof\u2014not promises."
+    },
+    {
+      "name": "z-hanzhe--zt-shell",
+      "source": "./z-hanzhe--zt-shell",
+      "description": "\u57fa\u4e8e Tauri 2 + Vue 3 + Rust \u6784\u5efa\u7684\u8de8\u5e73\u53f0\u684c\u9762\u7aef SSH \u5de5\u5177 ZTShell\uff0c\u9879\u76ee\u5b8c\u5168\u4f7f\u7528 AI \u5f00\u53d1\uff0c\u5e03\u5c40\u501f\u9274 FinalShell"
     },
     {
       "name": "onevcat--xin",
@@ -249262,6 +249317,61 @@
       "name": "coldteadotai--abide",
       "source": "./coldteadotai--abide",
       "description": "Make your coding agent abide by all your project rules "
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "taracair--blowtorch2",
+      "source": "./taracair--blowtorch2",
+      "description": "BlowTorch2"
+    },
+    {
+      "name": "giggleliu--scenery",
+      "source": "./giggleliu--scenery",
+      "description": "scenery"
+    },
+    {
+      "name": "astralbeamai--astralbeam",
+      "source": "./astralbeamai--astralbeam",
+      "description": "The agentic chat widget for your app"
+    },
+    {
+      "name": "macanderson--stella",
+      "source": "./macanderson--stella",
+      "description": "A coding agent that builds it's own tools and mines it's own skills and always ships with receipts."
+    },
+    {
+      "name": "shkuratovdesigner--yuben-app",
+      "source": "./shkuratovdesigner--yuben-app",
+      "description": "Local-first YouTube outlier research \u2014 find the videos that outperform their channels, and learn why"
     },
     {
       "name": "vm--nila-code",
@@ -253737,6 +253847,11 @@
       "name": "cweiai--hexo-theme-cosmos",
       "source": "./cweiai--hexo-theme-cosmos",
       "description": "hexo-theme-cosmos"
+    },
+    {
+      "name": "osolmaz--oomwrap",
+      "source": "./osolmaz--oomwrap",
+      "description": "Wrap commands that might cause out-of-memory errors, and stop them before they freeze your machine"
     },
     {
       "name": "hyaway--hyaway",
@@ -259377,6 +259492,21 @@
       "name": "blixvip--nullmotion",
       "source": "./blixvip--nullmotion",
       "description": "Launch-film preview: a finished motion-graphics ad over the black-and-white HyperFrames drafts it grew from, with frame-accurate MP4 export."
+    },
+    {
+      "name": "agentmubai--ambskill",
+      "source": "./agentmubai--ambskill",
+      "description": "\u9762\u5411\u521b\u4e1a\u8005\u4e0e\u5185\u5bb9\u521b\u4f5c\u8005\u7684\u4e2d\u6587 AI Skills \u5de5\u5177\u7bb1\u3002\u5317\u51a5\u505a IP \u5206\u8eab\uff08\u5224\u65ad\u3001\u8f85\u5bfc\uff09\uff0c\u5e96\u4e01\u62c6\u89e3\u5185\u5bb9\uff08\u5e72\u6d3b\u3001\u843d\u5730\uff09\u3002"
+    },
+    {
+      "name": "cytia--historical-map-project",
+      "source": "./cytia--historical-map-project",
+      "description": "historical-map-project"
+    },
+    {
+      "name": "artemnoor--codeslicer",
+      "source": "./artemnoor--codeslicer",
+      "description": "CodeSlicer"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -266457,6 +266587,16 @@
       "name": "unicodef1wn--grokbot-field-notes",
       "source": "./unicodef1wn--grokbot-field-notes",
       "description": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go."
+    },
+    {
+      "name": "rjdellecese--effect-units",
+      "source": "./rjdellecese--effect-units",
+      "description": "Typed quantities and unit conversions for Effect"
+    },
+    {
+      "name": "tryanks--tcode",
+      "source": "./tryanks--tcode",
+      "description": "tcode"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -274112,6 +274252,16 @@
       "name": "khadir-syed--ai-agent-skills",
       "source": "./khadir-syed--ai-agent-skills",
       "description": "Reusable AI skills for Codex, Claude Code & Copilot CLI \u2014 Markdown-only, safety-first samples for diagnosing bugs, drafting changelogs, and pre-merge checks."
+    },
+    {
+      "name": "thelocalhoststudio--patrika",
+      "source": "./thelocalhoststudio--patrika",
+      "description": "A notebook-inspired personal publishing theme built with Astro"
+    },
+    {
+      "name": "liamkillingback--aurora-meter",
+      "source": "./liamkillingback--aurora-meter",
+      "description": "Real-time usage metering, plan entitlements, and Stripe-ready billing primitives for Phoenix."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -283542,6 +283692,11 @@
       "name": "goodrahstar--jev-column-race",
       "source": "./goodrahstar--jev-column-race",
       "description": "Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1\u00d7 faster and 7\u00d7 cheaper"
+    },
+    {
+      "name": "luiggival08--toon-memory",
+      "source": "./luiggival08--toon-memory",
+      "description": "MCP server giving AI coding agents offline, token-efficient persistent memory \u2014 recall decisions, patterns, and bugs across sessions with 68.5% fewer tokens than re-reading context. No LLM, no server;"
     },
     {
       "name": "makenowjust--naraku",
@@ -298472,6 +298627,26 @@
       "name": "clycheng--agentpulse",
       "source": "./clycheng--agentpulse",
       "description": "\u5f00\u6e90\u300cAI \u516c\u53f8\u5de5\u4f5c\u53f0\u300d\uff1a\u96c7 AI \u5458\u5de5\u3001\u7fa4\u804a\u6d3e\u6d3b\u3001\u5148\u8ba8\u8bba\u518d\u6267\u884c\u3001\u9ad8\u98ce\u9669\u4f60\u62cd\u677f\u2014\u2014\u4e3a\u4e00\u4eba\u516c\u53f8\u4e0e\u81ea\u5a92\u4f53\u6253\u9020\u3002An open-source AI company workspace to hire AI employees and run them like a real company."
+    },
+    {
+      "name": "khawarahemad--kh-cloude",
+      "source": "./khawarahemad--kh-cloude",
+      "description": "Open-source, self-hosted PaaS and cloud platform \u2014 a Vercel, Supabase, Railway & Netlify alternative for your own infrastructure."
+    },
+    {
+      "name": "zalando-incubator--agentic-identity-broker",
+      "source": "./zalando-incubator--agentic-identity-broker",
+      "description": "Identity broker for AI agents with OAuth2 delegation and consent management"
+    },
+    {
+      "name": "phrmendes--bib-nvim",
+      "source": "./phrmendes--bib-nvim",
+      "description": "A plugin to manage bibliography"
+    },
+    {
+      "name": "fiersity--china-prefecture-crosswalk",
+      "source": "./fiersity--china-prefecture-crosswalk",
+      "description": "\u4e2d\u56fd\u57ce\u5e02\u884c\u653f\u533a\u5212\u6cbf\u9769\u67e5\u8be2\u5de5\u5177\u4e0e\u8d44\u6599\u5e93\uff0c\u6536\u5f551983\u5e74\u4ee5\u6765\u5730\u7ea7\u53ca\u53bf\u7ea7\u884c\u653f\u533a\u5212\u53d8\u66f4\u3001\u89c4\u8303\u540d\u79f0\u548c\u6765\u6e90\uff0c\u670d\u52a1\u4e2d\u56fd\u533a\u57df\u4e0e\u57ce\u5e02\u7814\u7a76\u3002"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -342312,6 +342487,31 @@
       "name": "yifancheng-ucsf--cryorole",
       "source": "./yifancheng-ucsf--cryorole",
       "description": "Analyze the relative orientation landscape in multi-domains complex in Cryo-EM"
+    },
+    {
+      "name": "w3cj--jev-chat",
+      "source": "./w3cj--jev-chat",
+      "description": "A tool calling chat bot built with Jev and no LLM."
+    },
+    {
+      "name": "bebabinlarsson-blip--godot-mcp",
+      "source": "./bebabinlarsson-blip--godot-mcp",
+      "description": "Universal Model Context Protocol (MCP) Server and Official Plugin for the Godot Engine"
+    },
+    {
+      "name": "deevus--tea-skills",
+      "source": "./deevus--tea-skills",
+      "description": "Agent skills for Gitea/Forgejo issue, pull request, milestone, and label workflows using the tea CLI"
+    },
+    {
+      "name": "rogeriodocarmo--mirror-app",
+      "source": "./rogeriodocarmo--mirror-app",
+      "description": "A mirror app showcase to enforce best pratice for cross-native mobile development with React Native."
+    },
+    {
+      "name": "timurgaleev--memex",
+      "source": "./timurgaleev--memex",
+      "description": "Self-hosted personal AI knowledge brain -- hybrid (vector + keyword + entity-graph) search over your notes and code, served to any MCP agent (Claude Code, Cursor, Codex). One AWS account, zero telemet"
     },
     {
       "name": "loiane--specs-driven-development",
@@ -491377,6 +491577,141 @@
       "name": "med-x9--inventairemodulewmsfront",
       "source": "./med-x9--inventairemodulewmsfront",
       "description": "inventaireModuleWMSFront"
+    },
+    {
+      "name": "bensonlew--maching-learn-for-trading3",
+      "source": "./bensonlew--maching-learn-for-trading3",
+      "description": "maching_learn_for_trading3"
+    },
+    {
+      "name": "huluhulu0601xy-m--task-dashboard",
+      "source": "./huluhulu0601xy-m--task-dashboard",
+      "description": "task-dashboard"
+    },
+    {
+      "name": "huluhulu0601xy-m--agents-in-sdlc",
+      "source": "./huluhulu0601xy-m--agents-in-sdlc",
+      "description": "agents-in-sdlc"
+    },
+    {
+      "name": "dd-benchmarking--cal-dot-com--cal-com--deputydev-model3--pr22532--20260906",
+      "source": "./dd-benchmarking--cal-dot-com--cal-com--deputydev-model3--pr22532--20260906",
+      "description": "cal_dot_com__cal.com__deputydev-model3__PR22532__20260906"
+    },
+    {
+      "name": "buraktanbilgi--deck-shenanigans",
+      "source": "./buraktanbilgi--deck-shenanigans",
+      "description": "A four-rung card guessing game you will almost certainly lose, in three deliberately niche themes. Written by Claude Code (Claude Opus 5)."
+    },
+    {
+      "name": "donadioqpfk--rustdesk",
+      "source": "./donadioqpfk--rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+    },
+    {
+      "name": "angel19968--reliabilit-ia-web",
+      "source": "./angel19968--reliabilit-ia-web",
+      "description": "Plataforma web local (Flask) de mantenimiento predictivo con motor AutoML - RELIABILIT-IA"
+    },
+    {
+      "name": "theelitegentleman--jakartaee-microprofile-agents-md",
+      "source": "./theelitegentleman--jakartaee-microprofile-agents-md",
+      "description": "A reusable agent skill for your Jakarta EE and Microprofile project."
+    },
+    {
+      "name": "davohm--ai-voice-platform",
+      "source": "./davohm--ai-voice-platform",
+      "description": "ai-voice-platform"
+    },
+    {
+      "name": "gr12-cmd--openc",
+      "source": "./gr12-cmd--openc",
+      "description": "openc"
+    },
+    {
+      "name": "sihai-li--experimental-data-management-platform",
+      "source": "./sihai-li--experimental-data-management-platform",
+      "description": "Experimental data management platform: MAT validation, storage, querying, and authorized downloads"
+    },
+    {
+      "name": "davidefgar--adkins-field",
+      "source": "./davidefgar--adkins-field",
+      "description": "adkins-field"
+    },
+    {
+      "name": "mazenhaleem908-ops--bloxstar-app",
+      "source": "./mazenhaleem908-ops--bloxstar-app",
+      "description": "BloxStar \u2014 Roblox items store (Vercel-ready)"
+    },
+    {
+      "name": "john-walks-slow--dsh-subagent-registry",
+      "source": "./john-walks-slow--dsh-subagent-registry",
+      "description": "dsh-subagent-registry"
+    },
+    {
+      "name": "srih89437--rescue-waller",
+      "source": "./srih89437--rescue-waller",
+      "description": "Rescue-Waller"
+    },
+    {
+      "name": "daveprinter--lowrisktrader",
+      "source": "./daveprinter--lowrisktrader",
+      "description": "lowrisktrader"
+    },
+    {
+      "name": "vibemathing--problem-um-opg-60055-chromatic-number-of-frac-3-3-power-of-9bcf730f",
+      "source": "./vibemathing--problem-um-opg-60055-chromatic-number-of-frac-3-3-power-of-9bcf730f",
+      "description": "Vibe Mathing single-problem candidate research: Chromatic number of $\\frac{3}{3}$-power of graph"
+    },
+    {
+      "name": "darkdemondcoin--sweet-swap-source",
+      "source": "./darkdemondcoin--sweet-swap-source",
+      "description": "sweet-swap-source"
+    },
+    {
+      "name": "vibemathing--problem-um-green-037-primes-with-p-2-having-odd-omega-68f26a77",
+      "source": "./vibemathing--problem-um-green-037-primes-with-p-2-having-odd-omega-68f26a77",
+      "description": "Vibe Mathing single-problem candidate research: Primes with p-2 Having Odd Omega"
+    },
+    {
+      "name": "vibemathing--problem-um-kou-21-103-kourovka-notebook-problem-21-103-18ec24fe",
+      "source": "./vibemathing--problem-um-kou-21-103-kourovka-notebook-problem-21-103-18ec24fe",
+      "description": "Vibe Mathing single-problem candidate research: Kourovka Notebook Problem 21.103"
+    },
+    {
+      "name": "alyssa2ai--waggle-mcp",
+      "source": "./alyssa2ai--waggle-mcp",
+      "description": "Migrated from Alyssa-286/Waggle-mcp"
+    },
+    {
+      "name": "banaodigital--ai-review-system",
+      "source": "./banaodigital--ai-review-system",
+      "description": "ai-review-system"
+    },
+    {
+      "name": "transittaxmc-create--appstack",
+      "source": "./transittaxmc-create--appstack",
+      "description": "appstack"
+    },
+    {
+      "name": "vibemathing--problem-um-ep-813-erd-s-problem-813-ba9bb080",
+      "source": "./vibemathing--problem-um-ep-813-erd-s-problem-813-ba9bb080",
+      "description": "Vibe Mathing single-problem candidate research: Erd\u0151s Problem #813"
+    },
+    {
+      "name": "vibemathing--problem-um-kp-4-50-kirby-problem-4-50-db31d1b9",
+      "source": "./vibemathing--problem-um-kp-4-50-kirby-problem-4-50-db31d1b9",
+      "description": "Vibe Mathing single-problem candidate research: Kirby Problem 4.50"
+    },
+    {
+      "name": "itoplankton4--minimarket",
+      "source": "./itoplankton4--minimarket",
+      "description": "minimarket"
+    },
+    {
+      "name": "puneetkukreti--bablu-solanki",
+      "source": "./puneetkukreti--bablu-solanki",
+      "description": "DJB website"
     }
   ]
 }
