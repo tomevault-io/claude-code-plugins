@@ -195214,6 +195214,11 @@
       "description": "Build UI apps with your AI assistant \u2014 together, live. An agent-native, cross-platform declarative-UI runtime in Go: describe UI as JSON, let your AI scaffold/edit/verify it over MCP, package for web/"
     },
     {
+      "name": "marspain--agent-data-synthesis",
+      "source": "./marspain--agent-data-synthesis",
+      "description": "Local-first Python framework for generating, executing, validating, and packaging agent training data with executable state, tool evidence, lineage, replay checks, and release artifacts."
+    },
+    {
       "name": "affitor--open-affiliate",
       "source": "./affitor--open-affiliate",
       "description": "The open registry of affiliate programs. Built for developers and AI agents."
@@ -249374,6 +249379,11 @@
       "description": "Local-first YouTube outlier research \u2014 find the videos that outperform their channels, and learn why"
     },
     {
+      "name": "boknowsworld--boknows-text-image-template",
+      "source": "./boknowsworld--boknows-text-image-template",
+      "description": "\u901a\u7528\u6587\u5b57\u53d8\u56fe\u7247\u4f5c\u54c1\u96c6\u6a21\u677f \u00b7 Customize your title with Codex-generated mixed-media letter assets. Includes design rules, prompts and elastic interactions. Vanilla HTML/CSS/JS."
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -253852,6 +253862,11 @@
       "name": "osolmaz--oomwrap",
       "source": "./osolmaz--oomwrap",
       "description": "Wrap commands that might cause out-of-memory errors, and stop them before they freeze your machine"
+    },
+    {
+      "name": "winzenith--winzenith-github-io",
+      "source": "./winzenith--winzenith-github-io",
+      "description": "Free Windows optimization suite - system cleaner, driver updater, software updater, uninstaller, startup manager and more. Portable, no ads."
     },
     {
       "name": "hyaway--hyaway",
@@ -259507,6 +259522,11 @@
       "name": "artemnoor--codeslicer",
       "source": "./artemnoor--codeslicer",
       "description": "CodeSlicer"
+    },
+    {
+      "name": "wikerx--acquiring-orchestration",
+      "source": "./wikerx--acquiring-orchestration",
+      "description": "\u8de8\u5883\u6536\u5355\u4e1a\u52a1\u57fa\u7840\u67b6\u6784\uff1a\u540e\u7aef\u67b6\u6784"
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -266597,6 +266617,26 @@
       "name": "tryanks--tcode",
       "source": "./tryanks--tcode",
       "description": "tcode"
+    },
+    {
+      "name": "rhonstin--beellama-cmp90hx",
+      "source": "./rhonstin--beellama-cmp90hx",
+      "description": "beellama.cpp fork with CMP 90HX (GA102, sm_86) optimizations: DP4A\u2192IMAD, FP32\u2192HFMA2 \u2014 +58-87% decode speed"
+    },
+    {
+      "name": "franzopl--pesto",
+      "source": "./franzopl--pesto",
+      "description": "Fast, lean Usenet poster in Rust: yEnc, NNTP, PAR2 and .nzb generation"
+    },
+    {
+      "name": "langtaosha-prog--zentools",
+      "source": "./langtaosha-prog--zentools",
+      "description": "279 \u6b3e\u514d\u8d39\u5728\u7ebf\u5de5\u5177\u7bb1 \u2014 PDF/\u56fe\u7247/\u89c6\u9891/\u97f3\u9891/\u5f00\u53d1/AI/SEO \u7b49 13 \u5927\u7c7b\uff0c\u7eaf\u6d4f\u89c8\u5668\u672c\u5730\u5904\u7406\uff0c\u6587\u4ef6\u4e0d\u4e0a\u4f20\u670d\u52a1\u5668\u3002\u652f\u6301\u4e2d/\u82f1/\u65e5/\u8d8a\u56db\u8bed\u3002"
+    },
+    {
+      "name": "chillicream--agent-skills",
+      "source": "./chillicream--agent-skills",
+      "description": "agent-skills"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -274262,6 +274302,11 @@
       "name": "liamkillingback--aurora-meter",
       "source": "./liamkillingback--aurora-meter",
       "description": "Real-time usage metering, plan entitlements, and Stripe-ready billing primitives for Phoenix."
+    },
+    {
+      "name": "antoinedc--mantaui",
+      "source": "./antoinedc--mantaui",
+      "description": "Open-source, self-hosted Claude Code and opencode client. Agents run in real > tmux on your own Linux box or Mac, and you drive them from desktop, phone or > browser over HTTPS."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -298647,6 +298692,16 @@
       "name": "fiersity--china-prefecture-crosswalk",
       "source": "./fiersity--china-prefecture-crosswalk",
       "description": "\u4e2d\u56fd\u57ce\u5e02\u884c\u653f\u533a\u5212\u6cbf\u9769\u67e5\u8be2\u5de5\u5177\u4e0e\u8d44\u6599\u5e93\uff0c\u6536\u5f551983\u5e74\u4ee5\u6765\u5730\u7ea7\u53ca\u53bf\u7ea7\u884c\u653f\u533a\u5212\u53d8\u66f4\u3001\u89c4\u8303\u540d\u79f0\u548c\u6765\u6e90\uff0c\u670d\u52a1\u4e2d\u56fd\u533a\u57df\u4e0e\u57ce\u5e02\u7814\u7a76\u3002"
+    },
+    {
+      "name": "dqnamo--chord",
+      "source": "./dqnamo--chord",
+      "description": "An opinionated design language and UI Library for building beautiful web applications."
+    },
+    {
+      "name": "markjinli--wx-cli-gui",
+      "source": "./markjinli--wx-cli-gui",
+      "description": "Python GUI wrapper for wx-cli \u2014 \u5fae\u4fe1\u672c\u5730\u6570\u636e\u53ef\u89c6\u5316\u5de5\u5177\uff0c\u57fa\u4e8e jackwener/wx-cli \u7684\u56fe\u5f62\u754c\u9762"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -342514,6 +342569,21 @@
       "description": "Self-hosted personal AI knowledge brain -- hybrid (vector + keyword + entity-graph) search over your notes and code, served to any MCP agent (Claude Code, Cursor, Codex). One AWS account, zero telemet"
     },
     {
+      "name": "zeldrisho--morphe-patches",
+      "source": "./zeldrisho--morphe-patches",
+      "description": "Yet another Morphe Patches"
+    },
+    {
+      "name": "yuyu121704--streamclip",
+      "source": "./yuyu121704--streamclip",
+      "description": "Windows \u684c\u9762 Bilibili \u76f4\u64ad\u5f55\u5236\u3001AI \u5207\u7247\u4e0e\u6295\u7a3f\u5de5\u4f5c\u53f0"
+    },
+    {
+      "name": "zrg-team--memorall",
+      "source": "./zrg-team--memorall",
+      "description": "Local-first AI extension that turns what you read into a searchable knowledge graph with hybrid search, temporal context, and proactive recall\u2014fully private."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -366272,6 +366342,16 @@
       "name": "kajeesan--open-health-atlas",
       "source": "./kajeesan--open-health-atlas",
       "description": "Explore sleep, training, mood and nutrition together using local records, traceable calculations and optional MCP tools for your preferred AI client."
+    },
+    {
+      "name": "twister915--typesafe-ai",
+      "source": "./twister915--typesafe-ai",
+      "description": "Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries."
+    },
+    {
+      "name": "jackzeng--jev-apps",
+      "source": "./jackzeng--jev-apps",
+      "description": "\u770b\u770b Jev \u80fd\u505a\u4ec0\u4e48\uff1a\u7528\u4e2d\u82f1\u6587\u8bb2\u6e05\u70ed\u95e8\u5e94\u7528\u3001\u5de5\u4f5c\u539f\u7406\u548c\u5404\u81ea\u4f18\u7f3a\u70b9\u3002Explore Jev apps with plain-language examples, explanations, and comparisons."
     },
     {
       "name": "cheerhuan--save-your-token",
