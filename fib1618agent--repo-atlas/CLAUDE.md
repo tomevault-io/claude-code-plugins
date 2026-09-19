@@ -1,0 +1,40 @@
+# repo-atlas
+
+> Standalone TanStack Start app. Do not rewrite published git history (no force-push, rebase, amend, or squash of commits that are already pushed).
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/repo-atlas/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# RepoAtlas — Agent Notes
+
+Standalone TanStack Start app. Do not rewrite published git history (no force-push, rebase, amend, or squash of commits that are already pushed).
+
+## Commands
+
+```bash
+bun install          # install dependencies
+bun run dev          # Vite + TanStack Start dev server
+bun run build        # production build → .output/
+./run.sh             # dev server on the first free port from 4949
+bunx tsc --noEmit    # typecheck
+bun run db:init      # create data/atlas.sqlite from schema
+bun run db:export    # dump cached repos to data/atlas-export.json
+bun run db:reset     # ATLAS_DB_RESET=1 bun run db:reset
+```
+
+## Conventions
+
+- Conventional commits (`feat`, `fix`, `chore`, `docs`, `refactor`, `test`).
+- Keep the branch in a working state.
+- Never commit `.env` or secrets. `.env.example` is the template.
+
+---
+> Source: [fib1618agent/repo-atlas](https://github.com/fib1618agent/repo-atlas) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-19 -->
