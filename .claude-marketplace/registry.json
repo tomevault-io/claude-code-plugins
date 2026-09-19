@@ -176214,6 +176214,11 @@
       "description": "Get paid while AI thinks."
     },
     {
+      "name": "sutro-sh--jev-align",
+      "source": "./sutro-sh--jev-align",
+      "description": "Align TypeSafe's Jev with your judgement using GEPA"
+    },
+    {
       "name": "lynx-family--lynx-ui",
       "source": "./lynx-family--lynx-ui",
       "description": "Out-of-the-box Lynx Component Library"
@@ -232059,6 +232064,11 @@
       "description": "Background-safe MCP server for the signed Codex Computer Use broker on macOS. Works with all coding agents, optimised for optional Pi adapter"
     },
     {
+      "name": "pymodel--typesafe-mcp",
+      "source": "./pymodel--typesafe-mcp",
+      "description": "typesafe-mcp"
+    },
+    {
       "name": "develite98--angular-best-practices",
       "source": "./develite98--angular-best-practices",
       "description": "Performance optimization guidelines and coding standards for Angular applications, designed for AI agents and LLMs."
@@ -245037,6 +245047,11 @@
       "name": "z-hanzhe--zt-shell",
       "source": "./z-hanzhe--zt-shell",
       "description": "\u57fa\u4e8e Tauri 2 + Vue 3 + Rust \u6784\u5efa\u7684\u8de8\u5e73\u53f0\u684c\u9762\u7aef SSH \u5de5\u5177 ZTShell\uff0c\u9879\u76ee\u5b8c\u5168\u4f7f\u7528 AI \u5f00\u53d1\uff0c\u5e03\u5c40\u501f\u9274 FinalShell"
+    },
+    {
+      "name": "tronishere--vibafarsiui",
+      "source": "./tronishere--vibafarsiui",
+      "description": "vibafarsiui"
     },
     {
       "name": "onevcat--xin",
@@ -283817,6 +283832,11 @@
       "name": "appitstudio--awesome-jev",
       "source": "./appitstudio--awesome-jev",
       "description": "Curated Jev resources and runnable examples for typed AI decisions."
+    },
+    {
+      "name": "heman10x-ngu--openjev-verdict-2-0",
+      "source": "./heman10x-ngu--openjev-verdict-2-0",
+      "description": "Calibrated 151M Non-Autoregressive Decision Engine beating TypeSafe Jev & Laya on LocalLLaMA/typed-decisions (77.10% acc, 0.0636 Brier, 0.0144 ECE)"
     },
     {
       "name": "makenowjust--naraku",
