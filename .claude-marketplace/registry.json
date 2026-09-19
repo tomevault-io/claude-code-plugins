@@ -274309,6 +274309,11 @@
       "description": "Open-source, self-hosted Claude Code and opencode client. Agents run in real > tmux on your own Linux box or Mac, and you drive them from desktop, phone or > browser over HTTPS."
     },
     {
+      "name": "weekitmo--herdr-pocket",
+      "source": "./weekitmo--herdr-pocket",
+      "description": "A Flutter client for herdr: a status board and live terminal for the coding agents on your own machines. Over SSH, with no bridge binary to install."
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -298712,6 +298717,11 @@
       "name": "apexaccs--copilot",
       "source": "./apexaccs--copilot",
       "description": "Apex Copilot CLI \u2014 AI coding agent"
+    },
+    {
+      "name": "zaious--jev-capability-atlas",
+      "source": "./zaious--jev-capability-atlas",
+      "description": "Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down \u2014 real API-call receipts, not a leaderboard. \u4e2d\u6587\u70ba\u4e3b\u7684\u96d9\u8a9e repo\u3002"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
