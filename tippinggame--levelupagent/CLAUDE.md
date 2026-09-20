@@ -1,0 +1,26 @@
+# levelupagent
+
+> - Follow the user-level instructions referenced by the active Codex environment.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/levelupagent/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# LevelUpAgent Repository Instructions
+
+- Follow the user-level instructions referenced by the active Codex environment.
+- Preserve existing worktree changes and inspect `git status --short` before editing.
+- For any task that creates, ports, reviews, packages, or extends a theme, read `docs/THEME_AGENT_WORKFLOW.md`, `docs/THEME_DEVELOPMENT.md`, and `docs/THEMES.md` completely before acting.
+- Prefer a standalone, scoped `standard` theme. Add a host layout only when CSS cannot provide required semantic structure or real window behavior.
+- A theme must never introduce executable JavaScript, remote CSS/assets, unscoped selectors, credential access, or changes to Agent/provider logic.
+- Theme-related host changes require `pnpm check`, relevant Rust tests, a production build, and real Tauri lifecycle verification proportional to the change.
+
+---
+> Source: [TippingGame/LevelUpAgent](https://github.com/TippingGame/LevelUpAgent) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-20 -->
