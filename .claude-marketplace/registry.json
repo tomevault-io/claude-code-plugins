@@ -259879,6 +259879,11 @@
       "description": "\u8f9e\u8fbe C\u00edd\u00e1 \u00b7 \u73b0\u4ee3\u4e2d\u6587\u9ad8\u8d28\u91cf\u8868\u8fbe Skill\u3002\u8ba9 AI \u4f9d\u5faa\u4efb\u52a1\u76ee\u6807\u3001\u6587\u672c\u8bc1\u636e\u4e0e\u8bdd\u8bed\u673a\u5236\uff0c\u628a\u503c\u5f97\u8868\u8fbe\u7684\u601d\u60f3\u8bf4\u6e05\u695a\u3001\u8bf4\u81ea\u7136\u3001\u8bf4\u5f97\u6709\u5206\u5bf8\u3002"
     },
     {
+      "name": "ghuntley--preflight",
+      "source": "./ghuntley--preflight",
+      "description": "A local proxy that scans LLM requests and attachments for secrets before they reach the model."
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -491464,11 +491469,6 @@
       "description": "Taiwan stock research and decision support system built with Java 17, Spring Boot 3.3, PostgreSQL 17, Flyway, Testcontainers, and Docker Compose."
     },
     {
-      "name": "rhinos0608--pi-smartread",
-      "source": "./rhinos0608--pi-smartread",
-      "description": "Pi-SmartRead"
-    },
-    {
       "name": "ashwin8332--prashikshan",
       "source": "./ashwin8332--prashikshan",
       "description": "A comprehensive web application built with React and TypeScript for managing internship programs under NEP 2020 guidelines. This platform bridges the gap between academia and industry by providing sea"
@@ -493232,6 +493232,11 @@
       "name": "anyita--figma",
       "source": "./anyita--figma",
       "description": "figma"
+    },
+    {
+      "name": "rhinos0608--pi-smartread",
+      "source": "./rhinos0608--pi-smartread",
+      "description": "Pi-SmartRead"
     }
   ]
 }
