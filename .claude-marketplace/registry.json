@@ -300324,6 +300324,11 @@
       "description": "DolphinBench - Mapping the Pareto frontier of Agent Memory"
     },
     {
+      "name": "geastack--compiler",
+      "source": "./geastack--compiler",
+      "description": "geatsc: the GeaStack TypeScript-to-C++ compiler. A clean-room rewrite built on one rule \u2014 a statically typed value that reaches a dynamic carrier is a defect, not a fallback."
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
