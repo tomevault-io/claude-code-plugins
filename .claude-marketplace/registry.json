@@ -260454,6 +260454,11 @@
       "description": "\u524d\u540e\u7aef\u5206\u79bb\u7d20\u6750\u7ba1\u7406\u8f6f\u4ef6"
     },
     {
+      "name": "agent-chaperone--agent-chaperone",
+      "source": "./agent-chaperone--agent-chaperone",
+      "description": "Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools."
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
