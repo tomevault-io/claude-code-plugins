@@ -1,19 +1,34 @@
-# backend-api
+# project-goal
 
-> Backend API schema and type definition
+> GPUGo is A cross-platform command-line tool and vscode-extension for managing remote GPU environments. Target user are AI learners, hands-on lab and home lab users.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/backend-api/SKILL.md
+Read and follow the instructions in .claude/skills/project-goal/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Goal
 
-- Grep related API definition detail from docs/api.yaml, NEVER imagine API definition, use server side generated api schema as SSoT
+GPUGo is A cross-platform command-line tool and vscode-extension for managing remote GPU environments. Target user are AI learners, hands-on lab and home lab users.
+
+# Requirement
+
+- Extreme easy to use and seamless workflow, users can start remote GPU lab without any additional commands
+- No hidden logic, clear TUI and VSCode interface with realtime interaction
+- Prioritize turn-key and robust AI Studio management in cli/vscode-extension and make it integrate with remote GPU feature
+
+# Product Value
+
+- Simplify environment setup for lab users
+- One click to use fractional and remote GPUs from local network
+- GPU computing democratization and save costs, increase GPU usage
+- On-demand GPU usage, avoid "10 people ssh to same 4 GPU machine" style and avoid resource conflict
+- Local first DevEX, data stays locally
 
 ---
 > Source: [NexusGPU/gpu-go](https://github.com/NexusGPU/gpu-go) — distributed by [TomeVault](https://tomevault.io).
