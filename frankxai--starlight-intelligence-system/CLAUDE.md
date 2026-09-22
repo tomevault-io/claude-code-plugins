@@ -1,16 +1,17 @@
-# starlight-intelligence-system
+# editorial
 
-> <!-- STARLIGHT-EDITORIAL:START -->
+> Portfolio brand and editorial contract
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/starlight-intelligence-system/SKILL.md
+Read and follow the instructions in .claude/skills/editorial/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
+
 
 <!-- STARLIGHT-EDITORIAL:START -->
 ## Editorial contract
