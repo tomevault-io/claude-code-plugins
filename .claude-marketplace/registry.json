@@ -300079,6 +300079,11 @@
       "description": "An efficient inference runtime for Cosmos 3 Nano / Edge robot policies"
     },
     {
+      "name": "btkkgo--ordinconn",
+      "source": "./btkkgo--ordinconn",
+      "description": "Open-source model-agnostic runtime for AI agents to perceive, understand and operate computers and mobile environments."
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -344474,6 +344479,181 @@
       "description": "A unified, multi-repo workspace for AI coding agents and developers."
     },
     {
+      "name": "open-telemetry--opentelemetry-weaver-packages",
+      "source": "./open-telemetry--opentelemetry-weaver-packages",
+      "description": "opentelemetry-weaver-packages"
+    },
+    {
+      "name": "zyvorai--guestkit",
+      "source": "./zyvorai--guestkit",
+      "description": "Pure-Rust VM disk inspection \u2014 zero boot, zero agents, instant insight. AI-powered diagnostics explain what\u2019s inside, what\u2019s broken, and what to fix before you boot."
+    },
+    {
+      "name": "nexusgpu--gpu-go",
+      "source": "./nexusgpu--gpu-go",
+      "description": "Use your GPUs like NFS. The agent and IDE extension of GPUGo product"
+    },
+    {
+      "name": "olshansk--agent-skills",
+      "source": "./olshansk--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "gskuza--babok-analyst",
+      "source": "./gskuza--babok-analyst",
+      "description": "An AI agent for professional business analysis compliant with BABOK v3 (International Institute of Business Analysis) standard. Guides the analyst step-by-step through 8 stages - from project initiali"
+    },
+    {
+      "name": "dzymachine--chatcut-2-0",
+      "source": "./dzymachine--chatcut-2-0",
+      "description": "ChatCut 2.0 - Rethinking and scaling ChatCut from it's original, unfinished form. "
+    },
+    {
+      "name": "nexusgpu--gpu-go",
+      "source": "./nexusgpu--gpu-go",
+      "description": "Use your GPUs like NFS. The agent and IDE extension of GPUGo product"
+    },
+    {
+      "name": "alyiox--mcp-mssql",
+      "source": "./alyiox--mcp-mssql",
+      "description": "Read-only-by-default MCP server for Microsoft SQL Server: metadata discovery, parser-enforced SELECT-only queries, and execution-plan analysis for diagnosing slow queries. Profile-based multi-connecti"
+    },
+    {
+      "name": "felschatz--baby-monitor",
+      "source": "./felschatz--baby-monitor",
+      "description": "A real-time baby monitor web application using Server-Sent Events for peer-to-peer audio/video streaming between two devices. Designed for use with two phones (Android/iOS) over a local network or the"
+    },
+    {
+      "name": "nexusgpu--gpu-go",
+      "source": "./nexusgpu--gpu-go",
+      "description": "Use your GPUs like NFS. The agent and IDE extension of GPUGo product"
+    },
+    {
+      "name": "ashita-ai--akashi",
+      "source": "./ashita-ai--akashi",
+      "description": "Version control for AI decisions"
+    },
+    {
+      "name": "saqoosha--sessylph",
+      "source": "./saqoosha--sessylph",
+      "description": "A native macOS wrapper for Claude Code with tabbed terminal sessions, tmux persistence, and desktop notifications"
+    },
+    {
+      "name": "hamza-ali-shahjahan--hamzaish",
+      "source": "./hamza-ali-shahjahan--hamzaish",
+      "description": "Open-source agent OS for Claude Code that puts you in Builder Mode \u2014 and keeps you there for the whole life of a product. Claude Code setup that builds, launches, and learns. Point Claude Code at this"
+    },
+    {
+      "name": "yorch233--rsb",
+      "source": "./yorch233--rsb",
+      "description": "Official implementation of Regularized Schr\u00f6dinger Bridge (RSB), a generative speech enhancement approach that reconciles fidelity and realism while mitigating exposure bias. "
+    },
+    {
+      "name": "roseforljh--kunboxforwindows",
+      "source": "./roseforljh--kunboxforwindows",
+      "description": "KunBoxForWindows"
+    },
+    {
+      "name": "crownlessmeowz--project-diva-web",
+      "source": "./crownlessmeowz--project-diva-web",
+      "description": "Project-DIVA-Web"
+    },
+    {
+      "name": "kaiheila--openclaw-kook",
+      "source": "./kaiheila--openclaw-kook",
+      "description": "openclaw kook adapter"
+    },
+    {
+      "name": "emdzej--ediabasx",
+      "source": "./emdzej--ediabasx",
+      "description": "TypeScript port of EdiabasLib - BMW diagnostic interface library"
+    },
+    {
+      "name": "blytht--gratitude-millennium-plugin",
+      "source": "./blytht--gratitude-millennium-plugin",
+      "description": "A Millennium plugin for your Steam Library that adds a helpful indicator to games you have been gifted."
+    },
+    {
+      "name": "roso-lab--eai-simulator",
+      "source": "./roso-lab--eai-simulator",
+      "description": "A simulation platform for heterogeneous multi-robot systems to collaborate and interact within dynamic social environments."
+    },
+    {
+      "name": "shiguredo--srt-rs",
+      "source": "./shiguredo--srt-rs",
+      "description": "SRT (Secure Reliable Transport) library for Rust"
+    },
+    {
+      "name": "leunguu--pi-agent-config",
+      "source": "./leunguu--pi-agent-config",
+      "description": "Personal pi-coding-agent configuration: custom extensions, themes, prompts, presets, and skills for cross-environment sync."
+    },
+    {
+      "name": "albertocavalcante--bz",
+      "source": "./albertocavalcante--bz",
+      "description": "CLI for Bzlmod \u2014 manage Bazel module dependencies, query registries, audit vulnerabilities, and generate SBOMs"
+    },
+    {
+      "name": "dicklesworthstone--rust-proxy",
+      "source": "./dicklesworthstone--rust-proxy",
+      "description": "Targeted transparent proxy using iptables+ipset to route only selected domains (API providers, cloud services) through an upstream HTTP proxy without global system changes"
+    },
+    {
+      "name": "crs48--xnet",
+      "source": "./crs48--xnet",
+      "description": "Local-first infrastructure and app for user-owned data: offline-first sync, CRDT collaboration, typed schemas, and secure identity/permissions"
+    },
+    {
+      "name": "boneskull--gh-stack",
+      "source": "./boneskull--gh-stack",
+      "description": "A GitHub CLI extension for managing stacked pull requests."
+    },
+    {
+      "name": "wayne930242--game-doc-template",
+      "source": "./wayne930242--game-doc-template",
+      "description": "A customizable Astro + Starlight template for game documentation sites"
+    },
+    {
+      "name": "cortesi--eguidev",
+      "source": "./cortesi--eguidev",
+      "description": "AI-assisted development tooling for egui"
+    },
+    {
+      "name": "kimseogyu--undocx",
+      "source": "./kimseogyu--undocx",
+      "description": "Extract clean, structured Markdown from DOCX for LLM and RAG contexts."
+    },
+    {
+      "name": "almax-es--luzfija-es",
+      "source": "./almax-es--luzfija-es",
+      "description": "Comparador de tarifas de luz independiente, gratuito y sin publicidad. Optimizado para la normativa de 2026."
+    },
+    {
+      "name": "lupusdei--adjutant",
+      "source": "./lupusdei--adjutant",
+      "description": "The ultimate JARVIS for agentic swarm development with a mobile first on-the-go focus. Run on local machine, spawn agents, view progress, chat with squad leaders, via the live adjutant avatar bridge t"
+    },
+    {
+      "name": "sagemathinc--cocalc-ai",
+      "source": "./sagemathinc--cocalc-ai",
+      "description": "CoCalc.ai: Collaborative Calculation with AI"
+    },
+    {
+      "name": "richardgill--pi-extensions",
+      "source": "./richardgill--pi-extensions",
+      "description": "pi-extensions"
+    },
+    {
+      "name": "olshansk--agent-skills",
+      "source": "./olshansk--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "snapsynapse--ai-tool-watch",
+      "source": "./snapsynapse--ai-tool-watch",
+      "description": "Evidence-backed reference for AI capabilities, pricing tiers, availability, and platform support across ChatGPT, Claude, Gemini, Copilot, and more."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -368932,6 +369112,31 @@
       "name": "laotawayer--microduck",
       "source": "./laotawayer--microduck",
       "description": "Independent hobbyist reproduction of the microduck 3D model. Unofficial and not affiliated with Unitree Robotics."
+    },
+    {
+      "name": "niall-young--vibe-statistic",
+      "source": "./niall-young--vibe-statistic",
+      "description": "\u4e00\u4e2a\u7528\u4e8e\u67e5\u770b AI Agent \u7528\u91cf\u548c Token \u6d88\u8017\u7684 macOS \u539f\u751f\u83dc\u5355\u680f\u5de5\u5177"
+    },
+    {
+      "name": "siyunhao2025-beep--huaweibei-cool",
+      "source": "./siyunhao2025-beep--huaweibei-cool",
+      "description": "\u84b8\u998f\u534e\u4e3a\u676f\uff0c\u52a9\u4f60\u62ff\u56fd\u4e00\uff01"
+    },
+    {
+      "name": "xingrz--usbloom",
+      "source": "./xingrz--usbloom",
+      "description": "Explore your USB devices, down to every endpoint."
+    },
+    {
+      "name": "shi-yangyang--opencode-speak-freely",
+      "source": "./shi-yangyang--opencode-speak-freely",
+      "description": "Lower AI refusal rates in OpenCode: code-context scaffolding, multi-stage workflow, auto refusal repair, local Web UI, zero deps. OpenCode \u7834\u7532\uff1a\u4ee3\u7801\u4e0a\u4e0b\u6587\u8865\u5168 + \u88ab\u62d2\u81ea\u52a8\u4fee\u590d + \u672c\u5730 Web UI\uff0c\u96f6\u4f9d\u8d56\u3002"
+    },
+    {
+      "name": "peterfriese--jev-foundation-models",
+      "source": "./peterfriese--jev-foundation-models",
+      "description": "A lightweight, native Swift 6 bridge integrating TypeSafe AI's Jev System One decision model into Apple's Foundation Models framework."
     },
     {
       "name": "cheerhuan--save-your-token",
