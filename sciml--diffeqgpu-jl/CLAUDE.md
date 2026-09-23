@@ -1,0 +1,25 @@
+# diffeqgpu-jl
+
+> Preserve the existing `GPUTsit5` PI-controller behavior. Alternative controllers must be explicit opt-in variants, with documentation explaining their step-size stability and accuracy tradeoffs. Do not change the default based on equal-tolerance timing alone: use work–precision comparisons at matched achieved error, include rejected steps, and test beyond simple nonstiff problems such as Lorenz.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/diffeqgpu-jl/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Adaptive controller conventions
+
+Preserve the existing `GPUTsit5` PI-controller behavior. Alternative controllers must be explicit opt-in variants, with documentation explaining their step-size stability and accuracy tradeoffs. Do not change the default based on equal-tolerance timing alone: use work–precision comparisons at matched achieved error, include rejected steps, and test beyond simple nonstiff problems such as Lorenz.
+
+# Differentiation validation
+
+Gradient tests must use the package and its loaded extensions without adding differentiation rules in test code. Keep CPU Enzyme coverage alongside CUDA coverage. Exercise all active problem fields when validating transfer rules, including times and captured function values; parameter-only losses cannot detect discarded sensitivities. Keep initialization regressions enabled across backends and fix their owning dependencies rather than gating the tests.
+
+---
+> Source: [SciML/DiffEqGPU.jl](https://github.com/SciML/DiffEqGPU.jl) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-23 -->
