@@ -1,0 +1,32 @@
+# wikiedudashboard
+
+> The single canonical source of repository instructions is
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/wikiedudashboard/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# WikiEduDashboard agent instructions
+
+The single canonical source of repository instructions is
+`.claude/CLAUDE.md`. Read that file in full before taking any action in this
+repository, and follow it as though its contents appeared here.
+
+The reusable workflows referenced there are stored under `.claude/skills/` and
+`.claude/commands/`. When a task matches one of those workflows, read its
+instructions in full before gathering data or acting, even if the current
+agent does not automatically discover workflows from those directories.
+
+Do not copy the canonical instructions or workflow contents into this file.
+This file exists only so agents that support the `AGENTS.md` convention load
+the same guidance as Claude Code.
+
+---
+> Source: [WikiEducationFoundation/WikiEduDashboard](https://github.com/WikiEducationFoundation/WikiEduDashboard) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-23 -->
