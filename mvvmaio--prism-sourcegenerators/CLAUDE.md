@@ -1,23 +1,23 @@
-# prefer-slnx-solution-format
+# temp-directory
 
-> Solution format — see AGENTS.md § Solution format (SLNX)
+> Scratch work — see AGENTS.md § Temporary files (.Temp/)
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/prefer-slnx-solution-format/SKILL.md
+Read and follow the instructions in .claude/skills/temp-directory/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Solution format
+# Temporary files
 
-Follow **[AGENTS.md](../../AGENTS.md)** — section **“Solution format — prefer SLNX over SLN”**.
+Follow **[AGENTS.md](../../AGENTS.md)** — section **“Temporary files and scratch work — `.Temp/`”**.
 
-Do not add a default `.sln` for the product solution.
+Do not commit anything under `.Temp/`.
 
 ---
 > Source: [MvvmAIO/Prism.SourceGenerators](https://github.com/MvvmAIO/Prism.SourceGenerators) — distributed by [TomeVault](https://tomevault.io).
