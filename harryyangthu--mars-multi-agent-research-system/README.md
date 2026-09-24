@@ -1,6 +1,6 @@
 # MARS-Multi-Agent-Research-System
 
-> Source: [HarryYangthu/MARS-Multi-Agent-Research-System](https://github.com/HarryYangthu/MARS-Multi-Agent-Research-System) — distributed by [TomeVault](https://tomevault.io)
+> Source: [HarryYangthu/MARS-Multi-Agent-Research-System](https://github.com/HarryYangthu/MARS-Multi-Agent-Research-System). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [HarryYangthu/MARS-Multi-Agent-Research-System](
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [HarryYangthu/MARS-Multi-Agent-Research-System](https://github.com/HarryYangthu/MARS-Multi-Agent-Research-System) — a repo with 18+ stars on GitHub.
+From [HarryYangthu/MARS-Multi-Agent-Research-System](https://github.com/HarryYangthu/MARS-Multi-Agent-Research-System) — a repo with 586+ stars on GitHub.
 
 ---
 
