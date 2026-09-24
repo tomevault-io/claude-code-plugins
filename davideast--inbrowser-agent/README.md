@@ -2,8 +2,6 @@
 
 > Sourced from [davideast/inbrowser-agent](https://github.com/davideast/inbrowser-agent), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
-The in-browser AI stack
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
