@@ -2,8 +2,6 @@
 
 > Tome by [first-tree-ai](https://github.com/first-tree-ai/first-tree), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-First-tree routes work to the right agent, gives it the same context your team has, and loops humans in only when the rules say so. Lives in your GitHub. Open source.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [first-tree-ai/first-tree](https://github.com/fi
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree) — a repo with 135+ stars on GitHub.
+From [first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree) — a repo with 150+ stars on GitHub.
 
 ---
 
