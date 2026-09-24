@@ -4209,6 +4209,11 @@
       "description": "haystack"
     },
     {
+      "name": "zulip--zulip",
+      "source": "./zulip--zulip",
+      "description": "zulip"
+    },
+    {
       "name": "bloopai--vibe-kanban",
       "source": "./bloopai--vibe-kanban",
       "description": "Get 10X more out of Claude Code, Codex or any coding agent"
@@ -5924,6 +5929,11 @@
       "description": "Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity."
     },
     {
+      "name": "huggingface--transformers-js",
+      "source": "./huggingface--transformers-js",
+      "description": "transformers.js"
+    },
+    {
       "name": "playcanvas--engine",
       "source": "./playcanvas--engine",
       "description": "engine"
@@ -5947,6 +5957,11 @@
       "name": "browser-use--browser-harness",
       "source": "./browser-use--browser-harness",
       "description": "browser-harness"
+    },
+    {
+      "name": "lidge-jun--opencodex",
+      "source": "./lidge-jun--opencodex",
+      "description": "opencodex"
     },
     {
       "name": "microsoft--mcp-for-beginners",
@@ -7247,6 +7262,11 @@
       "name": "laradock--laradock",
       "source": "./laradock--laradock",
       "description": "laradock"
+    },
+    {
+      "name": "codebuffai--freebuff",
+      "source": "./codebuffai--freebuff",
+      "description": "freebuff"
     },
     {
       "name": "the-pocket--pocketflow-tutorial-codebase-knowledge",
@@ -14697,6 +14717,11 @@
       "name": "pomerium--pomerium",
       "source": "./pomerium--pomerium",
       "description": "pomerium"
+    },
+    {
+      "name": "aipoch--open-science",
+      "source": "./aipoch--open-science",
+      "description": "open-science"
     },
     {
       "name": "mcsmanager--mcsmanager",
@@ -24864,6 +24889,11 @@
       "description": "An Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI."
     },
     {
+      "name": "memtensor--memmy-agent",
+      "source": "./memtensor--memmy-agent",
+      "description": "memmy-agent"
+    },
+    {
       "name": "betastreetomnis--xhs-ai-publisher",
       "source": "./betastreetomnis--xhs-ai-publisher",
       "description": "AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt desktop UI, FastAPI service, login-state reuse, preview publish, and automated browser workflows."
@@ -25574,6 +25604,11 @@
       "description": "cs-script"
     },
     {
+      "name": "evloghq--evlog",
+      "source": "./evloghq--evlog",
+      "description": "evlog"
+    },
+    {
       "name": "chatgpt-web-dev--chatgpt-web",
       "source": "./chatgpt-web-dev--chatgpt-web",
       "description": "chatgpt-web"
@@ -25752,6 +25787,11 @@
       "name": "mandarons--icloud-docker",
       "source": "./mandarons--icloud-docker",
       "description": "icloud-docker"
+    },
+    {
+      "name": "reflex-dev--xy",
+      "source": "./reflex-dev--xy",
+      "description": "xy"
     },
     {
       "name": "expressots--expressots",
@@ -28682,6 +28722,11 @@
       "name": "karinushka--paneru",
       "source": "./karinushka--paneru",
       "description": "A sliding, tiling window manager for MacOS."
+    },
+    {
+      "name": "runanywhereai--wally",
+      "source": "./runanywhereai--wally",
+      "description": "wally"
     },
     {
       "name": "colemurray--background-agents",
@@ -39714,6 +39759,11 @@
       "description": "BabylonNative"
     },
     {
+      "name": "softblack42--starpie",
+      "source": "./softblack42--starpie",
+      "description": "StarPie"
+    },
+    {
       "name": "strands-agents--agent-sop",
       "source": "./strands-agents--agent-sop",
       "description": "Natural language workflows that enable AI agents to perform complex, multi-step tasks with consistency and reliability."
@@ -42807,6 +42857,11 @@
       "name": "ohh-889--skyroc-admin",
       "source": "./ohh-889--skyroc-admin",
       "description": "skyroc-admin"
+    },
+    {
+      "name": "ohh-889--skyroc",
+      "source": "./ohh-889--skyroc",
+      "description": "skyroc"
     },
     {
       "name": "firoorg--firo",
@@ -46469,6 +46524,11 @@
       "description": "arcjet-js"
     },
     {
+      "name": "microsoft--midi",
+      "source": "./microsoft--midi",
+      "description": "MIDI"
+    },
+    {
       "name": "codephiliax--youclaw",
       "source": "./codephiliax--youclaw",
       "description": "\ud83e\udd9e Your AI Personal Assistant.  An intelligent assistant with memory, skills, and scheduled tasks that truly understands you . Helping you tackle everything in work and life."
@@ -47964,6 +48024,11 @@
       "description": "goldboot"
     },
     {
+      "name": "rajudandigam--agent-inspect",
+      "source": "./rajudandigam--agent-inspect",
+      "description": "agent-inspect"
+    },
+    {
       "name": "starwind-ui--starwind-ui",
       "source": "./starwind-ui--starwind-ui",
       "description": "shadcn/ui for Astro. 45+ animated and accessible components. Install via CLI. Own the code."
@@ -48312,6 +48377,11 @@
       "name": "fullstaq-ruby--server-edition",
       "source": "./fullstaq-ruby--server-edition",
       "description": "server-edition"
+    },
+    {
+      "name": "teng-lin--weread-omni",
+      "source": "./teng-lin--weread-omni",
+      "description": "weread-omni"
     },
     {
       "name": "letsfg--letsfg",
@@ -50887,6 +50957,11 @@
       "name": "dougburks--ohmypcap",
       "source": "./dougburks--ohmypcap",
       "description": "ohmypcap"
+    },
+    {
+      "name": "gykim80--perfectpixel-studio",
+      "source": "./gykim80--perfectpixel-studio",
+      "description": "perfectpixel-studio"
     },
     {
       "name": "project-instinct--instinctlab",
@@ -56234,6 +56309,11 @@
       "description": "recomby-geo"
     },
     {
+      "name": "tanishqkancharla--calldiff",
+      "source": "./tanishqkancharla--calldiff",
+      "description": "calldiff"
+    },
+    {
       "name": "kargnas--damn-my-slow-kt",
       "source": "./kargnas--damn-my-slow-kt",
       "description": "\uba85\ub839\uc5b4 \uc124\uce58 \ud55c\ubc88\uc73c\ub85c \ud55c\ub2ec KT \uc778\ud130\ub137 \uc694\uae08\uc744 \ubb34\ub8cc\ub85c \uc4f8 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uadc0\ucc2e\uc740 \uacf5\ubb38 \uc791\uc131 \ud544\uc694 \uc5c6\uc2b5\ub2c8\ub2e4."
@@ -59097,6 +59177,11 @@
       "name": "noveogroup-amorgunov--nukeapp",
       "source": "./noveogroup-amorgunov--nukeapp",
       "description": "nukeapp"
+    },
+    {
+      "name": "cyberuni--type-plus",
+      "source": "./cyberuni--type-plus",
+      "description": "type-plus"
     },
     {
       "name": "jackwener--wx-cli",
@@ -63369,6 +63454,11 @@
       "description": "VSCucumberAutoComplete"
     },
     {
+      "name": "floe-labs--floe-guard",
+      "source": "./floe-labs--floe-guard",
+      "description": "floe-guard"
+    },
+    {
       "name": "mystralengine--mystralnative",
       "source": "./mystralengine--mystralnative",
       "description": "Native WebGPU JS runtime with SDL3"
@@ -67084,6 +67174,11 @@
       "description": "iOpenPod"
     },
     {
+      "name": "sonofmagic--uni-app-tailwindcss-template",
+      "source": "./sonofmagic--uni-app-tailwindcss-template",
+      "description": "uni-app-tailwindcss-template"
+    },
+    {
       "name": "atilladeniz--kubeli",
       "source": "./atilladeniz--kubeli",
       "description": "A modern Kubernetes GUI management desktop app for macOS & Windows. Multi-cluster support, real-time monitoring, AI assistant, terminal access, and more."
@@ -68122,6 +68217,11 @@
       "name": "gohade--hade",
       "source": "./gohade--hade",
       "description": "hade"
+    },
+    {
+      "name": "berelevant-ai--slopless",
+      "source": "./berelevant-ai--slopless",
+      "description": "slopless"
     },
     {
       "name": "affitor--affiliate-skills",
@@ -69717,6 +69817,11 @@
       "name": "tailadmin--vue-tailwind-admin-dashboard",
       "source": "./tailadmin--vue-tailwind-admin-dashboard",
       "description": "vue-tailwind-admin-dashboard"
+    },
+    {
+      "name": "cacheplane--b4run",
+      "source": "./cacheplane--b4run",
+      "description": "b4run"
     },
     {
       "name": "indragiek--ghfs",
@@ -73597,6 +73702,11 @@
       "name": "haseeb-heaven--open-agent",
       "source": "./haseeb-heaven--open-agent",
       "description": "open-agent"
+    },
+    {
+      "name": "copperheadhq--copperhead",
+      "source": "./copperheadhq--copperhead",
+      "description": "copperhead"
     },
     {
       "name": "mkurman--tamux",
@@ -82154,6 +82264,11 @@
       "description": "examples"
     },
     {
+      "name": "vercel-labs--nostics",
+      "source": "./vercel-labs--nostics",
+      "description": "nostics"
+    },
+    {
       "name": "use-novamira--novamira",
       "source": "./use-novamira--novamira",
       "description": "MCP server that gives AI agents full access to WordPress through PHP execution and filesystem operations"
@@ -82722,6 +82837,11 @@
       "name": "cyberlesterr--paper-collage-video",
       "source": "./cyberlesterr--paper-collage-video",
       "description": "paper-collage-video"
+    },
+    {
+      "name": "jiabaobei--skills-constitution",
+      "source": "./jiabaobei--skills-constitution",
+      "description": "skills-constitution"
     },
     {
       "name": "community-access--accessibility-agents",
@@ -83807,6 +83927,11 @@
       "name": "keta1930--agent-graph",
       "source": "./keta1930--agent-graph",
       "description": "agent-graph"
+    },
+    {
+      "name": "izumi0uu--better-github-stars-manager",
+      "source": "./izumi0uu--better-github-stars-manager",
+      "description": "better-github-stars-manager"
     },
     {
       "name": "level1techs--siomon",
@@ -92049,6 +92174,11 @@
       "description": "pineforge-engine"
     },
     {
+      "name": "ob-labs--agentseek",
+      "source": "./ob-labs--agentseek",
+      "description": "agentseek"
+    },
+    {
       "name": "peiiii--nextclaw",
       "source": "./peiiii--nextclaw",
       "description": "NextClaw: Your omnipotent personal assistant, residing above the digital realm. Basically Ultra-Lightweight OpenClaw Pro Max."
@@ -93357,6 +93487,241 @@
       "name": "starbrightlab--immortal",
       "source": "./starbrightlab--immortal",
       "description": "immortal"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
+    },
+    {
+      "name": "k-dense-ai--scientific-agents",
+      "source": "./k-dense-ai--scientific-agents",
+      "description": "scientific-agents"
     },
     {
       "name": "k-dense-ai--scientific-agents",
@@ -101087,6 +101452,11 @@
       "name": "fasouto--django-starter-template",
       "source": "./fasouto--django-starter-template",
       "description": "django-starter-template"
+    },
+    {
+      "name": "duolahypercho--gauntlet-loop",
+      "source": "./duolahypercho--gauntlet-loop",
+      "description": "gauntlet-loop"
     },
     {
       "name": "xmihura--kanvas",
@@ -118597,6 +118967,11 @@
       "name": "dotnetdreamer--open-screenshot-generator",
       "source": "./dotnetdreamer--open-screenshot-generator",
       "description": "open-screenshot-generator"
+    },
+    {
+      "name": "asmyshlyaev177--test-proxy-recorder",
+      "source": "./asmyshlyaev177--test-proxy-recorder",
+      "description": "test-proxy-recorder"
     },
     {
       "name": "pithings--voipi",
@@ -162644,6 +163019,11 @@
       "description": "tapd-ai-cli"
     },
     {
+      "name": "cmu-db--optd",
+      "source": "./cmu-db--optd",
+      "description": "optd"
+    },
+    {
       "name": "copilot-community-sdk--copilot-sdk-java",
       "source": "./copilot-community-sdk--copilot-sdk-java",
       "description": "Java SDK for GitHub Copilot CLI"
@@ -166777,6 +167157,11 @@
       "name": "isola-run--isola",
       "source": "./isola-run--isola",
       "description": "isola"
+    },
+    {
+      "name": "bnomei--tmux-mcp",
+      "source": "./bnomei--tmux-mcp",
+      "description": "tmux-mcp"
     },
     {
       "name": "cxlinux-ai--cx-core",
