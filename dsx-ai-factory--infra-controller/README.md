@@ -2,8 +2,6 @@
 
 > Source: [dsx-ai-factory/infra-controller](https://github.com/dsx-ai-factory/infra-controller). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
