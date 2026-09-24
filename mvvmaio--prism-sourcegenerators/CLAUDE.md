@@ -1,20 +1,25 @@
-# prism-sourcegenerators
+# agents
 
-> - @azure Rule - Use Azure Tools - When handling requests related to Azure, always use your tools.
+> Canonical project constraints — follow AGENTS.md at repository root
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/prism-sourcegenerators/SKILL.md
+Read and follow the instructions in .claude/skills/agents/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-- @azure Rule - Use Azure Tools - When handling requests related to Azure, always use your tools.
-- @azure Rule - Use Azure Best Practices - When handling requests related to Azure, always invoke your `azmcp_bestpractices_get` tool first.
-- @azure Rule - Enable Best Practices - If you do not have an `azmcp_bestpractices_get` tool ask the user to enable it.
+
+# Project constraints (canonical)
+
+All mandatory rules for this repository are defined in **[AGENTS.md](../../AGENTS.md)** at the repository root.
+
+- Read and follow **AGENTS.md** before making changes.
+- Do not contradict AGENTS.md; other rule files in this folder only point to it.
+- For consumer API and diagnostics text, prefer the [documentation site](https://mvvmaio.github.io/Prism.SourceGenerators.Docs/) and `DiagnosticDescriptors.cs` over Wiki/README when they differ.
 
 ---
 > Source: [MvvmAIO/Prism.SourceGenerators](https://github.com/MvvmAIO/Prism.SourceGenerators) — distributed by [TomeVault](https://tomevault.io).
