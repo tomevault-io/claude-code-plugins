@@ -1,17 +1,16 @@
-# read-specs
+# buggyboard-web-app
 
-> Read and follow BuggyBoard specs when working on the app
+> When working on the **BuggyBoard** web app (bug tracker SUT for the Playwright course):
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/read-specs/SKILL.md
+Read and follow the instructions in .claude/skills/buggyboard-web-app/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # BuggyBoard: Use Specs as Context
 
