@@ -1,8 +1,6 @@
 # infinite-brain-os
 
-> Source: [starmynd-org/infinite-brain-os](https://github.com/starmynd-org/infinite-brain-os) — distributed by [TomeVault](https://tomevault.io)
-
-A git-backed operating system for running a business with AI agents. Plain Markdown and YAML, readable by any file-reading agent, owned by you.
+> Source: [starmynd-org/infinite-brain-os](https://github.com/starmynd-org/infinite-brain-os). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [starmynd-org/infinite-brain-os](https://github.
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [starmynd-org/infinite-brain-os](https://github.com/starmynd-org/infinite-brain-os) — a repo with 9+ stars on GitHub.
+From [starmynd-org/infinite-brain-os](https://github.com/starmynd-org/infinite-brain-os) — a repo with 252+ stars on GitHub.
 
 ---
 
