@@ -2,8 +2,6 @@
 
 > Source: [cocode-agency/cocode](https://github.com/cocode-agency/cocode). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, terminal TUI, and harness integration.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
