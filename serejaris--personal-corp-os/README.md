@@ -2,8 +2,6 @@
 
 > Tome by [serejaris](https://github.com/serejaris/personal-corp-os), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Personal Corp OS — управление личной компанией через AI-агентов: задачи вне головы, отделы вместо памяти, недельное ретро. Открытые скиллы для Claude Code и Codex
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
