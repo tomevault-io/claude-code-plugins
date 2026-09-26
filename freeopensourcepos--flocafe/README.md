@@ -1,8 +1,6 @@
 # FloCafe
 
-> Source: [FreeOpenSourcePOS/FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe) — distributed by [TomeVault](https://tomevault.io)
-
-Free Open Source Cafe & Restaurant POS | Mac App Store: https://apps.apple.com/in/app/flo-cafe/id6763136018 | Microsoft Store: https://apps.microsoft.com/detail/9n1md6585p4q
+> Source: [FreeOpenSourcePOS/FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [FreeOpenSourcePOS/FloCafe](https://github.com/F
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/FreeOpenSourcePOS/FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/FreeOpenSourcePOS/FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)
 
 ---
 
