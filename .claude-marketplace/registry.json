@@ -95499,6 +95499,11 @@
       "description": "lm-resiliency"
     },
     {
+      "name": "liberusoftware--ecommerce-laravel",
+      "source": "./liberusoftware--ecommerce-laravel",
+      "description": "ecommerce-laravel"
+    },
+    {
       "name": "magiccube--helixent",
       "source": "./magiccube--helixent",
       "description": "Helixent is a small library for building ReAct-style agent loops based on the Bun stack."
@@ -99379,6 +99384,11 @@
       "description": "vite-vuetify-ts-starter"
     },
     {
+      "name": "srelens--srelens",
+      "source": "./srelens--srelens",
+      "description": "srelens"
+    },
+    {
       "name": "nexxeln--opencode-config",
       "source": "./nexxeln--opencode-config",
       "description": "my opencode config"
@@ -103254,6 +103264,11 @@
       "description": "commandkit"
     },
     {
+      "name": "galusperes--hometiles",
+      "source": "./galusperes--hometiles",
+      "description": "HomeTiles"
+    },
+    {
       "name": "qingquanyao--xilinx-skill",
       "source": "./qingquanyao--xilinx-skill",
       "description": "Xilinx/AMD FPGA & MPSoC Vivado design skill for Claude \u2014 covers block design, IP config, XDC constraints, synthesis, implementation and bitstream generation."
@@ -105827,6 +105842,11 @@
       "name": "duolahypercho--gauntlet-loop",
       "source": "./duolahypercho--gauntlet-loop",
       "description": "gauntlet-loop"
+    },
+    {
+      "name": "hotosm--osm-export-tool",
+      "source": "./hotosm--osm-export-tool",
+      "description": "osm-export-tool"
     },
     {
       "name": "xmihura--kanvas",
@@ -120839,6 +120859,11 @@
       "description": "ChatGPT-Helper"
     },
     {
+      "name": "linbei0--ecomgen",
+      "source": "./linbei0--ecomgen",
+      "description": "EcomGen"
+    },
+    {
       "name": "lasect--pg-turret",
       "source": "./lasect--pg-turret",
       "description": "postgres extension for streaming logs"
@@ -124449,6 +124474,11 @@
       "description": "agenticoding.github.io"
     },
     {
+      "name": "dking08--croc-app",
+      "source": "./dking08--croc-app",
+      "description": "croc-app"
+    },
+    {
       "name": "pithings--voipi",
       "source": "./pithings--voipi",
       "description": "\ud83c\udf99\ufe0f Give your apps, CLIs, and agents a voice. VoiPi is a universal, zero-dependency, free text-to-speech library for JavaScript."
@@ -125429,6 +125459,11 @@
       "description": "llm-wiki-plugin"
     },
     {
+      "name": "templetongroup--radiant",
+      "source": "./templetongroup--radiant",
+      "description": "radiant"
+    },
+    {
       "name": "productdevbook--sumak",
       "source": "./productdevbook--sumak",
       "description": "Type-safe SQL query builder. Zero dependencies, AST-first, hookable, tree-shakeable. Pure TypeScript."
@@ -125872,6 +125907,11 @@
       "name": "proofhound--proofhound",
       "source": "./proofhound--proofhound",
       "description": "proofhound"
+    },
+    {
+      "name": "ringsaturn--tzf-rs",
+      "source": "./ringsaturn--tzf-rs",
+      "description": "tzf-rs"
     },
     {
       "name": "intelligent-internet--commonground",
@@ -128127,6 +128167,11 @@
       "name": "ckang-j--kith-space",
       "source": "./ckang-j--kith-space",
       "description": "Kith-space"
+    },
+    {
+      "name": "lawliet206--ros",
+      "source": "./lawliet206--ros",
+      "description": "ROS"
     },
     {
       "name": "butttons--dora",
@@ -131744,6 +131789,11 @@
       "description": "BootAgent"
     },
     {
+      "name": "nf-core--website",
+      "source": "./nf-core--website",
+      "description": "website"
+    },
+    {
       "name": "livekit--livekit-wakeword",
       "source": "./livekit--livekit-wakeword",
       "description": "An open-source wake word library for creating voice-enabled applications."
@@ -133059,6 +133109,11 @@
       "description": "my-code"
     },
     {
+      "name": "axisj--beautiful-grid",
+      "source": "./axisj--beautiful-grid",
+      "description": "beautiful-grid"
+    },
+    {
       "name": "xiashao--kaiyantool",
       "source": "./xiashao--kaiyantool",
       "description": "\u5f00\u6f14AI \u5c06\u5f71\u89c6\u521b\u4f5c\u5168\u6d41\u7a0b\u6574\u5408\u5230\u4e00\u4e2a\u5f3a\u5927\u7684\u5e73\u53f0\u4e2d\u3002\u4ece\u5267\u672c\u521b\u4f5c\u5230\u89c6\u9891\u5236\u4f5c\uff0c\u6211\u4eec\u7684AI\u5de5\u5177\u5e2e\u52a9\u521b\u4f5c\u8005\u66f4\u5feb\u5730\u5c06\u6545\u4e8b\u53d8\u4e3a\u73b0\u5b9e\u3002  \u6838\u5fc3\u4f18\u52bf\uff1a  \ud83c\udfaf \u4e00\u7ad9\u5f0f\u89e3\u51b3\u65b9\u6848 - \u5267\u672c\u3001\u5206\u955c\u3001\u56fe\u50cf\u3001\u89c6\u9891\u4e00\u7ad9\u5f0f\u5b8c\u6210 \ud83e\udd16 AI\u9a71\u52a8 - \u667a\u80fd\u89e3\u6790\u3001\u751f\u6210\u548c\u4f18\u5316 \u26a1 \u6781\u901f\u521b\u4f5c - \u79d2\u7ea7\u751f\u6210\u5206\u955c\uff0c\u544a\u522b\u7e41\u7410\u5de5\u4f5c \ud83c\udfa8 \u4e13\u4e1a\u54c1\u8d28 - \u7535\u5f71\u7ea7\u8f93\u51fa\u8d28\u91cf"
@@ -133792,6 +133847,36 @@
       "name": "spider-hand--geoguesslite",
       "source": "./spider-hand--geoguesslite",
       "description": "GeoGuessLite"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
+    },
+    {
+      "name": "magnus919--agent-skills",
+      "source": "./magnus919--agent-skills",
+      "description": "agent-skills"
     },
     {
       "name": "nickcirv--engram",
@@ -140719,6 +140804,11 @@
       "description": "chrome-mv2-patch"
     },
     {
+      "name": "danielpetho--super-hover",
+      "source": "./danielpetho--super-hover",
+      "description": "super-hover"
+    },
+    {
       "name": "sandermuller--laravel-fluent-validation",
       "source": "./sandermuller--laravel-fluent-validation",
       "description": "Fluent and extremely fast validation for Laravel"
@@ -141272,6 +141362,26 @@
       "name": "jeffheaton--mergelife",
       "source": "./jeffheaton--mergelife",
       "description": "mergelife"
+    },
+    {
+      "name": "slopus--happy-desktop",
+      "source": "./slopus--happy-desktop",
+      "description": "happy-desktop"
+    },
+    {
+      "name": "slopus--happy-desktop",
+      "source": "./slopus--happy-desktop",
+      "description": "happy-desktop"
+    },
+    {
+      "name": "slopus--happy-desktop",
+      "source": "./slopus--happy-desktop",
+      "description": "happy-desktop"
+    },
+    {
+      "name": "liuxd1011--django-agent",
+      "source": "./liuxd1011--django-agent",
+      "description": "Django-Agent"
     },
     {
       "name": "40rbidd3n--hydro0x01",
@@ -144724,6 +144834,16 @@
       "description": "better-nav"
     },
     {
+      "name": "etrex--kamigo",
+      "source": "./etrex--kamigo",
+      "description": "kamigo"
+    },
+    {
+      "name": "kamalfarahani--katharos",
+      "source": "./kamalfarahani--katharos",
+      "description": "katharos"
+    },
+    {
       "name": "ryuu12358--frockly",
       "source": "./ryuu12358--frockly",
       "description": "Frockly is a visual tool for building Excel formulas using Blockly. It helps prevent syntax errors and makes complex formulas easier to understand, especially for beginners and non-programmers."
@@ -146157,6 +146277,11 @@
       "name": "appleweiping--agent-resource",
       "source": "./appleweiping--agent-resource",
       "description": "AGENT_RESOURCE"
+    },
+    {
+      "name": "0xmiden--rust-sdk",
+      "source": "./0xmiden--rust-sdk",
+      "description": "rust-sdk"
     },
     {
       "name": "m1zz--higlab",
@@ -152759,6 +152884,16 @@
       "description": "agentic-productivity"
     },
     {
+      "name": "feincms--django-authlib",
+      "source": "./feincms--django-authlib",
+      "description": "django-authlib"
+    },
+    {
+      "name": "alloy-rs--evm2",
+      "source": "./alloy-rs--evm2",
+      "description": "evm2"
+    },
+    {
       "name": "mcbodge--mudmcp",
       "source": "./mcbodge--mudmcp",
       "description": "MCP server that provides AI assistants with comprehensive access to MudBlazor component documentation, code examples, and API reference. Not affiliated with MudBlazor team."
@@ -153662,6 +153797,11 @@
       "name": "matysh--houseplan-card",
       "source": "./matysh--houseplan-card",
       "description": "houseplan-card"
+    },
+    {
+      "name": "gattaca-com--flux",
+      "source": "./gattaca-com--flux",
+      "description": "flux"
     },
     {
       "name": "aelf-hzz780--ai-bounty-skill",
@@ -157962,6 +158102,91 @@
       "name": "fansia--104-ghost-job-detector",
       "source": "./fansia--104-ghost-job-detector",
       "description": "104-ghost-job-detector"
+    },
+    {
+      "name": "modern-python--modern-di",
+      "source": "./modern-python--modern-di",
+      "description": "modern-di"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
+    },
+    {
+      "name": "pierreaubert--gpui-toolkit",
+      "source": "./pierreaubert--gpui-toolkit",
+      "description": "gpui-toolkit"
     },
     {
       "name": "cyw0ng95--sqlfuse",
@@ -312984,6 +313209,11 @@
       "description": "\u57fa\u4e8e Gin \u6253\u9020\u7684\u8f7b\u91cf\u7ea7\u3001\u4f01\u4e1a\u7ea7 Go Web \u5f00\u53d1\u6846\u67b6"
     },
     {
+      "name": "hightech-innovators--codeweave",
+      "source": "./hightech-innovators--codeweave",
+      "description": "Autonomous pipeline that finds energy and CO\u2082 hotspots in any codebase and ships efficiency fixes proven by embedded statistical A/B testing, correctness gates, and integration tests reverse-engineere"
+    },
+    {
       "name": "stefanmaron--businesscentral-al-runner",
       "source": "./stefanmaron--businesscentral-al-runner",
       "description": "BusinessCentral.AL.Runner"
@@ -358547,6 +358777,61 @@
       "name": "minbzk--bureaublad",
       "source": "./minbzk--bureaublad",
       "description": "bureaublad"
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "github-samples--tailspin-toys",
+      "source": "./github-samples--tailspin-toys",
+      "description": "tailspin-toys"
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
+    },
+    {
+      "name": "kok-o--contextos-agents",
+      "source": "./kok-o--contextos-agents",
+      "description": "Deterministic context and policy compiler for supported AI coding agents."
     },
     {
       "name": "loiane--specs-driven-development",
