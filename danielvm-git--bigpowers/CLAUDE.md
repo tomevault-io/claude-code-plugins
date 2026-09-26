@@ -1,6 +1,6 @@
 # bigpowers
 
-> > **Multi-agent context** — This file is the canonical project context for **Cline**, **Aider**, **OpenCode**, and other AGENTS.md-native tools. Claude Code and Cursor read it via the `CLAUDE.md` symlink.
+> Generate Allure-ready reports from bigpowers YAML metadata. Reads execution-status.yaml, release-plan.yaml, epic capsules, task YAMLs, cycle-times.yaml, and bug registry to produce allure-results/junit-results.xml, categories.json, and executor.json. Use when preparing progress dashboards, integrating with Allure TestOps, or generating CI reports.
 
 ## Usage
 
@@ -12,96 +12,287 @@ Read and follow the instructions in .claude/skills/bigpowers/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# story: e37s01
-# story: e45s21
-# story: e81s01
-# scenario: SC-e37s01-P1-01
-# [Project Name] — AI Agents
 
-> **Multi-agent context** — This file is the canonical project context for **Cline**, **Aider**, **OpenCode**, and other AGENTS.md-native tools. Claude Code and Cursor read it via the `CLAUDE.md` symlink.
+# Generate Allure Report
 
-Read CONVENTIONS.md before any GitHub or git operation.
+Generate Allure TestOps-compatible reports from bigpowers project metadata. Produces JUnit XML for story-level test results, custom categories for filtering, and executor metadata — all in the `allure-results/` directory.
 
-<!-- BEGIN bigpowers:context-routing -->
-## Context Routing
+## Quick Start
 
-Load subdirectory context by file glob — see project-specific routing table (seeded by `seed-conventions`).
-<!-- END bigpowers:context-routing -->
+```bash
+bash scripts/generate-allure-report.sh
+```
 
-<!-- BEGIN bigpowers:learned-preferences -->
-## Learned User Preferences
+## What It Produces
 
-- (none yet — updated via `session-state`)
+Three files in `allure-results/`:
 
-## Workspace Facts
+| File | Description |
+|------|-------------|
+| `junit-results.xml` | One `<testcase>` per story with `<properties>` for risk, security, WSJF, tier, wave, and status. Incomplete stories get a `<failure>` element. |
+| `categories.json` | Custom Allure categories for filtering by epic, risk level (P0), and security reviews. |
+| `executor.json` | Build metadata — name, type, version from release-plan.yaml, build order. |
 
-- (none yet — durable facts discovered across sessions)
-<!-- END bigpowers:learned-preferences -->
+## Data Sources
 
-<!-- BEGIN bigpowers:project -->
-## Project
+See [REFERENCE.md](REFERENCE.md)
 
-[One sentence. What this codebase does.]
-Stack: [language, framework, runtime]
+## Verify
 
-## Commands
+```bash
+test -f allure-results/junit-results.xml && test -f allure-results/categories.json && test -f allure-results/executor.json
+```
 
-| Action | Command |
-|--------|---------|
-| Run | `[cmd]` |
-| Test | `[cmd]` or N/A |
-| Build | `[cmd]` |
-| Lint | `[cmd]` |
-| Preflight | `[test && lint && build chain — or user-named full-green cmd]` |
-| CI | `gh pr checks` (when a PR is open) |
+## Handoff
 
-## Test
+- next_skill: null (terminal skill — no downstream workflow step)
 
-`[cmd]` or N/A
+---
 
-## Lint
+# generate-allure-report — Reference
 
-`[cmd]` or N/A
+## Data Sources
 
-## Build
+The script reads five YAML sources from the project:
 
-`[cmd]` or N/A
+| Source | Path | Fields Used |
+|--------|------|-------------|
+| Execution status | `specs/execution-status.yaml` | `epics`, `stories`, `development_status` |
+| Release plan | `specs/release-plan.yaml` | `release.version`, `release.status`, `bugs` summary |
+| Epic capsules | `specs/epics/**/epic.yaml` + `-tasks.yaml` | Epic metadata, task pass/fail counts |
+| Cycle times | `specs/metrics/cycle-times.yaml` | Story-level `cycle_minutes`, `bcp_per_hour`, `source` |
+| Bug registry | `specs/bugs/registry.yaml` | Bug counts by status and severity |
 
-## Architecture
+## Script Body
 
-[1–2 sentences. Key modules and their relationships.]
+`scripts/generate-allure-report.sh`:
 
-## Conventions
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+source "$(dirname "${BASH_SOURCE[0]}")/lib/python-env.sh"
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || ROOT="$(dirname "${BASH_SOURCE[0]}")/.."
 
-- [e.g. Named exports only]
-- [e.g. All queries go through the repository layer]
+mkdir -p "$ROOT/allure-results"
 
-## Never
+$PYTHON - "$ROOT" <<'PY'
+import json
+import sys
+import xml.etree.ElementTree as ET
+from pathlib import Path
 
-- Never dismiss reproducible gate failures as pre-existing or out of scope
-- Never proceed on red Preflight or red CI — invoke quick-fix or fix-bug first
-- [Hard stop — e.g. Never touch legacy/]
+root = Path(sys.argv[1])
+out = root / "allure-results"
 
-## Agent Rules
+# 1. Read execution-status.yaml
+exec_status_file = root / "specs" / "execution-status.yaml"
+release_plan_file = root / "specs" / "release-plan.yaml"
+cycle_times_file = root / "specs" / "metrics" / "cycle-times.yaml"
+bugs_registry_file = root / "specs" / "bugs" / "registry.yaml"
 
-- **Workflow Mandate:** Use bigpowers skills (e.g. `plan-work`, `develop-tdd`) for structured work.
-- **Always Green:** Preflight and CI must be green before forward work.
-- Read specs/ and CONVENTIONS.md before writing code.
-- Write the minimum code that solves the stated problem.
-- Run tests after every change. Show evidence before declaring done.
-- All planning output goes in specs/.
+sys.path.insert(0, str(root / "scripts" / "lib"))
+from simple_yaml import parse_simple_yaml
 
-## Token Economy — Minimal Footprint
+exec_status = parse_simple_yaml(exec_status_file.read_text()) if exec_status_file.exists() else {}
+release_plan = parse_simple_yaml(release_plan_file.read_text()) if release_plan_file.exists() else {}
+cycle_times = parse_simple_yaml(cycle_times_file.read_text()) if cycle_times_file.exists() else {"stories": []}
+bugs_registry = parse_simple_yaml(bugs_registry_file.read_text()) if bugs_registry_file.exists() else {"bugs": []}
 
-> Production-safe subset of the 8-rule AGENTS.md pattern (Vercel engineer, ~60B tokens).
-> Rule 1 ("no backward compatibility") is excluded deliberately: it risks data loss in production.
+# Build cycle-times lookup
+ct_lookup = {}
+for ct in cycle_times.get("stories", []):
+    if isinstance(ct, dict):
+        ct_lookup[ct.get("id", "")] = ct
 
-1. **Check existing dependencies first.** DO inspect what your current dependencies already do before adding a package or writing your own code.
-2. **Prefer mature, maintained libraries.** DO NOT rewrite a capability a maintained library provides without a documented reason.
-3. **Copy validated patterns.** DO study how established products solve the same problem before inventing a new approach.
-4. **Keep the simplest working implementation.** DO write the least code that satisfies the stated requirement. NEVER add preventive abstraction or unused config layers.
-<!-- END bigpowers:project -->
+# 2. Build JUnit XML
+stories = exec_status.get("stories", {})
+
+# Counts for testsuite attributes
+total_stories = len(stories)
+incomplete = sum(1 for s in stories.values() if isinstance(s, dict) and s.get("status") != "done")
+
+testsuite = ET.Element("testsuite", {
+    "name": "bigpowers-epic-progress",
+    "tests": str(total_stories),
+    "failures": str(incomplete),
+    "errors": "0",
+    "skipped": "0",
+})
+
+for story_id in sorted(stories.keys()):
+    story = stories[story_id]
+    if not isinstance(story, dict):
+        continue
+
+    epic_id = story.get("epic", "unknown")
+    title = story.get("title", story_id)
+    bcps = story.get("bcps", 0)
+    status = story.get("status", "backlog")
+    risk_max = story.get("risk_max", "none")
+    security_max = story.get("security_max", "none")
+
+    # Enrich with cycle-times data
+    ct_data = ct_lookup.get(story_id, {})
+    cycle_minutes = ct_data.get("cycle_minutes", 0)
+    bcp_per_hour = ct_data.get("bcp_per_hour", 0)
+
+    # Time: cycle_minutes * 60 for seconds in Allure display
+    time_seconds = cycle_minutes * 60.0 if cycle_minutes else 0.0
+
+    testcase = ET.SubElement(testsuite, "testcase", {
+        "classname": epic_id,
+        "name": f"{story_id}: {title}",
+        "time": str(round(time_seconds, 3)),
+    })
+
+    props = ET.SubElement(testcase, "properties")
+    ET.SubElement(props, "property", {"name": "risk", "value": risk_max})
+    ET.SubElement(props, "property", {"name": "security", "value": security_max})
+    ET.SubElement(props, "property", {"name": "bcps", "value": str(bcps)})
+    ET.SubElement(props, "property", {"name": "status", "value": status})
+    ET.SubElement(props, "property", {"name": "bcp_per_hour", "value": str(bcp_per_hour)})
+    ET.SubElement(props, "property", {"name": "lead_time_minutes", "value": str(cycle_minutes)})
+
+    if status != "done":
+        ET.SubElement(testcase, "failure", {
+            "message": f"Story {story_id} is {status} [risk={risk_max}, security={security_max}]",
+            "type": "StoryIncomplete"
+        })
+
+tree = ET.ElementTree(testsuite)
+ET.indent(tree, space="  ")
+tree.write(str(out / "junit-results.xml"), encoding="utf-8", xml_declaration=True)
+
+# 3. Build categories.json
+epics = exec_status.get("epics", {})
+categories = []
+
+for epic_id in sorted(epics.keys()):
+    epic = epics[epic_id]
+    if isinstance(epic, dict) and epic.get("status") != "done":
+        categories.append({
+            "name": f"Epic: {epic.get('title', epic_id)}",
+            "matchedStatuses": ["failed"],
+            "messageRegex": f".*{epic_id}:.*"
+        })
+
+categories.append({
+    "name": "P0 Risk",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*risk.*P0.*"
+})
+categories.append({
+    "name": "Security Review",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*security.*(?:medium|high).*"
+})
+
+# Add bug-based categories
+bug_list = bugs_registry.get("bugs", [])
+bug_count = len(bug_list) if isinstance(bug_list, list) else 0
+open_bugs = sum(1 for b in bug_list if isinstance(b, dict) and b.get("status") not in ("fixed", "closed", None))
+if open_bugs > 0:
+    categories.append({
+        "name": "Open Bugs",
+        "matchedStatuses": ["failed"],
+        "messageRegex": ".*Bug.*"
+    })
+
+(out / "categories.json").write_text(json.dumps(categories, indent=2))
+
+# 4. Build executor.json
+rl = release_plan.get("release", {}) if isinstance(release_plan.get("release"), dict) else {}
+executor = {
+    "name": "bigpowers",
+    "type": "bigpowers",
+    "buildName": rl.get("version", "unknown") if isinstance(rl, dict) else "unknown",
+    "buildOrder": len(exec_status.get("development_status", {})),
+}
+(out / "executor.json").write_text(json.dumps(executor, indent=2))
+
+# Summary
+epic_count = len([e for e in epics.values() if isinstance(e, dict) and e.get("status") == "done"])
+total_epics = len(epics)
+print(f"generate-allure-report: {total_stories} stories, {epic_count}/{total_epics} epics done, {bug_count} bugs")
+print(f"  -> {out}/junit-results.xml")
+print(f"  -> {out}/categories.json")
+print(f"  -> {out}/executor.json")
+PY
+```
+
+## JUnit XML Schema
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite name="bigpowers-epic-progress" tests="N" failures="F" errors="0" skipped="0">
+  <testcase classname="e01" name="e01s01: Security slopcheck tags" time="0.75">
+    <properties>
+      <property name="risk" value="none"/>
+      <property name="security" value="none"/>
+      <property name="bcps" value="1"/>
+      <property name="status" value="done"/>
+      <property name="bcp_per_hour" value="1.3"/>
+      <property name="lead_time_minutes" value="45"/>
+    </properties>
+  </testcase>
+  <testcase classname="e01" name="e01s99: Some incomplete story" time="0.0">
+    <properties>...</properties>
+    <failure message="Story e01s99 is backlog [risk=P0, security=high]" type="StoryIncomplete"/>
+  </testcase>
+</testsuite>
+```
+
+## Categories JSON Schema
+
+```json
+[
+  {
+    "name": "Epic: Quality Core - Skill Hardening",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*e45:.*"
+  },
+  {
+    "name": "P0 Risk",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*risk.*P0.*"
+  },
+  {
+    "name": "Security Review",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*security.*(?:medium|high).*"
+  }
+]
+```
+
+## Executor JSON Schema
+
+```json
+{
+  "name": "bigpowers",
+  "type": "bigpowers",
+  "buildName": "2.76.2",
+  "buildOrder": 400
+}
+```
+
+## Example Usage
+
+```bash
+# Generate reports
+bash scripts/generate-allure-report.sh
+
+# Verify output
+test -f allure-results/junit-results.xml && echo "JUnit OK"
+test -f allure-results/categories.json && echo "Categories OK"
+test -f allure-results/executor.json && echo "Executor OK"
+
+# Serve with Allure
+allure serve allure-results/
+
+# Or open the Allure TestOps UI
+allure open allure-results/
+```
 
 ---
 > Source: [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-23 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
