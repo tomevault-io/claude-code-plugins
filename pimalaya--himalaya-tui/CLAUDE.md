@@ -1,6 +1,6 @@
 # himalaya-tui
 
-> This repository follows the **Cairn** convention. Read and follow `AGENTS.md` at the repository root. The full format is the Cairn standard at https://github.com/pimalaya/cairn. Both are the single source of truth. This file is only a pointer.
+> Cairn convention: living spec, change proposals, honest history
 
 ## Usage
 
@@ -12,7 +12,6 @@ Read and follow the instructions in .claude/skills/himalaya-tui/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Copilot instructions
 
 This repository follows the **Cairn** convention. Read and follow `AGENTS.md` at the repository root. The full format is the Cairn standard at https://github.com/pimalaya/cairn. Both are the single source of truth. This file is only a pointer.
 
