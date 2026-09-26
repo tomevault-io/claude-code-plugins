@@ -2,8 +2,6 @@
 
 > Tome by [PhenX](https://github.com/PhenX/Trazor), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-Raster → SVG, entirely in your browser
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
