@@ -1,13 +1,11 @@
 # px0
 
-> Tome by [px0-ai](https://github.com/px0-ai/px0) — distributed by [TomeVault](https://tomevault.io)
-
-px[0] is an open-source prompt infrastructure toolkit for managing prompts in production.
+> Tome by [px0-ai](https://github.com/px0-ai/px0), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [px0-ai/px0](https://github.com/px0-ai/px0).
+Original source: `` in [px0-ai/px0](https://github.com/px0-ai/px0).
 
 ## Also available for
 
@@ -15,9 +13,10 @@ Original source: `GEMINI.md` in [px0-ai/px0](https://github.com/px0-ai/px0).
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [px0-ai/px0](https://github.com/px0-ai/px0) — a repo with 8+ stars on GitHub.
+From [px0-ai/px0](https://github.com/px0-ai/px0) — a repo with 1648+ stars on GitHub.
 
 ---
 
