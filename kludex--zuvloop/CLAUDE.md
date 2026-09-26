@@ -1,0 +1,24 @@
+# zuvloop
+
+> 1. `Any` should be avoided in the Python type hints, and `object` is only marginally better — both are poor choices. Use the proper, most precise type possible.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/zuvloop/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Rules
+
+1. `Any` should be avoided in the Python type hints, and `object` is only marginally better — both are poor choices. Use the proper, most precise type possible.
+2. A performance change lands as two PRs: first the benchmark on its own, then the change itself, so the effect is visible against the recorded baseline.
+3. Private functions that are used only once should not be written; inline their implementation at the sole call site.
+4. Avoid `typing.cast` in Python. Narrow types with runtime checks or improve the underlying annotation or interface instead.
+
+---
+> Source: [Kludex/zuvloop](https://github.com/Kludex/zuvloop) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
