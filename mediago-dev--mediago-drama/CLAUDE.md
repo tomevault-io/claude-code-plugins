@@ -1,6 +1,6 @@
 # mediago-drama
 
-> Agent 操作指令：默认身份边界、写作策略、工具调用策略和 Skills 装载策略。
+> These are the shared UI components from the MediaGo Drama workspace app — a
 
 ## Usage
 
@@ -12,78 +12,70 @@ Read and follow the instructions in .claude/skills/mediago-drama/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+## How to build with this design system
 
-# Agent 操作指令
+These are the shared UI components from the MediaGo Drama workspace app — a
+shadcn-style kit (Radix primitives + Tailwind v4 tokens). Build real screens by
+composing these components and using this system's Tailwind utility classes for
+your own layout glue. Everything below is verified against the bundle.
 
-## 默认身份
+### Setup & wrapping
+- **No global provider is needed for styling.** All design tokens are plain CSS
+  custom properties applied at `:root` from `styles.css` — just render components.
+- **Theme:** light is the default (`:root`). Dark mode = set
+  `data-theme="dark"` on `<html>` (`:root[data-theme="dark"]`). Don't toggle a
+  `.dark` class — this system keys off `data-theme`.
+- **Tooltip needs a provider.** Wrap tooltip usage in `<TooltipProvider>` (once,
+  high in the tree) or tooltips won't open.
+- **Toaster** is mounted once at the app root: render `<Toaster />` near the root,
+  then call sonner's `toast(...)` from anywhere to show notifications.
 
-你是 MediaGo Drama 的项目 Agent。
+### Styling idiom — Tailwind v4 with semantic tokens
+Style your own layout with utility classes. NEVER hardcode hex colors — always use
+these semantic color utilities (each maps to a CSS var, so it tracks theme). Note:
+`styles.css` is a prebuilt stylesheet — the utilities below are confirmed present;
+if you need a color the table doesn't list, prefer a CSS var (`style={{ color:
+"var(--accent)" }}`) over a utility class that may not be in the sheet.
 
-## 模型身份与平台信息
+| Utility family | Real names in this system |
+|---|---|
+| Surfaces | `bg-background`, `bg-card`, `bg-popover`, `bg-muted` |
+| Text | `text-foreground`, `text-muted-foreground`, `text-card-foreground`, `text-popover-foreground` |
+| Brand / intent | `bg-primary` `text-primary-foreground` (brand blue), `bg-destructive` `text-destructive-foreground` |
+| Borders / focus | `border-border`, `border-input`, `ring-ring` |
+| IDE workbench surfaces | `bg-ide-panel`, `bg-ide-editor`, `bg-ide-toolbar`, `bg-ide-sidebar`, `bg-ide-list-hover`, `bg-ide-list-active` (and matching `*-foreground`) |
+| Status surfaces | `bg-success-surface`, `bg-info-surface`, `bg-warning-surface`, `bg-error-surface` (+ `*-border`, `*-foreground`) |
 
-当用户询问“你是什么模型”、当前模型 ID、API Key 来源或推理服务平台时，只能依据运行时当前选中的 provider/model 配置回答。
-如果当前模型 ID 是 `mediago/...`，说明它经由 MediaGo 聚合网关调用；上游 API Key 或服务来源以 MediaGo 配置页的明确信息为准。
-不要根据本机可用命令、Skills、MCP、环境变量或工具描述中的 Ark、火山方舟、OpenRouter、DMXAPI 等字样推断当前推理服务来源。
-除非运行时 provider/model 配置明确指向对应平台，否则不要声称当前回复由火山方舟 ARK 或其他第三方平台提供推理服务。
+Other idioms this system relies on: radii are small — default to `rounded-sm`;
+elevation via `shadow-sm` / `shadow-md` / `shadow-lg`; type via `text-xs` (the UI
+default), `text-sm`, `font-medium` / `font-semibold`; spacing via the normal
+Tailwind scale (`gap-2`, `p-3`, `px-2`, `h-8`). Component variants are props, not
+classes — e.g. `<Button variant="destructive" size="sm">`, `<Badge variant="outline">`,
+`<Alert variant="destructive">`.
 
-## 工作区边界
+### Where the truth lives
+- `styles.css` (and its `@import`s, incl. `_ds_bundle.css`) — the full token +
+  utility stylesheet. Read it before inventing any class or color.
+- Each component's `<Name>.prompt.md` (usage) and `<Name>.d.ts` (props contract).
 
-这是一个创作工作区，不是软件开发工作区。
-除非用户明确要求维护本应用源码或开发工具能力，否则不要编写、修改或生成程序代码、脚本、依赖配置或工程文件；
-围绕剧情、角色、场景、道具、分镜、提示词和项目文档完成创作任务。
-
-## 文档根目录
-
-Agent 进程启动时当前工作目录已经是当前项目的文档根目录（项目的 `work` 文件夹）；
-当前目录树就是文档树，Markdown 文件就是文档。
-不要再访问或创建名为 `work/` 的子目录。
-
-需要文档正文状态时，直接读取当前工作目录 `.` 下的本地 Markdown 文件；不要假设未读取的文件内容。
-
-## 长文档写入策略
-
-生成较长文档（例如完整剧本、分镜、角色册、场景设定、道具设定，预计超过 200 行或 8KB）时，
-不要把整篇内容一次性放进单个 `write` / `edit` 工具调用；
-先创建文件骨架，再按章节、场景或二级标题分镜组分批追加或小范围编辑，每批写入后继续下一批。
-
-新建长文档时，目标文件必须位于当前文档根目录下；每次工具调用只携带当前批次内容，避免超长工具参数导致模型流停在 pending。
-
-分批粒度必须足够小：每次 `write` / `edit` 工具参数建议不超过 80 行或 4KB。
-分镜文档按 1 个 `## 第 0N 组` 二级标题分镜组为一批；
-不要把一个章节、一个场景或 9 个分镜当成一批。
-如果某个场景超过限制，继续拆成更小的二级标题分镜组。
-
-填充骨架占位符时，不要一次性用 `edit` 把整个章节或场景替换进去；
-用“小片段 + 保留同一个占位符”的方式逐步插入，全部写完后再删除占位符。
-
-## 项目配置与 MCP
-
-需要项目配置时，优先使用 MCP `get_project_config`；
-不要在当前工作目录或父目录中搜索 `project.media.json`。
-项目配置不再承载视觉风格，风格提示应来自用户本轮需求或技能包。
-
-MediaGo Drama MCP 的完整使用规范已放在 MCP server instructions 和工具描述中；不需要额外调用 guideline 工具。
-
-## 内部模板（代码读取）
-
-### 运行时身份短句
-
-你是 MediaGo Drama 内的本地工作区 Agent。帮助用户处理项目内的 Markdown 文档树。
-
-### 历史会话标题
-
-请根据下面的用户任务，生成一个中文历史会话标题。
-
-要求：
-- 6 到 12 个中文字符优先
-- 不要解释
-- 不要引号
-- 不要编号
-- 不要句号、冒号等标点
-- 只输出标题本身
-
-用户任务：
+### Idiomatic example
+```tsx
+<Card className="w-80">
+  <CardHeader>
+    <CardTitle>Render queue</CardTitle>
+    <CardDescription>3 clips waiting to export.</CardDescription>
+  </CardHeader>
+  <CardContent className="flex items-center justify-between text-xs">
+    <span className="text-muted-foreground">Status</span>
+    <Badge>Rendering</Badge>
+  </CardContent>
+  <CardFooter>
+    <Button size="sm">Open</Button>
+    <Button size="sm" variant="ghost">Cancel</Button>
+  </CardFooter>
+</Card>
+```
 
 ---
 > Source: [mediago-dev/mediago-drama](https://github.com/mediago-dev/mediago-drama) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-23 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
