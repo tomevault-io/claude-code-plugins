@@ -5,7 +5,7 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [raysonmeng/agent-bridge](https://github.com/raysonmeng/agent-bridge).
+Original source: `.windsurf/rules/*.md` in [raysonmeng/agent-bridge](https://github.com/raysonmeng/agent-bridge).
 
 ## Also available for
 
@@ -13,7 +13,7 @@ Original source: `GEMINI.md` in [raysonmeng/agent-bridge](https://github.com/ray
 - **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
-- **Windsurf** — `project-config.md`
+- **Gemini CLI** — `GEMINI.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/raysonmeng/agent-bridge](https://github.com/raysonmeng/agent-bridge)
 
