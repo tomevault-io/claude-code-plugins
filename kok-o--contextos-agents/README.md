@@ -7,14 +7,14 @@ Deterministic context and policy compiler for supported AI coding agents.
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [kok-o/contextos-agents](https://github.com/kok-o/contextos-agents).
+Original source: `copilot-instructions.md` in [kok-o/contextos-agents](https://github.com/kok-o/contextos-agents).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
 - **Codex** — `AGENTS.md`
-- **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/kok-o/contextos-agents](https://github.com/kok-o/contextos-agents)
