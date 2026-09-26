@@ -1,0 +1,25 @@
+# srelens
+
+> See [`AGENTS.md`](AGENTS.md).
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/srelens/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# CLAUDE.md
+
+See [`AGENTS.md`](AGENTS.md).
+
+One file, not two. The guidance for a coding agent working here does not
+differ by which agent it is, and a second copy is a second thing to forget to
+update — which is the failure mode half of `AGENTS.md` is about.
+
+---
+> Source: [srelens/srelens](https://github.com/srelens/srelens) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-25 -->
