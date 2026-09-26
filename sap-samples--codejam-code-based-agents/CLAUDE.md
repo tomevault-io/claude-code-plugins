@@ -1,6 +1,6 @@
 # codejam-code-based-agents
 
-> Hands-on workshop for building multi-agent AI systems on SAP BTP using **CrewAI** and **LiteLLM** connected to **SAP Generative AI Hub** (AI Core). The scenario: investigate an art heist by orchestrating specialized agents that analyse evidence, appraise stolen items, and identify the culprit.
+> description: "Use when writing Python code for SAP AI Core integrations: CrewAI agents, LiteLLM models, SAP-RPT-1 API calls, Grounding Service queries, OAuth2 token handling. Covers tool patterns, model string format, error handling, and YAML/decorator conventions."
 
 ## Usage
 
@@ -12,69 +12,132 @@ Read and follow the instructions in .claude/skills/codejam-code-based-agents/SKI
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# SAP CodeJam: Code-Based AI Agents
+---
+description: "Use when writing Python code for SAP AI Core integrations: CrewAI agents, LiteLLM models, SAP-RPT-1 API calls, Grounding Service queries, OAuth2 token handling. Covers tool patterns, model string format, error handling, and YAML/decorator conventions."
+applyTo: "**/*.py"
+---
 
-Hands-on workshop for building multi-agent AI systems on SAP BTP using **CrewAI** and **LiteLLM** connected to **SAP Generative AI Hub** (AI Core). The scenario: investigate an art heist by orchestrating specialized agents that analyse evidence, appraise stolen items, and identify the culprit.
+# Python SAP Tools Conventions
 
-## Architecture
+## LLM Model Strings
 
-Three-agent sequential crew in `project/Python/`:
+Use the `sap/<model-name>` format matching the deployment name in SAP AI Launchpad:
 
-| Agent | Tool | Purpose |
-|---|---|---|
-| Appraiser | `call_rpt1()` | Predict item categories & insurance values via SAP-RPT-1 ML model |
-| Evidence Analyst | `call_grounding_service()` | RAG queries over evidence documents via SAP Grounding Service |
-| Lead Detective | _(none)_ | Synthesise findings and name the culprit |
-
-Key files in `project/Python/solution/`:
-- `investigator_crew.py` — `@CrewBase` class; agents and tasks defined with `@agent`, `@task`, `@crew` decorators; tools use `@tool("name")`
-- `main.py` — entry point; calls `crew().kickoff(inputs={...})`
-- `rpt_client.py` — OAuth2 client for SAP-RPT-1 (client-credentials grant, Bearer auth)
-- `payload.py` — structured art-item data with `[PREDICT]` placeholders for RPT-1
-- `config/agents.yaml`, `config/tasks.yaml` — YAML definitions (method names must match decorator names)
-
-Evidence documents (plain text, loaded into the Grounding Service pipeline) are in `exercises/data/documents/`.
-
-## Build & Run
-
-```bash
-# Activate virtual env (Windows)
-.\env\Scripts\Activate.ps1
-
-# Install dependencies (only needed once)
-pip install litellm crewai python-dotenv
-
-# Run the crew
-python main.py
+```python
+llm = LLM(model="sap/gpt-4o")
 ```
 
-Requires a `.env` file in `project/Python/starter-project/` (copy structure from the exercise docs):
+Never use bare provider strings like `"gpt-4o"` or `"openai/gpt-4o"` for SAP AI Core deployments.
 
+## CrewAI Agent & Task Pattern
+
+Agents and their tasks are defined in YAML; the Python method names **must exactly match** the YAML keys:
+
+```python
+@CrewBase
+class MyCrew():
+    agents_config = "config/agents.yaml"
+    tasks_config  = "config/tasks.yaml"
+
+    @agent
+    def appraiser_agent(self) -> Agent:   # key in agents.yaml: appraiser_agent
+        return Agent(config=self.agents_config["appraiser_agent"], tools=[call_rpt1])
+
+    @task
+    def appraisal_task(self) -> Task:     # key in tasks.yaml: appraisal_task
+        return Task(config=self.tasks_config["appraisal_task"])
+
+    @crew
+    def crew(self) -> Crew:
+        return Crew(agents=self.agents, tasks=self.tasks, process=Process.sequential)
 ```
-AICORE_CLIENT_ID=
-AICORE_CLIENT_SECRET=
-AICORE_AUTH_URL=
-RPT1_DEPLOYMENT_URL=
-AICORE_RESOURCE_GROUP=
-AICORE_BASE_URL=
+
+Always use `Process.sequential`; task outputs are automatically passed as context to subsequent tasks.
+
+## Tool Pattern
+
+Tools are module-level functions decorated with `@tool`. Return error messages as plain strings so the LLM can recover gracefully — never raise exceptions out of a tool:
+
+```python
+from crewai.tools import tool
+
+@tool("call_rpt1")
+def call_rpt1(payload: dict) -> str:
+    """Docstring is the tool description shown to the agent."""
+    try:
+        response = rpt1_client.post_request(json_payload=payload)
+        if response.status_code == 200:
+            return json.dumps(response.json(), indent=2)
+        return f"Error {response.status_code}: {response.text}"
+    except Exception as e:
+        return f"Error calling RPT-1: {str(e)}"
 ```
 
-## Conventions
+## OAuth2 Client-Credentials Pattern (SAP AI Core)
 
-- **CrewAI YAML config**: agent/task names in `agents.yaml` / `tasks.yaml` must exactly match the Python method names decorated with `@agent` / `@task`.
-- **Tool pattern**: tools are plain functions decorated with `@tool("Descriptive Name")`. Return error messages as strings so the LLM can handle failures gracefully.
-- **LLM model strings**: use `sap/<model-name>` format (e.g. `sap/gpt-4o`) matching deployments in SAP AI Launchpad.
-- **Process**: always `Process.sequential` — tasks pass outputs as context to the next task in order.
-- **RPT-1 payload**: `[PREDICT]` string is the placeholder for values to be inferred; schema (dtype, categories, value ranges) must be exact.
+```python
+import os, requests
 
-## Pitfalls
+data = {
+    "grant_type": "client_credentials",
+    "client_id": os.getenv("AICORE_CLIENT_ID"),
+    "client_secret": os.getenv("AICORE_CLIENT_SECRET"),
+}
+headers = {"Content-Type": "application/x-www-form-urlencoded"}
+resp = requests.post(os.getenv("AICORE_AUTH_URL"), data=data, headers=headers, timeout=30)
+resp.raise_for_status()
+token = resp.json()["access_token"]
+```
 
-- **Hardcoded Grounding pipeline ID** in `call_grounding_service()` — replace with your own vector DB pipeline ID from SAP AI Launchpad before running.
-- **Token refresh**: `RPT1Client` fetches the OAuth token once at init; long-running crews may hit expiry — re-instantiate if needed.
-- **No `.env` validation** at startup — credential errors only surface on the first API call.
-- **YAML / decorator name mismatch** causes silent CrewAI failures with no clear error message.
-- **Grounding pipeline must be pre-loaded** with the evidence documents; empty pipelines return no results and agents will hallucinate.
+Subsequent requests use `"Authorization": f"Bearer {token}"` and `"AI-Resource-Group": resource_group`.
+
+> **Token expiry**: the token is fetched once at init. For long-running crews, re-instantiate the client to refresh.
+
+## Grounding Service Query Pattern
+
+```python
+from gen_ai_hub.document_grounding.client import RetrievalAPIClient
+from gen_ai_hub.document_grounding.models.retrieval import RetrievalSearchInput, RetrievalSearchFilter
+from gen_ai_hub.orchestration.models.document_grounding import DataRepositoryType
+
+@tool("call_grounding_service")
+def call_grounding_service(user_question: str) -> str:
+    """Query evidence documents via SAP Grounding Service."""
+    client = RetrievalAPIClient()
+    search_filter = RetrievalSearchFilter(
+        id="vector",
+        dataRepositoryType=DataRepositoryType.VECTOR.value,
+        dataRepositories=["<YOUR_PIPELINE_ID>"],  # Replace with pipeline ID from SAP AI Launchpad
+        searchConfiguration={"maxChunkCount": 5},
+    )
+    search_input = RetrievalSearchInput(query=user_question, filters=[search_filter])
+    response = client.search(search_input)
+    return json.dumps(response.model_dump(), indent=2)
+```
+
+Replace `<YOUR_PIPELINE_ID>` with the vector DB pipeline ID from SAP AI Launchpad before running.
+
+## RPT-1 Payload
+
+Use the string `"[PREDICT]"` as the placeholder for values the model should infer. The schema (dtype, categories, value ranges) must match the deployed model exactly. Pass the payload dict directly from `main.py` inputs via the crew kickoff:
+
+```python
+crew.kickoff(inputs={"payload": payload, "query": "Who stole the art?"})
+```
+
+## Environment Variables
+
+Load `.env` once at the top of the entry-point module, before instantiating any client:
+
+```python
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path=Path(__file__).parent / ".env")
+```
+
+Required keys: `AICORE_CLIENT_ID`, `AICORE_CLIENT_SECRET`, `AICORE_AUTH_URL`, `RPT1_DEPLOYMENT_URL`, `AICORE_RESOURCE_GROUP`, `AICORE_BASE_URL`.
 
 ---
 > Source: [SAP-samples/codejam-code-based-agents](https://github.com/SAP-samples/codejam-code-based-agents) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-05-02 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
