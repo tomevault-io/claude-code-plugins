@@ -1,0 +1,28 @@
+# modern-di
+
+> Tome by [modern-python](https://github.com/modern-python/modern-di), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [modern-python/modern-di](https://github.com/modern-python/modern-di).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/modern-python/modern-di](https://github.com/modern-python/modern-di)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install modern-python/modern-di
+```
+Source: [github.com/modern-python/modern-di](https://github.com/modern-python/modern-di).
+
+<!-- genome:t-i-p -->
