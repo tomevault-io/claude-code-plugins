@@ -1,6 +1,6 @@
 # unity-helpers
 
-> See the [AI Agent Guidelines](./.llm/context.md) for all AI agent guidelines.
+> See the [AI Agent Guidelines](../.llm/context.md) for all AI agent guidelines.
 
 ## Usage
 
@@ -12,9 +12,9 @@ Read and follow the instructions in .claude/skills/unity-helpers/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Repository Guidelines
+# GitHub Copilot Instructions
 
-See the [AI Agent Guidelines](./.llm/context.md) for all AI agent guidelines.
+See the [AI Agent Guidelines](../.llm/context.md) for all AI agent guidelines.
 
 ---
 > Source: [Ambiguous-Interactive/unity-helpers](https://github.com/Ambiguous-Interactive/unity-helpers) — distributed by [TomeVault](https://tomevault.io).
