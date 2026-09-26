@@ -12,7 +12,7 @@ Read and follow the instructions in .claude/skills/museek/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Gemini Agent Guidance
+# GitHub Copilot Instructions
 
 Use the MemoryCustodian project memory under `docs/memory/`.
 
@@ -23,7 +23,7 @@ Before substantial work:
 3. Load only task-specific files allowed by the manifest.
 4. Do not load `inbox.md` or `archive/` unless asked or maintaining memory.
 
-Keep this entry point short. Do not import `docs/memory/` files from this file; load them through Gemini context when required.
+Keep this entry point short. Record durable project knowledge in the routed memory files, not here.
 
 ---
 > Source: [aeroray/Museek](https://github.com/aeroray/Museek) — distributed by [TomeVault](https://tomevault.io).
