@@ -1,6 +1,6 @@
 # agenthound
 
-> Read files only from this example project during QA.
+> AgentHound compatibility harness project guidance
 
 ## Usage
 
@@ -12,10 +12,9 @@ Read and follow the instructions in .claude/skills/agenthound/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Fixture Agent Guidance
 
-Read files only from this example project during QA.
+Use explicit error handling and deterministic fixture values.
 
 ---
 > Source: [adithyan-ak/AgentHound](https://github.com/adithyan-ak/AgentHound) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-24 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
