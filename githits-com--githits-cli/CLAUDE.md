@@ -241,4 +241,4 @@ docs/
 
 ---
 > Source: [githits-com/githits-cli](https://github.com/githits-com/githits-cli) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-24 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
