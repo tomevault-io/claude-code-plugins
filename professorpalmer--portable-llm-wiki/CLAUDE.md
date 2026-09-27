@@ -1,17 +1,57 @@
-# puppetmaster
+# portable-llm-wiki
 
-> Delegate multi-file refactors, audits, and reusable work to Puppetmaster MCP swarms; obey 'Use Puppetmaster to …' triggers.
+> Guidance for humans and AI coding agents working in this repository.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/puppetmaster/SKILL.md
+Read and follow the instructions in .claude/skills/portable-llm-wiki/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Contributing conventions — portable-llm-wiki
+
+Guidance for humans and AI coding agents working in this repository.
+
+## Hard rules
+
+- **No emojis, ever.** Do not use emojis or decorative pictographs
+  anywhere — not in code, UI strings, button labels, log messages,
+  commit messages, comments, or documentation. This includes glyphs
+  like check marks, warning signs, clipboards, and similar
+  (`✓`, `⚠`, `📋`, etc.). Use plain words instead: render "copied",
+  not "copied ✓". Typographic punctuation (em dash `—`, en dash `–`,
+  directional arrows in prose) is acceptable; emoji and pictographs
+  are not.
+
+## Project layout
+
+- `backend/` — FastAPI app (Python). Tests under `backend/tests/`,
+  run with `backend/.venv/bin/python -m pytest`.
+- `frontend/` — Next.js app (TypeScript/React). Tests run with
+  `npx vitest run`; type-check with `npx tsc --noEmit`.
+- `render.yaml` — Render Blueprint for the backend. The hosted service
+  is Blueprint-managed with autoDeploy; keep this file in sync with the
+  live dashboard so the two never drift.
+
+## Testing
+
+- Run the full relevant suite before claiming work is done:
+  backend `pytest`, frontend `vitest run` + `tsc --noEmit`.
+- Prefer behavior/invariant assertions over change-detector snapshots.
+
+## Commits
+
+- Conventional commits: `fix:`, `feat:`, `refactor:`, `docs:`,
+  `chore:`. Concise subject, body explaining the why.
+- Never auto-commit; commit only when explicitly asked. Keep unrelated
+  work in separate commits.
+
+<!-- puppetmaster:rules:begin -->
+<!-- managed by `puppetmaster install-rules`; delete this whole block to disable -->
 
 # Puppetmaster orchestration
 
@@ -141,6 +181,8 @@ tooling — do not pretend the tools exist.
 
 If `puppetmaster_doctor` reports critical failures, surface them to
 the user before continuing.
+
+<!-- puppetmaster:rules:end -->
 
 ---
 > Source: [professorpalmer/portable-llm-wiki](https://github.com/professorpalmer/portable-llm-wiki) — distributed by [TomeVault](https://tomevault.io).
