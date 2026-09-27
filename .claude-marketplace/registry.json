@@ -231334,6 +231334,11 @@
       "description": "Agent-based simulation environment of the Liberata marketplace"
     },
     {
+      "name": "pepe-agent--pepe",
+      "source": "./pepe-agent--pepe",
+      "description": "An Elixir/OTP AI agent runtime: define agents, connect any OpenAI-compatible model, and run a tool-calling loop. CLI, HTTP API, web dashboard, Telegram, WhatsApp."
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -254024,6 +254029,11 @@
       "description": "\u5c01\u88c5 Resend API \u505a\u7684\u90ae\u4ef6\u53d1\u9001\u5668"
     },
     {
+      "name": "latand--delegatus",
+      "source": "./latand--delegatus",
+      "description": "delegatus"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -256972,6 +256982,11 @@
       "name": "must-be-ash--masterkey",
       "source": "./must-be-ash--masterkey",
       "description": "masterkey"
+    },
+    {
+      "name": "axiom-desu--zcodium",
+      "source": "./axiom-desu--zcodium",
+      "description": "Modified ZCode."
     },
     {
       "name": "nirholas--auto-kill-terminal",
@@ -286777,6 +286792,11 @@
       "name": "realeye-io--webcam-eyetracker-light-open",
       "source": "./realeye-io--webcam-eyetracker-light-open",
       "description": "Webcam eye-tracker running in a web browser providing on-screen gaze coordinates. The \"Light\" version."
+    },
+    {
+      "name": "jonathanavis96--jev-kit",
+      "source": "./jonathanavis96--jev-kit",
+      "description": "Everything you need to run TypeSafe's Jev with Claude Code: a tool-call guard, tier guard, file search, browser agent, review, belay, compaction and installers."
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -366684,6 +366704,156 @@
       "description": "acf-research-plan-implement-skills"
     },
     {
+      "name": "cogflux--farhand",
+      "source": "./cogflux--farhand",
+      "description": "Remote hands for coding agents: an MCP server that runs OpenCode / Claude Code / Codex work on a remote host over SSH, keeps credentials and the local machine closed, and audits everything"
+    },
+    {
+      "name": "scognamiglio1969--radar-intelligence",
+      "source": "./scognamiglio1969--radar-intelligence",
+      "description": "Open-source media intelligence & social listening. A self-hostable, AI-agnostic alternative to Talkwalker and Brandwatch, built on free data sources with support for Anthropic Claude, OpenAI, and Grok"
+    },
+    {
+      "name": "hanzhangzzz--coding-usage-bar",
+      "source": "./hanzhangzzz--coding-usage-bar",
+      "description": "macOS menu bar usage monitor for Claude Code, Codex, GLM, DeepSeek, and MiniMax"
+    },
+    {
+      "name": "hishamkaram--claude-code-router",
+      "source": "./hishamkaram--claude-code-router",
+      "description": "A local gateway that routes Claude Code sessions to OpenAI-compatible and Anthropic-compatible models, with same-session switching and visible compatibility behavior."
+    },
+    {
+      "name": "scnjwyc--wyccc-warhammer-mod-manager",
+      "source": "./scnjwyc--wyccc-warhammer-mod-manager",
+      "description": "A Total War: WARHAMMER III mod manager featuring a modernized UI, comprehensive functionality, and intuitive logic."
+    },
+    {
+      "name": "linegel--threejs-complete-set-of-skill",
+      "source": "./linegel--threejs-complete-set-of-skill",
+      "description": "25 expert agent skills for ambitious Three.js WebGPU/TSL scenes \u2014 procedural oceans, clouds, planets, water optics, image pipelines, and screenshot-backed visual validation. For Claude Code, Codex, Cu"
+    },
+    {
+      "name": "pseudo-lab--experiment-platform-pseudolab",
+      "source": "./pseudo-lab--experiment-platform-pseudolab",
+      "description": "\uac00\uc9dc\uc5f0\uad6c\uc18c \uc2e4\ud5d8\ud50c\ub7ab\ud3fc"
+    },
+    {
+      "name": "natiixnt--redcon",
+      "source": "./natiixnt--redcon",
+      "description": "a tool that reduces token usage and request waste in coding-agent workflows by selecting, compressing, caching, and budgeting repository context"
+    },
+    {
+      "name": "fastrevmd-lab--fwskillsshare",
+      "source": "./fastrevmd-lab--fwskillsshare",
+      "description": "30 skills for firewall and network security work \u2014 Juniper SRX design, NAT, VPN, and MNHA playbooks; Security Director On-Prem and ClearPass deployment; cross-vendor parse, audit, convert, and diff ac"
+    },
+    {
+      "name": "spoorendonk--mip-heuristics",
+      "source": "./spoorendonk--mip-heuristics",
+      "description": "Four MIP primal heuristics (FeasibilityJump, FPR, LocalMIP, Scylla) implemented and benchmarked inside HiGHS"
+    },
+    {
+      "name": "notaharness--n10",
+      "source": "./notaharness--n10",
+      "description": "AI Agent worktree and pull request manager"
+    },
+    {
+      "name": "amll-dev--amll-ws-connector",
+      "source": "./amll-dev--amll-ws-connector",
+      "description": "\u9002\u7528\u4e8e AMLL Player WS \u534f\u8bae\u7684 Betterncm \u63d2\u4ef6\u5b9e\u73b0"
+    },
+    {
+      "name": "vladolaru--claude-code-codex-bridge",
+      "source": "./vladolaru--claude-code-codex-bridge",
+      "description": "Automatically bridge your local Claude Code setup into Codex so both stay equally effective."
+    },
+    {
+      "name": "doublegate--clawhunter",
+      "source": "./doublegate--clawhunter",
+      "description": "[CLAWHunter] Hak5 WiFi Pineapple Pager multi-payload \u2014 scans the LAN for OpenClaw AI gateway instances and exploits info via various methods (including, out-of-band) ..."
+    },
+    {
+      "name": "kanaka--contagent",
+      "source": "./kanaka--contagent",
+      "description": "Contagent is a containerized runtime for coding agents on your local machine."
+    },
+    {
+      "name": "usestitch--stitch",
+      "source": "./usestitch--stitch",
+      "description": "stitch"
+    },
+    {
+      "name": "savfox-ai--savfox",
+      "source": "./savfox-ai--savfox",
+      "description": "Savfox is an AI assistant"
+    },
+    {
+      "name": "gunesbizim--claudememory",
+      "source": "./gunesbizim--claudememory",
+      "description": "claudememory"
+    },
+    {
+      "name": "talafek96--anki-ai-field-filler",
+      "source": "./talafek96--anki-ai-field-filler",
+      "description": "An Anki addon that uses AI to intelligently auto-fill blank note fields."
+    },
+    {
+      "name": "manojlds--pi-jj",
+      "source": "./manojlds--pi-jj",
+      "description": "Pi extension package for Jujutsu workflows"
+    },
+    {
+      "name": "tofutools--tclaude",
+      "source": "./tofutools--tclaude",
+      "description": "Coding agent orchestrator"
+    },
+    {
+      "name": "xuyuanzhang1122--bililive-go-ui",
+      "source": "./xuyuanzhang1122--bililive-go-ui",
+      "description": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8e\u539f\u7248 bililive-go \u6df1\u5ea6\u4f18\u5316\u7684\u76f4\u64ad\u5f55\u5236\u5de5\u5177,\u91cd\u70b9\u4f18\u5316\u591a\u529f\u80fd\uff0c\u62d3\u5c55\u53ef\u89c6\u6027"
+    },
+    {
+      "name": "cliff-byte--feishu-docs-cli",
+      "source": "./cliff-byte--feishu-docs-cli",
+      "description": "A lightweight CLI tool for Feishu/Lark document and wiki management, designed for Agentic Coding scenarios"
+    },
+    {
+      "name": "aliakseit--dearauditor-qms-baseline",
+      "source": "./aliakseit--dearauditor-qms-baseline",
+      "description": "Open-source, GitHub-native eQMS baseline for medical device and regulated software teams. Issues, PRs, Actions, and Releases form the quality system of record. Covers ISO 9001, ISO 13485, ISO 14971, I"
+    },
+    {
+      "name": "leanprover--lean-workbench",
+      "source": "./leanprover--lean-workbench",
+      "description": "Online Lean Workbench"
+    },
+    {
+      "name": "dream-north--leduo-patrol",
+      "source": "./dream-north--leduo-patrol",
+      "description": "leduo-patrol"
+    },
+    {
+      "name": "clivejefferies--mobile-debug-tools",
+      "source": "./clivejefferies--mobile-debug-tools",
+      "description": "MCP tools to enable agents to interact with mobile devices for mobile app development. "
+    },
+    {
+      "name": "kzahel--playsvideo",
+      "source": "./kzahel--playsvideo",
+      "description": "Plays video in the browser. No install, no upload. You probably don't need VLC."
+    },
+    {
+      "name": "yoloshii--ultimate-scraper-skill",
+      "source": "./yoloshii--ultimate-scraper-skill",
+      "description": "Multi-tier web scraper with intelligent tier escalation, anti-bot bypass, CAPTCHA solving, and AI-powered data extraction. 6 tiers (static \u2192 HTTP \u2192 stealth browser \u2192 anti-detect \u2192 AI \u2192   visual), Cloa"
+    },
+    {
+      "name": "ai-haskell-compiler--aihc",
+      "source": "./ai-haskell-compiler--aihc",
+      "description": "Haskell compiler as a series of reusable libraries"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -391699,6 +391869,46 @@
       "description": "Visual-Jev"
     },
     {
+      "name": "universe-st--dsh-game-material-master",
+      "source": "./universe-st--dsh-game-material-master",
+      "description": "dsh\u6e38\u620f\u7d20\u6750\u5927\u5e08\u63d2\u4ef6\u3002\u63a5\u5165seedream\u751f\u56fe\u6a21\u578b\u548cminimax\u89c6\u9891\u751f\u6210\u6a21\u578b\uff0c\u53ef\u751f\u6210\u5404\u79cd\u6e38\u620f\u7d20\u6750\u3002"
+    },
+    {
+      "name": "zhangpaopao0609--lifeline",
+      "source": "./zhangpaopao0609--lifeline",
+      "description": "Remote-control the Cursor / CodeBuddy IDE on your machine \u2014 watch sessions, approve actions, and send tasks from your phone."
+    },
+    {
+      "name": "dannote--jev-nx",
+      "source": "./dannote--jev-nx",
+      "description": "Open decision models as a Jev backend, running in-process on Nx"
+    },
+    {
+      "name": "nevamind-ai--jevtown",
+      "source": "./nevamind-ai--jevtown",
+      "description": "jev based AI town simulation"
+    },
+    {
+      "name": "dariuszchynek--mpc2000-2000xl-mod-pack",
+      "source": "./dariuszchynek--mpc2000-2000xl-mod-pack",
+      "description": "Eight MPC2000 Classic and MPC2000XL firmware modification sources. "
+    },
+    {
+      "name": "googxi1310328414-afk--astrbot-plugin-sub2api",
+      "source": "./googxi1310328414-afk--astrbot-plugin-sub2api",
+      "description": "AstrBot \u00d7 sub2api:QQ \u7fa4\u4f59\u989d\u73a9\u6cd5(\u7ed1\u5b9a/\u7b7e\u5230/\u6253\u52ab/\u67e5\u8be2)\u3001\u516c\u5f00\u5206\u7ec4\u72b6\u6001\u76d1\u63a7\u5361\u7247\u4e0e AI \u8131\u654f\u67e5\u8be2\u5de5\u5177;\u4e8b\u52a1\u8d26\u672c+\u81ea\u52a8\u6838\u8d26"
+    },
+    {
+      "name": "mansandadada--kwikpaste",
+      "source": "./mansandadada--kwikpaste",
+      "description": "\u5feb\u8d34 KwikPaste \u00b7 A fast, local-first clipboard manager for macOS and Windows, built with Tauri v2, Rust and React."
+    },
+    {
+      "name": "yoheinakajima--glance-speedlab",
+      "source": "./yoheinakajima--glance-speedlab",
+      "description": "A measurement-first lab for low-latency local camera inference with Glance."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -395272,6 +395482,11 @@
       "name": "nadeemiqbal--apk-scope",
       "source": "./nadeemiqbal--apk-scope",
       "description": "APK Scope \u2014 local-first APK inspection, managed Work Profile testing, network evidence, and explainable risk reports"
+    },
+    {
+      "name": "shriramkv--agentsmd-review",
+      "source": "./shriramkv--agentsmd-review",
+      "description": "It flags directives that were added, removed, weakened (must down to should), strengthened, reversed, or reworded, escalates anything touching a protected topic (secrets, force-push, production, delet"
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -518267,6 +518482,81 @@
       "name": "tagiridharan--megathon-26-ps2",
       "source": "./tagiridharan--megathon-26-ps2",
       "description": "megathon-26-ps2"
+    },
+    {
+      "name": "skinopero--videcoding",
+      "source": "./skinopero--videcoding",
+      "description": "videcoding"
+    },
+    {
+      "name": "charliemc0--universal-token-launcher",
+      "source": "./charliemc0--universal-token-launcher",
+      "description": "universal-token-launcher"
+    },
+    {
+      "name": "gwadawg--floor-sauce-os",
+      "source": "./gwadawg--floor-sauce-os",
+      "description": "floor-sauce-os"
+    },
+    {
+      "name": "charliemc0--universal-token-launcher",
+      "source": "./charliemc0--universal-token-launcher",
+      "description": "universal-token-launcher"
+    },
+    {
+      "name": "yuntongguo--swingbylite",
+      "source": "./yuntongguo--swingbylite",
+      "description": "SwingByLite"
+    },
+    {
+      "name": "charliemc0--universal-token-launcher",
+      "source": "./charliemc0--universal-token-launcher",
+      "description": "universal-token-launcher"
+    },
+    {
+      "name": "zenorewn--ai-usage-tracking",
+      "source": "./zenorewn--ai-usage-tracking",
+      "description": "Native macOS menu-bar app for Codex, Claude Code and GitHub Copilot usage, quotas, projects and reference costs."
+    },
+    {
+      "name": "iimultikacg-ctrl--honestmarkgovno",
+      "source": "./iimultikacg-ctrl--honestmarkgovno",
+      "description": "honestmarkgovno"
+    },
+    {
+      "name": "ujjwaljhajharia0001--sowal-os",
+      "source": "./ujjwaljhajharia0001--sowal-os",
+      "description": "sowal-os"
+    },
+    {
+      "name": "tejasguntiwar--sugar-factory-viplora-tech",
+      "source": "./tejasguntiwar--sugar-factory-viplora-tech",
+      "description": "sugar-factory-viplora-tech"
+    },
+    {
+      "name": "shubhampp04--cinema-droplet",
+      "source": "./shubhampp04--cinema-droplet",
+      "description": "Cinema: a TMDB movie/series browser droplet for Droppy"
+    },
+    {
+      "name": "dafswryd--globe",
+      "source": "./dafswryd--globe",
+      "description": "globe template"
+    },
+    {
+      "name": "clydecorrea7--portfolio-clyde",
+      "source": "./clydecorrea7--portfolio-clyde",
+      "description": "Portfolio-Clyde"
+    },
+    {
+      "name": "linjay--quant-lab",
+      "source": "./linjay--quant-lab",
+      "description": "\u7cbe\u7b80\u7684\u7f8e\u80a1\u5206\u6790/\u56de\u6d4b/\u9884\u6d4b(\u6869)\u91cf\u5316\u7cfb\u7edf \u2014\u2014 \u9636\u6bb51 BABA \u9a8c\u8bc1 + meta-agent \u7b56\u7565\u8f6e\u52a8\u56e0\u5b50\u7814\u7a76"
+    },
+    {
+      "name": "rahulmutt-ava--goverify",
+      "source": "./rahulmutt-ava--goverify",
+      "description": "A powerful static analyzer for Go that catches bugs at build-time"
     }
   ]
 }
