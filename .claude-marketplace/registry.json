@@ -230864,6 +230864,21 @@
       "description": "CLI for scaffolding end-to-end, type-safe TypeScript apps."
     },
     {
+      "name": "infraben-ch--infrabench",
+      "source": "./infraben-ch--infrabench",
+      "description": "A benchmark for infrastructure agents."
+    },
+    {
+      "name": "rahularya01--pi-cursor",
+      "source": "./rahularya01--pi-cursor",
+      "description": "pi-cursor"
+    },
+    {
+      "name": "devswha--gajae-code-app",
+      "source": "./devswha--gajae-code-app",
+      "description": "Desktop and self-hosted interface for Gajae Code agent sessions."
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -232787,6 +232802,11 @@
       "name": "zy-li-f--pi-workbench",
       "source": "./zy-li-f--pi-workbench",
       "description": "Local-first desktop workbench for earendil-works/pi with native chat, model routing, inspectable agent teams, Kanban/DAG workflows, artifact previews, and optional automation."
+    },
+    {
+      "name": "dennisadvani--metixel-photoframe",
+      "source": "./dennisadvani--metixel-photoframe",
+      "description": "Metixel Photoframe turns a Raspberry Pi into a polished, hardware-accelerated digital photo frame. It's a complete operating system overlay \u2014 not just an app \u2014 designed to run headless on a wall or sh"
     },
     {
       "name": "eliornl--applypilot",
@@ -234752,6 +234772,16 @@
       "name": "santhreal--veyyon",
       "source": "./santhreal--veyyon",
       "description": "Local terminal coding agent: CLI + TUI. Bring your own key/sub. Fork of oh-my-pi. Determined to end Human Slop"
+    },
+    {
+      "name": "lohr13--hl-mem",
+      "source": "./lohr13--hl-mem",
+      "description": "lohr\u7684agent\u8bb0\u5fc6\u7cfb\u7edf"
+    },
+    {
+      "name": "xuepoo--carryctx",
+      "source": "./xuepoo--carryctx",
+      "description": "Offline-first project context and durable team management for coding agents. A local SQLite CLI for tasks, sessions, checkpoints, worktrees, and read-only team context."
     },
     {
       "name": "10xchengtu--mux0",
@@ -236887,6 +236917,11 @@
       "name": "adventuresincausality--game-development-constitution",
       "source": "./adventuresincausality--game-development-constitution",
       "description": "An open, source-audited field guide to general game development: 143 principles for humans and AI."
+    },
+    {
+      "name": "zhouwei713--workbuddy-dream-skin",
+      "source": "./zhouwei713--workbuddy-dream-skin",
+      "description": "Community image-driven skin for Tencent WorkBuddy desktop. External CDP injection, fully reversible, zero-dep, Windows tray. Adapted from Fei-Away/Codex-Dream-Skin."
     },
     {
       "name": "jojobeans1981--ember-campfire-edition",
@@ -239299,6 +239334,11 @@
       "description": "Open source admin dashboard starter built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript."
     },
     {
+      "name": "alphastorm--omp-session-gateway",
+      "source": "./alphastorm--omp-session-gateway",
+      "description": "Secure, zero-touch mobile access to every running Oh My Pi session"
+    },
+    {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
       "source": "./ruiromano--powerbi-agentic-mcp-cloud-agent",
       "description": "powerbi-agentic-mcp-cloud-agent"
@@ -241527,6 +241567,16 @@
       "name": "anantdark--fitbuddy",
       "source": "./anantdark--fitbuddy",
       "description": "Fitness and Calorie Tracker app"
+    },
+    {
+      "name": "aorumbayev--herdr-workflows",
+      "source": "./aorumbayev--herdr-workflows",
+      "description": "Declarative automation for repetitive steps in herdr"
+    },
+    {
+      "name": "dracondev--pi-goal-list-loop-audit",
+      "source": "./dracondev--pi-goal-list-loop-audit",
+      "description": "Goal. Loop. Audit. Done. A pi-coding-agent extension that supervises long-running work, with an isolated auditor on each completion. Beat bamboozling by design: the auditor runs in a fresh session wit"
     },
     {
       "name": "iamtouchskyer--logex",
@@ -247257,6 +247307,31 @@
       "name": "gaixianggeng--codex-skills",
       "source": "./gaixianggeng--codex-skills",
       "description": "Codex skill\uff1a\u4ece\u5f53\u524d\u4f1a\u8bdd\u521d\u59cb\u5316\u9879\u76ee\u5de5\u4f5c\u533a\u5e76\u5efa\u7acb GitHub \u4ed3\u5e93"
+    },
+    {
+      "name": "shriramkv--mcp-conformance-kit",
+      "source": "./shriramkv--mcp-conformance-kit",
+      "description": "mcp-conformance-kit: Making MCP Server Correctness Measurable"
+    },
+    {
+      "name": "faulmit--captail",
+      "source": "./faulmit--captail",
+      "description": "A useful ShadowPlay Instant Replay alternative that actually keeps recording."
+    },
+    {
+      "name": "devswha--chatmux",
+      "source": "./devswha--chatmux",
+      "description": "ChatMux \u2014 provider-agnostic tmux chat web-terminal for coding agents (GJC/Codex/Claude/Cursor/OpenCode)"
+    },
+    {
+      "name": "eacryo--oh-my-tab",
+      "source": "./eacryo--oh-my-tab",
+      "description": "A macOS window switcher \u2014 an alternative to the system Cmd+Tab"
+    },
+    {
+      "name": "enif-lee--pr-plus",
+      "source": "./enif-lee--pr-plus",
+      "description": "Chrome/Edge extension: stack-aware GitHub PR list + fast in-page review modal"
     },
     {
       "name": "seven7763--windsurf-tools",
@@ -272539,6 +272614,16 @@
       "description": "skill-research"
     },
     {
+      "name": "ddc-111--gorag-agent",
+      "source": "./ddc-111--gorag-agent",
+      "description": "\u5f00\u7bb1\u5373\u7528\u7684GoRag\u667a\u80fd\u4f53\u5ba2\u670d \u2014 \u57fa\u4e8e Eino ADK + Gin \u7684\u5f00\u6e90\u667a\u80fd\u5ba2\u670d\u6846\u67b6\uff0c\u652f\u6301 SSE \u6d41\u5f0f\u5bf9\u8bdd\u3001RAG \u77e5\u8bc6\u5e93\u68c0\u7d22\u3001HITL \u4eba\u5de5\u4ecb\u5165"
+    },
+    {
+      "name": "backblaze-labs--ai-saas-starter-kit",
+      "source": "./backblaze-labs--ai-saas-starter-kit",
+      "description": "Production-ready AI SaaS starter kit: a Next.js 16 + FastAPI monorepo with Supabase auth, Stripe billing, text-to-image AI generation (NVIDIA NIM flux.1-dev), an admin console, and a Backblaze B2 file"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -278337,6 +278422,36 @@
       "name": "reactor-team--reactor-runtime",
       "source": "./reactor-team--reactor-runtime",
       "description": "The Runtime for Real-Time"
+    },
+    {
+      "name": "mooooooon--tiezhutoolboxpro",
+      "source": "./mooooooon--tiezhutoolboxpro",
+      "description": "TiezhuToolboxPRO"
+    },
+    {
+      "name": "gaurav-1313--codecall",
+      "source": "./gaurav-1313--codecall",
+      "description": "Agent skill to get on consent concept dive and quiz on the implementation just completed"
+    },
+    {
+      "name": "sdrpsps--vohive-oneclick",
+      "source": "./sdrpsps--vohive-oneclick",
+      "description": "\u628a\u5927\u7586 4G \u6a21\u5757\uff08EG25-G\uff09\u4f2a\u88c5\u6210\u79fb\u8fdc Quectel EC25 \u5e76\u90e8\u7f72 vohive \u5e73\u53f0\u5230 Linux \u7684\u4e00\u952e\u811a\u672c"
+    },
+    {
+      "name": "bala-la-la--lerobot-pi0-ttt",
+      "source": "./bala-la-la--lerobot-pi0-ttt",
+      "description": "LeRobot PI0 with RoboTTT fast weights and TBPTT sequence training"
+    },
+    {
+      "name": "callstackincubator--simlock",
+      "source": "./callstackincubator--simlock",
+      "description": "A control plane so parallel coding agents stop fighting over the same simulator."
+    },
+    {
+      "name": "sayhi2e10414-cpu--focus-with",
+      "source": "./sayhi2e10414-cpu--focus-with",
+      "description": "A private-by-default, self-hosted focus system with projects, timers, daily insights, distraction nudges, and optional AI/MCP companions."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -285542,6 +285657,31 @@
       "name": "klauswg--sasuke",
       "source": "./klauswg--sasuke",
       "description": "Sasuke desktop"
+    },
+    {
+      "name": "kosthi--kddcup2026-dataagents",
+      "source": "./kosthi--kddcup2026-dataagents",
+      "description": "Team: Mamba Never Out (1366) Rank: 9/703"
+    },
+    {
+      "name": "hazzzzzy--quake4-translate-subtitle",
+      "source": "./hazzzzzy--quake4-translate-subtitle",
+      "description": "Quake 4 \u7b80\u4f53\u4e2d\u6587\u6c49\u5316\uff1a\u5168\u91cf\u7ffb\u8bd1 + \u5b57\u5e55\u7cfb\u7edf + \u601d\u6e90\u9ed1\u4f53 + Strogg \u5916\u661f\u6587\u8f6c\u8bd1\uff08\u57fa\u4e8e idTech4A++\uff09"
+    },
+    {
+      "name": "sera-cx--free-fx-rates-by-sera-cx",
+      "source": "./sera-cx--free-fx-rates-by-sera-cx",
+      "description": "Free foreign exchange rates by Sera.CX \u2014 served at fx.sera.cx"
+    },
+    {
+      "name": "bradtraversy--certificreate",
+      "source": "./bradtraversy--certificreate",
+      "description": "certificreate"
+    },
+    {
+      "name": "zhangtuo723--aigc-line",
+      "source": "./zhangtuo723--aigc-line",
+      "description": "AIGC CANVAS \u2014 \u57fa\u4e8e Electron\u3001Claude Agent\u3001React Flow\u3001ComfyUI\u3001Three.js \u548c Excalidraw \u7684\u5f00\u6e90 AI \u77ed\u5267\u4e0e\u5206\u955c\u89c6\u9891\u521b\u4f5c\u5de5\u4f5c\u53f0\uff0c\u652f\u6301\u89d2\u8272/\u573a\u666f\u53c2\u8003\u56fe\u3001\u8282\u70b9\u5f0f\u6587\u751f\u56fe\u4e0e\u56fe\u751f\u89c6\u9891\u30013D \u5bfc\u6f14\u9884\u6f14\u3001\u591a\u6a21\u6001\u751f\u6210\u53ca\u89c6\u9891\u5206\u6790\u3002Open-source agentic AI storyboard and video production can"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -293517,6 +293657,46 @@
       "name": "koobiq--data-grid",
       "source": "./koobiq--data-grid",
       "description": "data-grid"
+    },
+    {
+      "name": "lirenzzzin--gnome-wayland-virtual-monitors-sunshine",
+      "source": "./lirenzzzin--gnome-wayland-virtual-monitors-sunshine",
+      "description": "Extended GNOME Wayland virtual monitors streamed independently with Sunshine and Moonlight."
+    },
+    {
+      "name": "carlsz--ux-agent-skills",
+      "source": "./carlsz--ux-agent-skills",
+      "description": "Audit, spec, and rigorously verify production-grade experiences for humans and agents alike."
+    },
+    {
+      "name": "sanjay-s-max--medibot",
+      "source": "./sanjay-s-max--medibot",
+      "description": "MediBot"
+    },
+    {
+      "name": "enterpr1se0--opsnerva",
+      "source": "./enterpr1se0--opsnerva",
+      "description": "Secure, local-first AI operations agent for SSH automation, troubleshooting, deployment, and recovery, with approval control, sandboxing, and encrypted audit."
+    },
+    {
+      "name": "agentteams-group--agentteams-dashboard",
+      "source": "./agentteams-group--agentteams-dashboard",
+      "description": "agentteams-dashboard"
+    },
+    {
+      "name": "hafilrazz--ritsu",
+      "source": "./hafilrazz--ritsu",
+      "description": "ritsu"
+    },
+    {
+      "name": "serpapi--serpapi-search-tools-python",
+      "source": "./serpapi--serpapi-search-tools-python",
+      "description": "Real-time web search tools for Python agents, powered by SerpApi with native support for popular agent SDKs."
+    },
+    {
+      "name": "mbrcic--ai-safety-formalization-atlas",
+      "source": "./mbrcic--ai-safety-formalization-atlas",
+      "description": "The open workbench for AI safety, made formal. Turn safety questions into machine-checked Lean proofs \u2014 a shared launchpad where researchers and AI agents build provable safety together."
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -303322,6 +303502,56 @@
       "name": "ilien-dev--quiron",
       "source": "./ilien-dev--quiron",
       "description": "AI humanizer skill for Claude Code, Codex and Cursor. Removes AI slop and the signs of AI writing, then measures the rewrite against human baselines."
+    },
+    {
+      "name": "aws-samples--sample-lark-mcp-on-agentcore",
+      "source": "./aws-samples--sample-lark-mcp-on-agentcore",
+      "description": "A hosted remote-MCP service that lets AI agents operate Feishu/Lark, reusing lark-cli's 200+ tools and 20+ Skills. One Feishu app shared across the team, centrally managed by IT;   members authorize o"
+    },
+    {
+      "name": "btsouth--cubby-clipboard",
+      "source": "./btsouth--cubby-clipboard",
+      "description": "A native-feeling Windows 11 clipboard history replacement: persistent, searchable, private, and reliable. Local OCR so screenshots are searchable."
+    },
+    {
+      "name": "agentchengfeng--chengfeng-videocut",
+      "source": "./agentchengfeng--chengfeng-videocut",
+      "description": "\u672c\u5730\u4f18\u5148\u7684\u53e3\u64ad\u89c6\u9891\u526a\u8f91\u5de5\u4f5c\u53f0\u4e0e CLI"
+    },
+    {
+      "name": "hd838a--dji-4g-mac",
+      "source": "./hd838a--dji-4g-mac",
+      "description": "dji-4g-mac"
+    },
+    {
+      "name": "std-microblock--crossgram",
+      "source": "./std-microblock--crossgram",
+      "description": "\u4f7f\u7528 Telegram \u5ba2\u6237\u7aef\u5728\u4efb\u4f55\u5e73\u53f0\u4e0a\u804a\u5929 | Bring any chat platform to Telegram clients."
+    },
+    {
+      "name": "jamillazarev--multica-ops",
+      "source": "./jamillazarev--multica-ops",
+      "description": "Mops \ud83d\udc36 \u2014 your Executive Advisor for Multica: builds and runs an autonomous company of AI agents. Interview \u2192 team \u2192 conveyor \u2192 console."
+    },
+    {
+      "name": "postmill-ai--postmill-app",
+      "source": "./postmill-ai--postmill-app",
+      "description": "Open-source, AI-native social media management & scheduling platform for 45+ channels. BYOK AI across 30+ providers with governance guardrails & spend caps, AI Designer + 46 media tools, persisted ana"
+    },
+    {
+      "name": "tsubotti63--garmin-running-data-normalizer",
+      "source": "./tsubotti63--garmin-running-data-normalizer",
+      "description": "Local-first Python CLI that turns Garmin Account Data Export into reproducible running, FIT, sleep, HRV, and training datasets with QA and provenance."
+    },
+    {
+      "name": "utroyakq--ai-friendly-project-template",
+      "source": "./utroyakq--ai-friendly-project-template",
+      "description": "AI-Friendly-Project-Template"
+    },
+    {
+      "name": "savant0x--savant-code",
+      "source": "./savant0x--savant-code",
+      "description": "Multi-agent orchestration \u2014 9 specialized agents coordinate via ECHO Protocol: Detective finds issues, Forge implements, Verifier audits, Recorder manages FIDs, Thinker reasons, Scout explores, Resear"
     },
     {
       "name": "makenowjust--naraku",
@@ -318732,6 +318962,56 @@
       "name": "recoupable--app",
       "source": "./recoupable--app",
       "description": "Web interface for building and managing your own agentic record label. "
+    },
+    {
+      "name": "alexpolonsky--typecue",
+      "source": "./alexpolonsky--typecue",
+      "description": "Menu bar app that types your script into any app - one block per hotkey press, as real keystrokes at a human pace. For demos, screencasts, and presentations."
+    },
+    {
+      "name": "angolardevops--delonix-runtime",
+      "source": "./angolardevops--delonix-runtime",
+      "description": "Daemonless, rootless-first, kernel-native container & microVM runtime \u2014 Rust."
+    },
+    {
+      "name": "pledgeandgrow--pledgejs",
+      "source": "./pledgeandgrow--pledgejs",
+      "description": "A full-stack framework with App-directory routing, RSC streaming, SSR/SSG/ISR, edge deployment, and instant HMR powered by PledgePack, a Rust+Zig bundler for dramatically faster builds."
+    },
+    {
+      "name": "daren866--hoi",
+      "source": "./daren866--hoi",
+      "description": "\u534e\u4e3a\u597d\u554a\u5927\u7c73A\u5927\u7c73\u52a0\u5927\u7c73\u5927\u7c73\u6263\u5927\u7c73\u52a0\u5927\u7c73\u3002"
+    },
+    {
+      "name": "pdp-connect--pdpp",
+      "source": "./pdp-connect--pdpp",
+      "description": "The Personal Data Portability Protocol specification (LFDT Community Specification)"
+    },
+    {
+      "name": "gregtech-odyssey--gtocore-main",
+      "source": "./gregtech-odyssey--gtocore-main",
+      "description": "GTOCore main (public): com.gtocore + gtolib submodule mount"
+    },
+    {
+      "name": "vladagurets--csdl",
+      "source": "./vladagurets--csdl",
+      "description": "csdl"
+    },
+    {
+      "name": "yousef-diab--the-algorithm",
+      "source": "./yousef-diab--the-algorithm",
+      "description": "Interactive course on how price is really delivered \u2014 ICT Core (Months 1\u20134) + the 2022 Mentorship (Parts 1\u20136). 78 lessons, charts, quizzes and final exams"
+    },
+    {
+      "name": "ahlfs--lam-cyberlab",
+      "source": "./ahlfs--lam-cyberlab",
+      "description": "LAM-Cyberlab"
+    },
+    {
+      "name": "jaeminpark417--math-research-workbench",
+      "source": "./jaeminpark417--math-research-workbench",
+      "description": "A beginner-friendly Codex workspace for organizing mathematical ideas, papers, proofs, and projects."
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -515907,6 +516187,11 @@
       "name": "nikoghosyanjan--test-task",
       "source": "./nikoghosyanjan--test-task",
       "description": "Test-task"
+    },
+    {
+      "name": "rk2725q-star--atcli-v2",
+      "source": "./rk2725q-star--atcli-v2",
+      "description": "atcli-v2"
     }
   ]
 }
