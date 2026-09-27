@@ -17209,6 +17209,11 @@
       "description": "sqlparse"
     },
     {
+      "name": "theoleecj--semif-openjev",
+      "source": "./theoleecj--semif-openjev",
+      "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
+    },
+    {
       "name": "shuvonsec--claude-bug-bounty",
       "source": "./shuvonsec--claude-bug-bounty",
       "description": "claude-bug-bounty"
@@ -207649,6 +207654,11 @@
       "description": "Make a screenshot worth posting with an Omarchy plugin."
     },
     {
+      "name": "orangelab-space--orange-lab",
+      "source": "./orangelab-space--orange-lab",
+      "description": "Private infrastructure on consumer hardware based on K3s, Tailscale, Pulumi and Longhorn"
+    },
+    {
       "name": "vrsen--mcp-code-exec-agent",
       "source": "./vrsen--mcp-code-exec-agent",
       "description": "mcp-code-exec-agent"
@@ -217232,6 +217242,11 @@
       "name": "melo-libs--melo",
       "source": "./melo-libs--melo",
       "description": "A personal knowledge workspace built around CODE \u2014 Collect, Organize, Distill, and Express."
+    },
+    {
+      "name": "twangodev--uwcourses",
+      "source": "./twangodev--uwcourses",
+      "description": "Explore the courses offered by UW-Madison in a visual and interactive way."
     },
     {
       "name": "r44vc0rp--itui",
@@ -230529,6 +230544,11 @@
       "description": "\u9762\u5411 Agent-first \u5f00\u53d1\u7684\u9879\u76ee\u521d\u59cb\u5316\u6a21\u677f\uff08Harness\uff09\u2014\u2014 \u4eba\u5b9a\u65b9\u5411\uff0cAgent \u6267\u884c"
     },
     {
+      "name": "segmentrouting--srv6-mrc-emulator",
+      "source": "./segmentrouting--srv6-mrc-emulator",
+      "description": "srv6-mrc-emulator"
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -238922,6 +238942,11 @@
       "name": "skills--idea-to-merge-with-the-copilot-app",
       "source": "./skills--idea-to-merge-with-the-copilot-app",
       "description": "Exercise: Idea to Merge with the Copilot App"
+    },
+    {
+      "name": "mversic--co3",
+      "source": "./mversic--co3",
+      "description": "Generate C bindings from Rust API"
     },
     {
       "name": "ruiromano--powerbi-agentic-mcp-cloud-agent",
@@ -255769,6 +255794,11 @@
       "description": "Run Claude Code and Codex agents as a team: long-lived sessions, a durable mailbox, human approval gates and per-task token accounting, scheduled by code rather than a manager LLM."
     },
     {
+      "name": "blackhat-7--vellum-nvim",
+      "source": "./blackhat-7--vellum-nvim",
+      "description": "Live, beautiful GitHub-markdown preview beside your buffer in Neovim \u2014 mermaid diagrams as real images, in the terminal."
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -262937,6 +262967,11 @@
       "name": "mbeacom--adrkit",
       "source": "./mbeacom--adrkit",
       "description": "Machine-readable architecture decision records. Git-native decision memory and governance for human and agent-authored plans -- lint, CI, and MCP."
+    },
+    {
+      "name": "equalizedigital--boardscribe",
+      "source": "./equalizedigital--boardscribe",
+      "description": "Publish board meeting agendas and minutes on WordPress in an accessible, paginated table, built for public transparency and compliance."
     },
     {
       "name": "onevcat--xin",
@@ -284944,6 +284979,21 @@
       "description": "The Arabic Poetry Reference"
     },
     {
+      "name": "tiangong-ai--langgraph-server",
+      "source": "./tiangong-ai--langgraph-server",
+      "description": "Retired LangGraph source archive under tiangong-ai. Shared runtime retirement is managed separately."
+    },
+    {
+      "name": "kubermeister--kubermeister",
+      "source": "./kubermeister--kubermeister",
+      "description": "A fast, native desktop client for browsing and managing Kubernetes clusters."
+    },
+    {
+      "name": "klauswg--sasuke",
+      "source": "./klauswg--sasuke",
+      "description": "Sasuke desktop"
+    },
+    {
       "name": "ripeseed--rs-tunnel",
       "source": "./ripeseed--rs-tunnel",
       "description": "A ngrok alternative"
@@ -292902,6 +292952,21 @@
       "name": "shaurya-sethi--nightshift",
       "source": "./shaurya-sethi--nightshift",
       "description": "Let your favorite AI coding agents work the night shift. A CLI utility to autonomously resolve your open GitHub issues while you sleep."
+    },
+    {
+      "name": "jrjrjpro--dsh-chat-tree",
+      "source": "./jrjrjpro--dsh-chat-tree",
+      "description": "\u628a \u5bf9\u8bdd\u5206\u652f \u753b\u6210 \u53ef\u70b9\u51fb\u7684\u6811"
+    },
+    {
+      "name": "aditya-ramabadran--drivingbench-harness-v1",
+      "source": "./aditya-ramabadran--drivingbench-harness-v1",
+      "description": "Harness/code for DrivingBench v1, which allows frontier LLMs to control cars via Comma/openpilot + MCP tools."
+    },
+    {
+      "name": "koobiq--data-grid",
+      "source": "./koobiq--data-grid",
+      "description": "data-grid"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -302687,6 +302752,16 @@
       "name": "ericandrechek--pacer",
       "source": "./ericandrechek--pacer",
       "description": "Native macOS app for tracking Claude Code usage \u2014 tokens, cost, rate-limit pacing, per-project breakdowns. SwiftUI + SwiftData."
+    },
+    {
+      "name": "yuzu482--yhwh",
+      "source": "./yuzu482--yhwh",
+      "description": "Kether-governed AI agent orchestration with Pi/MCP, isolated workers, LSP tools, and a portable Windows/WSL2 installer"
+    },
+    {
+      "name": "bubbleparticles--planar-jl",
+      "source": "./bubbleparticles--planar-jl",
+      "description": "Trading bot and backtesting framework written in julia"
     },
     {
       "name": "makenowjust--naraku",
@@ -318067,6 +318142,36 @@
       "name": "muqaddashahzad--klipra",
       "source": "./muqaddashahzad--klipra",
       "description": "Klipra"
+    },
+    {
+      "name": "openmusx--denigma",
+      "source": "./openmusx--denigma",
+      "description": "denigma"
+    },
+    {
+      "name": "timoncool--yue2-studio",
+      "source": "./timoncool--yue2-studio",
+      "description": "Local AI song generator with an editable score \u2014 YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update."
+    },
+    {
+      "name": "sqliteai--blink",
+      "source": "./sqliteai--blink",
+      "description": "An open-source, high-performance System One Model for one-pass typed decisions, with an embeddable C runtime and WebAssembly support."
+    },
+    {
+      "name": "qortal--qortal-hub",
+      "source": "./qortal--qortal-hub",
+      "description": "Qortal Hub is a Desktop interface for Qortal. Part of the new 'Qortal Trifecta' series of User Interfaces."
+    },
+    {
+      "name": "jasonkneen--instinctual-memory",
+      "source": "./jasonkneen--instinctual-memory",
+      "description": "instinctual-memory"
+    },
+    {
+      "name": "recoupable--app",
+      "source": "./recoupable--app",
+      "description": "Web interface for building and managing your own agentic record label. "
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -363699,6 +363804,81 @@
       "description": "Source code leak of grok-bot-harness"
     },
     {
+      "name": "chenweitian423--guoapp",
+      "source": "./chenweitian423--guoapp",
+      "description": "\u7ea2\u679c\u9274 / \u771f\u679c\u9274\uff1aFlutter + Go \u591a\u7aef\u77ed\u5267\u5ba2\u6237\u7aef\uff0c\u542b GitHub Actions \u81ea\u52a8\u6784\u5efa Android / Windows / iOS"
+    },
+    {
+      "name": "alankk--everythingx",
+      "source": "./alankk--everythingx",
+      "description": "everythingx"
+    },
+    {
+      "name": "anton-makarevich--makamek",
+      "source": "./anton-makarevich--makamek",
+      "description": "An attempt to implement a game of Classic BattleTech, inspired by MegaMek"
+    },
+    {
+      "name": "matthewdonsemail-lab--log",
+      "source": "./matthewdonsemail-lab--log",
+      "description": "log"
+    },
+    {
+      "name": "wu529778790--navhub-shenzjd-com",
+      "source": "./wu529778790--navhub-shenzjd-com",
+      "description": "\u6811\u5f62\u5bfc\u822a\u7ad9 \u00b7 \u7eaf\u53ea\u8bfb\u4e2a\u4eba\u4e66\u7b7e\u805a\u5408\uff0cVercel \u6781\u7b80\u98ce\u683c\uff0cTurso \u5b58\u50a8\uff0cSSR \u79d2\u5f00\u3002"
+    },
+    {
+      "name": "cap-go--capacitor-ricoh360-camera-plugin",
+      "source": "./cap-go--capacitor-ricoh360-camera-plugin",
+      "description": "Capacitor Plugin for ricoh camera 360"
+    },
+    {
+      "name": "nuxencs--mangarr",
+      "source": "./nuxencs--mangarr",
+      "description": "CLI tool to download and monitor manga and manhwa from various different sources."
+    },
+    {
+      "name": "gardnmi--omacontra",
+      "source": "./gardnmi--omacontra",
+      "description": "Omacontra: standalone five-stage arcade boss rush for Linux and Hyprland"
+    },
+    {
+      "name": "belluxx--aleph",
+      "source": "./belluxx--aleph",
+      "description": "Give satellite imagery, terrain data, buildings, streetview photos to your LLM"
+    },
+    {
+      "name": "fbs93--stm32wle5-rf-dongle",
+      "source": "./fbs93--stm32wle5-rf-dongle",
+      "description": "Compact RF dongle designed for wireless communication through USB."
+    },
+    {
+      "name": "radareorg--r2ai-model",
+      "source": "./radareorg--r2ai-model",
+      "description": "Dataset to train or finetune language models with knowledge about radare2"
+    },
+    {
+      "name": "parithosh-varma--filedrop",
+      "source": "./parithosh-varma--filedrop",
+      "description": "Peer-to-peer file transfer in the browser. No server, no storage. Drop a file, get a 12-char code plus QR link, stream it directly over WebRTC. Static Cloudflare Pages build."
+    },
+    {
+      "name": "dedekpo--teachess",
+      "source": "./dedekpo--teachess",
+      "description": "teachess"
+    },
+    {
+      "name": "river-li--brok-pot-harness",
+      "source": "./river-li--brok-pot-harness",
+      "description": "brok-bot-harness 100% replica of Grokbot. Deploy Grokbot on your own PC/Mac/Server. Use your own agents like Claude Code or Codex"
+    },
+    {
+      "name": "georgernstgraf--grg-wmc",
+      "source": "./georgernstgraf--grg-wmc",
+      "description": "GRG-WMC"
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -388619,6 +388799,91 @@
       "description": "A simple, lightweight desktop client that preserves the native Pi experience."
     },
     {
+      "name": "confidential-dot-ai--confidential-inference",
+      "source": "./confidential-dot-ai--confidential-inference",
+      "description": "Attested confidential inference integration on bare metal"
+    },
+    {
+      "name": "unchiga--yu-gi-oh-forbidden-memories-recompiled",
+      "source": "./unchiga--yu-gi-oh-forbidden-memories-recompiled",
+      "description": "Native decompilation and recompilation of Yu-Gi-Oh! Forbidden Memories"
+    },
+    {
+      "name": "sandeepravillubuilds--my-agents",
+      "source": "./sandeepravillubuilds--my-agents",
+      "description": "My custom agent instructions, specialized roles, skills, and reusable templates."
+    },
+    {
+      "name": "typesafeai--jev-harness",
+      "source": "./typesafeai--jev-harness",
+      "description": "A custom coding harness for TypeSafe AI's Jev: an LLM proposes, Jev answers narrow questions, code decides, every step leaves a receipt."
+    },
+    {
+      "name": "applyinnovations--bifrost-model-router",
+      "source": "./applyinnovations--bifrost-model-router",
+      "description": "bifrost-model-router"
+    },
+    {
+      "name": "jaredpalmer--fly-dating-app",
+      "source": "./jaredpalmer--fly-dating-app",
+      "description": "Born to fly. Forced to date."
+    },
+    {
+      "name": "yassirboudda--hermes-osint-ctf-agent",
+      "source": "./yassirboudda--hermes-osint-ctf-agent",
+      "description": "Public OSINT CTF agent template (DeepSeek + OpenRouter) \u2014 bring your own API keys"
+    },
+    {
+      "name": "relmer--casso",
+      "source": "./relmer--casso",
+      "description": "An Apple 2 family emulator with a built-in, fully AS65-compatible assembler"
+    },
+    {
+      "name": "tw-campaign-map-modding-team--campaignmaptoolkit",
+      "source": "./tw-campaign-map-modding-team--campaignmaptoolkit",
+      "description": "Total War Campaign Map Toolkit (map_data.esf, pathfinding.ppd, trade_route.ptd, borders.pbd, etc)"
+    },
+    {
+      "name": "hensonzyw-git--personal-agent-open-source",
+      "source": "./hensonzyw-git--personal-agent-open-source",
+      "description": "A single-user personal agent with governed tools and a human-in-the-loop development workflow."
+    },
+    {
+      "name": "0x7067--claude-jev",
+      "source": "./0x7067--claude-jev",
+      "description": "Claude Code plugin: Jev for rule checks, verbatim compaction, and prompt routing"
+    },
+    {
+      "name": "24601--augustus",
+      "source": "./24601--augustus",
+      "description": "Agent skill for finding, building, evaluating, and improving decision-model systems. Compositional decision calculus, eval harnesses, and bounded prompt/program hill climbing for Software 3.0. TypeSaf"
+    },
+    {
+      "name": "berriai--liteagents",
+      "source": "./berriai--liteagents",
+      "description": "A provider-independent agent SDK with the same query() interface as the Claude Agent SDK, allowing you to use the right model for every turn."
+    },
+    {
+      "name": "danibelmonte--nostraxis",
+      "source": "./danibelmonte--nostraxis",
+      "description": "Local-first observability dashboard to monitor, compare and analyze Codex, Claude Code and GitHub Copilot CLI sessions"
+    },
+    {
+      "name": "bhouston--vitest-gpu",
+      "source": "./bhouston--vitest-gpu",
+      "description": "Vitest environments for real headless WebGL and WebGPU in Node, plus a pixel-diff screenshot matcher"
+    },
+    {
+      "name": "hraness--algal",
+      "source": "./hraness--algal",
+      "description": "ALGAL is a new take on the agent graph: a language and runtime for agentic program evolution."
+    },
+    {
+      "name": "yuangege1234--xinyuan",
+      "source": "./yuangege1234--xinyuan",
+      "description": "\u946b\u6e90 Xinyuan \u2014\u2014 \u57fa\u4e8e Hermes Agent \u6539\u9020\u7684\u672c\u5730\u684c\u9762 AI \u52a9\u624b\uff0c\u89e3\u538b\u5373\u7528\u3002\u6e90\u7801 + \u4e2d\u6587\u8bf4\u660e + \u6253\u5305\u811a\u672c\u3002\u4e0a\u6e38\uff1aNousResearch/hermes-agent\uff08MIT\uff09"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -392142,6 +392407,11 @@
       "name": "sltowl--sl-ui-library",
       "source": "./sltowl--sl-ui-library",
       "description": "HTML, CSS and JavaScript components, with a plugin for Codex and Claude Code."
+    },
+    {
+      "name": "yunshiro--yunn-workbench",
+      "source": "./yunshiro--yunn-workbench",
+      "description": "\u672c\u5730\u4f18\u5148\u7684 AI \u5185\u5bb9\u5de5\u4f5c\u53f0\uff1a\u805a\u5408 RSS \u4fe1\u606f\uff0c\u5b8c\u6210\u9605\u8bfb\u7b5b\u9009\u3001\u5185\u5bb9\u5206\u6790\u3001\u9009\u9898\u7814\u7a76\u4e0e\u8349\u7a3f\u521b\u4f5c\u3002"
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -515047,6 +515317,26 @@
       "name": "organvm-v-logos--studium-generale--4444j99",
       "source": "./organvm-v-logos--studium-generale--4444j99",
       "description": "Academic governance and research organ: commissions, defenses, senate structure"
+    },
+    {
+      "name": "wonder0xweird--ab2",
+      "source": "./wonder0xweird--ab2",
+      "description": "Abstraction to abstraction, Ab2 is."
+    },
+    {
+      "name": "wonder0xweird--ab2",
+      "source": "./wonder0xweird--ab2",
+      "description": "Abstraction to abstraction, Ab2 is."
+    },
+    {
+      "name": "chatcode-lab--aitraffic",
+      "source": "./chatcode-lab--aitraffic",
+      "description": "AI Traffic Analytic: practical guides and a public AI traffic and agent feedback experiment at aitrafficanalytic.com"
+    },
+    {
+      "name": "nikoghosyanjan--test-task",
+      "source": "./nikoghosyanjan--test-task",
+      "description": "Test-task"
     }
   ]
 }
