@@ -1,6 +1,6 @@
 # opennolan
 
-> OpenNolan project rules
+> **MANDATORY: Read [`AGENT_GUIDE.md`](../AGENT_GUIDE.md) before responding to ANY user message.**
 
 ## Usage
 
@@ -12,10 +12,9 @@ Read and follow the instructions in .claude/skills/opennolan/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-
 # OpenNolan
 
-MANDATORY: Read `AGENT_GUIDE.md` before responding to ANY user message.
+**MANDATORY: Read [`AGENT_GUIDE.md`](../AGENT_GUIDE.md) before responding to ANY user message.**
 
 Do not act on the user's request until you have read AGENT_GUIDE.md.
 It contains routing rules that determine your first action based on what the user asked.
