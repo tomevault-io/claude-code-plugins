@@ -210464,6 +210464,11 @@
       "description": "a lisp built for AI agents "
     },
     {
+      "name": "libnativeapi--nativeapi-core",
+      "source": "./libnativeapi--nativeapi-core",
+      "description": "A modern cross-platform C++ library providing seamless, unified access to native system APIs across multiple platforms."
+    },
+    {
       "name": "nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "source": "./nikolasburk--livestore-tanstack-cloudflare-auth-example",
       "description": "Demo app showing how to implement authentication with BetterAuth in a TanStack Start app with LiveStore."
@@ -227357,6 +227362,11 @@
       "name": "voygr-tech--placecall",
       "source": "./voygr-tech--placecall",
       "description": "The phone is your last API. Give your agent a voice to call any US business - reservations, inquiries, quotes. Verified outcome + transcript. First 250 calls free."
+    },
+    {
+      "name": "madhvantyagi--gnos",
+      "source": "./madhvantyagi--gnos",
+      "description": "Teaching harness , help you to learn anything , It teaches like real teacher , design curriculum  , generate videos , simulations , images , pdfs , tracks your learning style etc"
     },
     {
       "name": "sharf-shawon--awesome-bangladeshi-foss",
@@ -254064,6 +254074,11 @@
       "description": "delegatus"
     },
     {
+      "name": "mrlesk--groma-md",
+      "source": "./mrlesk--groma-md",
+      "description": "groma.md - Your architecture as OKF Markdown in Git, and one C4 map you can walk. Scanned from source, curated by you and your agents."
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -264349,6 +264364,16 @@
       "description": "Open-source workflow for manju (\u6f2b\u5267) \u2014 AI-generated episodic animated shorts."
     },
     {
+      "name": "moeeryani--vibe-coding-production-kit",
+      "source": "./moeeryani--vibe-coding-production-kit",
+      "description": "Production-grade vibe coding framework with specs, architecture, AI agents, testing, security, code review, CI/CD, and battle-tested workflows \u2014 from idea to production."
+    },
+    {
+      "name": "tantosec--tturl",
+      "source": "./tantosec--tturl",
+      "description": "The HTTP/2 CLI for finding tiny timing differences and winning request races"
+    },
+    {
       "name": "onevcat--xin",
       "source": "./onevcat--xin",
       "description": "xin"
@@ -273587,6 +273612,11 @@
       "name": "eleven-labs--nest-profiler",
       "source": "./eleven-labs--nest-profiler",
       "description": "A Symfony Web Profiler-inspired toolkit for NestJS \u2014 profile every request with a rich panel UI. Powered & maintained by Eleven Labs."
+    },
+    {
+      "name": "tobi--disktree",
+      "source": "./tobi--disktree",
+      "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI."
     },
     {
       "name": "hyaway--hyaway",
@@ -295012,6 +295042,16 @@
       "name": "sunkeke-ai--life-compass-obsidian-cn",
       "source": "./sunkeke-ai--life-compass-obsidian-cn",
       "description": "Compass \u7684\u975e\u5b98\u65b9\u7b80\u4f53\u4e2d\u6587\u672c\u5730\u5316\uff1b\u539f\u9879\u76ee\u7531 Daniel Agrici\uff08@AgriciDaniel\uff09\u521b\u5efa\u3002"
+    },
+    {
+      "name": "frrazer--roblox-game-boilerplate",
+      "source": "./frrazer--roblox-game-boilerplate",
+      "description": "Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, ProfileStore data, strict Luau and an AGENTS.md"
+    },
+    {
+      "name": "proxysoul--soulstack",
+      "source": "./proxysoul--soulstack",
+      "description": "ProxySoul \u00d7 Empryo: skills, agents, an immune system and habits for coding agents. soulstack.proxysoul.com"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -320877,6 +320917,21 @@
       "name": "tencentcloud--octop-gateway",
       "source": "./tencentcloud--octop-gateway",
       "description": "Multi-platform IM channel bridge with unified message abstraction for AI agents and bots"
+    },
+    {
+      "name": "doeixd--incremental",
+      "source": "./doeixd--incremental",
+      "description": "A typed fold over object contributions: build an object piece by piece, know its exact shape at every step, and prove when it is complete."
+    },
+    {
+      "name": "lhagfoss--rustcode",
+      "source": "./lhagfoss--rustcode",
+      "description": "Agent Harness or sum"
+    },
+    {
+      "name": "lebbitheplow--open-dungeon-master",
+      "source": "./lebbitheplow--open-dungeon-master",
+      "description": "Open Dungeon Master,  the first easy-to-use, fully local AI DND 5e app. Story and inline scene images generated 100% on your machine (Qwen3.6 and comfyui). "
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -367224,6 +367279,81 @@
       "description": "HTML-first persistent planning skill for Claude Code, Cursor, and 15 other agents. One self-contained plan.html. Survives /clear. SHA-256 attested."
     },
     {
+      "name": "jabaho9523--obsidian-meetings-plus",
+      "source": "./jabaho9523--obsidian-meetings-plus",
+      "description": "Subscribe to calendars and create pre-filled meeting notes in one click. No drag-and-drop, no Outlook required. ICS-based, privacy-first."
+    },
+    {
+      "name": "zy-ning--nano-scalemb",
+      "source": "./zy-ning--nano-scalemb",
+      "description": "A nano-chat based repo for scaling embedding, reproducing Engram etc. on small models"
+    },
+    {
+      "name": "costumary--gsap-choreography",
+      "source": "./costumary--gsap-choreography",
+      "description": "AI coding instructions for scripted GSAP product demo animations \u2014 cursor choreography, timeline orchestration, scene transitions, and click systems in React."
+    },
+    {
+      "name": "useopencompany--opencompany",
+      "source": "./useopencompany--opencompany",
+      "description": "AI workspace with chat, durable tasks and workflows, connected integrations, Brain knowledge, and cloud coding sessions."
+    },
+    {
+      "name": "issundb--issun-db",
+      "source": "./issundb--issun-db",
+      "description": "A fast embedded graph database for AI applications and graph analytics"
+    },
+    {
+      "name": "open-lakehouse--open-lakehouse",
+      "source": "./open-lakehouse--open-lakehouse",
+      "description": "An integrated, AI-friendly lakehouse stack using open source standards complete with table formats, query engines, streaming, governance, and agent orchestration/evaluation. This repo is actively main"
+    },
+    {
+      "name": "narrative-io--narrative-skills-marketplace",
+      "source": "./narrative-io--narrative-skills-marketplace",
+      "description": "An agent skills marketplace from Narrative I/O \u2014 interactive, AI-powered slash-command workflows for the recurring work of a modern data company (NQL, Rosetta Stone mappings, identity graphs, and more"
+    },
+    {
+      "name": "syncrea--viper-ai",
+      "source": "./syncrea--viper-ai",
+      "description": "A phased development workflow for AI Agents that combats context rot."
+    },
+    {
+      "name": "backblaze-labs--b2-sdk-typescript",
+      "source": "./backblaze-labs--b2-sdk-typescript",
+      "description": "Backblaze-maintained TypeScript and JavaScript SDK for B2 Cloud Storage, currently incubating in Backblaze-Labs"
+    },
+    {
+      "name": "savoirfairelinux--virtual-engineer",
+      "source": "./savoirfairelinux--virtual-engineer",
+      "description": "Self-hosted AI orchestrator for ticket-driven coding and automated code review in isolated containers."
+    },
+    {
+      "name": "compusophy--localharness",
+      "source": "./compusophy--localharness",
+      "description": "agents that own themselves"
+    },
+    {
+      "name": "homuracatmadoka--cupedia",
+      "source": "./homuracatmadoka--cupedia",
+      "description": "Wikipedia of CUHK student"
+    },
+    {
+      "name": "zyc99--line-dog-desktop-pet",
+      "source": "./zyc99--line-dog-desktop-pet",
+      "description": "\u7ebf\u6761\u5c0f\u72d7\u684c\u5ba0\u9879\u76ee - Line Dog Desktop Pet"
+    },
+    {
+      "name": "matskevich--tg-mcp-guarded",
+      "source": "./matskevich--tg-mcp-guarded",
+      "description": "dual-plane telegram mcp: read-only analytics + guarded actions with anti-spam and block-risk controls"
+    },
+    {
+      "name": "bgivenb--flick-computer-use",
+      "source": "./bgivenb--flick-computer-use",
+      "description": "Fast browser and macOS computer use for MCP agents. Local execution, TypeSafe Jev decisions, verified outcomes."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -392444,6 +392574,26 @@
       "description": "Agnes Harness: A pluggable agent harness for Forward Deployed Engineering (FDE). Built for trust. Made for the real world."
     },
     {
+      "name": "cheenulabs--pi-agent-python-sdk",
+      "source": "./cheenulabs--pi-agent-python-sdk",
+      "description": "Use your installed Pi coding agent as a Python API. Stream responses, continue conversations, and control sessions from Python."
+    },
+    {
+      "name": "wguilherme--kanban-md",
+      "source": "./wguilherme--kanban-md",
+      "description": "VS Code meets Kanban. Turn any Markdown file into a visual board \u2014 drag, drop, and organize your tasks without leaving your editor."
+    },
+    {
+      "name": "agricidaniel--gatekeeper",
+      "source": "./agricidaniel--gatekeeper",
+      "description": "Routes each request to the right AI agent or skill before your AI picks one. Your rules decide what code can; Jev (TypeSafe) makes the typed call. Installs as Claude Code hooks."
+    },
+    {
+      "name": "olafkfreund--nix-skills",
+      "source": "./olafkfreund--nix-skills",
+      "description": "Reusable AI agent skills for the Nix language, grounded in the upstream Nix manual."
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -396032,6 +396182,16 @@
       "name": "binghe1980--ecommerce-video-prompts",
       "source": "./binghe1980--ecommerce-video-prompts",
       "description": "Codex \u7535\u5546\u89c6\u9891\u63d0\u793a\u8bcd\u5de5\u4f5c\u53f0 \u00b7 Product-grounded scripts, storyboards and video prompts. Merchant self-use permitted; no resale or paid redistribution."
+    },
+    {
+      "name": "nozomi-koborinai--jev-spec",
+      "source": "./nozomi-koborinai--jev-spec",
+      "description": "\u26a1 Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model."
+    },
+    {
+      "name": "dtpu--orbisengine",
+      "source": "./dtpu--orbisengine",
+      "description": "\ud83c\udfa5 Anything ever filmed, in 4D. Uses AI to reconstruct videos in immersive first-person."
     },
     {
       "name": "microsoft--amplifier-app-openclaw",
@@ -519132,6 +519292,126 @@
       "name": "ejmm17--tepate-web",
       "source": "./ejmm17--tepate-web",
       "description": "tepate-web"
+    },
+    {
+      "name": "shwetha941994--mysamplesite",
+      "source": "./shwetha941994--mysamplesite",
+      "description": "mysamplesite"
+    },
+    {
+      "name": "ricardosagastumegon--propiedadesnoctua",
+      "source": "./ricardosagastumegon--propiedadesnoctua",
+      "description": "PROPIEDADES NOCTUA"
+    },
+    {
+      "name": "kgray44--eoat-tool",
+      "source": "./kgray44--eoat-tool",
+      "description": "A toolset and app to help with EOAT auditing and management."
+    },
+    {
+      "name": "harshjkumar--zbac",
+      "source": "./harshjkumar--zbac",
+      "description": "zbac"
+    },
+    {
+      "name": "guilhermemsantana--figurinhas-da-copa-do-mundo",
+      "source": "./guilhermemsantana--figurinhas-da-copa-do-mundo",
+      "description": "figurinhas-da-copa-do-mundo"
+    },
+    {
+      "name": "greendevops-liuppa--verl",
+      "source": "./greendevops-liuppa--verl",
+      "description": "verl"
+    },
+    {
+      "name": "beelabuilds--distrakill",
+      "source": "./beelabuilds--distrakill",
+      "description": "DistraKill"
+    },
+    {
+      "name": "jonsalesphotos--bluetrace",
+      "source": "./jonsalesphotos--bluetrace",
+      "description": "BlueTrace"
+    },
+    {
+      "name": "sighthesia--just-demand",
+      "source": "./sighthesia--just-demand",
+      "description": "My vibe coding agent workflow."
+    },
+    {
+      "name": "felltrin--zone-coverage-mezzopiano",
+      "source": "./felltrin--zone-coverage-mezzopiano",
+      "description": "zone-coverage-mezzopiano"
+    },
+    {
+      "name": "noorapp10000-web--egyptian-player-hub-f0a6a3de",
+      "source": "./noorapp10000-web--egyptian-player-hub-f0a6a3de",
+      "description": "egyptian-player-hub-f0a6a3de"
+    },
+    {
+      "name": "okyoungcheol-arch--home-doctor",
+      "source": "./okyoungcheol-arch--home-doctor",
+      "description": "home-doctor"
+    },
+    {
+      "name": "patrick-fu--emoji-ai",
+      "source": "./patrick-fu--emoji-ai",
+      "description": "Native macOS AI-powered emoji search and picker with BYOK support"
+    },
+    {
+      "name": "15holtantj--wled-app",
+      "source": "./15holtantj--wled-app",
+      "description": "wled-app"
+    },
+    {
+      "name": "yudhaasten-cell--daisy-vivid-craft-shadow",
+      "source": "./yudhaasten-cell--daisy-vivid-craft-shadow",
+      "description": "daisy-vivid-craft-shadow"
+    },
+    {
+      "name": "aadya30-sharma--campus-memory",
+      "source": "./aadya30-sharma--campus-memory",
+      "description": "campus_memory"
+    },
+    {
+      "name": "marskim1130--multiuser-workbench",
+      "source": "./marskim1130--multiuser-workbench",
+      "description": "Windows \u591a\u7528\u6237\u6d4f\u89c8\u5668\u8c03\u8bd5\u5de5\u4f5c\u53f0\uff1a\u72ec\u7acb\u6301\u4e45\u4f1a\u8bdd\u3001\u591a\u89c6\u53e3\u5e76\u6392\u89c2\u5bdf\u4e0e\u534f\u4f5c\u6f14\u793a\u3002"
+    },
+    {
+      "name": "bipasha111--nextjs",
+      "source": "./bipasha111--nextjs",
+      "description": "learn"
+    },
+    {
+      "name": "coding4me--pipeline-gis-studio",
+      "source": "./coding4me--pipeline-gis-studio",
+      "description": "pipeline-gis-studio"
+    },
+    {
+      "name": "faizan24-dev--caresync",
+      "source": "./faizan24-dev--caresync",
+      "description": "CareSync is a role-based healthcare management web application designed to streamline doctor-patient scheduling and administrative oversight into a unified digital platform."
+    },
+    {
+      "name": "knimoni--backlume",
+      "source": "./knimoni--backlume",
+      "description": "backlume"
+    },
+    {
+      "name": "sm-sazzad--devlearn",
+      "source": "./sm-sazzad--devlearn",
+      "description": "DevLearn"
+    },
+    {
+      "name": "tsungyentsai--personal-visual-system",
+      "source": "./tsungyentsai--personal-visual-system",
+      "description": "A reusable visual specification for AI-generated slides, websites, diagrams, and technical documents."
+    },
+    {
+      "name": "maws7140--bases-views",
+      "source": "./maws7140--bases-views",
+      "description": "A plugin to add more views to obsidian bases "
     }
   ]
 }
