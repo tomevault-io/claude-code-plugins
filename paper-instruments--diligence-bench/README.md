@@ -1,0 +1,28 @@
+# diligence-bench
+
+> Tome by [paper-instruments](https://github.com/paper-instruments/diligence-bench), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [paper-instruments/diligence-bench](https://github.com/paper-instruments/diligence-bench).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+Available for 6 platforms including Claude Code, Cursor, Windsurf, and more. Source: [github.com/paper-instruments/diligence-bench](https://github.com/paper-instruments/diligence-bench)
+
+---
+
+Install this config instantly:
+```
+npx tomevault install paper-instruments/diligence-bench
+```
+Source: [github.com/paper-instruments/diligence-bench](https://github.com/paper-instruments/diligence-bench).
+
+<!-- genome:t-i-p -->
