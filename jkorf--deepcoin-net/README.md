@@ -7,13 +7,13 @@ C#/.NET client library for the DeepCoin.com cryptocurrency exchange REST and Web
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [JKorf/DeepCoin.Net](https://github.com/JKorf/DeepCoin.Net).
+Original source: `AGENTS.md` in [JKorf/DeepCoin.Net](https://github.com/JKorf/DeepCoin.Net).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
