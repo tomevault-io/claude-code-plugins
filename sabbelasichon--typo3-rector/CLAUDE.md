@@ -1,6 +1,6 @@
 # typo3-rector
 
-> - Install dependencies: `composer install`
+> - Set PHP 7.4 once before any tool call: `sudo update-alternatives --set php /usr/bin/php7.4 --quiet`
 
 ## Usage
 
@@ -16,9 +16,10 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ## Build, test, and lint commands
 
-- Install dependencies: `composer install`
+- Set PHP 7.4 once before any tool call: `sudo update-alternatives --set php /usr/bin/php7.4 --quiet`
 - Lint PHP syntax: `composer ci:php:lint`
 - Check coding style: `composer ci:check-style`
+- Fix coding style: `composer fix:style`
 - Run static analysis: `composer ci:php:stan`
 - Run tests: `composer ci:tests:unit` or `vendor/bin/phpunit`
 - Run a single test file: `vendor/bin/phpunit tests/Rector/v14/v0/RemoveIsStaticControlOptionRector/RemoveIsStaticControlOptionRectorTest.php`
@@ -53,4 +54,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [sabbelasichon/typo3-rector](https://github.com/sabbelasichon/typo3-rector) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-24 -->
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
