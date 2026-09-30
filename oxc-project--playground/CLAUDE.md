@@ -1,0 +1,52 @@
+# playground
+
+> pnpm dev        # Start Vite dev server
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/playground/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project: Oxc Playground
+
+## Commands
+
+### Development
+
+```bash
+pnpm dev        # Start Vite dev server
+```
+
+### Build
+
+```bash
+pnpm build      # Run TypeScript checks and build with Vite
+```
+
+### Preview
+
+```bash
+pnpm preview    # Preview production build locally
+```
+
+### Code Quality
+
+```bash
+pnpm lint       # Run oxlint
+pnpm fmt        # Run oxfmt formatter
+```
+
+## Project Info
+
+- Node requirement: >=22.18.0
+- Package manager: pnpm@11.0.4
+- Uses git hooks for pre-commit linting
+
+---
+> Source: [oxc-project/playground](https://github.com/oxc-project/playground) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
