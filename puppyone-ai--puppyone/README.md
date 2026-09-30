@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [puppyone-ai/puppyone](https://github.com/puppyo
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone) — a repo with 1091+ stars on GitHub.
+From [puppyone-ai/puppyone](https://github.com/puppyone-ai/puppyone) — a repo with 1044+ stars on GitHub.
 
 ---
 
