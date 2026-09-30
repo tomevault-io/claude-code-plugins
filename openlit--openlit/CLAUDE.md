@@ -1,6 +1,6 @@
 # openlit
 
-> Authorization, input validation, CE boundary, secrets, and test guidance for OpenLIT server code.
+> These instructions supplement the repository-root `AGENTS.md`.
 
 ## Usage
 
@@ -12,9 +12,14 @@ Read and follow the instructions in .claude/skills/openlit/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# OTLP receiver instructions
 
-@agent-guides/security-testing.md
+These instructions supplement the repository-root `AGENTS.md`.
+
+- This is an independent Go module. Validate with `go test ./...`.
+- Do not log API keys, Authorization headers, or ClickHouse passwords.
+- Tenant writes must stay isolated by OpenLIT API key → organisation → project → environment → DatabaseConfig.
 
 ---
 > Source: [openlit/openlit](https://github.com/openlit/openlit) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-08-09 -->
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
