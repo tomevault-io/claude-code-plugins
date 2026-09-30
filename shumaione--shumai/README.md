@@ -2,8 +2,6 @@
 
 > Source: [shumaiOne/shumai](https://github.com/shumaiOne/shumai). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-AI-native, open-source Frame.io alternative for creative collaboration.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
