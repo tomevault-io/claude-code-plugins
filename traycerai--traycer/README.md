@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [traycerai/traycer](https://github.com/traycerai
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [traycerai/traycer](https://github.com/traycerai/traycer) — a repo with 1519+ stars on GitHub.
+From [traycerai/traycer](https://github.com/traycerai/traycer) — a repo with 1535+ stars on GitHub.
 
 ---
 
