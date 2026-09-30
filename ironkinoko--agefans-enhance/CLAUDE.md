@@ -1,0 +1,37 @@
+# agefans-enhance
+
+> A code change is done when `pnpm lint` passes and `pnpm build` has regenerated `dist/`. Whether a page actually behaves is checked by hand, so report runtime effects as unverified rather than building browser automation or live-site smoke tests.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/agefans-enhance/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+## Verification
+
+A code change is done when `pnpm lint` passes and `pnpm build` has regenerated `dist/`. Whether a page actually behaves is checked by hand, so report runtime effects as unverified rather than building browser automation or live-site smoke tests.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues (`IronKinoko/agefans-enhance`), driven by the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical triage roles map to their default label strings. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` plus `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+---
+> Source: [IronKinoko/agefans-enhance](https://github.com/IronKinoko/agefans-enhance) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
