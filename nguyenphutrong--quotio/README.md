@@ -1,8 +1,6 @@
 # quotio
 
-> Source: [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) — distributed by [TomeVault](https://tomevault.io)
-
-Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.
+> Source: [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [nguyenphutrong/quotio](https://github.com/nguye
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) — a repo with 4289+ stars on GitHub.
+From [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) — a repo with 4874+ stars on GitHub.
 
 ---
 
