@@ -1,8 +1,6 @@
 # AI instruction files for Wegent
 
-> Sourced from [wecode-ai/Wegent](https://github.com/wecode-ai/Wegent) and converted for every major platform by [TomeVault](https://tomevault.io)
-
-An open-source AI-native operating system to define, organize, and run intelligent agent teams
+> Sourced from [wecode-ai/Wegent](https://github.com/wecode-ai/Wegent), graded against the public Tome Standard and kept consistent across every major platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [wecode-ai/Wegent](https://github.com/wecode-ai/
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [wecode-ai/Wegent](https://github.com/wecode-ai/Wegent) — a repo with 528+ stars on GitHub.
+From [wecode-ai/Wegent](https://github.com/wecode-ai/Wegent) — a repo with 866+ stars on GitHub.
 
 ---
 
