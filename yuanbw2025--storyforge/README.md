@@ -1,8 +1,6 @@
 # storyforge
 
-> Source: [yuanbw2025/storyforge](https://github.com/yuanbw2025/storyforge) — distributed by [TomeVault](https://tomevault.io)
-
-故事熔炉 StoryForge — AI 小说创作工作台 / AI novel writing workshop
+> Source: [yuanbw2025/storyforge](https://github.com/yuanbw2025/storyforge). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
