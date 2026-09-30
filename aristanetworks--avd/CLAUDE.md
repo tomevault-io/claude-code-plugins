@@ -57,4 +57,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [aristanetworks/avd](https://github.com/aristanetworks/avd) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-21 -->
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
