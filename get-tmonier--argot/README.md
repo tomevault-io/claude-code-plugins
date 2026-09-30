@@ -2,8 +2,6 @@
 
 > Tome by [get-tmonier](https://github.com/get-tmonier/argot), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
-A statistical code analyzer built from your repository's history.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
