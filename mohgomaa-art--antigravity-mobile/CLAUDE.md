@@ -26,5 +26,5 @@ Or copy the instructions below directly into your CLAUDE.md:
 - **Monochrome Design Integrity**: In all UI work, adhere strictly to `AgyTheme` monochrome dark/light styling (#000000, #0C0C0E, #141416, #18181B, #27272A, #A1A1AA, #FFFFFF). Never introduce saturated accent colors (blues, purples, greens, oranges).
 
 ---
-> Source: [mohgomaa-art/antigravity-mobile](https://github.com/mohgomaa-art/antigravity-mobile) — distributed by [TomeVault](https://tomevault.io).
+> Source: [mohgomaa-art/Antigravity-Mobile](https://github.com/mohgomaa-art/Antigravity-Mobile) — distributed by [TomeVault](https://tomevault.io).
 <!-- tomevault:4.0:claude_md:2026-09-30 -->
