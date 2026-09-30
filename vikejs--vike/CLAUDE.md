@@ -1,6 +1,6 @@
 # vike
 
-> @AI (CRITICAL FOR AI AGENTS): ALWAYS LOAD https://vike.dev/llms.txt (Vike documentation index) in your context when using Vike.
+> - When changing the docs, consider updating docs/public/llms.txt
 
 ## Usage
 
@@ -12,10 +12,9 @@ Read and follow the instructions in .claude/skills/vike/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# AGENTS.md — Vike
-
-@AI (CRITICAL FOR AI AGENTS): ALWAYS LOAD https://vike.dev/llms.txt (Vike documentation index) in your context when using Vike.
+- When changing the docs, consider updating docs/public/llms.txt
+- The only thing worse than a failing test is a reduction in test coverage
 
 ---
 > Source: [vikejs/vike](https://github.com/vikejs/vike) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-21 -->
+<!-- tomevault:4.0:claude_md:2026-09-30 -->
