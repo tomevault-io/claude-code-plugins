@@ -1,0 +1,24 @@
+# ai-memory-mcp
+
+> Source: [alphaonedev/ai-memory-mcp](https://github.com/alphaonedev/ai-memory-mcp). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `GEMINI.md` in [alphaonedev/ai-memory-mcp](https://github.com/alphaonedev/ai-memory-mcp).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Windsurf** — `project-config.md`
+
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/alphaonedev/ai-memory-mcp](https://github.com/alphaonedev/ai-memory-mcp)
+
+---
+
+Own this repo? Install the TomeVault Relay to keep every platform's copy in sync on every push: [https://tomevault.io/install](https://tomevault.io/install).
+
+<!-- genome:d-c-q -->
