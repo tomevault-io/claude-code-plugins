@@ -82,4 +82,4 @@ Each group ends with: per-file before→after line counts, lint/validation outpu
 
 ---
 > Source: [automagik-dev/genie](https://github.com/automagik-dev/genie) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+<!-- tomevault:4.0:claude_md:2026-10-01 -->
