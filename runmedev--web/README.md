@@ -2,8 +2,6 @@
 
 > Source: [runmedev/web](https://github.com/runmedev/web). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Monorepo for Web & React Components
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
