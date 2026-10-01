@@ -1,0 +1,31 @@
+# youtube-uploader-mcp
+
+> Enforce project constitution — non-negotiable product principles
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/youtube-uploader-mcp/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# Constitution Compliance
+
+Before implementing any change, check it against every numbered item in
+`CONSTITUTION.md` at the repo root.
+
+- If a requested change conflicts with an item in `CONSTITUTION.md`, stop
+  and flag the conflict to the user instead of implementing a workaround
+  or silently violating it.
+- Never edit `CONSTITUTION.md` itself as a side effect of an unrelated
+  task — changes to it require explicit user/maintainer approval.
+- This rule covers *product* principles only. For code style,
+  architecture, and dev workflow conventions, see `CONTRIBUTING.md`.
+
+---
+> Source: [anwerj/youtube-uploader-mcp](https://github.com/anwerj/youtube-uploader-mcp) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-01 -->
