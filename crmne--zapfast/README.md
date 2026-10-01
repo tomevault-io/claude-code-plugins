@@ -5,17 +5,17 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [crmne/zapfast](https://github.com/crmne/zapfast).
+Original source: `copilot-instructions.md` in [crmne/zapfast](https://github.com/crmne/zapfast).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [crmne/zapfast](https://github.com/crmne/zapfast) — a repo with 935+ stars on GitHub.
+From [crmne/zapfast](https://github.com/crmne/zapfast) — a repo with 953+ stars on GitHub.
 
 ---
 
