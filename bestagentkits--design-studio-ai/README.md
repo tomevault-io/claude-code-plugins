@@ -2,8 +2,6 @@
 
 > Source: [bestagentkits/design-studio-ai](https://github.com/bestagentkits/design-studio-ai). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP, CLI and BYOK. MIT.
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
