@@ -1,6 +1,6 @@
 # scrumguide-expansionpack
 
-> Keep workflows thin and preserve PR, merge-group and main validation. Preserve unrelated discussion, wiki, stale-issue and PDF language tests. Preserve canary environment naming and matching cleanup. Deployment is disabled during adoption; do not enable production without explicit approval. Use docs/ogp-adoption.md for acceptance status.
+> Read and follow site/AGENTS.md for Scrum Expansion content, translation, ownership and publication rules.
 
 ## Usage
 
@@ -12,10 +12,9 @@ Read and follow the instructions in .claude/skills/scrumguide-expansionpack/SKIL
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Site automation instructions
 
-Keep workflows thin and preserve PR, merge-group and main validation. Preserve unrelated discussion, wiki, stale-issue and PDF language tests. Preserve canary environment naming and matching cleanup. Deployment is disabled during adoption; do not enable production without explicit approval. Use docs/ogp-adoption.md for acceptance status.
+Read and follow site/AGENTS.md for Scrum Expansion content, translation, ownership and publication rules.
 
 ---
 > Source: [ScrumGuides/ScrumGuide-ExpansionPack](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-30 -->
+<!-- tomevault:4.0:claude_md:2026-10-01 -->
