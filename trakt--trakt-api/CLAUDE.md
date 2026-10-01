@@ -1,6 +1,6 @@
 # trakt-api
 
-> @.agents/rules/project.md
+> Deno monorepo: `@trakt/api` (typed ts-rest + Zod contract and client, published
 
 ## Usage
 
@@ -12,24 +12,31 @@ Read and follow the instructions in .claude/skills/trakt-api/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Always-loaded core (small, project-wide)
+# trakt-api
 
-@.agents/rules/project.md
+Deno monorepo: `@trakt/api` (typed ts-rest + Zod contract and client, published
+to JSR) in `projects/api/`, and the SvelteKit developer portal in
+`projects/developer/`.
 
-# Domain rules - load on demand
+The rules live in `.agents/rules/` and are linked into `.github/instructions/`,
+so each one applies to the paths in its `applyTo`:
 
-Domain-specific rules are NOT auto-imported, to keep the baseline small. Read
-them when the work touches the matching area (CLAUDE.md routes the mapping; the
-rule files live at `.agents/rules/`):
+- `project.md` - structure, tooling, restrictions, commits (all files)
+- `code-principles.md` - functional style, early exits, type safety (all files)
+- `jsr.md`, `schemas.md` - the published package and its contract schemas
+- `developer.md` - the developer portal
+- `developer-ui.md` - portal `.svelte` / `.scss` / `.css`
+- `developer-performance.md` - portal perf work
 
-- `jsr.md` - anything under `projects/api/`: static types, symbol docs, and
-  provenance publishing that keep the `@trakt/api` JSR score at 100.
-- `schemas.md` - authoring ts-rest + Zod contract schemas under
-  `projects/api/src/contracts/` (schema shape is a generated public artifact).
+Key restrictions:
 
-Read with the Read tool when the task enters the domain. Re-read after long gaps
-if context was compacted.
+- Never edit generated output (`projects/api/types/`,
+  `projects/developer/static/openapi.json`, `.svelte-kit/`) or hand-edit
+  `deno.lock`.
+- No new dependencies without asking. Do not touch the publish flow.
+- Conventional Commits, scoped `(api)` or `(developer)`. No em-dashes or
+  en-dashes.
 
 ---
 > Source: [trakt/trakt-api](https://github.com/trakt/trakt-api) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-09 -->
+<!-- tomevault:4.0:claude_md:2026-10-01 -->
