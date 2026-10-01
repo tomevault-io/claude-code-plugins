@@ -7,13 +7,13 @@ An OS for the PineTime Smartwatch
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [LeaCreative/SlateOS](https://github.com/LeaCreative/SlateOS).
+Original source: `AGENTS.md` in [LeaCreative/SlateOS](https://github.com/LeaCreative/SlateOS).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
