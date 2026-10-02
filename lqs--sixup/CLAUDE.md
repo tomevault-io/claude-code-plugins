@@ -1,0 +1,24 @@
+# sixup
+
+> - Do not over-engineer. Write only the code needed now: no speculative abstractions, no extra indirection. A flat main package; keep it that way.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/sixup/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# AGENTS.md
+
+- Do not over-engineer. Write only the code needed now: no speculative abstractions, no extra indirection. A flat main package; keep it that way.
+- Write modern Go 1.27: generics, `slices`/`maps`/`cmp`, `errors.Is`/`%w`, `log/slog`, context. Compatibility with older versions is not a concern.
+- Do not rush to commit. After changing code, run `go build ./... && go vet ./... && go test ./...` and `GOOS=linux golangci-lint run` (the Linux target is the real one; on macOS the linux-only netlink constants are reported as unused), and wait for the user to confirm before committing.
+- Comments, log messages and command-line help are always in English.
+
+---
+> Source: [lqs/sixup](https://github.com/lqs/sixup) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-01 -->
