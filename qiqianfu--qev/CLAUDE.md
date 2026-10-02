@@ -1,0 +1,29 @@
+# qev
+
+> Qev is a standalone public source package. Read README.md and the relevant docs before changing interfaces.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/qev/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Qev contributor instructions
+
+Qev is a standalone public source package. Read README.md and the relevant docs before changing interfaces.
+
+- Keep the qev package independent of the original research checkout and cluster.
+- Update English/Chinese README examples and the corresponding docs for interface changes.
+- Preserve compatibility with recorded BranchKev schema/checkpoint formats where documented.
+- Architecture changes require appropriate reference/cache/tree output and gradient checks.
+- Report observed test scope and GPU skips; never infer benchmark gains from a code refactor.
+- Keep weights, data caches, training outputs and machine-local paths outside Git.
+- Run python scripts/check_release.py and relevant pytest tests before committing.
+
+---
+> Source: [QiqianFu/Qev](https://github.com/QiqianFu/Qev) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-02 -->
