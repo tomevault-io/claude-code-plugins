@@ -264389,6 +264389,11 @@
       "description": "macOS visual gesture & voice control"
     },
     {
+      "name": "macrosony--pi-forge",
+      "source": "./macrosony--pi-forge",
+      "description": "pi-forge"
+    },
+    {
       "name": "googlecloudplatform--cxas-scrapi",
       "source": "./googlecloudplatform--cxas-scrapi",
       "description": "cxas-scrapi"
@@ -290754,6 +290759,16 @@
       "description": "opinionated, project-aware configuration for the Pi coding agent"
     },
     {
+      "name": "linux-gaming-ru--portprotonqt",
+      "source": "./linux-gaming-ru--portprotonqt",
+      "description": " Read-only mirror of https://git.linux-gaming.ru/Linux-Gaming/PortProtonQt"
+    },
+    {
+      "name": "linux-gaming-ru--portprotonqt",
+      "source": "./linux-gaming-ru--portprotonqt",
+      "description": " Read-only mirror of https://git.linux-gaming.ru/Linux-Gaming/PortProtonQt"
+    },
+    {
       "name": "axsaucedo--agent-data-duckdb",
       "source": "./axsaucedo--agent-data-duckdb",
       "description": "agent_data_duckdb"
@@ -306939,6 +306954,16 @@
       "description": "The missing GUI for personal agents. Television gives you and your agent a visual space for creating and working with artifacts. "
     },
     {
+      "name": "bobbyjohnstx--tinycode-ts",
+      "source": "./bobbyjohnstx--tinycode-ts",
+      "description": "A slim, local-LLM-first AI coding assistant. TUI, Web UI, and desktop app. Runs air-gapped with Ollama, vLLM, or any OpenAI-compatible endpoint."
+    },
+    {
+      "name": "unvalley--agent-config",
+      "source": "./unvalley--agent-config",
+      "description": "agent-config"
+    },
+    {
       "name": "marcoporcellato--logseq-matryca-parser",
       "source": "./marcoporcellato--logseq-matryca-parser",
       "description": "Stop feeding broken Markdown to your AI. A deterministic Logseq parser that preserves parent-child context for RAG, plus a 60FPS visualizer."
@@ -317387,6 +317412,11 @@
       "name": "tobi--reve",
       "source": "./tobi--reve",
       "description": "The directory is the agent: durable Ruby coding agents in mandatory microsandbox microVMs"
+    },
+    {
+      "name": "sunerpy--codegraph-rust",
+      "source": "./sunerpy--codegraph-rust",
+      "description": "Deterministic tree-sitter + SQLite/FTS5 code knowledge graph for AI coding agents \u2014 symbol/call/dependency graph over a CLI and an MCP server. No AI/LLM inside; byte-stable output."
     },
     {
       "name": "makenowjust--naraku",
@@ -334047,6 +334077,36 @@
       "name": "henryqw--pi-harness",
       "source": "./henryqw--pi-harness",
       "description": "Highly opinionated Pi harness."
+    },
+    {
+      "name": "appautomaton--mlx-cv",
+      "source": "./appautomaton--mlx-cv",
+      "description": "MLX-native computer vision for Apple Silicon: open-vocabulary grounding, object detection, depth and camera geometry, segmentation, and video object tracking."
+    },
+    {
+      "name": "loss-and-quick--kasumi-proxy",
+      "source": "./loss-and-quick--kasumi-proxy",
+      "description": "System-level transparent proxy for rooted Android (Magisk/KernelSU/APatch module) and Linux/Windows desktop (Tauri 2) \u2014 Xray-core and sing-box driven by one shared Rust backend and a React UI."
+    },
+    {
+      "name": "rsasaki0109--robotnativeengine",
+      "source": "./rsasaki0109--robotnativeengine",
+      "description": "Robot Native Engine \u2014 robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters."
+    },
+    {
+      "name": "barganconstantin--ccdeck",
+      "source": "./barganconstantin--ccdeck",
+      "description": "Local dashboard for Claude Code and Codex CLI: which Claude Code session needs input, every tool call and Claude Code subagent live, cost and quota, several Claude accounts. npx ccdeck or the desktop "
+    },
+    {
+      "name": "rsasaki0109--robotnativeengine",
+      "source": "./rsasaki0109--robotnativeengine",
+      "description": "Robot Native Engine \u2014 robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters."
+    },
+    {
+      "name": "nodal-data--nodal-context",
+      "source": "./nodal-data--nodal-context",
+      "description": "Nodal Context Repo - Open source business context for your data analytics"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -381644,6 +381704,251 @@
       "description": "Models for 3D printing, mostly OpenSCAD."
     },
     {
+      "name": "mehmetozkaya--eshopcopilot",
+      "source": "./mehmetozkaya--eshopcopilot",
+      "description": "EShopCopilot"
+    },
+    {
+      "name": "mountain-nomad-bc--pacify-x",
+      "source": "./mountain-nomad-bc--pacify-x",
+      "description": "Model-agnostic, fail-closed engineering bootstrap and capability orchestrator"
+    },
+    {
+      "name": "rynald0cst0ltziam--warden-ai",
+      "source": "./rynald0cst0ltziam--warden-ai",
+      "description": "The structurally-verified context layer for AI coding agents. Cut 50-90% of your agent's token spend."
+    },
+    {
+      "name": "mountain-nomad-bc--pacify-x",
+      "source": "./mountain-nomad-bc--pacify-x",
+      "description": "Model-agnostic, fail-closed engineering bootstrap and capability orchestrator"
+    },
+    {
+      "name": "mountain-nomad-bc--pacify-x",
+      "source": "./mountain-nomad-bc--pacify-x",
+      "description": "Model-agnostic, fail-closed engineering bootstrap and capability orchestrator"
+    },
+    {
+      "name": "rynald0cst0ltziam--warden-ai",
+      "source": "./rynald0cst0ltziam--warden-ai",
+      "description": "The structurally-verified context layer for AI coding agents. Cut 50-90% of your agent's token spend."
+    },
+    {
+      "name": "eugene-panin--dataharbor",
+      "source": "./eugene-panin--dataharbor",
+      "description": "Open-core data platform with self-healing web scrapers \u2014 AI agents diagnose and patch broken extractors automatically (ClickHouse, Dagster, Qdrant)"
+    },
+    {
+      "name": "angeldark92--steamlink-patches",
+      "source": "./angeldark92--steamlink-patches",
+      "description": "Repo for steamlink Galaxy XR or other brands patches"
+    },
+    {
+      "name": "mountain-nomad-bc--pacify-x",
+      "source": "./mountain-nomad-bc--pacify-x",
+      "description": "Model-agnostic, fail-closed engineering bootstrap and capability orchestrator"
+    },
+    {
+      "name": "rynald0cst0ltziam--warden-ai",
+      "source": "./rynald0cst0ltziam--warden-ai",
+      "description": "The structurally-verified context layer for AI coding agents. Cut 50-90% of your agent's token spend."
+    },
+    {
+      "name": "lza6--gpt-auto-register",
+      "source": "./lza6--gpt-auto-register",
+      "description": "GPT\u7684\u81ea\u52a8\u6ce8\u518c\uff0c\u5fae\u8f6f\u65e0\u9650\u90ae\u7bb1+CF\u4eba\u673a\u6311\u6218+GPT\u7f51\u9875\u7684\u8d26\u53f7\u5bc6\u7801\u7684\u81ea\u52a8\u8bbe\u7f6e\u3001\u53ef\u4e00\u952e\u5bfc\u51fa\u8d26\u53f7\u5bc6\u7801\u65b9\u4fbf\u4f7f\u7528"
+    },
+    {
+      "name": "arab-open-source--altair",
+      "source": "./arab-open-source--altair",
+      "description": "The batteries-included web framework for Crystal"
+    },
+    {
+      "name": "somnus-j-307--project-handoff-skill",
+      "source": "./somnus-j-307--project-handoff-skill",
+      "description": "Codex skill for evidence-backed project handoffs across fresh tasks"
+    },
+    {
+      "name": "jarocki--pivotglass",
+      "source": "./jarocki--pivotglass",
+      "description": "Pivotglass is an AI-augmented framework for hunting, pivoting, and discovering adversary infrastructure, indicators, and TTPs."
+    },
+    {
+      "name": "dizcorvus--opencatz-ai",
+      "source": "./dizcorvus--opencatz-ai",
+      "description": "\ud83d\udc3e Autonomous Multi-Agent Crypto Intelligence Swarm. 15 AI Scouts monitoring Solana, Robinhood Chain, Base, ETH, Ink & Hyperliquid 24/7."
+    },
+    {
+      "name": "a6083450--clawgod-plus",
+      "source": "./a6083450--clawgod-plus",
+      "description": "\u589e\u5f3a\u7248 Claude Code \u8fd0\u884c\u65f6\u8865\u4e01\uff0c\u96c6\u6210\u6d4f\u89c8\u5668\u3001Computer Use\u3001\u4e0a\u4e0b\u6587\u7ba1\u7406\u3001claude-mem \u548c\u591a\u9879\u53ef\u9760\u6027\u6539\u8fdb\u3002"
+    },
+    {
+      "name": "chrissotraidis--barrelpad",
+      "source": "./chrissotraidis--barrelpad",
+      "description": "Diddy Kong Racing for Mac, iOS, and iPadOS."
+    },
+    {
+      "name": "eugene-panin--dataharbor",
+      "source": "./eugene-panin--dataharbor",
+      "description": "Open-core data platform with self-healing web scrapers \u2014 AI agents diagnose and patch broken extractors automatically (ClickHouse, Dagster, Qdrant)"
+    },
+    {
+      "name": "carakadev--caraka",
+      "source": "./carakadev--caraka",
+      "description": "Send the task. Caraka runs it. \u2014 a thin bridge from Telegram to the coding agent already installed on your machine."
+    },
+    {
+      "name": "aimalygin--xray-rust-mobile",
+      "source": "./aimalygin--xray-rust-mobile",
+      "description": "Prebuilt iOS, tvOS, macOS, and Android SDK packages for xray-rust with SwiftPM, XCFramework, AAR, and native tunnel adapters."
+    },
+    {
+      "name": "nullstarrysky--pulsarai",
+      "source": "./nullstarrysky--pulsarai",
+      "description": "PulsarAI"
+    },
+    {
+      "name": "bang404--openagent",
+      "source": "./bang404--openagent",
+      "description": "A modern, multi-agent desktop AI client built with Tauri, SvelteKit, and Rust."
+    },
+    {
+      "name": "vishwajeetsrk--jarvis-ai-os",
+      "source": "./vishwajeetsrk--jarvis-ai-os",
+      "description": "Jarvis AI OS - one brain, many shells. Landing, console, agent marketplace, plugin SDK, and desktop shell (Tauri)."
+    },
+    {
+      "name": "lightningpixel--orvix",
+      "source": "./lightningpixel--orvix",
+      "description": "A token-saving CLI for AI coding agents: query symbols and call graphs instead of grepping and reading files"
+    },
+    {
+      "name": "sfxnz--l-a-i-l",
+      "source": "./sfxnz--l-a-i-l",
+      "description": "Serve and eval any model on your own hardware."
+    },
+    {
+      "name": "pelski--ytzero-enhance",
+      "source": "./pelski--ytzero-enhance",
+      "description": "Browser extension to Enhance experience with YT Zero"
+    },
+    {
+      "name": "alexhvastovich--playwright-ai-pom-starter",
+      "source": "./alexhvastovich--playwright-ai-pom-starter",
+      "description": "Playwright POM, resilient locators, and repository skills for AI-assisted test automation."
+    },
+    {
+      "name": "faizov--astro-terminal",
+      "source": "./faizov--astro-terminal",
+      "description": "astro-terminal"
+    },
+    {
+      "name": "syngnat--lumina-euicc",
+      "source": "./syngnat--lumina-euicc",
+      "description": "Flutter UI for EasyEUICC-aligned eUICC / eSIM profile management (Lumina eUICC)"
+    },
+    {
+      "name": "pxxxzzzl-arch--pdf-markdown-studio",
+      "source": "./pxxxzzzl-arch--pdf-markdown-studio",
+      "description": "PDF-Markdown-Studio"
+    },
+    {
+      "name": "mountain-nomad-bc--pacify-x",
+      "source": "./mountain-nomad-bc--pacify-x",
+      "description": "Model-agnostic, fail-closed engineering bootstrap and capability orchestrator"
+    },
+    {
+      "name": "neuralmagic--crucible",
+      "source": "./neuralmagic--crucible",
+      "description": "Crucible: an autonomous goal-directed research loop engine"
+    },
+    {
+      "name": "pomykalakyle--nvim-pi",
+      "source": "./pomykalakyle--nvim-pi",
+      "description": "Personal Neovim environment for the Pi coding agent"
+    },
+    {
+      "name": "dilmerv--unitycliandagents",
+      "source": "./dilmerv--unitycliandagents",
+      "description": "Few resources from my last YouTube video on the Unity CLI with Codex"
+    },
+    {
+      "name": "stellar-experimental--stellar-raven",
+      "source": "./stellar-experimental--stellar-raven",
+      "description": "Stellar MCP server for AI agents: one authenticated gateway to official docs, live ecosystem data, community intel, and tested playbooks."
+    },
+    {
+      "name": "ares-x--linnet",
+      "source": "./ares-x--linnet",
+      "description": "Linnet (\u53cc\u97f5) \u2014 native offline Chinese & Smart English input method for macOS, powered by Rime/Squirrel, with pinyin, shuangpin and Shift switching. \u539f\u751f\u79bb\u7ebf\u4e2d\u82f1\u53cc\u8bed\u8f93\u5165\u6cd5\u3002"
+    },
+    {
+      "name": "rynald0cst0ltziam--warden-ai",
+      "source": "./rynald0cst0ltziam--warden-ai",
+      "description": "The structurally-verified context layer for AI coding agents. Cut 50-90% of your agent's token spend."
+    },
+    {
+      "name": "nextbridgehq--repocode",
+      "source": "./nextbridgehq--repocode",
+      "description": "AI codebase context tool that analyzes, ranks, and compresses repositories into optimized context files for LLMs, AI coding assistants, and MCP workflows."
+    },
+    {
+      "name": "getpasted--pasted",
+      "source": "./getpasted--pasted",
+      "description": "A powerful, privacy-first clipboard manager"
+    },
+    {
+      "name": "aws-samples--sample-agentcore-launchpad",
+      "source": "./aws-samples--sample-agentcore-launchpad",
+      "description": "sample-agentcore-launchpad"
+    },
+    {
+      "name": "phloem-ai--coordinator",
+      "source": "./phloem-ai--coordinator",
+      "description": "AI Agent Interoperability Layer"
+    },
+    {
+      "name": "yichuan-w--torchtitan-batch-invarient-gdn",
+      "source": "./yichuan-w--torchtitan-batch-invarient-gdn",
+      "description": "torchtitan-batch-invarient-GDN"
+    },
+    {
+      "name": "tongducthanhnam--cici-api",
+      "source": "./tongducthanhnam--cici-api",
+      "description": "REST API + CLI wrapper for Cici/Dola Browser (ByteDance) \u2014 gen \u1ea3nh/video qua code via CDP automation. Producer/consumer queue + sync CLI."
+    },
+    {
+      "name": "frangelbarrera--agentic-harness",
+      "source": "./frangelbarrera--agentic-harness",
+      "description": "Open-source Python agent harness for auditable, cost-controlled LLM workflows with YAML playbooks and MCP server support."
+    },
+    {
+      "name": "minhir--opencode-tabs",
+      "source": "./minhir--opencode-tabs",
+      "description": "Session tabs for the OpenCode TUI."
+    },
+    {
+      "name": "nithishkumar647397--smartbus-tn-ai-powered-public-transport",
+      "source": "./nithishkumar647397--smartbus-tn-ai-powered-public-transport",
+      "description": "SmartBus-TN-AI-Powered-Public-Transport"
+    },
+    {
+      "name": "multilogin--multilogin-cloud-phone-agent",
+      "source": "./multilogin--multilogin-cloud-phone-agent",
+      "description": "Agent-agnostic example: AI-driven automation of a Multilogin cloud phone over ADB (start \u2192 boot \u2192 ADB \u2192 actions \u2192 always-stop)."
+    },
+    {
+      "name": "c4software--tailscale-auto-rules",
+      "source": "./c4software--tailscale-auto-rules",
+      "description": "tailscale-auto-rules"
+    },
+    {
+      "name": "9holy--codex-routing-matrix",
+      "source": "./9holy--codex-routing-matrix",
+      "description": "Quality-first multi-model routing and review guardrails for Codex."
+    },
+    {
       "name": "loiane--specs-driven-development",
       "source": "./loiane--specs-driven-development",
       "description": "specs-driven-development"
@@ -408392,6 +408697,16 @@
       "name": "open-audio-stack--open-audio-stack-core",
       "source": "./open-audio-stack--open-audio-stack-core",
       "description": "Common package shared across Open Audio Stack compatible registries, command-line tools, apps and websites for handling installing DAW VST plugin dependencies."
+    },
+    {
+      "name": "omnirush-ai--omnirush-gui",
+      "source": "./omnirush-ai--omnirush-gui",
+      "description": "omnirush-gui"
+    },
+    {
+      "name": "aprabh96--openarcade",
+      "source": "./aprabh96--openarcade",
+      "description": "Open-source software for VR arcades: online booking, staff dashboard, and in-headset session control with a game launcher"
     },
     {
       "name": "cheerhuan--save-your-token",
