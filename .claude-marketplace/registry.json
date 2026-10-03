@@ -408974,6 +408974,36 @@
       "description": "KV-streams"
     },
     {
+      "name": "christopherowen--dgx-spark-memory-saver",
+      "source": "./christopherowen--dgx-spark-memory-saver",
+      "description": "Recover usable memory on DGX Spark with a 64 KiB kernel: an opt-in NVIDIA UVM page-table packing patch, build tools, and measured validation."
+    },
+    {
+      "name": "igor-alexandrov--tabletist",
+      "source": "./igor-alexandrov--tabletist",
+      "description": "A fast, native database client for PostgreSQL, MySQL and SQLite. Written in Rust with egui; runs on Linux, macOS and Windows."
+    },
+    {
+      "name": "tancau--ninfer-kvmem-ring",
+      "source": "./tancau--ninfer-kvmem-ring",
+      "description": "ninfer-kvmem-ring"
+    },
+    {
+      "name": "sharkrebel--everything-everywhere-for-antigravity",
+      "source": "./sharkrebel--everything-everywhere-for-antigravity",
+      "description": "everything-everywhere-for-antigravity"
+    },
+    {
+      "name": "chefcookscode--atlanticui",
+      "source": "./chefcookscode--atlanticui",
+      "description": "Build & ship products for hackathon at lighting speed."
+    },
+    {
+      "name": "shishobooks--shisho",
+      "source": "./shishobooks--shisho",
+      "description": "Your all-in-one solution for ebooks, audiobooks, and comics"
+    },
+    {
       "name": "cheerhuan--save-your-token",
       "source": "./cheerhuan--save-your-token",
       "description": "save-your-token"
@@ -536657,6 +536687,11 @@
       "name": "ldamoredev--mcplens",
       "source": "./ldamoredev--mcplens",
       "description": "mcplens"
+    },
+    {
+      "name": "whereisw4ldo--dotfiles",
+      "source": "./whereisw4ldo--dotfiles",
+      "description": "dotfiles for neovim etc"
     }
   ]
 }
