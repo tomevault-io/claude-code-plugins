@@ -1,17 +1,16 @@
-# drupal-migrate
+# undrupal
 
-> Drupal migration and content export skills
+> These skills help you plan and execute a migration off Drupal (D7 through D11). Load the relevant skill file from `skills/` and follow its instructions.
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/drupal-migrate/SKILL.md
+Read and follow the instructions in .claude/skills/undrupal/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
-
 
 # UnDrupal: AI Agent Skills
 
