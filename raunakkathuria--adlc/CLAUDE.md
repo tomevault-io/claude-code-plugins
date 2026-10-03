@@ -1,20 +1,19 @@
-# adlc
+# agents
 
-> Instructions for this repo live in **[AGENTS.md](../AGENTS.md)**. Read that file.
+> Working instructions for this repo
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/adlc/SKILL.md
+Read and follow the instructions in .claude/skills/agents/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Copilot instructions
 
-Instructions for this repo live in **[AGENTS.md](../AGENTS.md)**. Read that file.
+Instructions for this repo live in **AGENTS.md** at the repo root. Read that file.
 
 It is the single source of truth, shared by every agent that works here. Don't duplicate it — this file is only a pointer.
 
