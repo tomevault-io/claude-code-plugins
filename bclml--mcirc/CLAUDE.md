@@ -1,13 +1,13 @@
-# mcirc-addons
+# mcirc
 
-> Writing and submitting mcIRC addons
+> mcIRC is an mIRC-style chat client for MeshCore mesh radios (Python 3 + tkinter, Windows). Chat is the core; every other
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/mcirc-addons/SKILL.md
+Read and follow the instructions in .claude/skills/mcirc/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
