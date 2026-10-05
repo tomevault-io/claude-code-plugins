@@ -64544,6 +64544,11 @@
       "description": "hyprmoncfg"
     },
     {
+      "name": "nookmux--antihub-all",
+      "source": "./nookmux--antihub-all",
+      "description": "\u57fa\u4e8eAntiHub\u4e8c\u5f00\u76842API\u7efc\u5408\u6027\u5e73\u53f0\uff0c\u5168\u4ee3\u7801\u5f00\u6e90\uff0c\u8ba9 Claude\u3001Openai \u3001Gemini\u3001AWS(Kiro)\u7684\u8ba2\u9605\u5957\u9910\u53d1\u6325\u6700\u5927\u4ef7\u503c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002"
+    },
+    {
       "name": "reyamira--models",
       "source": "./reyamira--models",
       "description": "TUI and CLI for browsing AI models, benchmarks, coding agents, and statuses for AI providers."
@@ -285204,6 +285209,11 @@
       "description": "Multicloud Kubernetes Workloads"
     },
     {
+      "name": "preetsuthar17--hextaui",
+      "source": "./preetsuthar17--hextaui",
+      "description": "beautiful components built on top of shadcn/ui"
+    },
+    {
       "name": "hyaway--hyaway",
       "source": "./hyaway--hyaway",
       "description": "hyAway.com site"
@@ -318227,6 +318237,11 @@
       "name": "aiegobot--agent-audio",
       "source": "./aiegobot--agent-audio",
       "description": "Standalone local audio generation MCP and Agent Skill for AI coding agents. Install Stable Audio 3 Medium and generate sound effects and music without ComfyUI."
+    },
+    {
+      "name": "olucurious--watchtower",
+      "source": "./olucurious--watchtower",
+      "description": "Self-hosted error tracking. A drop-in for Sentry and AppSignal SDKs: one Go binary and Postgres, with Slack, Linear, email and an MCP server for coding agents."
     },
     {
       "name": "makenowjust--naraku",
