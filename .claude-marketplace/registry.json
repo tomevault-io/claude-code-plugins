@@ -56739,6 +56739,11 @@
       "description": "genblaze"
     },
     {
+      "name": "hyprismteam--hyprism",
+      "source": "./hyprismteam--hyprism",
+      "description": "Open-source, unofficial, cross-platform Hytale launcher with isolated instances, mod discovery, and profile management"
+    },
+    {
       "name": "skaldlabs--skald",
       "source": "./skaldlabs--skald",
       "description": "Context layer platform in your infrastructure"
@@ -267959,6 +267964,11 @@
       "description": "Wheel Witch is an Android companion app for Retro Rewind. It downloads and incrementally updates the pack from the RWFC server, then launches Dolphin with the pack pre-loaded."
     },
     {
+      "name": "xevrion--gyotaku",
+      "source": "./xevrion--gyotaku",
+      "description": "search every screenshot you've ever taken by the text inside it. native linux, offline, PaddleOCR + sqlite + gpui"
+    },
+    {
       "name": "nirholas--auto-kill-terminal",
       "source": "./nirholas--auto-kill-terminal",
       "description": "\ud83e\udd2f  Stop AI agents from leaving zombie terminals in GitHub Codespaces & VS Code. Copy-paste terminal management rules for Copilot, Claude, Gemini, Cursor, Windsurf, Cline, Aider. Fix \"terminal unrespon"
@@ -318214,6 +318224,11 @@
       "description": "study"
     },
     {
+      "name": "aiegobot--agent-audio",
+      "source": "./aiegobot--agent-audio",
+      "description": "Standalone local audio generation MCP and Agent Skill for AI coding agents. Install Stable Audio 3 Medium and generate sound effects and music without ComfyUI."
+    },
+    {
       "name": "makenowjust--naraku",
       "source": "./makenowjust--naraku",
       "description": "next Ruby Regexp engine"
@@ -335067,6 +335082,16 @@
       "name": "atgreen--evergreen",
       "source": "./atgreen--evergreen",
       "description": "Evergreen Common Lisp"
+    },
+    {
+      "name": "ghuntley--jiti",
+      "source": "./ghuntley--jiti",
+      "description": "Live Common Lisp image repair with OpenAI tools, persistent revisions, and a conversational CLI"
+    },
+    {
+      "name": "jorgemanrubia--omacharts",
+      "source": "./jorgemanrubia--omacharts",
+      "description": "Fast, beautiful charting software for Omarchy"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
