@@ -1,0 +1,29 @@
+# allyouneediswheel
+
+> First-principles thinking and simplicity guide every change to Wheel.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/allyouneediswheel/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# Project principles
+
+First-principles thinking and simplicity guide every change to Wheel.
+
+- Start with the user's goal and question existing assumptions before adding features or complexity.
+- Choose the simplest reliable solution. Add abstractions, dependencies, controls, or steps only when they solve a concrete problem.
+- Prioritize efficiency, usability, and clear design. Keep frequent actions easy and advanced controls secondary.
+- Show useful results promptly. Local actions should not wait for unrelated broker work.
+- Make important trading information clear without clutter. Keep local drafts distinct from actual broker submissions.
+- Use concise, plain language in the interface, README, commits, PRs, and release notes. Lead with user benefits.
+- Preserve privacy: use fictional data in screenshots and examples; exclude credentials, account details, databases, and logs from commits.
+
+---
+> Source: [xiao81/AllYouNeedIsWheel](https://github.com/xiao81/AllYouNeedIsWheel) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
