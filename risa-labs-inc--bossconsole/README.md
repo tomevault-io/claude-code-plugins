@@ -1,0 +1,28 @@
+# BossConsole
+
+> Source: [risa-labs-inc/BossConsole](https://github.com/risa-labs-inc/BossConsole). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
+
+## Claude Code Config
+
+The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
+Original source: `AGENTS.md` in [risa-labs-inc/BossConsole](https://github.com/risa-labs-inc/BossConsole).
+
+## Also available for
+
+- **Claude Code** — `CLAUDE.md`
+- **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
+- **Windsurf** — `project-config.md`
+
+From [risa-labs-inc/BossConsole](https://github.com/risa-labs-inc/BossConsole) — a repo with 810+ stars on GitHub.
+
+---
+
+Install this config instantly:
+```
+npx tomevault install risa-labs-inc/BossConsole
+```
+Source: [github.com/risa-labs-inc/BossConsole](https://github.com/risa-labs-inc/BossConsole).
+
+<!-- genome:d-i-s -->
