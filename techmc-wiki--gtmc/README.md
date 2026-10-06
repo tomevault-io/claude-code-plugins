@@ -2,8 +2,6 @@
 
 > Source: [techmc-wiki/gtmc](https://github.com/techmc-wiki/gtmc). Graded, signed and kept current as the models change by [TomeVault](https://tomevault.io)
 
-Graduate Texts in Minecraft - The online Minecraft textbook
-
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [techmc-wiki/gtmc](https://github.com/techmc-wik
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [techmc-wiki/gtmc](https://github.com/techmc-wiki/gtmc) — a repo with 60+ stars on GitHub.
+From [techmc-wiki/gtmc](https://github.com/techmc-wiki/gtmc) — a repo with 64+ stars on GitHub.
 
 ---
 
