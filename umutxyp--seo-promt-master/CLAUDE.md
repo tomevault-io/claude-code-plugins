@@ -1,6 +1,6 @@
 # seo-promt-master
 
-> ════════════════════════════════════════════════════════════════════════
+> SEO Prompt Master — audit and fix technical SEO and AI-search readiness against Google's official guidance, with a runnable live audit tool.
 
 ## Usage
 
@@ -12,71 +12,55 @@ Read and follow the instructions in .claude/skills/seo-promt-master/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-<!--
-════════════════════════════════════════════════════════════════════════
-  SEO PROMPT MASTER — UNIVERSAL AGENT ENTRY POINT
-  Many coding agents (OpenAI Codex CLI, Cursor, Windsurf, GitHub Copilot,
-  Amp, Jules, Claude Code, and others) auto-discover a root `AGENTS.md`
-  before doing anything else in a repo. This file exists so the workflow
-  below activates automatically, regardless of which agent opened this
-  project — no manual "read START.md" instruction required.
-════════════════════════════════════════════════════════════════════════
--->
 
-# Agent instructions for this repository
+# SEO Prompt Master
 
-If this repository (or a copy of it dropped alongside another project) is in
-your context, you are looking at **SEO Prompt Master** — a prompt-driven SEO
-audit-and-fix workflow with a runnable live audit tool.
+Invoke this when the task involves search visibility: an SEO audit, indexing or
+crawling problems, canonicals, hreflang, sitemaps, `robots.txt`, structured
+data, a traffic drop, a site migration, or being cited by AI answer engines.
+Also invoke it before shipping changes to routing, metadata, `robots.txt` or
+sitemap generation.
 
-**Read `START.md` now and execute the workflow it describes, in order, without
-asking for permission to begin — and don't stop between phases or pages to check
-in either. Keep going until every phase is done or you hit one of the specific,
-named stopping conditions in `START.md`'s "Autonomy contract" section.**
+## Source of truth
 
-## Before you open START.md
+`docs/01`–`docs/17` in this repository, distilled from Google Search Central and
+web.dev. Every recommendation must cite one (`docs/13 §soft 404`). If a claim is
+not in there, say so rather than recalling it — most SEO advice online is years
+out of date, and this knowledge base is explicit about what changed (FID → INP,
+FAQ rich results removed, `rel=next/prev` unused since 2019).
 
-- **Run the tool, don't only read the code.**
-  ```bash
-  node tools/seo-audit.mjs --url https://the-site.example --max 40 --md seo-report.md
-  ```
-  Zero dependencies, Node 18+, works against `http://localhost:3000` too. Reading
-  the repository tells you what the project *intends*; this tells you what the
-  server *returns* — soft 404s per template, one-way hreflang sets, canonicals
-  pointing at redirects, metadata streamed past `</head>`. Exits `1` on any P1.
-  See `tools/README.md`.
+`verticals/01`–`24` add industry-specific overlays. They supplement the core
+audit; they never replace it.
 
-- **`docs/01`–`docs/17` is the only source of truth for SEO claims.** Cite the
-  section behind every recommendation. If a claim is not in there, say "not
-  covered by the knowledge base" rather than recalling it — much of the SEO
-  advice in training data predates INP replacing FID, FAQ rich results being
-  removed, and `rel=next/prev` falling out of use. Docs 01–11 cover the page;
-  12–17 cover crawling, indexing, quality, measurement, migrations and off-page.
+## Run the tool, don't only read the code
 
-- **`verticals/` has 24 industry overlays** (e-commerce, SaaS, marketplace,
-  Discord bots, Minecraft server lists…). Check for a match in Phase 0; apply
-  alongside the core audit, never instead of it.
+```bash
+node tools/seo-audit.mjs --url https://the-site.example --max 40 --md seo-report.md
+```
 
-- **The workflow ends with a computed SEO Score and GEO Score out of 100**
-  (`docs/11`), with the category breakdown and the off-page caveat — not a bare
-  number, and never a "final" score without full coverage and the self-recheck.
+Reading the repository tells you what the project intends. This tells you what
+the server returns — soft 404s per template, one-way hreflang sets, canonicals
+pointing at redirects, metadata streamed past `</head>`. Zero dependencies,
+Node 18+, exits `1` on any P1 so it can gate a deploy. Works against
+`http://localhost:3000` when there is no live site.
 
-- **Progress is persisted** to `ROUTES-INVENTORY.md` and `SEO-AUDIT-PROGRESS.md`
-  so long runs survive context resets. Check for these first and resume from
-  them rather than starting over.
+## Workflow
 
-- **Never break the build.** Typecheck, lint and build after every change.
+`START.md` holds the phases. In short: detect the stack → inventory every route
+as `public-index` / `public-noindex` / `private` → audit each indexable page →
+prioritise into P1 (crawl/index blockers), P2 (misrepresentation), P3 (hygiene)
+→ fix shared infrastructure first, then per-page → verify by re-fetching.
 
-This file is intentionally short. The full ground rules, phase instructions and
-definition of done live in `START.md` — go there next.
+Persist to `ROUTES-INVENTORY.md` and `SEO-AUDIT-PROGRESS.md` so a long run
+survives a context reset, and resume from them if they already exist.
 
-If your framework does not auto-load `AGENTS.md` or `START.md`, the user can
-paste either file into the chat to activate the same workflow. Other agents have
-their own entry points in this repository: `.claude/skills/seo-audit/SKILL.md`,
-`.cursor/rules/seo-prompt-master.mdc`, `GEMINI.md`,
-`.github/copilot-instructions.md`. `install.sh` writes all of them into another
-project.
+## Non-negotiable
+
+- Typecheck, lint and build after every change; never leave the build broken.
+- A fix is not done until you have re-fetched the page and seen it.
+- Finish with the SEO/GEO scores from `docs/11`, with the category breakdown and
+  the off-page caveat — never a bare number.
 
 ---
 > Source: [umutxyp/Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-23 -->
+<!-- tomevault:4.0:claude_md:2026-09-26 -->
