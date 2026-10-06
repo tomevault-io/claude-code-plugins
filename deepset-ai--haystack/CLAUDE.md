@@ -24,4 +24,4 @@ Or copy the instructions below directly into your CLAUDE.md:
 
 ---
 > Source: [deepset-ai/haystack](https://github.com/deepset-ai/haystack) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-30 -->
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
