@@ -1,58 +1,73 @@
-# powershell-shell
+# roadmap-nomenclature
 
-> This environment uses **Windows PowerShell 5.x** (not pwsh 7+). `&&` and `||` are **not** valid statement separators in this environment.
+> * **Cycle Logic:** Development steps proceed alphabetically up to Release `.0` (e.g., `1.24.a` → `1.24.b` → Release `1.24.0` → Next Minor `1.25.0`).
 
 ## Usage
 
 Add this to your project's CLAUDE.md to activate this skill:
 
 ```
-Read and follow the instructions in .claude/skills/powershell-shell/SKILL.md
+Read and follow the instructions in .claude/skills/roadmap-nomenclature/SKILL.md
 ```
 
 Or copy the instructions below directly into your CLAUDE.md:
 
 
-# Windows PowerShell — Shell Commands
+# Roadmap & Versioning Nomenclature
 
-This environment uses **Windows PowerShell 5.x** (not pwsh 7+). `&&` and `||` are **not** valid statement separators in this environment.
+## 1. Backlog Versioning (`backlog/Backlog.md`)
+
+* **Cycle Logic:** Development steps proceed alphabetically up to Release `.0` (e.g., `1.24.a` → `1.24.b` → Release `1.24.0` → Next Minor `1.25.0`).
+
+* **Placeholders:** Future minors that are not yet numbered are designated as `N.+1` (e.g., `2.+1`).
+
+* **`version.py` vs. Backlog:** `version.py` holds SemVer (`X.Y.Z` or pre-release `X.Y.Z-alpha.N` / `-rc.N`) — not backlog letters (`.a`, `.b`). Changes to `version.py` **always** require explicit user approval (no automatic increment).
+
+* **Granularity:** Backlog letter (`1.24.a`) = Entire chapter/feature block. Incremental steps within this process utilize the Step level (`P3a`).
+
+## 2. The 3 Hierarchy Levels
+
+1. **Epic:** Short name or full text (e.g., `UI S-2`).
+
+2. **Phase:** `<Epic> P<Number>` (e.g., `S-2 P3`, `Adaptation P1`).
+
+3. **Step:** `<Epic> P<Number><Letter>` (e.g., `S-2 P3a`) $\rightarrow$ Only permitted within open phases.
+
+## 3. Strict Communication Rules
+
+* **Precision:** Always use exact identifiers in dialogue/chat (e.g., *"Continue with 1.24.b"* or *"S-2 P3a"*).
+
+* **Forbidden:** No isolated phase specifications (*"Phase 3"* without an epic), no fabricated clusters (*"Package A"*), and no vague placeholders (*"1.+1"*).
+
+**Backlog Logic:** Subsequent tasks (follow-ups) are separate items, not new phases.
 
 
-``` ## Forbidden
+**Forbidden:** No isolated phase specifications (*"Phase 3"* without an epic), no fabricated clusters (*"Package A"*), and no vague placeholders (*"1.+1"*).
 
-```powershell
-# ❌ ParserError: The token "&&" is not a valid statement separator
-cd "c:\...\Energy-Optimizer" && .venv\Scripts\python.exe -m scripts.run_pytest ...
+**Backlog Logic:** Subsequent tasks (follow-ups) are separate items, not new phases.
+
+** ## 4. Validated Epics & Phases
+
+* **UI Sunset-2-Sunset (`UI S-2`):** P1 (Navi/Mode), P2 (Data/Table), P3 (Charts/Markers/Steps 3a–3d), P4 (Docs/Tests)
+* **Parameter Adaptation (`Adaptation`):** P1 (Skeleton), P2 (PV New), P3 (PV Pilot), P4 (UI Viz)
+* **Generic Thermal Models (`Thermals`):** P1 (Single-Node), P2 (Coupled), P3 (Adaptation)
+* **MILP Sunset Horizon (`MILP Horizon`):** Phases P1-P5
+* **Release Regression Suite (`Regression`):** P1 (MVP: runner, cases, golden), P2 (customer data / private repo), P3 (CI gate + scrubber)
+* **Session Conclusion:** Phases P1-P2
+* **Migration (`MIGRATION.md`):** Phases P1-P7
+
+## 5. Commit & Chat Syntax
+
+Format: `<Scope>: <Version> <Phase/Step> <Description>` or directly via Epic-Scope:
+
+```text
+houseconfig: 1.24.a P5 UI House Configurator and Scenario Editor
+refactor: 1.24.b Epic 1 milp.py LOC Split
+houseconfig: 1.24.0 P2 UI New/Remove Electric Car Profile
+runtime: 1.25.0 P1 Data Model Live Entities
+ui(s2): P3a Chart 2 Actual/Forecast Separated
+
 ```
-
-## Instead
-
-**Preferred:** Set `working_directory` in the shell tool and execute the command without `cd`:
-
-```powershell
-.venv\Scripts\python.exe -m scripts.run_pytest tests/ -q --tb=short
-```
-
-**Alternative:** Use a semicolon instead of `&&` (continues execution even if the first part fails):
-
-```powershell
-Set-Location "c:\Users\joche\Documents\Smarthome\Python\Energy-Optimizer"; .venv\Scripts\python.exe -m scripts.run_pytest tests/ -q --tb=short
-
-**Conditional Chaining** (only if the first command succeeds) in PowerShell 5.x:
-
-```powershell
-Set-Location "c:\...\Energy-Optimizer"; if ($?) { .venv\Scripts\python.exe -m scripts.run_pytest tests/ -q }
-
-```
-
-## Further Notes
-
-- Python from the project: `.venv\Scripts\python.exe` (not `python` without the path if venv is meant)
-- pytest: `-m pytest` or `-m scripts.run_pytest` (thin wrapper for pre-commit)
-
-- No Bash heredocs (`<<'EOF'`) — in PowerShell, heredocs are created with `@"..."@` or `-m` with a single-line string
-
-- Git commands work in PowerShell; only the chaining syntax needs to be adjusted.
 
 ---
 > Source: [JochenTCC/Earnie](https://github.com/JochenTCC/Earnie) — distributed by [TomeVault](https://tomevault.io).
