@@ -15,7 +15,7 @@ Original source: `AGENTS.md` in [invoke-ai/InvokeAI](https://github.com/invoke-a
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-From [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — a repo with 27643+ stars on GitHub.
+From [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — a repo with 28347+ stars on GitHub.
 
 ---
 
