@@ -1,6 +1,6 @@
 # compound-engineering-plugin
 
-> Build with `npm run build`. Prefer small commits.
+> Commit conventions: use an imperative subject of at most 50 characters, without a type prefix. Include a bullet-point body describing the change.
 
 ## Usage
 
@@ -12,12 +12,8 @@ Read and follow the instructions in .claude/skills/compound-engineering-plugin/S
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Agent Instructions
-
-Build with `npm run build`. Prefer small commits.
-
-- All files must begin with a copyright header.
+Commit conventions: use an imperative subject of at most 50 characters, without a type prefix. Include a bullet-point body describing the change.
 
 ---
 > Source: [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-30 -->
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
