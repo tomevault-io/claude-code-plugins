@@ -1,0 +1,33 @@
+# otr-cli-hold
+
+> When a CLI task in this repo says not to commit or not to update GO_FORWARD, obey that and leave both alone
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/otr-cli-hold/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+
+# CLI hold — this repo only
+
+This applies while working in `ComfyUI-OldTimeRadio`. It does not travel to other projects.
+
+The standing law is still: a finished green chunk is committed and pushed to `main`, named files only. `apple/GO_FORWARD_PLAN.md` is still where shared multi-step work is written down.
+
+When the current CLI task, prompt, or plan says not to commit, or not to update `apple/GO_FORWARD_PLAN.md`:
+
+- Do not commit.
+- Do not push.
+- Do not edit `apple/GO_FORWARD_PLAN.md`.
+- Do not stage unrelated files that are already dirty in the tree.
+
+That hold lasts for that task only. A later task that does not say it returns to the standing commit-and-push law.
+
+---
+> Source: [jbrick2070/ComfyUI-OldTimeRadio](https://github.com/jbrick2070/ComfyUI-OldTimeRadio) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
