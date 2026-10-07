@@ -1,0 +1,22 @@
+# quintpact-vas
+
+> 이 프로젝트의 모든 AI 에이전트 공통 규칙은 `.agents/CONTEXT.md`에 정의되어 있습니다.
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/quintpact-vas/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# 프로젝트 규칙 가이드
+
+이 프로젝트의 모든 AI 에이전트 공통 규칙은 `.agents/CONTEXT.md`에 정의되어 있습니다.
+작업을 시작하기 전에 **반드시 `.agents/CONTEXT.md` 파일을 먼저 읽고 규칙을 엄격하게 준수**해 주십시오.
+
+---
+> Source: [zmsqnfl-commits/quintpact-vas](https://github.com/zmsqnfl-commits/quintpact-vas) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-07 -->
