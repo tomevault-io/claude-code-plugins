@@ -1,8 +1,6 @@
 # agent-skills
 
-> Tome by [PaulRBerg](https://github.com/PaulRBerg/agent-skills) — distributed by [TomeVault](https://tomevault.io)
-
-PRB's collection of agent skills
+> Tome by [PaulRBerg](https://github.com/PaulRBerg/agent-skills), graded and kept true across every major AI platform by [TomeVault](https://tomevault.io)
 
 ## Claude Code Config
 
@@ -17,7 +15,7 @@ Original source: `AGENTS.md` in [PaulRBerg/agent-skills](https://github.com/Paul
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
-Quality verified by TomeVault's automated analysis pipeline. Source: [github.com/PaulRBerg/agent-skills](https://github.com/PaulRBerg/agent-skills)
+Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/PaulRBerg/agent-skills](https://github.com/PaulRBerg/agent-skills)
 
 ---
 
