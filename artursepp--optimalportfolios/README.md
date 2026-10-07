@@ -5,11 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [ArturSepp/OptimalPortfolios](https://github.com/ArturSepp/OptimalPortfolios).
+Original source: `` in [ArturSepp/OptimalPortfolios](https://github.com/ArturSepp/OptimalPortfolios).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
+- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
