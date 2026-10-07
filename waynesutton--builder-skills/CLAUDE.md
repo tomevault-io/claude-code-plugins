@@ -1,6 +1,6 @@
 # builder-skills
 
-> [Project name]. [One sentence on what it does and who uses it.]
+> Short project context for Gemini CLI when it works in a Convex codebase that uses builder-skills.
 
 ## Usage
 
@@ -12,77 +12,71 @@ Read and follow the instructions in .claude/skills/builder-skills/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Project context
+# Convex context for Gemini CLI
 
-[Project name]. [One sentence on what it does and who uses it.]
-
-Stack: Convex (backend), [React / Next.js / Vite / Expo] (frontend), [auth provider], [email provider].
+Short project context for Gemini CLI when it works in a Convex codebase that uses builder-skills.
 
 ## Docs first
 
-For any Convex API, fetch https://docs.convex.dev/llms.txt and follow the link for the area before relying on memory. The skills in `.claude/skills/` (or `.agents/skills/`) cover each area in depth. Load the one that matches the task.
+Prefer retrieval over memory for Convex APIs. Fetch https://docs.convex.dev/llms.txt and follow the link for the area you are touching:
+
+- functions: queries, mutations, actions, http actions, validation
+- database: schemas, reading data, writing data, indexes, pagination
+- file storage: upload, serve, store, delete, metadata
+- scheduling: cron jobs, scheduled functions
+- auth: convex auth, clerk, auth0, authkit
+- search: text search, vector search
+- agents: getting started, messages, threads, tools, streaming
+
+## Function types
+
+| Type | Database | External APIs | Use for |
+| --- | --- | --- | --- |
+| `query` | read only | no | reactive reads |
+| `mutation` | read and write | no | transactional writes |
+| `action` | via `runQuery` / `runMutation` | yes | third party calls |
+| `httpAction` | via `runQuery` / `runMutation` | yes | webhooks, REST |
+
+## Rules
+
+1. Validate `args` and `returns` on every function.
+2. `withIndex` over `filter`.
+3. Mutations are idempotent. Early return when nothing changes.
+4. Schedule `internal.*` functions only.
+5. Throw `ConvexError` for errors the client should see.
+
+```typescript
+import { ConvexError } from "convex/values";
+
+throw new ConvexError({ code: "NOT_FOUND", message: "Resource not found" });
+```
 
 ## Commands
 
 ```bash
-npx convex dev                 # development. watches, syncs, regenerates types
-npx convex dev --once          # single sync
-npx convex run file:fn '{}'    # run a function with args
-npx convex logs                # tail logs
-npx convex dashboard           # open dashboard
-npm run typecheck              # tsc --noEmit
-npm run lint                   # eslint with @convex-dev/eslint-plugin
+npx convex dev        # development, watches and syncs
+npx convex codegen    # regenerate types
+npx convex logs       # tail logs
+npx convex dashboard  # open dashboard
 ```
 
-Do not run `npx convex deploy`, `git commit`, `git push`, or any publish command unless the current message asks for it.
+Do not run `npx convex deploy` or any git command without an explicit instruction.
 
 ## Layout
 
 ```
 convex/
-  _generated/     generated, never edit, commit to git
-  schema.ts       tables, validators, indexes
-  http.ts         http router (exact name required)
-  crons.ts        cron jobs
-  convex.config.ts components registered with app.use
-  <feature>.ts    functions, referenced as api.<feature>.<name>
-src/              frontend
-prds/             one PRD per non trivial change, plus lessons.md
-files.md          what each file is for
-changelog.md      Keep a Changelog, dates from git log
-task.md           To Do / In Progress / Completed
+  _generated/   # generated, do not edit
+  schema.ts     # tables and indexes
+  http.ts       # http router, exact name required
+  crons.ts      # cron definitions
+  *.ts          # functions, api.<file>.<name>
 ```
 
-## Rules that hold everywhere
+## Skills
 
-1. Every function uses the object form with `args` and `returns` validators. `returns: v.null()` when nothing comes back.
-2. `withIndex` over `filter`. Index names list their fields: `by_user_and_status`.
-3. Mutations are idempotent. Early return when the doc is already in the target state. Patch without reading first when possible.
-4. Schedule `internal.*` functions only. Never `api.*`.
-5. No `Date.now()` inside a query. Pass time as an argument.
-6. `"use node"` only in action files that need Node APIs. No queries or mutations in those files.
-7. Throw `ConvexError` for errors the client should see.
-8. Keep `query` / `mutation` / `action` wrappers thin. Logic lives in plain functions.
-
-## Workflow
-
-- Non trivial work starts with a PRD in `prds/`. Load the `project-workflow` skill.
-- After a change lands, sync `task.md`, `changelog.md`, `files.md`. Load the `project-docs` skill.
-- Before any git command that could discard work, load the `git-safety` skill.
-- The request sets the scope. Extra ideas go in the summary, not the diff. Load `avoid-feature-creep` if unsure.
-
-## Style
-
-- No emojis. No em dashes.
-- Site design system for modals, alerts, confirmations. Never `window.confirm` or `alert`.
-- No placeholder text or images. Everything renders real data from Convex.
-- Short comments that say what a block is for.
-- Type safe. No `any`.
-
-## Project notes
-
-[Business rules, naming conventions, architecture decisions, things that bit you before.]
+The skills in `skills/` cover each of these areas in depth. Load the one that matches the task. Index: https://github.com/waynesutton/builder-skills
 
 ---
 > Source: [waynesutton/builder-skills](https://github.com/waynesutton/builder-skills) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-10-06 -->
+<!-- tomevault:4.0:claude_md:2026-10-07 -->
