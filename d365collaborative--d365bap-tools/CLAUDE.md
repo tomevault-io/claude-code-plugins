@@ -1,6 +1,6 @@
 # d365bap-tools
 
-> Create and maintain table views here. One file per type:
+> ﻿# Build & validation
 
 ## Usage
 
@@ -12,18 +12,10 @@ Read and follow the instructions in .claude/skills/d365bap-tools/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
-# Table format views
+﻿# Build & validation
 
-Create and maintain table views here. One file per type:
-
-`<TypeName>.Table.Format.ps1xml`
-
-Do not edit `../../d365bap.tools.Table.Format.ps1xml`. After changing a file here, run from the repo root:
-
-```powershell
-pwsh -NoProfile -File ./build/Merge-FormatPs1Xml.ps1
-```
+Run Pester and PSScriptAnalyzer under Windows PowerShell 5.1 (`powershell`), not PowerShell 7 (`pwsh`).
 
 ---
 > Source: [d365collaborative/d365bap.tools](https://github.com/d365collaborative/d365bap.tools) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-24 -->
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
