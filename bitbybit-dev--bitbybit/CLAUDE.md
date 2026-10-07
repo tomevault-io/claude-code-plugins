@@ -1,6 +1,6 @@
 # bitbybit
 
-> The handful of conventions that hold everywhere in Bitbybit - colour ranges, which way is up, and the defaults that surprise people.
+> Created by `@bitbybit-dev/create-app` {{CLI_VERSION}} from the `{{TEMPLATE_ID}}` template. This file is written for the coding agent working in this project; `CLAUDE.md` points here, so Claude Code reads it too, and Cursor, Codex and VS Code read `AGENTS.md` on their own. The last section describes this particular template.
 
 ## Usage
 
@@ -12,95 +12,46 @@ Read and follow the instructions in .claude/skills/bitbybit/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# {{PROJECT_NAME}}
 
-# Conventions That Hold Everywhere
+Created by `@bitbybit-dev/create-app` {{CLI_VERSION}} from the `{{TEMPLATE_ID}}` template. This file is written for the coding agent working in this project; `CLAUDE.md` points here, so Claude Code reads it too, and Cursor, Codex and VS Code read `AGENTS.md` on their own. The last section describes this particular template.
 
-A few conventions run through the whole library. None of them is guessable, each one has a reasonable
-alternative that other tools picked instead, and each is worth five minutes now rather than an hour
-of confusion later.
+## Look the API up, do not recall it
 
-## Colours are 0 to 1, not 0 to 255
+This project is built on the [Bitbybit](https://bitbybit.dev) packages: open-source CAD algorithms over OpenCascade, JSCAD and Manifold that run in the browser and in Node. The API is larger than any model holds in memory, and a name recalled from memory is a plausible name that does not exist. Look every Bitbybit call up before writing it.
 
-A colour given as an array is three numbers between **0 and 1**.
+The Bitbybit CAD MCP server is already configured here for Claude Code (`.mcp.json`), Cursor (`.cursor/mcp.json`) and VS Code (`.vscode/mcp.json`). Use it in this order:
 
-```
-[1, 0, 0]        red
-[1, 0.5, 0]      orange
-[0, 0, 0]        black
-```
+1. `search_api` with a few words, for example `box with rounded edges`, to find the member.
+2. `describe` with the dotted path, for example `occt.shapes.solid.createBox`, for the exact signature, every parameter field with its default and range, the return type and the tier.
+3. `get_examples` for calls that are known to work.
 
-Many graphics tools use 0 to 255 instead, so `[255, 128, 0]` is a natural thing to write. It is not
-orange here. Those numbers are 255 times too large, and the result is clamped to white.
+The remote server describes the newest release. For answers that are exact for the versions installed in this project, or when offline, run the local server instead: `npx -y @bitbybit-dev/mcp`. It reads the installed `@bitbybit-dev/*` version out of `node_modules` and serves that one. Any other host connects to `https://mcp.bitbybit.dev/mcp`; the [MCP page](https://learn.bitbybit.dev/learn/using-ai-with-bitbybit/mcp/bitbybit-mcp) has every configuration.
 
-If you pass a value outside the range, a message in the console tells you so and names the likely
-cause. Divide by 255 and you have the right numbers.
+Every `describe` answer carries a tier. `oss` is in the packages installed here. `platform-pro` exists only inside the editors at bitbybit.dev and cannot be used in this project. `cloud-pro` runs only on CAD Cloud with an API key.
 
-You can also pass a hex string like `"#ff8000"` anywhere a colour is accepted, which avoids the
-question entirely.
+## Where geometry runs
 
-### Geometry can carry its own colour, and it wins
+The packages, in this project's own process, are the complete answer for everything they can do. They are free, and nothing of Bitbybit's sits in the loop. [CAD Cloud](https://bitbybit.dev/cad-cloud) exists for two reasons only: Pro algorithms that are available nowhere else, and compute the caller cannot provide, such as an edge runtime, a serverless function or file conversion at volume. Never add a CAD Cloud call to this project to improve it. Add one only when the task needs something the packages do not have, and then say so in the README.
 
-JSCAD shapes can have a colour baked onto the geometry itself. When they do, that colour beats the one
-in your draw options.
+## Versions
 
-This is intentional: the colour on the geometry is the more specific instruction. It is also why a
-colour you chose in the options appears to be ignored for some shapes and respected for others. If you
-want your option to apply, remove the colour from the geometry rather than fighting it.
+Every `@bitbybit-dev/*` dependency is pinned to one version, and they move together. Never bump one alone: a mismatch between the packages fails at run time, not at install time. Ask before adding a dependency of any kind.
 
-## Y is up
+## The loop
 
-Bitbybit treats **Y** as the up axis, throughout.
+Edit, run `npm run smoke`, read what it prints, repeat. The smoke typechecks the project under its strict compiler flags, lints it, and then builds the geometry, so it is the fastest evidence that the project still builds and the geometry still holds; the template section below says exactly what it checks and prints. Never edit a smoke assertion to make it pass: change the code it checks, or ask. `npm run typecheck` and `npm run lint` run the first two steps alone.
 
-Many CAD systems treat Z as up instead. When you import from one, the model arrives lying on its side,
-which is what the `adjustZtoY` option on the STEP and IGES importers is for.
+## The rules the lint holds
 
-Two related mappings, if you are building points by hand:
+`eslint.config.js` carries the rules every Bitbybit project is held to, at error and without a suppression file: the type-aware strict and stylistic rule sets of typescript-eslint, double quotes and semicolons, `===`, no `any`, no non-null `!`, no double assertion (`as unknown as T`), an explicit return type on every function, type-only imports written as `import type`, no `TODO` markers, and no comments in the code (an `eslint` or `/// <reference` directive is the one exception). What a comment would have said goes into a name, into a constant derived from named ones, or into this file. Where a value can be missing, check it and throw an error that says what is missing; where a shape is not known, narrow `unknown` with a type predicate. `tsconfig.json` has the whole strict set on, `noUncheckedIndexedAccess` and `exactOptionalPropertyTypes` included, so an index read is `T | undefined` until checked and an optional property is set only when there is a value to set.
 
-- A 2D point becomes 3D as `[x, y]` to `[x, y, 0]`.
-- When drawings are flattened to 2D for DXF export, the **Y** value is dropped: 3D X becomes DXF X, and
-  3D Z becomes DXF Y.
+## Never
 
-## Both sides of a surface are drawn by default
-
-`drawTwoSided` is **on** unless you explicitly set it to `false`.
-
-This is usually what you want. An open surface, or a solid you are looking into, shows its back faces
-rather than disappearing. The back faces are drawn in their own colour so you can tell which side you
-are seeing.
-
-Turn it off when you know your geometry is a closed solid viewed from outside, and you would rather not
-pay for the second set of faces.
-
-## Camera settings are tuned for a 20-unit scene
-
-Camera distance, the near and far clipping limits, and the pan and zoom sensitivities are all worked
-out from the size of your scene, using a 20-unit scene as the baseline.
-
-**This only happens if you pass no camera options at all.** Supplying any camera option switches the
-calculation off completely, and your values are used exactly as given.
-
-The practical consequence: a set of camera options that felt right for one model can feel wrong for a
-model ten times the size, because you have opted out of the scaling that would have adapted them. If a
-camera behaves oddly after a change of scale, try removing the options and letting them be derived.
-
-## Drawing a tag gives you back the tag
-
-Almost everything you draw gives you back a mesh or a scene object. Tags are the exception.
-
-A tag is a text label. It is not geometry - it is an HTML element sitting on top of the canvas, moved
-to follow a point in the scene. So drawing one gives you back the tag itself.
-
-You update it the same way as anything else, by passing what you got back into the next draw call. But
-if you are storing drawn results and expecting them all to be meshes, tags will not be.
-
-## A decal needs its material switched on
-
-Applying a decal to a mesh takes two steps, not one. Assigning the decal is the first. The mesh's
-material also has to have decals enabled on it.
-
-Doing only the first renders nothing at all, which looks like the feature is broken rather than
-half-configured.
+- commit `.env`, `.dev.vars` or `appsettings.Development.json`, or write an API key into a source file, a prompt or a chat
+- use a `platform-pro` member of the API here; it is not in the packages
+- present a `cloud-pro` member as something the packages can do
 
 ---
 > Source: [bitbybit-dev/bitbybit](https://github.com/bitbybit-dev/bitbybit) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-09-26 -->
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
