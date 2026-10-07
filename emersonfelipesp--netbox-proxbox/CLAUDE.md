@@ -1,6 +1,6 @@
 # netbox-proxbox
 
-> This directory contains small reusable HTML fragments.
+> > **Repository destination guardrail:** This guide inherits the hard rule in
 
 ## Usage
 
@@ -13,6 +13,16 @@ Read and follow the instructions in .claude/skills/netbox-proxbox/SKILL.md
 Or copy the instructions below directly into your CLAUDE.md:
 
 # `templates/netbox_proxbox/partials`
+
+> **Repository destination guardrail:** This guide inherits the hard rule in
+> the repository-root `CLAUDE.md`. EdgeUno and the local EdgeUno vendor
+> submodule are read-only reference sources, never change destinations. All
+> development writes must target only the canonical Emerson repository;
+> approved public promotion may target only
+> `https://github.com/emersonfelipesp/netbox-proxbox.git`. Never mutate EdgeUno
+> issues, PRs, branches, commits, tags, releases, packages, mirrors, or
+> deployments, and never configure EdgeUno as a writable remote, upstream,
+> fallback, or PR base.
 
 This directory contains small reusable HTML fragments.
 
@@ -32,4 +42,4 @@ This directory contains small reusable HTML fragments.
 
 ---
 > Source: [emersonfelipesp/netbox-proxbox](https://github.com/emersonfelipesp/netbox-proxbox) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-23 -->
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
