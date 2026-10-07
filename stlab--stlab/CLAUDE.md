@@ -1,6 +1,6 @@
 # stlab
 
-> Documentation by contract (Better Code ch.2) using Doxygen and /// brief comments
+> STLab is a C++ library in the `stlab` namespace providing concurrency primitives: futures, channels, executors, serial queues, and related utilities. The public API lives under `include/stlab/`; the implementation is concentrated in a small number of source files under `src/`. Tests are in `test/`, documentation under `docs/`, and build configuration is driven by CMake presets in `CMakePresets.json`.
 
 ## Usage
 
@@ -12,79 +12,93 @@ Read and follow the instructions in .claude/skills/stlab/SKILL.md
 
 Or copy the instructions below directly into your CLAUDE.md:
 
+# Copilot instructions for STLab
 
-# Documentation by Contract (Doxygen)
+## Repository overview
 
-Follow *programming by contract* as in [Better Code — Contracts](https://github.com/stlab/better-code/blob/main/better-code/src/chapter-2-contracts.md). Treat the contract as the component’s interface: clients depend on it.
+STLab is a C++ library in the `stlab` namespace providing concurrency primitives: futures, channels, executors, serial queues, and related utilities. The public API lives under `include/stlab/`; the implementation is concentrated in a small number of source files under `src/`. Tests are in `test/`, documentation under `docs/`, and build configuration is driven by CMake presets in `CMakePresets.json`.
 
-## Syntax
+This is a header-heavy library with platform-specific scheduling support. Most functionality is implemented as reusable concurrency primitives rather than application-level frameworks.
 
-- **Brief / single-line**: Use `///` (Doxygen).
-- **File header**: Use a Doxygen block `/** ... */` at the top of each file. Do not use a leading `*` on each line. Describe the **purpose** and **functionality** of the public API only (no `detail` or implementation-only names in the file description); treat it as a short tutorial (examples may be added separately).
-- **Long descriptions**: Use `/** ... */` or `///` with `@param`, `@pre`, `@post`, `@return`, etc. as needed.
-- **Markdown in descriptions**: Use markdown within comments for identifiers and code. Put parameter names, function names, and type names in backticks, e.g. `` `f` ``, `` `executor` ``, `` `is_ready()` ``.
+## Build, test, and lint
 
-## File header
+Use the project CMake presets rather than ad hoc build commands.
 
-Every file must start with a Doxygen block comment that states what the file is for, how its main types and functions behave, and how they work together—a short tutorial (no leading `*` on each line; add examples elsewhere if desired). Describe functionality that affects usage (e.g. cancellation on destruction, copyable vs move-only and multiple vs single continuation, when continuations run). The top-level description is for the **public API only**: do not mention or reference anything in the `detail` namespace or other implementation-only components; those may be documented in place next to their declarations.
+```bash
+# Configure + build the default debug C++20 configuration
+cmake --preset=debug-cpp20
+cmake --build --preset=debug-cpp20
 
-```cpp
-/**
-Concurrency primitives: futures, executors, and channels.
+# Run the full test suite for that preset
+ctest --preset=debug-cpp20
 
-Key types: `future<T>`, `promise<T>`, `channel<T>`. Use future/promise for
-one-shot async results; use channel for producer-consumer streams. Tasks are
-canceled when the future is destroyed. ...
-*/
+# Run one test binary directly
+./build/debug-cpp20/test/stlab.test.future
+
+# Filter doctest cases in a single executable
+./build/debug-cpp20/test/stlab.test.future -tc="future_test_*"
+
+# Run only matching CTest entries
+ctest --preset=debug-cpp20 -R future
 ```
 
-## Per-declaration contract
+Common presets:
 
-Document **every** declaration (types, functions, methods, non-obvious constants). Put the contract in comments next to the declaration.
+- `debug-cpp20` — default development configuration
+- `debug-cpp17` — C++17 compatibility build
+- `debug-sanitizer` — TSan + UBSan
+- `debug-portable` — portable task system
+- `debug-asan` — address sanitizer build
+- `docs` — Doxygen API reference build
+- `clang-tidy` / `clang-tidy-win64` — static analysis
+- `install` — release install configuration
 
-1. **Summary**: One sentence fragment — what the thing *is* or *does* (and what it returns). End with a period. Use `///` for the summary line.
-2. **Preconditions**: Only when not obvious from the summary. Use `@pre` or `- Precondition:` in Doxygen.
-3. **Postconditions**: Usually fully described by the summary; add `@post` only when something important can’t be stated in the summary.
-4. **Complexity**: Document for any operation that is not O(1) in time or space.
+Formatting and linting are configured with `.clang-format` and `.clang-tidy`. The project expects the repository's standard formatting and the header lint checks used by the CI setup.
 
-Omit preconditions/postconditions that are clearly implied by the summary (e.g. “Removes and returns the last element” implies “container is non-empty”).
+## High-level architecture
 
-## Examples
+The library is organized around a small set of core concurrency concepts:
 
-```cpp
-/// Removes and returns the last element.
-/// @pre The container is non-empty.  (omit if obvious from summary)
-T pop_back();
+- `include/stlab/concurrency/` holds the main concurrency API:
+  - `future.hpp` — `stlab::future<T>` and `stlab::package()`; lazy, value-semantic futures with chaining and coroutine support.
+  - `channel.hpp` — `stlab::sender<T>` / `stlab::receiver<T>` for reactive pipelines.
+  - `executor_base.hpp` / `default_executor.hpp` — executor abstractions and task dispatch.
+  - `serial_queue.hpp` — serial queue built on executors.
+  - `main_executor.hpp` — main-thread executor.
+  - `task.hpp` — move-only callable wrapper.
+  - `system_timer.hpp` — timer-based scheduling.
+- Non-concurrency pieces such as `forest.hpp`, `forest_algorithms.hpp`, `copy_on_write.hpp`, and `pre_exit.hpp` are more general library utilities, but they still fit the same value-semantics and platform-aware patterns.
+- `src/` contains the implementation glue; the library is intentionally compact and centered on a few patterns rather than many unrelated subsystems.
+- `test/` contains component-level doctest executables such as `stlab.test.future`, `stlab.test.channel`, and `stlab.test.executor`.
 
-/// Sorts the elements so that all adjacent pairs satisfy the ordering `comp`.
-/// @pre `comp` defines a strict weak ordering over the elements.
-/// Complexity: at most N log N comparisons.
-template <typename It, typename Compare>
-void sort(It first, It last, Compare comp);
-```
+The big-picture design is that higher-level concurrency abstractions are built on a small set of scheduler and executor primitives, with platform differences abstracted behind those interfaces.
 
-```cpp
-/// A resizable random-access sequence of elements of type T.
-template <typename T>
-class dynamic_array {
-  /// The number of elements.  (invariant: non-negative)
-  size_t size() const;
-};
-```
+## Key repository conventions
 
-## Type invariants
+- The project uses CMake + Ninja presets in `CMakePresets.json`; prefer those when configuring or building.
+- Public API and behavior are documented with Doxygen contract comments in `///` style adjacent to declarations. These comments are treated as the authoritative API contract.
+- Function contracts are intentionally simple and concise; they usually include a summary and any necessary preconditions/postconditions/complexity notes.
+- Tests should validate observable behavior from the public interface, not implementation details. This repository treats tests as specification checks, not white-box implementation coverage.
+- The library targets C++17/20/23 and is designed to work across Linux, macOS, Windows, and Emscripten; scheduler and executor selection is intentionally platform-aware.
+- Keep changes consistent with the surrounding header-only/public-API style: avoid introducing application-level patterns or ad hoc build scripts when the existing CMake/preset structure already covers the need.
+- Code formatting follows `.clang-format` conventions: 100-column limit, 4-space indentation, left-aligned pointer declarators, sorted includes/using declarations.
 
-For types with non-trivial state, document the **type invariant** (the condition that holds at the public API boundary). Use a short comment near the type or in the file header. Keep implementation-only invariants in non-public comments.
+## Documentation and API expectations
 
-## Policies (summary)
+- Doxygen comments in `include/stlab/**/*.hpp` are the canonical API documentation.
+- Use the repository's contract style when adding or changing declarations.
+- When documenting behavior, prefer the public contract over implementation-specific details.
 
-- Every declaration has a documentation comment with at least a summary.
-- Pre/postconditions that are implied by the summary need not be repeated.
-- Document complexity for non-constant-time operations.
-- File header: `/** ... */` with no leading `*` per line; describe public API only (no `detail`/implementation in the description), as a short tutorial (no inline examples).
-- Use `///` for brief and single-line comments; Doxygen block `/** ... */` for file header and long descriptions.
-- Use markdown backticks for parameter/function/type names in comments (e.g. `` `f` ``, `` `executor` ``).
+## Typical workflow
+
+When making a change:
+
+1. Build the relevant preset (`debug-cpp20` unless the change specifically targets C++17 compatibility or sanitizer coverage).
+2. Run the smallest related test target or CTest filter.
+3. Prefer a focused validation path over broad rebuilds; this repository's test binaries are component-oriented and easy to target.
+
+This keeps the feedback loop tight while matching the library's build/test layout.
 
 ---
 > Source: [stlab/stlab](https://github.com/stlab/stlab) — distributed by [TomeVault](https://tomevault.io).
-<!-- tomevault:4.0:claude_md:2026-07-26 -->
+<!-- tomevault:4.0:claude_md:2026-10-07 -->
