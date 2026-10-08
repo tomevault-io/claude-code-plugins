@@ -7,14 +7,14 @@ Skills-first game development superpowers for Claude Code and Codex: build, audi
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `GEMINI.md` in [mike007jd/game-superpowers](https://github.com/mike007jd/game-superpowers).
+Original source: `AGENTS.md` in [mike007jd/game-superpowers](https://github.com/mike007jd/game-superpowers).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
 - **Cursor** — `project-config.mdc`
+- **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
 From [mike007jd/game-superpowers](https://github.com/mike007jd/game-superpowers) — a repo with 21+ stars on GitHub.
