@@ -7,13 +7,13 @@ DuneCity — Dune Legacy RTS + Micropolis city-building simulation
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `.cursor/rules/*.mdc` in [dunecity-project/dunecity](https://github.com/dunecity-project/dunecity).
+Original source: `AGENTS.md` in [dunecity-project/dunecity](https://github.com/dunecity-project/dunecity).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **Codex** — `AGENTS.md`
 - **GitHub Copilot** — `copilot-instructions.md`
+- **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
