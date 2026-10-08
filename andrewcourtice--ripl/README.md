@@ -5,15 +5,20 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [andrewcourtice/ripl](https://github.com/andrewcourtice/ripl).
+Original source: `copilot-instructions.md` in [andrewcourtice/ripl](https://github.com/andrewcourtice/ripl).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
+
+## Bundled Skills (2)
+
+- [ripl](https://github.com/andrewcourtice/ripl/tree/main/.claude/skills/ripl-charts/SKILL.md)
+- [ripl](https://github.com/andrewcourtice/ripl/tree/main/.claude/skills/ripl-pull-requests/SKILL.md)
 
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/andrewcourtice/ripl](https://github.com/andrewcourtice/ripl)
 
