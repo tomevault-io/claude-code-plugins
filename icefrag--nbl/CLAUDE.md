@@ -1,0 +1,24 @@
+# nbl
+
+> 参考项目地址（搬运/同步 skill 时对照的上游源码）：
+
+## Usage
+
+Add this to your project's CLAUDE.md to activate this skill:
+
+```
+Read and follow the instructions in .claude/skills/nbl/SKILL.md
+```
+
+Or copy the instructions below directly into your CLAUDE.md:
+
+# nbl
+
+参考项目地址（搬运/同步 skill 时对照的上游源码）：
+
+- 官方 superpowers 源码：`D:\workspace-script\superpowers`
+- skills 目录：`D:\workspace-script\superpowers\skills`
+
+---
+> Source: [icefrag/nbl](https://github.com/icefrag/nbl) — distributed by [TomeVault](https://tomevault.io).
+<!-- tomevault:4.0:claude_md:2026-10-06 -->
