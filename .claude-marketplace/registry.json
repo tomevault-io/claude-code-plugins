@@ -200679,6 +200679,11 @@
       "description": "vantage6"
     },
     {
+      "name": "buildlabs-io--payload-cms",
+      "source": "./buildlabs-io--payload-cms",
+      "description": "Stop building CMS infrastructure from scratch. This starter gives you a full content platform \u2014 page builder, blog, forms, redirects, media library, live preview, and SEO \u2014 all wired up with Payload 3"
+    },
+    {
       "name": "shashankswe2020-ux--whoop-mcp",
       "source": "./shashankswe2020-ux--whoop-mcp",
       "description": "MCP server to connect to whoop API"
@@ -212949,6 +212954,11 @@
       "description": "AgentHydra"
     },
     {
+      "name": "harrywang--suzuri",
+      "source": "./harrywang--suzuri",
+      "description": "A writing environment (Obsidian, Overleaf, Typst, Zotero) built on Zed"
+    },
+    {
       "name": "treadiehq--private-connect",
       "source": "./treadiehq--private-connect",
       "description": "Secure access to private services for developers and AI agents."
@@ -215087,6 +215097,11 @@
       "name": "horizungroup--horizun-revit-mcp",
       "source": "./horizungroup--horizun-revit-mcp",
       "description": "Open-source MCP for Autodesk Revit 2023\u20132027. Downloadable Windows installer with runtime included; no Git or .NET SDK required. Typed BIM automation, families and model verification."
+    },
+    {
+      "name": "crazy-rabbit-software--themia",
+      "source": "./crazy-rabbit-software--themia",
+      "description": "Desktop widgets for Windows 10 & 11, lightweight, customizable, native."
     },
     {
       "name": "s-zx--crest",
@@ -219822,6 +219837,11 @@
       "name": "leonyoah--stx",
       "source": "./leonyoah--stx",
       "description": "SeaTunnel\u4e00\u7ad9\u5f0f\u8fd0\u7ef4\u7ba1\u7406\u5e73\u53f0"
+    },
+    {
+      "name": "selisedigitalplatforms--blocks-skills",
+      "source": "./selisedigitalplatforms--blocks-skills",
+      "description": "blocks-skills"
     },
     {
       "name": "bug-ops--mcp-execution",
@@ -235724,6 +235744,11 @@
       "description": "Astra \u2014 The context-to-execution runtime for enterprise agents. https://matrixorigin.io/astra"
     },
     {
+      "name": "the-vibe-company--granite",
+      "source": "./the-vibe-company--granite",
+      "description": "Local-first knowledge compiler for humans and agents. Inspired by Karpathy's vision. Plain markdown, CLI + MCP server."
+    },
+    {
       "name": "rajjjaryan--career-copilot",
       "source": "./rajjjaryan--career-copilot",
       "description": "AI-powered job search pipeline built on GitHub Copilot CLI"
@@ -238037,6 +238062,11 @@
       "name": "starmoe-org--moenotes",
       "source": "./starmoe-org--moenotes",
       "description": "moenotes"
+    },
+    {
+      "name": "xiaolai--english-buddy-for-claude",
+      "source": "./xiaolai--english-buddy-for-claude",
+      "description": "english-buddy-for-claude"
     },
     {
       "name": "skywind3000--gamesample",
@@ -247049,6 +247079,11 @@
       "description": "An open protocol for distributed multi-agent autoformalization."
     },
     {
+      "name": "dennisadriaans--openrun",
+      "source": "./dennisadriaans--openrun",
+      "description": "Schedule Claude Code, Codex, Grok and Gemini like cron jobs \u2014 on your machine, with no API keys."
+    },
+    {
       "name": "mulhamna--jira-commands",
       "source": "./mulhamna--jira-commands",
       "description": "Jira toolkit for terminals, coding assistants, and bots."
@@ -249032,6 +249067,11 @@
       "name": "ora--ax",
       "source": "./ora--ax",
       "description": "Score any site's agent readiness from your terminal or CI. The open-source CLI for ora."
+    },
+    {
+      "name": "withmarfa--marfa",
+      "source": "./withmarfa--marfa",
+      "description": "A typed, self-hosted data layer for structured personal data, built to make that data usable anywhere."
     },
     {
       "name": "eliornl--applypilot",
@@ -264144,6 +264184,11 @@
       "description": "\u6797\u8bed\uff08Linyu\uff09\u684c\u9762\u5ba2\u6237\u7aef\uff1a\u7b80\u5355\u53ef\u90e8\u7f72\u3001\u53ef\u81ea\u6258\u7ba1\u7684\u5f00\u6e90\u5373\u65f6\u901a\u8baf\uff0c\u57fa\u4e8e Tauri 2 + Vue 3 + TypeScript\u3002"
     },
     {
+      "name": "ethanolivertroy--grclanker",
+      "source": "./ethanolivertroy--grclanker",
+      "description": "an experiment that started around writing a spec for everything in GRC"
+    },
+    {
       "name": "seven7763--windsurf-tools",
       "source": "./seven7763--windsurf-tools",
       "description": "Windsurf IDE \u53f7\u6c60 + \u7eaf MITM \u4ee3\u7406\u4e00\u4f53\u5316\u5de5\u5177\uff1aprotobuf \u5c42\u8eab\u4efd & \u8ba1\u8d39\u5b57\u6bb5\u66ff\u6362\u3001\u65e0\u611f\u5207\u53f7\u3001\u7528\u91cf\u5b9e\u65f6\u540c\u6b65\u3001\u672c\u5730 OpenAI \u517c\u5bb9\u63a5\u53e3\u3002Wails v2 (Go + Vue 3)\u3002"
@@ -267172,6 +267217,16 @@
       "name": "topvitamin--qs-jxc-project",
       "source": "./topvitamin--qs-jxc-project",
       "description": "\u57fa\u4e8e\u201c\u4f9b\u5e94\u94fe\u4ea7\u54c1\u7ecf\u7406\u8bad\u7ec3\u8425\u201d\u4e2d\u5f3a\u76db\u79d1\u6280\u7684\u80cc\u666f\uff0c\u8f93\u51fa\u7684\u4e00\u6574\u5957\u201c\u8fdb\u9500\u5b58\u201d\u9879\u76ee\u7684\u4ea7\u54c1\u8bbe\u8ba1\u4ea7\u51fa\u7269\uff0c\u5305\u542b\u4e1a\u52a1\u80cc\u666f\uff0c\u9700\u6c42\u8c03\u7814\uff0c\u9700\u6c42\u8bbe\u8ba1\u6587\u6863\uff0c\u4ea7\u54c1\u539f\u578bDemo\u7b49\u2026\u2026"
+    },
+    {
+      "name": "mike007jd--game-superpowers",
+      "source": "./mike007jd--game-superpowers",
+      "description": "Skills-first game development superpowers for Claude Code and Codex: build, audit, polish, and productionize game projects with reusable Agent Skills."
+    },
+    {
+      "name": "matthew-carlino-techa--tech-interview-handbook",
+      "source": "./matthew-carlino-techa--tech-interview-handbook",
+      "description": "The Tech Interview Handbook is a comprehensive, curated guide designed to help engineers efficiently prepare for technical interviews without spending endless hours on LeetCode."
     },
     {
       "name": "mike007jd--game-superpowers",
@@ -285934,6 +285989,26 @@
       "description": "Unofficial TypeScript SDK and CLI for Librus Synergia."
     },
     {
+      "name": "mupceet--essentialreader",
+      "source": "./mupceet--essentialreader",
+      "description": "\u300c\u58a8\u672c\u9605\u8bfb\u300d\u4e13\u4e3a\u58a8\u6c34\u5c4f\u800c\u6765  A quiet reading experience for E-Ink."
+    },
+    {
+      "name": "wuwentao--midea-lan",
+      "source": "./wuwentao--midea-lan",
+      "description": "Control your Midea M-Smart appliances via LAN."
+    },
+    {
+      "name": "wuwentao--midea-lan",
+      "source": "./wuwentao--midea-lan",
+      "description": "Control your Midea M-Smart appliances via LAN."
+    },
+    {
+      "name": "johnzhang3--mjorbit",
+      "source": "./johnzhang3--mjorbit",
+      "description": "simulation framework for space robotics"
+    },
+    {
       "name": "vm--nila-code",
       "source": "./vm--nila-code",
       "description": "nila-code"
@@ -290927,6 +291002,16 @@
       "name": "jfyuhong--jlu-schedule",
       "source": "./jfyuhong--jlu-schedule",
       "description": "\u5409\u6797\u5927\u5b66\u8bfe\u8868APP\uff0c\u5f00\u6e90\u65e0\u5e7f"
+    },
+    {
+      "name": "lavamilkteam--lavamilk-template",
+      "source": "./lavamilkteam--lavamilk-template",
+      "description": "A mobile agent developed for Android, iOS, and HarmonyOS, allowing it to connect to Codex and other software on your computer so you can perform remote development and code editing from your phone."
+    },
+    {
+      "name": "jdiamond--pi-guard",
+      "source": "./jdiamond--pi-guard",
+      "description": "General-purpose permission system for pi tools"
     },
     {
       "name": "hyaway--hyaway",
@@ -297197,6 +297282,16 @@
       "name": "xgreenrx-star--visualgasic",
       "source": "./xgreenrx-star--visualgasic",
       "description": "VB6-style BASIC for Godot 4.6 \u2014 readable .vg scripts, Narcea AI + live debug capture, 12/12 compute faster than GDScript. Open source."
+    },
+    {
+      "name": "kaisersong--xiaok-cli",
+      "source": "./kaisersong--xiaok-cli",
+      "description": "\u5c0f K \u2014 AI \u7f16\u7a0b\u52a9\u624b\uff0cCLI \u7ec8\u7aef\u4ea4\u4e92 + Desktop \u684c\u9762\u7aef\uff0c\u652f\u6301\u591a\u6a21\u578b\u3001MCP server\u3001skill \u6269\u5c55\u3001\u591a Agent \u9879\u76ee\u7f16\u6392"
+    },
+    {
+      "name": "dmarc-analyzer-net--dmarcanalyzerapp",
+      "source": "./dmarc-analyzer-net--dmarcanalyzerapp",
+      "description": "Open-source, self-hosted DMARC monitoring for agencies \u2014 unlimited domains, automatic report ingestion, no per-domain pricing."
     },
     {
       "name": "axsaucedo--agent-data-duckdb",
@@ -304982,6 +305077,46 @@
       "name": "akaabdullah--tallyo",
       "source": "./akaabdullah--tallyo",
       "description": "Open-source invoicing for freelancers and small businesses. Next.js 16, MongoDB, Better Auth, with optional AI (Groq)."
+    },
+    {
+      "name": "devlifex--biflow",
+      "source": "./devlifex--biflow",
+      "description": "Right traffic. Right route."
+    },
+    {
+      "name": "jboneng--pyopticfilm",
+      "source": "./jboneng--pyopticfilm",
+      "description": "PyUSB driver for Plustek OpticFilm scanners (Genesys ASIC)."
+    },
+    {
+      "name": "jboneng--pyopticfilm",
+      "source": "./jboneng--pyopticfilm",
+      "description": "PyUSB driver for Plustek OpticFilm scanners (Genesys ASIC)."
+    },
+    {
+      "name": "shayanhabibi--xantham",
+      "source": "./shayanhabibi--xantham",
+      "description": "Fable/F# TypeScript binding tools."
+    },
+    {
+      "name": "jonnyparris--dodo",
+      "source": "./jonnyparris--dodo",
+      "description": "Autonomous coding agent on Cloudflare Workers + Durable Objects"
+    },
+    {
+      "name": "rebasepro--rebase",
+      "source": "./rebasepro--rebase",
+      "description": "Open-source backend-as-a-service for Postgres \u2014 REST, typed SDK, auth, storage, realtime and row-level security over your own database, with a schema-driven admin panel when you want one."
+    },
+    {
+      "name": "dwshin0907--shincapture",
+      "source": "./dwshin0907--shincapture",
+      "description": "\ud55c\uad6d\uc5d0\uc11c \uc81c\uc77c \uc88b\uc740 \ucea1\uccd0 \ud504\ub85c\uadf8\ub7a8 (\ub124\uc774\ubc84\ud504\ub9ac\ubbf8\uc5c4\ucf58\ud150\uce20 ChatGPT\ub3c4 \ubaa8\ub974\ub294 AI \uc2e4\uc804\ud65c\uc6a9\ubc95 \ucc44\ub110\uc5d0\uc11c \uacf5\uc2dd\uc801\uc73c\ub85c \uc791\uc131 \ubc0f \ubc30\ud3ec)"
+    },
+    {
+      "name": "aplaceforallmystuff--spain-ai-kit",
+      "source": "./aplaceforallmystuff--spain-ai-kit",
+      "description": "MCP servers connecting AI applications to Spanish government open data and legal infrastructure"
     },
     {
       "name": "ripeseed--rs-tunnel",
@@ -313682,6 +313817,36 @@
       "name": "777genius--universal-agent-plugins",
       "source": "./777genius--universal-agent-plugins",
       "description": "Multi-agent CLI to install, update, repair, and remove Agent Plugins 1.0 across Codex/ChatGPT, Claude Code, Cursor, Gemini CLI, Copilot, OpenCode, and more. 2,500+ plugins. SDK for universal plugins ("
+    },
+    {
+      "name": "qiaohuigao--bliss",
+      "source": "./qiaohuigao--bliss",
+      "description": "Bliss"
+    },
+    {
+      "name": "aleju03--mania-hub",
+      "source": "./aleju03--mania-hub",
+      "description": "Live osu!mania rankings, score tracking, map stats, player profiles, and numerous other tools for the community"
+    },
+    {
+      "name": "beiev--max-chronicle",
+      "source": "./beiev--max-chronicle",
+      "description": "Local-first durable memory system for AI agents"
+    },
+    {
+      "name": "logicalcontractsorg--logicalenglish2",
+      "source": "./logicalcontractsorg--logicalenglish2",
+      "description": "Logical English 2: rules, contracts and regulations written in English that a computer runs and explains. Every answer with its reasons, tests inside the program, citations, views, five languages. Rea"
+    },
+    {
+      "name": "viktorognev--kaiten-cli",
+      "source": "./viktorognev--kaiten-cli",
+      "description": "kaiten-cli"
+    },
+    {
+      "name": "runnane--elegoo-web",
+      "source": "./runnane--elegoo-web",
+      "description": "A web frontend + backend service for Elegoo Centauri Carbon 2 (CC2) FDM printers. The Node.js service maintains a single MQTT connection to the printer and exposes state to browsers via WebSocket, RES"
     },
     {
       "name": "marcoporcellato--logseq-matryca-parser",
@@ -324352,6 +324517,56 @@
       "name": "mohaoz--xcpc-tracker",
       "source": "./mohaoz--xcpc-tracker",
       "description": "xcpc-tracker"
+    },
+    {
+      "name": "arni-labs--temperpaw",
+      "source": "./arni-labs--temperpaw",
+      "description": "TemperPaw \u2014 Agent daemon built on Temper platform"
+    },
+    {
+      "name": "atomz-org--data-platform",
+      "source": "./atomz-org--data-platform",
+      "description": "data-platform"
+    },
+    {
+      "name": "atomz-org--data-platform",
+      "source": "./atomz-org--data-platform",
+      "description": "data-platform"
+    },
+    {
+      "name": "atomz-org--data-platform",
+      "source": "./atomz-org--data-platform",
+      "description": "data-platform"
+    },
+    {
+      "name": "crescent617--yomi",
+      "source": "./crescent617--yomi",
+      "description": "yomi"
+    },
+    {
+      "name": "zhiwendesign--kkskill-kkskills",
+      "source": "./zhiwendesign--kkskill-kkskills",
+      "description": "\u4e00\u5957\u5c06\u6587\u7ae0\u3001\u7b14\u8bb0\u548c\u8bfe\u7a0b\u5185\u5bb9\u751f\u6210\u591a\u98ce\u683c HTML \u6d77\u62a5\u7684 Agent Skills \u96c6\u5408"
+    },
+    {
+      "name": "embeddedos-org--eapps",
+      "source": "./embeddedos-org--eapps",
+      "description": "EoS Unified Marketplace & App Store"
+    },
+    {
+      "name": "sourceblender--musubi",
+      "source": "./sourceblender--musubi",
+      "description": "Musubi (\u7d50\u3073) \u2014 Ai Agent shared memory and thought layer. The braiding of threads between presences."
+    },
+    {
+      "name": "lucascaro--hive",
+      "source": "./lucascaro--hive",
+      "description": "A GUI for managing multiple AI coding agent sessions across projects \u2014 Pi, Claude, Codex, Gemini, GitHub Copilot, Aider, OpenCode, and more."
+    },
+    {
+      "name": "prosyslab-classroom--cs520-theory-of-programming-languages",
+      "source": "./prosyslab-classroom--cs520-theory-of-programming-languages",
+      "description": "cs520-theory-of-programming-languages"
     },
     {
       "name": "makenowjust--naraku",
@@ -341507,6 +341722,76 @@
       "name": "responsibleai-guide--website",
       "source": "./responsibleai-guide--website",
       "description": "The website hosting our responsible AI usage documents."
+    },
+    {
+      "name": "neteasecloudmusicapienhanced--ncmautodaily",
+      "source": "./neteasecloudmusicapienhanced--ncmautodaily",
+      "description": "[\u5de5\u7a0b\u5b9e\u4f8b] \u4f7f\u7528cron-job.org\u5b9e\u73b0\u7f51\u6613\u4e91\u97f3\u4e50\u81ea\u52a8\u7b7e\u5230\u9879\u76ee"
+    },
+    {
+      "name": "zivtech--accessibility-skills",
+      "source": "./zivtech--accessibility-skills",
+      "description": "AI agent skills for accessibility testing and WCAG 2.2 audits in Claude Code: planner, critic, Playwright/axe-core tester, screen reader reviews, bug reports, and draft ACRs."
+    },
+    {
+      "name": "embeddedos-org--embeddedos-org-github-io",
+      "source": "./embeddedos-org--embeddedos-org-github-io",
+      "description": "EoS \u2014 Embedded Operating System Platform"
+    },
+    {
+      "name": "skeletorflet--opencode-kit",
+      "source": "./skeletorflet--opencode-kit",
+      "description": "opencode-kit"
+    },
+    {
+      "name": "manifoldkit--manifoldkit",
+      "source": "./manifoldkit--manifoldkit",
+      "description": "Reusable SwiftUI chat framework for local and cloud LLM inference on Apple platforms"
+    },
+    {
+      "name": "yortw--winix",
+      "source": "./yortw--winix",
+      "description": "Cross-platform CLI tools for the gaps between Windows and *nix \u2014 timeit, peep, squeeze, wargs, files, treex"
+    },
+    {
+      "name": "hugimuni-labs--brnrd",
+      "source": "./hugimuni-labs--brnrd",
+      "description": "A persistent, reachable resident behind Claude Code and Codex (and Vibe), steer it from Telegram/GitHub/WhatsApp, it keeps working while you're away. It opened >1K PRs on this repo. Self-hosted, $7 ho"
+    },
+    {
+      "name": "raxmonovrx--nestjs-uzbek-docs",
+      "source": "./raxmonovrx--nestjs-uzbek-docs",
+      "description": "NestJS hujjatlarining o'zbekcha tarjimasi \u2014 134 sahifa: core, fundamentals, GraphQL, microservices, WebSockets va boshqalar. Norasmiy, MIT."
+    },
+    {
+      "name": "agent-facets--facets",
+      "source": "./agent-facets--facets",
+      "description": "Official repo for Agent Facets CLI, Protocol, and Adapter SDK"
+    },
+    {
+      "name": "productmap-ai--product-management-context",
+      "source": "./productmap-ai--product-management-context",
+      "description": "Context Engineering for Agentic Product Management and AI Tools for PMs"
+    },
+    {
+      "name": "markmals--mise-vite-plus",
+      "source": "./markmals--mise-vite-plus",
+      "description": "Mise tool plugin for Vite+"
+    },
+    {
+      "name": "integromat--make-cli",
+      "source": "./integromat--make-cli",
+      "description": "A command-line tool for Make automation platform"
+    },
+    {
+      "name": "portofcontext--agent-voyager-project",
+      "source": "./portofcontext--agent-voyager-project",
+      "description": "AVP - Command your agent fleet with Open Source "
+    },
+    {
+      "name": "forkline--swaybeam",
+      "source": "./forkline--swaybeam",
+      "description": "Miracast for Sway and wlroots-based Wayland compositors"
     },
     {
       "name": "stefanmaron--businesscentral-al-runner",
@@ -390527,6 +390812,56 @@
       "name": "datadog--ddtest",
       "source": "./datadog--ddtest",
       "description": "Test execution planning and test runner for Datadog Test Parallelization"
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
+    },
+    {
+      "name": "ahtoooxa--gramkit",
+      "source": "./ahtoooxa--gramkit",
+      "description": "Web App + Telegram Mini App starter: Next.js/Vue + FastAPI + Tailwind + shadcn/ui. Auth, payments, type-safety out of the box."
     },
     {
       "name": "loiane--specs-driven-development",
