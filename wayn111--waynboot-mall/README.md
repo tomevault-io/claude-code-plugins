@@ -15,6 +15,11 @@ Original source: `AGENTS.md` in [wayn111/waynboot-mall](https://github.com/wayn1
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
 
+## Bundled Skills (2)
+
+- [waynboot-mall](https://github.com/wayn111/waynboot-mall/tree/main/.agents/skills/waynboot-mall/SKILL.md)
+- [waynboot-mall](https://github.com/wayn111/waynboot-mall/tree/main/.claude/skills/waynboot-mall/SKILL.md)
+
 Graded against the Tome Standard, TomeVault's public ruleset for whether AI instructions load, read clearly and stay safe. Source: [github.com/wayn111/waynboot-mall](https://github.com/wayn111/waynboot-mall)
 
 ---
