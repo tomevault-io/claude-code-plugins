@@ -5,12 +5,12 @@
 ## Claude Code Config
 
 The `CLAUDE.md` file in this directory is the project config converted for Claude Code.
-Original source: `AGENTS.md` in [avabbbb/Iris](https://github.com/avabbbb/Iris).
+Original source: `copilot-instructions.md` in [avabbbb/Iris](https://github.com/avabbbb/Iris).
 
 ## Also available for
 
 - **Claude Code** — `CLAUDE.md`
-- **GitHub Copilot** — `copilot-instructions.md`
+- **Codex** — `AGENTS.md`
 - **Cursor** — `project-config.mdc`
 - **Gemini CLI** — `GEMINI.md`
 - **Windsurf** — `project-config.md`
@@ -25,7 +25,7 @@ Original source: `AGENTS.md` in [avabbbb/Iris](https://github.com/avabbbb/Iris).
 - [Iris](https://github.com/avabbbb/Iris/tree/main/.claude/skills/open-flovart/SKILL.md)
 - [Iris](https://github.com/avabbbb/Iris/tree/main/integrations/workbuddy/flovart/skills/flovart/SKILL.md)
 
-From [avabbbb/Iris](https://github.com/avabbbb/Iris) — a repo with 139+ stars on GitHub.
+From [avabbbb/Iris](https://github.com/avabbbb/Iris) — a repo with 0+ stars on GitHub.
 
 ---
 
