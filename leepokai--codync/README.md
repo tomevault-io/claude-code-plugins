@@ -30,7 +30,7 @@ Original source: `AGENTS.md` in [leepokai/Codync](https://github.com/leepokai/Co
 - [Codync](https://github.com/leepokai/Codync/tree/main/.claude/skills/product-launch-film/SKILL.md)
 - [Codync](https://github.com/leepokai/Codync/tree/main/.claude/skills/animation-vocabulary/SKILL.md)
 
-From [leepokai/Codync](https://github.com/leepokai/Codync) — a repo with 179+ stars on GitHub.
+From [leepokai/Codync](https://github.com/leepokai/Codync) — a repo with 0+ stars on GitHub.
 
 ---
 
