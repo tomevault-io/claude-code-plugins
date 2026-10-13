@@ -1,0 +1,15 @@
+{
+  "name": "flurdy--agent-skills",
+  "displayName": "agent-skills",
+  "description": "Shared AI agent skills",
+  "version": "1.0.0",
+  "author": "flurdy",
+  "homepage": "https://github.com/flurdy/agent-skills",
+  "type": "tome",
+  "skills": [
+    "next",
+    "reply-comments",
+    "review-comments",
+    "review-pr"
+  ]
+}
